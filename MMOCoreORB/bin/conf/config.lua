@@ -144,10 +144,10 @@ Core3 = {
 
 	-- Each tre file (order is important!)
 	TreFiles = {
-	--	"stardust_s.tre",
-  --  "stardust_03.tre",
-  --  "stardust_02.tre",
-  --  "stardust_01.tre",
+		"stardust_s.tre",
+    "stardust_03.tre",
+    "stardust_02.tre",
+    "stardust_01.tre",
     "mtg_patch_022.tre",
     "mtg_planets.tre",
     "mtg_patch_021.tre",
