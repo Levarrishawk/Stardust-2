@@ -1,53 +1,12 @@
-# SWGEmu Core3
+# Stardust 2.0 -  Based on SWGEmu Core3
 
-## What is SWGEmu?
+## What is Stardust
 
-Star Wars Galaxies was a massively multi-player online role playing game introduced by Sony Online Entertainment in the year 2003 and shut down in 2011.
-It is this game the SWGEmu project focuses to recreate at a specific milestone referred to as Pre-CU, or Pre-Combat Upgrade. The Combat Upgrade was a set of game changes which radically changed the game-play, to the dislike of thousands of players. These changes led to the founding of this project, in an attempt to "recreate" the game as it was during the Pre-CU era.
-At SWGEmu, Emulator refers to the software the SWGEmu team is building. This Emulator is meant to imitate Sony Online Entertainment's server-side software, which hosted the galaxies of Star Wars Galaxies during the Pre-CU era.
+Stardust is a culmination of one person's vision of what Star Wars Galaxies could have been.   A balanced gameplay experience built around fast paced and high end PvP and PvE Content.     This repository represents an effort to bring the work of the now deprecated original Stardust Repository into parity with the current optimizations released by the Core SWGEmu team handling a variety of fixes to everything from AI behavior to pathing, and more. 
 
 ## How to Build
 
-### Dependencies
-
-  * CMake 3.1.0 or higher
-  * BerkeleyDB 5.3
-  * MySQL Client and Server
-  * OpenSSL libraries
-  * pthreads
-  * Lua 5.3 libraries
-  * Zlib libraries
-  * g++ 5.4+ or compatible
-  * engine3
-  * java jre 1.7+
-
-### Build
-
-  * Install dependencies (Debian 9+ or Ubuntu 16.04+)
-
-        sudo apt install build-essential libmysqlclient-dev liblua5.3-dev libdb5.3-dev libssl-dev cmake git default-jre
-
-  * Install dependencies (RHEL/CentOS 8+ or Fedora 28+)
-
-        sudo dnf install automake cmake git gcc gcc-c++ java-1.8.0-openjdk-headless libatomic libdb-devel lua-devel make mariadb-devel openssl-devel
-
-  * Clone core3 repository somewhere  (~/git)
-
-        mkdir -p ~/git
-        cd ~/git
-        git clone http://review.swgemu.com/Core3
-  * Build Core3 with 8 threads
-
-        cd MMOCoreORB
-        make -j8
-  * Import sql database
-
-        mysql -h<MYSQLHOST> -u<MYSQLUSER> -p<MYSQLPASSWORD> < sql/swgemu.sql
-
-## How to Run
-
-    cd ~/git/Core3/MMOCoreORB/bin
-    ./core3
+ *  Go ask SWGEmu,  I'm not helping you with that.
 
 ## License
 
@@ -64,4 +23,4 @@ At SWGEmu, Emulator refers to the software the SWGEmu team is building. This Emu
     You should have received a copy of the GNU Affero General Public License along with this program.
     If not, see <http://www.gnu.org/licenses/>.
 
-For more information, see https://review.swgemu.com.
+
