@@ -1,0 +1,5 @@
+
+object_tangible_collection_rare_heavy_oppressor_flame_thrower = object_tangible_collection_shared_rare_heavy_oppressor_flame_thrower:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_rare_heavy_oppressor_flame_thrower, "object/tangible/collection/rare_heavy_oppressor_flame_thrower.iff")

@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_furniture_beast_storage = object_draft_schematic_furniture_shared_furniture_beast_storage:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_beast_storage, "object/draft_schematic/furniture/furniture_beast_storage.iff")

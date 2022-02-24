@@ -1,0 +1,3 @@
+object_building_general_comm_tower_lothal = object_building_general_shared_comm_tower_lothal:new {
+}
+ObjectTemplates:addTemplate(object_building_general_comm_tower_lothal, "object/building/general/comm_tower.iff")

@@ -1,0 +1,1 @@
+object_mobile_naboo_stonewall_labs_battledroid_green = object_mobile_shared_naboo_stonewall_labs_battledroid_green:new {}ObjectTemplates:addTemplate(object_mobile_naboo_stonewall_labs_battledroid_green, "object/mobile/naboo_stonewall_labs_battledroid_green.iff")

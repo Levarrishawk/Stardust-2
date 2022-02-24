@@ -48,11 +48,10 @@ object_draft_schematic_vehicle_civilian_landspeeder_x34 = object_draft_schematic
 	customObjectName = "X34 Landspeeder",
 
 	craftingToolTab = 16, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 25,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_installation.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_general",
 	xp = 1800,
 
@@ -68,7 +67,7 @@ object_draft_schematic_vehicle_civilian_landspeeder_x34 = object_draft_schematic
 	ingredientTitleNames = {"vehicle_body", "structural_frame"},
 	ingredientSlotType = {0, 0},
 	resourceTypes = {"metal_nonferrous", "metal_ferrous"},
-	resourceQuantities = {1125, 3125},
+	resourceQuantities = {125, 325},
 	contribution = {100, 100},
 
 	targetTemplate = "object/tangible/deed/vehicle_deed/landspeeder_x34_deed.iff",

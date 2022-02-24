@@ -48,11 +48,10 @@ object_draft_schematic_furniture_furniture_chair_elegant = object_draft_schemati
 	customObjectName = "Chair",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 39,
+	complexity = 1,
 	size = 3,
-	factoryCrateSize = 10,
-	factoryCrateType = "object/factory/factory_crate_furniture.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 320,
 
@@ -71,7 +70,7 @@ object_draft_schematic_furniture_furniture_chair_elegant = object_draft_schemati
 	resourceQuantities = {150, 8},
 	contribution = {100, 100},
 
-	targetTemplate = "object/tangible/furniture/elegant/chair_s01.iff",
+	targetTemplate = "object/tangible/furniture/elegant/chair_hue_s01.iff",
 
 	additionalTemplates = {}
 }

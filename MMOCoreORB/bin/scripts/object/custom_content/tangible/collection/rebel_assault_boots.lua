@@ -1,0 +1,5 @@
+
+object_tangible_collection_rebel_assault_boots = object_tangible_collection_shared_rebel_assault_boots:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_rebel_assault_boots, "object/tangible/collection/rebel_assault_boots.iff")

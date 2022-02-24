@@ -48,12 +48,11 @@ object_draft_schematic_food_drink_garrmorl = object_draft_schematic_food_shared_
    customObjectName = "Garrmorl",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 10, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_food.iff",
-   
+
    xpType = "crafting_food_general", 
-   xp = 240, 
+   xp = 500, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

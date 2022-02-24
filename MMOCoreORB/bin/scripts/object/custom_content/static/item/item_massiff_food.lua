@@ -1,0 +1,1 @@
+object_static_item_item_massiff_food = object_static_item_shared_item_massiff_food:new {}ObjectTemplates:addTemplate(object_static_item_item_massiff_food, "object/static/item/item_massiff_food.iff")

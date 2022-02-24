@@ -67,71 +67,71 @@ object_weapon_ranged_heavy_heavy_rocket_launcher = object_weapon_ranged_heavy_sh
 				"object/creature/player/zabrak_female.iff" },
 
 	-- RANGEDATTACK, MELEEATTACK, FORCEATTACK, TRAPATTACK, GRENADEATTACK, HEAVYACIDBEAMATTACK,
-	-- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
-	attackType = HEAVYROCKETLAUNCHERATTACK,
+  -- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
+  attackType = HEAVYROCKETLAUNCHERATTACK,
 
-	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, LIGHTSABER
-	damageType = BLAST,
+  -- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, FORCE, LIGHTSABER
+  damageType = BLAST,
 
-	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = HEAVY,
+  -- NONE, LIGHT, MEDIUM, HEAVY
+  armorPiercing = LIGHT,
 
-	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
-	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
-	-- combat_meleespecialize_twohandlightsaber, combat_meleespecialize_polearmlightsaber, combat_meleespecialize_onehandlightsaber
-	xpType = "combat_rangedspecialize_heavy",
+  -- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
+  -- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
+  -- combat_meleespecialize_twohandlightsaber, combat_meleespecialize_polearmlightsaber, combat_meleespecialize_onehandlightsaber
+  xpType = "combat_rangedspecialize_heavy",
 
-	-- See http://www.ocdsoft.com/files/certifications.xls
-	certificationsRequired = { "cert_rocket_launcher" },
-	-- See http://www.ocdsoft.com/files/accuracy.xls
-	creatureAccuracyModifiers = { "heavy_rocket_launcher_accuracy" },
+  -- See http://www.ocdsoft.com/files/certifications.xls
+  certificationsRequired = { "cert_rocket_launcher" },
+  -- See http://www.ocdsoft.com/files/accuracy.xls
+  creatureAccuracyModifiers = { "heavy_rocket_launcher_accuracy" },
 
-	creatureAimModifiers = { },
+  creatureAimModifiers = { },
 
-	-- See http://www.ocdsoft.com/files/defense.xls
-	defenderDefenseModifiers = { "ranged_defense" },
+  -- See http://www.ocdsoft.com/files/defense.xls
+  defenderDefenseModifiers = { "ranged_defense" },
 
-	-- Leave as "dodge" for now, may have additions later
-	defenderSecondaryDefenseModifiers = { },
+  -- Leave as "dodge" for now, may have additions later
+  defenderSecondaryDefenseModifiers = { },
 
-	-- See http://www.ocdsoft.com/files/speed.xls
-	speedModifiers = { "heavy_rocket_launcher_speed" },
+  -- See http://www.ocdsoft.com/files/speed.xls
+  speedModifiers = { "heavy_rocket_launcher_speed" },
 
-	useCount = 40,
+  useCount = 40,
 
-	combatSpam = "rocket_launcher",
-	animationType = "rocket_launcher",
+  combatSpam = "rocket_launcher",
+  animationType = "rocket_launcher",
 
-	healthAttackCost = 95,
-	actionAttackCost = 42,
-	mindAttackCost = 23,
-	forceCost = 0,
+  healthAttackCost = 0,
+  actionAttackCost = 300,
+  mindAttackCost = 0,
+  forceCost = 0,
 
-	pointBlankRange = 0,
-	pointBlankAccuracy = -30,
+  pointBlankRange = 0,
+  pointBlankAccuracy = -30,
 
-	idealRange = 10,
-	idealAccuracy = 50,
+  idealRange = 10,
+  idealAccuracy = 50,
 
-	maxRange = 64,
-	maxRangeAccuracy = -80,
+  maxRange = 64,
+  maxRangeAccuracy = -80,
 
-	minDamage = 100,
-	maxDamage = 500,
+  minDamage = 100,
+  maxDamage = 950,
 
-	attackSpeed = 10,
+  attackSpeed = 10,
 
-	woundsRatio = 24,
+  woundsRatio = 24,
 
-	numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 2, 2},
-	experimentalProperties = {"XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "XX", "XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ"},
-	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
-	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "null", "null", "null", "expRange", "expEffeciency", "expEffeciency", "expEffeciency", "expEffeciency"},
-	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "charges", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 900, 1550, 12, 17, 30, 750, -120, 20, 48, 0, 25, 124, 85, 60},
-	experimentalMax = {0, 0, 1350, 4500, 7, 31, 65, 1500, -90, 60, 48, 35, 50, 67, 40, 36},
-	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1},
+  numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 2, 2},
+  experimentalProperties = {"XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "XX", "XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "XX", "XX", "XX"},
+  experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+  experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "null", "null", "null", "expRange", "expEffeciency", "null", "null", "null"},
+  experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "charges", "attackhealthcost", "attackactioncost", "attackmindcost"},
+  experimentalMin = {0, 0, 1670, 2990, 4, 17, 30, 750, -120, 20, 48, 0, 25, 0, 300, 0},
+  experimentalMax = {0, 0, 2154, 4295, 4, 31, 65, 1500, -90, 60, 48, 35, 50, 0, 300, 0},
+  experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+  experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1},
 }
 
 ObjectTemplates:addTemplate(object_weapon_ranged_heavy_heavy_rocket_launcher, "object/weapon/ranged/heavy/heavy_rocket_launcher.iff")

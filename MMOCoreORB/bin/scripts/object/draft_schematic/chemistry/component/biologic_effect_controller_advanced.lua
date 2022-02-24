@@ -48,13 +48,12 @@ object_draft_schematic_chemistry_component_biologic_effect_controller_advanced =
 	customObjectName = "Advanced Biological Effect Controller",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 15,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
-	xp = 80,
+	xp = 433, -- Boosted xp for CM/Doc Craft grind expediency.
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

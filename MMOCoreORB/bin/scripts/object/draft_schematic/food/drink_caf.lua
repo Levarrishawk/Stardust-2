@@ -48,12 +48,11 @@ object_draft_schematic_food_drink_caf = object_draft_schematic_food_shared_drink
    customObjectName = "Caf",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 3, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_food.iff",
-   
+
    xpType = "crafting_general", 
-   xp = 30, 
+   xp = 100, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

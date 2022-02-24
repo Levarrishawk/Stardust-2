@@ -1,7 +1,7 @@
 --Should all created players start with God Mode? 1 = yes, 0 = no
 freeGodMode = 0;
 --How many cash credits new characters start with after creating a character (changed during test phase, normal value is 100)
-startingCash = 100
+startingCash = 1000
 --startingCash = 100000
 --How many bank credits new characters start with after creating a character (changed during test phase, normal value is 1000)
 startingBank = 1000
@@ -47,6 +47,19 @@ marojMelon = "object/tangible/food/foraged/foraged_fruit_s1.iff"
 
 x31Speeder = "object/tangible/deed/vehicle_deed/landspeeder_x31_deed.iff"
 
+SwoopBike = "object/tangible/deed/vehicle_deed/speederbike_swoop_deed.iff"
+
+
+boneBicep_l = "object/tangible/wearables/armor/bone/armor_bone_s01_bicep_l.iff"
+boneBicep_r = "object/tangible/wearables/armor/bone/armor_bone_s01_bicep_r.iff"
+boneBoots = "object/tangible/wearables/armor/bone/armor_bone_s01_boots.iff"
+boneBracer_l = "object/tangible/wearables/armor/bone/armor_bone_s01_bracer_l.iff"
+boneBracer_r = "object/tangible/wearables/armor/bone/armor_bone_s01_bracer_r.iff"
+boneChest = "object/tangible/wearables/armor/bone/armor_bone_s01_chest_plate.iff"
+boneHelmet = "object/tangible/wearables/armor/bone/armor_bone_s01_helmet.iff"
+boneGloves = "object/tangible/wearables/armor/bone/armor_bone_s01_gloves.iff"
+boneLeggings = "object/tangible/wearables/armor/bone/armor_bone_s01_leggings.iff"
+
 professionSpecificItems = {
 	combat_brawler = { brawlerOneHander, brawlerTwoHander, brawlerPolearm },
 	combat_marksman = { marksmanPistol, marksmanCarbine, marksmanRifle },
@@ -57,4 +70,4 @@ professionSpecificItems = {
 	social_entertainer = { slitherhorn }
 }
 
-commonStartingItems = { marojMelon, survivalKnife, x31Speeder }
+commonStartingItems = { marojMelon, survivalKnife, SwoopBike, boneBicep_l, boneBicep_r, boneBoots, boneBracer_l, boneBracer_r, boneChest, boneHelmet, boneGloves, boneLeggings }

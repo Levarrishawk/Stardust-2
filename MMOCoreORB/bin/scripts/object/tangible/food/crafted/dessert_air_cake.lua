@@ -44,9 +44,9 @@
 object_tangible_food_crafted_dessert_air_cake = object_tangible_food_crafted_shared_dessert_air_cake:new {
 	templateType = CONSUMABLE,
 
-	duration = 10,
+	duration = 360,
 	filling = 10,
-	nutrition = 10,
+	nutrition = 15,
 
 	effectType = 2,
 

@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_dejarik_ngok = object_tangible_loot_creature_loot_collections_shared_dejarik_ngok:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_dejarik_ngok, "object/tangible/loot/creature/loot/collections/dejarik_ngok.iff")

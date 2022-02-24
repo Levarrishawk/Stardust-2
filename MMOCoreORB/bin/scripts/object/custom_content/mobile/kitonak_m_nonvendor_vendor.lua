@@ -1,0 +1,5 @@
+object_mobile_kitonak_m_nonvendor_vendor = object_mobile_shared_kitonak_m_nonvendor_vendor:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_kitonak_m_nonvendor_vendor, "object/mobile/kitonak_m_nonvendor_vendor.iff")

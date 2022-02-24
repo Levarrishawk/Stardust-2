@@ -48,9 +48,8 @@ object_draft_schematic_clothing_clothing_belt_field_11 = object_draft_schematic_
    customObjectName = "Two Pocket Belt",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 8, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_general", 
    xp = 40, 

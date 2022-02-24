@@ -48,11 +48,10 @@ object_draft_schematic_furniture_furniture_lamp_free_s04_on = object_draft_schem
 	customObjectName = "Free-standing Lamp \'Azeron\'",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 18,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 10,
-	factoryCrateType = "object/factory/factory_crate_furniture.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 250,
 

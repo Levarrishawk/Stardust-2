@@ -1,0 +1,5 @@
+object_tangible_item_publish_gift_chapter_11_snow_balls = object_tangible_item_shared_publish_gift_chapter_11_snow_balls:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_publish_gift_chapter_11_snow_balls, "object/tangible/item/publish_gift_chapter_11_snow_balls.iff")

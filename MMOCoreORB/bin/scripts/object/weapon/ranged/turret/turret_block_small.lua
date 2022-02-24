@@ -47,7 +47,7 @@ object_weapon_ranged_turret_turret_block_small = object_weapon_ranged_turret_sha
 	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, LIGHTSABER
 	damageType = BLAST,
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = HEAVY,
+	armorPiercing = LIGHT,
 	-- See http://www.ocdsoft.com/files/accuracy.xls
 	creatureAccuracyModifiers = { "rifle_accuracy" },
 	creatureAimModifiers = { "rifle_aim", "aim" },
@@ -68,7 +68,7 @@ object_weapon_ranged_turret_turret_block_small = object_weapon_ranged_turret_sha
 	maxRangeAccuracy = 0,
 	minDamage = 300,
 	maxDamage = 800,
-	attackSpeed = 2,
+	attackSpeed = 6,
 	woundsRatio = 9,
 }
 

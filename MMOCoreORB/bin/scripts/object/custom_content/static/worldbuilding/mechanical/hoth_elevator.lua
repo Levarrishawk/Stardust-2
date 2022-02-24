@@ -1,0 +1,1 @@
+object_static_worldbuilding_mechanical_hoth_elevator = object_static_worldbuilding_mechanical_shared_hoth_elevator:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_mechanical_hoth_elevator, "object/static/worldbuilding/mechanical/hoth_elevator.iff")

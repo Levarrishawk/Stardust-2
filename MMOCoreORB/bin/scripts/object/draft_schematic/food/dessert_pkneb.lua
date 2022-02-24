@@ -48,12 +48,11 @@ object_draft_schematic_food_dessert_pkneb = object_draft_schematic_food_shared_d
    customObjectName = "Caramelized Pkneb",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 4, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_food.iff",
-   
+
    xpType = "crafting_general", 
-   xp = 80, 
+   xp = 150, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

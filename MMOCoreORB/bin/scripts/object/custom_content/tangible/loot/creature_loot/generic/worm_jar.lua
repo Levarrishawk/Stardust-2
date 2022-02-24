@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_generic_worm_jar = object_tangible_loot_creature_loot_generic_shared_worm_jar:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_generic_worm_jar, "object/tangible/loot/creature/loot/generic/worm_jar.iff")

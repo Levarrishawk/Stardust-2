@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_peko_peko_feather = object_tangible_loot_creature_loot_collections_shared_peko_peko_feather:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_peko_peko_feather, "object/tangible/loot/creature/loot/collections/peko_peko_feather.iff")

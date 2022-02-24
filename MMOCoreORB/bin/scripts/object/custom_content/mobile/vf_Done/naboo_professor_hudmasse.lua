@@ -1,0 +1,1 @@
+object_mobile_naboo_professor_hudmasse = object_mobile_shared_naboo_professor_hudmasse:new {}ObjectTemplates:addTemplate(object_mobile_naboo_professor_hudmasse, "object/mobile/naboo_professor_hudmasse.iff")

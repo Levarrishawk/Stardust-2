@@ -48,13 +48,12 @@ object_draft_schematic_chemistry_medpack_enhance_poison_b = object_draft_schemat
 	customObjectName = "Enhance Poison Resist Medpack - B",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 32,
+	complexity = 1,
 	size = 3,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
-	xp = 80,
+	xp = 330,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

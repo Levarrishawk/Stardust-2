@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series1_vendor_deed_serving_droid = object_tangible_tcg_series1_shared_vendor_deed_serving_droid:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series1_vendor_deed_serving_droid, "object/tangible/tcg/series1/vendor_deed_serving_droid.iff")

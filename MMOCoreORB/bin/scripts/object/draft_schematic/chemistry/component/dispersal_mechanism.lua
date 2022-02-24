@@ -48,13 +48,12 @@ object_draft_schematic_chemistry_component_dispersal_mechanism = object_draft_sc
 	customObjectName = "Dispersal Mechanism",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 15,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
-	xp = 45,
+	xp = 125,
 
 	assemblySkill = "combat_medicine_assembly",
 	experimentingSkill = "combat_medicine_experimentation",

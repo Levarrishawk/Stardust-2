@@ -1,0 +1,1 @@
+object_mobile_outbreak_undead_prisoner_m_zab_03 = object_mobile_shared_outbreak_undead_prisoner_m_zab_03:new {}ObjectTemplates:addTemplate(object_mobile_outbreak_undead_prisoner_m_zab_03, "object/mobile/outbreak_undead_prisoner_m_zab_03.iff")

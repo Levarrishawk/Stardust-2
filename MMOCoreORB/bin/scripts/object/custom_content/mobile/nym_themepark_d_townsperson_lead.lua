@@ -1,0 +1,1 @@
+object_mobile_nym_themepark_d_townsperson_lead = object_mobile_shared_nym_themepark_d_townsperson_lead:new {}ObjectTemplates:addTemplate(object_mobile_nym_themepark_d_townsperson_lead, "object/mobile/nym_themepark_d_townsperson_lead.iff")

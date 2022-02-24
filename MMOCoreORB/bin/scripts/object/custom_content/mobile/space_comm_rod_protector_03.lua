@@ -1,0 +1,3 @@
+object_mobile_space_comm_rod_protector_03 = object_mobile_shared_space_comm_rod_protector_03:new {
+}
+ObjectTemplates:addTemplate(object_mobile_space_comm_rod_protector_03, "object/mobile/space_comm_rod_protector_03.iff")

@@ -1,0 +1,3 @@
+object_tangible_npe_npe_blacksun_heavy_s01 = object_tangible_npe_shared_npe_blacksun_heavy_s01:new {
+}
+ObjectTemplates:addTemplate(object_tangible_npe_npe_blacksun_heavy_s01, "object/tangible/npe/npe_blacksun_heavy_s01.iff")

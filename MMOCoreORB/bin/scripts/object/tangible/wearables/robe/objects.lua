@@ -1456,3 +1456,58 @@ object_tangible_wearables_robe_shared_robe_tusken_raider_s02 = SharedTangibleObj
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_wearables_robe_shared_robe_tusken_raider_s02, "object/tangible/wearables/robe/shared_robe_tusken_raider_s02.iff")
+
+-- New Jedi Robes
+
+object_tangible_wearables_robe_shared_robe_s32 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/robe/shared_robe_s32.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_robe_shared_robe_s32, "object/tangible/wearables/robe/shared_robe_s32.iff")
+--*********************************************************************************
+object_tangible_wearables_robe_shared_robe_s33 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/robe/shared_robe_s33.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_robe_shared_robe_s33, "object/tangible/wearables/robe/shared_robe_s33.iff")
+--*********************************************************************************
+
+object_tangible_wearables_robe_shared_robe_s32_h1 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/robe/shared_robe_s32_h1.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_robe_shared_robe_s32_h1, "object/tangible/wearables/robe/shared_robe_s32_h1.iff")
+--*********************************************************************************
+
+object_tangible_wearables_robe_shared_robe_s33_h1 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/robe/shared_robe_s33_h1.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_robe_shared_robe_s33_h1, "object/tangible/wearables/robe/shared_robe_s33_h1.iff")
+--*********************************************************************************
+
+object_tangible_wearables_robe_shared_exar_cultist_hood_down = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/robe/shared_exar_cultist_hood_down.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_robe_shared_exar_cultist_hood_down, "object/tangible/wearables/robe/shared_exar_cultist_hood_down.iff")
+--*********************************************************************************
+
+object_tangible_wearables_robe_shared_exar_cultist_hood_up = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/robe/shared_exar_cultist_hood_up.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_robe_shared_exar_cultist_hood_up, "object/tangible/wearables/robe/shared_exar_cultist_hood_up.iff")
+--*********************************************************************************
+
+object_tangible_wearables_robe_shared_robe_jedi_padawan_crafted = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/robe/shared_robe_jedi_padawan_crafted.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_robe_shared_robe_jedi_padawan_crafted, "object/tangible/wearables/robe/shared_robe_jedi_padawan_crafted.iff")
+--*********************************************************************************
+
+object_tangible_wearables_robe_shared_robe_jedi_dark_s01_crafted = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/robe/shared_robe_jedi_dark_s01_crafted.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_robe_shared_robe_jedi_dark_s01_crafted, "object/tangible/wearables/robe/shared_robe_jedi_dark_s01_crafted.iff")
+--*********************************************************************************
+
+object_tangible_wearables_robe_shared_robe_jedi_light_s01_crafted = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/robe/shared_robe_jedi_light_s01_crafted.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_robe_shared_robe_jedi_light_s01_crafted, "object/tangible/wearables/robe/shared_robe_jedi_light_s01_crafted.iff")
+--*********************************************************************************

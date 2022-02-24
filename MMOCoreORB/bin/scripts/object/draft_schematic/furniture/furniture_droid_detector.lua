@@ -48,11 +48,10 @@ object_draft_schematic_furniture_furniture_droid_detector = object_draft_schemat
 	customObjectName = "Droid Detection Device",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 25,
+	complexity = 1,
 	size = 3,
-	factoryCrateSize = 10,
-	factoryCrateType = "object/factory/factory_crate_furniture.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 200,
 

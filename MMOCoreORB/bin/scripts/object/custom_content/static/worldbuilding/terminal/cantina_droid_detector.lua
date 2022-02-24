@@ -1,0 +1,1 @@
+object_static_worldbuilding_terminal_cantina_droid_detector = object_static_worldbuilding_terminal_shared_cantina_droid_detector:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_terminal_cantina_droid_detector, "object/static/worldbuilding/terminal/cantina_droid_detector.iff")

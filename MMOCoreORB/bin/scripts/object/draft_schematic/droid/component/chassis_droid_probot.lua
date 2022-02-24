@@ -48,10 +48,9 @@ object_draft_schematic_droid_component_chassis_droid_probot = object_draft_schem
 	customObjectName = "Probot ADV Droid Chassis",
 
 	craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 25,
+	complexity = 1,
 	size = 6,
-	factoryCrateSize = 5,
-	factoryCrateType = "object/factory/factory_crate_electronics.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_droid_general",
 	xp = 340,

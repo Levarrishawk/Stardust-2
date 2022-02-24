@@ -43,8 +43,8 @@
 
 object_building_player_player_guildhall_naboo_style_01 = object_building_player_shared_player_guildhall_naboo_style_01:new {
 	lotSize = 5,
-	baseMaintenanceRate = 100,
-	allowedZones = {"dantooine", "naboo", "rori"},
+	baseMaintenanceRate = 50,
+	allowedZones = {"dantooine", "lok", "tatooine", "naboo", "rori", "corellia", "talus", "chandrila", "kaas", "moraband", "hutta", "lothal"},
 	publicStructure = 0,
 	constructionMarker = "object/building/player/construction/construction_player_guildhall_naboo_style_01.iff",
 	length = 7,

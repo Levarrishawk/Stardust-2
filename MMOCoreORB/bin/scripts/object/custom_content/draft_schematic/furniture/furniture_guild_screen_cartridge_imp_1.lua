@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_furniture_guild_screen_cartridge_imp_1 = object_draft_schematic_furniture_shared_furniture_guild_screen_cartridge_imp_1:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_guild_screen_cartridge_imp_1, "object/draft_schematic/furniture/furniture_guild_screen_cartridge_imp_1.iff")

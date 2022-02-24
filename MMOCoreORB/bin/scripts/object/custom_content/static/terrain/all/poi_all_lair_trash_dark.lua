@@ -1,0 +1,1 @@
+object_static_terrain_all_poi_all_lair_trash_dark = object_static_terrain_all_shared_poi_all_lair_trash_dark:new {}ObjectTemplates:addTemplate(object_static_terrain_all_poi_all_lair_trash_dark, "object/static/terrain/all/poi_all_lair_trash_dark.iff")

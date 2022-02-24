@@ -1,0 +1,5 @@
+object_static_particle_particle_volcano_glow_1 = object_static_particle_shared_particle_volcano_glow_1:new {
+
+}
+
+ObjectTemplates:addTemplate(object_static_particle_particle_volcano_glow_1, "object/static/particle/particle_volcano_glow_1.iff")

@@ -48,10 +48,9 @@ object_draft_schematic_spices_spice_giggledust = object_draft_schematic_spices_s
    customObjectName = "Giggledust",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 10, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_food.iff",
-   
+
    xpType = "crafting_spice", 
    xp = 90, 
 

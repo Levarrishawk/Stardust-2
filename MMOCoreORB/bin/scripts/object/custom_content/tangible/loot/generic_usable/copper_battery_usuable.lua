@@ -1,0 +1,5 @@
+object_tangible_loot_generic_usable_copper_battery_usuable = object_tangible_loot_generic_usable_shared_copper_battery_usuable:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_generic_usable_copper_battery_usuable, "object/tangible/loot/generic/usable/copper_battery_usuable.iff")

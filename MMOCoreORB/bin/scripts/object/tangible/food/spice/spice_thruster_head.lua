@@ -59,7 +59,7 @@ object_tangible_food_spice_spice_thruster_head = object_tangible_food_spice_shar
 	quantityMin = 0,
 	quantityMax = 0,
 
-	modifiers = { "mind", 600, "focus" , 200 },
+	modifiers = { "health", 600, "strength" , 200 },
 
 	buffName = "thruster_head",
 	buffCRC = 0,

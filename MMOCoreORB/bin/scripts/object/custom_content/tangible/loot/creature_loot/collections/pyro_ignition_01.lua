@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_pyro_ignition_01 = object_tangible_loot_creature_loot_collections_shared_pyro_ignition_01:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_pyro_ignition_01, "object/tangible/loot/creature/loot/collections/pyro_ignition_01.iff")

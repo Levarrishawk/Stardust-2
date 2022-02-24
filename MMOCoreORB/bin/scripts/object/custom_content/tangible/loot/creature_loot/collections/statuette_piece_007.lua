@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_statuette_piece_007 = object_tangible_loot_creature_loot_collections_shared_statuette_piece_007:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_statuette_piece_007, "object/tangible/loot/creature/loot/collections/statuette_piece_007.iff")

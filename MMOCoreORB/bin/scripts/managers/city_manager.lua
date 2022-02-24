@@ -49,19 +49,19 @@ which carries forward this exception.
 	--------------------
 --]]
 --The amount of time in minutes before the city specialization may be changed again.
-CitySpecializationCooldown = 604800000
+CitySpecializationCooldown = 1
 
 --The amount of time in minutes before another withdrawal from the city treasury may be made.
-TreasuryWithdrawalCooldown = 86400000
+TreasuryWithdrawalCooldown = 1
 
 --The number of city update cycles that must pass before mayoral voting process is complete.
-CityVotingCycles = 3
+CityVotingCycles = 1
 
 --The number of city update cyles after which to lock the mayoral voting race registration.
-CityVotingCyclesUntilLocked = 2
+CityVotingCyclesUntilLocked = 1
 
 --The amount of time in minutes before the city performs an update.
-CityUpdateInterval = 10080
+CityUpdateInterval = 5040
 
 --The amount of time in minutes a new city has to gain enough citizens to remain a city.
 NewCityGracePeriod = 1440
@@ -81,11 +81,11 @@ RadiusPerRank = {150, 200, 300, 400, 450}
 
 -- Maximum for each rank.  ex. rank 1 = DecorationsPerRank * 1, rank 5 = DecorationsPerRank * 5
 DecorationsPerRank = 10
-TrainersPerRank = 3
+TrainersPerRank = 7
 MissionTerminalsPerRank = 3
 
 -- Amount to discount city maintenance  float.  1 = 100%, .75 =75%, .5=50% etc
-maintenanceDiscount = 1.0
+maintenanceDiscount = 0.5
 
 --[[
 	CITIES ALLOWED PER PLANET
@@ -95,18 +95,22 @@ maintenanceDiscount = 1.0
 	The maximum amount of cities per rank is 255.
 --]]
 CitiesAllowed = {
-	{"corellia", {20, 20, 15, 10, 10}},
-	{"dantooine", {50, 50, 30, 20, 20}},
-	{"dathomir", {0, 0, 0, 0, 0}},
-	{"endor", {0, 0, 0, 0, 0}},
-	{"lok", {50, 50, 30, 20, 20}},
-	{"naboo", {20, 20, 15, 10, 10}},
-	{"rori", {50, 50, 30, 20, 20}},
-	{"talus", {50, 50, 30, 20, 20}},
-	{"tatooine", {20, 20, 15, 10, 10}},
-	{"yavin4", {0, 0, 0, 0, 0}}
+  {"corellia", {20, 20, 15, 10, 10}},
+  {"dantooine", {50, 50, 30, 20, 20}},
+  {"dathomir", {0, 0, 0, 0, 0}},
+  {"endor", {0, 0, 0, 0, 0}},
+  {"lok", {50, 50, 30, 20, 20}},
+  {"naboo", {20, 20, 15, 10, 10}},
+  {"rori", {50, 50, 30, 20, 20}},
+  {"talus", {50, 50, 30, 20, 20}},
+  {"tatooine", {20, 20, 15, 10, 10}},
+  {"yavin4", {0, 0, 0, 0, 0}},
+  {"chandrila", {15, 15, 10, 10, 6}},
+  {"kaas", {8, 6, 4, 2, 1}},
+  {"moraband", {8, 6, 4, 2, 1}},
+  {"hutta", {8, 6, 4, 2, 1}},
+  {"lothal", {8, 6, 4, 2, 1}}
 }
-
 
 
 --[[

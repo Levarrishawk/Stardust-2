@@ -1,0 +1,3 @@
+object_tangible_hologram_hologram_aotc_cybernetic_arm = object_tangible_hologram_shared_hologram_aotc_cybernetic_arm:new {
+}
+ObjectTemplates:addTemplate(object_tangible_hologram_hologram_aotc_cybernetic_arm, "object/tangible/hologram/hologram_aotc_cybernetic_arm.iff")

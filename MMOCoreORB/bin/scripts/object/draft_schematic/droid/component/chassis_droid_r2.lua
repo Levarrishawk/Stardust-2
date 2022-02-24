@@ -48,10 +48,9 @@ object_draft_schematic_droid_component_chassis_droid_r2 = object_draft_schematic
 	customObjectName = "R2 ADV Droid Chassis",
 
 	craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 25,
+	complexity = 1,
 	size = 8,
-	factoryCrateSize = 5,
-	factoryCrateType = "object/factory/factory_crate_electronics.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_droid_general",
 	xp = 210,

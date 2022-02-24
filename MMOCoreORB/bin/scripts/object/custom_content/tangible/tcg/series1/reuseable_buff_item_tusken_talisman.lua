@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series1_reuseable_buff_item_tusken_talisman = object_tangible_tcg_series1_shared_reuseable_buff_item_tusken_talisman:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series1_reuseable_buff_item_tusken_talisman, "object/tangible/tcg/series1/reuseable_buff_item_tusken_talisman.iff")

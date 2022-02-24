@@ -48,10 +48,9 @@ object_draft_schematic_chemistry_component_biologic_effect_controller = object_d
 	customObjectName = "Biological Effect Controller",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 10,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
 	xp = 35,

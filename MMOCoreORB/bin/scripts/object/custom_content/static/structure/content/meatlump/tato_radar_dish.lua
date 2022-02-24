@@ -1,0 +1,1 @@
+object_static_structure_content_meatlump_tato_radar_dish = object_static_structure_content_meatlump_shared_tato_radar_dish:new {}ObjectTemplates:addTemplate(object_static_structure_content_meatlump_tato_radar_dish, "object/static/structure/content/meatlump/tato_radar_dish.iff")

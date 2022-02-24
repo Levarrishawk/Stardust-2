@@ -1,0 +1,5 @@
+object_tangible_item_beast_converted_borgle_decoration = object_tangible_item_beast_shared_converted_borgle_decoration:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_beast_converted_borgle_decoration, "object/tangible/item/beast/converted_borgle_decoration.iff")

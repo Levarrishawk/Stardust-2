@@ -1,0 +1,5 @@
+object_tangible_item_skillmod_skillmod_tcg_set3_hanging_standing_sign = object_tangible_item_skillmod_shared_skillmod_tcg_set3_hanging_standing_sign:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_skillmod_skillmod_tcg_set3_hanging_standing_sign, "object/tangible/item/skillmod/skillmod_tcg_set3_hanging_standing_sign.iff")

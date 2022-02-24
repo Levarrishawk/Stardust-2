@@ -1,0 +1,5 @@
+object_tangible_wearables_cybernetic_s03_cybernetic_s03_arm_l = object_tangible_wearables_cybernetic_s03_shared_cybernetic_s03_arm_l:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_wearables_cybernetic_s03_cybernetic_s03_arm_l, "object/tangible/wearables/cybernetic/s03/cybernetic_s03_arm_l.iff")

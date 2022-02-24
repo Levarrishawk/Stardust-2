@@ -48,9 +48,8 @@ object_draft_schematic_clothing_clothing_armor_ubese_pants = object_draft_schema
    customObjectName = "Ubese Armor Pants",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 35, 
+   complexity = 1, 
    size = 4, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_armor", 
    xp = 360, 

@@ -45,11 +45,14 @@ OverChargeShot2Command = {
 	name = "overchargeshot2",
 
 	damageMultiplier = 3.75,
-	speedMultiplier = 2,
-	healthCostMultiplier = 1,
-	actionCostMultiplier = 1,
-	mindCostMultiplier = 1,
-	accuracyBonus = 15,
+  speedMultiplier = 1,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 0.8,
+  mindCostMultiplier = 0,
+  accuracyBonus = 15,
+    visMod = 25,
+  
+  poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "fire_1_special_single", 
 	animType = GENERATE_RANGED,
@@ -58,7 +61,7 @@ OverChargeShot2Command = {
 	
 	weaponType = RANGEDWEAPON,
 
-	range = -1
+	range = 65
 
 }
 

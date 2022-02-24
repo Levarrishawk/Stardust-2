@@ -1,0 +1,5 @@
+object_tangible_collection_reward_desert_demon_doll_reward = object_tangible_collection_reward_shared_desert_demon_doll_reward:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_desert_demon_doll_reward, "object/tangible/collection/reward/desert_demon_doll_reward.iff")

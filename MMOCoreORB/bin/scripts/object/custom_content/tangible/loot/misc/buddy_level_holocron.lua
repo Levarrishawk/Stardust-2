@@ -1,0 +1,5 @@
+object_tangible_loot_misc_buddy_level_holocron = object_tangible_loot_misc_shared_buddy_level_holocron:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_misc_buddy_level_holocron, "object/tangible/loot/misc/buddy_level_holocron.iff")

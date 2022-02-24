@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_nightsister_ring = object_tangible_loot_creature_loot_collections_shared_nightsister_ring:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_nightsister_ring, "object/tangible/loot/creature/loot/collections/nightsister_ring.iff")

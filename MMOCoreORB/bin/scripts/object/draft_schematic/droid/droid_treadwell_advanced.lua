@@ -48,10 +48,9 @@ object_draft_schematic_droid_droid_treadwell_advanced = object_draft_schematic_d
 	customObjectName = "Deed for: WED Treadwell, Advanced Model",
 
 	craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 21,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 5,
-	factoryCrateType = "object/factory/factory_crate_electronics.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_droid_general",
 	xp = 100,

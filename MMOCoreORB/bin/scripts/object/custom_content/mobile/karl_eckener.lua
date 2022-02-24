@@ -1,0 +1,1 @@
+object_mobile_karl_eckener = object_mobile_shared_karl_eckener:new {}ObjectTemplates:addTemplate(object_mobile_karl_eckener, "object/mobile/karl_eckener.iff")

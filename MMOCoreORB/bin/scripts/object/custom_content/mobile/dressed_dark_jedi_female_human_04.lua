@@ -1,0 +1,5 @@
+object_mobile_dressed_dark_jedi_female_human_04 = object_mobile_shared_dressed_dark_jedi_female_human_04:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_dark_jedi_female_human_04, "object/mobile/dressed_dark_jedi_female_human_04.iff")

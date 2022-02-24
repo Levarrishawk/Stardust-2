@@ -1,0 +1,5 @@
+object_mobile_dressed_restuss_imperial_load_lifter = object_mobile_shared_dressed_restuss_imperial_load_lifter:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_restuss_imperial_load_lifter, "object/mobile/dressed_restuss_imperial_load_lifter.iff")

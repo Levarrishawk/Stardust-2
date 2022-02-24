@@ -48,11 +48,10 @@ object_draft_schematic_structure_component_structure_storage_section = object_dr
 	customObjectName = "Structure Storage Module",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 5,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 10,
-	factoryCrateType = "object/factory/factory_crate_installation.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 400,
 

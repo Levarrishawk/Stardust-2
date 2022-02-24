@@ -1,0 +1,5 @@
+object_tangible_holiday_life_day_life_day_present_stomped = object_tangible_holiday_life_day_shared_life_day_present_stomped:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_holiday_life_day_life_day_present_stomped, "object/tangible/holiday/life_day/life_day_present_stomped.iff")

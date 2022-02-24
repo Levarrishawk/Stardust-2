@@ -45,18 +45,20 @@ Melee2hLunge2Command = {
 	name = "melee2hlunge2",
 
 	damageMultiplier = 1.0,
-	speedMultiplier = 2.5,
-	accuracyBonus = 10,
-
-	healthCostMultiplier = 1.5,
-	actionCostMultiplier = 0.625,
-	mindCostMultiplier = 0.625,
+  speedMultiplier = 2.5,
+  accuracyBonus = 10,
+    visMod = 25,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 2.25,
+  mindCostMultiplier = 0,
+  
+  poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "knockdown_2hmelee_1",
 
 	combatSpam = "lungeslam",
 
-	range = 20,
+	range = 15,
 
 	weaponType = TWOHANDMELEEWEAPON,
 
@@ -66,7 +68,7 @@ Melee2hLunge2Command = {
 		{ "knockdownRecovery", "lastKnockdown" },
 		{ "knockdown_defense" },
 		{},
-		100,
+		75,
 		0,
 		0
 	  )

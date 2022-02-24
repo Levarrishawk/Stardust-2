@@ -1,0 +1,1 @@
+object_mobile_maarek_stele = object_mobile_shared_maarek_stele:new {}ObjectTemplates:addTemplate(object_mobile_maarek_stele, "object/mobile/maarek_stele.iff")

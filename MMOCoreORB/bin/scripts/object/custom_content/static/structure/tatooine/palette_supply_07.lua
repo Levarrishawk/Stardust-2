@@ -1,0 +1,1 @@
+object_static_structure_tatooine_palette_supply_07 = object_static_structure_tatooine_shared_palette_supply_07:new {}ObjectTemplates:addTemplate(object_static_structure_tatooine_palette_supply_07, "object/static/structure/tatooine/palette_supply_07.iff")

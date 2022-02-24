@@ -1,0 +1,1 @@
+object_mobile_storyteller_loveday_ewok_chief = object_mobile_shared_storyteller_loveday_ewok_chief:new {}ObjectTemplates:addTemplate(object_mobile_storyteller_loveday_ewok_chief, "object/mobile/storyteller_loveday_ewok_chief.iff")

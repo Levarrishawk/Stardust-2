@@ -1,0 +1,1 @@
+object_mobile_baby_colo_claw_fish = object_mobile_shared_baby_colo_claw_fish:new {}ObjectTemplates:addTemplate(object_mobile_baby_colo_claw_fish, "object/mobile/baby_colo_claw_fish.iff")

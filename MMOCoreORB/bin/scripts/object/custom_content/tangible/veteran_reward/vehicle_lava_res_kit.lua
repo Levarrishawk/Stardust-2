@@ -1,0 +1,3 @@
+object_tangible_veteran_reward_vehicle_lava_res_kit = object_tangible_veteran_reward_shared_vehicle_lava_res_kit:new {
+}
+ObjectTemplates:addTemplate(object_tangible_veteran_reward_vehicle_lava_res_kit, "object/tangible/veteran_reward/vehicle_lava_res_kit.iff")

@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fried_icecream_components_tatooine_banthaweed = object_tangible_loot_creature_loot_collections_fried_icecream_components_tatooine_shared_banthaweed:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_tatooine_banthaweed, "object/tangible/loot/creature/loot/collections/fried/icecream/components/tatooine/banthaweed.iff")

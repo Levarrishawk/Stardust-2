@@ -46,16 +46,16 @@ UnderHandShotCommand = {
 
 	damageMultiplier = 3.0,
 	speedMultiplier = 1.5,
-	healthCostMultiplier = 1,
-	actionCostMultiplier = 1,
-	mindCostMultiplier = 1,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 2,
+	mindCostMultiplier = 0,
 
 	stateEffects = {
 	  StateEffect( 
 		KNOCKDOWN_EFFECT, 
 		{ "knockdownRecovery", "lastKnockdown" }, 
 		{ "knockdown_defense" }, 
-		{},
+		{}, 
 		85, 
 		0, 
 		0 

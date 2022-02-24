@@ -48,13 +48,12 @@ object_draft_schematic_chemistry_med_stimpack_area_a = object_draft_schematic_ch
 	customObjectName = "Area Stimpack - A",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 30,
+	complexity = 1,
 	size = 3,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
-	xp = 80,
+	xp = 225,
 
 	assemblySkill = "combat_medicine_assembly",
 	experimentingSkill = "combat_medicine_experimentation",

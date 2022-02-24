@@ -48,11 +48,10 @@ object_draft_schematic_structure_installation_mining_organic_flora_heavy = objec
 	customObjectName = "Deed for: High Capacity Flora Farm",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 32,
+	complexity = 1,
 	size = 8,
-	factoryCrateSize = 1,
-	factoryCrateType = "object/factory/factory_crate_installation.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 3800,
 

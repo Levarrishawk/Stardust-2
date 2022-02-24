@@ -1,0 +1,1 @@
+object_mobile_storyteller_wedge_antilles = object_mobile_shared_storyteller_wedge_antilles:new {}ObjectTemplates:addTemplate(object_mobile_storyteller_wedge_antilles, "object/mobile/storyteller_wedge_antilles.iff")

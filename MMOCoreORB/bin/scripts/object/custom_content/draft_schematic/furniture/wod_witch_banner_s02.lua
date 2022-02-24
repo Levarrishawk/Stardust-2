@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_wod_witch_banner_s02 = object_draft_schematic_furniture_shared_wod_witch_banner_s02:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_wod_witch_banner_s02, "object/draft_schematic/furniture/wod_witch_banner_s02.iff")

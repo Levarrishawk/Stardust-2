@@ -48,12 +48,11 @@ object_draft_schematic_clothing_clothing_ith_jewelry_necklace_11 = object_draft_
    customObjectName = "Ithorian Striped Pendant",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 22, 
+   complexity = 1, 
    size = 2, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
-   xp = 90, 
+   xp = 200, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

@@ -48,11 +48,10 @@ object_draft_schematic_furniture_furniture_chair_ottoman = object_draft_schemati
 	customObjectName = "Ottoman",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 12,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 10,
-	factoryCrateType = "object/factory/factory_crate_furniture.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 460,
 
@@ -71,7 +70,7 @@ object_draft_schematic_furniture_furniture_chair_ottoman = object_draft_schemati
 	resourceQuantities = {150, 80},
 	contribution = {100, 100},
 
-	targetTemplate = "object/tangible/furniture/all/frn_all_couch_ottoman_s1.iff",
+	targetTemplate = "object/tangible/furniture/all/frn_all_couch_ottoman_hue_s1.iff",
 
 	additionalTemplates = {}
 }

@@ -1,0 +1,1 @@
+object_building_mustafar_particle_must_lava_falls_ribbon_15x45 = object_building_mustafar_particle_shared_must_lava_falls_ribbon_15x45:new {}ObjectTemplates:addTemplate(object_building_mustafar_particle_must_lava_falls_ribbon_15x45, "object/building/mustafar/particle/must_lava_falls_ribbon_15x45.iff")

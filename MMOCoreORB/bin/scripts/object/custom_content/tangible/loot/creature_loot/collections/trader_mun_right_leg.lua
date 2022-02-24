@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_trader_mun_right_leg = object_tangible_loot_creature_loot_collections_shared_trader_mun_right_leg:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_trader_mun_right_leg, "object/tangible/loot/creature/loot/collections/trader_mun_right_leg.iff")

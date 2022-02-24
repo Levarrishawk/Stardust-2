@@ -1,0 +1,3 @@
+object_tangible_veteran_reward_vr_bearded_jax_deed = object_tangible_veteran_reward_shared_vr_bearded_jax_deed:new {
+}
+ObjectTemplates:addTemplate(object_tangible_veteran_reward_vr_bearded_jax_deed, "object/tangible/veteran_reward/vr_bearded_jax_deed.iff")

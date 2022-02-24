@@ -54,6 +54,9 @@ includeFile("tangible/component/armor/armor_layer_energy.lua")
 includeFile("tangible/component/armor/armor_layer_environmental.lua")
 includeFile("tangible/component/armor/armor_layer_heat.lua")
 includeFile("tangible/component/armor/armor_layer_kinetic.lua")
+-- New Layer Insert
+includeFile("tangible/component/armor/armor_layer_lightsaber.lua")
+-- End insert
 includeFile("tangible/component/armor/armor_layer_nightsister.lua")
 includeFile("tangible/component/armor/armor_layer_restraint.lua")
 includeFile("tangible/component/armor/armor_layer_ris.lua")

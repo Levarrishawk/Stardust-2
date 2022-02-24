@@ -44,32 +44,51 @@
 KnockdownFireCommand = {
         name = "knockdownfire",
 
-	damageMultiplier = 2.5,
-	speedMultiplier = 2.0,
-	healthCostMultiplier = 1,
-	actionCostMultiplier = 1,
-	mindCostMultiplier = 1,
+	damageMultiplier = 2,
+  speedMultiplier = 1.0,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 0.9,
+  mindCostMultiplier = 0,
+  coneAngle = 40,
+  coneAction = true,
 
 	stateEffects = {
-	  StateEffect( 
-		DIZZY_EFFECT, 
-		{}, 
-		{ "dizzy_defense" }, 
-		{ "jedi_state_defense", "resistance_states" },
-		85, 
-		0, 
-		10 
-	  ),
-	  StateEffect( 
-		KNOCKDOWN_EFFECT, 
-		{ "knockdownRecovery", "lastKnockdown" }, 
-		{ "knockdown_defense" }, 
-		{},
-		85, 
-		0, 
-		0 
-	  )
-	},
+    StateEffect( 
+    DIZZY_EFFECT, 
+    {}, 
+    { "dizzy_defense", "resistance_states" }, 
+    { "jedi_state_defense" }, 
+    25, 
+    25, 
+    10 
+    ),
+    StateEffect( 
+    KNOCKDOWN_EFFECT, 
+    { "knockdownRecovery", "lastKnockdown" }, 
+    { "knockdown_defense" }, 
+    {}, 
+    85, 
+    100, 
+    0 
+    )
+  },
+  
+  dotEffects = {
+    DotEffect( 
+    ONFIRE, 
+    {"resistance_fire", "fire_resist"},
+    HEALTH,
+    true,
+    0,
+    100,
+    100, 
+    20,
+    10,
+    2
+    )
+  },
+  
+  poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "fire_3_single", 
 	animType = GENERATE_RANGED,

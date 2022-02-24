@@ -544,3 +544,49 @@ object_weapon_melee_2h_sword_shared_2h_sword_scythe = SharedWeaponObjectTemplate
 }
 
 ObjectTemplates:addClientTemplate(object_weapon_melee_2h_sword_shared_2h_sword_scythe, "object/weapon/melee/2h_sword/shared_2h_sword_scythe.iff")
+--
+-- New Weapons
+--
+
+object_weapon_melee_2h_sword_shared_2h_sword_kashyyk = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/melee/2h_sword/shared_2h_sword_kashyyk.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_melee_2h_sword_shared_2h_sword_kashyyk, "object/weapon/melee/2h_sword/shared_2h_sword_kashyyk.iff")
+-- -----------------------------------------------------------------------------------------------------------
+object_weapon_melee_2h_sword_shared_2h_sword_kun_massassi = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/melee/2h_sword/shared_2h_sword_kun_massassi.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_melee_2h_sword_shared_2h_sword_kun_massassi, "object/weapon/melee/2h_sword/shared_2h_sword_kun_massassi.iff")
+-- -----------------------------------------------------------------------------------------------------------
+object_weapon_melee_2h_sword_shared_2h_sword_pvp_bf_01 = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/melee/2h_sword/shared_2h_sword_pvp_bf_01.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_melee_2h_sword_shared_2h_sword_pvp_bf_01, "object/weapon/melee/2h_sword/shared_2h_sword_pvp_bf_01.iff")
+-- -----------------------------------------------------------------------------------------------------------
+object_weapon_melee_2h_sword_shared_2h_sword_sith = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/melee/2h_sword/shared_2h_sword_sith.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_melee_2h_sword_shared_2h_sword_sith, "object/weapon/melee/2h_sword/shared_2h_sword_sith.iff")
+-- -----------------------------------------------------------------------------------------------------------
+object_weapon_melee_2h_sword_shared_som_2h_sword_obsidian = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/melee/2h_sword/shared_som_2h_sword_obsidian.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_melee_2h_sword_shared_som_2h_sword_obsidian, "object/weapon/melee/2h_sword/shared_som_2h_sword_obsidian.iff")
+-- -----------------------------------------------------------------------------------------------------------
+object_weapon_melee_2h_sword_shared_som_2h_sword_tulrus = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/melee/2h_sword/shared_som_2h_sword_tulrus.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_melee_2h_sword_shared_som_2h_sword_tulrus, "object/weapon/melee/2h_sword/shared_som_2h_sword_tulrus.iff")
+-- -----------------------------------------------------------------------------------------------------------

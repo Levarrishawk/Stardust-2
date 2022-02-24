@@ -1,0 +1,5 @@
+object_tangible_holiday_empire_day_component_e11_condensed_reactive_gasses = object_tangible_holiday_empire_day_component_shared_e11_condensed_reactive_gasses:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_component_e11_condensed_reactive_gasses, "object/tangible/holiday/empire_day/component/e11_condensed_reactive_gasses.iff")

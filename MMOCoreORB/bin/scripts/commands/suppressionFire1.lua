@@ -45,28 +45,30 @@ SuppressionFire1Command = {
 	name = "suppressionfire1",
 
 	damageMultiplier = 1.5,
-	speedMultiplier = 1.5,
-	healthCostMultiplier = 1.75,
-	actionCostMultiplier = 1.25,
-	mindCostMultiplier = 0.5,
-	accuracyBonus = 25,
-
-	stateEffects = {
-		StateEffect(
-			POSTUREDOWN_EFFECT,
-			{ "postureDownRecovery" },
-			{ "posture_change_down_defense" },
-			{},
-			100,
-			0,
-			0
-		)
-	},
+  speedMultiplier = 1.5,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 2.5,
+  mindCostMultiplier = 0,
+  accuracyBonus = 25,
+    visMod = 25,
+  stateEffects = {
+    StateEffect( 
+    POSTUREDOWN_EFFECT, 
+    { "postureDownRecovery" }, 
+    { "posture_change_down_defense" }, 
+    {}, 
+    100, 
+    0, 
+    0 
+    )
+  },
+  
+  poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "fire_defender_posture_change_down",
 
 	combatSpam = "suppressionfire",
-
+	
 	weaponType = RANGEDWEAPON,
 
 	range = -1

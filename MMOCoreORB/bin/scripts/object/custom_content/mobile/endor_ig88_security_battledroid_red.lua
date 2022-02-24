@@ -1,0 +1,5 @@
+object_mobile_endor_ig88_security_battledroid_red = object_mobile_shared_endor_ig88_security_battledroid_red:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_endor_ig88_security_battledroid_red, "object/mobile/endor_ig88_security_battledroid_red.iff")

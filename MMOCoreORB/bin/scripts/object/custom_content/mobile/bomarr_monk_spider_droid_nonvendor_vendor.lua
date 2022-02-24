@@ -1,0 +1,5 @@
+object_mobile_bomarr_monk_spider_droid_nonvendor_vendor = object_mobile_shared_bomarr_monk_spider_droid_nonvendor_vendor:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_bomarr_monk_spider_droid_nonvendor_vendor, "object/mobile/bomarr_monk_spider_droid_nonvendor_vendor.iff")

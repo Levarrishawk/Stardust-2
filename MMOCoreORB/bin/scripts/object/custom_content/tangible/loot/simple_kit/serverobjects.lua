@@ -1,0 +1,6 @@
+includeFile("custom_content/tangible/loot/simple_kit/legacy_droid_body.lua")
+includeFile("custom_content/tangible/loot/simple_kit/legacy_droid_dead.lua")
+includeFile("custom_content/tangible/loot/simple_kit/legacy_droid_head.lua")
+includeFile("custom_content/tangible/loot/simple_kit/legacy_droid_inners.lua")
+includeFile("custom_content/tangible/loot/simple_kit/legacy_droid_legs.lua")
+includeFile("custom_content/tangible/loot/simple_kit/legacy_droid_motivator.lua")

@@ -1,0 +1,1 @@
+object_mobile_nym_themepark_jeran_tarven = object_mobile_shared_nym_themepark_jeran_tarven:new {}ObjectTemplates:addTemplate(object_mobile_nym_themepark_jeran_tarven, "object/mobile/nym_themepark_jeran_tarven.iff")

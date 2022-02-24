@@ -51,10 +51,9 @@ object_draft_schematic_bio_engineer_creature_creature_ikopi = object_draft_schem
    craftingToolTab = 256, -- (See DraftSchematicObjectTemplate.h)
    complexity = 18, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_bio_engineer_creature", 
-   xp = 100, 
+   xp = 1000, 
 
    assemblySkill = "bio_engineer_assembly", 
    experimentingSkill = "bio_engineer_experimentation", 

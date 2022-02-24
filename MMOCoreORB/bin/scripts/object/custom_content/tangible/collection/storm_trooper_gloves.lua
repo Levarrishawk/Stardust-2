@@ -1,0 +1,5 @@
+
+object_tangible_collection_storm_trooper_gloves = object_tangible_collection_shared_storm_trooper_gloves:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_storm_trooper_gloves, "object/tangible/collection/storm_trooper_gloves.iff")

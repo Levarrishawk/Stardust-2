@@ -51,37 +51,26 @@ ActionShot1Command = {
 	mindCostMultiplier = 0.5,
 	accuracyBonus = 25,
 
-	poolsToDamage = ACTION_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "fire_3_single", 
 	animType = GENERATE_RANGED,
 
 	combatSpam = "sapshot",
-	    
-	stateEffects = {
-	  StateEffect( 
-		POSTUREDOWN_EFFECT, 
-		{ "postureDownRecovery" }, 
-		{ "posture_change_down_defense" }, 
-		{},
-		100, 
-		0, 
-		0 
-	  )
-	},	
+
 	  
 	dotEffects = {
-	  DotEffect( 
-		BLEEDING, 
-		{ "resistance_bleeding", "bleed_resist" },
-		ACTION,
-		true,
-		0,
-		100,
-		60, 
-		60
-	  )	  
-	},
+    DotEffect( 
+    BLEEDING, 
+    { "resistance_bleeding", "bleed_resist" },
+    ACTION,
+    true,
+    0,
+    100,
+    100, 
+    60
+    )
+  },
 	
 	weaponType = CARBINEWEAPON,
 

@@ -1,0 +1,1 @@
+object_mobile_naboo_sgt_bragg = object_mobile_shared_naboo_sgt_bragg:new {}ObjectTemplates:addTemplate(object_mobile_naboo_sgt_bragg, "object/mobile/naboo_sgt_bragg.iff")

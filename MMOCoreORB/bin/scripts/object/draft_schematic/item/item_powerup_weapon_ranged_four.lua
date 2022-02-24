@@ -48,11 +48,10 @@ object_draft_schematic_item_item_powerup_weapon_ranged_four = object_draft_schem
 	customObjectName = "Coupler",
 
 	craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 5,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 10,
-	factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_general",
 	xp = 20,
 

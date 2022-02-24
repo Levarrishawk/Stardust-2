@@ -1,0 +1,1 @@
+object_building_general_ep3_trando_slave_camp_bunker = object_building_general_shared_ep3_trando_slave_camp_bunker:new {}ObjectTemplates:addTemplate(object_building_general_ep3_trando_slave_camp_bunker, "object/building/general/ep3_trando_slave_camp_bunker.iff")

@@ -48,12 +48,11 @@ object_draft_schematic_clothing_clothing_belt_formal_13 = object_draft_schematic
    customObjectName = "Dignified Belt",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 18, 
+   complexity = 1, 
    size = 3, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
-   xp = 120, 
+   xp = 600, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

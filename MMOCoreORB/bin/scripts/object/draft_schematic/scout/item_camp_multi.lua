@@ -48,12 +48,11 @@ object_draft_schematic_scout_item_camp_multi = object_draft_schematic_scout_shar
    customObjectName = "Multiperson Camp Kit",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 4, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+
    xpType = "camp", 
-   xp = 56, 
+   xp = 890, --Boosted xp for Ranger Camp grind expediency.
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

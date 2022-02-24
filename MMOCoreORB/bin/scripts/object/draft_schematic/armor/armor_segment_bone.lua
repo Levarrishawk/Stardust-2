@@ -48,10 +48,9 @@ object_draft_schematic_armor_armor_segment_bone = object_draft_schematic_armor_s
 	customObjectName = "Bone Armor Segment",
 
 	craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 8,
+	complexity = 1,
 	size = 4,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_armor.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_general",
 	xp = 34,

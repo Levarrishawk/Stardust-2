@@ -1,0 +1,1 @@
+object_mobile_naboo_wilson_tchorshel = object_mobile_shared_naboo_wilson_tchorshel:new {}ObjectTemplates:addTemplate(object_mobile_naboo_wilson_tchorshel, "object/mobile/naboo_wilson_tchorshel.iff")

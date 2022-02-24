@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series6_wearable_guise_of_ice = object_tangible_tcg_series6_shared_wearable_guise_of_ice:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series6_wearable_guise_of_ice, "object/tangible/tcg/series6/wearable_guise_of_ice.iff")

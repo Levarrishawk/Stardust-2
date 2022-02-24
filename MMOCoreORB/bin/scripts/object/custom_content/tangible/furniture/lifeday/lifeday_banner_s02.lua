@@ -1,0 +1,5 @@
+object_tangible_furniture_lifeday_lifeday_banner_s02 = object_tangible_furniture_lifeday_shared_lifeday_banner_s02:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_lifeday_lifeday_banner_s02, "object/tangible/furniture/lifeday/lifeday_banner_s02.iff")

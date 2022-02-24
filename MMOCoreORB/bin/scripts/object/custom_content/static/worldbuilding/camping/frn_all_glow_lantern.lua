@@ -1,0 +1,1 @@
+object_static_worldbuilding_camping_frn_all_glow_lantern = object_static_worldbuilding_camping_shared_frn_all_glow_lantern:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_camping_frn_all_glow_lantern, "object/static/worldbuilding/camping/frn_all_glow_lantern.iff")

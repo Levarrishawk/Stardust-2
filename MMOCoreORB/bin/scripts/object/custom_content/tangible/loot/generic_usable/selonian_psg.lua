@@ -1,0 +1,5 @@
+object_tangible_loot_generic_usable_selonian_psg = object_tangible_loot_generic_usable_shared_selonian_psg:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_generic_usable_selonian_psg, "object/tangible/loot/generic/usable/selonian_psg.iff")

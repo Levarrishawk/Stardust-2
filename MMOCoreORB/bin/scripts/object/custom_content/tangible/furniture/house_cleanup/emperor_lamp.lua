@@ -1,0 +1,5 @@
+object_tangible_furniture_house_cleanup_emperor_lamp = object_tangible_furniture_house_cleanup_shared_emperor_lamp:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_house_cleanup_emperor_lamp, "object/tangible/furniture/house_cleanup/emperor_lamp.iff")

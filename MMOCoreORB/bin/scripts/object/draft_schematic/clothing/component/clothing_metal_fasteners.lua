@@ -48,10 +48,9 @@ object_draft_schematic_clothing_component_clothing_metal_fasteners = object_draf
 	customObjectName = "Metal Fasteners",
 
 	craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 6,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_clothing.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_general",
 	xp = 30,

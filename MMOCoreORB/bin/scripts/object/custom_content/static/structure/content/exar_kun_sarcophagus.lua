@@ -1,0 +1,1 @@
+object_static_structure_content_exar_kun_sarcophagus = object_static_structure_content_shared_exar_kun_sarcophagus:new {}ObjectTemplates:addTemplate(object_static_structure_content_exar_kun_sarcophagus, "object/static/structure/content/exar_kun_sarcophagus.iff")

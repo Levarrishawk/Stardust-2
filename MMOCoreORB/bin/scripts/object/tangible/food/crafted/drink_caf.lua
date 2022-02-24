@@ -61,7 +61,7 @@ object_tangible_food_crafted_drink_caf = object_tangible_food_crafted_shared_dri
 	quantityMin = 6,
 	quantityMax = 10,
 
-	modifiers = { "willpower", 0 },
+	modifiers = { "health", 0 },
 
 	buffName = "food.drink_caf",
 	buffCRC = 0,

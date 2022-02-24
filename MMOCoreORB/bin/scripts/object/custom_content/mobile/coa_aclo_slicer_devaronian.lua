@@ -1,0 +1,5 @@
+object_mobile_coa_aclo_slicer_devaronian = object_mobile_shared_coa_aclo_slicer_devaronian:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_coa_aclo_slicer_devaronian, "object/mobile/coa_aclo_slicer_devaronian.iff")

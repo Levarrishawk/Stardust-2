@@ -1,0 +1,1 @@
+object_static_worldbuilding_organic_taun_skel_s01 = object_static_worldbuilding_organic_shared_taun_skel_s01:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_organic_taun_skel_s01, "object/static/worldbuilding/organic/taun_skel_s01.iff")

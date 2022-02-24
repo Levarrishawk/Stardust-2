@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series5_hangar_ships_tie_aggressor = object_tangible_tcg_series5_hangar_ships_shared_tie_aggressor:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series5_hangar_ships_tie_aggressor, "object/tangible/tcg/series5/hangar_ships/tie_aggressor.iff")

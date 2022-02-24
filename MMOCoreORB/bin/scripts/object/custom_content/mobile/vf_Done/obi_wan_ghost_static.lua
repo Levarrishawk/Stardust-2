@@ -1,0 +1,1 @@
+object_mobile_obi_wan_ghost_static = object_mobile_shared_obi_wan_ghost_static:new {}ObjectTemplates:addTemplate(object_mobile_obi_wan_ghost_static, "object/mobile/obi_wan_ghost_static.iff")

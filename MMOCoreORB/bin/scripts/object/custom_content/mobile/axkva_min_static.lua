@@ -1,0 +1,1 @@
+object_mobile_axkva_min_static = object_mobile_shared_axkva_min_static:new {}ObjectTemplates:addTemplate(object_mobile_axkva_min_static, "object/mobile/axkva_min_static.iff")

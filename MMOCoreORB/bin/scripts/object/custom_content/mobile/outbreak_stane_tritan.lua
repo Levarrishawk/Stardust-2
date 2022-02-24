@@ -1,0 +1,1 @@
+object_mobile_outbreak_stane_tritan = object_mobile_shared_outbreak_stane_tritan:new {}ObjectTemplates:addTemplate(object_mobile_outbreak_stane_tritan, "object/mobile/outbreak_stane_tritan.iff")

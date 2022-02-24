@@ -51,4 +51,6 @@ function DantariVillageScreenPlay:spawnMobiles()
 	spawnMobile("dantooine", "dantari_raider",900,5514.5,0.4,-707.7,144,0)
 	spawnMobile("dantooine", "dantari_raider",900,5540.9,0.2,-699,-74,0)
 	spawnMobile("dantooine", "dantari_raider",900,5544.9,0.2,-678.5,136,0)
+	
+	spawnMobile("dantooine", "graul_marauder",1800,6000,2,5993,136,0)
 end

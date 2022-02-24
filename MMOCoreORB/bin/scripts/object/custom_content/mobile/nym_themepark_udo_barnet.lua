@@ -1,0 +1,1 @@
+object_mobile_nym_themepark_udo_barnet = object_mobile_shared_nym_themepark_udo_barnet:new {}ObjectTemplates:addTemplate(object_mobile_nym_themepark_udo_barnet, "object/mobile/nym_themepark_udo_barnet.iff")

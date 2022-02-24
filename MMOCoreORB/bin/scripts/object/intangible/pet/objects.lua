@@ -7638,49 +7638,14 @@ ObjectTemplates:addClientTemplate(object_intangible_pet_shared_worrt_hue, "objec
 
 object_intangible_pet_shared_zucca_boar_hue = SharedIntangibleObjectTemplate:new {
 	clientTemplateFileName = "object/intangible/pet/shared_zucca_boar_hue.iff"
-	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
---[[
-	appearanceFilename = "appearance/zucca_boar_hue.sat",
-	arrangementDescriptorFilename = "",
-
-	clearFloraRadius = 0,
-	clientDataFile = "",
-	clientGameObjectType = 2054,
-	collisionActionBlockFlags = 0,
-	collisionActionFlags = 0,
-	collisionActionPassFlags = 0,
-	collisionMaterialBlockFlags = 0,
-	collisionMaterialFlags = 0,
-	collisionMaterialPassFlags = 0,
-	containerType = 0,
-	containerVolumeLimit = 0,
-
-	detailedDescription = "",
-
-	gameObjectType = 2054,
-
-	locationReservationRadius = 0,
-	lookAtText = "string_id_table",
-
-	noBuildRadius = 0,
-
-	objectName = "",
-	onlyVisibleInTools = 0,
-
-	portalLayoutFilename = "",
-
-	scale = 0,
-	scaleThresholdBeforeExtentTest = 0.5,
-	sendToClient = 1,
-	slotDescriptorFilename = "",
-	snapToTerrain = 0,
-	surfaceType = 0,
-
-	totalCellNumber = 0,
-
-	clientObjectCRC = 49929061,
-	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/intangible/base/shared_base_intangible.iff"}
-]]
+	
 }
 
 ObjectTemplates:addClientTemplate(object_intangible_pet_shared_zucca_boar_hue, "object/intangible/pet/shared_zucca_boar_hue.iff")
+
+object_intangible_pet_shared_ysalamiri_hue = SharedIntangibleObjectTemplate:new {
+  clientTemplateFileName = "object/intangible/pet/shared_ysalamiri_hue.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_intangible_pet_shared_ysalamiri_hue, "object/intangible/pet/shared_ysalamiri_hue.iff")

@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_col_treasure_hunter_antique_carbine = object_tangible_loot_creature_loot_collections_shared_col_treasure_hunter_antique_carbine:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_col_treasure_hunter_antique_carbine, "object/tangible/loot/creature/loot/collections/col_treasure_hunter_antique_carbine.iff")

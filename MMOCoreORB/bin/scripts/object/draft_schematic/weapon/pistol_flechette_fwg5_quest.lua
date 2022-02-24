@@ -48,10 +48,9 @@ object_draft_schematic_weapon_pistol_flechette_fwg5_quest = object_draft_schemat
    customObjectName = "Schematic: Featherweight FWG5 Pistol",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 30, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general", 
    xp = 100, 
 

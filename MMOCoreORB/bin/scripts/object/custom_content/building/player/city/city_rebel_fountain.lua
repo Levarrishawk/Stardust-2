@@ -1,0 +1,5 @@
+
+object_building_player_city_city_rebel_fountain = object_building_player_city_shared_city_rebel_fountain:new {
+
+}
+ObjectTemplates:addTemplate(object_building_player_city_city_rebel_fountain, "object/building/player/city/city_rebel_fountain.iff")

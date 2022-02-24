@@ -1,0 +1,5 @@
+object_tangible_quest_naboo_boss_nass_ultragungan_battle_droid = object_tangible_quest_shared_naboo_boss_nass_ultragungan_battle_droid:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_quest_naboo_boss_nass_ultragungan_battle_droid, "object/tangible/quest/naboo_boss_nass_ultragungan_battle_droid.iff")

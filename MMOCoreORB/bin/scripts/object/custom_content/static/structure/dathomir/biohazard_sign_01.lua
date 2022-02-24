@@ -1,0 +1,1 @@
+object_static_structure_dathomir_biohazard_sign_01 = object_static_structure_dathomir_shared_biohazard_sign_01:new {}ObjectTemplates:addTemplate(object_static_structure_dathomir_biohazard_sign_01, "object/static/structure/dathomir/biohazard_sign_01.iff")

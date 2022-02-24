@@ -1,0 +1,5 @@
+object_tangible_quest_heroic_heroic_echo_base_wampa_fun_exit = object_tangible_quest_heroic_shared_heroic_echo_base_wampa_fun_exit:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_quest_heroic_heroic_echo_base_wampa_fun_exit, "object/tangible/quest/heroic/heroic_echo_base_wampa_fun_exit.iff")

@@ -1,0 +1,1 @@
+object_static_worldbuilding_vegitation_fngi_forestmushroom_lg = object_static_worldbuilding_vegitation_shared_fngi_forestmushroom_lg:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_vegitation_fngi_forestmushroom_lg, "object/static/worldbuilding/vegitation/fngi_forestmushroom_lg.iff")

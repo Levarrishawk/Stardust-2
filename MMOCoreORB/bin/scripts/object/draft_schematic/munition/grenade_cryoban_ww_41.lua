@@ -48,10 +48,9 @@ object_draft_schematic_munition_grenade_cryoban_ww_41 = object_draft_schematic_m
    customObjectName = "CryoBan Grenade",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 25, 
+   complexity = 1, 
    size = 4, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general", 
    xp = 90, 
 

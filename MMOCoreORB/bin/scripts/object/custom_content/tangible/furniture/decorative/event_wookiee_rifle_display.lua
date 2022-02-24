@@ -1,0 +1,5 @@
+object_tangible_furniture_decorative_event_wookiee_rifle_display = object_tangible_furniture_decorative_shared_event_wookiee_rifle_display:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_decorative_event_wookiee_rifle_display, "object/tangible/furniture/decorative/event_wookiee_rifle_display.iff")

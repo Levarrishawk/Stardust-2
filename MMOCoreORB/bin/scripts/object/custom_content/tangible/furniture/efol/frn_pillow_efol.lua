@@ -1,0 +1,5 @@
+object_tangible_furniture_efol_frn_pillow_efol = object_tangible_furniture_efol_shared_frn_pillow_efol:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_efol_frn_pillow_efol, "object/tangible/furniture/efol/frn_pillow_efol.iff")

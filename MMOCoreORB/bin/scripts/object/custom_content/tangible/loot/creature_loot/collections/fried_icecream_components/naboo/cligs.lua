@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fried_icecream_components_naboo_cligs = object_tangible_loot_creature_loot_collections_fried_icecream_components_naboo_shared_cligs:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_naboo_cligs, "object/tangible/loot/creature/loot/collections/fried/icecream/components/naboo/cligs.iff")

@@ -48,13 +48,12 @@ object_draft_schematic_chemistry_component_infection_amplifier_advanced = object
 	customObjectName = "Advanced Infection Amplifier",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 15,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
-	xp = 115,
+	xp = 225,
 
 	assemblySkill = "combat_medicine_assembly",
 	experimentingSkill = "combat_medicine_experimentation",

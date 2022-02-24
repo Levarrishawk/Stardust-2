@@ -1,0 +1,5 @@
+object_mobile_coa_aclo_saboteur_weequay_m = object_mobile_shared_coa_aclo_saboteur_weequay_m:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_coa_aclo_saboteur_weequay_m, "object/mobile/coa_aclo_saboteur_weequay_m.iff")

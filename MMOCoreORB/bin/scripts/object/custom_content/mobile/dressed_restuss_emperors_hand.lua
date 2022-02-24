@@ -1,0 +1,5 @@
+object_mobile_dressed_restuss_emperors_hand = object_mobile_shared_dressed_restuss_emperors_hand:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_restuss_emperors_hand, "object/mobile/dressed_restuss_emperors_hand.iff")

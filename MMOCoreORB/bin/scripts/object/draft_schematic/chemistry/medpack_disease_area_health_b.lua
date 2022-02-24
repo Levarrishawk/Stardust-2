@@ -48,13 +48,12 @@ object_draft_schematic_chemistry_medpack_disease_area_health_b = object_draft_sc
 	customObjectName = "Health Area Disease Delivery Unit - B",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 35,
+	complexity = 1,
 	size = 3,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
-	xp = 90,
+	xp = 275,
 
 	assemblySkill = "combat_medicine_assembly",
 	experimentingSkill = "combat_medicine_experimentation",

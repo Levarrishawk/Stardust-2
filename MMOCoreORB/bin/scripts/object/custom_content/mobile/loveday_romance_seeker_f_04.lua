@@ -1,0 +1,5 @@
+object_mobile_loveday_romance_seeker_f_04 = object_mobile_shared_loveday_romance_seeker_f_04:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_loveday_romance_seeker_f_04, "object/mobile/loveday_romance_seeker_f_04.iff")

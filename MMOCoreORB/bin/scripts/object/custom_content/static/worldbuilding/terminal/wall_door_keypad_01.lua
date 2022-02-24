@@ -1,0 +1,1 @@
+object_static_worldbuilding_terminal_wall_door_keypad_01 = object_static_worldbuilding_terminal_shared_wall_door_keypad_01:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_terminal_wall_door_keypad_01, "object/static/worldbuilding/terminal/wall_door_keypad_01.iff")

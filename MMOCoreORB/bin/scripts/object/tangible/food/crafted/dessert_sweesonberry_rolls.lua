@@ -60,7 +60,7 @@ object_tangible_food_crafted_dessert_sweesonberry_rolls = object_tangible_food_c
 	quantityMax = 4,
 	speciesRestriction = "pets",
 
-	modifiers = { "health", 0, "action", 0, "mind", 0 },
+	modifiers = { "health", 0, "action", 0 },
 
 	buffName = "food.reduce_spice_downtime",
 	buffCRC = 0,

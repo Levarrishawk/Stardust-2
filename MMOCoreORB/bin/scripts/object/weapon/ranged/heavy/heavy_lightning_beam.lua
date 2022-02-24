@@ -67,71 +67,71 @@ object_weapon_ranged_heavy_heavy_lightning_beam = object_weapon_ranged_heavy_sha
 				"object/creature/player/zabrak_female.iff" },
 
 	-- RANGEDATTACK, MELEEATTACK, FORCEATTACK, TRAPATTACK, GRENADEATTACK, HEAVYACIDBEAMATTACK,
-	-- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
-	attackType = HEAVYLIGHTNINGBEAMATTACK,
+  -- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
+  attackType = HEAVYLIGHTNINGBEAMATTACK,
 
-	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, LIGHTSABER
-	damageType = ELECTRICITY,
+  -- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, FORCE, LIGHTSABER
+  damageType = ELECTRICITY,
 
-	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = LIGHT,
+  -- NONE, LIGHT, MEDIUM, HEAVY
+  armorPiercing = LIGHT,
 
-	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
-	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
-	-- combat_meleespecialize_twohandlightsaber, combat_meleespecialize_polearmlightsaber, combat_meleespecialize_onehandlightsaber
-	xpType = "combat_rangedspecialize_heavy",
+  -- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
+  -- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
+  -- combat_meleespecialize_twohandlightsaber, combat_meleespecialize_polearmlightsaber, combat_meleespecialize_onehandlightsaber
+  xpType = "combat_rangedspecialize_heavy",
 
-	-- See http://www.ocdsoft.com/files/certifications.xls
-	certificationsRequired = { "cert_heavy_lightning_beam" },
-	-- See http://www.ocdsoft.com/files/accuracy.xls
-	creatureAccuracyModifiers = { "heavy_lightning_beam_accuracy" },
+  -- See http://www.ocdsoft.com/files/certifications.xls
+  certificationsRequired = { "cert_heavy_lightning_beam" },
+  -- See http://www.ocdsoft.com/files/accuracy.xls
+  creatureAccuracyModifiers = { "heavy_lightning_beam_accuracy" },
 
-	creatureAimModifiers = { },
+  creatureAimModifiers = { },
 
-	-- See http://www.ocdsoft.com/files/defense.xls
-	defenderDefenseModifiers = { "ranged_defense" },
+  -- See http://www.ocdsoft.com/files/defense.xls
+  defenderDefenseModifiers = { "ranged_defense" },
 
-	-- Leave as "dodge" for now, may have additions later
-	defenderSecondaryDefenseModifiers = { },
+  -- Leave as "dodge" for now, may have additions later
+  defenderSecondaryDefenseModifiers = { },
 
-	-- See http://www.ocdsoft.com/files/speed.xls
-	speedModifiers = { "heavy_lightning_beam_speed" },
+  -- See http://www.ocdsoft.com/files/speed.xls
+  speedModifiers = { "heavy_lightning_beam_speed" },
 
-	useCount = 40,
+  useCount = 40,
 
-	combatSpam = "lightning_beam",
-	animationType = "lightning_beam",
+  combatSpam = "lightning_beam",
+  animationType = "lightning_beam",
 
-	healthAttackCost = 35,
-	actionAttackCost = 75,
-	mindAttackCost = 20,
-	forceCost = 0,
+  healthAttackCost = 0,
+  actionAttackCost = 300,
+  mindAttackCost = 0,
+  forceCost = 0,
 
-	pointBlankRange = 0,
-	pointBlankAccuracy = -20,
+  pointBlankRange = 0,
+  pointBlankAccuracy = -20,
 
-	idealRange = 16,
-	idealAccuracy = -20,
+  idealRange = 16,
+  idealAccuracy = -20,
 
-	maxRange = 64,
-	maxRangeAccuracy = -80,
+  maxRange = 64,
+  maxRangeAccuracy = -80,
 
-	minDamage = 10,
-	maxDamage = 400,
+  minDamage = 110,
+  maxDamage = 1000,
 
-	attackSpeed = 6,
+  attackSpeed = 1,
 
-	woundsRatio = 18,
+  woundsRatio = 18,
 
-	numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 2, 2},
-	experimentalProperties = {"XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "XX", "XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ"},
-	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
-	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "null", "null", "null", "expRange", "expEffeciency", "expEffeciency", "expEffeciency", "expEffeciency"},
-	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "charges", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 936, 1550, 9.6, 13, 30, 750, -45, -125, 32, 0, 25, 45, 97, 26},
-	experimentalMax = {0, 0, 1340, 3400, 5.4, 23, 65, 1500, -35, -95, 32, 40, 50, 24, 52, 14},
-	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1},
+  numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 2, 2},
+  experimentalProperties = {"XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "XX", "XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "XX", "XX", "XX"},
+  experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+  experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "null", "null", "null", "expRange", "expEffeciency", "null", "null", "null"},
+  experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "charges", "attackhealthcost", "attackactioncost", "attackmindcost"},
+  experimentalMin = {0, 0, 220, 1602, 4.0, 13, 30, 750, -45, -125, 32, 0, 25, 0, 300, 0},
+  experimentalMax = {0, 0, 1780, 6000, 4.0, 23, 65, 1500, -35, -95, 32, 40, 50, 0, 300, 0},
+  experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+  experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1},
 }
 
 ObjectTemplates:addTemplate(object_weapon_ranged_heavy_heavy_lightning_beam, "object/weapon/ranged/heavy/heavy_lightning_beam.iff")

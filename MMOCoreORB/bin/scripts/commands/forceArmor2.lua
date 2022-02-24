@@ -42,16 +42,12 @@
 --true = 1, false = 0
 
 ForceArmor2Command = {
-	name = "forcearmor2",
-	forceCost = 150,
-	duration = 1800,
-	--animationCRC = hashCode()
-	clientEffect = "clienteffect/pl_force_armor_self.cef",
-	buffClass = SINGLE_USE_BUFF,
-	frsDarkExtraForceCostModifier = -0.003,
-	frsLightExtraForceCostModifier = -0.003,
-	frsLightBuffModifier = 0.35,
-	frsDarkBuffModifier = 0.35,
+    name = "forcearmor2",
+    forceCost = 0,
+    duration = 900,
+    --animationCRC = hashCode()
+    clientEffect = "clienteffect/pl_force_armor_self.cef",
+    buffClass = SINGLE_USE_BUFF
 }
 
 AddCommand(ForceArmor2Command)

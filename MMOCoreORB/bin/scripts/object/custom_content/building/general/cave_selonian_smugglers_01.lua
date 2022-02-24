@@ -1,0 +1,3 @@
+object_building_general_cave_selonian_smugglers_01 = object_building_general_shared_cave_selonian_smugglers_01:new {
+}
+ObjectTemplates:addTemplate(object_building_general_cave_selonian_smugglers_01, "object/building/general/cave_selonian_smugglers_01.iff")

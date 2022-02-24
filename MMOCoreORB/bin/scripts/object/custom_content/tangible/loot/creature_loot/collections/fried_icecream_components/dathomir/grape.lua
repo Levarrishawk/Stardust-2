@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fried_icecream_components_dathomir_grape = object_tangible_loot_creature_loot_collections_fried_icecream_components_dathomir_shared_grape:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_dathomir_grape, "object/tangible/loot/creature/loot/collections/fried/icecream/components/dathomir/grape.iff")

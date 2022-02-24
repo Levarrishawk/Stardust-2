@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fish_endor_buzzfish = object_tangible_loot_creature_loot_collections_shared_fish_endor_buzzfish:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fish_endor_buzzfish, "object/tangible/loot/creature/loot/collections/fish_endor_buzzfish.iff")

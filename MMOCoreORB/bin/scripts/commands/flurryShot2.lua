@@ -45,28 +45,29 @@ FlurryShot2Command = {
         name = "flurryshot2",
 
 	damageMultiplier = 2.5,
-	speedMultiplier = 2.0,
-	healthCostMultiplier = 0.5,
-	actionCostMultiplier = 0.5,
-	mindCostMultiplier = 2.0,
-	accuracyBonus = 5,
+  speedMultiplier = 1.0,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 2,
+  mindCostMultiplier = 0,
+  accuracyBonus = 5,
+    visMod = 25,
 
-	coneAngle = 15,
-	coneAction = true,
+  coneAngle = 45,
+  coneAction = true,
 
-	stateEffects = {
-	  StateEffect( 
-		DIZZY_EFFECT, 
-		{}, 
-		{ "dizzy_defense" }, 
-		{ "jedi_state_defense", "resistance_states" },
-		100, 
-		0, 
-		30 
-	  )
-	},
+  stateEffects = {
+    StateEffect( 
+    DIZZY_EFFECT, 
+    {}, 
+    { "dizzy_defense", "resistance_states" }, 
+    { "jedi_state_defense" }, 
+    100, 
+    0, 
+    6 
+    )
+  },
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+  poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "fire_area", 
 	animType = GENERATE_INTENSITY,

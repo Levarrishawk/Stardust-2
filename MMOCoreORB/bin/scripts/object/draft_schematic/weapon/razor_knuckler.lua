@@ -48,10 +48,9 @@ object_draft_schematic_weapon_razor_knuckler = object_draft_schematic_weapon_sha
    customObjectName = "Blacksun Razor Knuckler Schematic",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 25, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general", 
    xp = 250, 
 
@@ -66,7 +65,7 @@ object_draft_schematic_weapon_razor_knuckler = object_draft_schematic_weapon_sha
    ingredientTemplateNames = {"craft_weapon_ingredients_n", "craft_weapon_ingredients_n", "craft_weapon_ingredients_n", "craft_weapon_ingredients_n", "craft_weapon_ingredients_n"},
    ingredientTitleNames = {"grip_unit", "strike_face", "vibro_unit_and_power_cell_brackets", "power_cell_socket", "vibration_generator"},
    ingredientSlotType = {0, 0, 0, 0, 1},
-   resourceTypes = {"metal_ferrous", "steel", "metal", "copper", "object/tangible/component/weapon/shared_vibro_unit_nightsister.iff"},
+   resourceTypes = {"steel_duralloy", "steel_ditanium", "aluminum_phrik", "copper_polysteel", "object/tangible/component/weapon/shared_vibro_unit_nightsister.iff"},
    resourceQuantities = {12, 8, 8, 4, 1},
    contribution = {100, 100, 100, 100, 100},
 

@@ -1,0 +1,5 @@
+object_tangible_furniture_rustic_bookcase_s01 = object_tangible_furniture_rustic_shared_bookcase_s01:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_rustic_bookcase_s01, "object/tangible/furniture/rustic/bookcase_s01.iff")

@@ -48,10 +48,9 @@ object_draft_schematic_weapon_rifle_light_blaster_dh17_carbine_snubnose = object
    customObjectName = "DH17 Short Carbine",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 25,
+   complexity = 1,
    size = 2,
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general",
    xp = 105,
 

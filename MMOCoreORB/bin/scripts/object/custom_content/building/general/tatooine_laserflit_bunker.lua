@@ -1,0 +1,3 @@
+object_building_general_tatooine_laserflit_bunker = object_building_general_shared_tatooine_laserflit_bunker:new {
+}
+ObjectTemplates:addTemplate(object_building_general_tatooine_laserflit_bunker, "object/building/general/tatooine_laserflit_bunker.iff")

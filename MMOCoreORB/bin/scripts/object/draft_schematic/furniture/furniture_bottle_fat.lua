@@ -48,13 +48,13 @@ object_draft_schematic_furniture_furniture_bottle_fat = object_draft_schematic_f
    customObjectName = "Fat Bottle Draft Schematic",
 
    craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 9, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateSize = 0,
-	factoryCrateType = "object/factory/factory_crate_furniture.iff",
-   
+
    xpType = "crafting_general", 
    xp = 110, 
+
+   factoryCrateSize = 0,
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

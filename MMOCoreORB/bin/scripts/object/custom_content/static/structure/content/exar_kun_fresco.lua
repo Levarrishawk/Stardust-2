@@ -1,0 +1,1 @@
+object_static_structure_content_exar_kun_fresco = object_static_structure_content_shared_exar_kun_fresco:new {}ObjectTemplates:addTemplate(object_static_structure_content_exar_kun_fresco, "object/static/structure/content/exar_kun_fresco.iff")

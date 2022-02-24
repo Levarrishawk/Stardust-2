@@ -1,0 +1,3 @@
+object_building_general_laminasteel_augmented_group_base = object_building_general_shared_laminasteel_augmented_group_base:new {
+}
+ObjectTemplates:addTemplate(object_building_general_laminasteel_augmented_group_base, "object/building/general/laminasteel_augmented_group_base.iff")

@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_mosaic_frieze_02 = object_tangible_loot_creature_loot_collections_shared_mosaic_frieze_02:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_mosaic_frieze_02, "object/tangible/loot/creature/loot/collections/mosaic_frieze_02.iff")

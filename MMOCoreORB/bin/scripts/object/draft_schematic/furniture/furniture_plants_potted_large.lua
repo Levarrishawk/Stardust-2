@@ -48,11 +48,10 @@ object_draft_schematic_furniture_furniture_plants_potted_large = object_draft_sc
 	customObjectName = "Large Potted Plant, Style One",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 15,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 10,
-	factoryCrateType = "object/factory/factory_crate_furniture.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 160,
 

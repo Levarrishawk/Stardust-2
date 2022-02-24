@@ -1,0 +1,5 @@
+object_mobile_tatooine_wayfar_spies_dewall_paez = object_mobile_shared_tatooine_wayfar_spies_dewall_paez:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_tatooine_wayfar_spies_dewall_paez, "object/mobile/tatooine_wayfar_spies_dewall_paez.iff")

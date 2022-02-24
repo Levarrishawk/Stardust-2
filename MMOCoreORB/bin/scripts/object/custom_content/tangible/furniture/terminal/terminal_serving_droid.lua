@@ -1,0 +1,5 @@
+object_tangible_furniture_terminal_terminal_serving_droid = object_tangible_furniture_terminal_shared_terminal_serving_droid:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_terminal_terminal_serving_droid, "object/tangible/furniture/terminal/terminal_serving_droid.iff")

@@ -44,19 +44,22 @@
 FlushingShot1Command = {
         name = "flushingshot1",
 
-	damageMultiplier = 2.0,
-	speedMultiplier = 2.0,
-	healthCostMultiplier = 0.5,
-	actionCostMultiplier = 0.5,
-	mindCostMultiplier = 1.5,
+	damageMultiplier = 2,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 2,
+	mindCostMultiplier = 0,
 	accuracyBonus = 5,
+	visMod = 25,
+	
+	coneAngle = 45,
+  coneAction = true,
 
 	stateEffects = {
 	  StateEffect( 
 		STUN_EFFECT, 
 		{}, 
-		{ "stun_defense" }, 
-		{ "jedi_state_defense", "resistance_states" },
+		{ "stun_defense", "resistance_states" }, 
+		{ "jedi_state_defense" }, 
 		100, 
 		0, 
 		35 
@@ -72,7 +75,7 @@ FlushingShot1Command = {
 	  )
 	},
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "fire_3_special_single", 
 	animType = GENERATE_RANGED,

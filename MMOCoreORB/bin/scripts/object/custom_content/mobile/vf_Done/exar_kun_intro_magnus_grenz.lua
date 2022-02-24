@@ -1,0 +1,1 @@
+object_mobile_exar_kun_intro_magnus_grenz = object_mobile_shared_exar_kun_intro_magnus_grenz:new {}ObjectTemplates:addTemplate(object_mobile_exar_kun_intro_magnus_grenz, "object/mobile/exar_kun_intro_magnus_grenz.iff")

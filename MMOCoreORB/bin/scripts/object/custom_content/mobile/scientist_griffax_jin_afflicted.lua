@@ -1,0 +1,1 @@
+object_mobile_scientist_griffax_jin_afflicted = object_mobile_shared_scientist_griffax_jin_afflicted:new {}ObjectTemplates:addTemplate(object_mobile_scientist_griffax_jin_afflicted, "object/mobile/scientist_griffax_jin_afflicted.iff")

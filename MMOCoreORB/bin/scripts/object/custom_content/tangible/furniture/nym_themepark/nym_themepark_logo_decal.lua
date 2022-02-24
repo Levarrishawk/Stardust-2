@@ -1,0 +1,5 @@
+object_tangible_furniture_nym_themepark_nym_themepark_logo_decal = object_tangible_furniture_nym_themepark_shared_nym_themepark_logo_decal:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_nym_themepark_nym_themepark_logo_decal, "object/tangible/furniture/nym_themepark/nym_themepark_logo_decal.iff")

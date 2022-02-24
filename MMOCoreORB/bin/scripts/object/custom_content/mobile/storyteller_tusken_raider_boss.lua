@@ -1,0 +1,5 @@
+object_mobile_storyteller_tusken_raider_boss = object_mobile_shared_storyteller_tusken_raider_boss:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_storyteller_tusken_raider_boss, "object/mobile/storyteller_tusken_raider_boss.iff")

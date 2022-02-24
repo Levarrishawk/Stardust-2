@@ -1,0 +1,5 @@
+object_tangible_item_beast_converted_kai_tok_decoration = object_tangible_item_beast_shared_converted_kai_tok_decoration:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_beast_converted_kai_tok_decoration, "object/tangible/item/beast/converted_kai_tok_decoration.iff")

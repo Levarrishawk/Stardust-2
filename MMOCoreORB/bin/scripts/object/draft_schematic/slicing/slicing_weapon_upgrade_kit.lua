@@ -48,10 +48,9 @@ object_draft_schematic_slicing_slicing_weapon_upgrade_kit = object_draft_schemat
    customObjectName = "Weapon Upgrade Kit",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+
    xpType = "crafting_weapons_general", 
    xp = 60, 
 

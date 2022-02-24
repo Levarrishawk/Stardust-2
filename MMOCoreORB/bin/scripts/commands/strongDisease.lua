@@ -51,9 +51,9 @@ StrongDiseaseCommand = {
 		ATTACK_POOL,
 		true,
 		0,
-		60,
-		80, 
-		405,
+		6,
+		8, 
+		4,
 		45
 	  )
 	}

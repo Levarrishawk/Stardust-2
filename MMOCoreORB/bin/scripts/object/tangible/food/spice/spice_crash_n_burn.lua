@@ -59,7 +59,7 @@ object_tangible_food_spice_spice_crash_n_burn = object_tangible_food_spice_share
 	quantityMin = 0,
 	quantityMax = 0,
 
-	modifiers = { "action", -200, "quickness" , -200, "mind", 400, "focus", 200 },
+	modifiers = { "action", -200, "health", 400 },
 
 	buffName = "crash_n_burn",
 	buffCRC = 0,

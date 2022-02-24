@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_furniture_diner_bar = object_draft_schematic_furniture_shared_furniture_diner_bar:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_diner_bar, "object/draft_schematic/furniture/furniture_diner_bar.iff")

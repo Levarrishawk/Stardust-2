@@ -1,0 +1,5 @@
+object_mobile_storyteller_super_battle_droid_boss = object_mobile_shared_storyteller_super_battle_droid_boss:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_storyteller_super_battle_droid_boss, "object/mobile/storyteller_super_battle_droid_boss.iff")

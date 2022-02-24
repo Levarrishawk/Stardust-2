@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_imp_t3_darth_maul = object_tangible_loot_creature_loot_collections_shared_imp_t3_darth_maul:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_imp_t3_darth_maul, "object/tangible/loot/creature/loot/collections/imp_t3_darth_maul.iff")

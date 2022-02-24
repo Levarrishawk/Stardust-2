@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fried_icecream_components_naboo_stinkmelon = object_tangible_loot_creature_loot_collections_fried_icecream_components_naboo_shared_stinkmelon:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_naboo_stinkmelon, "object/tangible/loot/creature/loot/collections/fried/icecream/components/naboo/stinkmelon.iff")

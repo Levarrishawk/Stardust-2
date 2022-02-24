@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_trader_dom_jewelry_clasp = object_tangible_loot_creature_loot_collections_shared_trader_dom_jewelry_clasp:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_trader_dom_jewelry_clasp, "object/tangible/loot/creature/loot/collections/trader_dom_jewelry_clasp.iff")

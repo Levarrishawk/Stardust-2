@@ -1,0 +1,5 @@
+object_mobile_dressed_meatlump_lieutenant_05 = object_mobile_shared_dressed_meatlump_lieutenant_05:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_meatlump_lieutenant_05, "object/mobile/dressed_meatlump_lieutenant_05.iff")

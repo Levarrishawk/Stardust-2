@@ -1,0 +1,5 @@
+object_intangible_vehicle_swoopracer_red_pcd = object_intangible_vehicle_shared_swoopracer_red_pcd:new {
+
+}
+
+ObjectTemplates:addTemplate(object_intangible_vehicle_swoopracer_red_pcd, "object/intangible/vehicle/swoopracer_red_pcd.iff")

@@ -48,12 +48,11 @@ object_draft_schematic_food_dish_rations = object_draft_schematic_food_shared_di
    customObjectName = "K-18 Rations",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 3, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_food.iff",
-   
+
    xpType = "crafting_general", 
-   xp = 50, 
+   xp = 100, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

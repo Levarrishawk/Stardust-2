@@ -53,7 +53,7 @@ object_weapon_ranged_creature_creature_spit_heavy_flame = object_weapon_ranged_c
 	damageType = HEAT,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = NONE,
+	armorPiercing = LIGHT,
 
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
@@ -81,7 +81,7 @@ object_weapon_ranged_creature_creature_spit_heavy_flame = object_weapon_ranged_c
 
 	-- The values below are the default values.  To be used for blue frog objects primarily
 	healthAttackCost = 0,
-	actionAttackCost = 0,
+	actionAttackCost = 300,
 	mindAttackCost = 0,
 	forceCost = 0,
 

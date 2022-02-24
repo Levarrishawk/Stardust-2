@@ -42,13 +42,12 @@
 --true = 1, false = 0
 
 Saber1hFlurryCommand = {
-	name = "saber1hflurry",
+        name = "saber1hflurry",
 
-	damageMultiplier = 3.5,
-	accuracyBonus = 50,
+	damageMultiplier = 1.75,
 	speedMultiplier = 3.0,
 	healthCostMultiplier = 0,
-	actionCostMultiplier = 0,
+	actionCostMultiplier = 1.5,
 	mindCostMultiplier = 0,
 	areaRange = 16,
 	areaAction = true,
@@ -56,45 +55,45 @@ Saber1hFlurryCommand = {
 	visMod = 25,
 
 	stateEffects = {
-		StateEffect(
-			BLIND_EFFECT,
-			{},
-			{ "blind_defense" },
-			{ "jedi_state_defense", "resistance_states" },
-			75,
-			0,
-			60
-		),
-		StateEffect(
-			DIZZY_EFFECT,
-			{},
-			{ "dizzy_defense" },
-			{ "jedi_state_defense", "resistance_states" },
-			75,
-			0,
-			30
-		),
-		StateEffect(
-			STUN_EFFECT,
-			{},
-			{ "stun_defense" },
-			{ "jedi_state_defense", "resistance_states" },
-			75,
-			0,
-			60
-		)
+	   StateEffect( 
+		BLIND_EFFECT, 
+		{}, 
+		{ "blind_defense", "resistance_states" }, 
+		{ "jedi_state_defense" }, 
+		75, 
+		0, 
+		60
+	  ),
+	  StateEffect( 
+		DIZZY_EFFECT, 
+		{}, 
+		{ "dizzy_defense", "resistance_states" }, 
+		{ "jedi_state_defense" }, 
+		75, 
+		0, 
+		10 
+	  ),
+	  StateEffect( 
+		STUN_EFFECT, 
+		{}, 
+		{ "stun_defense", "resistance_states" }, 
+		{ "jedi_state_defense" }, 
+		75, 
+		0, 
+		60
+	  )
 	},
 
-	animation = "showoff_2",
+	animation = "showoff_2", 
 	animType = GENERATE_INTENSITY,
 
 	combatSpam = "saber1hflurry",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	weaponType = ONEHANDJEDIWEAPON,
 
-	range = -1
+	range = 8
 }
 
 AddCommand(Saber1hFlurryCommand)

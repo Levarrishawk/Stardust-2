@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_ig_88_stand = object_tangible_loot_creature_loot_collections_shared_ig_88_stand:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_ig_88_stand, "object/tangible/loot/creature/loot/collections/ig_88_stand.iff")

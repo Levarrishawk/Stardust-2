@@ -1,0 +1,3 @@
+object_tangible_dungeon_hoth_escape_shuttle_rebel = object_tangible_dungeon_hoth_shared_escape_shuttle_rebel:new {
+}
+ObjectTemplates:addTemplate(object_tangible_dungeon_hoth_escape_shuttle_rebel, "object/tangible/dungeon/hoth/escape_shuttle_rebel.iff")

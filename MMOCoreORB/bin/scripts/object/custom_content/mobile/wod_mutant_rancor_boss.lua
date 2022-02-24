@@ -1,0 +1,1 @@
+object_mobile_wod_mutant_rancor_boss = object_mobile_shared_wod_mutant_rancor_boss:new {}ObjectTemplates:addTemplate(object_mobile_wod_mutant_rancor_boss, "object/mobile/wod_mutant_rancor_boss.iff")

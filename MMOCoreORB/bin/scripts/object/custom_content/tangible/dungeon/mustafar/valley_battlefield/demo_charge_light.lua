@@ -1,0 +1,1 @@
+object_tangible_dungeon_mustafar_valley_battlefield_demo_charge_light = object_tangible_dungeon_mustafar_valley_battlefield_shared_demo_charge_light:new {}ObjectTemplates:addTemplate(object_tangible_dungeon_mustafar_valley_battlefield_demo_charge_light, "object/tangible/dungeon/mustafar/valley_battlefield/demo_charge_light.iff")

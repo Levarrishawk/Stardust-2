@@ -41,6 +41,85 @@
 --which carries forward this exception.
 
 
+object_tangible_wearables_base_shared_base_cybernetic_forearm_l = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/base/shared_base_cybernetic_forearm_l.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_base_shared_base_cybernetic_forearm_l, "object/tangible/wearables/base/shared_base_cybernetic_forearm_l.iff")
+
+
+
+object_tangible_wearables_base_shared_base_cybernetic_forearm_r = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/base/shared_base_cybernetic_forearm_r.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_base_shared_base_cybernetic_forearm_r, "object/tangible/wearables/base/shared_base_cybernetic_forearm_r.iff")
+
+
+
+object_tangible_wearables_base_shared_base_cybernetic_hand_l = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/base/shared_base_cybernetic_hand_l.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_base_shared_base_cybernetic_hand_l, "object/tangible/wearables/base/shared_base_cybernetic_hand_l.iff")
+
+
+
+object_tangible_wearables_base_shared_base_cybernetic_hand_r = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/base/shared_base_cybernetic_hand_r.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_base_shared_base_cybernetic_hand_r, "object/tangible/wearables/base/shared_base_cybernetic_hand_r.iff")
+
+
+
+object_tangible_wearables_base_shared_base_dress_longsleeve = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/base/shared_base_dress_longsleeve.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_base_shared_base_dress_longsleeve, "object/tangible/wearables/base/shared_base_dress_longsleeve.iff")
+
+
+
+object_tangible_wearables_base_shared_base_fannypack = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/base/shared_base_fannypack.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_base_shared_base_fannypack, "object/tangible/wearables/base/shared_base_fannypack.iff")
+
+
+
+
+object_tangible_wearables_base_shared_base_cybernetic_arm_l = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/base/shared_base_cybernetic_arm_l.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_base_shared_base_cybernetic_arm_l, "object/tangible/wearables/base/shared_base_cybernetic_arm_l.iff")
+
+
+object_tangible_wearables_base_shared_base_cybernetic_arm_r = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/base/shared_base_cybernetic_arm_r.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_base_shared_base_cybernetic_arm_r, "object/tangible/wearables/base/shared_base_cybernetic_arm_r.iff")
+
+
+object_tangible_wearables_base_shared_base_cybernetic_legs = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/base/shared_base_cybernetic_legs.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_base_shared_base_cybernetic_legs, "object/tangible/wearables/base/shared_base_cybernetic_legs.iff")
+
+
+object_tangible_wearables_base_shared_base_cybernetic_torso = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/base/shared_base_cybernetic_torso.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_base_shared_base_cybernetic_torso, "object/tangible/wearables/base/shared_base_cybernetic_torso.iff")
+
+
+
+object_tangible_wearables_base_shared_cybernetic_base = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/base/shared_cybernetic_base.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_base_shared_cybernetic_base, "object/tangible/wearables/base/shared_cybernetic_base.iff")
+
+
+
+
+
+
+
 object_tangible_wearables_base_shared_armor_base = SharedTangibleObjectTemplate:new {
 	clientTemplateFileName = "object/tangible/wearables/base/shared_armor_base.iff"
 	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
@@ -4937,62 +5016,18 @@ object_tangible_wearables_base_shared_base_wrist_r = SharedTangibleObjectTemplat
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_wearables_base_shared_base_wrist_r, "object/tangible/wearables/base/shared_base_wrist_r.iff")
+--
 
 object_tangible_wearables_base_shared_wearables_base = SharedTangibleObjectTemplate:new {
 	clientTemplateFileName = "object/tangible/wearables/base/shared_wearables_base.iff"
-	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
---[[
-	appearanceFilename = "",
-	arrangementDescriptorFilename = "",
-
-	certificationsRequired = {},
-	clearFloraRadius = 0,
-	clientDataFile = "",
-	clientGameObjectType = 16777233,
-	collisionActionBlockFlags = 0,
-	collisionActionFlags = 51,
-	collisionActionPassFlags = 1,
-	collisionMaterialBlockFlags = 0,
-	collisionMaterialFlags = 1,
-	collisionMaterialPassFlags = 0,
-	containerType = 0,
-	containerVolumeLimit = 1,
-	customizationVariableMapping = {},
-
-	detailedDescription = "@wearables_detail:default_wearable",
-
-	gameObjectType = 16777233,
-
-	locationReservationRadius = 0,
-	lookAtText = "string_id_table",
-
-	noBuildRadius = 0,
-
-	objectName = "@wearables_name:default_wearable",
-	onlyVisibleInTools = 0,
-
-	paletteColorCustomizationVariables = {},
-	portalLayoutFilename = "",
-
-	rangedIntCustomizationVariables = {},
-
-	scale = 1,
-	scaleThresholdBeforeExtentTest = 0.5,
-	sendToClient = 1,
-	slotDescriptorFilename = "abstract/slot/descriptor/tangible.iff",
-	snapToTerrain = 1,
-	socketDestinations = {},
-	structureFootprintFileName = "",
-	surfaceType = 0,
-
-	targetable = 1,
-	totalCellNumber = 0,
-
-	useStructureFootprintOutline = 0,
-
-	clientObjectCRC = 3547164646,
-	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/tangible/base/shared_tangible_craftable.iff"}
-]]
+	
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_wearables_base_shared_wearables_base, "object/tangible/wearables/base/shared_wearables_base.iff")
+
+object_tangible_wearables_base_shared_base_jedicloak = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/base/shared_base_jedicloak.iff"
+	
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_wearables_base_shared_base_jedicloak, "object/tangible/wearables/base/shared_base_jedicloak.iff")

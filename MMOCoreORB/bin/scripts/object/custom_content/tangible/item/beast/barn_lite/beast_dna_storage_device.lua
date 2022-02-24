@@ -1,0 +1,5 @@
+object_tangible_item_beast_barn_lite_beast_dna_storage_device = object_tangible_item_beast_barn_lite_shared_beast_dna_storage_device:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_beast_barn_lite_beast_dna_storage_device, "object/tangible/item/beast/barn_lite/beast_dna_storage_device.iff")

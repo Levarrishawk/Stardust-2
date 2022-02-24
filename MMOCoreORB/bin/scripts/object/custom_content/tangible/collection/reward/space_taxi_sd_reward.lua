@@ -1,0 +1,5 @@
+object_tangible_collection_reward_space_taxi_sd_reward = object_tangible_collection_reward_shared_space_taxi_sd_reward:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_space_taxi_sd_reward, "object/tangible/collection/reward/space_taxi_sd_reward.iff")

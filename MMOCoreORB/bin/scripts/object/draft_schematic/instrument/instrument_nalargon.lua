@@ -48,12 +48,11 @@ object_draft_schematic_instrument_instrument_nalargon = object_draft_schematic_i
    customObjectName = "a Nalargon",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 18, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_generic_items.iff",
-   
+
    xpType = "music", 
-   xp = 450, 
+   xp = 500, 
 
    assemblySkill = "instrument_assembly", 
    experimentingSkill = "general_experimentation", 

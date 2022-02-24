@@ -48,11 +48,10 @@ object_draft_schematic_vehicle_civilian_speeder_bike_swoop = object_draft_schema
 	customObjectName = "Swoop",
 
 	craftingToolTab = 16, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 20,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_installation.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_general",
 	xp = 1600,
 
@@ -68,7 +67,7 @@ object_draft_schematic_vehicle_civilian_speeder_bike_swoop = object_draft_schema
 	ingredientTitleNames = {"vehicle_body", "structural_frame"},
 	ingredientSlotType = {0, 0},
 	resourceTypes = {"metal_nonferrous", "metal_ferrous"},
-	resourceQuantities = {1600, 6400},
+	resourceQuantities = {800, 640},
 	contribution = {100, 100},
 
 	targetTemplate = "object/tangible/deed/vehicle_deed/speederbike_swoop_deed.iff",

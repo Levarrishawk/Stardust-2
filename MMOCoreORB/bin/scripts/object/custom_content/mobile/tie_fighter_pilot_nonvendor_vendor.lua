@@ -1,0 +1,5 @@
+object_mobile_tie_fighter_pilot_nonvendor_vendor = object_mobile_shared_tie_fighter_pilot_nonvendor_vendor:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_tie_fighter_pilot_nonvendor_vendor, "object/mobile/tie_fighter_pilot_nonvendor_vendor.iff")

@@ -46,15 +46,15 @@ Melee1hScatterHit1Command = {
 
 	damageMultiplier = 3.0,
 	speedMultiplier = 1.5,
-	healthCostMultiplier = 1.0,
-	actionCostMultiplier = 1.0,
-	mindCostMultiplier = 1.5,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 2.5,
+	mindCostMultiplier = 0,
         accuracyBonus = 25,
 
 	animation = "combo_3b", 
 	animType = GENERATE_INTENSITY,
 
-	poolsToDamage = HEALTH_ATTRIBUTE + ACTION_ATTRIBUTE + MIND_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 	
 	weaponType = ONEHANDMELEEWEAPON,
 

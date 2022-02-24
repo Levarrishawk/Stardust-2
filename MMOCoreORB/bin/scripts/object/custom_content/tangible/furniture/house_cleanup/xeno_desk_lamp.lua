@@ -1,0 +1,3 @@
+object_tangible_furniture_house_cleanup_xeno_desk_lamp = object_tangible_furniture_house_cleanup_shared_xeno_desk_lamp:new {
+}
+ObjectTemplates:addTemplate(object_tangible_furniture_house_cleanup_xeno_desk_lamp, "object/tangible/furniture/house_cleanup/xeno_desk_lamp.iff")

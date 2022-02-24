@@ -1,0 +1,5 @@
+object_tangible_loot_simple_kit_legacy_droid_legs = object_tangible_loot_simple_kit_shared_legacy_droid_legs:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_simple_kit_legacy_droid_legs, "object/tangible/loot/simple/kit/legacy_droid_legs.iff")

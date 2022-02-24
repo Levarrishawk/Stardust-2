@@ -50,8 +50,7 @@ object_draft_schematic_space_weapon_missile_countermeasure_em_pack = object_draf
    craftingToolTab = 131072, -- (See DraftSchematicObjectTemplate.h)
    complexity = 17, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+
    xpType = "shipwright", 
    xp = 313, 
 

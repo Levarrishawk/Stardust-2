@@ -1,0 +1,5 @@
+object_tangible_collection_reward_meatlump_scrapbook_reward = object_tangible_collection_reward_shared_meatlump_scrapbook_reward:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_meatlump_scrapbook_reward, "object/tangible/collection/reward/meatlump_scrapbook_reward.iff")

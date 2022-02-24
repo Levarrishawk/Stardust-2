@@ -1,0 +1,5 @@
+object_tangible_loot_mustafar_bones_must_monster_jaw_large = object_tangible_loot_mustafar_shared_bones_must_monster_jaw_large:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_mustafar_bones_must_monster_jaw_large, "object/tangible/loot/mustafar/bones_must_monster_jaw_large.iff")

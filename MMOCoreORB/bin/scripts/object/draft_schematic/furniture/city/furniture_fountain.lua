@@ -48,11 +48,10 @@ object_draft_schematic_furniture_city_furniture_fountain = object_draft_schemati
 	customObjectName = "Fountain",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 21,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 10,
-	factoryCrateType = "object/factory/factory_crate_furniture.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 3300,
 

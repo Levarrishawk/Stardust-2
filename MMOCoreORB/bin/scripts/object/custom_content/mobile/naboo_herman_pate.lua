@@ -1,0 +1,1 @@
+object_mobile_naboo_herman_pate = object_mobile_shared_naboo_herman_pate:new {}ObjectTemplates:addTemplate(object_mobile_naboo_herman_pate, "object/mobile/naboo_herman_pate.iff")

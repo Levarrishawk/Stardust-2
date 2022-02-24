@@ -3,42 +3,42 @@
 
 --This File is part of Core3.
 
---This program is free software; you can redistribute
---it and/or modify it under the terms of the GNU Lesser
+--This program is free software; you can redistribute 
+--it and/or modify it under the terms of the GNU Lesser 
 --General Public License as published by the Free Software
---Foundation; either version 2 of the License,
+--Foundation; either version 2 of the License, 
 --or (at your option) any later version.
 
---This program is distributed in the hope that it will be useful,
---but WITHOUT ANY WARRANTY; without even the implied warranty of
---MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+--This program is distributed in the hope that it will be useful, 
+--but WITHOUT ANY WARRANTY; without even the implied warranty of 
+--MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
 --See the GNU Lesser General Public License for
 --more details.
 
---You should have received a copy of the GNU Lesser General
+--You should have received a copy of the GNU Lesser General 
 --Public License along with this program; if not, write to
 --the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
---Linking Engine3 statically or dynamically with other modules
---is making a combined work based on Engine3.
---Thus, the terms and conditions of the GNU Lesser General Public License
+--Linking Engine3 statically or dynamically with other modules 
+--is making a combined work based on Engine3. 
+--Thus, the terms and conditions of the GNU Lesser General Public License 
 --cover the whole combination.
 
---In addition, as a special exception, the copyright holders of Engine3
---give you permission to combine Engine3 program with free software
---programs or libraries that are released under the GNU LGPL and with
---code included in the standard release of Core3 under the GNU LGPL
---license (or modified versions of such code, with unchanged license).
---You may copy and distribute such a system following the terms of the
---GNU LGPL for Engine3 and the licenses of the other code concerned,
---provided that you include the source code of that other code when
+--In addition, as a special exception, the copyright holders of Engine3 
+--give you permission to combine Engine3 program with free software 
+--programs or libraries that are released under the GNU LGPL and with 
+--code included in the standard release of Core3 under the GNU LGPL 
+--license (or modified versions of such code, with unchanged license). 
+--You may copy and distribute such a system following the terms of the 
+--GNU LGPL for Engine3 and the licenses of the other code concerned, 
+--provided that you include the source code of that other code when 
 --and as the GNU LGPL requires distribution of source code.
 
---Note that people who make modified versions of Engine3 are not obligated
---to grant this special exception for their modified versions;
---it is their choice whether to do so. The GNU Lesser General Public License
---gives permission to release a modified version without this exception;
---this exception also makes it possible to release a modified version
+--Note that people who make modified versions of Engine3 are not obligated 
+--to grant this special exception for their modified versions; 
+--it is their choice whether to do so. The GNU Lesser General Public License 
+--gives permission to release a modified version without this exception; 
+--this exception also makes it possible to release a modified version 
 
 
 object_weapon_ranged_pistol_pistol_scatter = object_weapon_ranged_pistol_shared_pistol_scatter:new {
@@ -68,7 +68,7 @@ object_weapon_ranged_pistol_pistol_scatter = object_weapon_ranged_pistol_shared_
 	-- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
 	attackType = RANGEDATTACK,
 
-	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, LIGHTSABER
+	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, FORCE, LIGHTSABER
 	damageType = ACID,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
@@ -100,34 +100,34 @@ object_weapon_ranged_pistol_pistol_scatter = object_weapon_ranged_pistol_shared_
 
 
 	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 24,
-	actionAttackCost = 54,
-	mindAttackCost = 24,
+	healthAttackCost = 0,
+	actionAttackCost = 75,
+	mindAttackCost = 0,
 	forceCost = 0,
 
 	pointBlankRange = 0,
-	pointBlankAccuracy = -45,
+	pointBlankAccuracy = 0,
 
 	idealRange = 7,
-	idealAccuracy = 37,
+	idealAccuracy = 25,
 
 	maxRange = 64,
-	maxRangeAccuracy = -95,
+	maxRangeAccuracy = -70,
 
-	minDamage = 104,
-	maxDamage = 125,
+	minDamage = 95,
+	maxDamage = 115,
 
-	attackSpeed = 3,
+	attackSpeed = 3.5,
 
-	woundsRatio = 30,
+	woundsRatio = 22,
 
 	numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 2},
-	experimentalProperties = {"XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "XX", "XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ"},
+	experimentalProperties = {"XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "XX", "XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "XX", "XX", "XX"},
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
-	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "null", "null", "null", "expRange", "expEffeciency", "expEffeciency", "expEffeciency"},
+	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "null", "null", "null", "expRange", "null", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 49, 56, 4.8, 15, 30, 750, -45, -95, 7, 18, 20, 58, 20},
-	experimentalMax = {0, 0, 91, 104, 3.3, 27, 30, 1500, -15, -65, 7, 35, 10, 31, 10},
+	experimentalMin = {0, 0, 49, 56, 2, 15, 30, 750, -45, -95, 7, 18, 0, 300, 0},
+	experimentalMax = {0, 0, 90, 404, 2, 27, 30, 1500, -15, -65, 7, 35, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

@@ -48,9 +48,8 @@ object_draft_schematic_clothing_clothing_ith_shirt_casual_01 = object_draft_sche
    customObjectName = "Ithorian Long Sweater",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 9, 
+   complexity = 1, 
    size = 3, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_general", 
    xp = 60, 

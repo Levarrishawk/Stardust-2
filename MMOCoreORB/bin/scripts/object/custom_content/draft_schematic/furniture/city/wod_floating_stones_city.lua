@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_city_wod_floating_stones_city = object_draft_schematic_furniture_city_shared_wod_floating_stones_city:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_city_wod_floating_stones_city, "object/draft_schematic/furniture/city/wod_floating_stones_city.iff")

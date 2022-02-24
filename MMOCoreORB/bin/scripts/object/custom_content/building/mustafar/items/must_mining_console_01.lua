@@ -1,0 +1,1 @@
+object_building_mustafar_items_must_mining_console_01 = object_building_mustafar_items_shared_must_mining_console_01:new {}ObjectTemplates:addTemplate(object_building_mustafar_items_must_mining_console_01, "object/building/mustafar/items/must_mining_console_01.iff")

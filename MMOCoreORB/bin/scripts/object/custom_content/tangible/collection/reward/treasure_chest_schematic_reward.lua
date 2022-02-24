@@ -1,0 +1,5 @@
+object_tangible_collection_reward_treasure_chest_schematic_reward = object_tangible_collection_reward_shared_treasure_chest_schematic_reward:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_treasure_chest_schematic_reward, "object/tangible/collection/reward/treasure_chest_schematic_reward.iff")

@@ -1,0 +1,5 @@
+object_tangible_furniture_house_cleanup_cts_galaxy_painting = object_tangible_furniture_house_cleanup_shared_cts_galaxy_painting:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_house_cleanup_cts_galaxy_painting, "object/tangible/furniture/house_cleanup/cts_galaxy_painting.iff")

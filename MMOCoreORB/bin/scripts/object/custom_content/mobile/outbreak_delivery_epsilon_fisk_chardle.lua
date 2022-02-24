@@ -1,0 +1,1 @@
+object_mobile_outbreak_delivery_epsilon_fisk_chardle = object_mobile_shared_outbreak_delivery_epsilon_fisk_chardle:new {}ObjectTemplates:addTemplate(object_mobile_outbreak_delivery_epsilon_fisk_chardle, "object/mobile/outbreak_delivery_epsilon_fisk_chardle.iff")

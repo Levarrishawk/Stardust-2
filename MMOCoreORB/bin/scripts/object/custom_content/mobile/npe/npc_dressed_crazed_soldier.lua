@@ -1,0 +1,5 @@
+
+object_mobile_npe_npc_dressed_crazed_soldier = object_mobile_npe_shared_npc_dressed_crazed_soldier:new {
+
+}
+ObjectTemplates:addTemplate(object_mobile_npe_npc_dressed_crazed_soldier, "object/mobile/npe/npc_dressed_crazed_soldier.iff")

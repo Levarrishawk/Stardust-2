@@ -1,0 +1,1 @@
+object_static_halloween_item_wookiee_stick = object_static_halloween_shared_item_wookiee_stick:new {}ObjectTemplates:addTemplate(object_static_halloween_item_wookiee_stick, "object/static/halloween/item_wookiee_stick.iff")

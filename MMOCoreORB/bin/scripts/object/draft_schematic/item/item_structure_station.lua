@@ -48,10 +48,9 @@ object_draft_schematic_item_item_structure_station = object_draft_schematic_item
    customObjectName = "Structure and Furniture Crafting Station",
 
    craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 5, 
-   factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+
    xpType = "crafting_structure_general", 
    xp = 900, 
 

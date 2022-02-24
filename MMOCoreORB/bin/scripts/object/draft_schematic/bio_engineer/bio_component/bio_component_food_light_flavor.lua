@@ -48,9 +48,8 @@ object_draft_schematic_bio_engineer_bio_component_bio_component_food_light_flavo
    customObjectName = "Multisaccharide Dimate",
 
    craftingToolTab = 128, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 18, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
    xpType = "crafting_bio_engineer_creature", 
    xp = 130, 

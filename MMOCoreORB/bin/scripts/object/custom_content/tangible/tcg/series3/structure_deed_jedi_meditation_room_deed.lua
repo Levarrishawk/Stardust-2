@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series3_structure_deed_jedi_meditation_room_deed = object_tangible_tcg_series3_shared_structure_deed_jedi_meditation_room_deed:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series3_structure_deed_jedi_meditation_room_deed, "object/tangible/tcg/series3/structure_deed_jedi_meditation_room_deed.iff")

@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series7_garage_display_vehicles_speeder_ric_920 = object_tangible_tcg_series7_garage_display_vehicles_shared_speeder_ric_920:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_speeder_ric_920, "object/tangible/tcg/series7/garage_display_vehicles/speeder_ric_920.iff")

@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_eow_meatlump_lump = object_tangible_loot_creature_loot_collections_shared_eow_meatlump_lump:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_eow_meatlump_lump, "object/tangible/loot/creature/loot/collections/eow_meatlump_lump.iff")

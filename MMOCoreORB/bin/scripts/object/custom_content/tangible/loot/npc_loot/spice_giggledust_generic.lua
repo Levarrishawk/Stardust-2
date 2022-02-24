@@ -1,0 +1,5 @@
+object_tangible_loot_npc_loot_spice_giggledust_generic = object_tangible_loot_npc_loot_shared_spice_giggledust_generic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_spice_giggledust_generic, "object/tangible/loot/npc/loot/spice_giggledust_generic.iff")

@@ -44,12 +44,15 @@
 PolearmActionHit2Command = {
         name = "polearmactionhit2",
 
-	damageMultiplier = 2.0,
-	speedMultiplier = 2.0,
-	healthCostMultiplier = 1.5,
-	actionCostMultiplier = 1.0,
-	mindCostMultiplier = 1.0,
-	accuracyBonus = 10,
+	damageMultiplier = 2.5,
+  speedMultiplier = 4.25,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 2,
+  mindCostMultiplier = 0,
+    visMod = 25,
+  --accuracyBonus = 30,
+  
+  poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "lower_posture_2hmelee_2",
 
@@ -62,9 +65,9 @@ PolearmActionHit2Command = {
 		ACTION,
 		true,
 		0,
-		100,
-		60, 
-		60
+    150,
+    150, 
+    30
 	  )
 	},
 	

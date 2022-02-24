@@ -1,0 +1,5 @@
+object_mobile_dressed_tatooine_entha_drakus = object_mobile_shared_dressed_tatooine_entha_drakus:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_tatooine_entha_drakus, "object/mobile/dressed_tatooine_entha_drakus.iff")

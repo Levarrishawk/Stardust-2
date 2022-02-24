@@ -1,0 +1,1 @@
+object_mobile_ds1814 = object_mobile_shared_ds1814:new {}ObjectTemplates:addTemplate(object_mobile_ds1814, "object/mobile/ds1814.iff")

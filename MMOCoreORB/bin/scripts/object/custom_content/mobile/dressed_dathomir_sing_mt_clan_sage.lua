@@ -1,0 +1,1 @@
+object_mobile_dressed_dathomir_sing_mt_clan_sage = object_mobile_shared_dressed_dathomir_sing_mt_clan_sage:new {}ObjectTemplates:addTemplate(object_mobile_dressed_dathomir_sing_mt_clan_sage, "object/mobile/dressed_dathomir_sing_mt_clan_sage.iff")

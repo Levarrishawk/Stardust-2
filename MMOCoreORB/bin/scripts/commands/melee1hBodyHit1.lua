@@ -44,14 +44,14 @@
 Melee1hBodyHit1Command = {
 	name = "melee1hbodyhit1",
 
-	damageMultiplier = 1.5,
-	speedMultiplier = 1.5,
-	healthCostMultiplier = 0.5,
-	actionCostMultiplier = 0.5,
-	mindCostMultiplier = 0.625,
-        accuracyBonus = 25,
+	damageMultiplier = 1.75,
+  speedMultiplier = 2,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 1.5,
+  mindCostMultiplier = 0,
+    visMod = 25,
 
-	poolsToDamage = HEALTH_ATTRIBUTE,
+  poolsToDamage = HEALTH_ATTRIBUTE,
 	weaponType = ONEHANDMELEEWEAPON,
 
 	animation = "counter_high_right", 
@@ -59,7 +59,7 @@ Melee1hBodyHit1Command = {
 
 	combatSpam = "saimai",
 
-	range = -1
+	range = 8
 }
 
 AddCommand(Melee1hBodyHit1Command)

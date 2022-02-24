@@ -1,0 +1,1 @@
+object_static_worldbuilding_building_echo_base_rec_sign = object_static_worldbuilding_building_shared_echo_base_rec_sign:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_building_echo_base_rec_sign, "object/static/worldbuilding/building/echo_base_rec_sign.iff")

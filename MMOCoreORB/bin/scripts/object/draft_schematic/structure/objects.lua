@@ -2148,6 +2148,15 @@ object_draft_schematic_structure_shared_installation_mining_organic_creature = S
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_installation_mining_organic_creature, "object/draft_schematic/structure/shared_installation_mining_organic_creature.iff")
 
+
+
+object_draft_schematic_structure_shared_installation_mining_ore_advanced = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_installation_mining_ore_advanced.iff"
+
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_installation_mining_ore_advanced, "object/draft_schematic/structure/shared_installation_mining_ore_advanced.iff")
+
+
 object_draft_schematic_structure_shared_installation_mining_organic_flora = SharedDraftSchematicObjectTemplate:new {
 	clientTemplateFileName = "object/draft_schematic/structure/shared_installation_mining_organic_flora.iff"
 	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
@@ -2637,3 +2646,154 @@ object_draft_schematic_structure_shared_tatooine_house_guild_hall_style_02 = Sha
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_tatooine_house_guild_hall_style_02, "object/draft_schematic/structure/shared_tatooine_house_guild_hall_style_02.iff")
+
+
+--VIP Bunker Schem
+object_draft_schematic_structure_shared_vipbunker_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_vipbunker_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_vipbunker_house_schem, "object/draft_schematic/structure/shared_vipbunker_house_schem.iff")
+
+--atat Schem
+object_draft_schematic_structure_shared_atat_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_atat_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_atat_house_schem, "object/draft_schematic/structure/shared_atat_house_schem.iff")
+
+--bespin Schem
+object_draft_schematic_structure_shared_bespin_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_bespin_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_bespin_house_schem, "object/draft_schematic/structure/shared_bespin_house_schem.iff")
+
+--commando Schem
+object_draft_schematic_structure_shared_commando_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_commando_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_commando_house_schem, "object/draft_schematic/structure/shared_commando_house_schem.iff")
+
+--emperors Schem
+object_draft_schematic_structure_shared_emperors_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_emperors_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_emperors_house_schem, "object/draft_schematic/structure/shared_emperors_house_schem.iff")
+
+--hangar Schem
+object_draft_schematic_structure_shared_hangar_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_hangar_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_hangar_house_schem, "object/draft_schematic/structure/shared_hangar_house_schem.iff")
+
+--jabbas Schem
+object_draft_schematic_structure_shared_jabbas_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_jabbas_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_jabbas_house_schem, "object/draft_schematic/structure/shared_jabbas_house_schem.iff")
+
+--jedi Schem
+object_draft_schematic_structure_shared_jedi_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_jedi_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_jedi_house_schem, "object/draft_schematic/structure/shared_jedi_house_schem.iff")
+
+--musty Schem
+object_draft_schematic_structure_shared_musty_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_musty_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_musty_house_schem, "object/draft_schematic/structure/shared_musty_house_schem.iff")
+
+--rebel Schem
+object_draft_schematic_structure_shared_rebel_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_rebel_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_rebel_house_schem, "object/draft_schematic/structure/shared_rebel_house_schem.iff")
+
+--relaxation Schem
+object_draft_schematic_structure_shared_relaxation_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_relaxation_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_relaxation_house_schem, "object/draft_schematic/structure/shared_relaxation_house_schem.iff")
+
+--sandcrawler Schem
+object_draft_schematic_structure_shared_sandcrawler_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_sandcrawler_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_sandcrawler_house_schem, "object/draft_schematic/structure/shared_sandcrawler_house_schem.iff")
+
+--sith Schem
+object_draft_schematic_structure_shared_sith_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_sith_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_sith_house_schem, "object/draft_schematic/structure/shared_sith_house_schem.iff")
+
+--tree Schem
+object_draft_schematic_structure_shared_tree_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_tree_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_tree_house_schem, "object/draft_schematic/structure/shared_tree_house_schem.iff")
+
+--vehicle Schem
+object_draft_schematic_structure_shared_vehicle_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_vehicle_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_vehicle_house_schem, "object/draft_schematic/structure/shared_vehicle_house_schem.iff")
+
+--yoda Schem
+object_draft_schematic_structure_shared_yoda_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_yoda_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_yoda_house_schem, "object/draft_schematic/structure/shared_yoda_house_schem.iff")
+
+--yt1300 Schem
+object_draft_schematic_structure_shared_yt1300_house_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_yt1300_house_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_yt1300_house_schem, "object/draft_schematic/structure/shared_yt1300_house_schem.iff")
+
+--gen_lg_win_01_schem Schem
+object_draft_schematic_structure_shared_gen_lg_win_01_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_gen_lg_win_01_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_gen_lg_win_01_schem, "object/draft_schematic/structure/shared_gen_lg_win_01_schem.iff")
+
+--gen_lg_win_02_schem Schem
+object_draft_schematic_structure_shared_gen_lg_win_02_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_gen_lg_win_02_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_gen_lg_win_02_schem, "object/draft_schematic/structure/shared_gen_lg_win_02_schem.iff")
+
+--gen_md_win_01_schem Schem
+object_draft_schematic_structure_shared_gen_md_win_01_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_gen_md_win_01_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_gen_md_win_01_schem, "object/draft_schematic/structure/shared_gen_md_win_01_schem.iff")
+
+--gen_md_win_02_schem Schem
+object_draft_schematic_structure_shared_gen_md_win_02_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_gen_md_win_02_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_gen_md_win_02_schem, "object/draft_schematic/structure/shared_gen_md_win_02_schem.iff")
+
+--gen_sm_win_01_schem Schem
+object_draft_schematic_structure_shared_gen_sm_win_01_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_gen_sm_win_01_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_gen_sm_win_01_schem, "object/draft_schematic/structure/shared_gen_sm_win_01_schem.iff")
+
+--gen_sm_win_02_schem Schem
+object_draft_schematic_structure_shared_gen_sm_win_02_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_gen_sm_win_02_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_gen_sm_win_02_schem, "object/draft_schematic/structure/shared_gen_sm_win_02_schem.iff")
+
+--nab_sm_win_01_schem Schem
+object_draft_schematic_structure_shared_nab_sm_win_01_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_nab_sm_win_01_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_nab_sm_win_01_schem, "object/draft_schematic/structure/shared_nab_sm_win_01_schem.iff")
+
+--tat_sm_win_01_schem Schem
+object_draft_schematic_structure_shared_tat_sm_win_01_schem = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/shared_tat_sm_win_01_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_shared_tat_sm_win_01_schem, "object/draft_schematic/structure/shared_tat_sm_win_01_schem.iff")

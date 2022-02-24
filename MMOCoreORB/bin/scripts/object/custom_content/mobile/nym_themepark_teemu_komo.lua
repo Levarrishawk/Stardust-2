@@ -1,0 +1,1 @@
+object_mobile_nym_themepark_teemu_komo = object_mobile_shared_nym_themepark_teemu_komo:new {}ObjectTemplates:addTemplate(object_mobile_nym_themepark_teemu_komo, "object/mobile/nym_themepark_teemu_komo.iff")

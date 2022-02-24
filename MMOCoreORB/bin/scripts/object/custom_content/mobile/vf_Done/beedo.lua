@@ -1,0 +1,1 @@
+object_mobile_beedo = object_mobile_shared_beedo:new {}ObjectTemplates:addTemplate(object_mobile_beedo, "object/mobile/beedo.iff")

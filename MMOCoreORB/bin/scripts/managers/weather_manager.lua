@@ -229,6 +229,84 @@ yavin4 = {
 }
 
 
+-----------------
+--    Chandrila
+-----------------
+chandrila = {
+
+  defaultWeather = 0, -- Sunny
+
+  averageWeatherDuration = 3600, -- In seconds
+
+  weatherStability = 90, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+}
+
+
+-----------------
+--   Jakku 
+-----------------
+jakku = {
+
+  defaultWeather = 0, -- Sunny
+
+  averageWeatherDuration = 3600, -- In seconds
+
+  weatherStability = 80, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+
+  hasDamagingSandstorms = 1,
+
+  sandstormDamage = 100, -- 40 = Annoying, 100 = deadly
+}
+--------
+-- Dromund Kaas
+---------
+kaas = {
+
+  defaultWeather = 0, -- Sunny
+
+  averageWeatherDuration = 1800, -- In seconds
+
+  weatherStability = 30, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+}
+-----------------
+--     Hutta
+-----------------
+hutta = {
+
+  defaultWeather = 0, -- Sunny
+
+  averageWeatherDuration = 3600, -- In seconds
+
+  weatherStability = 80, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+}
+
+-----------------
+--     Coruscant
+-----------------
+coruscant = {
+
+  defaultWeather = 0, -- Sunny
+
+  averageWeatherDuration = 3600, -- In seconds
+
+  weatherStability = 90, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+}
+
+-----------------
+--   Moraband 
+-----------------
+moraband = {
+
+  defaultWeather = 0, -- Sunny
+
+  averageWeatherDuration = 3600, -- In seconds
+
+  weatherStability = 80, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+
+}
+
+
+
 
 
 

@@ -50,8 +50,7 @@ object_draft_schematic_space_droid_interface_maintenance_reduction_kit_mk4 = obj
    craftingToolTab = 131072, -- (See DraftSchematicObjectTemplate.h)
    complexity = 30, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+
    xpType = "shipwright", 
    xp = 313, 
 

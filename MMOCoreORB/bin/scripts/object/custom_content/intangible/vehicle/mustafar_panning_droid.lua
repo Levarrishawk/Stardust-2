@@ -1,0 +1,5 @@
+
+object_intangible_vehicle_mustafar_panning_droid = object_intangible_vehicle_shared_mustafar_panning_droid:new {
+
+}
+ObjectTemplates:addTemplate(object_intangible_vehicle_mustafar_panning_droid, "object/intangible/vehicle/mustafar_panning_droid.iff")

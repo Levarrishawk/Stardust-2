@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series7_garage_display_vehicles_grievous_wheel_bike = object_tangible_tcg_series7_garage_display_vehicles_shared_grievous_wheel_bike:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_grievous_wheel_bike, "object/tangible/tcg/series7/garage_display_vehicles/grievous_wheel_bike.iff")

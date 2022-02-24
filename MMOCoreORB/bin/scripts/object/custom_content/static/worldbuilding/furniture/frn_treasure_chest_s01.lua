@@ -1,0 +1,1 @@
+object_static_worldbuilding_furniture_frn_treasure_chest_s01 = object_static_worldbuilding_furniture_shared_frn_treasure_chest_s01:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_furniture_frn_treasure_chest_s01, "object/static/worldbuilding/furniture/frn_treasure_chest_s01.iff")

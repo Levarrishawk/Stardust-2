@@ -1,0 +1,5 @@
+object_draft_schematic_armor_armor_appearance_deathtrooper_bicep_l = object_draft_schematic_armor_shared_armor_appearance_deathtrooper_bicep_l:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_armor_armor_appearance_deathtrooper_bicep_l, "object/draft_schematic/armor/armor_appearance_deathtrooper_bicep_l.iff")

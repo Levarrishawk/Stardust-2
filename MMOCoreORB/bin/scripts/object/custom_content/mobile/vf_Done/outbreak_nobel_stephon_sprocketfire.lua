@@ -1,0 +1,1 @@
+object_mobile_outbreak_nobel_stephon_sprocketfire = object_mobile_shared_outbreak_nobel_stephon_sprocketfire:new {}ObjectTemplates:addTemplate(object_mobile_outbreak_nobel_stephon_sprocketfire, "object/mobile/outbreak_nobel_stephon_sprocketfire.iff")

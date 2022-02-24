@@ -1,0 +1,5 @@
+object_tangible_loot_loot_schematic_planning_table_bestine_reb_schematic = object_tangible_loot_loot_schematic_shared_planning_table_bestine_reb_schematic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_loot_schematic_planning_table_bestine_reb_schematic, "object/tangible/loot/loot/schematic/planning_table_bestine_reb_schematic.iff")

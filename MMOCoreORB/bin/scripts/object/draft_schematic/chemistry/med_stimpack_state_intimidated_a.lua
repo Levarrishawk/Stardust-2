@@ -48,13 +48,12 @@ object_draft_schematic_chemistry_med_stimpack_state_intimidated_a = object_draft
 	customObjectName = "Intimidated State Stimpack - A",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 20,
+	complexity = 1,
 	size = 3,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
-	xp = 45,
+	xp = 210,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

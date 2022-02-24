@@ -48,10 +48,9 @@ object_draft_schematic_munition_grenade_fragmentation_c_22 = object_draft_schema
    customObjectName = "C22 Fragmentation Grenade",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 36, 
+   complexity = 1, 
    size = 2, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general", 
    xp = 35, 
 

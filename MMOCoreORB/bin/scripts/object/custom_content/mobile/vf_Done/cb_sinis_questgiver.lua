@@ -1,0 +1,1 @@
+object_mobile_cb_sinis_questgiver = object_mobile_shared_cb_sinis_questgiver:new {}ObjectTemplates:addTemplate(object_mobile_cb_sinis_questgiver, "object/mobile/cb_sinis_questgiver.iff")

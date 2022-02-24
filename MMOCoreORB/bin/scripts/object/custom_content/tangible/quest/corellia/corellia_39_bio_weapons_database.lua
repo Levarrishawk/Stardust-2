@@ -1,0 +1,5 @@
+object_tangible_quest_corellia_corellia_39_bio_weapons_database = object_tangible_quest_corellia_shared_corellia_39_bio_weapons_database:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_quest_corellia_corellia_39_bio_weapons_database, "object/tangible/quest/corellia/corellia_39_bio_weapons_database.iff")

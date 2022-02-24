@@ -48,10 +48,9 @@ object_draft_schematic_item_item_twelve_sided_dice = object_draft_schematic_item
    customObjectName = "Twelve Sided Dice Set",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 4, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+
    xpType = "crafting_general", 
    xp = 24, 
 

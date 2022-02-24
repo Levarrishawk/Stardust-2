@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fried_icecream_components_corellia_kavasa_fruit = object_tangible_loot_creature_loot_collections_fried_icecream_components_corellia_shared_kavasa_fruit:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_corellia_kavasa_fruit, "object/tangible/loot/creature/loot/collections/fried/icecream/components/corellia/kavasa_fruit.iff")

@@ -1,0 +1,5 @@
+object_tangible_furniture_nym_themepark_collection_table_work_bench = object_tangible_furniture_nym_themepark_collection_shared_table_work_bench:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_nym_themepark_collection_table_work_bench, "object/tangible/furniture/nym_themepark/collection/table_work_bench.iff")

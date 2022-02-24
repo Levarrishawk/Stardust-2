@@ -48,9 +48,8 @@ object_draft_schematic_clothing_clothing_armor_bone_helmet = object_draft_schema
    customObjectName = "Bone Armor Helmet",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 3, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_general", 
    xp = 260, 

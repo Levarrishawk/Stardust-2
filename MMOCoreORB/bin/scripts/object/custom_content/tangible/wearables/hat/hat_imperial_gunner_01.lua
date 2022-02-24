@@ -1,0 +1,5 @@
+
+object_tangible_wearables_hat_hat_imperial_gunner_01 = object_tangible_wearables_hat_shared_hat_imperial_gunner_01:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_wearables_hat_hat_imperial_gunner_01, "object/tangible/wearables/hat/hat_imperial_gunner_01.iff")

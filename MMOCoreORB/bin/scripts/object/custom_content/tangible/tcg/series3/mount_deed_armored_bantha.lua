@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series3_mount_deed_armored_bantha = object_tangible_tcg_series3_shared_mount_deed_armored_bantha:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series3_mount_deed_armored_bantha, "object/tangible/tcg/series3/mount_deed_armored_bantha.iff")

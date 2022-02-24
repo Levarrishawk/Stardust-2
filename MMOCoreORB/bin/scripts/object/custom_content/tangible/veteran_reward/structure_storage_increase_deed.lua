@@ -1,0 +1,3 @@
+object_tangible_veteran_reward_structure_storage_increase_deed = object_tangible_veteran_reward_shared_structure_storage_increase_deed:new {
+}
+ObjectTemplates:addTemplate(object_tangible_veteran_reward_structure_storage_increase_deed, "object/tangible/veteran_reward/structure_storage_increase_deed.iff")

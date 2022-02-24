@@ -1,0 +1,5 @@
+
+object_intangible_vehicle_grievous_wheel_bike = object_intangible_vehicle_shared_grievous_wheel_bike:new {
+
+}
+ObjectTemplates:addTemplate(object_intangible_vehicle_grievous_wheel_bike, "object/intangible/vehicle/grievous_wheel_bike.iff")

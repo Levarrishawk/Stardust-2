@@ -48,9 +48,8 @@ object_draft_schematic_clothing_clothing_backpack_field_03 = object_draft_schema
    customObjectName = "Military Travel Pack",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 23, 
+   complexity = 1, 
    size = 2, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 100, 

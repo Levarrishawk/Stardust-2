@@ -48,11 +48,10 @@ object_draft_schematic_furniture_furniture_lamp_tatt_s01_on = object_draft_schem
 	customObjectName = "Table-top Lamp \'Coruscant\'",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 18,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 10,
-	factoryCrateType = "object/factory/factory_crate_furniture.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 250,
 

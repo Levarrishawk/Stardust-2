@@ -48,11 +48,10 @@ object_draft_schematic_item_item_recycler_chemical = object_draft_schematic_item
 	customObjectName = "Chemical Recycler Schematic",
 
 	craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 12,
+	complexity = 1,
 	size = 1,
 	factoryCrateSize = 0,
-	factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+
 	xpType = "crafting_general",
 	xp = 28,
 

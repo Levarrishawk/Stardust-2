@@ -1,0 +1,3 @@
+object_mobile_dressed_npe_sequencer_cantina1 = object_mobile_shared_dressed_npe_sequencer_cantina1:new {
+}
+ObjectTemplates:addTemplate(object_mobile_dressed_npe_sequencer_cantina1, "object/mobile/dressed_npe_sequencer_cantina1.iff")

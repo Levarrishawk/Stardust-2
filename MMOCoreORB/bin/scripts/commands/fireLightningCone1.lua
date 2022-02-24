@@ -45,12 +45,15 @@ FireLightningCone1Command = {
         name = "firelightningcone1",
 
 	damageMultiplier = 3.0,
-	speedMultiplier = 2.0,
-	healthCostMultiplier = 1,
-	actionCostMultiplier = 1,
-	mindCostMultiplier = 1,
+  speedMultiplier = 2.0,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 3,
+  mindCostMultiplier = 0,
+    visMod = 25,
+  
+  poolsToDamage = HEALTH_ATTRIBUTE,
 
-	animation = "fire_lightning_rifle_single_1",
+	animation = "fire_acid_rifle_single_1", 
 	animType = GENERATE_INTENSITY,
 
 	combatSpam = "firelightningcone1",

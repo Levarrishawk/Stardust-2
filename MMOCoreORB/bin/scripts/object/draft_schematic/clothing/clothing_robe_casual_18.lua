@@ -48,9 +48,8 @@ object_draft_schematic_clothing_clothing_robe_casual_18 = object_draft_schematic
    customObjectName = "Wookiee Smock",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 2, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 120, 

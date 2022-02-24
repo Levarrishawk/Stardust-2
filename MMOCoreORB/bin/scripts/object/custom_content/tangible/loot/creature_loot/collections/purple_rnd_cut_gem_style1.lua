@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_purple_rnd_cut_gem_style1 = object_tangible_loot_creature_loot_collections_shared_purple_rnd_cut_gem_style1:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_purple_rnd_cut_gem_style1, "object/tangible/loot/creature/loot/collections/purple_rnd_cut_gem_style1.iff")

@@ -1,0 +1,1 @@
+object_building_mustafar_terrain_must_bridge_rock_med = object_building_mustafar_terrain_shared_must_bridge_rock_med:new {}ObjectTemplates:addTemplate(object_building_mustafar_terrain_must_bridge_rock_med, "object/building/mustafar/terrain/must_bridge_rock_med.iff")

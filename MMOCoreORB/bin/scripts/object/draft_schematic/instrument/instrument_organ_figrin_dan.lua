@@ -48,10 +48,9 @@ object_draft_schematic_instrument_instrument_organ_figrin_dan = object_draft_sch
    customObjectName = "a musical instrument",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 18, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_generic_items.iff",
-   
+
    xpType = "music", 
    xp = 0, 
 

@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series6_combine_object_hk47_statuette = object_tangible_tcg_series6_shared_combine_object_hk47_statuette:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series6_combine_object_hk47_statuette, "object/tangible/tcg/series6/combine_object_hk47_statuette.iff")

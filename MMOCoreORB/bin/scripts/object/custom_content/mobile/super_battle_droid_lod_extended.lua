@@ -1,0 +1,5 @@
+object_mobile_super_battle_droid_lod_extended = object_mobile_shared_super_battle_droid_lod_extended:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_super_battle_droid_lod_extended, "object/mobile/super_battle_droid_lod_extended.iff")

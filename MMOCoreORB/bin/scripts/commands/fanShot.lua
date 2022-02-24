@@ -43,18 +43,31 @@
 
 FanShotCommand = {
         name = "fanshot",
-	damageMultiplier = 4.0,
-	speedMultiplier = 2.0,
-	healthCostMultiplier = 0.5,
-	actionCostMultiplier = 1,
-	mindCostMultiplier = 0.5,
+	damageMultiplier = 2.5,
+  speedMultiplier = 1,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 1.1,
+  mindCostMultiplier = 0,
         accuracyBonus = 50,
+          visMod = 25,
 
         --cone angle isn't strictly documented, leaving it alone
-	coneAngle = 60,
-	coneAction = true,
+  coneAngle = 90,
+  coneAction = true,
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+  poolsToDamage = HEALTH_ATTRIBUTE,
+  
+  stateEffects = {
+     StateEffect( 
+    BLIND_EFFECT, 
+    {}, 
+    { "blind_defense", "resistance_states" }, 
+    { "jedi_state_defense" }, 
+    30, 
+    100, 
+    10 
+      )
+    },
 
 	animation = "fire_area", 
 	animType = GENERATE_INTENSITY,

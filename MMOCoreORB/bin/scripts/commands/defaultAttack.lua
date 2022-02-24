@@ -55,7 +55,7 @@ DefaultAttackCommand = {
 
 	range = -1,
 
-	poolsToDamage = RANDOM_ATTRIBUTE
+	poolsToDamage = HEALTH_ATTRIBUTE
 }
 
 AddCommand(DefaultAttackCommand)

@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series5_combine_object_house_pet_scurrier_leftover_02 = object_tangible_tcg_series5_shared_combine_object_house_pet_scurrier_leftover_02:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series5_combine_object_house_pet_scurrier_leftover_02, "object/tangible/tcg/series5/combine_object_house_pet_scurrier_leftover_02.iff")

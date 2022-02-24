@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series5_hangar_ships_naboo_n1 = object_tangible_tcg_series5_hangar_ships_shared_naboo_n1:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series5_hangar_ships_naboo_n1, "object/tangible/tcg/series5/hangar_ships/naboo_n1.iff")

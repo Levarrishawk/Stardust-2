@@ -1,0 +1,3 @@
+object_building_content_rebel_theme_park_military_base_command_post = object_building_content_rebel_theme_park_shared_military_base_command_post:new {
+}
+ObjectTemplates:addTemplate(object_building_content_rebel_theme_park_military_base_command_post, "object/building/content/rebel_theme_park/military_base_command_post.iff")

@@ -48,12 +48,11 @@ object_draft_schematic_food_dessert_sweesonberry_rolls = object_draft_schematic_
    customObjectName = "Sweesonberry Rolls",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 12, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_food.iff",
-   
+
    xpType = "crafting_food_general", 
-   xp = 160, 
+   xp = 600, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

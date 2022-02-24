@@ -1,0 +1,1 @@
+object_mobile_carax = object_mobile_shared_carax:new {}ObjectTemplates:addTemplate(object_mobile_carax, "object/mobile/carax.iff")

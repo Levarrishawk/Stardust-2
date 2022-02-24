@@ -1,0 +1,5 @@
+object_mobile_dressed_corellia_ragtag_anita_bath = object_mobile_shared_dressed_corellia_ragtag_anita_bath:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_corellia_ragtag_anita_bath, "object/mobile/dressed_corellia_ragtag_anita_bath.iff")

@@ -1,0 +1,1 @@
+object_static_structure_military_poi_all_force_bandit_fence_post = object_static_structure_military_shared_poi_all_force_bandit_fence_post:new {}ObjectTemplates:addTemplate(object_static_structure_military_poi_all_force_bandit_fence_post, "object/static/structure/military/poi_all_force_bandit_fence_post.iff")

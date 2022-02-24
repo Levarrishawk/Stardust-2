@@ -1,0 +1,1 @@
+object_mobile_naboo_tanoa_vills = object_mobile_shared_naboo_tanoa_vills:new {}ObjectTemplates:addTemplate(object_mobile_naboo_tanoa_vills, "object/mobile/naboo_tanoa_vills.iff")

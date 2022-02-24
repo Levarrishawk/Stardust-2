@@ -1,0 +1,1 @@
+object_static_worldbuilding_decal_mun_decal_blast_main = object_static_worldbuilding_decal_shared_mun_decal_blast_main:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_decal_mun_decal_blast_main, "object/static/worldbuilding/decal/mun_decal_blast_main.iff")

@@ -48,13 +48,13 @@ object_draft_schematic_furniture_furniture_chair_cantina = object_draft_schemati
    customObjectName = "Small Cantina Seat",
 
    craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 12, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateSize = 0,
-   factoryCrateType = "object/factory/factory_crate_furniture.iff",
-   
+
    xpType = "crafting_structure_general", 
    xp = 230, 
+
+   factoryCrateSize = 0,
 
    assemblySkill = "structure_assembly", 
    experimentingSkill = "structure_experimentation", 

@@ -1,0 +1,5 @@
+object_tangible_collection_reward_datapad_painting_reward = object_tangible_collection_reward_shared_datapad_painting_reward:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_datapad_painting_reward, "object/tangible/collection/reward/datapad_painting_reward.iff")

@@ -1,0 +1,1 @@
+object_mobile_tyber_zann = object_mobile_shared_tyber_zann:new {}ObjectTemplates:addTemplate(object_mobile_tyber_zann, "object/mobile/tyber_zann.iff")

@@ -44,34 +44,37 @@
 ConfusionShotCommand = {
         name = "confusionshot",
 
-	damageMultiplier = 3.0,
-	speedMultiplier = 2.3,
-	healthCostMultiplier = 1,
-	actionCostMultiplier = 1,
-	mindCostMultiplier = 1,
+	damageMultiplier = 1,
+  speedMultiplier = 1,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 1,
+  mindCostMultiplier = 0,
+    visMod = 25,
 
-	stateEffects = {
-	  StateEffect( 
-		DIZZY_EFFECT, 
-		{}, 
-		{ "dizzy_defense" }, 
-		{ "jedi_state_defense", "resistance_states" },
-		100, 
-		0, 
-		10 
-	  ),
-	  StateEffect( 
-		STUN_EFFECT, 
-		{}, 
-		{ "stun_defense" }, 
-		{ "jedi_state_defense", "resistance_states" },
-		100, 
-		0, 
-		10 
-	  )
-	},
+  stateEffects = {
+    StateEffect( 
+    DIZZY_EFFECT, 
+    {}, 
+    { "dizzy_defense", "resistance_states" }, 
+    { "jedi_state_defense" }, 
+    30, 
+    100, 
+    6 
+    ),
+    StateEffect( 
+    STUN_EFFECT, 
+    {}, 
+    { "stun_defense", "resistance_states" }, 
+    { "jedi_state_defense" }, 
+    40, 
+    100, 
+    10 
+    )
+  },
+  
+  poolsToDamage = HEALTH_ATTRIBUTE,
 
-	animation = "fire_5_special_single", 
+	animation = "fire_defender_posture_change_down", 
 	animType = GENERATE_RANGED,
 
 	combatSpam = "confusionshot",

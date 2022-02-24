@@ -1,0 +1,3 @@
+object_tangible_base_retrieve_quest_base = object_tangible_base_shared_retrieve_quest_base:new {
+}
+ObjectTemplates:addTemplate(object_tangible_base_retrieve_quest_base, "object/tangible/base/retrieve_quest_base.iff")

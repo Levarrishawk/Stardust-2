@@ -1,0 +1,5 @@
+object_tangible_furniture_tatooine_uber_basket_closed = object_tangible_furniture_tatooine_shared_uber_basket_closed:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_tatooine_uber_basket_closed, "object/tangible/furniture/tatooine/uber_basket_closed.iff")

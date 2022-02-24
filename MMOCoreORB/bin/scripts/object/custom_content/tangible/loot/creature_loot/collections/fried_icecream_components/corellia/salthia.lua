@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fried_icecream_components_corellia_salthia = object_tangible_loot_creature_loot_collections_fried_icecream_components_corellia_shared_salthia:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_corellia_salthia, "object/tangible/loot/creature/loot/collections/fried/icecream/components/corellia/salthia.iff")

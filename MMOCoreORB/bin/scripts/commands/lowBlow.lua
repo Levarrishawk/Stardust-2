@@ -45,23 +45,25 @@ LowBlowCommand = {
         name = "lowblow",
 
 	damageMultiplier = 2.0,
-	speedMultiplier = 2.5,
-	healthCostMultiplier = 0.5,
-	actionCostMultiplier = 1.0,
-	mindCostMultiplier = 0.5,
-	accuracyBonus = 50,
+  speedMultiplier = 2.5,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 2.0,
+  mindCostMultiplier = 0,
+  accuracyBonus = 50,
 
-	stateEffects = {
-	  StateEffect( 
-		KNOCKDOWN_EFFECT, 
-		{ "knockdownRecovery", "lastKnockdown" }, 
-		{ "knockdown_defense" }, 
-		{}, 
-		100, 
-		0, 
-		0 
-	  )
-	},
+  stateEffects = {
+    StateEffect( 
+    KNOCKDOWN_EFFECT, 
+    { "knockdownRecovery", "lastKnockdown" }, 
+    { "knockdown_defense" }, 
+    {}, 
+    30, 
+    100, 
+    0 
+    )
+  },
+  
+  poolsToDamage = HEALTH_ATTRIBUTE,
 
 	animation = "fire_5_single", 
 	animType = GENERATE_RANGED,

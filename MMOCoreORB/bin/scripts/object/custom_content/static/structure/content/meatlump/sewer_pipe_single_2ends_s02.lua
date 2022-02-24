@@ -1,0 +1,1 @@
+object_static_structure_content_meatlump_sewer_pipe_single_2ends_s02 = object_static_structure_content_meatlump_shared_sewer_pipe_single_2ends_s02:new {}ObjectTemplates:addTemplate(object_static_structure_content_meatlump_sewer_pipe_single_2ends_s02, "object/static/structure/content/meatlump/sewer_pipe_single_2ends_s02.iff")

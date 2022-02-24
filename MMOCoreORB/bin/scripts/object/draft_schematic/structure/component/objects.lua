@@ -775,3 +775,12 @@ object_draft_schematic_structure_component_shared_weapon_mount_heavy_stabilizati
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_structure_component_shared_weapon_mount_heavy_stabilization_unit, "object/draft_schematic/structure/component/shared_weapon_mount_heavy_stabilization_unit.iff")
+
+
+
+object_draft_schematic_structure_component_shared_structure_ore_mining_unit_advanced = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/structure/component/shared_structure_ore_mining_unit_advanced.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_structure_component_shared_structure_ore_mining_unit_advanced, "object/draft_schematic/structure/component/shared_structure_ore_mining_unit_advanced.iff")
+----------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+object_tangible_item_hoth_turret_s2_destroyed = object_tangible_item_shared_hoth_turret_s2_destroyed:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_hoth_turret_s2_destroyed, "object/tangible/item/hoth_turret_s2_destroyed.iff")

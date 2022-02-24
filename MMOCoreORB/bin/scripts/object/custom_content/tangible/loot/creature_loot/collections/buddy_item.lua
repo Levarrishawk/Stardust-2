@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_buddy_item = object_tangible_loot_creature_loot_collections_shared_buddy_item:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_buddy_item, "object/tangible/loot/creature/loot/collections/buddy_item.iff")

@@ -50,8 +50,7 @@ object_draft_schematic_space_droid_interface_droid_brain_upgrade_mk3 = object_dr
    craftingToolTab = 131072, -- (See DraftSchematicObjectTemplate.h)
    complexity = 27, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+
    xpType = "shipwright", 
    xp = 125, 
 

@@ -60,7 +60,7 @@ object_tangible_food_foraged_edible_jar_funk = object_tangible_food_foraged_shar
 	quantityMin = 0,
 	quantityMax = 0,
 	
-	modifiers = { "mind", 100 },
+	modifiers = { "health", 100 },
 
 	buffName = "jar_funk",
 	buffCRC = 0,

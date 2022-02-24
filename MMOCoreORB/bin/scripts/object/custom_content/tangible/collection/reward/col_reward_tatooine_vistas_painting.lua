@@ -1,0 +1,5 @@
+object_tangible_collection_reward_col_reward_tatooine_vistas_painting = object_tangible_collection_reward_shared_col_reward_tatooine_vistas_painting:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_col_reward_tatooine_vistas_painting, "object/tangible/collection/reward/col_reward_tatooine_vistas_painting.iff")

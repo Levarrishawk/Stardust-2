@@ -1,0 +1,5 @@
+object_tangible_collection_reward_col_reward_feather_duster = object_tangible_collection_reward_shared_col_reward_feather_duster:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_col_reward_feather_duster, "object/tangible/collection/reward/col_reward_feather_duster.iff")

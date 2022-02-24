@@ -1,0 +1,1 @@
+object_mobile_outbreak_delivery_gamma_dawn_pirrohn = object_mobile_shared_outbreak_delivery_gamma_dawn_pirrohn:new {}ObjectTemplates:addTemplate(object_mobile_outbreak_delivery_gamma_dawn_pirrohn, "object/mobile/outbreak_delivery_gamma_dawn_pirrohn.iff")

@@ -1,0 +1,3 @@
+object_mobile_dressed_tatooine_body_peggin = object_mobile_shared_dressed_tatooine_body_peggin:new {
+}
+ObjectTemplates:addTemplate(object_mobile_dressed_tatooine_body_peggin, "object/mobile/dressed_tatooine_body_peggin.iff")

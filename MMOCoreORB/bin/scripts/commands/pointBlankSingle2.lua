@@ -44,11 +44,13 @@
 PointBlankSingle2Command = {
         name = "pointblanksingle2",
 	damageMultiplier = 3.0,
-	speedMultiplier = 1.8,
-	healthCostMultiplier = 1,
-	actionCostMultiplier = 1,
-	mindCostMultiplier = 1,
+  speedMultiplier = 1.8,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 3,
+  mindCostMultiplier = 0,
 
+  poolsToDamage = HEALTH_ATTRIBUTE,
+  
 	animation = "fire_5_single", 
 	animType = GENERATE_RANGED,
 

@@ -1,0 +1,1 @@
+object_mobile_zozpheratu_static = object_mobile_shared_zozpheratu_static:new {}ObjectTemplates:addTemplate(object_mobile_zozpheratu_static, "object/mobile/zozpheratu_static.iff")

@@ -41,8 +41,8 @@
 --this exception also makes it possible to release a modified version 
 
 
-object_tangible_terminal_terminal_event_buffs = object_tangible_terminal_shared_terminal_skill:new {
-	customName = "Buffs",
+object_tangible_terminal_terminal_event_buffs = object_tangible_terminal_shared_terminal_event_buffs:new {
+	customName = "Medical Enhancement Droid",
 	objectMenuComponent = "buffTerminalMenuComponent",
 }
 

@@ -43,14 +43,36 @@
 
 Melee2hHeadHit3Command = {
         name = "melee2hheadhit3",
-	damageMultiplier = 3.5,
-	speedMultiplier = 2.25,
-	healthCostMultiplier = 1.5,
-	actionCostMultiplier = 2.0,
-	mindCostMultiplier = 1.5,
-        accuracyBonus = 10,
+	damageMultiplier = 2,
+  speedMultiplier = 3.25,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 1.25,
+  mindCostMultiplier = 0,
+        --accuracyBonus = 10,
+          visMod = 25,
 
-	poolsToDamage = MIND_ATTRIBUTE,
+  poolsToDamage = HEALTH_ATTRIBUTE,
+  
+    stateEffects = {
+    StateEffect(
+      KNOCKDOWN_EFFECT, 
+    { "knockdownRecovery", "lastKnockdown" }, 
+    { "knockdown_defense" }, 
+    {}, 
+    40, 
+    100, 
+    10
+    ),
+    StateEffect( 
+    DIZZY_EFFECT, 
+    {}, 
+    { "dizzy_defense", "resistance_states" }, 
+    { "jedi_state_defense" }, 
+    40, 
+    100, 
+    5 
+    )
+  },
 	
 	weaponType = TWOHANDMELEEWEAPON,
 
@@ -59,7 +81,7 @@ Melee2hHeadHit3Command = {
 
 	combatSpam = "scalpslam",
 
-	range = -1
+	range = 8
 }
 
 AddCommand(Melee2hHeadHit3Command)

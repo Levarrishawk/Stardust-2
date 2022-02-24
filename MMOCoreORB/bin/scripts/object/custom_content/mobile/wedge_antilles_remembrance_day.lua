@@ -1,0 +1,5 @@
+object_mobile_wedge_antilles_remembrance_day = object_mobile_shared_wedge_antilles_remembrance_day:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_wedge_antilles_remembrance_day, "object/mobile/wedge_antilles_remembrance_day.iff")

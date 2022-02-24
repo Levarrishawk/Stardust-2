@@ -1,0 +1,5 @@
+object_tangible_furniture_tatooine_uber_aurilia_obelisk = object_tangible_furniture_tatooine_shared_uber_aurilia_obelisk:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_tatooine_uber_aurilia_obelisk, "object/tangible/furniture/tatooine/uber_aurilia_obelisk.iff")

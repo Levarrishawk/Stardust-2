@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_must_furniture_throw_pillow_02 = object_draft_schematic_furniture_shared_must_furniture_throw_pillow_02:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_must_furniture_throw_pillow_02, "object/draft_schematic/furniture/must_furniture_throw_pillow_02.iff")

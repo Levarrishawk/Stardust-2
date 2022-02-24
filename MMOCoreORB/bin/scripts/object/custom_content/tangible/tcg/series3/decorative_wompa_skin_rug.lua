@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series3_decorative_wompa_skin_rug = object_tangible_tcg_series3_shared_decorative_wompa_skin_rug:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series3_decorative_wompa_skin_rug, "object/tangible/tcg/series3/decorative_wompa_skin_rug.iff")

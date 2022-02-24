@@ -48,11 +48,10 @@ object_draft_schematic_furniture_furniture_couch_large = object_draft_schematic_
 	customObjectName = "Large Couch",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 20,
+	complexity = 1,
 	size = 3,
-	factoryCrateSize = 10,
-	factoryCrateType = "object/factory/factory_crate_furniture.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 600,
 
@@ -71,7 +70,7 @@ object_draft_schematic_furniture_furniture_couch_large = object_draft_schematic_
 	resourceQuantities = {150, 150},
 	contribution = {100, 100},
 
-	targetTemplate = "object/tangible/furniture/all/frn_all_couch_lg_s1.iff",
+	targetTemplate = "object/tangible/furniture/all/frn_all_couch_lg_hue_s1.iff",
 
 	additionalTemplates = {}
 }

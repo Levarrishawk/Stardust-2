@@ -44,12 +44,13 @@
 FullAutoArea1Command = {
         name = "fullautoarea1",
 
-	damageMultiplier = 1.5,
-	speedMultiplier = 1.5,
-	healthCostMultiplier = 1.75,
-	actionCostMultiplier = 2.5,
-	mindCostMultiplier = 0.5,
-	accuracyBonus = 25,
+	damageMultiplier = 1.7,
+  speedMultiplier = 2,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 2,
+  mindCostMultiplier = 0,
+  accuracyBonus = 25,
+    visMod = 25,
 
 	animation = "fire_area",
 	animType = GENERATE_INTENSITY,
@@ -64,36 +65,36 @@ FullAutoArea1Command = {
 		DIZZY_EFFECT, 
 		{}, 
 		{ "dizzy_defense", "resistance_states" }, 
-		{ "jedi_state_defense", "resistance_states" },
+		{ "jedi_state_defense" }, 
 		30, 
 		0, 
-		30 
+		6 
 	  ),
 	  StateEffect( 
 		BLIND_EFFECT, 
 		{}, 
-		{ "blind_defense" }, 
-		{ "jedi_state_defense", "resistance_states" },
+		{ "blind_defense", "resistance_states" }, 
+		{ "jedi_state_defense" }, 
 		30, 
 		0, 
-		40 
+		20 
 	  ),
 	  StateEffect( 
 		STUN_EFFECT, 
 		{}, 
-		{ "stun_defense" }, 
-		{ "jedi_state_defense", "resistance_states" },
+		{ "stun_defense", "resistance_states" }, 
+		{ "jedi_state_defense" }, 
 		30, 
 		0, 
-		30 
+		15 
 	  )
 	},
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 	
 	weaponType = CARBINEWEAPON,
 
-	range = -1
+	range = 64
 }
 
 AddCommand(FullAutoArea1Command)

@@ -50,6 +50,7 @@ ChargeShot1Command = {
 	actionCostMultiplier = 2.0,
 	mindCostMultiplier = 0.5,
 	accuracyBonus = 25,
+	 visMod = 25,
 
 	animation = "charge",
 
@@ -67,7 +68,7 @@ ChargeShot1Command = {
 	  )
 	},
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 	
 	weaponType = CARBINEWEAPON,
 

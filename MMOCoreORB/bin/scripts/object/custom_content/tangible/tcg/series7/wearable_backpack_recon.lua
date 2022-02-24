@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series7_wearable_backpack_recon = object_tangible_tcg_series7_shared_wearable_backpack_recon:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series7_wearable_backpack_recon, "object/tangible/tcg/series7/wearable_backpack_recon.iff")

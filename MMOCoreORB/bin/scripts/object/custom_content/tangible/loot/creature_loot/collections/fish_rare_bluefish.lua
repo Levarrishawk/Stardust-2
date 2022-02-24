@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fish_rare_bluefish = object_tangible_loot_creature_loot_collections_shared_fish_rare_bluefish:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fish_rare_bluefish, "object/tangible/loot/creature/loot/collections/fish_rare_bluefish.iff")

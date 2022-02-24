@@ -1,0 +1,5 @@
+object_tangible_furniture_all_uber_desk_map_table = object_tangible_furniture_all_shared_uber_desk_map_table:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_all_uber_desk_map_table, "object/tangible/furniture/all/uber_desk_map_table.iff")

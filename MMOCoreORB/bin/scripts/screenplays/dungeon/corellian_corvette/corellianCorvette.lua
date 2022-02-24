@@ -8,8 +8,8 @@ CorellianCorvette = ScreenPlay:new {
 	},
 
 	escapePoints = {
-		{ faction = "neutral", planet = "tatooine", x = -5842, y = -6191 },
-		{ faction = "imperial", planet = "naboo", x = 2445, y = -3913 },
+		{ faction = "neutral", planet = "chandrila", x = 164, y = -2937 },
+		{ faction = "imperial", planet = "lok", x = -1927, y = -3197 },
 		{ faction = "rebel", planet = "corellia", x = -6460, y = 5972 },
 	},
 
@@ -54,9 +54,9 @@ function CorellianCorvette:initialize()
 				printLuaError("CorellianCorvette:initialize tried using a corvette id that was nil or not a building: " .. building.buildingIds[j])
 			else
 				local corvetteID = SceneObject(pCorvette):getObjectID()
-				deleteData("corvetteActive:" .. corvetteID)
+				writeData("corvetteActive:" .. corvetteID, 0)
 				self:ejectAllPlayers(pCorvette)
-				deleteData("corvettePlayerCount:" .. corvetteID)
+				writeData("corvettePlayerCount:" .. corvetteID, 0)
 				createObserver(ENTEREDBUILDING, "CorellianCorvette", "onEnterCorvette", pCorvette)
 				createObserver(EXITEDBUILDING, "CorellianCorvette", "onExitCorvette", pCorvette)
 				num = num + 1
@@ -153,7 +153,7 @@ function CorellianCorvette:sendAuthorizationSui(pPlayer, pLeader, pCorvette)
 	local corvetteFaction = self:getBuildingFaction(pCorvette)
 	local factionCRC = self:getFactionCRC(corvetteFaction)
 
-	if (corvetteFaction ~= "neutral" and (not ThemeParkLogic:isInFaction(factionCRC, pPlayer) or ThemeParkLogic:isOnLeave(pPlayer) or TangibleObject(pPlayer):isChangingFactionStatus())) then
+	if (corvetteFaction ~= "neutral" and (not ThemeParkLogic:isInFaction(factionCRC, pPlayer) or ThemeParkLogic:isOnLeave(pPlayer))) then
 		return
 	end
 
@@ -418,7 +418,8 @@ function CorellianCorvette:setupBrokenDroid(pDroid)
 	createObserver(DESTINATIONREACHED, "CorellianCorvette", "repairDroidDestinationReached", pDroid)
 	SceneObject(pDroid):setContainerComponent("corvetteBrokenDroidContainerComponent")
 
-	AiAgent(pDroid):setMovementState(AI_PATROLLING)
+	AiAgent(pDroid):setAiTemplate("idlewait") -- Don't move unless patrol point is added to list
+	AiAgent(pDroid):setFollowState(4) -- Patrolling
 
 	writeData(corvetteID .. ":electricTrapEnabled", 1)
 end
@@ -540,7 +541,8 @@ function CorellianCorvette:setupPrisoner(pPrisoner)
 	end
 
 	createObserver(DESTINATIONREACHED, "CorellianCorvette", "prisonerDestinationReached", pPrisoner)
-	AiAgent(pPrisoner):setMovementState(AI_PATROLLING)
+	AiAgent(pPrisoner):setAiTemplate("idlewait") -- Don't move unless patrol point is added to list
+	AiAgent(pPrisoner):setFollowState(4) -- Patrolling
 
 	if (SceneObject(pPrisoner):getObjectName() == "prisoner") then
 		CreatureObject(pPrisoner):setOptionBit(CONVERSABLE)
@@ -877,13 +879,6 @@ function CorellianCorvette:transportPlayer(pPlayer)
 		return
 	end
 
-	local corvetteFaction = self:getBuildingFaction(pCorvette)
-	local factionCRC = self:getFactionCRC(corvetteFaction)
-
-	if (corvetteFaction ~= "neutral" and (not ThemeParkLogic:isInFaction(factionCRC, pPlayer) or ThemeParkLogic:isOnLeave(pPlayer) or TangibleObject(pPlayer):isChangingFactionStatus())) then
-		return
-	end
-
 	local pCell = BuildingObject(pCorvette):getCell(1)
 
 	if (pCell == nil) then
@@ -891,11 +886,6 @@ function CorellianCorvette:transportPlayer(pPlayer)
 	end
 
 	local cellID = SceneObject(pCell):getObjectID()
-	local player = CreatureObject(pPlayer)
-
-	if (player:isRidingMount()) then
-		player:dismount()
-	end
 	SceneObject(pPlayer):switchZone("dungeon1", -42.9, 0, 0.1, cellID)
 end
 

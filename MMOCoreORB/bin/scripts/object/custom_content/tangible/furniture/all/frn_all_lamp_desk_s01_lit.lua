@@ -1,0 +1,5 @@
+object_tangible_furniture_all_frn_all_lamp_desk_s01_lit = object_tangible_furniture_all_shared_frn_all_lamp_desk_s01_lit:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_all_lamp_desk_s01_lit, "object/tangible/furniture/all/frn_all_lamp_desk_s01_lit.iff")

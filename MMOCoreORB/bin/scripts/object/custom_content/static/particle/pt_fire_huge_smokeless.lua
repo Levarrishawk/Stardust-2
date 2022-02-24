@@ -1,0 +1,5 @@
+
+object_static_particle_pt_fire_huge_smokeless = object_static_particle_shared_pt_fire_huge_smokeless:new {
+
+}
+ObjectTemplates:addTemplate(object_static_particle_pt_fire_huge_smokeless, "object/static/particle/pt_fire_huge_smokeless.iff")

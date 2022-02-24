@@ -1,0 +1,5 @@
+
+object_intangible_vehicle_pod_racer_light_bending = object_intangible_vehicle_shared_pod_racer_light_bending:new {
+
+}
+ObjectTemplates:addTemplate(object_intangible_vehicle_pod_racer_light_bending, "object/intangible/vehicle/pod_racer_light_bending.iff")

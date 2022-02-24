@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series1_reuseable_buff_item_gorax_ear = object_tangible_tcg_series1_shared_reuseable_buff_item_gorax_ear:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series1_reuseable_buff_item_gorax_ear, "object/tangible/tcg/series1/reuseable_buff_item_gorax_ear.iff")

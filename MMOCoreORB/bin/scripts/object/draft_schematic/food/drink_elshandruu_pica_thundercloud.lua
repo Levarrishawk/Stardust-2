@@ -48,12 +48,11 @@ object_draft_schematic_food_drink_elshandruu_pica_thundercloud = object_draft_sc
    customObjectName = "Elshandruu Pica Thundercloud",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 12, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_food.iff",
-   
+
    xpType = "crafting_food_general", 
-   xp = 280, 
+   xp = 600, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

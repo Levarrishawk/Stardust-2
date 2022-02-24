@@ -48,15 +48,15 @@ UnarmedLunge1Command = {
 	speedMultiplier = 1.5,
 	accuracyBonus = 15,
 	
-	healthCostMultiplier = 1.0,
-	actionCostMultiplier = 1.0,
-	mindCostMultiplier = 1.0,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 2.5,
+	mindCostMultiplier = 0,
 
 	animation = "lower_posture_unarmed_1",
 
 	combatSpam = "ridingbantha",
 
-	range = 20,
+	range = 16,
 	
 	weaponType = UNARMEDWEAPON,
 
@@ -65,8 +65,8 @@ UnarmedLunge1Command = {
 		POSTUREDOWN_EFFECT, 
 		{ "postureDownRecovery" }, 
 		{ "posture_change_down_defense" }, 
-		{},
-		100, 
+		{}, 
+		75, 
 		0, 
 		0 
 	  )

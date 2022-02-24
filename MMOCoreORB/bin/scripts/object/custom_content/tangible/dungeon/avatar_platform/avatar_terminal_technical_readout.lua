@@ -1,0 +1,5 @@
+object_dungeon_avatar_platform_avatar_terminal_technical_readout = object_dungeon_avatar_platform_shared_avatar_terminal_technical_readout:new {
+
+}
+
+ObjectTemplates:addTemplate(object_dungeon_avatar_platform_avatar_terminal_technical_readout, "object/dungeon/avatar_platform/avatar_terminal_technical_readout.iff")

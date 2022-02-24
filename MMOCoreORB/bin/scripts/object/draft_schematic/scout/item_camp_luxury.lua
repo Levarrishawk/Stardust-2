@@ -48,10 +48,9 @@ object_draft_schematic_scout_item_camp_luxury = object_draft_schematic_scout_sha
    customObjectName = "High Tech Field Base Kit",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+
    xpType = "camp", 
    xp = 230, 
 

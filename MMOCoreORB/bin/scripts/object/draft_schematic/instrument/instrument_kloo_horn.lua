@@ -48,12 +48,11 @@ object_draft_schematic_instrument_instrument_kloo_horn = object_draft_schematic_
    customObjectName = "a Kloo Horn",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 18, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_generic_items.iff",
-   
-   xpType = "music", 
-   xp = 110, 
+
+   xpType = "dance", 
+   xp = 6416, -- Boosted xp for Dancer craft grind expediency.
 
    assemblySkill = "instrument_assembly", 
    experimentingSkill = "general_experimentation", 

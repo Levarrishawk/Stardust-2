@@ -1,0 +1,5 @@
+
+object_tangible_wearables_backpack_backpack_s01_treasure_map = object_tangible_wearables_backpack_shared_backpack_s01_treasure_map:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_wearables_backpack_backpack_s01_treasure_map, "object/tangible/wearables/backpack/backpack_s01_treasure_map.iff")

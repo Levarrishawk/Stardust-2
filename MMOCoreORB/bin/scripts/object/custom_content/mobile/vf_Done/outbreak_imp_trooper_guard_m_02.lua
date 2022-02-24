@@ -1,0 +1,1 @@
+object_mobile_outbreak_imp_trooper_guard_m_02 = object_mobile_shared_outbreak_imp_trooper_guard_m_02:new {}ObjectTemplates:addTemplate(object_mobile_outbreak_imp_trooper_guard_m_02, "object/mobile/outbreak_imp_trooper_guard_m_02.iff")

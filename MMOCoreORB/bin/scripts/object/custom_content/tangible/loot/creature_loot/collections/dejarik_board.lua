@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_dejarik_board = object_tangible_loot_creature_loot_collections_shared_dejarik_board:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_dejarik_board, "object/tangible/loot/creature/loot/collections/dejarik_board.iff")

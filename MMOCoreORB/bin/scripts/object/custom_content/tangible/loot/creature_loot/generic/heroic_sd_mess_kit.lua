@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_generic_heroic_sd_mess_kit = object_tangible_loot_creature_loot_generic_shared_heroic_sd_mess_kit:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_generic_heroic_sd_mess_kit, "object/tangible/loot/creature/loot/generic/heroic_sd_mess_kit.iff")

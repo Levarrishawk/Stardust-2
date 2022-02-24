@@ -125,7 +125,7 @@ function NightSisterStrongholdScreenPlay:spawnMobiles()
 
 	--in the cave, make difficulty 'scale' as player progresses into the cave, listed here from bottom to top:
 	spawnMobile("dathomir", "nightsister_sentinel",2400,-89.6414,-100.547,-149.769,54,4115626)
-	spawnMobile("dathomir", "grovo",2400,-82.0,-99.7,-93.1,-174,4115629)
+	spawnMobile("dathomir", "nightsister_rancor",2400,-82.0,-99.7,-93.1,-174,4115629)
 	spawnMobile("dathomir", "nightsister_spell_weaver",2400,-82.2,-100.0,-103.6,-161,4115629)
 	spawnMobile("dathomir", "nightsister_sentinel",720,-28.3439,-80.1922,-151.496,7,4115628)
 	spawnMobile("dathomir", "nightsister_sentinel",720,-22.2057,-80.5683,-151.813,2,4115628)
@@ -188,7 +188,7 @@ function NightSisterStrongholdScreenPlay:spawnMobiles()
 	spawnMobile("dathomir", "nightsister_initiate",600,5.27219,-24.4314,-26.0931,2,4115620)
 	spawnMobile("dathomir", "nightsister_initiate",600,2.20982,-11.8595,-2.93477,7,4115619)
 
-	self:respawnAxkvaMin()
+	--self:respawnAxkvaMin()
 
 	local pTrap = spawnSceneObject("dathomir", "object/static/terrain/corellia/rock_crystl_shrpbush_med.iff", -11.5, -64.6, -202.2, 4115624, 0.707107, 0, 0.707107, 0)
 
@@ -259,7 +259,7 @@ function NightSisterStrongholdScreenPlay:notifyEnteredTrapArea(pActiveArea, pPla
 	end
 
 	spawnSceneObject("dathomir", "object/static/particle/pt_magic_sparks.iff", -11.5, -64.6, -202.2, 4115624, 0.707107, 0, 0.707107, 0)
-	playClientEffectLoc(pPlayer, "clienteffect/trap_electric_01.cef", "dathomir", -11.5, -64.6, -202.2, 4115624)
+	playClientEffectLoc(SceneObject(pPlayer):getObjectID(), "clienteffect/trap_electric_01.cef", "dathomir", -11.5, -64.6, -202.2, 4115624)
 
 	CreatureObject(pPlayer):sendSystemMessage("@dungeon/nightsister_rancor_cave:shock")
 	local trapDmg = getRandomNumber(400, 700)
@@ -278,7 +278,7 @@ function NightSisterStrongholdScreenPlay:respawnAxkvaMin()
 end
 
 function NightSisterStrongholdScreenPlay:axkvaKilled(pAxkvaMin)
-	createEvent(86400 * 1000, "NightSisterStrongholdScreenPlay", "respawnAxkvaMin", nil, "")
+	createEvent(6400 * 1000, "NightSisterStrongholdScreenPlay", "respawnAxkvaMin", nil, "")
 
 	return 1
 end

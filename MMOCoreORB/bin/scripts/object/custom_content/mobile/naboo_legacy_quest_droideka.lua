@@ -1,0 +1,1 @@
+object_mobile_naboo_legacy_quest_droideka = object_mobile_shared_naboo_legacy_quest_droideka:new {}ObjectTemplates:addTemplate(object_mobile_naboo_legacy_quest_droideka, "object/mobile/naboo_legacy_quest_droideka.iff")

@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_furniture_collection_glass_shelves_01 = object_draft_schematic_furniture_shared_furniture_collection_glass_shelves_01:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_collection_glass_shelves_01, "object/draft_schematic/furniture/furniture_collection_glass_shelves_01.iff")

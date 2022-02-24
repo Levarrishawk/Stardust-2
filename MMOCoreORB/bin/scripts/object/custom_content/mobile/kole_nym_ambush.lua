@@ -1,0 +1,1 @@
+object_mobile_kole_nym_ambush = object_mobile_shared_kole_nym_ambush:new {}ObjectTemplates:addTemplate(object_mobile_kole_nym_ambush, "object/mobile/kole_nym_ambush.iff")

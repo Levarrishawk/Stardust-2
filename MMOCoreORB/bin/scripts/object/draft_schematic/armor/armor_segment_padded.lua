@@ -48,13 +48,12 @@ object_draft_schematic_armor_armor_segment_padded = object_draft_schematic_armor
 	customObjectName = "Padded Armor Segment",
 
 	craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 25,
+	complexity = 1,
 	size = 6,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_armor.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_clothing_armor",
-	xp = 50,
+	xp = 3430, -- Boosted xp for AS grind expediency.
 
 	assemblySkill = "armor_assembly",
 	experimentingSkill = "armor_experimentation",

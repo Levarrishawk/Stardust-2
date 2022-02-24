@@ -1,0 +1,5 @@
+
+object_intangible_vehicle_light_bending_barc = object_intangible_vehicle_shared_light_bending_barc:new {
+
+}
+ObjectTemplates:addTemplate(object_intangible_vehicle_light_bending_barc, "object/intangible/vehicle/light_bending_barc.iff")

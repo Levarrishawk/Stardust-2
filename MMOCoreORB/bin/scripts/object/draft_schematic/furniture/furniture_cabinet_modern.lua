@@ -48,11 +48,10 @@ object_draft_schematic_furniture_furniture_cabinet_modern = object_draft_schemat
 	customObjectName = "Cabinet",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 20,
+	complexity = 1,
 	size = 3,
-	factoryCrateSize = 10,
-	factoryCrateType = "object/factory/factory_crate_furniture.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 700,
 

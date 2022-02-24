@@ -44,20 +44,20 @@
 SniperShotCommand = {
 	name = "snipershot",
 
-	minDamage = 135,
-	maxDamage = 135,
+	minDamage = 200,
 	speed = 1.0,
 	healthCostMultiplier = 0.5,
 	actionCostMultiplier = 0.5,
 	mindCostMultiplier = 2.0,
 	accuracyBonus = 5,
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
-	animation = "fire_1_special_single_medium_face", 
+	animation = "fire_1_special_single", 
+	animType = GENERATE_RANGED,
 
 	combatSpam = "snipershot",
-
+	
 	weaponType = RIFLEWEAPON,
 
 	range = -1

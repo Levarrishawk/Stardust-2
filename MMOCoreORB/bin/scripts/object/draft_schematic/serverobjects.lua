@@ -63,4 +63,5 @@ includeFile("draft_schematic/vehicle/serverobjects.lua")
 includeFile("draft_schematic/weapon/serverobjects.lua")
 
 -- Server Objects
+includeFile("draft_schematic/armored_clothing/serverobjects.lua")
 

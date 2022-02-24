@@ -1,0 +1,1 @@
+object_static_vehicle_static_flare_s = object_static_vehicle_shared_static_flare_s:new {}ObjectTemplates:addTemplate(object_static_vehicle_static_flare_s, "object/static/vehicle/static_flare_s.iff")

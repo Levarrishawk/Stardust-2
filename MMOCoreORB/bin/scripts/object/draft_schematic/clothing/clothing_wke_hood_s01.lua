@@ -48,9 +48,8 @@ object_draft_schematic_clothing_clothing_wke_hood_s01 = object_draft_schematic_c
    customObjectName = "Tree-Dweller\'s Hood",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 9, 
+   complexity = 1, 
    size = 3, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_general", 
    xp = 36, 

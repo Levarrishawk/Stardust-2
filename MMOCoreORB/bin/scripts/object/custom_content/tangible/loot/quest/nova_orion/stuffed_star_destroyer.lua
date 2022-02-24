@@ -1,0 +1,5 @@
+object_tangible_loot_quest_nova_orion_stuffed_star_destroyer = object_tangible_loot_quest_nova_orion_shared_stuffed_star_destroyer:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_quest_nova_orion_stuffed_star_destroyer, "object/tangible/loot/quest/nova/orion/stuffed_star_destroyer.iff")

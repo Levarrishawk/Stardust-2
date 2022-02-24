@@ -49,8 +49,8 @@ object_tangible_component_clothing_padding_segment = object_tangible_component_c
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "null", "exp_quality", "exp_durability", "exp_durability", "exp_durability", "exp_durability", "null"},
 	experimentalSubGroupTitles = {"null", "null", "hit_points", "armor_effectiveness", "armor_integrity", "armor_health_encumbrance", "armor_action_encumbrance", "armor_mind_encumbrance", "armor_rating"},
-	experimentalMin = {0, 0, 1000, 1, 50, 9, 11, 9, 1},
-	experimentalMax = {0, 0, 1000, 5, 500, 1, 1, 1, 1},
+	experimentalMin = {0, 0, 1000, 1, 50, 0, 0, 0, 1},
+	experimentalMax = {0, 0, 1000, 5, 500, 0, 0, 0, 1},
 	experimentalPrecision = {0, 0, 0, 10, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 4},
 }

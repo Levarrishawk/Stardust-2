@@ -1,0 +1,3 @@
+object_building_general_naboo_theed_skaak_bunker_02 = object_building_general_shared_naboo_theed_skaak_bunker_02:new {
+}
+ObjectTemplates:addTemplate(object_building_general_naboo_theed_skaak_bunker_02, "object/building/general/naboo_theed_skaak_bunker_02.iff")

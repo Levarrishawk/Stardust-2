@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series8_diorama_exogorth_crater = object_tangible_tcg_series8_shared_diorama_exogorth_crater:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series8_diorama_exogorth_crater, "object/tangible/tcg/series8/diorama_exogorth_crater.iff")

@@ -1,0 +1,3 @@
+object_mobile_nym_themepark_stuvany_inglen = object_mobile_shared_nym_themepark_stuvany_inglen:new {
+}
+ObjectTemplates:addTemplate(object_mobile_nym_themepark_stuvany_inglen, "object/mobile/nym_themepark_stuvany_inglen.iff")

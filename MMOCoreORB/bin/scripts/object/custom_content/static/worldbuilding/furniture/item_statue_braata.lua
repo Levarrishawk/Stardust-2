@@ -1,0 +1,1 @@
+object_static_worldbuilding_furniture_item_statue_braata = object_static_worldbuilding_furniture_shared_item_statue_braata:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_furniture_item_statue_braata, "object/static/worldbuilding/furniture/item_statue_braata.iff")

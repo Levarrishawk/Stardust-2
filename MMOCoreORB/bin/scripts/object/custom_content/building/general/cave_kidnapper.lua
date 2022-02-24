@@ -1,0 +1,3 @@
+object_building_general_cave_kidnapper = object_building_general_shared_cave_kidnapper:new {
+}
+ObjectTemplates:addTemplate(object_building_general_cave_kidnapper, "object/building/general/cave_kidnapper.iff")

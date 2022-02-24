@@ -1,0 +1,5 @@
+object_mobile_jedi_robe_collection_giver = object_mobile_shared_jedi_robe_collection_giver:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_jedi_robe_collection_giver, "object/mobile/jedi_robe_collection_giver.iff")

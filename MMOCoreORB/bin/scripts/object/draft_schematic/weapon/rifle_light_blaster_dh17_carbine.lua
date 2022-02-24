@@ -48,10 +48,9 @@ object_draft_schematic_weapon_rifle_light_blaster_dh17_carbine = object_draft_sc
    customObjectName = "DH17 Carbine",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 22,
+   complexity = 1,
    size = 3,
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general",
    xp = 105,
 

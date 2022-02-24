@@ -1,0 +1,1 @@
+object_mobile_borvo_acklay = object_mobile_shared_borvo_acklay:new {}ObjectTemplates:addTemplate(object_mobile_borvo_acklay, "object/mobile/borvo_acklay.iff")

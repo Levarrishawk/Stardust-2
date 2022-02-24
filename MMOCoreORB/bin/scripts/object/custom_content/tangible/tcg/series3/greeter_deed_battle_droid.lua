@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series3_greeter_deed_battle_droid = object_tangible_tcg_series3_shared_greeter_deed_battle_droid:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series3_greeter_deed_battle_droid, "object/tangible/tcg/series3/greeter_deed_battle_droid.iff")

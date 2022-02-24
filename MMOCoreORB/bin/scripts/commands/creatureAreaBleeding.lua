@@ -54,8 +54,8 @@ CreatureAreaBleedingCommand = {
 		true,
 		0,
 		100,
-		50, 
-		120
+		1, 
+		30
 	  )
 	},
 

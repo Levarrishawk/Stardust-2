@@ -42,6 +42,7 @@
 
 
 object_draft_schematic_space_chassis_xwing_body = object_draft_schematic_space_chassis_shared_xwing_body:new {
+
 }
 
 ObjectTemplates:addTemplate(object_draft_schematic_space_chassis_xwing_body, "object/draft_schematic/space/chassis/xwing_body.iff")

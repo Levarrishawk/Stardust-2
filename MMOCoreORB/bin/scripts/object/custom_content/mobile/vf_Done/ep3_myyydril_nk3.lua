@@ -1,0 +1,1 @@
+object_mobile_ep3_myyydril_nk3 = object_mobile_shared_ep3_myyydril_nk3:new {}ObjectTemplates:addTemplate(object_mobile_ep3_myyydril_nk3, "object/mobile/ep3_myyydril_nk3.iff")

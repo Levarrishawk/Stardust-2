@@ -1,0 +1,5 @@
+object_tangible_furniture_technical_guild_registry = object_tangible_furniture_technical_shared_guild_registry:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_technical_guild_registry, "object/tangible/furniture/technical/guild_registry.iff")

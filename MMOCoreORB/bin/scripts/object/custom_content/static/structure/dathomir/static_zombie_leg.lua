@@ -1,0 +1,1 @@
+object_static_structure_dathomir_static_zombie_leg = object_static_structure_dathomir_shared_static_zombie_leg:new {}ObjectTemplates:addTemplate(object_static_structure_dathomir_static_zombie_leg, "object/static/structure/dathomir/static_zombie_leg.iff")

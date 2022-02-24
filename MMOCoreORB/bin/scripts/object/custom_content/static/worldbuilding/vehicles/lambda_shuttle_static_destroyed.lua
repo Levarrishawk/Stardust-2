@@ -1,0 +1,1 @@
+object_static_worldbuilding_vehicles_lambda_shuttle_static_destroyed = object_static_worldbuilding_vehicles_shared_lambda_shuttle_static_destroyed:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_vehicles_lambda_shuttle_static_destroyed, "object/static/worldbuilding/vehicles/lambda_shuttle_static_destroyed.iff")

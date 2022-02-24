@@ -1,0 +1,1 @@
+object_static_worldbuilding_building_echo_base_metal_pipe = object_static_worldbuilding_building_shared_echo_base_metal_pipe:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_building_echo_base_metal_pipe, "object/static/worldbuilding/building/echo_base_metal_pipe.iff")

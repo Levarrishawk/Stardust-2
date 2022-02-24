@@ -1,0 +1,5 @@
+object_tangible_quest_township_axkva_nightsister_headdress = object_tangible_quest_township_shared_axkva_nightsister_headdress:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_quest_township_axkva_nightsister_headdress, "object/tangible/quest/township/axkva_nightsister_headdress.iff")

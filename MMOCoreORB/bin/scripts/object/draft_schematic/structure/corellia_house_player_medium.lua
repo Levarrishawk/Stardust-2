@@ -48,11 +48,10 @@ object_draft_schematic_structure_corellia_house_player_medium = object_draft_sch
 	customObjectName = "Deed for: Medium Corellia House",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 15,
+	complexity = 1,
 	size = 12,
-	factoryCrateSize = 1,
-	factoryCrateType = "object/factory/factory_crate_installation.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 8000,
 

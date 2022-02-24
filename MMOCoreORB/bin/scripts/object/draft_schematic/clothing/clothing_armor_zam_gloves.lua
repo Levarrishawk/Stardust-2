@@ -48,12 +48,11 @@ object_draft_schematic_clothing_clothing_armor_zam_gloves = object_draft_schemat
    customObjectName = "Mabari Armorweave Gloves",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 4, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_armor", 
-   xp = 95, 
+   xp = 200, 
 
    assemblySkill = "armor_assembly", 
    experimentingSkill = "armor_experimentation", 

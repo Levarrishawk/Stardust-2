@@ -1,0 +1,1 @@
+object_mobile_nym_themepark_goll_bardok = object_mobile_shared_nym_themepark_goll_bardok:new {}ObjectTemplates:addTemplate(object_mobile_nym_themepark_goll_bardok, "object/mobile/nym_themepark_goll_bardok.iff")

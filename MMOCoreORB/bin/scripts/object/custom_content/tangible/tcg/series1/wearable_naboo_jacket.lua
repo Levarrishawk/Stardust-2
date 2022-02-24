@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series1_wearable_naboo_jacket = object_tangible_tcg_series1_shared_wearable_naboo_jacket:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series1_wearable_naboo_jacket, "object/tangible/tcg/series1/wearable_naboo_jacket.iff")

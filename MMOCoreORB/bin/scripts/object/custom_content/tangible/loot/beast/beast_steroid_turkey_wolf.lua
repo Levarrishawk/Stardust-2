@@ -1,0 +1,5 @@
+object_tangible_loot_beast_beast_steroid_turkey_wolf = object_tangible_loot_beast_shared_beast_steroid_turkey_wolf:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_beast_beast_steroid_turkey_wolf, "object/tangible/loot/beast/beast_steroid_turkey_wolf.iff")

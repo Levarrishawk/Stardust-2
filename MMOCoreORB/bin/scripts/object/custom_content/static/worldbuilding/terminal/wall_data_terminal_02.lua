@@ -1,0 +1,1 @@
+object_static_worldbuilding_terminal_wall_data_terminal_02 = object_static_worldbuilding_terminal_shared_wall_data_terminal_02:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_terminal_wall_data_terminal_02, "object/static/worldbuilding/terminal/wall_data_terminal_02.iff")

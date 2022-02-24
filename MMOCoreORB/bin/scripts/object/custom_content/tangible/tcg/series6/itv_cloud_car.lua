@@ -1,0 +1,4 @@
+object_tangible_tcg_series6_itv_cloud_car = object_tangible_tcg_series6_shared_itv_cloud_car:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series6_itv_cloud_car, "object/tangible/tcg/series6/itv_cloud_car.iff")

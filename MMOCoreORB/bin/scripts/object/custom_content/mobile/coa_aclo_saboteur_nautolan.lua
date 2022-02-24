@@ -1,0 +1,5 @@
+object_mobile_coa_aclo_saboteur_nautolan = object_mobile_shared_coa_aclo_saboteur_nautolan:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_coa_aclo_saboteur_nautolan, "object/mobile/coa_aclo_saboteur_nautolan.iff")

@@ -1,0 +1,5 @@
+object_mobile_ep3_shared_ep3_etyyy_chiss_poacher_02 = object_mobile_ep3_shared_ep3_etyyy_chiss_poacher_02:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_ep3_shared_ep3_etyyy_chiss_poacher_02, "object/mobile/ep3/shared_ep3_etyyy_chiss_poacher_02.iff")

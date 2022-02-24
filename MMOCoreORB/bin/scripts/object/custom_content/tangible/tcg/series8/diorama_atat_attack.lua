@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series8_diorama_atat_attack = object_tangible_tcg_series8_shared_diorama_atat_attack:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series8_diorama_atat_attack, "object/tangible/tcg/series8/diorama_atat_attack.iff")

@@ -7,6 +7,7 @@ nashal_racetrack_screenplay = RaceTrack:new {
 		debugMode = 0, -- 0 = off, 1 = print debug messages
 		planetName = "talus", -- The planet the Track is on
 		badgeToAward=BDG_RACING_NASHAL_RIVER,  -- Badge to be awarded for best daily time
+		lootGroup="nashal_track",   -- Loot Group for Speeder Reward
 		trackName="NASHALRT",  -- Internal trackname , should be unique to the track
 		className="nashal_racetrack_screenplay", -- Class name of this class
 		trackCheckpoint="@theme_park/racing/racing:nashal_waypoint_name_checkpoint", --Waypoint names

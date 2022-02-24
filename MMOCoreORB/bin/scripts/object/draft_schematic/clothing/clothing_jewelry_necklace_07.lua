@@ -48,9 +48,8 @@ object_draft_schematic_clothing_clothing_jewelry_necklace_07 = object_draft_sche
    customObjectName = "Emerald Pendant",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 2, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 70, 

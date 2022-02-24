@@ -1,0 +1,1 @@
+object_mobile_aurra_sing_static = object_mobile_shared_aurra_sing_static:new {}ObjectTemplates:addTemplate(object_mobile_aurra_sing_static, "object/mobile/aurra_sing_static.iff")

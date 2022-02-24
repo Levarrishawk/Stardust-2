@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series7_consumable_rocket_launcher = object_tangible_tcg_series7_shared_consumable_rocket_launcher:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series7_consumable_rocket_launcher, "object/tangible/tcg/series7/consumable_rocket_launcher.iff")

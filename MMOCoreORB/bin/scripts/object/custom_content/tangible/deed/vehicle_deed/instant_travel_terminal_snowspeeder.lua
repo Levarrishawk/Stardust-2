@@ -1,0 +1,5 @@
+
+object_tangible_deed_vehicle_deed_instant_travel_terminal_snowspeeder = object_tangible_deed_vehicle_deed_shared_instant_travel_terminal_snowspeeder:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_deed_vehicle_deed_instant_travel_terminal_snowspeeder, "object/tangible/deed/vehicle_deed/instant_travel_terminal_snowspeeder.iff")

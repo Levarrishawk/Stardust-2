@@ -48,10 +48,9 @@ object_draft_schematic_scout_item_trap_ranged_def_1 = object_draft_schematic_sco
    customObjectName = "Glow-Juice Trap",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 4, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+
    xpType = "camp", 
    xp = 16, 
 

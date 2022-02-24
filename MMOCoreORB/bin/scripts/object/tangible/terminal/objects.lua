@@ -456,59 +456,7 @@ ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_terminal_bount
 
 object_tangible_terminal_shared_terminal_character_builder = SharedTangibleObjectTemplate:new {
 	clientTemplateFileName = "object/tangible/terminal/shared_terminal_character_builder.iff"
-	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
---[[
-	appearanceFilename = "appearance/thm_prp_kiosk_statue.apt",
-	arrangementDescriptorFilename = "",
-
-	certificationsRequired = {},
-	clearFloraRadius = 0,
-	clientDataFile = "",
-	clientGameObjectType = 16396,
-	collisionActionBlockFlags = 0,
-	collisionActionFlags = 51,
-	collisionActionPassFlags = 1,
-	collisionMaterialBlockFlags = 0,
-	collisionMaterialFlags = 1,
-	collisionMaterialPassFlags = 0,
-	containerType = 0,
-	containerVolumeLimit = 1,
-	customizationVariableMapping = {},
-
-	detailedDescription = "@terminal_detail:terminal_character_builder",
-
-	gameObjectType = 16396,
-
-	locationReservationRadius = 0,
-	lookAtText = "@terminal_lookat:base_terminal",
-
-	noBuildRadius = 0,
-
-	objectName = "@terminal_name:terminal_character_builder",
-	onlyVisibleInTools = 0,
-
-	paletteColorCustomizationVariables = {},
-	portalLayoutFilename = "",
-
-	rangedIntCustomizationVariables = {},
-
-	scale = 1,
-	scaleThresholdBeforeExtentTest = 0.5,
-	sendToClient = 1,
-	slotDescriptorFilename = "",
-	snapToTerrain = 1,
-	socketDestinations = {},
-	structureFootprintFileName = "",
-	surfaceType = 0,
-
-	targetable = 1,
-	totalCellNumber = 0,
-
-	useStructureFootprintOutline = 0,
-
-	clientObjectCRC = 1444012427,
-	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/tangible/terminal/base/shared_base_terminal.iff"}
-]]
+	
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_terminal_character_builder, "object/tangible/terminal/shared_terminal_character_builder.iff")
@@ -3344,3 +3292,56 @@ object_tangible_terminal_shared_test = SharedTangibleObjectTemplate:new {
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_test, "object/tangible/terminal/shared_test.iff")
+
+object_tangible_terminal_shared_terminal_event_buffs = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/terminal/shared_terminal_event_buffs.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_terminal_event_buffs, "object/tangible/terminal/shared_terminal_event_buffs.iff")
+
+object_tangible_terminal_shared_terminal_character_builder2 = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/terminal/shared_terminal_character_builder2.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_terminal_character_builder2, "object/tangible/terminal/shared_terminal_character_builder2.iff")
+--
+object_tangible_terminal_shared_terminal_elysium_crystal_01 = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/terminal/shared_terminal_elysium_crystal_01.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_terminal_elysium_crystal_01, "object/tangible/terminal/shared_terminal_elysium_crystal_01.iff")
+
+object_tangible_terminal_shared_terminal_elysium_crystal_02 = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/terminal/shared_terminal_elysium_crystal_02.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_terminal_elysium_crystal_02, "object/tangible/terminal/shared_terminal_elysium_crystal_02.iff")
+
+
+object_tangible_terminal_shared_terminal_elysium_obelisk = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/terminal/shared_terminal_elysium_obelisk.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_terminal_elysium_obelisk, "object/tangible/terminal/shared_terminal_elysium_obelisk.iff")
+
+object_tangible_terminal_shared_terminal_exar_kun_entrance = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/terminal/shared_terminal_exar_kun_entrance.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_terminal_exar_kun_entrance, "object/tangible/terminal/shared_terminal_exar_kun_entrance.iff")
+
+object_tangible_terminal_shared_terminal_axkva_min_entrance = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/terminal/shared_terminal_axkva_min_entrance.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_terminal_axkva_min_entrance, "object/tangible/terminal/shared_terminal_axkva_min_entrance.iff")
+
+
+

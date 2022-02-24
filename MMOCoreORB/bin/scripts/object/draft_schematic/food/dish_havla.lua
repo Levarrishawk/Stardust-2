@@ -48,12 +48,11 @@ object_draft_schematic_food_dish_havla = object_draft_schematic_food_shared_dish
    customObjectName = "Havla",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 10, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_food.iff",
-   
+
    xpType = "crafting_food_general", 
-   xp = 240, 
+   xp = 500, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

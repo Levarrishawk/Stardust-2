@@ -1,0 +1,1 @@
+object_building_mustafar_terrain_must_lava_pillar_lrg = object_building_mustafar_terrain_shared_must_lava_pillar_lrg:new {}ObjectTemplates:addTemplate(object_building_mustafar_terrain_must_lava_pillar_lrg, "object/building/mustafar/terrain/must_lava_pillar_lrg.iff")

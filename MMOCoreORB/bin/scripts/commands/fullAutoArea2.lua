@@ -44,52 +44,53 @@
 FullAutoArea2Command = {
         name = "fullautoarea2",
 
-	damageMultiplier = 2.0,
-	speedMultiplier = 1.5,
-	healthCostMultiplier = 2.5,
-	actionCostMultiplier = 2.5,
-	mindCostMultiplier = 0.5,
-	accuracyBonus = 25,
+	damageMultiplier = 3,
+  speedMultiplier = 2,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 2,
+  mindCostMultiplier = 0,
+  accuracyBonus = 25,
+    visMod = 25,
 
 	animation = "fire_area",
 	animType = GENERATE_INTENSITY,
 
 	combatSpam = "a_auto",
 
-	coneAngle = 30,
+	coneAngle = 180,
 	coneAction = true,
 
 	stateEffects = {
 	  StateEffect( 
 		DIZZY_EFFECT, 
 		{}, 
-		{ "dizzy_defense" }, 
-		{ "jedi_state_defense", "resistance_states" }, 
+		{ "dizzy_defense", "resistance_states" }, 
+		{ "jedi_state_defense" }, 
 		30, 
 		0, 
-		30 
+		10 
 	  ),
 	  StateEffect( 
 		BLIND_EFFECT, 
 		{}, 
-		{ "blind_defense" }, 
-		{ "jedi_state_defense", "resistance_states" },
+		{ "blind_defense", "resistance_states" }, 
+		{ "jedi_state_defense" }, 
 		30, 
 		0, 
-		40 
+		20 
 	  ),
 	  StateEffect( 
 		STUN_EFFECT, 
 		{}, 
-		{ "stun_defense" }, 
-		{ "jedi_state_defense", "resistance_states" }, 
+		{ "stun_defense", "resistance_states" }, 
+		{ "jedi_state_defense" }, 
 		30, 
 		0, 
-		30 
+		15 
 	  )
 	},
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 	
 	weaponType = CARBINEWEAPON,
 

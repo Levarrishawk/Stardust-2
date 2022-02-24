@@ -3,42 +3,42 @@
 
 --This File is part of Core3.
 
---This program is free software; you can redistribute
---it and/or modify it under the terms of the GNU Lesser
+--This program is free software; you can redistribute 
+--it and/or modify it under the terms of the GNU Lesser 
 --General Public License as published by the Free Software
---Foundation; either version 2 of the License,
+--Foundation; either version 2 of the License, 
 --or (at your option) any later version.
 
---This program is distributed in the hope that it will be useful,
---but WITHOUT ANY WARRANTY; without even the implied warranty of
---MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+--This program is distributed in the hope that it will be useful, 
+--but WITHOUT ANY WARRANTY; without even the implied warranty of 
+--MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
 --See the GNU Lesser General Public License for
 --more details.
 
---You should have received a copy of the GNU Lesser General
+--You should have received a copy of the GNU Lesser General 
 --Public License along with this program; if not, write to
 --the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
---Linking Engine3 statically or dynamically with other modules
---is making a combined work based on Engine3.
---Thus, the terms and conditions of the GNU Lesser General Public License
+--Linking Engine3 statically or dynamically with other modules 
+--is making a combined work based on Engine3. 
+--Thus, the terms and conditions of the GNU Lesser General Public License 
 --cover the whole combination.
 
---In addition, as a special exception, the copyright holders of Engine3
---give you permission to combine Engine3 program with free software
---programs or libraries that are released under the GNU LGPL and with
---code included in the standard release of Core3 under the GNU LGPL
---license (or modified versions of such code, with unchanged license).
---You may copy and distribute such a system following the terms of the
---GNU LGPL for Engine3 and the licenses of the other code concerned,
---provided that you include the source code of that other code when
+--In addition, as a special exception, the copyright holders of Engine3 
+--give you permission to combine Engine3 program with free software 
+--programs or libraries that are released under the GNU LGPL and with 
+--code included in the standard release of Core3 under the GNU LGPL 
+--license (or modified versions of such code, with unchanged license). 
+--You may copy and distribute such a system following the terms of the 
+--GNU LGPL for Engine3 and the licenses of the other code concerned, 
+--provided that you include the source code of that other code when 
 --and as the GNU LGPL requires distribution of source code.
 
---Note that people who make modified versions of Engine3 are not obligated
---to grant this special exception for their modified versions;
---it is their choice whether to do so. The GNU Lesser General Public License
---gives permission to release a modified version without this exception;
---this exception also makes it possible to release a modified version
+--Note that people who make modified versions of Engine3 are not obligated 
+--to grant this special exception for their modified versions; 
+--it is their choice whether to do so. The GNU Lesser General Public License 
+--gives permission to release a modified version without this exception; 
+--this exception also makes it possible to release a modified version 
 
 
 object_weapon_melee_polearm_polearm_vibro_axe = object_weapon_melee_polearm_shared_polearm_vibro_axe:new {
@@ -72,7 +72,7 @@ object_weapon_melee_polearm_polearm_vibro_axe = object_weapon_melee_polearm_shar
 	damageType = KINETIC,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = MEDIUM,
+	armorPiercing = LIGHT,
 
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
@@ -101,33 +101,33 @@ object_weapon_melee_polearm_polearm_vibro_axe = object_weapon_melee_polearm_shar
 
 	-- The values below are the default values.  To be used for blue frog objects primarily
 	healthAttackCost = 70,
-	actionAttackCost = 58,
-	mindAttackCost = 28,
+	actionAttackCost = 55,
+	mindAttackCost = 22,
 	forceCost = 0,
 
 	pointBlankRange = 0,
-	pointBlankAccuracy = -35,
+	pointBlankAccuracy = -45,
 
-	idealRange = 3,
-	idealAccuracy = -35,
+	idealRange = 5,
+	idealAccuracy = -45,
 
 	maxRange = 7,
-	maxRangeAccuracy = -31,
+	maxRangeAccuracy = -45,
 
-	minDamage = 105,
-	maxDamage = 380,
+	minDamage = 100,
+	maxDamage = 375,
 
-	attackSpeed = 4.5,
+	attackSpeed = 5,
 
-	woundsRatio = 40,
+	woundsRatio = 33,
 
 	numberExperimentalProperties = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalProperties = {"XX", "XX", "SR", "SR", "SR", "SR", "SR", "SR", "SR", "XX", "SR", "XX", "SR", "SR", "SR"},
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "expRange", "expRange", "null", "expRange", "null", "expEffeciency", "expEffeciency", "expEffeciency"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "maxrange", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 49, 196, 6.5, 23, 750, -45, -40, 3, -45, 7, 78, 65, 29},
-	experimentalMax = {0, 0, 91, 364, 4.5, 43, 1500, -20, -20, 3, -20, 7, 45, 35, 15},
+	experimentalMin = {0, 0, 49, 196, 4, 23, 750, -45, -40, 3, -45, 7, 0, 300, 0},
+	experimentalMax = {0, 0, 91, 364, 4, 43, 1500, -20, -20, 3, -20, 7, 0, 300, 0},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

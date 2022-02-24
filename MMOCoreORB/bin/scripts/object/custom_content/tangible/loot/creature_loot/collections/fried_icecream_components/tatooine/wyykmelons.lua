@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fried_icecream_components_tatooine_wyykmelons = object_tangible_loot_creature_loot_collections_fried_icecream_components_tatooine_shared_wyykmelons:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_tatooine_wyykmelons, "object/tangible/loot/creature/loot/collections/fried/icecream/components/tatooine/wyykmelons.iff")

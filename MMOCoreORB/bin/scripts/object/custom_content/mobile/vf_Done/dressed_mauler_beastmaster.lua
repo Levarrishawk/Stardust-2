@@ -1,0 +1,3 @@
+object_mobile_dressed_mauler_beastmaster = object_mobile_shared_dressed_mauler_beastmaster:new {
+}
+ObjectTemplates:addTemplate(object_mobile_dressed_mauler_beastmaster, "object/mobile/dressed_mauler_beastmaster.iff")

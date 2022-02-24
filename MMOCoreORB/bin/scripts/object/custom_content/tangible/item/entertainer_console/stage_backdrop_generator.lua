@@ -1,0 +1,5 @@
+object_tangible_item_entertainer_console_stage_backdrop_generator = object_tangible_item_entertainer_console_shared_stage_backdrop_generator:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_entertainer_console_stage_backdrop_generator, "object/tangible/item/entertainer_console/stage_backdrop_generator.iff")

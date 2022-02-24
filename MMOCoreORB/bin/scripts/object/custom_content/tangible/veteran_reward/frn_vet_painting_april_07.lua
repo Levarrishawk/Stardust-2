@@ -1,0 +1,3 @@
+object_tangible_veteran_reward_frn_vet_painting_april_07 = object_tangible_veteran_reward_shared_frn_vet_painting_april_07:new {
+}
+ObjectTemplates:addTemplate(object_tangible_veteran_reward_frn_vet_painting_april_07, "object/tangible/veteran_reward/frn_vet_painting_april_07.iff")

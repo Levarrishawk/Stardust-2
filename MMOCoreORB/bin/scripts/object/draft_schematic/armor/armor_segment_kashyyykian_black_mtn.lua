@@ -48,10 +48,9 @@ object_draft_schematic_armor_armor_segment_kashyyykian_black_mtn = object_draft_
 	customObjectName = "Kashyyykian Black Mountain Armor Segment",
 
 	craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 25,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_armor.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_clothing_armor",
 	xp = 50,

@@ -48,12 +48,11 @@ object_draft_schematic_instrument_instrument_fanfar = object_draft_schematic_ins
    customObjectName = "a Fanfar",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 14, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_generic_items.iff",
-   
-   xpType = "music", 
-   xp = 110, 
+
+   xpType = "entertainer_healing", 
+   xp = 3066, -- Boosted xp for Ent Healing Grind expediency.
 
    assemblySkill = "instrument_assembly", 
    experimentingSkill = "general_experimentation", 

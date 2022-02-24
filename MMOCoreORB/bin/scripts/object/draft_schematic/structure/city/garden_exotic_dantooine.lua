@@ -48,11 +48,10 @@ object_draft_schematic_structure_city_garden_exotic_dantooine = object_draft_sch
 	customObjectName = "Deed for: Dantooine Meditation Area (Garden)",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 27,
+	complexity = 1,
 	size = 12,
-	factoryCrateSize = 1,
-	factoryCrateType = "object/factory/factory_crate_installation.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 9000,
 

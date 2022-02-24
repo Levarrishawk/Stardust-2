@@ -50,8 +50,7 @@ object_draft_schematic_space_shields_shield_overcharger_mk2 = object_draft_schem
    craftingToolTab = 131072, -- (See DraftSchematicObjectTemplate.h)
    complexity = 23, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+
    xpType = "shipwright", 
    xp = 63, 
 

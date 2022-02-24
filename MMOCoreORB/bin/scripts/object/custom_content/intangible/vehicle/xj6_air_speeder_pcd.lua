@@ -1,0 +1,5 @@
+
+object_intangible_vehicle_xj6_air_speeder_pcd = object_intangible_vehicle_shared_xj6_air_speeder_pcd:new {
+
+}
+ObjectTemplates:addTemplate(object_intangible_vehicle_xj6_air_speeder_pcd, "object/intangible/vehicle/xj6_air_speeder_pcd.iff")

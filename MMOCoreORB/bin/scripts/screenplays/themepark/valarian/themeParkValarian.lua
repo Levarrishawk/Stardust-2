@@ -21,7 +21,7 @@ kavas_missions =
 			missionType = "assassinate",
 			primarySpawns =
 			{
-				{ npcTemplate = "jabba_enforcer", npcName = "Jabba's enforcer" }
+				{ npcTemplate = "jabba_enforcer", npcName = "Hutt Cartel Enforcer" }
 			},
 			secondarySpawns =	{},
 			itemSpawns = {},
@@ -39,9 +39,9 @@ kavas_missions =
 			},
 			secondarySpawns =
 			{
-				{ npcTemplate = "jabba_thug", npcName = "Jabba's thug" },
-				{ npcTemplate = "jabba_thug", npcName = "Jabba's thug" },
-				{ npcTemplate = "jabba_thug", npcName = "Jabba's thug" }
+				{ npcTemplate = "jabba_thug", npcName = "Hutt Cartel thug" },
+				{ npcTemplate = "jabba_thug", npcName = "Hutt Cartel thug" },
+				{ npcTemplate = "jabba_thug", npcName = "Hutt Cartel thug" }
 			},
 			itemSpawns =
 			{
@@ -74,7 +74,7 @@ kavas_missions =
 			missionType = "assassinate",
 			primarySpawns =
 			{
-				{ npcTemplate = "jabba_enforcer", npcName = "Jabba's enforcer" }
+				{ npcTemplate = "jabba_enforcer", npcName = "Rotta the Hutt's Enforcer" }
 			},
 			secondarySpawns =	{},
 			itemSpawns = {},
@@ -88,7 +88,7 @@ kavas_missions =
 			missionType = "confiscate",
 			primarySpawns =
 			{
-				{ npcTemplate = "kavas_jabba_assassin", npcName = "Jabba's assassin" }
+				{ npcTemplate = "kavas_jabba_assassin", npcName = "Hutt Cartel Assassin" }
 			},
 			secondarySpawns = {},
 			itemSpawns =
@@ -130,7 +130,7 @@ ind_missions =
 			},
 			secondarySpawns =
 			{
-				{ npcTemplate = "jabba_henchman", npcName = "Jabba's henchman" }
+				{ npcTemplate = "jabba_henchman", npcName = "Hutt Cartel Henchman" }
 			},
 			itemSpawns = {},
 			rewards =
@@ -172,12 +172,12 @@ ind_missions =
 			missionType = "confiscate",
 			primarySpawns =
 			{
-				{ npcTemplate = "ind_jabba_enforcer", npcName = "Jabba's enforcer" },
+				{ npcTemplate = "ind_jabba_enforcer", npcName = "Hutt Cartel Enforcer" },
 			},
 			secondarySpawns =
 			{
-				{ npcTemplate = "jabba_enforcer", npcName = "Jabba's enforcer" },
-				{ npcTemplate = "jabba_enforcer", npcName = "Jabba's enforcer" }
+				{ npcTemplate = "jabba_enforcer", npcName = "Hutt Cartel Enforcer" },
+				{ npcTemplate = "jabba_enforcer", npcName = "Hutt Cartel Enforcer" }
 			},
 			itemSpawns =
 			{
@@ -193,14 +193,14 @@ ind_missions =
 			missionType = "confiscate",
 			primarySpawns =
 			{
-				{ npcTemplate = "ind_jabba_henchman", npcName = "Jabba's Delivery Boy" }
+				{ npcTemplate = "ind_jabba_henchman", npcName = "Hutt Cartel Delivery Boy" }
 			},
 			secondarySpawns =
 			{
-				{ npcTemplate = "jabba_enforcer", npcName = "Jabba's enforcer" },
-				{ npcTemplate = "jabba_enforcer", npcName = "Jabba's enforcer" },
-				{ npcTemplate = "jabba_enforcer", npcName = "Jabba's enforcer" },
-				{ npcTemplate = "jabba_enforcer", npcName = "Jabba's enforcer" }
+				{ npcTemplate = "jabba_enforcer", npcName = "Hutt Cartel enforcer" },
+				{ npcTemplate = "jabba_enforcer", npcName = "Hutt Cartel enforcer" },
+				{ npcTemplate = "jabba_enforcer", npcName = "Hutt Cartel enforcer" },
+				{ npcTemplate = "jabba_enforcer", npcName = "Hutt Cartel enforcer" }
 			},
 			itemSpawns =
 			{

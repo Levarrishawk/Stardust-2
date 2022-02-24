@@ -1,0 +1,5 @@
+object_tangible_holiday_empire_day_component_carrier_steering_gear = object_tangible_holiday_empire_day_component_shared_carrier_steering_gear:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_component_carrier_steering_gear, "object/tangible/holiday/empire_day/component/carrier_steering_gear.iff")

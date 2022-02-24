@@ -1,0 +1,5 @@
+object_mobile_nova_orion_human_resources_advisor = object_mobile_shared_nova_orion_human_resources_advisor:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_nova_orion_human_resources_advisor, "object/mobile/nova_orion_human_resources_advisor.iff")

@@ -1,0 +1,1 @@
+object_mobile_dressed_scouttrooper_outbreak_survivor_01_m = object_mobile_shared_dressed_scouttrooper_outbreak_survivor_01_m:new {}ObjectTemplates:addTemplate(object_mobile_dressed_scouttrooper_outbreak_survivor_01_m, "object/mobile/dressed_scouttrooper_outbreak_survivor_01_m.iff")

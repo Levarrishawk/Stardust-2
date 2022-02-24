@@ -48,10 +48,9 @@ object_draft_schematic_armor_armor_segment_chitin_advanced = object_draft_schema
 	customObjectName = "Advanced Chitin Armor Segment",
 
 	craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 15,
+	complexity = 1,
 	size = 4,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_armor.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_clothing_armor",
 	xp = 40,
@@ -64,12 +63,12 @@ object_draft_schematic_armor_armor_segment_chitin_advanced = object_draft_schema
 	customizationStringNames = {},
 	customizationDefaults = {},
 
-	ingredientTemplateNames = {"craft_armor_ingredients_n", "craft_armor_ingredients_n", "craft_armor_ingredients_n"},
-	ingredientTitleNames = {"armor_segment_chitin", "segment_mounting_tabs", "segment_enhancement"},
-	ingredientSlotType = {0, 0, 3},
-	resourceTypes = {"bone_mammal_dantooine", "iron_doonium", "object/tangible/component/armor/shared_base_armor_segment_enhancement.iff"},
-	resourceQuantities = {25, 8, 1},
-	contribution = {100, 100, 100},
+	ingredientTemplateNames = {"craft_armor_ingredients_n", "craft_armor_ingredients_n", "craft_armor_ingredients_n", "craft_armor_ingredients_n", "craft_armor_ingredients_n", "craft_armor_ingredients_n"},
+	ingredientTitleNames = {"armor_segment_chitin", "segment_mounting_tabs", "defensive_layer", "defensive_layer_2", "defensive_layer_3", "segment_enhancement"},
+	ingredientSlotType = {0, 0, 3, 3, 3, 3},
+	resourceTypes = {"bone", "iron_doonium", "object/tangible/component/armor/shared_armor_layer.iff", "object/tangible/component/armor/shared_armor_layer.iff", "object/tangible/component/armor/shared_armor_layer.iff", "object/tangible/component/armor/shared_base_armor_segment_enhancement.iff"},
+	resourceQuantities = {25, 8, 1, 1, 1, 1},
+	contribution = {100, 100, 100, 100, 100, 100},
 
 	targetTemplate = "object/tangible/component/armor/armor_segment_chitin_advanced.iff",
 

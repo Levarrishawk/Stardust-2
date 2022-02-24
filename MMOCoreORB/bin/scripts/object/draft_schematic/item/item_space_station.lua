@@ -48,10 +48,9 @@ object_draft_schematic_item_item_space_station = object_draft_schematic_item_sha
    customObjectName = "Starship Crafting Station",
 
    craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+
    xpType = "crafting_structure_general", 
    xp = 900, 
 

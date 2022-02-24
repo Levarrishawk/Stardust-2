@@ -1,0 +1,5 @@
+object_mobile_dressed_rebel_communication_female_01 = object_mobile_shared_dressed_rebel_communication_female_01:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_rebel_communication_female_01, "object/mobile/dressed_rebel_communication_female_01.iff")

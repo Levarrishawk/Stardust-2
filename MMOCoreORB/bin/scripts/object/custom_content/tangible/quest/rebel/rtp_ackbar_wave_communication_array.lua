@@ -1,0 +1,5 @@
+object_tangible_quest_rebel_rtp_ackbar_wave_communication_array = object_tangible_quest_rebel_shared_rtp_ackbar_wave_communication_array:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_quest_rebel_rtp_ackbar_wave_communication_array, "object/tangible/quest/rebel/rtp_ackbar_wave_communication_array.iff")

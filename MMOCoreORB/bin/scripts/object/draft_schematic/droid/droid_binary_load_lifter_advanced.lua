@@ -48,10 +48,9 @@ object_draft_schematic_droid_droid_binary_load_lifter_advanced = object_draft_sc
 	customObjectName = "Deed for: Binary Load Lifter Droid, Advanced Model",
 
 	craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 36,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 1,
-	factoryCrateType = "object/factory/factory_crate_electronics.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_droid_general",
 	xp = 560,

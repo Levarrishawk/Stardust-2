@@ -48,11 +48,10 @@ object_draft_schematic_structure_city_cityhall_tatooine = object_draft_schematic
 	customObjectName = "Deed for: Tatooine City Hall",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 50,
+	complexity = 1,
 	size = 14,
-	factoryCrateSize = 1,
-	factoryCrateType = "object/factory/factory_crate_installation.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 11800,
 

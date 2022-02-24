@@ -1,0 +1,5 @@
+
+object_intangible_vehicle_walker_at_rt_reg_pcd = object_intangible_vehicle_shared_walker_at_rt_reg_pcd:new {
+
+}
+ObjectTemplates:addTemplate(object_intangible_vehicle_walker_at_rt_reg_pcd, "object/intangible/vehicle/walker_at_rt_reg_pcd.iff")

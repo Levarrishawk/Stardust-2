@@ -1,0 +1,5 @@
+object_mobile_dressed_rebel_snow_echo_base_m_04 = object_mobile_shared_dressed_rebel_snow_echo_base_m_04:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_rebel_snow_echo_base_m_04, "object/mobile/dressed_rebel_snow_echo_base_m_04.iff")

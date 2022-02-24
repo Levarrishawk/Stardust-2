@@ -1,0 +1,3 @@
+object_mobile_dressed_npe_pilot_aleas = object_mobile_shared_dressed_npe_pilot_aleas:new {
+}
+ObjectTemplates:addTemplate(object_mobile_dressed_npe_pilot_aleas, "object/mobile/dressed_npe_pilot_aleas.iff")

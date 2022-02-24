@@ -48,9 +48,8 @@ object_draft_schematic_clothing_clothing_ith_skirt_formal_01 = object_draft_sche
    customObjectName = "Ithorian Striped Skirt",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 19, 
+   complexity = 1, 
    size = 4, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 25, 

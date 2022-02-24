@@ -48,10 +48,9 @@ object_draft_schematic_weapon_rifle_spray_stick_stohli = object_draft_schematic_
    customObjectName = "Spraystick",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 25, 
+   complexity = 1, 
    size = 3, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general", 
    xp = 165, 
 

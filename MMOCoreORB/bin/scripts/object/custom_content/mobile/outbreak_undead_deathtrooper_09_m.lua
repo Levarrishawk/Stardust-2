@@ -1,0 +1,1 @@
+object_mobile_outbreak_undead_deathtrooper_09_m = object_mobile_shared_outbreak_undead_deathtrooper_09_m:new {}ObjectTemplates:addTemplate(object_mobile_outbreak_undead_deathtrooper_09_m, "object/mobile/outbreak_undead_deathtrooper_09_m.iff")

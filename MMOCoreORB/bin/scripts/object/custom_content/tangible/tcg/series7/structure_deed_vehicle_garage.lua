@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series7_structure_deed_vehicle_garage = object_tangible_tcg_series7_shared_structure_deed_vehicle_garage:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series7_structure_deed_vehicle_garage, "object/tangible/tcg/series7/structure_deed_vehicle_garage.iff")

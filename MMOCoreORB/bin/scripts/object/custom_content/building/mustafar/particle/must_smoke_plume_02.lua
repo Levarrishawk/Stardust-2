@@ -1,0 +1,1 @@
+object_building_mustafar_particle_must_smoke_plume_02 = object_building_mustafar_particle_shared_must_smoke_plume_02:new {}ObjectTemplates:addTemplate(object_building_mustafar_particle_must_smoke_plume_02, "object/building/mustafar/particle/must_smoke_plume_02.iff")

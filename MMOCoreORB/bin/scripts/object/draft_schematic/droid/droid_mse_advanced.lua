@@ -48,10 +48,9 @@ object_draft_schematic_droid_droid_mse_advanced = object_draft_schematic_droid_s
 	customObjectName = "Deed for: MSE Droid, Advanced Model",
 
 	craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 16,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 10,
-	factoryCrateType = "object/factory/factory_crate_electronics.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_droid_general",
 	xp = 90,

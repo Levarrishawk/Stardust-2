@@ -1,0 +1,1 @@
+object_mobile_blackwing_rancor_static = object_mobile_shared_blackwing_rancor_static:new {}ObjectTemplates:addTemplate(object_mobile_blackwing_rancor_static, "object/mobile/blackwing_rancor_static.iff")

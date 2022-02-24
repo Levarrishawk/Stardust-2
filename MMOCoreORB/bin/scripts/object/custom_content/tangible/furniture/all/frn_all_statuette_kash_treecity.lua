@@ -1,0 +1,5 @@
+object_tangible_furniture_all_frn_all_statuette_kash_treecity = object_tangible_furniture_all_shared_frn_all_statuette_kash_treecity:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_all_statuette_kash_treecity, "object/tangible/furniture/all/frn_all_statuette_kash_treecity.iff")

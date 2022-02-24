@@ -44,7 +44,7 @@
 object_building_military_outpost_cloning_facility_s02 = object_building_military_shared_outpost_cloning_facility_s02:new {
 	planetMapCategory = "cloningfacility",
 	facilityType = CLONER_STANDARD,
-
+	
 	skillMods = {
 		{"private_medical_rating", 100}
 	},

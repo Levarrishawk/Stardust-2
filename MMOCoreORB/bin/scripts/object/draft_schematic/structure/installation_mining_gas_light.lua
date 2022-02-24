@@ -48,11 +48,10 @@ object_draft_schematic_structure_installation_mining_gas_light = object_draft_sc
 	customObjectName = "Deed for: Personal Natural Gas Processor",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 18,
+	complexity = 1,
 	size = 10,
-	factoryCrateSize = 1,
-	factoryCrateType = "object/factory/factory_crate_installation.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_general",
 	xp = 425,
 

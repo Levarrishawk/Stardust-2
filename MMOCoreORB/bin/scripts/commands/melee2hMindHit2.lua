@@ -44,26 +44,27 @@
 Melee2hMindHit2Command = {
         name = "melee2hmindhit2",
 	damageMultiplier = 2.0,
-	speedMultiplier = 2.0,
-	healthCostMultiplier = 1.0,
-	actionCostMultiplier = 1.5,
-	mindCostMultiplier = 1.0,
+  speedMultiplier = 2.0,
+  healthCostMultiplier = 0,
+  actionCostMultiplier = 2.5,
+  mindCostMultiplier = 0,
         accuracyBonus = 10,
+          visMod = 25,
 
-	poolsToDamage = MIND_ATTRIBUTE,
+  poolsToDamage = HEALTH_ATTRIBUTE,
 
-	dotEffects = {
-	  DotEffect( 
-		BLEEDING, 
-		{ "resistance_bleeding", "bleed_resist" },
-		MIND,
-		true,
-		0,
-		100,
-		60, 
-		60
-	  )
-	},
+  dotEffects = {
+    DotEffect( 
+    BLEEDING, 
+    { "resistance_bleeding", "bleed_resist" },
+    ACTION,
+    true,
+    0,
+    200,
+    200, 
+    30
+    )
+  },
 	
 	weaponType = TWOHANDMELEEWEAPON,
 
@@ -72,7 +73,7 @@ Melee2hMindHit2Command = {
 
 	combatSpam = "mindslam",
 
-	range = -1
+	range = 8
 }
 
 AddCommand(Melee2hMindHit2Command)

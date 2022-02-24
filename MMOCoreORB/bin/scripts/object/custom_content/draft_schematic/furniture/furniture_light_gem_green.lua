@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_furniture_light_gem_green = object_draft_schematic_furniture_shared_furniture_light_gem_green:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_light_gem_green, "object/draft_schematic/furniture/furniture_light_gem_green.iff")

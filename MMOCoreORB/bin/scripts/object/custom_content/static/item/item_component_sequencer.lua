@@ -1,0 +1,1 @@
+object_static_item_item_component_sequencer = object_static_item_shared_item_component_sequencer:new {}ObjectTemplates:addTemplate(object_static_item_item_component_sequencer, "object/static/item/item_component_sequencer.iff")

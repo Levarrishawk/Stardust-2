@@ -1,0 +1,5 @@
+object_tangible_loot_loot_schematic_rebel_trooper_helmet_schematic = object_tangible_loot_loot_schematic_shared_rebel_trooper_helmet_schematic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_loot_schematic_rebel_trooper_helmet_schematic, "object/tangible/loot/loot/schematic/rebel_trooper_helmet_schematic.iff")

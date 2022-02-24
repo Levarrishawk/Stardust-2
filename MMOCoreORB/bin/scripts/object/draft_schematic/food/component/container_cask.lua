@@ -48,12 +48,11 @@ object_draft_schematic_food_component_container_cask = object_draft_schematic_fo
    customObjectName = "Cask",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 8, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_food.iff",
-   
+
    xpType = "crafting_general", 
-   xp = 450, 
+   xp = 450, --Reverted to original figures
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

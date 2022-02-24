@@ -1,0 +1,5 @@
+object_mobile_dressed_restuss_rebel_lt_olvog = object_mobile_shared_dressed_restuss_rebel_lt_olvog:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_restuss_rebel_lt_olvog, "object/mobile/dressed_restuss_rebel_lt_olvog.iff")

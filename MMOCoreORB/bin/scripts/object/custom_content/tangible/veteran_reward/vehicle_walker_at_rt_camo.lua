@@ -1,0 +1,3 @@
+object_tangible_veteran_reward_vehicle_walker_at_rt_camo = object_tangible_veteran_reward_shared_vehicle_walker_at_rt_camo:new {
+}
+ObjectTemplates:addTemplate(object_tangible_veteran_reward_vehicle_walker_at_rt_camo, "object/tangible/veteran_reward/vehicle_walker_at_rt_camo.iff")

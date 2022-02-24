@@ -48,11 +48,10 @@ object_draft_schematic_structure_installation_mining_liquid_vapor = object_draft
 	customObjectName = "Deed for: Moisture Vaporator",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 15,
+	complexity = 1,
 	size = 8,
-	factoryCrateSize = 1,
-	factoryCrateType = "object/factory/factory_crate_installation.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 1900,
 

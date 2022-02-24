@@ -1,0 +1,1 @@
+object_mobile_dressed_gcw_imperial_captain = object_mobile_shared_dressed_gcw_imperial_captain:new {}ObjectTemplates:addTemplate(object_mobile_dressed_gcw_imperial_captain, "object/mobile/dressed_gcw_imperial_captain.iff")

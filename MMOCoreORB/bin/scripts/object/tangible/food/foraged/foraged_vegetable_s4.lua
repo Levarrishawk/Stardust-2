@@ -60,7 +60,7 @@ object_tangible_food_foraged_foraged_vegetable_s4 = object_tangible_food_foraged
 	quantityMin = 0,
 	quantityMax = 0,
 	
-	modifiers = { "health", 50, "action", 50, "mind", 50 },
+	modifiers = { "health", 50, "action", 50, "strength", 50 },
 
 	buffName = "etost'ew_zann",
 	buffCRC = 0,

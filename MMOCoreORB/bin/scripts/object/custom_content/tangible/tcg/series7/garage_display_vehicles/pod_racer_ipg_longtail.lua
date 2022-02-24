@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series7_garage_display_vehicles_pod_racer_ipg_longtail = object_tangible_tcg_series7_garage_display_vehicles_shared_pod_racer_ipg_longtail:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_pod_racer_ipg_longtail, "object/tangible/tcg/series7/garage_display_vehicles/pod_racer_ipg_longtail.iff")

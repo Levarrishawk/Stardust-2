@@ -48,9 +48,8 @@ object_draft_schematic_bio_engineer_bio_component_bio_component_clothing_casual_
    customObjectName = "Passive Tranquilizers",
 
    craftingToolTab = 128, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
    xpType = "crafting_bio_engineer_creature", 
    xp = 140, 

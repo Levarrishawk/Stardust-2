@@ -59,7 +59,7 @@ object_tangible_food_spice_spice_neutron_pixey = object_tangible_food_spice_shar
 	quantityMin = 0,
 	quantityMax = 0,
 
-	modifiers = { "health", 1000, "strength" , 200, "constitution", 200, "action", 500, "quickness", 50, "stamina", 50 },
+	modifiers = { "health", 500, "strength" , 200, "constitution", 200, "action", 200 },
 
 	buffName = "neutron_pixey",
 	buffCRC = 0,

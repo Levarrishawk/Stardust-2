@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series1_greeter_deed_jawa = object_tangible_tcg_series1_shared_greeter_deed_jawa:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series1_greeter_deed_jawa, "object/tangible/tcg/series1/greeter_deed_jawa.iff")

@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fish_yavin_crawlfish = object_tangible_loot_creature_loot_collections_shared_fish_yavin_crawlfish:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fish_yavin_crawlfish, "object/tangible/loot/creature/loot/collections/fish_yavin_crawlfish.iff")

@@ -48,9 +48,8 @@ object_draft_schematic_clothing_clothing_armor_ris_bracer_l = object_draft_schem
    customObjectName = "R.I.S. Armor Left Bracer",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 45, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_armor", 
    xp = 836, 

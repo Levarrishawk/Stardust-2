@@ -1,0 +1,3 @@
+object_tangible_veteran_reward_frn_hoth_recapture_gift = object_tangible_veteran_reward_shared_frn_hoth_recapture_gift:new {
+}
+ObjectTemplates:addTemplate(object_tangible_veteran_reward_frn_hoth_recapture_gift, "object/tangible/veteran_reward/frn_hoth_recapture_gift.iff")

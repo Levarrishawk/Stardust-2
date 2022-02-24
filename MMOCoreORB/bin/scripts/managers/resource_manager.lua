@@ -44,7 +44,7 @@ buildInitialResourcesFromScript = 1 -- Use a script to build resource database w
   -- So that during wipes crafters can mantain spreadsheets with calculations
 
 --  These indicate zone names where resources spawn
-activeZones = "corellia,tatooine,lok,naboo,rori,endor,talus,yavin4,dathomir,dantooine"
+activeZones = "corellia,tatooine,lok,naboo,rori,endor,talus,yavin4,dathomir,dantooine,kaas,chandrila,moraband,hutta,florrum,lothal"
 
 averageShiftTime = 7200000 -- In milliseconds
   --  This is the time between each time the Resource Manager schedules
@@ -103,7 +103,7 @@ jtlresources = "steel_bicorbantium,steel_arveshian,aluminum_perovskitic,copper_b
 
   -- The minimum pool includes is a table of resources and occurrences. A resource will always be in spawn a number of times equal to it's occurrence.
   -- The minimum pool will never include the items in the excludes
-minimumpoolincludes = { {"steel", 1}, {"copper", 1}, {"aluminum", 1}, {"ore_extrusive", 1}, {"ore_intrusive", 1}, {"ore_carbonate", 1}, {"gemstone_crystalline", 1}, {"gemstone_armophous", 1}, {"radioactive_known", 1}, {"fuel_petrochem_solid", 1}, {"fuel_petrochem_liquid", 1}, {"petrochem_inert_polymer", 2}, {"petrochem_inert_lubricating_oil", 2} }
+minimumpoolincludes = { {"steel", 1}, {"copper", 1}, {"aluminum", 1}, {"ore_extrusive", 1}, {"ore_intrusive", 1}, {"ore_carbonate", 1}, {"gemstone_crystalline", 1}, {"gemstone_armophous", 1}, {"radioactive_known", 1}, {"fuel_petrochem_solid", 1}, {"fuel_petrochem_liquid", 1}, {"petrochem_inert_polymer", 2}, {"petrochem_inert_lubricating_oil", 2}}
 minimumpoolexcludes = jtlresources
 
 -- The random pool includes is a table of resources and weights. The higher the weight, the more likely the resource is to be chosen when a random pool resource shifts.

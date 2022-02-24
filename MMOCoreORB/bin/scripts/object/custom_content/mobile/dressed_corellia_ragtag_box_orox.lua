@@ -1,0 +1,5 @@
+object_mobile_dressed_corellia_ragtag_box_orox = object_mobile_shared_dressed_corellia_ragtag_box_orox:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_corellia_ragtag_box_orox, "object/mobile/dressed_corellia_ragtag_box_orox.iff")

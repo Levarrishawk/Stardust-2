@@ -1,0 +1,5 @@
+object_tangible_quest_coreliian_slaver_narlissas_datapad = object_tangible_quest_shared_coreliian_slaver_narlissas_datapad:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_quest_coreliian_slaver_narlissas_datapad, "object/tangible/quest/coreliian_slaver_narlissas_datapad.iff")

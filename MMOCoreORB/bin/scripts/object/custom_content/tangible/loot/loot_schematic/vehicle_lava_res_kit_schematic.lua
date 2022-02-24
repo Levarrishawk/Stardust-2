@@ -1,0 +1,5 @@
+object_tangible_loot_loot_schematic_vehicle_lava_res_kit_schematic = object_tangible_loot_loot_schematic_shared_vehicle_lava_res_kit_schematic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_loot_schematic_vehicle_lava_res_kit_schematic, "object/tangible/loot/loot/schematic/vehicle_lava_res_kit_schematic.iff")

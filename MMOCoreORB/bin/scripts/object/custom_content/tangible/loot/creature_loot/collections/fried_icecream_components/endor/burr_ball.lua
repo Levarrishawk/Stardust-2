@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fried_icecream_components_endor_burr_ball = object_tangible_loot_creature_loot_collections_fried_icecream_components_endor_shared_burr_ball:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_endor_burr_ball, "object/tangible/loot/creature/loot/collections/fried/icecream/components/endor/burr_ball.iff")

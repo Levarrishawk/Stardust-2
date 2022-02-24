@@ -1,0 +1,3 @@
+object_mobile_disappearances_psycho_boss = object_mobile_shared_disappearances_psycho_boss:new {
+}
+ObjectTemplates:addTemplate(object_mobile_disappearances_psycho_boss, "object/mobile/disappearances_psycho_boss.iff")

@@ -1,0 +1,3 @@
+object_mobile_npc_dressed_npe_commando = object_mobile_shared_npc_dressed_npe_commando:new {
+}
+ObjectTemplates:addTemplate(object_mobile_npc_dressed_npe_commando, "object/mobile/npc_dressed_npe_commando.iff")

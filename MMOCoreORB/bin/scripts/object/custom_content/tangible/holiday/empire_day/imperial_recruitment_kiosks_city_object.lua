@@ -1,0 +1,5 @@
+object_tangible_holiday_empire_day_imperial_recruitment_kiosks_city_object = object_tangible_holiday_empire_day_shared_imperial_recruitment_kiosks_city_object:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_imperial_recruitment_kiosks_city_object, "object/tangible/holiday/empire_day/imperial_recruitment_kiosks_city_object.iff")

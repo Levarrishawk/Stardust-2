@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_trader_str_bubble_stone = object_tangible_loot_creature_loot_collections_shared_trader_str_bubble_stone:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_trader_str_bubble_stone, "object/tangible/loot/creature/loot/collections/trader_str_bubble_stone.iff")

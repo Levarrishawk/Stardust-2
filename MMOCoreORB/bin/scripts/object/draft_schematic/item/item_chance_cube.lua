@@ -48,10 +48,9 @@ object_draft_schematic_item_item_chance_cube = object_draft_schematic_item_share
    customObjectName = "Chance Cube",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 2, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+
    xpType = "crafting_general", 
    xp = 12, 
 

@@ -1,0 +1,1 @@
+object_static_item_item_stone_cage_wall = object_static_item_shared_item_stone_cage_wall:new {}ObjectTemplates:addTemplate(object_static_item_item_stone_cage_wall, "object/static/item/item_stone_cage_wall.iff")

@@ -48,9 +48,8 @@ object_draft_schematic_clothing_component_clothing_padding_segment = object_draf
    customObjectName = "Armor Padding",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 55, 

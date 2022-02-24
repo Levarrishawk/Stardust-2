@@ -48,10 +48,9 @@ object_draft_schematic_scout_item_camokit_tatooine = object_draft_schematic_scou
    customObjectName = "Camo Kit: Tatooine",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 2, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+
    xpType = "scout", 
    xp = 170, 
 

@@ -1,0 +1,5 @@
+
+object_tangible_loot_creature_loot_kashyyyk_loot_avatar_worklight = object_tangible_loot_creature_loot_kashyyyk_loot_shared_avatar_worklight:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_avatar_worklight, "object/tangible/loot/creature_loot/kashyyyk_loot/avatar_worklight.iff")

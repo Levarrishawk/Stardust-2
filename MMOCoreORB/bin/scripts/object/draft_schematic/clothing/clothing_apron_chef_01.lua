@@ -45,12 +45,11 @@ object_draft_schematic_clothing_clothing_apron_chef_01 = object_draft_schematic_
 
    templateType = DRAFTSCHEMATIC,
 
-   customObjectName = "Chef\'s Apron",
+   customObjectName = "Chef's Apron",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 140, 

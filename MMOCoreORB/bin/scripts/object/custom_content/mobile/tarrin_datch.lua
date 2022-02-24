@@ -1,0 +1,1 @@
+object_mobile_tarrin_datch = object_mobile_shared_tarrin_datch:new {}ObjectTemplates:addTemplate(object_mobile_tarrin_datch, "object/mobile/tarrin_datch.iff")

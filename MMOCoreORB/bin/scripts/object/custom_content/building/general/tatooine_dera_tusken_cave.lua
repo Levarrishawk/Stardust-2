@@ -1,0 +1,3 @@
+object_building_general_tatooine_dera_tusken_cave = object_building_general_shared_tatooine_dera_tusken_cave:new {
+}
+ObjectTemplates:addTemplate(object_building_general_tatooine_dera_tusken_cave, "object/building/general/tatooine_dera_tusken_cave.iff")

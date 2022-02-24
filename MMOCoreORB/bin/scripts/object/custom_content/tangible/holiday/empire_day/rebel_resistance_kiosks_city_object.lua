@@ -1,0 +1,5 @@
+object_tangible_holiday_empire_day_rebel_resistance_kiosks_city_object = object_tangible_holiday_empire_day_shared_rebel_resistance_kiosks_city_object:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_rebel_resistance_kiosks_city_object, "object/tangible/holiday/empire_day/rebel_resistance_kiosks_city_object.iff")

@@ -1,0 +1,1 @@
+object_mobile_yoda = object_mobile_shared_yoda:new {}ObjectTemplates:addTemplate(object_mobile_yoda, "object/mobile/yoda.iff")

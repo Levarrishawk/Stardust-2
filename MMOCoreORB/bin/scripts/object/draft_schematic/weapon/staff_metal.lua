@@ -48,12 +48,11 @@ object_draft_schematic_weapon_staff_metal = object_draft_schematic_weapon_shared
    customObjectName = "Metal Staff",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 17, 
+   complexity = 1, 
    size = 4, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general", 
-   xp = 84, 
+   xp = 184, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

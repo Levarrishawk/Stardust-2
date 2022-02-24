@@ -1,0 +1,3 @@
+object_tangible_veteran_reward_instant_travel_terminal = object_tangible_veteran_reward_shared_instant_travel_terminal:new {
+}
+ObjectTemplates:addTemplate(object_tangible_veteran_reward_instant_travel_terminal, "object/tangible/veteran_reward/instant_travel_terminal.iff")

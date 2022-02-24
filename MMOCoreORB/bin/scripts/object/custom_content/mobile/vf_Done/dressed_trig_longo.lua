@@ -1,0 +1,1 @@
+object_mobile_dressed_trig_longo = object_mobile_shared_dressed_trig_longo:new {}ObjectTemplates:addTemplate(object_mobile_dressed_trig_longo, "object/mobile/dressed_trig_longo.iff")

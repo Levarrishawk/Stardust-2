@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series8_combine_decorative_glowly_sculpture = object_tangible_tcg_series8_shared_combine_decorative_glowly_sculpture:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series8_combine_decorative_glowly_sculpture, "object/tangible/tcg/series8/combine_decorative_glowly_sculpture.iff")

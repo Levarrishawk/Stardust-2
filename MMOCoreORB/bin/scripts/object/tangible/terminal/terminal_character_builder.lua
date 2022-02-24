@@ -602,138 +602,104 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 				},
 				--"Force Sensitive",
 				--{
-				--	"Combat Prowess",
-				--	{
-				--		"Novice", "force_sensitive_combat_prowess_novice",
-				--		"Ranged Accuracy",
-				--		{
-				--			"Ranged Accuracy I", "force_sensitive_combat_prowess_ranged_accuracy_01",
-				--			"Ranged Accuracy II", "force_sensitive_combat_prowess_ranged_accuracy_02",
-				--			"Ranged Accuracy III", "force_sensitive_combat_prowess_ranged_accuracy_03",
-				--			"Ranged Accuracy IV", "force_sensitive_combat_prowess_ranged_accuracy_04"
-				--		},
-				--		"Ranged Speed",
-				--		{
-				--			"Ranged Speed I", "force_sensitive_combat_prowess_ranged_speed_01",
-				--			"Ranged Speed II", "force_sensitive_combat_prowess_ranged_speed_02",
-				--			"Ranged Speed III", "force_sensitive_combat_prowess_ranged_speed_03",
-				--			"Ranged Speed IV", "force_sensitive_combat_prowess_ranged_speed_04"
-				--		},
-				--		"Melee Accuracy",
-				--		{
-				--			"Melee Accuracy I", "force_sensitive_combat_prowess_melee_accuracy_01",
-				--			"Melee Accuracy II", "force_sensitive_combat_prowess_melee_accuracy_02",
-				--			"Melee Accuracy III", "force_sensitive_combat_prowess_melee_accuracy_03",
-				--			"Melee Accuracy IV", "force_sensitive_combat_prowess_melee_accuracy_04"
-				--		},
-				--		"Melee Speed",
-				--		{
-				--			"Melee Speed I", "force_sensitive_combat_prowess_melee_speed_01",
-				--			"Melee Speed II", "force_sensitive_combat_prowess_melee_speed_02",
-				--			"Melee Speed III", "force_sensitive_combat_prowess_melee_speed_03",
-				--			"Melee Speed IV", "force_sensitive_combat_prowess_melee_speed_04"
-				--		},
-				--		"Master", "force_sensitive_combat_prowess_master"
-				--	},
 				--	"Crafting Mastery",
+				--{
+				--	"Novice", "force_sensitive_crafting_mastery_novice",
+				--	"Experimentation",
 				--	{
-				--		"Novice", "force_sensitive_crafting_mastery_novice",
-				--		"Experimentation",
-				--		{
-				--			"Experimentation I", "force_sensitive_crafting_mastery_experimentation_01",
-				--			"Experimentation II", "force_sensitive_crafting_mastery_experimentation_02",
-				--			"Experimentation III", "force_sensitive_crafting_mastery_experimentation_03",
-				--			"Experimentation IV", "force_sensitive_crafting_mastery_experimentation_04"
-				--		},
-				--		"Assembly",
-				--		{
-				--			"Assembly I", "force_sensitive_crafting_mastery_assembly_01",
-				--			"Assembly II", "force_sensitive_crafting_mastery_assembly_02",
-				--			"Assembly III", "force_sensitive_crafting_mastery_assembly_03",
-				--			"Assembly IV", "force_sensitive_crafting_mastery_assembly_04"
-				--		},
-				--		"Repair",
-				--		{
-				--			"Repair I", "force_sensitive_crafting_mastery_repair_01",
-				--			"Repair II", "force_sensitive_crafting_mastery_repair_02",
-				--			"Repair III", "force_sensitive_crafting_mastery_repair_03",
-				--			"Repair IV", "force_sensitive_crafting_mastery_repair_04"
-				--		},
-				--		"Technique",
-				--		{
-				--			"Technique I", "force_sensitive_crafting_mastery_technique_01",
-				--			"Technique II", "force_sensitive_crafting_mastery_technique_02",
-				--			"Technique III", "force_sensitive_crafting_mastery_technique_03",
-				--			"Technique IV", "force_sensitive_crafting_mastery_technique_04"
-				--		},
-				--		"Master", "force_sensitive_crafting_mastery_master"
+				--		"Experimentation I", "force_sensitive_crafting_mastery_experimentation_01",
+				--		"Experimentation II", "force_sensitive_crafting_mastery_experimentation_02",
+				--		"Experimentation III", "force_sensitive_crafting_mastery_experimentation_03",
+				--		"Experimentation IV", "force_sensitive_crafting_mastery_experimentation_04"
 				--	},
-				--	"Enhanced Reflexes",
+				--	"Assembly",
 				--	{
-				--		"Novice", "force_sensitive_enhanced_reflexes_novice",
-				--		"Ranged Defense",
-				--		{
-				--			"Ranged Defense I", "force_sensitive_enhanced_reflexes_ranged_defense_01",
-				--			"Ranged Defense II", "force_sensitive_enhanced_reflexes_ranged_defense_02",
-				--			"Ranged Defense III", "force_sensitive_enhanced_reflexes_ranged_defense_03",
-				--			"Ranged Defense IV", "force_sensitive_enhanced_reflexes_ranged_defense_04"
-				--		},
-				--		"Melee Defense",
-				--		{
-				--			"Melee Defense I", "force_sensitive_enhanced_reflexes_melee_defense_01",
-				--			"Melee Defense II", "force_sensitive_enhanced_reflexes_melee_defense_02",
-				--			"Melee Defense III", "force_sensitive_enhanced_reflexes_melee_defense_03",
-				--			"Melee Defense IV", "force_sensitive_enhanced_reflexes_melee_defense_04"
-				--		},
-				--		"Vehicle Control",
-				--		{
-				--			"Vehicle Control I", "force_sensitive_enhanced_reflexes_vehicle_control_01",
-				--			"Vehicle Control II", "force_sensitive_enhanced_reflexes_vehicle_control_02",
-				--			"Vehicle Control III", "force_sensitive_enhanced_reflexes_vehicle_control_03",
-				--			"Vehicle Control IV", "force_sensitive_enhanced_reflexes_vehicle_control_04"
-				--		},
-				--		"Survival",
-				--		{
-				--			"Survival I", "force_sensitive_enhanced_reflexes_survival_01",
-				--			"Survival II", "force_sensitive_enhanced_reflexes_survival_02",
-				--			"Survival III", "force_sensitive_enhanced_reflexes_survival_03",
-				--			"Survival IV", "force_sensitive_enhanced_reflexes_survival_04"
-				--		},
-				--		"Master", "force_sensitive_enhanced_reflexes_master"
+				--		"Assembly I", "force_sensitive_crafting_mastery_assembly_01",
+				--		"Assembly II", "force_sensitive_crafting_mastery_assembly_02",
+				--		"Assembly III", "force_sensitive_crafting_mastery_assembly_03",
+				--		"Assembly IV", "force_sensitive_crafting_mastery_assembly_04"
 				--	},
-				--	"Heightened Senses",
+				--	"Repair",
 				--	{
-				--		"Novice", "force_sensitive_heightened_senses_novice",
-				--		"Healing",
-				--		{
-				--			"Healing I", "force_sensitive_heightened_senses_healing_01",
-				--			"Healing II", "force_sensitive_heightened_senses_healing_02",
-				--			"Healing III", "force_sensitive_heightened_senses_healing_03",
-				--			"Healing IV", "force_sensitive_heightened_senses_healing_04"
-				--		},
-				--		"Surveying",
-				--		{
-				--			"Surveying I", "force_sensitive_heightened_senses_surveying_01",
-				--			"Surveying II", "force_sensitive_heightened_senses_surveying_02",
-				--			"Surveying III", "force_sensitive_heightened_senses_surveying_03",
-				--			"Surveying IV", "force_sensitive_heightened_senses_surveying_04"
-				--		},
-				--		"Persuasion",
-				--		{
-				--			"Persuasion I", "force_sensitive_heightened_senses_persuasion_01",
-				--			"Persuasion II", "force_sensitive_heightened_senses_persuasion_02",
-				--			"Persuasion III", "force_sensitive_heightened_senses_persuasion_03",
-				--			"Persuasion IV", "force_sensitive_heightened_senses_persuasion_04"
-				--		},
-				--		"Luck",
-				--		{
-				--			"Luck I", "force_sensitive_heightened_senses_luck_01",
-				--			"Luck II", "force_sensitive_heightened_senses_luck_02",
-				--			"Luck III", "force_sensitive_heightened_senses_luck_03",
-				--			"Luck IV", "force_sensitive_heightened_senses_luck_04"
-				--		},
-				--		"Master", "force_sensitive_heightened_senses_master"
+				--		"Repair I", "force_sensitive_crafting_mastery_repair_01",
+				--		"Repair II", "force_sensitive_crafting_mastery_repair_02",
+				--		"Repair III", "force_sensitive_crafting_mastery_repair_03",
+				--		"Repair IV", "force_sensitive_crafting_mastery_repair_04"
 				--	},
+				--	"Technique",
+				--	{
+				--		"Technique I", "force_sensitive_crafting_mastery_technique_01",
+				--		"Technique II", "force_sensitive_crafting_mastery_technique_02",
+				--		"Technique III", "force_sensitive_crafting_mastery_technique_03",
+				--		"Technique IV", "force_sensitive_crafting_mastery_technique_04"
+				--	},
+				--	"Master", "force_sensitive_crafting_mastery_master"
+				--},
+				--"Enhanced Reflexes",
+				--{
+				--	"Novice", "force_sensitive_enhanced_reflexes_novice",
+				--	"Ranged Defense",
+				--	{
+				--		"Ranged Defense I", "force_sensitive_enhanced_reflexes_ranged_defense_01",
+				--		"Ranged Defense II", "force_sensitive_enhanced_reflexes_ranged_defense_02",
+				--		"Ranged Defense III", "force_sensitive_enhanced_reflexes_ranged_defense_03",
+				--		"Ranged Defense IV", "force_sensitive_enhanced_reflexes_ranged_defense_04"
+				--	},
+				--	"Melee Defense",
+				--	{
+				--		"Melee Defense I", "force_sensitive_enhanced_reflexes_melee_defense_01",
+				--		"Melee Defense II", "force_sensitive_enhanced_reflexes_melee_defense_02",
+				--		"Melee Defense III", "force_sensitive_enhanced_reflexes_melee_defense_03",
+				--		"Melee Defense IV", "force_sensitive_enhanced_reflexes_melee_defense_04"
+				--	},
+				--	"Vehicle Control",
+				--	{
+				--		"Vehicle Control I", "force_sensitive_enhanced_reflexes_vehicle_control_01",
+				--		"Vehicle Control II", "force_sensitive_enhanced_reflexes_vehicle_control_02",
+				--		"Vehicle Control III", "force_sensitive_enhanced_reflexes_vehicle_control_03",
+				--		"Vehicle Control Iv", "force_sensitive_enhanced_reflexes_vehicle_control_04"
+				--	},
+				--	"Survival",
+				--	{
+				--		"Survival I", "force_sensitive_enhanced_reflexes_survival_01",
+				--		"Survival II", "force_sensitive_enhanced_reflexes_survival_02",
+				--		"Survival III", "force_sensitive_enhanced_reflexes_survival_03",
+				--		"Survival IV", "force_sensitive_enhanced_reflexes_survival_04"
+				--	},
+				--	"Master", "force_sensitive_enhanced_reflexes_master"
+				--},
+				--"Heightened Senses",
+				--{
+				--	"Novice", "force_sensitive_heightened_senses_novice",
+				--	"Healing",
+				--	{
+				--		"Healing I", "force_sensitive_heightened_senses_healing_01",
+				--		"Healing II", "force_sensitive_heightened_senses_healing_02",
+				--		"Healing III", "force_sensitive_heightened_senses_healing_03",
+				--		"Healing IV", "force_sensitive_heightened_senses_healing_04"
+				--	},
+				--	"Surveying",
+				--	{
+				--		"Surveying I", "force_sensitive_heightened_senses_surveying_01",
+				--		"Surveying II", "force_sensitive_heightened_senses_surveying_02",
+				--		"Surveying III", "force_sensitive_heightened_senses_surveying_03",
+				--		"Surveying IV", "force_sensitive_heightened_senses_surveying_04"
+				--	},
+				--	"Persuasion",
+				--	{
+				--		"Persuasion I", "force_sensitive_heightened_senses_persuasion_01",
+				--		"Persuasion II", "force_sensitive_heightened_senses_persuasion_02",
+				--		"Persuasion III", "force_sensitive_heightened_senses_persuasion_03",
+				--		"Persuasion Iv", "force_sensitive_heightened_senses_persuasion_04"
+				--	},
+				--	"Luck",
+				--	{
+				--		"Luck I", "force_sensitive_heightened_senses_luck_01",
+				--		"Luck II", "force_sensitive_heightened_senses_luck_02",
+				--		"Luck III", "force_sensitive_heightened_senses_luck_03",
+				--		"Luck IV", "force_sensitive_heightened_senses_luck_04"
+				--	},
+				--	"Master", "force_sensitive_heightened_senses_master"
 				--},
 				"Image Designer",
 				{
@@ -982,7 +948,6 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 				--		"Preternatural Defense IV", "force_discipline_defender_preternatural_defense_04"
 				--	},
 				--	"Master", "force_discipline_defender_master"
-				--},
 				--},
 				"Marksman",
 				{
@@ -1554,7 +1519,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 			"Enhance Character", "enhance_character",
 			"Jedi",
 			{
-				--"Unlock Jedi Initiate", "unlock_jedi_initiate",
+				"Unlock Jedi Initiate", "unlock_jedi_initiate",
 				"Unlock FRS Light Side", "frs_light_side",
 				"Unlock FRS Dark Side", "frs_dark_side"
 			},
@@ -1590,10 +1555,6 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 			--},
 			"Armor",
 			{
-				"Components",
-				{
-					"Personal Shield Generator", "object/tangible/component/armor/shield_generator_personal.iff",
-				},
 				--	"Bone Armor",
 				--	{
 				--		"Bone Left Bicep", "object/tangible/wearables/armor/bone/armor_bone_s01_bicep_l.iff",
@@ -1606,30 +1567,6 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 				--		"Bone Helmet", "object/tangible/wearables/armor/bone/armor_bone_s01_helmet.iff",
 				--		"Bone Leggings", "object/tangible/wearables/armor/bone/armor_bone_s01_leggings.iff"
 				--	},
-				--	"Chitin Armor",
-				--	{
-				--		"Chitin Left Bicep", "object/tangible/wearables/armor/chitin/armor_chitin_s01_bicep_l.iff",
-				--		"Chitin Right Bicep", "object/tangible/wearables/armor/chitin/armor_chitin_s01_bicep_r.iff",
-				--		"Chitin Boots", "object/tangible/wearables/armor/chitin/armor_chitin_s01_boots.iff",
-				--		"Chitin Left Bracer", "object/tangible/wearables/armor/chitin/armor_chitin_s01_bracer_l.iff",
-				--		"Chitin Right Bracer", "object/tangible/wearables/armor/chitin/armor_chitin_s01_bracer_r.iff",
-				--		"Chitin Chest Plate", "object/tangible/wearables/armor/chitin/armor_chitin_s01_chest_plate.iff",
-				--		"Chitin Gloves", "object/tangible/wearables/armor/chitin/armor_chitin_s01_gloves.iff",
-				--		"Chitin Helmet", "object/tangible/wearables/armor/chitin/armor_chitin_s01_helmet.iff",
-				--		"Chitin Leggings", "object/tangible/wearables/armor/chitin/armor_chitin_s01_leggings.iff"
-				--	},
-				"Composite Armor",
-				{
-					"Composite Left Bicep", "object/tangible/wearables/armor/composite/armor_composite_bicep_l.iff",
-					"Composite Right Bicep", "object/tangible/wearables/armor/composite/armor_composite_bicep_r.iff",
-					"Composite Boots", "object/tangible/wearables/armor/composite/armor_composite_boots.iff",
-					"Composite Left Bracer", "object/tangible/wearables/armor/composite/armor_composite_bracer_l.iff",
-					"Composite Right Bracer", "object/tangible/wearables/armor/composite/armor_composite_bracer_r.iff",
-					"Composite Chest Plate", "object/tangible/wearables/armor/composite/armor_composite_chest_plate.iff",
-					"Composite Gloves", "object/tangible/wearables/armor/composite/armor_composite_gloves.iff",
-					"Composite Helmet", "object/tangible/wearables/armor/composite/armor_composite_helmet.iff",
-					"Composite Leggings", "object/tangible/wearables/armor/composite/armor_composite_leggings.iff"
-				},
 				"Ithorian Armor",
 				{
 					"Ithorian Sentinel",
@@ -1670,11 +1607,35 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 						"Kashyyykian Hunting Leggings", "object/tangible/wearables/armor/kashyyykian_hunting/armor_kashyyykian_hunting_leggings.iff"
 					}
 				},
+				--	"Chitin Armor",
+				--	{
+				--		"Chitin Left Bicep", "object/tangible/wearables/armor/chitin/armor_chitin_s01_bicep_l.iff",
+				--		"Chitin Right Bicep", "object/tangible/wearables/armor/chitin/armor_chitin_s01_bicep_r.iff",
+				--		"Chitin Boots", "object/tangible/wearables/armor/chitin/armor_chitin_s01_boots.iff",
+				--		"Chitin Left Bracer", "object/tangible/wearables/armor/chitin/armor_chitin_s01_bracer_l.iff",
+				--		"Chitin Right Bracer", "object/tangible/wearables/armor/chitin/armor_chitin_s01_bracer_r.iff",
+				--		"Chitin Chest Plate", "object/tangible/wearables/armor/chitin/armor_chitin_s01_chest_plate.iff",
+				--		"Chitin Gloves", "object/tangible/wearables/armor/chitin/armor_chitin_s01_gloves.iff",
+				--		"Chitin Helmet", "object/tangible/wearables/armor/chitin/armor_chitin_s01_helmet.iff",
+				--		"Chitin Leggings", "object/tangible/wearables/armor/chitin/armor_chitin_s01_leggings.iff"
+				--	},
+				"Composite Armor",
+				{
+					"Composite Left Bicep", "object/tangible/wearables/armor/composite/armor_composite_bicep_l.iff",
+					"Composite Right Bicep", "object/tangible/wearables/armor/composite/armor_composite_bicep_r.iff",
+					"Composite Boots", "object/tangible/wearables/armor/composite/armor_composite_boots.iff",
+					"Composite Left Bracer", "object/tangible/wearables/armor/composite/armor_composite_bracer_l.iff",
+					"Composite Right Bracer", "object/tangible/wearables/armor/composite/armor_composite_bracer_r.iff",
+					"Composite Chest Plate", "object/tangible/wearables/armor/composite/armor_composite_chest_plate.iff",
+					"Composite Gloves", "object/tangible/wearables/armor/composite/armor_composite_gloves.iff",
+					"Composite Helmet", "object/tangible/wearables/armor/composite/armor_composite_helmet.iff",
+					"Composite Leggings", "object/tangible/wearables/armor/composite/armor_composite_leggings.iff"
+				},
 			--	"Singing Mountain Clan Armor",
 			--	{
 			--		"Singing Mountain Clan Bicep", "object/tangible/wearables/armor/bone/armor_smc_s01_bicep_l.iff"
 			--	}
-		},
+			},
 			"Clothes",
 			{
 				"Crafting Aprons",
@@ -1693,10 +1654,10 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 					"Backpack 01", "object/tangible/wearables/backpack/backpack_s01.iff"
 				}
 			},
-			"Consumables",
-			{
-				"Desserts",
-				{
+			--"Consumables",
+			--{
+			--	"Desserts",
+			--	{
 			--"Air Cake", "object/tangible/food/crafted/dessert_air_cake.iff",
 			--"Almond Kwevvu Crisp Munchies", "object/tangible/food/crafted/dessert_almond_kwevvu_crisp_munchies.iff",
 			--"Bantha Butter", "object/tangible/food/crafted/dessert_bantha_butter.iff",
@@ -1705,7 +1666,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 			--"Bofa Treat", "object/tangible/food/crafted/dessert_bofa_treat.iff",
 			--"Cavaellin Creams", "object/tangible/food/crafted/dessert_cavaellin_creams.iff",
 			--"Chandad", "object/tangible/food/crafted/dessert_chandad.iff",
-			"Citros Snow Cake", "object/tangible/food/crafted/dessert_citros_snow_cake.iff",
+			--"Citros Snow Cake", "object/tangible/food/crafted/dessert_citros_snow_cake.iff",
 			--"Corellian Fried Icecream", "object/tangible/food/crafted/dessert_corellian_fried_icecream.iff",
 			--"Deneelian Fizz Pudding", "object/tangible/food/crafted/dessert_deneelian_fizz_pudding.iff",
 			--"Dweezel", "object/tangible/food/crafted/dessert_dweezel.iff",
@@ -1717,7 +1678,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 			--"Para Roll", "object/tangible/food/crafted/dessert_para_roll.iff",
 			--"Parwan Nutricake", "object/tangible/food/crafted/dessert_parwan_nutricake.iff",
 			--"Pastebread", "object/tangible/food/crafted/dessert_pastebread.iff",
-			"Pikatta Pie", "object/tangible/food/crafted/dessert_pikatta_pie.iff",
+			--"Pikatta Pie", "object/tangible/food/crafted/dessert_pikatta_pie.iff",
 			--"Pkneb", "object/tangible/food/crafted/dessert_pkneb.iff",
 			--"Puffcake", "object/tangible/food/crafted/dessert_puffcake.iff",
 			--"Pyollian Cake", "object/tangible/food/crafted/dessert_pyollian_cake.iff",
@@ -1726,12 +1687,12 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 			--"Sweesonberry Rolls", "object/tangible/food/crafted/dessert_sweesonberry_rolls.iff",
 			--"Sweet Cake Mix", "object/tangible/food/crafted/dessert_sweet_cake_mix.iff",
 			--"Tranna Nougat Cream", "object/tangible/food/crafted/dessert_tranna_nougat_cream.iff",
-			"Vagnerian Canape", "object/tangible/food/crafted/dessert_vagnerian_canape.iff",
+			--"Vagnerian Canape", "object/tangible/food/crafted/dessert_vagnerian_canape.iff",
 			--"Wedding Cake", "object/tangible/food/crafted/dessert_wedding_cake.iff",
 			--"Won Won", "object/tangible/food/crafted/dessert_won_won.iff",
-			},
-			"Dishes",
-			{
+			--},
+			--"Dishes",
+			--{
 			--"Ahrisa", "object/tangible/food/crafted/dish_ahrisa.iff",
 			--"Bivoli Tempari", "object/tangible/food/crafted/dish_bivoli_tempari.iff",
 			--"Blood Chowder", "object/tangible/food/crafted/dish_blood_chowder.iff",
@@ -1739,7 +1700,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 			--"Cho Nor Hoola", "object/tangible/food/crafted/dish_cho_nor_hoola.iff",
 			--"Crispic", "object/tangible/food/crafted/dish_crispic.iff",
 			--"Dustcrepe", "object/tangible/food/crafted/dish_dustcrepe.iff",
-			"Exo Protein Wafers", "object/tangible/food/crafted/dish_exo_protein_wafers.iff",
+			--"Exo Protein Wafers", "object/tangible/food/crafted/dish_exo_protein_wafers.iff",
 			--"Fire Stew", "object/tangible/food/crafted/dish_fire_stew.iff",
 			--"Fried Endwa", "object/tangible/food/crafted/dish_fried_endwa.iff",
 			--"Gruuvan Shaal", "object/tangible/food/crafted/dish_gruuvan_shaal.iff",
@@ -1757,10 +1718,10 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 			--"Scrimpi", "object/tangible/food/crafted/dish_scrimpi.iff",
 			--"Soypro", "object/tangible/food/crafted/dish_soypro.iff",
 			--"Stewed Gwouch", "object/tangible/food/crafted/dish_stewed_gwouch.iff",
-			"Synthsteak", "object/tangible/food/crafted/dish_synthsteak.iff",
+			--"Synthsteak", "object/tangible/food/crafted/dish_synthsteak.iff",
 			--"Teltier Noodles", "object/tangible/food/crafted/dish_teltier_noodles.iff",
 			--"Terratta", "object/tangible/food/crafted/dish_terratta.iff",
-			"Thakitillo", "object/tangible/food/crafted/dish_thakitillo.iff",
+			--"Thakitillo", "object/tangible/food/crafted/dish_thakitillo.iff",
 			--"Travel Biscuits", "object/tangible/food/crafted/dish_travel_biscuits.iff",
 			--"Trimpian", "object/tangible/food/crafted/dish_trimpian.iff",
 			--"Vegeparsine", "object/tangible/food/crafted/dish_vegeparsine.iff",
@@ -1768,9 +1729,9 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 			--"Vercupti of Agazza Boleruuee", "object/tangible/food/crafted/dish_vercupti_of_agazza_boleruuee.iff",
 			--"Wastril Bread", "object/tangible/food/crafted/dish_wastril_bread.iff",
 			--"Xermaauc", "object/tangible/food/crafted/dish_xermaauc.iff"
-			},
-			"Drinks",
-			{
+			--},
+			--"Drinks",
+			--{
 			--"Accarragm", "object/tangible/food/crafted/drink_accarragm.iff",
 			--"Aitha", "object/tangible/food/crafted/drink_aitha.iff",
 			--"Alcohol", "object/tangible/food/crafted/drink_alcohol.iff",
@@ -1779,7 +1740,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 			--"Antakarian Fire Dancer", "object/tangible/food/crafted/drink_antakarian_fire_dancer.iff",
 			--"Bantha Blaster", "object/tangible/food/crafted/drink_bantha_blaster.iff",
 			--"Bespin Port", "object/tangible/food/crafted/drink_bespin_port.iff",
-			"Blue Milk", "object/tangible/food/crafted/drink_blue_milk.iff",
+			--"Blue Milk", "object/tangible/food/crafted/drink_blue_milk.iff",
 			--"Breath of Heaven", "object/tangible/food/crafted/drink_breath_of_heaven.iff",
 			--"Caf", "object/tangible/food/crafted/drink_caf.iff",
 			--"Charde", "object/tangible/food/crafted/drink_charde.iff",
@@ -1794,23 +1755,23 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 			--"Garrmorl", "object/tangible/food/crafted/drink_garrmorl.iff",
 			--"Gralinyn Juice", "object/tangible/food/crafted/drink_gralinyn_juice.iff",
 			--"Ice Blaster", "object/tangible/food/crafted/drink_ice_blaster.iff",
-			"Ithorian Mist", "object/tangible/food/crafted/drink_ithorian_mist.iff",
+			--"Ithorian Mist", "object/tangible/food/crafted/drink_ithorian_mist.iff",
 			--"Jaar", "object/tangible/food/crafted/drink_jaar.iff",
 			--"Jawa Beer", "object/tangible/food/crafted/drink_jawa_beer.iff",
 			--"Kylessian Fruit Distillate", "object/tangible/food/crafted/drink_kylessian_fruit_distillate.iff",
 			--"Mandalorian Wine", "object/tangible/food/crafted/drink_mandalorian_wine.iff",
 			--"Ruby Bliel", "object/tangible/food/crafted/drink_ruby_bliel.iff",
 			--"Skannbult Likker", "object/tangible/food/crafted/drink_skannbult_likker.iff",
-			"Spiced Tea", "object/tangible/food/crafted/drink_spiced_tea.iff",
+			--"Spiced Tea", "object/tangible/food/crafted/drink_spiced_tea.iff",
 			--"Starshine Surprise", "object/tangible/food/crafted/drink_starshine_surprise.iff",
 			--"Sullustan Gin", "object/tangible/food/crafted/drink_sullustan_gin.iff",
 			--"Tatooine Sunburn", "object/tangible/food/crafted/drink_tatooine_sunburn.iff",
 			--"Tilla Tiil", "object/tangible/food/crafted/drink_tilla_tiil.iff",
 			--"Tssolok", "object/tangible/food/crafted/drink_tssolok.iff",
-			"Vasarian Brandy", "object/tangible/food/crafted/drink_vasarian_brandy.iff",
+			--"Vasarian Brandy", "object/tangible/food/crafted/drink_vasarian_brandy.iff",
 			--"Vayerbok", "object/tangible/food/crafted/drink_vayerbok.iff",
 			--"Veronian Berry Wine", "object/tangible/food/crafted/drink_veronian_berry_wine.iff"
-			},
+			--},
 			--"Foraged Food",
 			--{
 			--"Jar of Berries", "object/tangible/food/foraged/edible_jar_berries.iff",
@@ -1856,7 +1817,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 			--"Thruster Head", "object/tangible/food/spice/spice_thruster_head.iff",
 			--"Yarrock", "object/tangible/food/spice/spice_yarrock.iff"
 			--}
-			},
+			--},
 			"Deeds",
 			{
 				"Resource Deed", "object/tangible/veteran_reward/resource.iff",

@@ -48,9 +48,8 @@ object_draft_schematic_clothing_clothing_armor_kashyyykian_ceremonial_leggings =
    customObjectName = "Kashyyykian Ceremonial Leggings",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 25, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_armor", 
    xp = 270, 

@@ -1,0 +1,1 @@
+object_mobile_tycho_celchu = object_mobile_shared_tycho_celchu:new {}ObjectTemplates:addTemplate(object_mobile_tycho_celchu, "object/mobile/tycho_celchu.iff")

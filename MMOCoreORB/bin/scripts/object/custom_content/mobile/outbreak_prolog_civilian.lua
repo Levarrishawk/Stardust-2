@@ -1,0 +1,3 @@
+object_mobile_outbreak_prolog_civilian = object_mobile_shared_outbreak_prolog_civilian:new {
+}
+ObjectTemplates:addTemplate(object_mobile_outbreak_prolog_civilian, "object/mobile/outbreak_prolog_civilian.iff")

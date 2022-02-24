@@ -48,13 +48,12 @@ object_draft_schematic_bio_engineer_utilities_pet_vitapack_c = object_draft_sche
 	customObjectName = "Pet Vitality Medpack - C",
 
 	craftingToolTab = 128, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 36,
+	complexity = 1,
 	size = 3,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_bio_engineer_creature",
-	xp = 125,
+	xp = 400,
 
 	assemblySkill = "bio_engineer_assembly",
 	experimentingSkill = "bio_engineer_experimentation",

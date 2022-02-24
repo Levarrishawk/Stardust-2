@@ -1,0 +1,5 @@
+object_tangible_furniture_all_frn_all_desk_map_table_insert = object_tangible_furniture_all_shared_frn_all_desk_map_table_insert:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_all_desk_map_table_insert, "object/tangible/furniture/all/frn_all_desk_map_table_insert.iff")

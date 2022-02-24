@@ -1,0 +1,3 @@
+object_tangible_painting_painting_wod_sm_02 = object_tangible_painting_shared_painting_wod_sm_02:new {
+}
+ObjectTemplates:addTemplate(object_tangible_painting_painting_wod_sm_02, "object/tangible/painting/painting_wod_sm_02.iff")

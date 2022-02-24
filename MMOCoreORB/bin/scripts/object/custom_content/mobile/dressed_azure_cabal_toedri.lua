@@ -1,0 +1,5 @@
+object_mobile_dressed_azure_cabal_toedri = object_mobile_shared_dressed_azure_cabal_toedri:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_azure_cabal_toedri, "object/mobile/dressed_azure_cabal_toedri.iff")

@@ -1,0 +1,1 @@
+object_static_worldbuilding_building_echo_light_01 = object_static_worldbuilding_building_shared_echo_light_01:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_building_echo_light_01, "object/static/worldbuilding/building/echo_light_01.iff")

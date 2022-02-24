@@ -1,0 +1,5 @@
+object_tangible_loot_npc_loot_imp_life_support_pack_generic = object_tangible_loot_npc_loot_shared_imp_life_support_pack_generic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_imp_life_support_pack_generic, "object/tangible/loot/npc/loot/imp_life_support_pack_generic.iff")

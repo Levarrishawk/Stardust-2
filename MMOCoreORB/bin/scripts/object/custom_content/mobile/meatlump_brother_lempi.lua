@@ -1,0 +1,3 @@
+object_mobile_meatlump_brother_lempi = object_mobile_shared_meatlump_brother_lempi:new {
+}
+ObjectTemplates:addTemplate(object_mobile_meatlump_brother_lempi, "object/mobile/meatlump_brother_lempi.iff")

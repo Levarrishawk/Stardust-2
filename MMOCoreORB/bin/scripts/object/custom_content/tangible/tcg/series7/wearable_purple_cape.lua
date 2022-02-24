@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series7_wearable_purple_cape = object_tangible_tcg_series7_shared_wearable_purple_cape:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series7_wearable_purple_cape, "object/tangible/tcg/series7/wearable_purple_cape.iff")

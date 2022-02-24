@@ -48,13 +48,12 @@ object_draft_schematic_chemistry_component_solid_delivery_shell_advanced = objec
 	customObjectName = "Advanced Solid Delivery Shell",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 18,
+	complexity = 1,
 	size = 3,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
-	xp = 65,
+	xp = 100,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

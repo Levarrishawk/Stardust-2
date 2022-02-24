@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series7_combine_object_broken_ball_turret = object_tangible_tcg_series7_shared_combine_object_broken_ball_turret:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series7_combine_object_broken_ball_turret, "object/tangible/tcg/series7/combine_object_broken_ball_turret.iff")

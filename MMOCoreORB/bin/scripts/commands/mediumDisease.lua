@@ -51,9 +51,9 @@ MediumDiseaseCommand = {
 		ATTACK_POOL,
 		true,
 		0,
-		40,
-		50, 
-		205,
+		4,
+		5, 
+		20,
 		30
 	  )
 	},

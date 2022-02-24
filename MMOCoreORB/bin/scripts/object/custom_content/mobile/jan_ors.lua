@@ -1,0 +1,1 @@
+object_mobile_jan_ors = object_mobile_shared_jan_ors:new {}ObjectTemplates:addTemplate(object_mobile_jan_ors, "object/mobile/jan_ors.iff")

@@ -1,0 +1,1 @@
+object_static_vehicle_static_pod_racer_s01 = object_static_vehicle_shared_static_pod_racer_s01:new {}ObjectTemplates:addTemplate(object_static_vehicle_static_pod_racer_s01, "object/static/vehicle/static_pod_racer_s01.iff")

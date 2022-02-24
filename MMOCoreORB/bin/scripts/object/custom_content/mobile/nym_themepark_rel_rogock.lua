@@ -1,0 +1,1 @@
+object_mobile_nym_themepark_rel_rogock = object_mobile_shared_nym_themepark_rel_rogock:new {}ObjectTemplates:addTemplate(object_mobile_nym_themepark_rel_rogock, "object/mobile/nym_themepark_rel_rogock.iff")

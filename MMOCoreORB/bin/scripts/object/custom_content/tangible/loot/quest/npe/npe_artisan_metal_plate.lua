@@ -1,0 +1,5 @@
+object_tangible_loot_quest_npe_npe_artisan_metal_plate = object_tangible_loot_quest_npe_shared_npe_artisan_metal_plate:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_quest_npe_npe_artisan_metal_plate, "object/tangible/loot/quest/npe/npe_artisan_metal_plate.iff")

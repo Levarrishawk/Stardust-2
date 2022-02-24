@@ -48,11 +48,10 @@ object_draft_schematic_structure_city_cantina_corellia = object_draft_schematic_
 	customObjectName = "Deed for: Corellia Cantina",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 25,
+	complexity = 1,
 	size = 14,
-	factoryCrateSize = 1,
-	factoryCrateType = "object/factory/factory_crate_installation.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 8800,
 

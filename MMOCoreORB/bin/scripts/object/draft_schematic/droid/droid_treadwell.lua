@@ -48,10 +48,9 @@ object_draft_schematic_droid_droid_treadwell = object_draft_schematic_droid_shar
 	customObjectName = "Deed for: Treadwell Droid",
 
 	craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 16,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 5,
-	factoryCrateType = "object/factory/factory_crate_electronics.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_droid_general",
 	xp = 155,

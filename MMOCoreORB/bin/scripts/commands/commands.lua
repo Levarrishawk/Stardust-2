@@ -499,7 +499,6 @@ RunSlashCommandsFile("petClearPatrolPoints.lua")
 RunSlashCommandsFile("petEmote.lua")
 RunSlashCommandsFile("petFeed.lua")
 RunSlashCommandsFile("petFollow.lua")
-RunSlashCommandsFile("petFormation.lua")
 RunSlashCommandsFile("petFriend.lua")
 RunSlashCommandsFile("petGetPatrolPoint.lua")
 RunSlashCommandsFile("petGroup.lua")
@@ -831,3 +830,8 @@ RunSlashCommandsFile("waypoint.lua")
 RunSlashCommandsFile("unstick.lua")
 RunSlashCommandsFile("launchIntoSpace.lua")
 RunSlashCommandsFile("createVendor.lua")
+-- New DLSWG Commands
+--[[
+RunSlashCommandFile("vaapaadStrike.lua")
+RunSlashCommandFile("JungMaStrike.lua")
+RunSlashCommandFile("forceRun.lua")--]]

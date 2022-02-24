@@ -1,0 +1,1 @@
+object_static_worldbuilding_furniture_eqp_notebook_s01 = object_static_worldbuilding_furniture_shared_eqp_notebook_s01:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_furniture_eqp_notebook_s01, "object/static/worldbuilding/furniture/eqp_notebook_s01.iff")

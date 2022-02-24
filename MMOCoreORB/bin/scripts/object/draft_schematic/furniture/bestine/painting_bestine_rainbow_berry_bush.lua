@@ -47,11 +47,10 @@ object_draft_schematic_furniture_bestine_painting_bestine_rainbow_berry_bush = o
 	customObjectName = "Painting of a Rainbow Berry Bush",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 15,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 15,
-	factoryCrateType = "object/factory/factory_crate_furniture.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 80,
 

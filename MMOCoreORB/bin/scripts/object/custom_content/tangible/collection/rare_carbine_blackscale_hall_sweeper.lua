@@ -1,0 +1,5 @@
+
+object_tangible_collection_rare_carbine_blackscale_hall_sweeper = object_tangible_collection_shared_rare_carbine_blackscale_hall_sweeper:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_rare_carbine_blackscale_hall_sweeper, "object/tangible/collection/rare_carbine_blackscale_hall_sweeper.iff")

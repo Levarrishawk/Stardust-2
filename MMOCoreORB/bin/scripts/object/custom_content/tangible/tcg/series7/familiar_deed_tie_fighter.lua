@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series7_familiar_deed_tie_fighter = object_tangible_tcg_series7_shared_familiar_deed_tie_fighter:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series7_familiar_deed_tie_fighter, "object/tangible/tcg/series7/familiar_deed_tie_fighter.iff")

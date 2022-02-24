@@ -48,10 +48,9 @@ object_draft_schematic_droid_droid_dz70_advanced = object_draft_schematic_droid_
 	customObjectName = "Deed for: DZ70 Droid, Advanced Model",
 
 	craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 22,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 5,
-	factoryCrateType = "object/factory/factory_crate_electronics.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_droid_general",
 	xp = 120,

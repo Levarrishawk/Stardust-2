@@ -1,0 +1,1 @@
+object_mobile_zardra = object_mobile_shared_zardra:new {}ObjectTemplates:addTemplate(object_mobile_zardra, "object/mobile/zardra.iff")

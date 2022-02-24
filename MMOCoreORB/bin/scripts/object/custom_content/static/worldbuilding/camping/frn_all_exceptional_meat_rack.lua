@@ -1,0 +1,1 @@
+object_static_worldbuilding_camping_frn_all_exceptional_meat_rack = object_static_worldbuilding_camping_shared_frn_all_exceptional_meat_rack:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_camping_frn_all_exceptional_meat_rack, "object/static/worldbuilding/camping/frn_all_exceptional_meat_rack.iff")

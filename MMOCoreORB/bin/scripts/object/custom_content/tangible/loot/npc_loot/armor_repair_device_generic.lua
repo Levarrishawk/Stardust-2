@@ -1,0 +1,5 @@
+object_tangible_loot_npc_loot_armor_repair_device_generic = object_tangible_loot_npc_loot_shared_armor_repair_device_generic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_armor_repair_device_generic, "object/tangible/loot/npc/loot/armor_repair_device_generic.iff")

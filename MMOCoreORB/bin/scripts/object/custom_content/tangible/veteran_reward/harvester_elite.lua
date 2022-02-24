@@ -1,0 +1,3 @@
+object_tangible_veteran_reward_harvester_elite = object_tangible_veteran_reward_shared_harvester_elite:new {
+}
+ObjectTemplates:addTemplate(object_tangible_veteran_reward_harvester_elite, "object/tangible/veteran_reward/harvester_elite.iff")

@@ -1,0 +1,5 @@
+object_tangible_collection_reward_rock_bubbling_reward = object_tangible_collection_reward_shared_rock_bubbling_reward:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_rock_bubbling_reward, "object/tangible/collection/reward/rock_bubbling_reward.iff")

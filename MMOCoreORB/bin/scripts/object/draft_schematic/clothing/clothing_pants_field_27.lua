@@ -48,9 +48,8 @@ object_draft_schematic_clothing_clothing_pants_field_27 = object_draft_schematic
    customObjectName = "Pocketed Shorts",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 18, 
+   complexity = 1, 
    size = 3, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 50, 

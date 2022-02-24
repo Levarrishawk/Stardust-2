@@ -48,11 +48,10 @@ object_draft_schematic_furniture_furniture_bed_small = object_draft_schematic_fu
 	customObjectName = "Small Bed",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 15,
+	complexity = 1,
 	size = 2,
-	factoryCrateSize = 10,
-	factoryCrateType = "object/factory/factory_crate_furniture.iff",
-   
+	factoryCrateSize = 1000,
+
 	xpType = "crafting_structure_general",
 	xp = 500,
 
@@ -71,7 +70,7 @@ object_draft_schematic_furniture_furniture_bed_small = object_draft_schematic_fu
 	resourceQuantities = {100, 150},
 	contribution = {100, 100},
 
-	targetTemplate = "object/tangible/furniture/all/frn_all_bed_sm_s1.iff",
+	targetTemplate = "object/tangible/furniture/all/frn_all_bed_sm_hue_s1.iff",
 
 	additionalTemplates = {}
 }

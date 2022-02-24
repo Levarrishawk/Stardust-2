@@ -1,7 +1,7 @@
 qa_basilisk = {
 	level = 2,
 	name = "qa_basilisk",
-	tag = "SWGEmu-QA",
+	tag = "Stardust-QA",
 	skills = {
 		"admin_base",
 		"admin_qa_basilisk",

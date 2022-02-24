@@ -50,8 +50,7 @@ object_draft_schematic_space_weapon_shield_effectiveness_intensifier_mk4 = objec
    craftingToolTab = 131072, -- (See DraftSchematicObjectTemplate.h)
    complexity = 30, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+
    xpType = "shipwright", 
    xp = 313, 
 

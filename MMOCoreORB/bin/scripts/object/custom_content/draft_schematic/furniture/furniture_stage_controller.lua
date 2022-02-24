@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_furniture_stage_controller = object_draft_schematic_furniture_shared_furniture_stage_controller:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_stage_controller, "object/draft_schematic/furniture/furniture_stage_controller.iff")

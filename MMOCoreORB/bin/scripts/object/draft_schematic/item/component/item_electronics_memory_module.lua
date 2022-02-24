@@ -48,10 +48,9 @@ object_draft_schematic_item_component_item_electronics_memory_module = object_dr
    customObjectName = "Electronics Memory Module",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 12, 
+   complexity = 1, 
    size = 2, 
-   factoryCrateType = "object/factory/factory_crate_electronics.iff",
-   
+
    xpType = "crafting_general", 
    xp = 40, 
 

@@ -1,0 +1,5 @@
+object_tangible_furniture_all_meatlump_reward_rock_chair_01 = object_tangible_furniture_all_shared_meatlump_reward_rock_chair_01:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_all_meatlump_reward_rock_chair_01, "object/tangible/furniture/all/meatlump_reward_rock_chair_01.iff")

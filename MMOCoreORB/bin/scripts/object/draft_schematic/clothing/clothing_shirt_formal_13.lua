@@ -48,12 +48,11 @@ object_draft_schematic_clothing_clothing_shirt_formal_13 = object_draft_schemati
    customObjectName = "Formal Shirt",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 18, 
+   complexity = 1, 
    size = 4, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
-   xp = 90, 
+   xp = 200, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

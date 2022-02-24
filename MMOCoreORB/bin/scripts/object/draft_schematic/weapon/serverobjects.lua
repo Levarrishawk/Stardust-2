@@ -130,3 +130,15 @@ includeFile("draft_schematic/weapon/sword.lua")
 includeFile("draft_schematic/weapon/sword_curved.lua")
 includeFile("draft_schematic/weapon/sword_ryyk_blade.lua")
 includeFile("draft_schematic/weapon/turbo_laser.lua")
+
+-- Loot Weapons
+includeFile("draft_schematic/weapon/carbine_charric.lua")
+includeFile("draft_schematic/weapon/lance_shock.lua")
+includeFile("draft_schematic/weapon/loot_soulstinger.lua")
+includeFile("draft_schematic/weapon/pistol_renegade.lua")
+includeFile("draft_schematic/weapon/rifle_ld1.lua")
+includeFile("draft_schematic/weapon/rifle_tc22_blaster.lua")
+includeFile("draft_schematic/weapon/sword_marauder.lua")
+
+
+

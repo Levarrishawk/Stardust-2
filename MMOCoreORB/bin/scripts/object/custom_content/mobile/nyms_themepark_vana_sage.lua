@@ -1,0 +1,3 @@
+object_mobile_nyms_themepark_vana_sage = object_mobile_shared_nyms_themepark_vana_sage:new {
+}
+ObjectTemplates:addTemplate(object_mobile_nyms_themepark_vana_sage, "object/mobile/nyms_themepark_vana_sage.iff")

@@ -1,0 +1,5 @@
+object_tangible_quest_corellia_disappearances_2_object_4 = object_tangible_quest_shared_corellia_disappearances_2_object_4:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_quest_corellia_disappearances_2_object_4, "object/tangible/quest/corellia_disappearances_2_object_4.iff")

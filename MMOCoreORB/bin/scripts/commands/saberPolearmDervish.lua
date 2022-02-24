@@ -42,59 +42,58 @@
 --true = 1, false = 0
 
 SaberPolearmDervishCommand = {
-	name = "saberpolearmdervish",
+        name = "saberpolearmdervish",
 
-	damageMultiplier = 3.5,
-	accuracyBonus = 50,
+	damageMultiplier = 1.75,
 	speedMultiplier = 3.0,
 	healthCostMultiplier = 0,
-	actionCostMultiplier = 0,
+	actionCostMultiplier = 2,
 	mindCostMultiplier = 0,
 	areaAction = true,
 	areaRange = 16,
 	forceCostMultiplier = 2.5,
 	visMod = 25,
 
-	stateEffects = {
-		StateEffect(
-			BLIND_EFFECT,
-			{},
-			{ "blind_defense" },
-			{ "jedi_state_defense", "resistance_states" },
-			75,
-			0,
-			60
-		),
-		StateEffect(
-			DIZZY_EFFECT,
-			{},
-			{ "dizzy_defense" },
-			{ "jedi_state_defense", "resistance_states" },
-			75,
-			0,
-			30
-		),
-		StateEffect(
-			STUN_EFFECT,
-			{},
-			{ "stun_defense" },
-			{ "jedi_state_defense", "resistance_states" },
-			75,
-			0,
-			60
-		)
+		stateEffects = {
+	   StateEffect( 
+		BLIND_EFFECT, 
+		{}, 
+		{ "blind_defense", "resistance_states" }, 
+		{ "jedi_state_defense" }, 
+		75, 
+		0, 
+		60
+	  ),
+	  StateEffect( 
+		DIZZY_EFFECT, 
+		{}, 
+		{ "dizzy_defense", "resistance_states" }, 
+		{ "jedi_state_defense" }, 
+		75, 
+		0, 
+		10 
+	  ),
+	  StateEffect( 
+		STUN_EFFECT, 
+		{}, 
+		{ "stun_defense", "resistance_states" }, 
+		{ "jedi_state_defense" }, 
+		75, 
+		0, 
+		60 
+	  )
 	},
 
-	animation = "showoff_2",
+	animation = "showoff_2", 
 	animType = GENERATE_INTENSITY,
 
 	combatSpam = "saberpolearmdervish",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	weaponType = POLEARMJEDIWEAPON,
 
-	range = -1
+	range = 10
 }
 
 AddCommand(SaberPolearmDervishCommand)

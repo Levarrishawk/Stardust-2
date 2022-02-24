@@ -44,13 +44,13 @@
 UnarmedHit1Command = {
 	name = "unarmedhit1",
 
-	damageMultiplier = 2.0,
+	damageMultiplier = 1.5,
 	speedMultiplier = 1.5,
 	accuracyBonus = 15,
 	
-	healthCostMultiplier = 1.0,
-	actionCostMultiplier = 1.0,
-	mindCostMultiplier = 1.0,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 1.5,
+	mindCostMultiplier = 0,
 
 	animation = "combo_2d", 
 	animType = GENERATE_INTENSITY,
@@ -59,7 +59,7 @@ UnarmedHit1Command = {
 	
 	weaponType = UNARMEDWEAPON,
 
-	range = -1
+	range = 6
 }
 
 AddCommand(UnarmedHit1Command)

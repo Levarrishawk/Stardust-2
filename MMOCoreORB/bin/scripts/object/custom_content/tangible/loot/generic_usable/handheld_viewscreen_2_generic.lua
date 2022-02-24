@@ -1,0 +1,5 @@
+object_tangible_loot_generic_usable_handheld_viewscreen_2_generic = object_tangible_loot_generic_usable_shared_handheld_viewscreen_2_generic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_generic_usable_handheld_viewscreen_2_generic, "object/tangible/loot/generic/usable/handheld_viewscreen_2_generic.iff")

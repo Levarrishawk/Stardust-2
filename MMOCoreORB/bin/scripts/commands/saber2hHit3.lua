@@ -42,27 +42,26 @@
 --true = 1, false = 0
 
 Saber2hHit3Command = {
-	name = "saber2hhit3",
+        name = "saber2hhit3",
 
 	damageMultiplier = 2.5,
-	accuracyBonus = 50,
 	speedMultiplier = 2.5,
 	healthCostMultiplier = 0,
-	actionCostMultiplier = 0,
+	actionCostMultiplier = 1,
 	mindCostMultiplier = 0,
 	forceCostMultiplier = 2.0,
 	visMod = 25,
 
-	animation = "showoff_3",
+	animation = "showoff_3", 
 	animType = GENERATE_INTENSITY,
 
 	combatSpam = "saber2hhit3",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	weaponType = TWOHANDJEDIWEAPON,
 
-	range = -1
+	range = 8
 }
 
 AddCommand(Saber2hHit3Command)

@@ -48,13 +48,12 @@ object_draft_schematic_chemistry_medpack_wound_action_c = object_draft_schematic
 	customObjectName = "Action Wound Medpack - C",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 25,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
-	xp = 65,
+	xp = 270,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

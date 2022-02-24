@@ -48,10 +48,9 @@ object_draft_schematic_chemistry_medpack_wound_quickness_d = object_draft_schema
 	customObjectName = "Quickness Wound Medpack - D",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 35,
+	complexity = 1,
 	size = 4,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_medicine_general",
 	xp = 80, 

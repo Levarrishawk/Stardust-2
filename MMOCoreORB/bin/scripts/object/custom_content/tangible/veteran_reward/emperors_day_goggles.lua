@@ -1,0 +1,3 @@
+object_tangible_veteran_reward_emperors_day_goggles = object_tangible_veteran_reward_shared_emperors_day_goggles:new {
+}
+ObjectTemplates:addTemplate(object_tangible_veteran_reward_emperors_day_goggles, "object/tangible/veteran_reward/emperors_day_goggles.iff")

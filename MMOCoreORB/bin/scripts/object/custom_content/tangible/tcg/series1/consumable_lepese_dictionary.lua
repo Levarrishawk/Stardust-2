@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series1_consumable_lepese_dictionary = object_tangible_tcg_series1_shared_consumable_lepese_dictionary:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series1_consumable_lepese_dictionary, "object/tangible/tcg/series1/consumable_lepese_dictionary.iff")

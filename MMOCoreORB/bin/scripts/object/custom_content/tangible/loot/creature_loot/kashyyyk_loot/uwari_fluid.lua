@@ -1,0 +1,5 @@
+
+object_tangible_loot_creature_loot_kashyyyk_loot_uwari_fluid = object_tangible_loot_creature_loot_kashyyyk_loot_shared_uwari_fluid:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_uwari_fluid, "object/tangible/loot/creature_loot/kashyyyk_loot/uwari_fluid.iff")

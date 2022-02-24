@@ -48,12 +48,11 @@ object_draft_schematic_bio_engineer_bio_component_bio_component_clothing_field_c
    customObjectName = "Scent Camouflage",
 
    craftingToolTab = 128, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 21, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
    xpType = "crafting_bio_engineer_creature", 
-   xp = 130, 
+   xp = 2400, -- Boosted xp for BE grind expediency.
 
    assemblySkill = "bio_engineer_assembly", 
    experimentingSkill = "bio_engineer_experimentation", 

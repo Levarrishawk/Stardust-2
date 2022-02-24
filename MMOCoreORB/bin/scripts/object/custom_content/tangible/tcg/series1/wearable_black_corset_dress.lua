@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series1_wearable_black_corset_dress = object_tangible_tcg_series1_shared_wearable_black_corset_dress:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series1_wearable_black_corset_dress, "object/tangible/tcg/series1/wearable_black_corset_dress.iff")

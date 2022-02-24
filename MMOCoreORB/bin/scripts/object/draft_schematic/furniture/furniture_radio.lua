@@ -48,14 +48,13 @@ object_draft_schematic_furniture_furniture_radio = object_draft_schematic_furnit
    customObjectName = "Radio Draft Schematic",
 
    craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 12, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateSize = 0,
-   factoryCrateType = "object/factory/factory_crate_furniture.iff",
-   
 
    xpType = "crafting_general", 
    xp = 70, 
+
+   factoryCrateSize = 0,
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

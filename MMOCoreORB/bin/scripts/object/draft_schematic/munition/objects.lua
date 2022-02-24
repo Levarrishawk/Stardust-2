@@ -629,51 +629,16 @@ object_draft_schematic_munition_shared_mine_dxr55 = SharedDraftSchematicObjectTe
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_munition_shared_mine_dxr55, "object/draft_schematic/munition/shared_mine_dxr55.iff")
 
+
 object_draft_schematic_munition_shared_mine_xg = SharedDraftSchematicObjectTemplate:new {
 	clientTemplateFileName = "object/draft_schematic/munition/shared_mine_xg.iff"
-	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
---[[
-	appearanceFilename = "",
-	arrangementDescriptorFilename = "abstract/slot/arrangement/arrangement_datapad.iff",
-
-	clearFloraRadius = 0,
-	clientDataFile = "",
-	clientGameObjectType = 2049,
-	collisionActionBlockFlags = 0,
-	collisionActionFlags = 0,
-	collisionActionPassFlags = 0,
-	collisionMaterialBlockFlags = 0,
-	collisionMaterialFlags = 0,
-	collisionMaterialPassFlags = 0,
-	containerType = 0,
-	containerVolumeLimit = 0,
-
-	detailedDescription = "string_id_table",
-
-	gameObjectType = 2049,
-
-	locationReservationRadius = 0,
-	lookAtText = "string_id_table",
-
-	noBuildRadius = 0,
-
-	objectName = "string_id_table",
-	onlyVisibleInTools = 0,
-
-	portalLayoutFilename = "",
-
-	scale = 0,
-	scaleThresholdBeforeExtentTest = 0.5,
-	sendToClient = 1,
-	slotDescriptorFilename = "",
-	snapToTerrain = 0,
-	surfaceType = 0,
-
-	totalCellNumber = 0,
-
-	clientObjectCRC = 1813474007,
-	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/intangible/base/shared_base_intangible.iff", "object/draft_schematic/base/shared_base_draft_schematic.iff", "object/draft_schematic/munition/shared_base_munition.iff"}
-]]
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_munition_shared_mine_xg, "object/draft_schematic/munition/shared_mine_xg.iff")
+--[[
+object_draft_schematic_munition_shared_grenade_cortosis = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/munition/shared_grenade_cortosis.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_munition_shared_grenade_cortosis, "object/draft_schematic/munition/shared_grenade_cortosis.iff")
+--]]

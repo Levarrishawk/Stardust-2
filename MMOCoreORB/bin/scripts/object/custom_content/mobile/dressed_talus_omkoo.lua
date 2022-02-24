@@ -1,0 +1,1 @@
+object_mobile_dressed_talus_omkoo = object_mobile_shared_dressed_talus_omkoo:new {}ObjectTemplates:addTemplate(object_mobile_dressed_talus_omkoo, "object/mobile/dressed_talus_omkoo.iff")

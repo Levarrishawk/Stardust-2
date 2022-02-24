@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series4_decorative_stuffed_tauntaun = object_tangible_tcg_series4_shared_decorative_stuffed_tauntaun:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series4_decorative_stuffed_tauntaun, "object/tangible/tcg/series4/decorative_stuffed_tauntaun.iff")

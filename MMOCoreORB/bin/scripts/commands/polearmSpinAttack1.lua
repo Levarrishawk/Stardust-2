@@ -44,16 +44,28 @@
 PolearmSpinAttack1Command = {
 	name = "polearmspinattack1",
 
-	damageMultiplier = 1.5,
+	damageMultiplier = 1,
 	speedMultiplier = 1.5,
 	accuracyBonus = 10,
 	
-	healthCostMultiplier = 1.5,
-	actionCostMultiplier = 1.0,
-	mindCostMultiplier = 1.0,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 2,
+	mindCostMultiplier = 0,
 
 	areaAction = true,
 	areaRange = 16,
+	
+	stateEffects = {
+    StateEffect( 
+    DIZZY_EFFECT, 
+    {}, 
+    { "dizzy_defense", "resistance_states" }, 
+    { "jedi_state_defense" }, 
+    65, 
+    0, 
+    10 
+    )
+  },
 
 	animation = "attack_high_left_light_2",
 

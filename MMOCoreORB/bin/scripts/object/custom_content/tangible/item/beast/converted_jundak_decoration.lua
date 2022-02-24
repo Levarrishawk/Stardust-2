@@ -1,0 +1,5 @@
+object_tangible_item_beast_converted_jundak_decoration = object_tangible_item_beast_shared_converted_jundak_decoration:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_beast_converted_jundak_decoration, "object/tangible/item/beast/converted_jundak_decoration.iff")

@@ -48,12 +48,11 @@ object_draft_schematic_food_dish_travel_biscuits = object_draft_schematic_food_s
    customObjectName = "Travel Biscuits",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 3, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_food.iff",
-   
+
    xpType = "crafting_general", 
-   xp = 20, 
+   xp = 50, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

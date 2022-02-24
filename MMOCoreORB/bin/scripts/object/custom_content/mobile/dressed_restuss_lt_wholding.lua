@@ -1,0 +1,5 @@
+object_mobile_dressed_restuss_lt_wholding = object_mobile_shared_dressed_restuss_lt_wholding:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_restuss_lt_wholding, "object/mobile/dressed_restuss_lt_wholding.iff")

@@ -1,0 +1,1 @@
+object_static_halloween_kashyyyk_operating_table = object_static_halloween_shared_kashyyyk_operating_table:new {}ObjectTemplates:addTemplate(object_static_halloween_kashyyyk_operating_table, "object/static/halloween/kashyyyk_operating_table.iff")

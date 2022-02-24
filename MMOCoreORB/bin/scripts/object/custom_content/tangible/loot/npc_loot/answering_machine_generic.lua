@@ -1,0 +1,5 @@
+object_tangible_loot_npc_loot_answering_machine_generic = object_tangible_loot_npc_loot_shared_answering_machine_generic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_answering_machine_generic, "object/tangible/loot/npc/loot/answering_machine_generic.iff")

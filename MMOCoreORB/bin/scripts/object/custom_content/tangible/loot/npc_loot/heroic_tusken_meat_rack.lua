@@ -1,0 +1,5 @@
+object_tangible_loot_npc_loot_heroic_tusken_meat_rack = object_tangible_loot_npc_loot_shared_heroic_tusken_meat_rack:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_heroic_tusken_meat_rack, "object/tangible/loot/npc/loot/heroic_tusken_meat_rack.iff")

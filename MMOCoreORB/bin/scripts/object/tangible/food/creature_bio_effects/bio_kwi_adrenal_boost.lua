@@ -60,7 +60,7 @@ object_tangible_food_creature_bio_effects_bio_kwi_adrenal_boost = object_tangibl
 	quantityMin = 0,
 	quantityMax = 0,
 
-	modifiers = { "health" , 100, "constitution" , 900, "action", 100, "stamina", 900, "mind", 100, "willpower", 900 },
+	modifiers = { "health" , 100, "constitution" , 100, "action", 100 },
 
 	buffName = "kwi_boost",
 	buffCRC = 0,

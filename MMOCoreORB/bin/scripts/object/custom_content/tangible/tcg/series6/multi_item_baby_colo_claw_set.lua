@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series6_multi_item_baby_colo_claw_set = object_tangible_tcg_series6_shared_multi_item_baby_colo_claw_set:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series6_multi_item_baby_colo_claw_set, "object/tangible/tcg/series6/multi_item_baby_colo_claw_set.iff")

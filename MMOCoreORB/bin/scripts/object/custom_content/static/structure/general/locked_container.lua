@@ -1,0 +1,1 @@
+object_static_structure_general_locked_container = object_static_structure_general_shared_locked_container:new {}ObjectTemplates:addTemplate(object_static_structure_general_locked_container, "object/static/structure/general/locked_container.iff")

@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_trader_str_tubing = object_tangible_loot_creature_loot_collections_shared_trader_str_tubing:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_trader_str_tubing, "object/tangible/loot/creature/loot/collections/trader_str_tubing.iff")

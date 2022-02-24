@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_furniture_collection_holocron_pedestal_jedi = object_draft_schematic_furniture_shared_furniture_collection_holocron_pedestal_jedi:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_collection_holocron_pedestal_jedi, "object/draft_schematic/furniture/furniture_collection_holocron_pedestal_jedi.iff")

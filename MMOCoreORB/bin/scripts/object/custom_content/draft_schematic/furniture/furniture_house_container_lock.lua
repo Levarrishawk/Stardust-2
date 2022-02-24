@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_furniture_house_container_lock = object_draft_schematic_furniture_shared_furniture_house_container_lock:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_house_container_lock, "object/draft_schematic/furniture/furniture_house_container_lock.iff")

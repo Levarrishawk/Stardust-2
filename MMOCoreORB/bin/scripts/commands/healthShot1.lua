@@ -44,11 +44,11 @@
 HealthShot1Command = {
 	name = "healthshot1",
 
-	damageMultiplier = 1.5,
+	damageMultiplier = 1,
 	speedMultiplier = 2.0,
-	healthCostMultiplier = 0.5,
-	actionCostMultiplier = 0.75,
-	mindCostMultiplier = 0.5,
+	healthCostMultiplier = 0,
+	actionCostMultiplier = 2,
+	mindCostMultiplier = 0,
         accuracyBonus = 50,
 
 	poolsToDamage = HEALTH_ATTRIBUTE,
@@ -65,9 +65,9 @@ HealthShot1Command = {
 		HEALTH,
 		true,
 		0,
-		100,
-		60, 
-		60
+		50,
+		1, 
+		15
 	  )
 	},	
 	

@@ -1,0 +1,5 @@
+object_tangible_holiday_empire_day_component_console_readout_display = object_tangible_holiday_empire_day_component_shared_console_readout_display:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_component_console_readout_display, "object/tangible/holiday/empire_day/component/console_readout_display.iff")

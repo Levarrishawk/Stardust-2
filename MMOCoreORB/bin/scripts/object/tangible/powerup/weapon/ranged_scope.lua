@@ -59,7 +59,7 @@ object_tangible_powerup_weapon_ranged_scope = object_tangible_powerup_weapon_sha
 	secondary = {
 		{"woundsRatio", "Pin-Pointed", "cat_pup.pup_wpn_wound_chance"}, 
 		{"attackSpeed", "Targeting", "cat_pup.pup_wpn_attack_speed"}, 
-		{"actionAttackCost", "Tracking", "cat_pup.pup_wpn_attack_cost_action"}
+	--	{"actionAttackCost", "Tracking", "cat_pup.pup_wpn_attack_cost_action"}
 	},
 
 	numberExperimentalProperties = {1, 1, 1, 1},

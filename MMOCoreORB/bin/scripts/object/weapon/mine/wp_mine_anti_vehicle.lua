@@ -54,7 +54,7 @@ object_weapon_mine_wp_mine_anti_vehicle = object_weapon_mine_shared_wp_mine_anti
 	attackSpeed = 10,
 	woundsRatio = 10,
 	damageType = BLAST,
-	armorPiercing = HEAVY,
+	armorPiercing = LIGHT,
 
 	numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 1},
 	experimentalProperties = {"XX", "XX", "SR", "UT", "SR", "UT", "SR", "UT", "SR", "UT", "XX"},

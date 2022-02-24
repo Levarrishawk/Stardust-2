@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_tusken_spirit_mask = object_tangible_loot_creature_loot_collections_shared_tusken_spirit_mask:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_tusken_spirit_mask, "object/tangible/loot/creature/loot/collections/tusken_spirit_mask.iff")

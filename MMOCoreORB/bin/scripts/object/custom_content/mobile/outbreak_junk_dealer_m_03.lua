@@ -1,0 +1,3 @@
+object_mobile_outbreak_junk_dealer_m_03 = object_mobile_shared_outbreak_junk_dealer_m_03:new {
+}
+ObjectTemplates:addTemplate(object_mobile_outbreak_junk_dealer_m_03, "object/mobile/outbreak_junk_dealer_m_03.iff")

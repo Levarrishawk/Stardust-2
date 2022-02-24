@@ -48,12 +48,11 @@ object_draft_schematic_food_dish_dustcrepe = object_draft_schematic_food_shared_
    customObjectName = "Dustcrepe",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 5, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_food.iff",
-   
+
    xpType = "crafting_general", 
-   xp = 30, 
+   xp = 192, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

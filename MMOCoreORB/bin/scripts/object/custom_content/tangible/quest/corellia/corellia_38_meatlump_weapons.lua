@@ -1,0 +1,5 @@
+object_tangible_quest_corellia_corellia_38_meatlump_weapons = object_tangible_quest_corellia_shared_corellia_38_meatlump_weapons:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_quest_corellia_corellia_38_meatlump_weapons, "object/tangible/quest/corellia/corellia_38_meatlump_weapons.iff")

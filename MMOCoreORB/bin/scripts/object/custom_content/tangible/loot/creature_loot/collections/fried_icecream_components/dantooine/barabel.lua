@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fried_icecream_components_dantooine_barabel = object_tangible_loot_creature_loot_collections_fried_icecream_components_dantooine_shared_barabel:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_dantooine_barabel, "object/tangible/loot/creature/loot/collections/fried/icecream/components/dantooine/barabel.iff")
