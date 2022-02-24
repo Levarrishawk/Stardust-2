@@ -95,7 +95,11 @@ void SurveySessionImplementation::startSurvey(const String& resname) {
 			surveyer->sendSystemMessage("@error_message:survey_cant");
 			return;
 		}
-	} else {
+	}
+	if (surveyer->getZone()->getZoneName()== "coruscant" || surveyer->getZone()->getZoneName()== "jakku" || surveyer->getZone()->getZoneName()== "elysium"){
+			surveyer->sendSystemMessage("You can not survey on this planet.");
+			return;
+	}else {
 		if (surveyer->getPosture() != CreaturePosture::UPRIGHT) {
 			surveyer->sendSystemMessage("@error_message:survey_standing");
 			return;

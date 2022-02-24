@@ -235,11 +235,11 @@ void ArmorObjectImplementation::fillAttributeList(AttributeListMessage* alm, Cre
 		alm->insertAttribute("cat_armor_vulnerability.armor_eff_restraint", "-");
 
 	//Encumbrances
-	alm->insertAttribute("cat_armor_encumbrance.health", getHealthEncumbrance());
+	//alm->insertAttribute("cat_armor_encumbrance.health", getHealthEncumbrance());
 
-	alm->insertAttribute("cat_armor_encumbrance.action", getActionEncumbrance());
+	//alm->insertAttribute("cat_armor_encumbrance.action", getActionEncumbrance());
 
-	alm->insertAttribute("cat_armor_encumbrance.mind", getMindEncumbrance());
+	//alm->insertAttribute("cat_armor_encumbrance.mind", getMindEncumbrance());
 
 	//Anti Decay Kit
 	if(hasAntiDecayKit()){

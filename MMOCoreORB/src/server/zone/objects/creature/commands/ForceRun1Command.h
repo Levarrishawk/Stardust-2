@@ -5,6 +5,7 @@
 #ifndef FORCERUN1COMMAND_H_
 #define FORCERUN1COMMAND_H_
 
+#include "server/zone/objects/creature/buffs/PrivateSkillMultiplierBuff.h"
 #include "JediQueueCommand.h"
 
 class ForceRun1Command : public JediQueueCommand {
@@ -37,13 +38,30 @@ public:
 			return res;
 		}
 
-		// SPECIAL - For Force Run.
+		// need to apply the damage reduction in a separate buff so that the multiplication and division applies right
+		Buff* buff = creature->getBuff(BuffCRC::JEDI_FORCE_RUN_1);
+		if (buff == NULL)
+			return GENERALERROR;
+
+		ManagedReference<PrivateSkillMultiplierBuff*> multBuff = new PrivateSkillMultiplierBuff(creature, name.hashCode(), duration, BuffType::JEDI);
+
+		Locker locker(multBuff);
+
+		multBuff->setSkillModifier("private_damage_divisor", 10);
+
+		creature->addBuff(multBuff);
+
+		locker.release();
+
+		Locker blocker(buff);
+
+		buff->addSecondaryBuffCRC(multBuff->getBuffCRC());
+
 		if (creature->hasBuff(STRING_HASHCODE("burstrun")) || creature->hasBuff(STRING_HASHCODE("retreat"))) {
 			creature->removeBuff(STRING_HASHCODE("burstrun"));
 			creature->removeBuff(STRING_HASHCODE("retreat"));
 		}
 
-		// Return.
 		return SUCCESS;
 	}
 

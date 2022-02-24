@@ -1279,6 +1279,9 @@ class SceneObject extends QuadTreeEntry implements Logger, Metrics {
 	 */
 	public native void faceObject(SceneObject obj, boolean notifyClient = false);
 
+	public native void rotateXaxis(int degrees);
+	public native void rotateYaxis(int degrees);
+
 	@mock
 	@read
 	public abstract native boolean isFacingObject(SceneObject obj);

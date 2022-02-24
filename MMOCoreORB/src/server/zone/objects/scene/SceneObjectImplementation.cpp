@@ -1262,6 +1262,16 @@ Vector3 SceneObjectImplementation::getCoordinate(float distance, float angleDegr
 	return Vector3(newX, newY, newZ);
 }
 
+void SceneObjectImplementation::rotateXaxis(int degrees) {
+	Vector3 unity (1, 0, 0);
+	direction.rotate(unity, degrees);
+}
+
+void SceneObjectImplementation::rotateYaxis(int degrees) {
+	Vector3 unity (1, 0, 0);
+	direction.rotate(unity, degrees);
+}
+
 Vector3 SceneObjectImplementation::getWorldCoordinate(float distance, float angleDegrees, bool includeZ) {
 	float angleRads = angleDegrees * (M_PI / 180.0f);
 	float newAngle = angleRads + (M_PI / 2) - direction.getRadians();

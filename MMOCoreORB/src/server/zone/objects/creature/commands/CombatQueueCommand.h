@@ -24,6 +24,7 @@
 #include "server/zone/packets/object/CombatSpam.h"
 #include "QueueCommand.h"
 #include "server/zone/objects/player/FactionStatus.h"
+#include "server/zone/packets/player/PlayMusicMessage.h"
 
 class CombatQueueCommand : public QueueCommand {
 protected:
@@ -243,6 +244,8 @@ public:
 			case -1:
 				return INVALIDTARGET;
 			case -2:
+				creature->sendSystemMessage("You don't have enough action to use that ability yet.");
+				creature->playMusicMessage("sound/ui_negative.snd");
 				return INSUFFICIENTHAM;
 			case -3:
 				return GENERALERROR;

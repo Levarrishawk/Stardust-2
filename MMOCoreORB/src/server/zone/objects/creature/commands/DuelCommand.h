@@ -6,7 +6,6 @@
 #define DUELCOMMAND_H_
 
 #include "server/zone/objects/scene/SceneObject.h"
-#include "server/zone/managers/combat/CombatManager.h"
 
 class DuelCommand : public QueueCommand {
 public:
@@ -27,18 +26,23 @@ public:
 		if (!creature->isPlayerCreature())
 			return GENERALERROR;
 
-		auto targetObject = server->getZoneServer()->getObject(target);
+		if (creature->getZone()->getZoneName()== "elysium") {
+				creature->sendSystemMessage("An unknown force prevents any hostilities in this area."); // You can only unpack vehicles while Outside and not in Combat.
+			 	return GENERALERROR;
+			}
 
-		if (targetObject == nullptr || !targetObject->isPlayerCreature() || targetObject == creature)
+		ManagedReference<SceneObject*> targetObject = server->getZoneServer()->getObject(target);
+
+		if (targetObject == NULL || !targetObject->isPlayerCreature() || targetObject == creature)
 			return INVALIDTARGET;
 
 		if(!checkDistance(creature, targetObject, 25.0f))
 			return TOOFAR;
 
-		auto combatManager = CombatManager::instance();
-		auto player = cast<CreatureObject*>(targetObject.get());
+		CombatManager* combatManager = CombatManager::instance();
+		CreatureObject* player = cast<CreatureObject*>(targetObject.get());
 
-		if (!player->getPlayerObject()->isIgnoring(creature->getFirstName()))
+		if (!player->getPlayerObject()->isIgnoring(creature->getFirstName().toLowerCase()))
 			combatManager->requestDuel(creature, player);
 
 		return SUCCESS;

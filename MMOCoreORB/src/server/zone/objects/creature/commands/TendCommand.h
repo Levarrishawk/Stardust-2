@@ -73,11 +73,11 @@ public:
 		StringBuffer msgPlayer, msgTarget, msgBody, msgTail;
 
 		if (healthDamage > 0 && actionDamage > 0) {
-			msgBody << healthDamage << " health and " << actionDamage << " action";
+			msgBody << healthDamage << " health";
 		} else if (healthDamage > 0) {
 			msgBody << healthDamage << " health";
 		} else if (actionDamage > 0) {
-			msgBody << actionDamage << " action";
+			return;
 		} else {
 			return; //No damage to heal.
 		}
@@ -159,11 +159,11 @@ public:
 
 		ManagedReference<SceneObject*> object = server->getZoneServer()->getObject(target);
 
-		if (object != nullptr) {
+		if (object != NULL) {
 			if (!object->isCreatureObject()) {
 				TangibleObject* tangibleObject = dynamic_cast<TangibleObject*>(object.get());
 
-				if (tangibleObject != nullptr && tangibleObject->isAttackableBy(creature)) {
+				if (tangibleObject != NULL && tangibleObject->isAttackableBy(creature)) {
 					object = creature;
 				} else {
 					creature->sendSystemMessage("@healing_response:healing_response_a1"); //Target must be a player or a creature pet in order to tend damage
@@ -184,28 +184,14 @@ public:
 		if(!checkDistance(creature, creatureTarget, range))
 			return TOOFAR;
 
-		if (creature != creatureTarget && checkForArenaDuel(creatureTarget)) {
-			creature->sendSystemMessage("@jedi_spam:no_help_target"); // You are not permitted to help that target.
-			return GENERALERROR;
-		}
-
 		if (!creatureTarget->isHealableBy(creature)) {
 			creature->sendSystemMessage("@healing:pvp_no_help");  //It would be unwise to help such a patient.
 			return GENERALERROR;
 		}
 
-		if (creature != creatureTarget && !CollisionManager::checkLineOfSight(creature, creatureTarget)) {
-			creature->sendSystemMessage("@healing:no_line_of_sight"); // You cannot see your target.
-			return GENERALERROR;
-		}
+		int mindCostNew = creature->calculateCostAdjustment(CreatureAttribute::ACTION, mindCost);
 
-		if (!playerEntryCheck(creature, creatureTarget)) {
-			return GENERALERROR;
-		}
-
-		int mindCostNew = creature->calculateCostAdjustment(CreatureAttribute::FOCUS, mindCost);
-
-		if (creature->getHAM(CreatureAttribute::MIND) < mindCostNew) {
+		if (creature->getHAM(CreatureAttribute::ACTION) < mindCostNew) {
 			creature->sendSystemMessage("@healing_response:not_enough_mind"); //You do not have enough mind to do that.
 			return GENERALERROR;
 		}
@@ -213,7 +199,7 @@ public:
 		float bfScale = creatureTarget->calculateBFRatio();
 
 		if (tendDamage) {
-			if (!creatureTarget->hasDamage(CreatureAttribute::HEALTH) && !creatureTarget->hasDamage(CreatureAttribute::ACTION)) {
+			if (!creatureTarget->hasDamage(CreatureAttribute::HEALTH)) {
 				if (creatureTarget == creature)
 					creature->sendSystemMessage("@healing_response:healing_response_61"); //You have no damage to heal.
 				else if (creatureTarget->isPlayerCreature()) {
@@ -231,7 +217,8 @@ public:
 			int healPower = round(((float)creature->getSkillMod("healing_injury_treatment") / 3.f + 20.f) * bfScale);
 
 			int healedHealth = creatureTarget->healDamage(creature, CreatureAttribute::HEALTH, healPower);
-			int healedAction = creatureTarget->healDamage(creature, CreatureAttribute::ACTION, healPower, true, false);
+			int healedAction = 0;
+			//int healedAction = creatureTarget->healDamage(creature, CreatureAttribute::ACTION, healPower, true, false);
 
 			sendHealMessage(creature, creatureTarget, healedHealth, healedAction);
 		} else if (tendWound) {
@@ -248,7 +235,7 @@ public:
 				attribute = findAttribute(creatureTarget);
 			}
 
-			if (attribute >= CreatureAttribute::MIND)
+			if (attribute >= CreatureAttribute::ACTION)
 				attribute = CreatureAttribute::UNKNOWN;
 
 			if (attribute == CreatureAttribute::UNKNOWN || creatureTarget->getWounds(attribute) == 0) {
@@ -281,9 +268,9 @@ public:
 			playerManager->sendBattleFatigueMessage(creature, creatureTarget);
 		}
 
-		creature->inflictDamage(creature, CreatureAttribute::MIND, mindCostNew, false);
-		creature->addWounds(CreatureAttribute::FOCUS, mindWoundCost);
-		creature->addWounds(CreatureAttribute::WILLPOWER, mindWoundCost);
+		creature->inflictDamage(creature, CreatureAttribute::ACTION, mindCostNew, false);
+		creature->addWounds(CreatureAttribute::HEALTH, mindWoundCost);
+
 
 		doAnimations(creature, creatureTarget);
 

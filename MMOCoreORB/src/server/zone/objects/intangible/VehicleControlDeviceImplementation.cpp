@@ -29,6 +29,10 @@ void VehicleControlDeviceImplementation::generateObject(CreatureObject* player) 
 		player->sendSystemMessage("@pet/pet_menu:cant_call_vehicle"); // You can only unpack vehicles while Outside and not in Combat.
 		return;
 	}
+	if (player->getParent() != NULL || player->isInCombat() || player->getZone()->getZoneName() == "jakku" || player->getZone()->getZoneName()== "elysium") {
+			player->sendSystemMessage("You can not unpack vehicles in this area."); // You can only unpack vehicles while Outside and not in Combat.
+		 	return;
+		}
 
 	ManagedReference<TangibleObject*> controlledObject = this->controlledObject.get();
 
@@ -84,10 +88,10 @@ void VehicleControlDeviceImplementation::generateObject(CreatureObject* player) 
 		Reference<CallMountTask*> callMount = new CallMountTask(_this.getReferenceUnsafeStaticCast(), player, "call_mount");
 
 		StringIdChatParameter message("pet/pet_menu", "call_vehicle_delay");
-		message.setDI(15);
+		message.setDI(5);
 		player->sendSystemMessage(message);
 
-		player->addPendingTask("call_mount", callMount, 15 * 1000);
+		player->addPendingTask("call_mount", callMount, 5 * 1000);
 
 		if (vehicleControlObserver == nullptr) {
 			vehicleControlObserver = new VehicleControlObserver(_this.getReferenceUnsafeStaticCast());

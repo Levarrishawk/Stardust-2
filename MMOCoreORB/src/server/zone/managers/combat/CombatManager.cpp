@@ -142,7 +142,7 @@ bool CombatManager::attemptPeace(CreatureObject* attacker) const {
 				continue;
 			}
 
-			if (attacker->isInRange(threatTano, 128.f) && threatTano->getMainDefender() == attacker) {
+			if (attacker->isInRange(threatTano, 100.f) && threatTano->getMainDefender() == attacker) {
 				return true;
 			}
 		}
@@ -1213,8 +1213,8 @@ int CombatManager::calculateDamageRange(TangibleObject* attacker, CreatureObject
 
 	// restrict damage if a player is not certified (don't worry about mobs)
 	if (attacker->isPlayerCreature() && !weapon->isCertifiedFor(cast<CreatureObject*>(attacker))) {
-		minDamage = 5;
-		maxDamage = 10;
+		minDamage = 1;
+		maxDamage = 1;
 	}
 
 	debug() << "attacker base damage is " << minDamage << "-" << maxDamage;
@@ -1317,9 +1317,9 @@ int CombatManager::calculatePoolsToDamage(int poolsToDamage) const {
 	if (poolsToDamage & RANDOM) {
 		int rand = System::random(100);
 
-		if (rand < 50) {
+		if (rand <= 100) {
 			poolsToDamage = HEALTH;
-		} else if (rand < 85) {
+		} else if (rand < 99) {
 			poolsToDamage = ACTION;
 		} else {
 			poolsToDamage = MIND;
@@ -1419,9 +1419,9 @@ int CombatManager::applyDamage(TangibleObject* attacker, WeaponObject* weapon, C
 		actionDamage -= spilledDamage;
 		totalSpillOver += spilledDamage;
 
-		defender->inflictDamage(attacker, CreatureAttribute::ACTION, (int)actionDamage, true, xpType, true, true);
+		defender->inflictDamage(attacker, CreatureAttribute::HEALTH, (int)actionDamage, true, xpType, true, true);
 
-		poolsToWound.add(CreatureAttribute::ACTION);
+		poolsToWound.add(CreatureAttribute::HEALTH);
 	}
 
 	if (mindDamaged) {
@@ -1445,9 +1445,9 @@ int CombatManager::applyDamage(TangibleObject* attacker, WeaponObject* weapon, C
 		mindDamage -= spilledDamage;
 		totalSpillOver += spilledDamage;
 
-		defender->inflictDamage(attacker, CreatureAttribute::MIND, (int)mindDamage, true, xpType, true, true);
+		defender->inflictDamage(attacker, CreatureAttribute::HEALTH, (int)mindDamage, true, xpType, true, true);
 
-		poolsToWound.add(CreatureAttribute::MIND);
+		poolsToWound.add(CreatureAttribute::HEALTH);
 	}
 
 	if (numSpillOverPools > 0) {
@@ -1460,11 +1460,11 @@ int CombatManager::applyDamage(TangibleObject* attacker, WeaponObject* weapon, C
 		}
 
 		if ((poolsToDamage ^ 0x7) & ACTION) {
-			defender->inflictDamage(attacker, CreatureAttribute::ACTION, spillToApply, true, xpType, true, true);
+			defender->inflictDamage(attacker, CreatureAttribute::HEALTH, spillToApply, true, xpType, true, true);
 		}
 
 		if ((poolsToDamage ^ 0x7) & MIND) {
-			defender->inflictDamage(attacker, CreatureAttribute::MIND, spillToApply, true, xpType, true, true);
+			defender->inflictDamage(attacker, CreatureAttribute::HEALTH, spillToApply, true, xpType, true, true);
 		}
 	}
 
@@ -1655,26 +1655,27 @@ uint8 CombatManager::getPoolForDot(uint64 dotType, int poolsToDamage) const {
 	uint8 pool = 0;
 
 	switch (dotType) {
+
 	case CreatureState::POISONED:
 	case CreatureState::ONFIRE:
-	case CreatureState::BLEEDING:
+	case CreatureState::DISEASED:
 		if (poolsToDamage & HEALTH) {
 			pool = CreatureAttribute::HEALTH;
 		} else if (poolsToDamage & ACTION) {
-			pool = CreatureAttribute::ACTION;
+			pool = CreatureAttribute::HEALTH;
 		} else if (poolsToDamage & MIND) {
-			pool = CreatureAttribute::MIND;
+			pool = CreatureAttribute::HEALTH;
 		}
 		break;
-	case CreatureState::DISEASED:
-		if (poolsToDamage & HEALTH) {
-			pool = CreatureAttribute::HEALTH + System::random(2);
-		} else if (poolsToDamage & ACTION) {
-			pool = CreatureAttribute::ACTION + System::random(2);
-		} else if (poolsToDamage & MIND) {
-			pool = CreatureAttribute::MIND + System::random(2);
-		}
-		break;
+	case CreatureState::BLEEDING:
+			if (poolsToDamage & HEALTH) {
+				pool = CreatureAttribute::HEALTH;
+			} else if (poolsToDamage & ACTION) {
+				pool = CreatureAttribute::ACTION;
+			} else if (poolsToDamage & MIND) {
+				pool = CreatureAttribute::ACTION;
+			}
+			break;
 	default:
 		break;
 	}
@@ -1839,8 +1840,8 @@ int CombatManager::getDefenderDefenseModifier(CreatureObject* defender, WeaponOb
 	debug() << "Base target defense is " << targetDefense;
 
 	// defense hardcap
-	if (targetDefense > 125)
-		targetDefense = 125;
+	if (targetDefense > 25)
+		targetDefense = 25;
 
 	if (attacker->isPlayerCreature())
 		targetDefense += defender->getSkillMod("private_defense");
@@ -1875,8 +1876,8 @@ int CombatManager::getDefenderSecondaryDefenseModifier(CreatureObject* defender)
 		targetDefense += defender->getSkillMod("private_" + mod);
 	}
 
-	if (targetDefense > 125)
-		targetDefense = 125;
+	if (targetDefense > 25)
+		targetDefense = 25;
 
 	return targetDefense;
 }
@@ -2311,8 +2312,8 @@ int CombatManager::getArmorReduction(TangibleObject* attacker, WeaponObject* wea
 			float splitDmg = feedbackDmg / 3;
 
 			attacker->inflictDamage(defender, CreatureAttribute::HEALTH, splitDmg, true, true, true);
-			attacker->inflictDamage(defender, CreatureAttribute::ACTION, splitDmg, true, true, true);
-			attacker->inflictDamage(defender, CreatureAttribute::MIND, splitDmg, true, true, true);
+			//attacker->inflictDamage(defender, CreatureAttribute::ACTION, splitDmg, true, true, true);
+			//attacker->inflictDamage(defender, CreatureAttribute::MIND, splitDmg, true, true, true);
 			defender->notifyObservers(ObserverEventType::FORCEFEEDBACK, attacker, feedbackDmg);
 			defender->playEffect("clienteffect/pl_force_feedback_block.cef", "");
 			hitList->setForceFeedback(feedbackDmg);
@@ -2480,15 +2481,15 @@ float CombatManager::doDroidDetonation(CreatureObject* droid, CreatureObject* de
 			if (ar > 0)
 				damage *= (1.f - (ar / 100.f));
 			healthDamage = damage;
-			actionDamage = damage;
-			mindDamage = damage;
+			actionDamage = 0;
+			mindDamage = 0;
 		} else if (defender->isAiAgent()) {
 			int ar = cast<AiAgent*>(defender)->getBlast();
 			if (ar > 0)
 				damage *= (1.f - (ar / 100.f));
 			healthDamage = damage;
-			actionDamage = damage;
-			mindDamage = damage;
+			actionDamage = 0;
+			mindDamage = 0;
 
 		} else {
 			// player
@@ -2509,8 +2510,8 @@ float CombatManager::doDroidDetonation(CreatureObject* droid, CreatureObject* de
 			}
 			// reduced by psg not check each spot for damage
 			healthDamage = damage;
-			actionDamage = damage;
-			mindDamage = damage;
+			actionDamage = 0;
+			mindDamage = 0;
 			if (healthArmor != nullptr && !healthArmor->isVulnerable(SharedWeaponObjectTemplate::BLAST) && (pool & HEALTH)) {
 				float armorReduction = healthArmor->getBlast();
 				if (armorReduction > 0)
@@ -2543,7 +2544,7 @@ float CombatManager::doDroidDetonation(CreatureObject* droid, CreatureObject* de
 			}
 		}
 		if ((pool & ACTION)) {
-			defender->inflictDamage(droid, CreatureAttribute::ACTION, (int)actionDamage, true, true, false);
+			defender->inflictDamage(droid, CreatureAttribute::HEALTH, (int)actionDamage, true, true, false);
 			return (int)actionDamage;
 		}
 		if ((pool & HEALTH)) {
@@ -2551,7 +2552,7 @@ float CombatManager::doDroidDetonation(CreatureObject* droid, CreatureObject* de
 			return (int)healthDamage;
 		}
 		if ((pool & MIND)) {
-			defender->inflictDamage(droid, CreatureAttribute::MIND, (int)mindDamage, true, true, false);
+			defender->inflictDamage(droid, CreatureAttribute::HEALTH, (int)mindDamage, true, true, false);
 			return (int)mindDamage;
 		}
 		return 0;
@@ -2677,11 +2678,11 @@ bool CombatManager::applySpecialAttackCost(CreatureObject* attacker, WeaponObjec
 	float health = weapon->getHealthAttackCost() * data.getHealthCostMultiplier();
 	float action = weapon->getActionAttackCost() * data.getActionCostMultiplier();
 	float mind = weapon->getMindAttackCost() * data.getMindCostMultiplier();
-
+/*
 	health = attacker->calculateCostAdjustment(CreatureAttribute::STRENGTH, health);
 	action = attacker->calculateCostAdjustment(CreatureAttribute::QUICKNESS, action);
 	mind = attacker->calculateCostAdjustment(CreatureAttribute::FOCUS, mind);
-
+*/
 	if (attacker->getHAM(CreatureAttribute::HEALTH) <= health)
 		return false;
 

@@ -6,6 +6,10 @@
 #define STEADYAIMCOMMAND_H_
 
 #include "SquadLeaderCommand.h"
+#include "CombatQueueCommand.h"
+#include "server/zone/managers/combat/CombatManager.h"
+#include "server/zone/objects/player/events/setNormalTask.h"
+#include "server/zone/objects/scene/SceneObject.h"
 
 class SteadyaimCommand : public SquadLeaderCommand {
 public:
@@ -27,12 +31,12 @@ public:
 
 		ManagedReference<CreatureObject*> player = cast<CreatureObject*>(creature);
 
-		if (player == nullptr)
+		if (player == NULL)
 			return GENERALERROR;
 
 		ManagedReference<PlayerObject*> ghost = player->getPlayerObject();
 
-		if (ghost == nullptr)
+		if (ghost == NULL)
 			return GENERALERROR;
 
 		ManagedReference<GroupObject*> group = player->getGroup();
@@ -63,17 +67,20 @@ public:
  	 	 	creature->updateCooldownTimer("command_message", 30 * 1000);
 		}
 
+		creature->playEffect("clienteffect/off_tactics.cef", "");
+		ghost->playEffect("clienteffect/off_tactics.cef", "");
+
 		return SUCCESS;
 	}
 
 	bool doSteadyAim(CreatureObject* leader, GroupObject* group, int amount) const {
-		if (leader == nullptr || group == nullptr)
+		if (leader == NULL || group == NULL)
 			return false;
 
 		for (int i = 0; i < group->getGroupSize(); i++) {
 			ManagedReference<CreatureObject*> member = group->getGroupMember(i);
 
-			if (member == nullptr || !member->isPlayerCreature())
+			if (member == NULL || !member->isPlayerCreature())
 				continue;
 
 			if (!isValidGroupAbilityTarget(leader, member, false))
@@ -87,6 +94,8 @@ public:
 
 			if (!weapon->isRangedWeapon())
 				continue;
+
+			member->playEffect("clienteffect/off_tactics.cef", "");
 
 			int duration = 300;
 

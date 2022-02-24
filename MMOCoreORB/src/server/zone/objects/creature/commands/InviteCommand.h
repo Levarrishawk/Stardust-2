@@ -27,54 +27,52 @@ public:
 		if (!checkInvalidLocomotions(creature))
 			return INVALIDLOCOMOTION;
 
-		auto playerObject = creature->getPlayerObject();
+		PlayerObject* playerObject = creature->getPlayerObject();
 		bool godMode = false;
 
-		if (playerObject) {
+		if (playerObject)
+		{
 			if (playerObject->hasGodMode())
 				godMode = true;
 		}
 
-		auto object = server->getZoneServer()->getObject(target);
+		GroupManager* groupManager = GroupManager::instance();
 
-		bool galaxyWide = ConfigManager::instance()->getBool("Core3.PlayerManager.GalaxyWideGrouping", false);
-
-		if (galaxyWide && (object == nullptr || !object->isPlayerCreature())) {
-			StringTokenizer args(arguments.toString());
-			String firstName;
-
-			if (args.hasMoreTokens())
-				args.getStringToken(firstName);
-
-			auto zoneServer = server->getZoneServer();
-
-			if (zoneServer == nullptr)
-				return GENERALERROR;
-
-			auto playerMan = zoneServer->getPlayerManager();
-
-			if (playerMan == nullptr)
-				return GENERALERROR;
-
-			object = playerMan->getPlayer(firstName);
-		}
-
-		auto groupManager = GroupManager::instance();
-
-		if (object == nullptr || groupManager == nullptr)
-			return GENERALERROR;
+		ManagedReference<SceneObject*> object = NULL;
+				if (target != 0 && target != creature->getObjectID())
+					object = server->getZoneServer()->getObject(target);
+				else if (!arguments.isEmpty()) {
+					StringTokenizer tokenizer(arguments.toString());
+					if (tokenizer.hasMoreTokens()) {
+						String name;
+						tokenizer.getStringToken(name);
+						name = name.toLowerCase();
+						if (name != "self" && name != "this") {
+							try {
+								object = server->getPlayerManager()->getPlayer(name);
+							} catch (ArrayIndexOutOfBoundsException& ex) {
+								// this happens if the player wasn't found
+							}
+						}
+					}
+				}
 
 
-		if (object->isPlayerCreature()) {
-			auto player = cast<CreatureObject*>( object.get());
+				if (object == NULL)
+					return GENERALERROR;
 
-		if (player != nullptr && (!player->getPlayerObject()->isIgnoring(creature->getFirstName()) || godMode))
-			groupManager->inviteToGroup(creature, player);
-		}
 
-		return SUCCESS;
-	}
+				if (object->isPlayerCreature()) {
+					CreatureObject* player = cast<CreatureObject*>( object.get());
+
+					if (!player->getPlayerObject()->isIgnoring(creature->getFirstName().toLowerCase()) || godMode)
+						groupManager->inviteToGroup(creature, player);
+				}
+
+				return SUCCESS;
+			}
 
 };
 
 #endif //INVITECOMMAND_H_
+

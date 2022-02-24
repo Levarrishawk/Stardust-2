@@ -20,7 +20,7 @@ public:
 		tendDamage = true;
 
 		healthHealed = 50;
-		actionHealed = 50;
+		//actionHealed = 50;
 
 		//defaultTime = 5.0;
 		range = 6.0;

@@ -55,11 +55,27 @@ public:
 				return GENERALERROR;
 			}
 
-			if (player->isAttackableBy(creature) && checkDistance(player, creature, 5)) {
+			if (player->isAttackableBy(creature) && checkDistance(player, creature, 5)  && player->getFaction() == Factions::FACTIONREBEL) {
 				PlayerManager* playerManager = server->getPlayerManager();
 
+				creature->playEffect("clienteffect/holoemote_imperial.cef", "head");
+				creature->playMusicMessage("sound/music_themequest_victory_imperial.snd");
 				playerManager->killPlayer(creature, player, 1);
 			}
+			if (player->isAttackableBy(creature) && checkDistance(player, creature, 5)  && player->getFaction() == Factions::FACTIONIMPERIAL) {
+							PlayerManager* playerManager = server->getPlayerManager();
+
+							creature->playEffect("clienteffect/holoemote_rebel.cef", "head");
+							creature->playMusicMessage("sound/music_themequest_victory_rebel.snd");
+							playerManager->killPlayer(creature, player, 1);
+			}
+			if (player->isAttackableBy(creature) && checkDistance(player, creature, 5)  && player->getFaction() == Factions::FACTIONNEUTRAL) {
+							PlayerManager* playerManager = server->getPlayerManager();
+
+							creature->playEffect("clienteffect/holoemote_imperial.cef", "head");
+							creature->playMusicMessage("sound/music_combat_bfield_def.snd");
+							playerManager->killPlayer(creature, player, 1);
+						}
 		} else if (targetObject->isPet()) {
 			AiAgent* pet = cast<AiAgent*>( targetObject.get());
 

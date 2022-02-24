@@ -65,7 +65,7 @@ void GroupManager::inviteToGroup(CreatureObject* leader, CreatureObject* target)
 		}
 
 		// can't invite if the group is full
-		if (group->getGroupSize() >= 20) {
+		if (group->getGroupSize() >= 10) {
 			leader->sendSystemMessage("@group:full");
 			return;
 		}
@@ -171,7 +171,7 @@ void GroupManager::joinGroup(CreatureObject* player) {
 
 	Locker clocker2(group, player);
 
-	if (group->getGroupSize() >= 20) {
+	if (group->getGroupSize() >= 10) {
 		clocker.release();
 
 		player->updateGroupInviterID(0);

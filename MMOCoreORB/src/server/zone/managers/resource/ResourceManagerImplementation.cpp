@@ -157,6 +157,12 @@ void ResourceManagerImplementation::loadDefaultConfig() {
 	resourceSpawner->addZone("talus");
 	resourceSpawner->addZone("tatooine");
 	resourceSpawner->addZone("endor");
+	resourceSpawner->addZone("chandrila");
+	resourceSpawner->addZone("kaas");
+	resourceSpawner->addZone("moraband");
+	resourceSpawner->addZone("hutta");
+	resourceSpawner->addZone("florrum");
+	resourceSpawner->addZone("lothal");
 
 	shiftInterval = 7200000;
 	resourceSpawner->setSpawningParameters(1, 86400, 90, 1000, 0);

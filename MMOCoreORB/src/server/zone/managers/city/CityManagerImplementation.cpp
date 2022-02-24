@@ -770,7 +770,7 @@ void CityManagerImplementation::processCityUpdate(CityRegion* city) {
 
 			if (ghost != nullptr) {
 				TransactionLog trx(TrxCode::EXPERIENCE, mayor);
-				ghost->addExperience(trx, "political", 750, true);
+				ghost->addExperience(trx, "political", 15000, true);
 			}
 		}
 		updateCityVoting(city);
@@ -1158,7 +1158,7 @@ void CityManagerImplementation::updateCityVoting(CityRegion* city, bool override
 
 			if (ghost != nullptr) {
 				TransactionLog trx(TrxCode::EXPERIENCE, mayor);
-				ghost->addExperience(trx, "political", votes * 300, true);
+				ghost->addExperience(trx, "political", votes * 6000, true);
 			}
 
 			if (votes > topVotes || (votes == topVotes && candidateID == incumbentID)) {

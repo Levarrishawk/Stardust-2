@@ -62,7 +62,7 @@ void StimPackImplementation::fillAttributeList(AttributeListMessage* msg, Creatu
 		if (atts.contains(CreatureAttribute::HEALTH)) {
 			msg->insertAttribute("examine_heal_damage_health", Math::getPrecision(effectiveness, 0));
 		}
-
+		/*
 		if (atts.contains(CreatureAttribute::ACTION)) {
 			msg->insertAttribute("examine_heal_damage_action", Math::getPrecision(effectiveness, 0));
 		}
@@ -70,7 +70,7 @@ void StimPackImplementation::fillAttributeList(AttributeListMessage* msg, Creatu
 		if (atts.contains(CreatureAttribute::MIND)) {
 			msg->insertAttribute("examine_heal_damage_mind", Math::getPrecision(effectiveness, 0));
 		}
-
+		*/
 		if (!isPetStimPack()) {
 			msg->insertAttribute("healing_ability", medicineUseRequired);
 		}

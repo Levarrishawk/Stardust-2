@@ -31,22 +31,18 @@ public:
 			}
 		}
 
-		if (creature->isAiAgent()) {
-			if (creature->isNonPlayerCreatureObject() && creature->isDizzied() && System::random(100) < 85) {
-				creature->queueDizzyFallEvent();
-			} else if (creature->isInCombat()) {
-				creature->setPosture(CreaturePosture::UPRIGHT);
-				creature->doCombatAnimation(STRING_HASHCODE("change_posture"));
-			} else {
-				creature->setPosture(CreaturePosture::UPRIGHT);
-			}
+		if (creature->hasAttackDelay())
+			return GENERALERROR;
+
+		if (creature->isInCombat() && creature->isAiAgent()) {
+			creature->setPosture(CreaturePosture::UPRIGHT, false, true);
+			creature->doCombatAnimation(STRING_HASHCODE("change_posture"));
 		} else {
-			if (creature->isDizzied() && System::random(100) < 85) {
-				creature->queueDizzyFallEvent();
-			} else {
-				creature->setPosture(CreaturePosture::UPRIGHT, true, true);
-			}
+			creature->setPosture(CreaturePosture::UPRIGHT);
 		}
+
+		if (creature->isDizzied() && System::random(100) < 65)
+			creature->queueDizzyFallEvent();
 
 		return SUCCESS;
 	}

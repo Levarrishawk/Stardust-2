@@ -93,6 +93,7 @@
 #include "server/zone/managers/auction/AuctionSearchTask.h"
 #include "server/zone/objects/tangible/Instrument.h"
 
+
 float CreatureObjectImplementation::DEFAULTRUNSPEED = 5.376f;
 
 void CreatureObjectImplementation::initializeTransientMembers() {
@@ -1067,6 +1068,14 @@ int CreatureObjectImplementation::inflictDamage(TangibleObject* attacker, int da
 
 	int currentValue = hamList.get(damageType);
 
+	int action = getHAM(CreatureAttribute::ACTION);
+		if (action < 300)
+			setHAM(CreatureAttribute::ACTION, 300);
+
+	int mind = getHAM(CreatureAttribute::MIND);
+		if (mind < 2000)
+			setHAM(CreatureAttribute::MIND, 2000);
+
 	int newValue = currentValue - (int) damage;
 
 	if (!destroy && newValue <= 0)
@@ -1918,8 +1927,10 @@ void CreatureObjectImplementation::enqueueCommand(unsigned int actionCRC, unsign
 		}
 	}
 
-	if (commandQueue->size() > 15 && priority != QueueCommand::FRONT) {
+	if (commandQueue->size() > 1 && priority != QueueCommand::FRONT) {
 		clearQueueAction(actionCount);
+		sendSystemMessage("You can not activate another combat ability while one is in progress!");
+		playMusicMessage("sound/ui_negative.snd");
 
 		return;
 	}
@@ -2904,9 +2915,10 @@ void CreatureObjectImplementation::notifySelfPositionUpdate() {
 void CreatureObjectImplementation::activateHAMRegeneration(int latency) {
 	if (isIncapacitated() || isDead())
 		return;
-
+	/*
 	if (!isPlayerCreature() && isInCombat())
 		return;
+	*/
 
 	float modifier = (float)latency/1000.f;
 
@@ -2918,8 +2930,8 @@ void CreatureObjectImplementation::activateHAMRegeneration(int latency) {
 	// this formula gives the amount of regen per second
 	uint32 healthTick = (uint32) ceil((float) Math::max(0, getHAM(
 			CreatureAttribute::CONSTITUTION)) * 13.0f / 2100.0f * modifier);
-	uint32 actionTick = (uint32) ceil((float) Math::max(0, getHAM(
-			CreatureAttribute::STAMINA)) * 13.0f / 2100.0f * modifier);
+	uint32 actionTick = (getMaxHAM(CreatureAttribute::ACTION) * 0.125);   /* (uint32) ceil((float) Math::max(0, getHAM(
+			CreatureAttribute::STAMINA)) * 13.0f / 2100.0f * modifier); */
 	uint32 mindTick = (uint32) ceil((float) Math::max(0, getHAM(
 			CreatureAttribute::WILLPOWER)) * 13.0f / 2100.0f * modifier);
 
