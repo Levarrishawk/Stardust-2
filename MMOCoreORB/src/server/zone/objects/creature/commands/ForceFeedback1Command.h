@@ -15,7 +15,7 @@ public:
 
 		blockingCRCs.add(BuffCRC::JEDI_FORCE_FEEDBACK_2);
 
-		singleUseEventTypes.add(ObserverEventType::FORCEBUFFHIT);
+		singleUseEventTypes.add(ObserverEventType::FORCEFEEDBACK);
 
 		skillMods.put("force_feedback", 15);
 
