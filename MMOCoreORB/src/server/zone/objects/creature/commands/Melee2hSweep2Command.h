@@ -30,7 +30,7 @@ public:
 							ManagedReference<SceneObject*> object = server->getZoneServer()->getObject(target);
 							CreatureObject* targetCreature = dynamic_cast<CreatureObject*>(object.get());
 
-							if (targetCreature == NULL)
+							if (targetCreature == nullptr)
 								return INVALIDTARGET;
 
 							Locker clocker(targetCreature, creature);

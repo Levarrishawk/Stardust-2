@@ -42,12 +42,12 @@ public:
 
 		ManagedReference<SceneObject*> object = server->getZoneServer()->getObject(target);
 
-		if (object == NULL || !object->isPlayerCreature())
+		if (object == nullptr || !object->isPlayerCreature())
 			return INVALIDTARGET;
 
 		CreatureObject* targetCreature = cast<CreatureObject*>( object.get());
 
-		if (targetCreature == NULL || targetCreature->isDead() || (targetCreature->isIncapacitated() && !targetCreature->isFeigningDeath()) || !targetCreature->isAttackableBy(creature))
+		if (targetCreature == nullptr || targetCreature->isDead() || (targetCreature->isIncapacitated() && !targetCreature->isFeigningDeath()) || !targetCreature->isAttackableBy(creature))
 			return INVALIDTARGET;
 
 		if(!checkDistance(creature, targetCreature, range))
@@ -63,11 +63,11 @@ public:
 		ManagedReference<PlayerObject*> targetGhost = targetCreature->getPlayerObject();
 		ManagedReference<PlayerObject*> playerGhost = creature->getPlayerObject();
 
-		if (targetGhost == NULL || playerGhost == NULL)
+		if (targetGhost == nullptr || playerGhost == nullptr)
 			return GENERALERROR;
 
 		if (!creature->checkCooldownRecovery(skillName)){
-				Time* timeRemaining = creature->getCooldownTime(skillName);
+				const Time* timeRemaining = creature->getCooldownTime(skillName);
 				creature->playMusicMessage("sound/ui_negative.snd");
 				creature->sendSystemMessage("You can not " + skillNameDisplay + " for another " +  getCooldownString(timeRemaining->miliDifference() * -1));
 				return GENERALERROR;

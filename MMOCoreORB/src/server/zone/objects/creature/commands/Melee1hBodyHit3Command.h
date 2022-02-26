@@ -30,7 +30,7 @@ public:
 						ManagedReference<SceneObject*> object = server->getZoneServer()->getObject(target);
 						CreatureObject* targetCreature = dynamic_cast<CreatureObject*>(object.get());
 
-						if (targetCreature == NULL)
+						if (targetCreature == nullptr)
 							return INVALIDTARGET;
 
 						Locker clocker(targetCreature, creature);
@@ -49,12 +49,12 @@ public:
 							// Setup debuff.
 
 							if (!creature->checkCooldownRecovery(skillName)){
-											Time* timeRemaining = creature->getCooldownTime(skillName);
+											const Time* timeRemaining = creature->getCooldownTime(skillName);
 											creature->playMusicMessage("sound/ui_negative.snd");
 											creature->sendSystemMessage("Your target can not be rooted with " + skillNameDisplay + " for another " +  getCooldownString(timeRemaining->miliDifference() * -1));
 							}
 
-							else if (targetCreature != NULL) {
+							else if (targetCreature != nullptr) {
 								Locker clocker(targetCreature, creature);
 
 								ManagedReference<Buff*> buff = new Buff(targetCreature, getNameCRC(), 6, BuffType::OTHER);
