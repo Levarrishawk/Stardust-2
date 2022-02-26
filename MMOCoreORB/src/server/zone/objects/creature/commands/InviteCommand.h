@@ -38,7 +38,7 @@ public:
 
 		GroupManager* groupManager = GroupManager::instance();
 
-		ManagedReference<SceneObject*> object = NULL;
+		ManagedReference<SceneObject*> object = nullptr;
 				if (target != 0 && target != creature->getObjectID())
 					object = server->getZoneServer()->getObject(target);
 				else if (!arguments.isEmpty()) {
@@ -58,7 +58,7 @@ public:
 				}
 
 
-				if (object == NULL)
+				if (object == nullptr)
 					return GENERALERROR;
 
 
