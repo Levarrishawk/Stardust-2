@@ -31,9 +31,10 @@ public:
 		if (!checkInvalidLocomotions(creature))
 			return INVALIDLOCOMOTION;
 
+		/*
 		if (creature->hasAttackDelay() || !creature->checkPostureChangeDelay())
 			return GENERALERROR;
-
+		 */
 		if (isWearingArmor(creature)) {
 			return NOJEDIARMOR;
 		}
@@ -126,33 +127,33 @@ public:
 
 	}
 
-	String getCooldownString(uint32 delta) const {
-
-		int seconds = delta / 1000;
-
-		int hours = seconds / 3600;
-			seconds -= hours * 3600;
-
-		int minutes = seconds / 60;
-			seconds -= minutes * 60;
-
-		StringBuffer buffer;
-
-		if (hours > 0)
-			buffer << hours << "h ";
-
-		if (minutes > 0)
-			buffer << minutes << "m ";
-
-		if (seconds > 0)
-			buffer << seconds << "s";
-
-			return buffer.toString();
-		}
-
 	float getCommandDuration(CreatureObject* object, const UnicodeString& arguments) const {
 		return defaultTime * 1.5;
 	}
+
+	String getCooldownString(uint32 delta) const {
+
+					int seconds = delta / 1000;
+
+					int hours = seconds / 3600;
+					seconds -= hours * 3600;
+
+					int minutes = seconds / 60;
+					seconds -= minutes * 60;
+
+					StringBuffer buffer;
+
+					if (hours > 0)
+						buffer << hours << "h ";
+
+					if (minutes > 0)
+						buffer << minutes << "m ";
+
+					if (seconds > 0)
+						buffer << seconds << "s";
+
+					return buffer.toString();
+				}
 
 };
 
