@@ -30,14 +30,14 @@ public:
 	void handleBuff(SceneObject* creature, ManagedObject* object, int64 param) {
 
 		ManagedReference<CreatureObject*> creo = cast<CreatureObject*>( creature);
-		if (creo == NULL)
+		if (creo == nullptr)
 			return;
 
 		// Client Effect upon hit (needed)
 		creo->playEffect("clienteffect/pl_force_shield_hit.cef", "");
 
 		ManagedReference<PlayerObject*> playerObject = creo->getPlayerObject();
-		if (playerObject == NULL)
+		if (playerObject == nullptr)
 			return;
 
 		// TODO: Force Rank modifiers.
