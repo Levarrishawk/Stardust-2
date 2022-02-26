@@ -45,7 +45,7 @@ public:
 			if (!creature->checkCooldownRecovery(skillName)){
 				StringIdChatParameter stringId;
 
-				Time* cdTime = creature->getCooldownTime(skillName);
+				const Time* cdTime = creature->getCooldownTime(skillName);
 
 				int timeLeft = floor((float)cdTime->miliDifference() / 1000) *-1;
 
