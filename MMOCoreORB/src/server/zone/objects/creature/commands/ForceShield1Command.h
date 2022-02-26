@@ -16,7 +16,7 @@ public:
 
 		blockingCRCs.add(BuffCRC::JEDI_FORCE_SHIELD_2);
 
-		singleUseEventTypes.add(ObserverEventType::FORCEBUFFHIT);
+		singleUseEventTypes.add(ObserverEventType::FORCESHIELD);
 
 		skillMods.put("force_shield", 55);
 
@@ -43,7 +43,7 @@ public:
 		int forceCost = param * 0.3;
 		if (playerObject->getForcePower() <= forceCost) { // Remove buff if not enough force.
 			Buff* buff = creo->getBuff(BuffCRC::JEDI_FORCE_SHIELD_1);
-			if (buff != NULL) {
+			if (buff != nullptr) {
 				Locker locker(buff);
 
 				creo->removeBuff(buff);
