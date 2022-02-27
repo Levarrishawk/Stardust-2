@@ -40,6 +40,14 @@
 --this exception also makes it possible to release a modified version
 --which carries forward this exception.
 
+object_static_structure_nobuild_base_shared_noflora_base = SharedStaticObjectTemplate:new {
+	clientTemplateFileName = "object/static/structure/nobuild/base/shared_noflora_base.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_static_structure_nobuild_base_shared_noflora_base, "object/static/structure/nobuild/base/shared_noflora_base.iff")
+
+
 
 object_static_structure_nobuild_base_shared_nobuild_base = SharedStaticObjectTemplate:new {
 	clientTemplateFileName = "object/static/structure/nobuild/base/shared_nobuild_base.iff"

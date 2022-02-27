@@ -41,10 +41,8 @@
 --this exception also makes it possible to release a modified version 
 
 
+object_tangible_furniture_base_flag_home_base = object_tangible_furniture_base_shared_flag_home_base:new {
 
---Children folder includes
+}
 
--- Server Objects
-includeFile("tangible/furniture/base/furniture_base.lua")
-includeFile("tangible/furniture/base/flag_city_base.lua")
-includeFile("tangible/furniture/base/flag_home_base.lua")
+ObjectTemplates:addTemplate(object_tangible_furniture_base_flag_home_base, "object/tangible/furniture/base/flag_home_base.iff")
