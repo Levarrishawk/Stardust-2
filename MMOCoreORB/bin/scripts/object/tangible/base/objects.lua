@@ -40,6 +40,18 @@
 --this exception also makes it possible to release a modified version
 --which carries forward this exception.
 
+object_tangible_base_shared_holobeast_base = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/base/shared_holobeast_base.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_base_shared_holobeast_base, "object/tangible/base/shared_holobeast_base.iff")
+------------------------------------------------------------------------------------------------------------------------------------
+object_tangible_base_shared_retrieve_quest_base = SharedBuildingObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/base/shared_retrieve_quest_base.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_base_shared_retrieve_quest_base, "object/tangible/base/shared_retrieve_quest_base.iff")
+--**********************************************************************************************************************************
+
 
 object_tangible_base_shared_tangible_base = SharedTangibleObjectTemplate:new {
 	clientTemplateFileName = "object/tangible/base/shared_tangible_base.iff"
