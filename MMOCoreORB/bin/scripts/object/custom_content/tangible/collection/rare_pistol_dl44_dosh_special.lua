@@ -1,0 +1,5 @@
+
+object_tangible_collection_rare_pistol_dl44_dosh_special = object_tangible_collection_shared_rare_pistol_dl44_dosh_special:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_rare_pistol_dl44_dosh_special, "object/tangible/collection/rare_pistol_dl44_dosh_special.iff")

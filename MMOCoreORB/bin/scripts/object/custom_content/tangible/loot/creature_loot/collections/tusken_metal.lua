@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_tusken_metal = object_tangible_loot_creature_loot_collections_shared_tusken_metal:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_tusken_metal, "object/tangible/loot/creature/loot/collections/tusken_metal.iff")

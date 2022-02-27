@@ -1,0 +1,5 @@
+object_building_player_construction_construction_player_tcg_relaxation_pool = object_building_player_construction_shared_construction_player_tcg_relaxation_pool:new {
+
+}
+
+ObjectTemplates:addTemplate(object_building_player_construction_construction_player_tcg_relaxation_pool, "object/building/player/construction/construction_player_tcg_relaxation_pool.iff")

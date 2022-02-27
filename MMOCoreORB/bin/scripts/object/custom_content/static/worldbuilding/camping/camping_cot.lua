@@ -1,0 +1,1 @@
+object_static_worldbuilding_camping_camping_cot = object_static_worldbuilding_camping_shared_camping_cot:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_camping_camping_cot, "object/static/worldbuilding/camping/camping_cot.iff")

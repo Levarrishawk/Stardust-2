@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series3_creature_pet_deed_mastiff = object_tangible_tcg_series3_shared_creature_pet_deed_mastiff:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series3_creature_pet_deed_mastiff, "object/tangible/tcg/series3/creature_pet_deed_mastiff.iff")

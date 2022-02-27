@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series8_decorative_palpatine_hologram = object_tangible_tcg_series8_shared_decorative_palpatine_hologram:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series8_decorative_palpatine_hologram, "object/tangible/tcg/series8/decorative_palpatine_hologram.iff")

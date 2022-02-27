@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fried_icecream_components_dantooine_kibla_greens = object_tangible_loot_creature_loot_collections_fried_icecream_components_dantooine_shared_kibla_greens:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_dantooine_kibla_greens, "object/tangible/loot/creature/loot/collections/fried/icecream/components/dantooine/kibla_greens.iff")

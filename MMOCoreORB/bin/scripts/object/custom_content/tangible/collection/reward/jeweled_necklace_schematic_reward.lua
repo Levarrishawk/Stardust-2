@@ -1,0 +1,5 @@
+object_tangible_collection_reward_jeweled_necklace_schematic_reward = object_tangible_collection_reward_shared_jeweled_necklace_schematic_reward:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_jeweled_necklace_schematic_reward, "object/tangible/collection/reward/jeweled_necklace_schematic_reward.iff")

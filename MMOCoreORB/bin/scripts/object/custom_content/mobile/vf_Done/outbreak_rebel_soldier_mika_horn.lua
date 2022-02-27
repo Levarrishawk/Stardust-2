@@ -1,0 +1,1 @@
+object_mobile_outbreak_rebel_soldier_mika_horn = object_mobile_shared_outbreak_rebel_soldier_mika_horn:new {}ObjectTemplates:addTemplate(object_mobile_outbreak_rebel_soldier_mika_horn, "object/mobile/outbreak_rebel_soldier_mika_horn.iff")

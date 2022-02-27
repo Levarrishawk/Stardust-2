@@ -1,0 +1,3 @@
+object_tangible_veteran_reward_terminal_greeter_empire_day_xwing_pilot = object_tangible_veteran_reward_shared_terminal_greeter_empire_day_xwing_pilot:new {
+}
+ObjectTemplates:addTemplate(object_tangible_veteran_reward_terminal_greeter_empire_day_xwing_pilot, "object/tangible/veteran_reward/terminal_greeter_empire_day_xwing_pilot.iff")

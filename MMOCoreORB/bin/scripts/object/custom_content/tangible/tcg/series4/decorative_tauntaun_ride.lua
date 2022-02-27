@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series4_decorative_tauntaun_ride = object_tangible_tcg_series4_shared_decorative_tauntaun_ride:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series4_decorative_tauntaun_ride, "object/tangible/tcg/series4/decorative_tauntaun_ride.iff")

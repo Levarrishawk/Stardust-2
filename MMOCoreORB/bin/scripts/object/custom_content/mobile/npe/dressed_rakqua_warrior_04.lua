@@ -1,0 +1,5 @@
+
+object_mobile_npe_dressed_rakqua_warrior_04 = object_mobile_npe_shared_dressed_rakqua_warrior_04:new {
+
+}
+ObjectTemplates:addTemplate(object_mobile_npe_dressed_rakqua_warrior_04, "object/mobile/npe/dressed_rakqua_warrior_04.iff")

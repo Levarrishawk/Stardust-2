@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series7_garage_display_vehicles_jetpack = object_tangible_tcg_series7_garage_display_vehicles_shared_jetpack:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_jetpack, "object/tangible/tcg/series7/garage_display_vehicles/jetpack.iff")

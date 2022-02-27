@@ -1,0 +1,3 @@
+object_mobile_npc_dressed_entertainer_gcw_f_twk_reb_02 = object_mobile_shared_npc_dressed_entertainer_gcw_f_twk_reb_02:new {
+}
+ObjectTemplates:addTemplate(object_mobile_npc_dressed_entertainer_gcw_f_twk_reb_02, "object/mobile/npc_dressed_entertainer_gcw_f_twk_reb_02.iff")

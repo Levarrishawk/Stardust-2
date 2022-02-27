@@ -1,0 +1,5 @@
+object_tangible_furniture_city_fountain_city_style_01 = object_tangible_furniture_city_shared_fountain_city_style_01:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_city_fountain_city_style_01, "object/tangible/furniture/city/fountain_city_style_01.iff")

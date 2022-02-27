@@ -1,0 +1,1 @@
+object_mobile_nym_themepark_choster_sister = object_mobile_shared_nym_themepark_choster_sister:new {}ObjectTemplates:addTemplate(object_mobile_nym_themepark_choster_sister, "object/mobile/nym_themepark_choster_sister.iff")

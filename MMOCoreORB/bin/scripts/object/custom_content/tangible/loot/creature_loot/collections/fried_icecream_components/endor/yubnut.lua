@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fried_icecream_components_endor_yubnut = object_tangible_loot_creature_loot_collections_fried_icecream_components_endor_shared_yubnut:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_endor_yubnut, "object/tangible/loot/creature/loot/collections/fried/icecream/components/endor/yubnut.iff")

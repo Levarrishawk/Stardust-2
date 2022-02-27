@@ -1,0 +1,5 @@
+object_tangible_loot_generic_usable_frag_grenade = object_tangible_loot_generic_usable_shared_frag_grenade:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_generic_usable_frag_grenade, "object/tangible/loot/generic/usable/frag_grenade.iff")

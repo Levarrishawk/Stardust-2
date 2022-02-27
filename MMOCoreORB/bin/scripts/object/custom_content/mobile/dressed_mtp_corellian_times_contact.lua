@@ -1,0 +1,5 @@
+object_mobile_dressed_mtp_corellian_times_contact = object_mobile_shared_dressed_mtp_corellian_times_contact:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_mtp_corellian_times_contact, "object/mobile/dressed_mtp_corellian_times_contact.iff")

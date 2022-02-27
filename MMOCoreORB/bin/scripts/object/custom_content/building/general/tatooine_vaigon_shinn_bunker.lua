@@ -1,0 +1,3 @@
+object_building_general_tatooine_vaigon_shinn_bunker = object_building_general_shared_tatooine_vaigon_shinn_bunker:new {
+}
+ObjectTemplates:addTemplate(object_building_general_tatooine_vaigon_shinn_bunker, "object/building/general/tatooine_vaigon_shinn_bunker.iff")

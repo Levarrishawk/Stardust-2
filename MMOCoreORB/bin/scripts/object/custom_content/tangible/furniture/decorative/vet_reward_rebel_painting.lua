@@ -1,0 +1,5 @@
+object_tangible_furniture_decorative_vet_reward_rebel_painting = object_tangible_furniture_decorative_shared_vet_reward_rebel_painting:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_decorative_vet_reward_rebel_painting, "object/tangible/furniture/decorative/vet_reward_rebel_painting.iff")

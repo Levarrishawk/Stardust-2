@@ -1,0 +1,1 @@
+object_static_worldbuilding_building_frn_tech_droid_rack_base = object_static_worldbuilding_building_shared_frn_tech_droid_rack_base:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_building_frn_tech_droid_rack_base, "object/static/worldbuilding/building/frn_tech_droid_rack_base.iff")

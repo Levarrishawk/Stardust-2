@@ -1,0 +1,5 @@
+object_tangible_collection_reward_posed_ig_88_reward = object_tangible_collection_reward_shared_posed_ig_88_reward:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_posed_ig_88_reward, "object/tangible/collection/reward/posed_ig_88_reward.iff")

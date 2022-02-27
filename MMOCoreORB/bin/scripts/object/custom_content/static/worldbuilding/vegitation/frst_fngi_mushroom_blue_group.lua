@@ -1,0 +1,1 @@
+object_static_worldbuilding_vegitation_frst_fngi_mushroom_blue_group = object_static_worldbuilding_vegitation_shared_frst_fngi_mushroom_blue_group:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_vegitation_frst_fngi_mushroom_blue_group, "object/static/worldbuilding/vegitation/frst_fngi_mushroom_blue_group.iff")

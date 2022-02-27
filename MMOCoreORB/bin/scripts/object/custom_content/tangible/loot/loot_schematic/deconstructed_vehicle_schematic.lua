@@ -1,0 +1,5 @@
+object_tangible_loot_loot_schematic_deconstructed_vehicle_schematic = object_tangible_loot_loot_schematic_shared_deconstructed_vehicle_schematic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_loot_schematic_deconstructed_vehicle_schematic, "object/tangible/loot/loot/schematic/deconstructed_vehicle_schematic.iff")

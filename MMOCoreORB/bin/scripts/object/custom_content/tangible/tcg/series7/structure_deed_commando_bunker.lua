@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series7_structure_deed_commando_bunker = object_tangible_tcg_series7_shared_structure_deed_commando_bunker:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series7_structure_deed_commando_bunker, "object/tangible/tcg/series7/structure_deed_commando_bunker.iff")

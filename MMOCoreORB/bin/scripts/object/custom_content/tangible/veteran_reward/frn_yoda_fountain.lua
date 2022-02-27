@@ -1,0 +1,3 @@
+object_tangible_veteran_reward_frn_yoda_fountain = object_tangible_veteran_reward_shared_frn_yoda_fountain:new {
+}
+ObjectTemplates:addTemplate(object_tangible_veteran_reward_frn_yoda_fountain, "object/tangible/veteran_reward/frn_yoda_fountain.iff")

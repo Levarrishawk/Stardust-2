@@ -1,0 +1,5 @@
+object_tangible_quest_meatlump_mtp_hideout_quest01_crated_bomb = object_tangible_quest_meatlump_shared_mtp_hideout_quest01_crated_bomb:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_quest_meatlump_mtp_hideout_quest01_crated_bomb, "object/tangible/quest/meatlump/mtp_hideout_quest01_crated_bomb.iff")

@@ -1,0 +1,5 @@
+object_tangible_item_som_frn_holo_mustafarian_c_reward = object_tangible_item_som_shared_frn_holo_mustafarian_c_reward:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_som_frn_holo_mustafarian_c_reward, "object/tangible/item/som/frn_holo_mustafarian_c_reward.iff")

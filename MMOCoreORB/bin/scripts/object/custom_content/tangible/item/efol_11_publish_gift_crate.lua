@@ -1,0 +1,5 @@
+object_tangible_item_efol_11_publish_gift_crate = object_tangible_item_shared_efol_11_publish_gift_crate:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_efol_11_publish_gift_crate, "object/tangible/item/efol_11_publish_gift_crate.iff")

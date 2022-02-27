@@ -1,0 +1,1 @@
+object_mobile_exar_kun_professor_wagglehorn = object_mobile_shared_exar_kun_professor_wagglehorn:new {}ObjectTemplates:addTemplate(object_mobile_exar_kun_professor_wagglehorn, "object/mobile/exar_kun_professor_wagglehorn.iff")

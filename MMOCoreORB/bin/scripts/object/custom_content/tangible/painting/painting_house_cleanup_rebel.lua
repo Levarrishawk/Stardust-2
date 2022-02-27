@@ -1,0 +1,3 @@
+object_tangible_painting_painting_house_cleanup_rebel = object_tangible_painting_shared_painting_house_cleanup_rebel:new {
+}
+ObjectTemplates:addTemplate(object_tangible_painting_painting_house_cleanup_rebel, "object/tangible/painting/painting_house_cleanup_rebel.iff")

@@ -1,0 +1,1 @@
+object_building_mustafar_items_must_frn_mining_table_02 = object_building_mustafar_items_shared_must_frn_mining_table_02:new {}ObjectTemplates:addTemplate(object_building_mustafar_items_must_frn_mining_table_02, "object/building/mustafar/items/must_frn_mining_table_02.iff")

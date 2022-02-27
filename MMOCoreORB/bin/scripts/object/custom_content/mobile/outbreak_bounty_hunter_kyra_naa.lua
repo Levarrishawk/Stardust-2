@@ -1,0 +1,1 @@
+object_mobile_outbreak_bounty_hunter_kyra_naa = object_mobile_shared_outbreak_bounty_hunter_kyra_naa:new {}ObjectTemplates:addTemplate(object_mobile_outbreak_bounty_hunter_kyra_naa, "object/mobile/outbreak_bounty_hunter_kyra_naa.iff")

@@ -1,0 +1,5 @@
+object_tangible_furniture_all_frn_diner_stool = object_tangible_furniture_all_shared_frn_diner_stool:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_diner_stool, "object/tangible/furniture/all/frn_diner_stool.iff")

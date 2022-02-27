@@ -1,0 +1,1 @@
+object_mobile_nautolan_combat = object_mobile_shared_nautolan_combat:new {}ObjectTemplates:addTemplate(object_mobile_nautolan_combat, "object/mobile/nautolan_combat.iff")

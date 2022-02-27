@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series8_diorama_bespin_city = object_tangible_tcg_series8_shared_diorama_bespin_city:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series8_diorama_bespin_city, "object/tangible/tcg/series8/diorama_bespin_city.iff")

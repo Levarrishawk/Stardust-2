@@ -1,0 +1,5 @@
+object_tangible_furniture_tatooine_uber_altar = object_tangible_furniture_tatooine_shared_uber_altar:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_tatooine_uber_altar, "object/tangible/furniture/tatooine/uber_altar.iff")

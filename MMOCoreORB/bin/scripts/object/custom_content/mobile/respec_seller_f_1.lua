@@ -1,0 +1,1 @@
+object_mobile_respec_seller_f_1 = object_mobile_shared_respec_seller_f_1:new {}ObjectTemplates:addTemplate(object_mobile_respec_seller_f_1, "object/mobile/respec_seller_f_1.iff")

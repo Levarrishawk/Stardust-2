@@ -1,0 +1,1 @@
+object_mobile_storyteller_lifeday_saun_dann = object_mobile_shared_storyteller_lifeday_saun_dann:new {}ObjectTemplates:addTemplate(object_mobile_storyteller_lifeday_saun_dann, "object/mobile/storyteller_lifeday_saun_dann.iff")

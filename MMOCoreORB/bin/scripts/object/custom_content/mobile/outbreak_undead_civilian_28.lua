@@ -1,0 +1,3 @@
+object_mobile_outbreak_undead_civilian_28 = object_mobile_shared_outbreak_undead_civilian_28:new {
+}
+ObjectTemplates:addTemplate(object_mobile_outbreak_undead_civilian_28, "object/mobile/outbreak_undead_civilian_28.iff")

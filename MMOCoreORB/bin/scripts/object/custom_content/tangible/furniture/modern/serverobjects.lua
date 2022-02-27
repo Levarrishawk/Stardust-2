@@ -1,0 +1,5 @@
+includeFile("custom_content/tangible/furniture/modern/bar_counter_s1_treasure_map.lua")
+includeFile("custom_content/tangible/furniture/modern/bar_piece_curve_s1_treasure_map.lua")
+includeFile("custom_content/tangible/furniture/modern/bar_piece_curve_s2_treasure_map.lua")
+includeFile("custom_content/tangible/furniture/modern/bar_piece_straight_s1_treasure_map.lua")
+includeFile("custom_content/tangible/furniture/modern/bar_piece_straight_s2_treasure_map.lua")

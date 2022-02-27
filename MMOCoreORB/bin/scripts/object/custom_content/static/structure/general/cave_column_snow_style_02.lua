@@ -1,0 +1,1 @@
+object_static_structure_general_cave_column_snow_style_02 = object_static_structure_general_shared_cave_column_snow_style_02:new {}ObjectTemplates:addTemplate(object_static_structure_general_cave_column_snow_style_02, "object/static/structure/general/cave_column_snow_style_02.iff")

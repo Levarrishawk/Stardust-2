@@ -1,0 +1,1 @@
+object_mobile_cb_jark = object_mobile_shared_cb_jark:new {}ObjectTemplates:addTemplate(object_mobile_cb_jark, "object/mobile/cb_jark.iff")

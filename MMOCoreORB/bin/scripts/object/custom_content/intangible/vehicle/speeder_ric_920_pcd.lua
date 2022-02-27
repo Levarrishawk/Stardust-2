@@ -1,0 +1,5 @@
+
+object_intangible_vehicle_speeder_ric_920_pcd = object_intangible_vehicle_shared_speeder_ric_920_pcd:new {
+
+}
+ObjectTemplates:addTemplate(object_intangible_vehicle_speeder_ric_920_pcd, "object/intangible/vehicle/speeder_ric_920_pcd.iff")

@@ -1,0 +1,5 @@
+object_tangible_loot_loot_schematic_deconstructed_armor_schematic = object_tangible_loot_loot_schematic_shared_deconstructed_armor_schematic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_loot_schematic_deconstructed_armor_schematic, "object/tangible/loot/loot/schematic/deconstructed_armor_schematic.iff")

@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_imp_t2_pilot = object_tangible_loot_creature_loot_collections_shared_imp_t2_pilot:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_imp_t2_pilot, "object/tangible/loot/creature/loot/collections/imp_t2_pilot.iff")

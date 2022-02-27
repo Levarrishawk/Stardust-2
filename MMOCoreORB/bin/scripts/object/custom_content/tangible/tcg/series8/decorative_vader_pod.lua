@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series8_decorative_vader_pod = object_tangible_tcg_series8_shared_decorative_vader_pod:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series8_decorative_vader_pod, "object/tangible/tcg/series8/decorative_vader_pod.iff")

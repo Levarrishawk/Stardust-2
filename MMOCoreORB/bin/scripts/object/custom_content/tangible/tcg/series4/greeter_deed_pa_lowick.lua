@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series4_greeter_deed_pa_lowick = object_tangible_tcg_series4_shared_greeter_deed_pa_lowick:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series4_greeter_deed_pa_lowick, "object/tangible/tcg/series4/greeter_deed_pa_lowick.iff")

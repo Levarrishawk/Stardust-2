@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series5_hangar_ships_yt2400 = object_tangible_tcg_series5_hangar_ships_shared_yt2400:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series5_hangar_ships_yt2400, "object/tangible/tcg/series5/hangar_ships/yt2400.iff")

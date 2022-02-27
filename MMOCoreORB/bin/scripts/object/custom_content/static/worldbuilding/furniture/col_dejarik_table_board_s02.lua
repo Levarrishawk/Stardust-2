@@ -1,0 +1,1 @@
+object_static_worldbuilding_furniture_col_dejarik_table_board_s02 = object_static_worldbuilding_furniture_shared_col_dejarik_table_board_s02:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_furniture_col_dejarik_table_board_s02, "object/static/worldbuilding/furniture/col_dejarik_table_board_s02.iff")

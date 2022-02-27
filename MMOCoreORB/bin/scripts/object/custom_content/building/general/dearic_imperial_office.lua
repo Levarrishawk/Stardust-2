@@ -1,0 +1,3 @@
+object_building_general_dearic_imperial_office = object_building_general_shared_dearic_imperial_office:new {
+}
+ObjectTemplates:addTemplate(object_building_general_dearic_imperial_office, "object/building/general/dearic_imperial_office.iff")

@@ -1,0 +1,1 @@
+object_mobile_target_dummy_rebel_trooper = object_mobile_shared_target_dummy_rebel_trooper:new {}ObjectTemplates:addTemplate(object_mobile_target_dummy_rebel_trooper, "object/mobile/target_dummy_rebel_trooper.iff")

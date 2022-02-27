@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_generic_generic_liver = object_tangible_loot_creature_loot_generic_shared_generic_liver:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_generic_generic_liver, "object/tangible/loot/creature/loot/generic/generic_liver.iff")

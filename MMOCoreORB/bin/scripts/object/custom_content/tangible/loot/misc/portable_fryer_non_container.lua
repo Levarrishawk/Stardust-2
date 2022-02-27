@@ -1,0 +1,5 @@
+object_tangible_loot_misc_portable_fryer_non_container = object_tangible_loot_misc_shared_portable_fryer_non_container:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_misc_portable_fryer_non_container, "object/tangible/loot/misc/portable_fryer_non_container.iff")

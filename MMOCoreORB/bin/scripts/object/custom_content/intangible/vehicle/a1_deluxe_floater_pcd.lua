@@ -1,0 +1,5 @@
+
+object_intangible_vehicle_a1_deluxe_floater_pcd = object_intangible_vehicle_shared_a1_deluxe_floater_pcd:new {
+
+}
+ObjectTemplates:addTemplate(object_intangible_vehicle_a1_deluxe_floater_pcd, "object/intangible/vehicle/a1_deluxe_floater_pcd.iff")

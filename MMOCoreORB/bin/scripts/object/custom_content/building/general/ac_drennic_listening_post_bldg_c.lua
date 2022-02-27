@@ -1,0 +1,3 @@
+object_building_general_ac_drennic_listening_post_bldg_c = object_building_general_shared_ac_drennic_listening_post_bldg_c:new {
+}
+ObjectTemplates:addTemplate(object_building_general_ac_drennic_listening_post_bldg_c, "object/building/general/ac_drennic_listening_post_bldg_c.iff")

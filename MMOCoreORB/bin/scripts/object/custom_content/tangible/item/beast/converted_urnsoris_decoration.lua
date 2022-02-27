@@ -1,0 +1,5 @@
+object_tangible_item_beast_converted_urnsoris_decoration = object_tangible_item_beast_shared_converted_urnsoris_decoration:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_beast_converted_urnsoris_decoration, "object/tangible/item/beast/converted_urnsoris_decoration.iff")

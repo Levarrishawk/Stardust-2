@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_furniture_heroic_exar_kun_fire_pit = object_draft_schematic_furniture_shared_furniture_heroic_exar_kun_fire_pit:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_heroic_exar_kun_fire_pit, "object/draft_schematic/furniture/furniture_heroic_exar_kun_fire_pit.iff")

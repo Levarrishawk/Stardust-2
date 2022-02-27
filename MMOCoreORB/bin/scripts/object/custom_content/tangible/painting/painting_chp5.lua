@@ -1,0 +1,3 @@
+object_tangible_painting_painting_chp5 = object_tangible_painting_shared_painting_chp5:new {
+}
+ObjectTemplates:addTemplate(object_tangible_painting_painting_chp5, "object/tangible/painting/painting_chp5.iff")

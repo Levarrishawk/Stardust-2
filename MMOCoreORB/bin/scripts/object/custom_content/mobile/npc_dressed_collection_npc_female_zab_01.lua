@@ -1,0 +1,5 @@
+object_mobile_npc_dressed_collection_npc_female_zab_01 = object_mobile_shared_npc_dressed_collection_npc_female_zab_01:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_npc_dressed_collection_npc_female_zab_01, "object/mobile/npc_dressed_collection_npc_female_zab_01.iff")

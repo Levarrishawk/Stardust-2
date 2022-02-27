@@ -1,0 +1,3 @@
+object_tangible_veteran_reward_exp_buff_item_crate = object_tangible_veteran_reward_shared_exp_buff_item_crate:new {
+}
+ObjectTemplates:addTemplate(object_tangible_veteran_reward_exp_buff_item_crate, "object/tangible/veteran_reward/exp_buff_item_crate.iff")

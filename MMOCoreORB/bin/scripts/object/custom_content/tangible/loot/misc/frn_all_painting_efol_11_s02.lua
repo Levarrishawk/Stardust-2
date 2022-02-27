@@ -1,0 +1,5 @@
+object_tangible_loot_misc_frn_all_painting_efol_11_s02 = object_tangible_loot_misc_shared_frn_all_painting_efol_11_s02:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_misc_frn_all_painting_efol_11_s02, "object/tangible/loot/misc/frn_all_painting_efol_11_s02.iff")

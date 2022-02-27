@@ -1,0 +1,5 @@
+object_tangible_item_beast_converted_hermit_spider_decoration = object_tangible_item_beast_shared_converted_hermit_spider_decoration:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_beast_converted_hermit_spider_decoration, "object/tangible/item/beast/converted_hermit_spider_decoration.iff")

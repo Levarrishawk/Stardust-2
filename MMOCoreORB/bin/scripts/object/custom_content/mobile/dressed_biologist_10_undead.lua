@@ -1,0 +1,5 @@
+object_mobile_dressed_biologist_10_undead = object_mobile_shared_dressed_biologist_10_undead:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_biologist_10_undead, "object/mobile/dressed_biologist_10_undead.iff")

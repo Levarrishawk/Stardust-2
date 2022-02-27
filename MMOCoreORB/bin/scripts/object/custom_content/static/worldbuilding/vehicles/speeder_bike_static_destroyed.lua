@@ -1,0 +1,1 @@
+object_static_worldbuilding_vehicles_speeder_bike_static_destroyed = object_static_worldbuilding_vehicles_shared_speeder_bike_static_destroyed:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_vehicles_speeder_bike_static_destroyed, "object/static/worldbuilding/vehicles/speeder_bike_static_destroyed.iff")

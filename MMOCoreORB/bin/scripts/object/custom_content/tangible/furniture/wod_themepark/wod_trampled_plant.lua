@@ -1,0 +1,5 @@
+object_tangible_furniture_wod_themepark_wod_trampled_plant = object_tangible_furniture_wod_themepark_shared_wod_trampled_plant:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_wod_themepark_wod_trampled_plant, "object/tangible/furniture/wod_themepark/wod_trampled_plant.iff")

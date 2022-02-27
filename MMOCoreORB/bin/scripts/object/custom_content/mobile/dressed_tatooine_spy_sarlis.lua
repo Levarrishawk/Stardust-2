@@ -1,0 +1,3 @@
+object_mobile_dressed_tatooine_spy_sarlis = object_mobile_shared_dressed_tatooine_spy_sarlis:new {
+}
+ObjectTemplates:addTemplate(object_mobile_dressed_tatooine_spy_sarlis, "object/mobile/dressed_tatooine_spy_sarlis.iff")

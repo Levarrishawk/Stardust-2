@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series8_diorama_cryo_room = object_tangible_tcg_series8_shared_diorama_cryo_room:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series8_diorama_cryo_room, "object/tangible/tcg/series8/diorama_cryo_room.iff")

@@ -1,0 +1,1 @@
+object_mobile_guri = object_mobile_shared_guri:new {}ObjectTemplates:addTemplate(object_mobile_guri, "object/mobile/guri.iff")

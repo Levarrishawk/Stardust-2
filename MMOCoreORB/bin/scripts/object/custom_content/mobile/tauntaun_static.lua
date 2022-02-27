@@ -1,0 +1,1 @@
+object_mobile_tauntaun_static = object_mobile_shared_tauntaun_static:new {}ObjectTemplates:addTemplate(object_mobile_tauntaun_static, "object/mobile/tauntaun_static.iff")

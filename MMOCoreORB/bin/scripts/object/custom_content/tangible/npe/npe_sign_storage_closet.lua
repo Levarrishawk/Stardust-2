@@ -1,0 +1,5 @@
+object_tangible_npe_npe_sign_storage_closet = object_tangible_npe_shared_npe_sign_storage_closet:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_npe_npe_sign_storage_closet, "object/tangible/npe/npe_sign_storage_closet.iff")

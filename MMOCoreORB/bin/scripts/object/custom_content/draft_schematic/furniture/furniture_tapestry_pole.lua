@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_furniture_tapestry_pole = object_draft_schematic_furniture_shared_furniture_tapestry_pole:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_tapestry_pole, "object/draft_schematic/furniture/furniture_tapestry_pole.iff")

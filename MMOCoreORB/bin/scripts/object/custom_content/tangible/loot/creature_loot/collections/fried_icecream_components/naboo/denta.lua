@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fried_icecream_components_naboo_denta = object_tangible_loot_creature_loot_collections_fried_icecream_components_naboo_shared_denta:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_naboo_denta, "object/tangible/loot/creature/loot/collections/fried/icecream/components/naboo/denta.iff")

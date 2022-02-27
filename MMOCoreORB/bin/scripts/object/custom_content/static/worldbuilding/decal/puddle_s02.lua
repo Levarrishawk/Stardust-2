@@ -1,0 +1,1 @@
+object_static_worldbuilding_decal_puddle_s02 = object_static_worldbuilding_decal_shared_puddle_s02:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_decal_puddle_s02, "object/static/worldbuilding/decal/puddle_s02.iff")

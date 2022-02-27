@@ -1,0 +1,1 @@
+object_static_structure_content_meatlump_meatlump_lump_unmarked = object_static_structure_content_meatlump_shared_meatlump_lump_unmarked:new {}ObjectTemplates:addTemplate(object_static_structure_content_meatlump_meatlump_lump_unmarked, "object/static/structure/content/meatlump/meatlump_lump_unmarked.iff")

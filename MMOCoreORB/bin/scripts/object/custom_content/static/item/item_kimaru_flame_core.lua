@@ -1,0 +1,1 @@
+object_static_item_item_kimaru_flame_core = object_static_item_shared_item_kimaru_flame_core:new {}ObjectTemplates:addTemplate(object_static_item_item_kimaru_flame_core, "object/static/item/item_kimaru_flame_core.iff")

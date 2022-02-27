@@ -1,0 +1,1 @@
+object_static_structure_general_improvised_explosive = object_static_structure_general_shared_improvised_explosive:new {}ObjectTemplates:addTemplate(object_static_structure_general_improvised_explosive, "object/static/structure/general/improvised_explosive.iff")

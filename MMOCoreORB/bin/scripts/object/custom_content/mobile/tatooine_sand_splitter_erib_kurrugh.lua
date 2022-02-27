@@ -1,0 +1,5 @@
+object_mobile_tatooine_sand_splitter_erib_kurrugh = object_mobile_shared_tatooine_sand_splitter_erib_kurrugh:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_tatooine_sand_splitter_erib_kurrugh, "object/mobile/tatooine_sand_splitter_erib_kurrugh.iff")

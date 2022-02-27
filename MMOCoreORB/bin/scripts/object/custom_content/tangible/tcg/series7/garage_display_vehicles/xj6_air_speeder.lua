@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series7_garage_display_vehicles_xj6_air_speeder = object_tangible_tcg_series7_garage_display_vehicles_shared_xj6_air_speeder:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_xj6_air_speeder, "object/tangible/tcg/series7/garage_display_vehicles/xj6_air_speeder.iff")

@@ -1,0 +1,5 @@
+object_tangible_furniture_house_cleanup_wod_sm_mask_deco = object_tangible_furniture_house_cleanup_shared_wod_sm_mask_deco:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_house_cleanup_wod_sm_mask_deco, "object/tangible/furniture/house_cleanup/wod_sm_mask_deco.iff")

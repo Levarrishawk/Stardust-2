@@ -1,0 +1,1 @@
+object_mobile_dressed_imperial_inquisitor_human_male_03_undead = object_mobile_shared_dressed_imperial_inquisitor_human_male_03_undead:new {}ObjectTemplates:addTemplate(object_mobile_dressed_imperial_inquisitor_human_male_03_undead, "object/mobile/dressed_imperial_inquisitor_human_male_03_undead.iff")

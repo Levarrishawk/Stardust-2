@@ -1,0 +1,5 @@
+object_tangible_furniture_all_frn_all_deathtrooper_lung_vat = object_tangible_furniture_all_shared_frn_all_deathtrooper_lung_vat:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_all_deathtrooper_lung_vat, "object/tangible/furniture/all/frn_all_deathtrooper_lung_vat.iff")

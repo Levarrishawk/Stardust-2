@@ -1,0 +1,1 @@
+object_mobile_skeleton_static = object_mobile_shared_skeleton_static:new {}ObjectTemplates:addTemplate(object_mobile_skeleton_static, "object/mobile/skeleton_static.iff")

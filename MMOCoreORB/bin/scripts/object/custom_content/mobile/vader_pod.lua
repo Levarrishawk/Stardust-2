@@ -1,0 +1,1 @@
+object_mobile_vader_pod = object_mobile_shared_vader_pod:new {}ObjectTemplates:addTemplate(object_mobile_vader_pod, "object/mobile/vader_pod.iff")

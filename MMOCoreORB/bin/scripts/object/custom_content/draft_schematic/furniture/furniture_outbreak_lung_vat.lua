@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_furniture_outbreak_lung_vat = object_draft_schematic_furniture_shared_furniture_outbreak_lung_vat:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_outbreak_lung_vat, "object/draft_schematic/furniture/furniture_outbreak_lung_vat.iff")

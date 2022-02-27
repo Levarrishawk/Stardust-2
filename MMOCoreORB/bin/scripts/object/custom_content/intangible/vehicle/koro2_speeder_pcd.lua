@@ -1,0 +1,5 @@
+
+object_intangible_vehicle_koro2_speeder_pcd = object_intangible_vehicle_shared_koro2_speeder_pcd:new {
+
+}
+ObjectTemplates:addTemplate(object_intangible_vehicle_koro2_speeder_pcd, "object/intangible/vehicle/koro2_speeder_pcd.iff")

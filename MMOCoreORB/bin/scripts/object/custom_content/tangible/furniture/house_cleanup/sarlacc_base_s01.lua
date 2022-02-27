@@ -1,0 +1,5 @@
+object_tangible_furniture_house_cleanup_sarlacc_base_s01 = object_tangible_furniture_house_cleanup_shared_sarlacc_base_s01:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_house_cleanup_sarlacc_base_s01, "object/tangible/furniture/house_cleanup/sarlacc_base_s01.iff")

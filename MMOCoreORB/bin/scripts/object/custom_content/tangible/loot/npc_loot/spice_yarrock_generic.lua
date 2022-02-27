@@ -1,0 +1,5 @@
+object_tangible_loot_npc_loot_spice_yarrock_generic = object_tangible_loot_npc_loot_shared_spice_yarrock_generic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_spice_yarrock_generic, "object/tangible/loot/npc/loot/spice_yarrock_generic.iff")

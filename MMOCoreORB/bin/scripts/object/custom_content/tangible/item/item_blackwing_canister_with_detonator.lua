@@ -1,0 +1,5 @@
+object_tangible_item_item_blackwing_canister_with_detonator = object_tangible_item_shared_item_blackwing_canister_with_detonator:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_item_blackwing_canister_with_detonator, "object/tangible/item/item_blackwing_canister_with_detonator.iff")

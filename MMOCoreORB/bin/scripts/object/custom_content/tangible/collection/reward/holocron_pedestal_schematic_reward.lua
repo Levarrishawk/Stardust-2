@@ -1,0 +1,5 @@
+object_tangible_collection_reward_holocron_pedestal_schematic_reward = object_tangible_collection_reward_shared_holocron_pedestal_schematic_reward:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_holocron_pedestal_schematic_reward, "object/tangible/collection/reward/holocron_pedestal_schematic_reward.iff")

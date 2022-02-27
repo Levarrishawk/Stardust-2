@@ -1,0 +1,5 @@
+object_tangible_quest_corellia_corellia_38_braggan_datapad = object_tangible_quest_corellia_shared_corellia_38_braggan_datapad:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_quest_corellia_corellia_38_braggan_datapad, "object/tangible/quest/corellia/corellia_38_braggan_datapad.iff")

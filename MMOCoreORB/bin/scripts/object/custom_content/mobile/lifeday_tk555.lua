@@ -1,0 +1,1 @@
+object_mobile_lifeday_tk555 = object_mobile_shared_lifeday_tk555:new {}ObjectTemplates:addTemplate(object_mobile_lifeday_tk555, "object/mobile/lifeday_tk555.iff")

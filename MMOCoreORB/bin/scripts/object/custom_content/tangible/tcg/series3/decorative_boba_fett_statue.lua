@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series3_decorative_boba_fett_statue = object_tangible_tcg_series3_shared_decorative_boba_fett_statue:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series3_decorative_boba_fett_statue, "object/tangible/tcg/series3/decorative_boba_fett_statue.iff")

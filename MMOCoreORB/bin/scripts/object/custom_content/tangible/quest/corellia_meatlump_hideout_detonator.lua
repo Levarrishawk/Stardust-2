@@ -1,0 +1,5 @@
+object_tangible_quest_corellia_meatlump_hideout_detonator = object_tangible_quest_shared_corellia_meatlump_hideout_detonator:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_quest_corellia_meatlump_hideout_detonator, "object/tangible/quest/corellia_meatlump_hideout_detonator.iff")

@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series7_garage_display_vehicles_barc_speeder_imperial = object_tangible_tcg_series7_garage_display_vehicles_shared_barc_speeder_imperial:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_barc_speeder_imperial, "object/tangible/tcg/series7/garage_display_vehicles/barc_speeder_imperial.iff")

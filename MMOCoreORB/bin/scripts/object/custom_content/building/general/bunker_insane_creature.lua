@@ -1,0 +1,3 @@
+object_building_general_bunker_insane_creature = object_building_general_shared_bunker_insane_creature:new {
+}
+ObjectTemplates:addTemplate(object_building_general_bunker_insane_creature, "object/building/general/bunker_insane_creature.iff")

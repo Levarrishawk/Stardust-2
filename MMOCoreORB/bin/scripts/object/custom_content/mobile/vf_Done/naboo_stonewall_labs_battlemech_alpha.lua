@@ -1,0 +1,1 @@
+object_mobile_naboo_stonewall_labs_battlemech_alpha = object_mobile_shared_naboo_stonewall_labs_battlemech_alpha:new {}ObjectTemplates:addTemplate(object_mobile_naboo_stonewall_labs_battlemech_alpha, "object/mobile/naboo_stonewall_labs_battlemech_alpha.iff")

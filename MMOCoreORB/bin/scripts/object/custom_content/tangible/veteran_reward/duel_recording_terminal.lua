@@ -1,0 +1,3 @@
+object_tangible_veteran_reward_duel_recording_terminal = object_tangible_veteran_reward_shared_duel_recording_terminal:new {
+}
+ObjectTemplates:addTemplate(object_tangible_veteran_reward_duel_recording_terminal, "object/tangible/veteran_reward/duel_recording_terminal.iff")

@@ -1,0 +1,3 @@
+object_building_general_tatooine_azure_cabal_hoverdale_cave = object_building_general_shared_tatooine_azure_cabal_hoverdale_cave:new {
+}
+ObjectTemplates:addTemplate(object_building_general_tatooine_azure_cabal_hoverdale_cave, "object/building/general/tatooine_azure_cabal_hoverdale_cave.iff")

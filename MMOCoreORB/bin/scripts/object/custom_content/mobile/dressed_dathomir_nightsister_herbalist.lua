@@ -1,0 +1,1 @@
+object_mobile_dressed_dathomir_nightsister_herbalist = object_mobile_shared_dressed_dathomir_nightsister_herbalist:new {}ObjectTemplates:addTemplate(object_mobile_dressed_dathomir_nightsister_herbalist, "object/mobile/dressed_dathomir_nightsister_herbalist.iff")

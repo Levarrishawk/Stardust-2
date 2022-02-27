@@ -1,0 +1,5 @@
+object_mobile_npc_dressed_corellia_madison_silene = object_mobile_shared_npc_dressed_corellia_madison_silene:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_npc_dressed_corellia_madison_silene, "object/mobile/npc_dressed_corellia_madison_silene.iff")

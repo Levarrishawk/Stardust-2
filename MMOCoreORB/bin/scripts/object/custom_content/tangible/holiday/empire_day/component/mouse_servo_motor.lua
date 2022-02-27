@@ -1,0 +1,5 @@
+object_tangible_holiday_empire_day_component_mouse_servo_motor = object_tangible_holiday_empire_day_component_shared_mouse_servo_motor:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_component_mouse_servo_motor, "object/tangible/holiday/empire_day/component/mouse_servo_motor.iff")

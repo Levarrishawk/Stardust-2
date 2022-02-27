@@ -1,0 +1,1 @@
+object_mobile_dengar = object_mobile_shared_dengar:new {}ObjectTemplates:addTemplate(object_mobile_dengar, "object/mobile/dengar.iff")

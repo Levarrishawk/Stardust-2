@@ -1,0 +1,1 @@
+object_building_mustafar_terrain_must_rock_scorched_sml = object_building_mustafar_terrain_shared_must_rock_scorched_sml:new {}ObjectTemplates:addTemplate(object_building_mustafar_terrain_must_rock_scorched_sml, "object/building/mustafar/terrain/must_rock_scorched_sml.iff")

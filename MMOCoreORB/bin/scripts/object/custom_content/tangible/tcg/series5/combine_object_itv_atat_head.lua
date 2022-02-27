@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series5_combine_object_itv_atat_head = object_tangible_tcg_series5_shared_combine_object_itv_atat_head:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series5_combine_object_itv_atat_head, "object/tangible/tcg/series5/combine_object_itv_atat_head.iff")

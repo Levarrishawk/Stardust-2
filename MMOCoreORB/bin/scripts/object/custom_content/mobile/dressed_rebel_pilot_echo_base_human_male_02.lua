@@ -1,0 +1,5 @@
+object_mobile_dressed_rebel_pilot_echo_base_human_male_02 = object_mobile_shared_dressed_rebel_pilot_echo_base_human_male_02:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_rebel_pilot_echo_base_human_male_02, "object/mobile/dressed_rebel_pilot_echo_base_human_male_02.iff")

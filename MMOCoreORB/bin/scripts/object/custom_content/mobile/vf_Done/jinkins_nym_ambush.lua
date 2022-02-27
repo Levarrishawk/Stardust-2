@@ -1,0 +1,1 @@
+object_mobile_jinkins_nym_ambush = object_mobile_shared_jinkins_nym_ambush:new {}ObjectTemplates:addTemplate(object_mobile_jinkins_nym_ambush, "object/mobile/jinkins_nym_ambush.iff")

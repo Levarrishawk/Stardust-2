@@ -1,0 +1,5 @@
+object_tangible_holiday_empire_day_component_mouse_ball_joint = object_tangible_holiday_empire_day_component_shared_mouse_ball_joint:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_component_mouse_ball_joint, "object/tangible/holiday/empire_day/component/mouse_ball_joint.iff")

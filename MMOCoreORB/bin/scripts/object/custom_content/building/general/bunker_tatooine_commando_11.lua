@@ -1,0 +1,3 @@
+object_building_general_bunker_tatooine_commando_11 = object_building_general_shared_bunker_tatooine_commando_11:new {
+}
+ObjectTemplates:addTemplate(object_building_general_bunker_tatooine_commando_11, "object/building/general/bunker_tatooine_commando_11.iff")

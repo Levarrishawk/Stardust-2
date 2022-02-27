@@ -1,0 +1,5 @@
+object_tangible_loot_beast_beast_steroid_roach_snake = object_tangible_loot_beast_shared_beast_steroid_roach_snake:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_beast_beast_steroid_roach_snake, "object/tangible/loot/beast/beast_steroid_roach_snake.iff")

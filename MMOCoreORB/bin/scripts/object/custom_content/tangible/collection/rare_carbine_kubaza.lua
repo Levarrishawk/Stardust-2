@@ -1,0 +1,5 @@
+
+object_tangible_collection_rare_carbine_kubaza = object_tangible_collection_shared_rare_carbine_kubaza:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_rare_carbine_kubaza, "object/tangible/collection/rare_carbine_kubaza.iff")

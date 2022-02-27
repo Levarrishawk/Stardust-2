@@ -1,0 +1,3 @@
+object_tangible_painting_painting_loot_heroic_exar_kun = object_tangible_painting_shared_painting_loot_heroic_exar_kun:new {
+}
+ObjectTemplates:addTemplate(object_tangible_painting_painting_loot_heroic_exar_kun, "object/tangible/painting/painting_loot_heroic_exar_kun.iff")

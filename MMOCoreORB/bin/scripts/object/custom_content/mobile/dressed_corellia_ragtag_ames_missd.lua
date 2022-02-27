@@ -1,0 +1,5 @@
+object_mobile_dressed_corellia_ragtag_ames_missd = object_mobile_shared_dressed_corellia_ragtag_ames_missd:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_corellia_ragtag_ames_missd, "object/mobile/dressed_corellia_ragtag_ames_missd.iff")

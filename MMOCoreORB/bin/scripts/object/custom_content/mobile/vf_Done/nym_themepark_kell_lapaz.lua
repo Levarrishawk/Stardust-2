@@ -1,0 +1,1 @@
+object_mobile_nym_themepark_kell_lapaz = object_mobile_shared_nym_themepark_kell_lapaz:new {}ObjectTemplates:addTemplate(object_mobile_nym_themepark_kell_lapaz, "object/mobile/nym_themepark_kell_lapaz.iff")

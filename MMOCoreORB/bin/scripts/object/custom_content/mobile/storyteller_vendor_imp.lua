@@ -1,0 +1,3 @@
+object_mobile_storyteller_vendor_imp = object_mobile_shared_storyteller_vendor_imp:new {
+}
+ObjectTemplates:addTemplate(object_mobile_storyteller_vendor_imp, "object/mobile/storyteller_vendor_imp.iff")

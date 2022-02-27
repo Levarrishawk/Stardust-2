@@ -1,0 +1,1 @@
+object_mobile_outbreak_afflicted_blackwing_rancor_boss = object_mobile_shared_outbreak_afflicted_blackwing_rancor_boss:new {}ObjectTemplates:addTemplate(object_mobile_outbreak_afflicted_blackwing_rancor_boss, "object/mobile/outbreak_afflicted_blackwing_rancor_boss.iff")

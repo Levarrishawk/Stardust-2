@@ -1,0 +1,5 @@
+object_tangible_quest_corellia_corellia_39_experimental_weapon_03 = object_tangible_quest_corellia_shared_corellia_39_experimental_weapon_03:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_quest_corellia_corellia_39_experimental_weapon_03, "object/tangible/quest/corellia/corellia_39_experimental_weapon_03.iff")

@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fried_icecream_components_endor_acorns = object_tangible_loot_creature_loot_collections_fried_icecream_components_endor_shared_acorns:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_endor_acorns, "object/tangible/loot/creature/loot/collections/fried/icecream/components/endor/acorns.iff")

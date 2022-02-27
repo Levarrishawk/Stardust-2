@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_meatlump_hench_doll_head = object_tangible_loot_creature_loot_collections_shared_meatlump_hench_doll_head:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_meatlump_hench_doll_head, "object/tangible/loot/creature/loot/collections/meatlump_hench_doll_head.iff")

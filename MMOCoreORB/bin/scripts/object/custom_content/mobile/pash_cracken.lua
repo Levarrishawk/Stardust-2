@@ -1,0 +1,1 @@
+object_mobile_pash_cracken = object_mobile_shared_pash_cracken:new {}ObjectTemplates:addTemplate(object_mobile_pash_cracken, "object/mobile/pash_cracken.iff")

@@ -1,0 +1,5 @@
+object_tangible_quest_nova_orion_nova_orion_katiara_grave_node = object_tangible_quest_nova_orion_shared_nova_orion_katiara_grave_node:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_quest_nova_orion_nova_orion_katiara_grave_node, "object/tangible/quest/nova_orion/nova_orion_katiara_grave_node.iff")

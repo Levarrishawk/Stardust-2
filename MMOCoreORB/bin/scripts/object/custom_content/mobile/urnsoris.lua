@@ -1,0 +1,1 @@
+object_mobile_urnsoris = object_mobile_shared_urnsoris:new {}ObjectTemplates:addTemplate(object_mobile_urnsoris, "object/mobile/urnsoris.iff")

@@ -1,0 +1,5 @@
+object_tangible_furniture_terminal_terminal_mini_vehicle = object_tangible_furniture_terminal_shared_terminal_mini_vehicle:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_terminal_terminal_mini_vehicle, "object/tangible/furniture/terminal/terminal_mini_vehicle.iff")

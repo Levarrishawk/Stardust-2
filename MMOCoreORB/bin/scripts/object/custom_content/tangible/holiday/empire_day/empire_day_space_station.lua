@@ -1,0 +1,5 @@
+object_tangible_holiday_empire_day_empire_day_space_station = object_tangible_holiday_empire_day_shared_empire_day_space_station:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_empire_day_space_station, "object/tangible/holiday/empire_day/empire_day_space_station.iff")

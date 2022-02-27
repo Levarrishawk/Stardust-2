@@ -1,0 +1,1 @@
+object_mobile_outbreak_marpo_glenfik = object_mobile_shared_outbreak_marpo_glenfik:new {}ObjectTemplates:addTemplate(object_mobile_outbreak_marpo_glenfik, "object/mobile/outbreak_marpo_glenfik.iff")

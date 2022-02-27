@@ -1,0 +1,5 @@
+object_tangible_holiday_love_day_rewards_11_love_day_prop_2011_flowers_s01 = object_tangible_holiday_love_day_rewards_11_shared_love_day_prop_2011_flowers_s01:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_holiday_love_day_rewards_11_love_day_prop_2011_flowers_s01, "object/tangible/holiday/love_day/rewards_11/love_day_prop_2011_flowers_s01.iff")

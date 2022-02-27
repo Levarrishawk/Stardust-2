@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series7_garage_display_vehicles_tcg_republic_gunship = object_tangible_tcg_series7_garage_display_vehicles_shared_tcg_republic_gunship:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_tcg_republic_gunship, "object/tangible/tcg/series7/garage_display_vehicles/tcg_republic_gunship.iff")

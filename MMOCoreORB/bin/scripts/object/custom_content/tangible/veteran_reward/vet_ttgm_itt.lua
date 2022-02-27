@@ -1,0 +1,3 @@
+object_tangible_veteran_reward_vet_ttgm_itt = object_tangible_veteran_reward_shared_vet_ttgm_itt:new {
+}
+ObjectTemplates:addTemplate(object_tangible_veteran_reward_vet_ttgm_itt, "object/tangible/veteran_reward/vet_ttgm_itt.iff")

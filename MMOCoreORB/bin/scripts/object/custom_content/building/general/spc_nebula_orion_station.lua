@@ -1,0 +1,1 @@
+object_building_general_spc_nebula_orion_station = object_building_general_shared_spc_nebula_orion_station:new {}ObjectTemplates:addTemplate(object_building_general_spc_nebula_orion_station, "object/building/general/spc_nebula_orion_station.iff")

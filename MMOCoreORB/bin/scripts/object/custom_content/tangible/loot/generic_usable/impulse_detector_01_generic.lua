@@ -1,0 +1,5 @@
+object_tangible_loot_generic_usable_impulse_detector_01_generic = object_tangible_loot_generic_usable_shared_impulse_detector_01_generic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_generic_usable_impulse_detector_01_generic, "object/tangible/loot/generic/usable/impulse_detector_01_generic.iff")

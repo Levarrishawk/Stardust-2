@@ -1,0 +1,5 @@
+object_tangible_furniture_all_frn_all_rug_bantha_skin = object_tangible_furniture_all_shared_frn_all_rug_bantha_skin:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_all_rug_bantha_skin, "object/tangible/furniture/all/frn_all_rug_bantha_skin.iff")

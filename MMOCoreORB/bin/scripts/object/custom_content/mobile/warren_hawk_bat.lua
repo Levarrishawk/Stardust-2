@@ -1,0 +1,1 @@
+object_mobile_warren_hawk_bat = object_mobile_shared_warren_hawk_bat:new {}ObjectTemplates:addTemplate(object_mobile_warren_hawk_bat, "object/mobile/warren_hawk_bat.iff")

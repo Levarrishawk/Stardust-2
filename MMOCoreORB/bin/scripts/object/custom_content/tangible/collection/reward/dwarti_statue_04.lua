@@ -1,0 +1,5 @@
+object_tangible_collection_reward_dwarti_statue_04 = object_tangible_collection_reward_shared_dwarti_statue_04:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_dwarti_statue_04, "object/tangible/collection/reward/dwarti_statue_04.iff")

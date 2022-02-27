@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_aurebesh_tile_resh = object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_resh:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_aurebesh_tile_resh, "object/tangible/loot/creature/loot/collections/aurebesh_tile_resh.iff")

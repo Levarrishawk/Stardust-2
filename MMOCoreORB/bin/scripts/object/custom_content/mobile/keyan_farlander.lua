@@ -1,0 +1,1 @@
+object_mobile_keyan_farlander = object_mobile_shared_keyan_farlander:new {}ObjectTemplates:addTemplate(object_mobile_keyan_farlander, "object/mobile/keyan_farlander.iff")

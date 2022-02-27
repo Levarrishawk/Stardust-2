@@ -1,0 +1,5 @@
+object_tangible_holiday_life_day_storyteller_lifeday_tree = object_tangible_holiday_life_day_shared_storyteller_lifeday_tree:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_holiday_life_day_storyteller_lifeday_tree, "object/tangible/holiday/life_day/storyteller_lifeday_tree.iff")

@@ -1,0 +1,5 @@
+object_tangible_item_som_droid_factory_history_terminal = object_tangible_item_som_shared_droid_factory_history_terminal:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_som_droid_factory_history_terminal, "object/tangible/item/som/droid_factory_history_terminal.iff")

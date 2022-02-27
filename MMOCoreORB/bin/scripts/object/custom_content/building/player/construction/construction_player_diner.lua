@@ -1,0 +1,5 @@
+object_building_player_construction_construction_player_diner = object_building_player_construction_shared_construction_player_diner:new {
+
+}
+
+ObjectTemplates:addTemplate(object_building_player_construction_construction_player_diner, "object/building/player/construction/construction_player_diner.iff")

@@ -1,0 +1,5 @@
+object_tangible_furniture_tatooine_uber_mining_device = object_tangible_furniture_tatooine_shared_uber_mining_device:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_tatooine_uber_mining_device, "object/tangible/furniture/tatooine/uber_mining_device.iff")

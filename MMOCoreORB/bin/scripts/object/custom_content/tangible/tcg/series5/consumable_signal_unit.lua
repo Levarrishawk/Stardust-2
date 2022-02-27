@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series5_consumable_signal_unit = object_tangible_tcg_series5_shared_consumable_signal_unit:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series5_consumable_signal_unit, "object/tangible/tcg/series5/consumable_signal_unit.iff")

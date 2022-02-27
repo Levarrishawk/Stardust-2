@@ -1,0 +1,1 @@
+object_static_item_item_hoth_turret_round = object_static_item_shared_item_hoth_turret_round:new {}ObjectTemplates:addTemplate(object_static_item_item_hoth_turret_round, "object/static/item/item_hoth_turret_round.iff")

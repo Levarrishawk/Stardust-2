@@ -1,0 +1,5 @@
+object_mobile_dressed_tatooine_laserflit_hum_m02 = object_mobile_shared_dressed_tatooine_laserflit_hum_m02:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_tatooine_laserflit_hum_m02, "object/mobile/dressed_tatooine_laserflit_hum_m02.iff")

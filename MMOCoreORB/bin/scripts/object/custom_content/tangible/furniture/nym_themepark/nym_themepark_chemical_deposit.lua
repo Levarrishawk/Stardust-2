@@ -1,0 +1,5 @@
+object_tangible_furniture_nym_themepark_nym_themepark_chemical_deposit = object_tangible_furniture_nym_themepark_shared_nym_themepark_chemical_deposit:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_nym_themepark_nym_themepark_chemical_deposit, "object/tangible/furniture/nym_themepark/nym_themepark_chemical_deposit.iff")

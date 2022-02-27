@@ -1,0 +1,3 @@
+object_building_military_prolog_content_impl_bunker_recon_outpost = object_building_military_shared_prolog_content_impl_bunker_recon_outpost:new {
+}
+ObjectTemplates:addTemplate(object_building_military_prolog_content_impl_bunker_recon_outpost, "object/building/military/prolog_content_impl_bunker_recon_outpost.iff")

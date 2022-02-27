@@ -1,0 +1,5 @@
+object_mobile_loveday_ewok_cupid_familiar = object_mobile_shared_loveday_ewok_cupid_familiar:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_loveday_ewok_cupid_familiar, "object/mobile/loveday_ewok_cupid_familiar.iff")

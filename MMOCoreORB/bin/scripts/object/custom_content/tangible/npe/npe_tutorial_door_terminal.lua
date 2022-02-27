@@ -1,0 +1,5 @@
+object_tangible_npe_npe_tutorial_door_terminal = object_tangible_npe_shared_npe_tutorial_door_terminal:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_npe_npe_tutorial_door_terminal, "object/tangible/npe/npe_tutorial_door_terminal.iff")

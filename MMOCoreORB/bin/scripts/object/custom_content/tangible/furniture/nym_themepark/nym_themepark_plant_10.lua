@@ -1,0 +1,5 @@
+object_tangible_furniture_nym_themepark_nym_themepark_plant_10 = object_tangible_furniture_nym_themepark_shared_nym_themepark_plant_10:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_nym_themepark_nym_themepark_plant_10, "object/tangible/furniture/nym_themepark/nym_themepark_plant_10.iff")

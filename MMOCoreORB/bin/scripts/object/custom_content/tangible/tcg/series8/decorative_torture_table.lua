@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series8_decorative_torture_table = object_tangible_tcg_series8_shared_decorative_torture_table:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series8_decorative_torture_table, "object/tangible/tcg/series8/decorative_torture_table.iff")

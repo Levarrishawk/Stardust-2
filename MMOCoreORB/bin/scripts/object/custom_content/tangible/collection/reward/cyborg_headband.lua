@@ -1,0 +1,5 @@
+object_tangible_collection_reward_cyborg_headband = object_tangible_collection_reward_shared_cyborg_headband:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_cyborg_headband, "object/tangible/collection/reward/cyborg_headband.iff")

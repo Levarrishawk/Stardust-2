@@ -1,0 +1,5 @@
+object_mobile_dressed_rebel_restuss_captain_redding = object_mobile_shared_dressed_rebel_restuss_captain_redding:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_rebel_restuss_captain_redding, "object/mobile/dressed_rebel_restuss_captain_redding.iff")

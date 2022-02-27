@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_trader_dom_gem_bead = object_tangible_loot_creature_loot_collections_shared_trader_dom_gem_bead:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_trader_dom_gem_bead, "object/tangible/loot/creature/loot/collections/trader_dom_gem_bead.iff")

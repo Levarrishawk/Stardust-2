@@ -1,0 +1,5 @@
+
+object_intangible_vehicle_tcg_hk47_jetpack_pcd = object_intangible_vehicle_shared_tcg_hk47_jetpack_pcd:new {
+
+}
+ObjectTemplates:addTemplate(object_intangible_vehicle_tcg_hk47_jetpack_pcd, "object/intangible/vehicle/tcg_hk47_jetpack_pcd.iff")

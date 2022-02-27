@@ -1,0 +1,1 @@
+object_static_structure_content_hoth_ice_wall = object_static_structure_content_shared_hoth_ice_wall:new {}ObjectTemplates:addTemplate(object_static_structure_content_hoth_ice_wall, "object/static/structure/content/hoth_ice_wall.iff")

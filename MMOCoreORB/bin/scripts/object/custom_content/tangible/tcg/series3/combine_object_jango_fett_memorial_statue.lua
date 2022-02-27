@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series3_combine_object_jango_fett_memorial_statue = object_tangible_tcg_series3_shared_combine_object_jango_fett_memorial_statue:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series3_combine_object_jango_fett_memorial_statue, "object/tangible/tcg/series3/combine_object_jango_fett_memorial_statue.iff")

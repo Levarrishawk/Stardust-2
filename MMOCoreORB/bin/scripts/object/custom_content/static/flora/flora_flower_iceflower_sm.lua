@@ -1,0 +1,1 @@
+object_static_flora_flora_flower_iceflower_sm = object_static_flora_shared_flora_flower_iceflower_sm:new {}ObjectTemplates:addTemplate(object_static_flora_flora_flower_iceflower_sm, "object/static/flora/flora_flower_iceflower_sm.iff")

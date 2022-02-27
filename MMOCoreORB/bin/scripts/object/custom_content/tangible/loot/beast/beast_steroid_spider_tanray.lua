@@ -1,0 +1,5 @@
+object_tangible_loot_beast_beast_steroid_spider_tanray = object_tangible_loot_beast_shared_beast_steroid_spider_tanray:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_beast_beast_steroid_spider_tanray, "object/tangible/loot/beast/beast_steroid_spider_tanray.iff")

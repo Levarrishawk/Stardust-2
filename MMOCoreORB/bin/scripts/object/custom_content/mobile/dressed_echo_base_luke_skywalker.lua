@@ -1,0 +1,5 @@
+object_mobile_dressed_echo_base_luke_skywalker = object_mobile_shared_dressed_echo_base_luke_skywalker:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_echo_base_luke_skywalker, "object/mobile/dressed_echo_base_luke_skywalker.iff")

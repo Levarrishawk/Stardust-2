@@ -1,0 +1,5 @@
+
+object_tangible_collection_rare_carbine_hair_trigger = object_tangible_collection_shared_rare_carbine_hair_trigger:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_rare_carbine_hair_trigger, "object/tangible/collection/rare_carbine_hair_trigger.iff")

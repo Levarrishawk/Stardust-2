@@ -1,0 +1,5 @@
+object_tangible_quest_content_holiday_loveday_disillusion_crossbow = object_tangible_quest_content_shared_holiday_loveday_disillusion_crossbow:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_quest_content_holiday_loveday_disillusion_crossbow, "object/tangible/quest/content/holiday_loveday_disillusion_crossbow.iff")

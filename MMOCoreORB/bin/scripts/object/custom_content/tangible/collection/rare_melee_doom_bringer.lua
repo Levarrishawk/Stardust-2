@@ -1,0 +1,5 @@
+
+object_tangible_collection_rare_melee_doom_bringer = object_tangible_collection_shared_rare_melee_doom_bringer:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_rare_melee_doom_bringer, "object/tangible/collection/rare_melee_doom_bringer.iff")

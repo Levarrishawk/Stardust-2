@@ -1,0 +1,5 @@
+object_tangible_loot_generic_usable_binoculars_s1_generic = object_tangible_loot_generic_usable_shared_binoculars_s1_generic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_generic_usable_binoculars_s1_generic, "object/tangible/loot/generic/usable/binoculars_s1_generic.iff")

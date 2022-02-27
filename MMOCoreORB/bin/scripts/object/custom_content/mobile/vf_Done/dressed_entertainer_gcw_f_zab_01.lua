@@ -1,0 +1,1 @@
+object_mobile_dressed_entertainer_gcw_f_zab_01 = object_mobile_shared_dressed_entertainer_gcw_f_zab_01:new {}ObjectTemplates:addTemplate(object_mobile_dressed_entertainer_gcw_f_zab_01, "object/mobile/dressed_entertainer_gcw_f_zab_01.iff")

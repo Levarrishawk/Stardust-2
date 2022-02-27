@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series3_reuseable_buff_gargans_hands_of_seduction = object_tangible_tcg_series3_shared_reuseable_buff_gargans_hands_of_seduction:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series3_reuseable_buff_gargans_hands_of_seduction, "object/tangible/tcg/series3/reuseable_buff_gargans_hands_of_seduction.iff")

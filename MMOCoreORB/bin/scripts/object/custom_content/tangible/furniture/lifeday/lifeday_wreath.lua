@@ -1,0 +1,5 @@
+object_tangible_furniture_lifeday_lifeday_wreath = object_tangible_furniture_lifeday_shared_lifeday_wreath:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_lifeday_lifeday_wreath, "object/tangible/furniture/lifeday/lifeday_wreath.iff")

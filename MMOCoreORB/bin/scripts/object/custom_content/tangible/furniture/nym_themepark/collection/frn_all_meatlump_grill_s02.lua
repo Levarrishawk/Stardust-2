@@ -1,0 +1,5 @@
+object_tangible_furniture_nym_themepark_collection_frn_all_meatlump_grill_s02 = object_tangible_furniture_nym_themepark_collection_shared_frn_all_meatlump_grill_s02:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_nym_themepark_collection_frn_all_meatlump_grill_s02, "object/tangible/furniture/nym_themepark/collection/frn_all_meatlump_grill_s02.iff")

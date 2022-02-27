@@ -1,0 +1,5 @@
+object_tangible_smuggler_contraband_contraband_12 = object_tangible_smuggler_contraband_shared_contraband_12:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_smuggler_contraband_contraband_12, "object/tangible/smuggler/contraband/contraband_12.iff")

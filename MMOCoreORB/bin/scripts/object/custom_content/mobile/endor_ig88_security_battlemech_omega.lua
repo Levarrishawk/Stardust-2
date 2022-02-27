@@ -1,0 +1,5 @@
+object_mobile_endor_ig88_security_battlemech_omega = object_mobile_shared_endor_ig88_security_battlemech_omega:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_endor_ig88_security_battlemech_omega, "object/mobile/endor_ig88_security_battlemech_omega.iff")

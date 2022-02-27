@@ -1,0 +1,5 @@
+object_tangible_item_beast_converted_boar_wolf_decoration = object_tangible_item_beast_shared_converted_boar_wolf_decoration:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_beast_converted_boar_wolf_decoration, "object/tangible/item/beast/converted_boar_wolf_decoration.iff")

@@ -1,0 +1,1 @@
+object_mobile_naboo_vance_groten = object_mobile_shared_naboo_vance_groten:new {}ObjectTemplates:addTemplate(object_mobile_naboo_vance_groten, "object/mobile/naboo_vance_groten.iff")

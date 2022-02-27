@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_meatlump_newspaper_09 = object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_09:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_meatlump_newspaper_09, "object/tangible/loot/creature/loot/collections/meatlump_newspaper_09.iff")

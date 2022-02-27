@@ -1,0 +1,5 @@
+
+object_tangible_collection_rare_pistol_vexa_flechette = object_tangible_collection_shared_rare_pistol_vexa_flechette:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_rare_pistol_vexa_flechette, "object/tangible/collection/rare_pistol_vexa_flechette.iff")

@@ -1,0 +1,5 @@
+
+object_tangible_collection_rare_melee_underworld_blade = object_tangible_collection_shared_rare_melee_underworld_blade:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_rare_melee_underworld_blade, "object/tangible/collection/rare_melee_underworld_blade.iff")

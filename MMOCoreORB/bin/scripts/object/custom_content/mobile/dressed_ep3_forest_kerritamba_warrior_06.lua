@@ -1,0 +1,3 @@
+object_mobile_dressed_ep3_forest_kerritamba_warrior_06 = object_mobile_shared_dressed_ep3_forest_kerritamba_warrior_06:new {
+}
+ObjectTemplates:addTemplate(object_mobile_dressed_ep3_forest_kerritamba_warrior_06, "object/mobile/dressed_ep3_forest_kerritamba_warrior_06.iff")

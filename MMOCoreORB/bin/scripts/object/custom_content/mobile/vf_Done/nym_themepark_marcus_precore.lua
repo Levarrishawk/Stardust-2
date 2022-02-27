@@ -1,0 +1,1 @@
+object_mobile_nym_themepark_marcus_precore = object_mobile_shared_nym_themepark_marcus_precore:new {}ObjectTemplates:addTemplate(object_mobile_nym_themepark_marcus_precore, "object/mobile/nym_themepark_marcus_precore.iff")

@@ -1,0 +1,1 @@
+object_mobile_storyteller_loveday_protocol_droid = object_mobile_shared_storyteller_loveday_protocol_droid:new {}ObjectTemplates:addTemplate(object_mobile_storyteller_loveday_protocol_droid, "object/mobile/storyteller_loveday_protocol_droid.iff")

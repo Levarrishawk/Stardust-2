@@ -1,0 +1,5 @@
+object_tangible_holiday_love_day_loveday_romance_target_spawner = object_tangible_holiday_love_day_shared_loveday_romance_target_spawner:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_holiday_love_day_loveday_romance_target_spawner, "object/tangible/holiday/love_day/loveday_romance_target_spawner.iff")

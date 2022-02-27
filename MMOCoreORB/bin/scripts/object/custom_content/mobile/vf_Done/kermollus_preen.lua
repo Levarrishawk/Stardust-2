@@ -1,0 +1,1 @@
+object_mobile_kermollus_preen = object_mobile_shared_kermollus_preen:new {}ObjectTemplates:addTemplate(object_mobile_kermollus_preen, "object/mobile/kermollus_preen.iff")

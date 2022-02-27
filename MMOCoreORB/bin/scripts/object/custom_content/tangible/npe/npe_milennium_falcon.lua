@@ -1,0 +1,3 @@
+object_tangible_npe_npe_milennium_falcon = object_tangible_npe_shared_npe_milennium_falcon:new {
+}
+ObjectTemplates:addTemplate(object_tangible_npe_npe_milennium_falcon, "object/tangible/npe/npe_milennium_falcon.iff")

@@ -1,0 +1,1 @@
+object_mobile_watto = object_mobile_shared_watto:new {}ObjectTemplates:addTemplate(object_mobile_watto, "object/mobile/watto.iff")

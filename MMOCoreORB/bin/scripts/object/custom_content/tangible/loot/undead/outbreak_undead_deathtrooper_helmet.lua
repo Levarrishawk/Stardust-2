@@ -1,0 +1,5 @@
+object_tangible_loot_undead_outbreak_undead_deathtrooper_helmet = object_tangible_loot_undead_shared_outbreak_undead_deathtrooper_helmet:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_undead_outbreak_undead_deathtrooper_helmet, "object/tangible/loot/undead/outbreak_undead_deathtrooper_helmet.iff")

@@ -1,0 +1,3 @@
+object_building_content_aurilia_aurilia_adventure_guild_sign = object_building_content_aurilia_shared_aurilia_adventure_guild_sign:new {
+}
+ObjectTemplates:addTemplate(object_building_content_aurilia_aurilia_adventure_guild_sign, "object/building/content/aurilia/aurilia_adventure_guild_sign.iff")

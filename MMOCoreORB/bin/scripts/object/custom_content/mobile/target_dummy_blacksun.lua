@@ -1,0 +1,1 @@
+object_mobile_target_dummy_blacksun = object_mobile_shared_target_dummy_blacksun:new {}ObjectTemplates:addTemplate(object_mobile_target_dummy_blacksun, "object/mobile/target_dummy_blacksun.iff")

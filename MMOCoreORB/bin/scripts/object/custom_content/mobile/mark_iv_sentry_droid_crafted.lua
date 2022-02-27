@@ -1,0 +1,5 @@
+object_mobile_mark_iv_sentry_droid_crafted = object_mobile_shared_mark_iv_sentry_droid_crafted:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_mark_iv_sentry_droid_crafted, "object/mobile/mark_iv_sentry_droid_crafted.iff")

@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series7_garage_display_vehicles_landspeeder_v35 = object_tangible_tcg_series7_garage_display_vehicles_shared_landspeeder_v35:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_landspeeder_v35, "object/tangible/tcg/series7/garage_display_vehicles/landspeeder_v35.iff")

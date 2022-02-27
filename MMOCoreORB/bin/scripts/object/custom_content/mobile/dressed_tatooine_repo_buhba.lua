@@ -1,0 +1,3 @@
+object_mobile_dressed_tatooine_repo_buhba = object_mobile_shared_dressed_tatooine_repo_buhba:new {
+}
+ObjectTemplates:addTemplate(object_mobile_dressed_tatooine_repo_buhba, "object/mobile/dressed_tatooine_repo_buhba.iff")

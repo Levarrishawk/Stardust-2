@@ -1,0 +1,5 @@
+object_tangible_furniture_all_frn_all_professor_desk = object_tangible_furniture_all_shared_frn_all_professor_desk:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_all_professor_desk, "object/tangible/furniture/all/frn_all_professor_desk.iff")

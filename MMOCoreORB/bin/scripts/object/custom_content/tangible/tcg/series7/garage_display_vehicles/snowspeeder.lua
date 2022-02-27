@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series7_garage_display_vehicles_snowspeeder = object_tangible_tcg_series7_garage_display_vehicles_shared_snowspeeder:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_snowspeeder, "object/tangible/tcg/series7/garage_display_vehicles/snowspeeder.iff")

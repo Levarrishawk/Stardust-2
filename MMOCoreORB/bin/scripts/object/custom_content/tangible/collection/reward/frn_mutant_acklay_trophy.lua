@@ -1,0 +1,5 @@
+object_tangible_collection_reward_frn_mutant_acklay_trophy = object_tangible_collection_reward_shared_frn_mutant_acklay_trophy:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_frn_mutant_acklay_trophy, "object/tangible/collection/reward/frn_mutant_acklay_trophy.iff")

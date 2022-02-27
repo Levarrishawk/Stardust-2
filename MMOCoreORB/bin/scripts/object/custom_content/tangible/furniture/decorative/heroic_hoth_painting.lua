@@ -1,0 +1,5 @@
+object_tangible_furniture_decorative_heroic_hoth_painting = object_tangible_furniture_decorative_shared_heroic_hoth_painting:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_decorative_heroic_hoth_painting, "object/tangible/furniture/decorative/heroic_hoth_painting.iff")

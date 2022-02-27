@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series1_wearable_glowing_red_eyes = object_tangible_tcg_series1_shared_wearable_glowing_red_eyes:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series1_wearable_glowing_red_eyes, "object/tangible/tcg/series1/wearable_glowing_red_eyes.iff")

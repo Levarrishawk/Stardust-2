@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_generic_generic_feather = object_tangible_loot_creature_loot_generic_shared_generic_feather:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_generic_generic_feather, "object/tangible/loot/creature/loot/generic/generic_feather.iff")

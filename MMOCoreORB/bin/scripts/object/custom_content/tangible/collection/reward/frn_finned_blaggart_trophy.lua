@@ -1,0 +1,5 @@
+object_tangible_collection_reward_frn_finned_blaggart_trophy = object_tangible_collection_reward_shared_frn_finned_blaggart_trophy:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_frn_finned_blaggart_trophy, "object/tangible/collection/reward/frn_finned_blaggart_trophy.iff")

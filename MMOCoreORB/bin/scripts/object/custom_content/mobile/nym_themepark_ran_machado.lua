@@ -1,0 +1,1 @@
+object_mobile_nym_themepark_ran_machado = object_mobile_shared_nym_themepark_ran_machado:new {}ObjectTemplates:addTemplate(object_mobile_nym_themepark_ran_machado, "object/mobile/nym_themepark_ran_machado.iff")

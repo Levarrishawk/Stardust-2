@@ -1,0 +1,1 @@
+object_mobile_meatlump_king_static = object_mobile_shared_meatlump_king_static:new {}ObjectTemplates:addTemplate(object_mobile_meatlump_king_static, "object/mobile/meatlump_king_static.iff")

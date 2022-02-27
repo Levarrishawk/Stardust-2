@@ -1,0 +1,5 @@
+
+object_tangible_wearables_jacket_jacket_s48 = object_tangible_wearables_jacket_shared_jacket_s48:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_wearables_jacket_jacket_s48, "object/tangible/wearables/jacket/jacket_s48.iff")

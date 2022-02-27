@@ -1,0 +1,1 @@
+object_static_worldbuilding_mechanical_ship_parts_ywing_engine_s01 = object_static_worldbuilding_mechanical_ship_parts_shared_ywing_engine_s01:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_mechanical_ship_parts_ywing_engine_s01, "object/static/worldbuilding/mechanical/ship_parts/ywing_engine_s01.iff")

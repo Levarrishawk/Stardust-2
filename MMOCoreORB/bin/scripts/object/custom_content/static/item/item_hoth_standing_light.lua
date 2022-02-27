@@ -1,0 +1,1 @@
+object_static_item_item_hoth_standing_light = object_static_item_shared_item_hoth_standing_light:new {}ObjectTemplates:addTemplate(object_static_item_item_hoth_standing_light, "object/static/item/item_hoth_standing_light.iff")

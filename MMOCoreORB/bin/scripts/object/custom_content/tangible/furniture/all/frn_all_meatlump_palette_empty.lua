@@ -1,0 +1,5 @@
+object_tangible_furniture_all_frn_all_meatlump_palette_empty = object_tangible_furniture_all_shared_frn_all_meatlump_palette_empty:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_all_meatlump_palette_empty, "object/tangible/furniture/all/frn_all_meatlump_palette_empty.iff")

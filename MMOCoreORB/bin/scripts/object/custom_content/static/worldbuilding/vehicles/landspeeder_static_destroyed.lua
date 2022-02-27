@@ -1,0 +1,1 @@
+object_static_worldbuilding_vehicles_landspeeder_static_destroyed = object_static_worldbuilding_vehicles_shared_landspeeder_static_destroyed:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_vehicles_landspeeder_static_destroyed, "object/static/worldbuilding/vehicles/landspeeder_static_destroyed.iff")

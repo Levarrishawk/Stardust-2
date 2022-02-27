@@ -1,0 +1,5 @@
+
+object_tangible_collection_gem_round_hueable_01 = object_tangible_collection_shared_gem_round_hueable_01:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_gem_round_hueable_01, "object/tangible/collection/gem_round_hueable_01.iff")

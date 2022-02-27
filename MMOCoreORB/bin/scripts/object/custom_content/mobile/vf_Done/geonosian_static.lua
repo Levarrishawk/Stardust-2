@@ -1,0 +1,1 @@
+object_mobile_geonosian_static = object_mobile_shared_geonosian_static:new {}ObjectTemplates:addTemplate(object_mobile_geonosian_static, "object/mobile/geonosian_static.iff")

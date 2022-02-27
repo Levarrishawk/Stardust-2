@@ -1,0 +1,3 @@
+object_mobile_storyteller_loveday_ewok_logray = object_mobile_shared_storyteller_loveday_ewok_logray:new {
+}
+ObjectTemplates:addTemplate(object_mobile_storyteller_loveday_ewok_logray, "object/mobile/storyteller_loveday_ewok_logray.iff")

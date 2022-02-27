@@ -1,0 +1,5 @@
+
+object_tangible_collection_rare_melee_hammer_miner = object_tangible_collection_shared_rare_melee_hammer_miner:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_rare_melee_hammer_miner, "object/tangible/collection/rare_melee_hammer_miner.iff")

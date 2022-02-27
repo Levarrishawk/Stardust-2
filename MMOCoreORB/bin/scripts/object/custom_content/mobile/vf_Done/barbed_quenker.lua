@@ -1,0 +1,1 @@
+object_mobile_barbed_quenker = object_mobile_shared_barbed_quenker:new {}ObjectTemplates:addTemplate(object_mobile_barbed_quenker, "object/mobile/barbed_quenker.iff")

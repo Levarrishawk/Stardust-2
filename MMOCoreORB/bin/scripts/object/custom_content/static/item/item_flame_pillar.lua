@@ -1,0 +1,1 @@
+object_static_item_item_flame_pillar = object_static_item_shared_item_flame_pillar:new {}ObjectTemplates:addTemplate(object_static_item_item_flame_pillar, "object/static/item/item_flame_pillar.iff")

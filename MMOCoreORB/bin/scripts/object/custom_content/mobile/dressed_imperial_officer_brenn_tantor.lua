@@ -1,0 +1,5 @@
+object_mobile_dressed_imperial_officer_brenn_tantor = object_mobile_shared_dressed_imperial_officer_brenn_tantor:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_imperial_officer_brenn_tantor, "object/mobile/dressed_imperial_officer_brenn_tantor.iff")

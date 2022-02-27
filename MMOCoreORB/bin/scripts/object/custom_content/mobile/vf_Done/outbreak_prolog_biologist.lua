@@ -1,0 +1,1 @@
+object_mobile_outbreak_prolog_biologist = object_mobile_shared_outbreak_prolog_biologist:new {}ObjectTemplates:addTemplate(object_mobile_outbreak_prolog_biologist, "object/mobile/outbreak_prolog_biologist.iff")

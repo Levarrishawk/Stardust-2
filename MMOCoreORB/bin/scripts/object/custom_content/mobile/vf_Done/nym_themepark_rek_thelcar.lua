@@ -1,0 +1,3 @@
+object_mobile_nym_themepark_rek_thelcar = object_mobile_shared_nym_themepark_rek_thelcar:new {
+}
+ObjectTemplates:addTemplate(object_mobile_nym_themepark_rek_thelcar, "object/mobile/nym_themepark_rek_thelcar.iff")

@@ -1,0 +1,1 @@
+object_static_structure_content_exar_kun_torch_01 = object_static_structure_content_shared_exar_kun_torch_01:new {}ObjectTemplates:addTemplate(object_static_structure_content_exar_kun_torch_01, "object/static/structure/content/exar_kun_torch_01.iff")

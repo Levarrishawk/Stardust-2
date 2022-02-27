@@ -1,0 +1,3 @@
+object_mobile_dressed_outbreak_survivor_canister_demo = object_mobile_shared_dressed_outbreak_survivor_canister_demo:new {
+}
+ObjectTemplates:addTemplate(object_mobile_dressed_outbreak_survivor_canister_demo, "object/mobile/dressed_outbreak_survivor_canister_demo.iff")

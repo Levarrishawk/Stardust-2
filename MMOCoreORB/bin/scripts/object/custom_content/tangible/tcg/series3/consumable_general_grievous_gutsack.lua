@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series3_consumable_general_grievous_gutsack = object_tangible_tcg_series3_shared_consumable_general_grievous_gutsack:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series3_consumable_general_grievous_gutsack, "object/tangible/tcg/series3/consumable_general_grievous_gutsack.iff")

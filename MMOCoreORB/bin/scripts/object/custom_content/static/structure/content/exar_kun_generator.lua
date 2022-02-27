@@ -1,0 +1,1 @@
+object_static_structure_content_exar_kun_generator = object_static_structure_content_shared_exar_kun_generator:new {}ObjectTemplates:addTemplate(object_static_structure_content_exar_kun_generator, "object/static/structure/content/exar_kun_generator.iff")

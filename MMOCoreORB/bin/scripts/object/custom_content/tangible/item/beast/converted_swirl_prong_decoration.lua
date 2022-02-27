@@ -1,0 +1,5 @@
+object_tangible_item_beast_converted_swirl_prong_decoration = object_tangible_item_beast_shared_converted_swirl_prong_decoration:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_beast_converted_swirl_prong_decoration, "object/tangible/item/beast/converted_swirl_prong_decoration.iff")

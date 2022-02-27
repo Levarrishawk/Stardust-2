@@ -1,0 +1,5 @@
+object_tangible_quest_imperial_itp_emperor_security_terminal = object_tangible_quest_imperial_shared_itp_emperor_security_terminal:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_quest_imperial_itp_emperor_security_terminal, "object/tangible/quest/imperial/itp_emperor_security_terminal.iff")

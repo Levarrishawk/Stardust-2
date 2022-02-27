@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_furniture_collection_fish_tank = object_draft_schematic_furniture_shared_furniture_collection_fish_tank:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_collection_fish_tank, "object/draft_schematic/furniture/furniture_collection_fish_tank.iff")

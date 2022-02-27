@@ -1,0 +1,3 @@
+object_mobile_wod_reanimated_witch_04 = object_mobile_shared_wod_reanimated_witch_04:new {
+}
+ObjectTemplates:addTemplate(object_mobile_wod_reanimated_witch_04, "object/mobile/wod_reanimated_witch_04.iff")

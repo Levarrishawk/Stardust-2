@@ -1,0 +1,1 @@
+object_mobile_naboo_lt_maximilian_vox = object_mobile_shared_naboo_lt_maximilian_vox:new {}ObjectTemplates:addTemplate(object_mobile_naboo_lt_maximilian_vox, "object/mobile/naboo_lt_maximilian_vox.iff")

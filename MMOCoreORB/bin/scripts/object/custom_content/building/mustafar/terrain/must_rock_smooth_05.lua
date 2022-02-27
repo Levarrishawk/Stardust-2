@@ -1,0 +1,1 @@
+object_building_mustafar_terrain_must_rock_smooth_05 = object_building_mustafar_terrain_shared_must_rock_smooth_05:new {}ObjectTemplates:addTemplate(object_building_mustafar_terrain_must_rock_smooth_05, "object/building/mustafar/terrain/must_rock_smooth_05.iff")

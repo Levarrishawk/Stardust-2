@@ -1,0 +1,1 @@
+object_static_worldbuilding_furniture_professor_desk = object_static_worldbuilding_furniture_shared_professor_desk:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_furniture_professor_desk, "object/static/worldbuilding/furniture/professor_desk.iff")

@@ -1,0 +1,1 @@
+object_mobile_disappearances_psycho_female_elder = object_mobile_shared_disappearances_psycho_female_elder:new {}ObjectTemplates:addTemplate(object_mobile_disappearances_psycho_female_elder, "object/mobile/disappearances_psycho_female_elder.iff")

@@ -1,0 +1,3 @@
+object_building_general_tatooine_gcw_bunker_01 = object_building_general_shared_tatooine_gcw_bunker_01:new {
+}
+ObjectTemplates:addTemplate(object_building_general_tatooine_gcw_bunker_01, "object/building/general/tatooine_gcw_bunker_01.iff")

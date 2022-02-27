@@ -1,0 +1,1 @@
+object_mobile_ugnaught_static = object_mobile_shared_ugnaught_static:new {}ObjectTemplates:addTemplate(object_mobile_ugnaught_static, "object/mobile/ugnaught_static.iff")

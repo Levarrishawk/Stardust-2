@@ -1,0 +1,5 @@
+object_mobile_incubator_mutation_comm_02 = object_mobile_shared_incubator_mutation_comm_02:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_incubator_mutation_comm_02, "object/mobile/incubator_mutation_comm_02.iff")

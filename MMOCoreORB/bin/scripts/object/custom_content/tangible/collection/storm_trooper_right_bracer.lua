@@ -1,0 +1,5 @@
+
+object_tangible_collection_storm_trooper_right_bracer = object_tangible_collection_shared_storm_trooper_right_bracer:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_storm_trooper_right_bracer, "object/tangible/collection/storm_trooper_right_bracer.iff")

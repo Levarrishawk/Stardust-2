@@ -1,0 +1,1 @@
+object_mobile_storyteller_mara_jade = object_mobile_shared_storyteller_mara_jade:new {}ObjectTemplates:addTemplate(object_mobile_storyteller_mara_jade, "object/mobile/storyteller_mara_jade.iff")

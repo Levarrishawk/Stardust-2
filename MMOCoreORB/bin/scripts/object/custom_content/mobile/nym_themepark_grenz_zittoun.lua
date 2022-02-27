@@ -1,0 +1,1 @@
+object_mobile_nym_themepark_grenz_zittoun = object_mobile_shared_nym_themepark_grenz_zittoun:new {}ObjectTemplates:addTemplate(object_mobile_nym_themepark_grenz_zittoun, "object/mobile/nym_themepark_grenz_zittoun.iff")

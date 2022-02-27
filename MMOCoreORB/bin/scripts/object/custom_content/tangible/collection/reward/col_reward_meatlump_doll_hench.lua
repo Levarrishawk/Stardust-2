@@ -1,0 +1,5 @@
+object_tangible_collection_reward_col_reward_meatlump_doll_hench = object_tangible_collection_reward_shared_col_reward_meatlump_doll_hench:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_col_reward_meatlump_doll_hench, "object/tangible/collection/reward/col_reward_meatlump_doll_hench.iff")

@@ -1,0 +1,3 @@
+object_mobile_outbreak_prison_guard_erlem_marh = object_mobile_shared_outbreak_prison_guard_erlem_marh:new {
+}
+ObjectTemplates:addTemplate(object_mobile_outbreak_prison_guard_erlem_marh, "object/mobile/outbreak_prison_guard_erlem_marh.iff")

@@ -1,0 +1,1 @@
+object_mobile_chiraneau = object_mobile_shared_chiraneau:new {}ObjectTemplates:addTemplate(object_mobile_chiraneau, "object/mobile/chiraneau.iff")

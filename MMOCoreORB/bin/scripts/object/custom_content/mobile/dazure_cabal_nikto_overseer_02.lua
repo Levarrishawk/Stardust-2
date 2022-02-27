@@ -1,0 +1,5 @@
+object_mobile_dazure_cabal_nikto_overseer_02 = object_mobile_shared_dazure_cabal_nikto_overseer_02:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dazure_cabal_nikto_overseer_02, "object/mobile/dazure_cabal_nikto_overseer_02.iff")

@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_generic_bantha_saddle = object_tangible_loot_creature_loot_generic_shared_bantha_saddle:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_generic_bantha_saddle, "object/tangible/loot/creature/loot/generic/bantha_saddle.iff")

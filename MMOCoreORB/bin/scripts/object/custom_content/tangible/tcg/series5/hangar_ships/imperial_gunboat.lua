@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series5_hangar_ships_imperial_gunboat = object_tangible_tcg_series5_hangar_ships_shared_imperial_gunboat:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series5_hangar_ships_imperial_gunboat, "object/tangible/tcg/series5/hangar_ships/imperial_gunboat.iff")

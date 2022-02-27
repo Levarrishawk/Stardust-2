@@ -1,0 +1,1 @@
+object_mobile_dressed_wod_gray_outcast_06 = object_mobile_shared_dressed_wod_gray_outcast_06:new {}ObjectTemplates:addTemplate(object_mobile_dressed_wod_gray_outcast_06, "object/mobile/dressed_wod_gray_outcast_06.iff")

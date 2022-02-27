@@ -1,0 +1,5 @@
+object_tangible_holiday_empire_day_improved_mouse_droid_arm_crate = object_tangible_holiday_empire_day_shared_improved_mouse_droid_arm_crate:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_improved_mouse_droid_arm_crate, "object/tangible/holiday/empire_day/improved_mouse_droid_arm_crate.iff")

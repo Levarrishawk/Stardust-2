@@ -1,0 +1,5 @@
+
+object_tangible_collection_scavenger_part_bag = object_tangible_collection_shared_scavenger_part_bag:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_scavenger_part_bag, "object/tangible/collection/scavenger_part_bag.iff")

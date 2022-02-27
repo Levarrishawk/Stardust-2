@@ -1,0 +1,5 @@
+object_mobile_loveday_disillusion_mister_love = object_mobile_shared_loveday_disillusion_mister_love:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_loveday_disillusion_mister_love, "object/mobile/loveday_disillusion_mister_love.iff")

@@ -1,0 +1,5 @@
+object_mobile_npc_dressed_corellia_faye_patrick = object_mobile_shared_npc_dressed_corellia_faye_patrick:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_npc_dressed_corellia_faye_patrick, "object/mobile/npc_dressed_corellia_faye_patrick.iff")

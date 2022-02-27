@@ -1,0 +1,5 @@
+object_building_player_player_house_tcg_rebel_spire = object_building_player_shared_player_house_tcg_rebel_spire:new {
+
+}
+
+ObjectTemplates:addTemplate(object_building_player_player_house_tcg_rebel_spire, "object/building/player/player_house_tcg_rebel_spire.iff")

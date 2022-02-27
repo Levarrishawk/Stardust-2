@@ -1,0 +1,5 @@
+object_mobile_npc_dressed_corellia_bandor_mokk = object_mobile_shared_npc_dressed_corellia_bandor_mokk:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_npc_dressed_corellia_bandor_mokk, "object/mobile/npc_dressed_corellia_bandor_mokk.iff")

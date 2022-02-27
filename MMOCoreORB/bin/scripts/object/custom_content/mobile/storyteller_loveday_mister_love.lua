@@ -1,0 +1,1 @@
+object_mobile_storyteller_loveday_mister_love = object_mobile_shared_storyteller_loveday_mister_love:new {}ObjectTemplates:addTemplate(object_mobile_storyteller_loveday_mister_love, "object/mobile/storyteller_loveday_mister_love.iff")

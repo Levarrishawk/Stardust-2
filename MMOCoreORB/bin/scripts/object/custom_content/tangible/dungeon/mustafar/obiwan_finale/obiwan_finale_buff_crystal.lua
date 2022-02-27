@@ -1,0 +1,1 @@
+object_tangible_dungeon_mustafar_obiwan_finale_obiwan_finale_buff_crystal = object_tangible_dungeon_mustafar_obiwan_finale_shared_obiwan_finale_buff_crystal:new {}ObjectTemplates:addTemplate(object_tangible_dungeon_mustafar_obiwan_finale_obiwan_finale_buff_crystal, "object/tangible/dungeon/mustafar/obiwan_finale/obiwan_finale_buff_crystal.iff")

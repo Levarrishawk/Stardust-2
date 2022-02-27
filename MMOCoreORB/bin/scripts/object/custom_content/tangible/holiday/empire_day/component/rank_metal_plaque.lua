@@ -1,0 +1,5 @@
+object_tangible_holiday_empire_day_component_rank_metal_plaque = object_tangible_holiday_empire_day_component_shared_rank_metal_plaque:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_component_rank_metal_plaque, "object/tangible/holiday/empire_day/component/rank_metal_plaque.iff")

@@ -1,0 +1,1 @@
+object_mobile_luke_skywalker_static = object_mobile_shared_luke_skywalker_static:new {}ObjectTemplates:addTemplate(object_mobile_luke_skywalker_static, "object/mobile/luke_skywalker_static.iff")

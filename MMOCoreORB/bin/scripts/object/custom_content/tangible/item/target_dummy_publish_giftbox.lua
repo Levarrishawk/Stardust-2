@@ -1,0 +1,5 @@
+object_tangible_item_target_dummy_publish_giftbox = object_tangible_item_shared_target_dummy_publish_giftbox:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_target_dummy_publish_giftbox, "object/tangible/item/target_dummy_publish_giftbox.iff")

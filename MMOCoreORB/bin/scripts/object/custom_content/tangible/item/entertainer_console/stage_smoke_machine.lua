@@ -1,0 +1,5 @@
+object_tangible_item_entertainer_console_stage_smoke_machine = object_tangible_item_entertainer_console_shared_stage_smoke_machine:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_entertainer_console_stage_smoke_machine, "object/tangible/item/entertainer_console/stage_smoke_machine.iff")

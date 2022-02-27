@@ -1,0 +1,5 @@
+object_tangible_item_nuna_egg_flower_stage_01 = object_tangible_item_shared_nuna_egg_flower_stage_01:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_nuna_egg_flower_stage_01, "object/tangible/item/nuna_egg_flower_stage_01.iff")

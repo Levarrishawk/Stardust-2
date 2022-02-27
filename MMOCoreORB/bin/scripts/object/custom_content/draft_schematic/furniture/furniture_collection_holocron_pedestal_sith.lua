@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_furniture_collection_holocron_pedestal_sith = object_draft_schematic_furniture_shared_furniture_collection_holocron_pedestal_sith:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_collection_holocron_pedestal_sith, "object/draft_schematic/furniture/furniture_collection_holocron_pedestal_sith.iff")

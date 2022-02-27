@@ -1,0 +1,5 @@
+object_tangible_furniture_all_frn_all_statuette_cityhall_naboo = object_tangible_furniture_all_shared_frn_all_statuette_cityhall_naboo:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_all_statuette_cityhall_naboo, "object/tangible/furniture/all/frn_all_statuette_cityhall_naboo.iff")

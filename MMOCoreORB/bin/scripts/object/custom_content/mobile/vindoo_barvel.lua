@@ -1,0 +1,1 @@
+object_mobile_vindoo_barvel = object_mobile_shared_vindoo_barvel:new {}ObjectTemplates:addTemplate(object_mobile_vindoo_barvel, "object/mobile/vindoo_barvel.iff")

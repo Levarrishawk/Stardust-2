@@ -1,0 +1,5 @@
+object_tangible_loot_npc_loot_organichem_stores_generic = object_tangible_loot_npc_loot_shared_organichem_stores_generic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_organichem_stores_generic, "object/tangible/loot/npc/loot/organichem_stores_generic.iff")

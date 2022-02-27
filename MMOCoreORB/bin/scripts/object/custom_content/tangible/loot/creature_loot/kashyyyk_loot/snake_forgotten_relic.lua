@@ -1,0 +1,5 @@
+
+object_tangible_loot_creature_loot_kashyyyk_loot_snake_forgotten_relic = object_tangible_loot_creature_loot_kashyyyk_loot_shared_snake_forgotten_relic:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_snake_forgotten_relic, "object/tangible/loot/creature_loot/kashyyyk_loot/snake_forgotten_relic.iff")

@@ -1,0 +1,5 @@
+object_tangible_furniture_cheap_love_seat_hue_s01 = object_tangible_furniture_cheap_shared_love_seat_hue_s01:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_cheap_love_seat_hue_s01, "object/tangible/furniture/cheap/love_seat_hue_s01.iff")

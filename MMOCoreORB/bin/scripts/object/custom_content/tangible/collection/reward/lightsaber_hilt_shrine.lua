@@ -1,0 +1,5 @@
+object_tangible_collection_reward_lightsaber_hilt_shrine = object_tangible_collection_reward_shared_lightsaber_hilt_shrine:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_lightsaber_hilt_shrine, "object/tangible/collection/reward/lightsaber_hilt_shrine.iff")

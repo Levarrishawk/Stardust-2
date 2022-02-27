@@ -1,0 +1,1 @@
+object_mobile_outbreak_delivery_hum_m_02 = object_mobile_shared_outbreak_delivery_hum_m_02:new {}ObjectTemplates:addTemplate(object_mobile_outbreak_delivery_hum_m_02, "object/mobile/outbreak_delivery_hum_m_02.iff")

@@ -1,0 +1,1 @@
+object_mobile_tcg_familiar_hutt_fighter = object_mobile_shared_tcg_familiar_hutt_fighter:new {}ObjectTemplates:addTemplate(object_mobile_tcg_familiar_hutt_fighter, "object/mobile/tcg_familiar_hutt_fighter.iff")

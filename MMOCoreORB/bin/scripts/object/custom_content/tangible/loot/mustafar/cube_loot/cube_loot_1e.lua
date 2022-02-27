@@ -1,0 +1,5 @@
+object_tangible_loot_mustafar_cube_loot_cube_loot_1e = object_tangible_loot_mustafar_cube_loot_shared_cube_loot_1e:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_mustafar_cube_loot_cube_loot_1e, "object/tangible/loot/mustafar/cube/loot/cube_loot_1e.iff")

@@ -1,0 +1,5 @@
+object_tangible_loot_loot_schematic_portable_space_terminal_schematic = object_tangible_loot_loot_schematic_shared_portable_space_terminal_schematic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_loot_schematic_portable_space_terminal_schematic, "object/tangible/loot/loot/schematic/portable_space_terminal_schematic.iff")

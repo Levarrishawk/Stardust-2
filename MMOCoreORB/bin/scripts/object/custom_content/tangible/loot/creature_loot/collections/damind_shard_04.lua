@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_damind_shard_04 = object_tangible_loot_creature_loot_collections_shared_damind_shard_04:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_damind_shard_04, "object/tangible/loot/creature/loot/collections/damind_shard_04.iff")

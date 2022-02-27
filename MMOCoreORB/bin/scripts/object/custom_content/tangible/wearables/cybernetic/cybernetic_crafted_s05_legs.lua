@@ -1,0 +1,5 @@
+
+object_tangible_wearables_cybernetic_cybernetic_crafted_s05_legs = object_tangible_wearables_cybernetic_shared_cybernetic_crafted_s05_legs:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_wearables_cybernetic_cybernetic_crafted_s05_legs, "object/tangible/wearables/cybernetic/cybernetic_crafted_s05_legs.iff")

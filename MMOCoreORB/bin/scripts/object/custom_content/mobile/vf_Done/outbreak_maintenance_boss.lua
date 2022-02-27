@@ -1,0 +1,3 @@
+object_mobile_outbreak_maintenance_boss = object_mobile_shared_outbreak_maintenance_boss:new {
+}
+ObjectTemplates:addTemplate(object_mobile_outbreak_maintenance_boss, "object/mobile/outbreak_maintenance_boss.iff")

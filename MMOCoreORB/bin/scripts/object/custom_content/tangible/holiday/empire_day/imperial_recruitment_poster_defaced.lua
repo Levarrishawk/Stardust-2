@@ -1,0 +1,5 @@
+object_tangible_holiday_empire_day_imperial_recruitment_poster_defaced = object_tangible_holiday_empire_day_shared_imperial_recruitment_poster_defaced:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_imperial_recruitment_poster_defaced, "object/tangible/holiday/empire_day/imperial_recruitment_poster_defaced.iff")

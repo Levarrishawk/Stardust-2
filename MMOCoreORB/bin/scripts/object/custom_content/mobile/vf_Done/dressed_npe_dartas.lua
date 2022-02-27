@@ -1,0 +1,1 @@
+object_mobile_dressed_npe_dartas = object_mobile_shared_dressed_npe_dartas:new {}ObjectTemplates:addTemplate(object_mobile_dressed_npe_dartas, "object/mobile/dressed_npe_dartas.iff")

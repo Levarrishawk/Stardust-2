@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_space_reactor_mark_04_mandal = object_tangible_loot_creature_loot_collections_space_shared_reactor_mark_04_mandal:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_space_reactor_mark_04_mandal, "object/tangible/loot/creature/loot/collections/space/reactor_mark_04_mandal.iff")

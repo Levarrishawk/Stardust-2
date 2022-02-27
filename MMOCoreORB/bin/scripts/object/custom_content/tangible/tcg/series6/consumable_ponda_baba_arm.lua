@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series6_consumable_ponda_baba_arm = object_tangible_tcg_series6_shared_consumable_ponda_baba_arm:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series6_consumable_ponda_baba_arm, "object/tangible/tcg/series6/consumable_ponda_baba_arm.iff")

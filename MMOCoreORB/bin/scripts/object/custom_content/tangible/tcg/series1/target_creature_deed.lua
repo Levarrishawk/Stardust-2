@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series1_target_creature_deed = object_tangible_tcg_series1_shared_target_creature_deed:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series1_target_creature_deed, "object/tangible/tcg/series1/target_creature_deed.iff")

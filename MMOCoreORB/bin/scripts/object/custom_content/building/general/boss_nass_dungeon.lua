@@ -1,0 +1,3 @@
+object_building_general_boss_nass_dungeon = object_building_general_shared_boss_nass_dungeon:new {
+}
+ObjectTemplates:addTemplate(object_building_general_boss_nass_dungeon, "object/building/general/boss_nass_dungeon.iff")

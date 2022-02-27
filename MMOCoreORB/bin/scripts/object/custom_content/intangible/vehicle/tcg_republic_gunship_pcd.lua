@@ -1,0 +1,5 @@
+
+object_intangible_vehicle_tcg_republic_gunship_pcd = object_intangible_vehicle_shared_tcg_republic_gunship_pcd:new {
+
+}
+ObjectTemplates:addTemplate(object_intangible_vehicle_tcg_republic_gunship_pcd, "object/intangible/vehicle/tcg_republic_gunship_pcd.iff")

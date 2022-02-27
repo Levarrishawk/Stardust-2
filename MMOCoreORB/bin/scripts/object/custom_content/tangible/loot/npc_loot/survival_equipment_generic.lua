@@ -1,0 +1,5 @@
+object_tangible_loot_npc_loot_survival_equipment_generic = object_tangible_loot_npc_loot_shared_survival_equipment_generic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_survival_equipment_generic, "object/tangible/loot/npc/loot/survival_equipment_generic.iff")

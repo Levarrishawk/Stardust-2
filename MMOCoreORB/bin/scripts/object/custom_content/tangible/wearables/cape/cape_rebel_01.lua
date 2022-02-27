@@ -1,0 +1,5 @@
+
+object_tangible_wearables_cape_cape_rebel_01 = object_tangible_wearables_cape_shared_cape_rebel_01:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_wearables_cape_cape_rebel_01, "object/tangible/wearables/cape/cape_rebel_01.iff")

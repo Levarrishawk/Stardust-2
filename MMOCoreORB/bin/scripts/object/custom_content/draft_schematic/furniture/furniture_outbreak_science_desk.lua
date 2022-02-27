@@ -1,0 +1,5 @@
+object_draft_schematic_furniture_furniture_outbreak_science_desk = object_draft_schematic_furniture_shared_furniture_outbreak_science_desk:new {
+
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_outbreak_science_desk, "object/draft_schematic/furniture/furniture_outbreak_science_desk.iff")

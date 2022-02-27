@@ -1,0 +1,1 @@
+object_mobile_naboo_sgt_brunser = object_mobile_shared_naboo_sgt_brunser:new {}ObjectTemplates:addTemplate(object_mobile_naboo_sgt_brunser, "object/mobile/naboo_sgt_brunser.iff")

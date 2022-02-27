@@ -1,0 +1,5 @@
+
+object_tangible_collection_rebel_assault_left_bracer = object_tangible_collection_shared_rebel_assault_left_bracer:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_rebel_assault_left_bracer, "object/tangible/collection/rebel_assault_left_bracer.iff")

@@ -1,0 +1,3 @@
+object_static_worldbuilding_terminal_elevator_panel_02 = object_static_worldbuilding_terminal_shared_elevator_panel_02:new {
+}
+ObjectTemplates:addTemplate(object_static_worldbuilding_terminal_elevator_panel_02, "object/static/worldbuilding/terminal/elevator_panel_02.iff")

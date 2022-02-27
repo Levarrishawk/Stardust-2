@@ -1,0 +1,5 @@
+object_mobile_coa_aclo_elite_slicer_human_f = object_mobile_shared_coa_aclo_elite_slicer_human_f:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_coa_aclo_elite_slicer_human_f, "object/mobile/coa_aclo_elite_slicer_human_f.iff")

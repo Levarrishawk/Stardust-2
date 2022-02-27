@@ -1,0 +1,3 @@
+object_mobile_outbreak_prisoner_zsu_val = object_mobile_shared_outbreak_prisoner_zsu_val:new {
+}
+ObjectTemplates:addTemplate(object_mobile_outbreak_prisoner_zsu_val, "object/mobile/outbreak_prisoner_zsu_val.iff")

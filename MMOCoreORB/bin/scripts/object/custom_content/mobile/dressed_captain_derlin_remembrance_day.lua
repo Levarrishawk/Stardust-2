@@ -1,0 +1,5 @@
+object_mobile_dressed_captain_derlin_remembrance_day = object_mobile_shared_dressed_captain_derlin_remembrance_day:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_captain_derlin_remembrance_day, "object/mobile/dressed_captain_derlin_remembrance_day.iff")

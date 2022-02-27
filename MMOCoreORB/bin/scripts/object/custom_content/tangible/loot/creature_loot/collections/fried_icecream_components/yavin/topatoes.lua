@@ -1,0 +1,5 @@
+object_tangible_loot_creature_loot_collections_fried_icecream_components_yavin_topatoes = object_tangible_loot_creature_loot_collections_fried_icecream_components_yavin_shared_topatoes:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_yavin_topatoes, "object/tangible/loot/creature/loot/collections/fried/icecream/components/yavin/topatoes.iff")

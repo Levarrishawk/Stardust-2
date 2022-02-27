@@ -1,0 +1,1 @@
+object_mobile_warren_cracktooth = object_mobile_shared_warren_cracktooth:new {}ObjectTemplates:addTemplate(object_mobile_warren_cracktooth, "object/mobile/warren_cracktooth.iff")

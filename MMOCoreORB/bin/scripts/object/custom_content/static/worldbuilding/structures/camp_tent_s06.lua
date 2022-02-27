@@ -1,0 +1,3 @@
+object_static_worldbuilding_structures_camp_tent_s06 = object_static_worldbuilding_structures_shared_camp_tent_s06:new {
+}
+ObjectTemplates:addTemplate(object_static_worldbuilding_structures_camp_tent_s06, "object/static/worldbuilding/structures/camp_tent_s06.iff")

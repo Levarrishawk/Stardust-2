@@ -1,0 +1,3 @@
+object_building_content_rebel_theme_park_bunker_imperial_small_spy = object_building_content_rebel_theme_park_shared_bunker_imperial_small_spy:new {
+}
+ObjectTemplates:addTemplate(object_building_content_rebel_theme_park_bunker_imperial_small_spy, "object/building/content/rebel_theme_park/bunker_imperial_small_spy.iff")

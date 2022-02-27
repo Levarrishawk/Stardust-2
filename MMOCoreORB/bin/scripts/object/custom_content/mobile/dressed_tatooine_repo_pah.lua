@@ -1,0 +1,3 @@
+object_mobile_dressed_tatooine_repo_pah = object_mobile_shared_dressed_tatooine_repo_pah:new {
+}
+ObjectTemplates:addTemplate(object_mobile_dressed_tatooine_repo_pah, "object/mobile/dressed_tatooine_repo_pah.iff")

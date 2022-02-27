@@ -1,0 +1,5 @@
+
+object_tangible_collection_rare_carbine_firestar_10_k = object_tangible_collection_shared_rare_carbine_firestar_10_k:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_rare_carbine_firestar_10_k, "object/tangible/collection/rare_carbine_firestar_10_k.iff")

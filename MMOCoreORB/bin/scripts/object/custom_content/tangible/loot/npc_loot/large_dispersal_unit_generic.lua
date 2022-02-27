@@ -1,0 +1,5 @@
+object_tangible_loot_npc_loot_large_dispersal_unit_generic = object_tangible_loot_npc_loot_shared_large_dispersal_unit_generic:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_large_dispersal_unit_generic, "object/tangible/loot/npc/loot/large_dispersal_unit_generic.iff")

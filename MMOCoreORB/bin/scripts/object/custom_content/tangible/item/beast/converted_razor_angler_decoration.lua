@@ -1,0 +1,5 @@
+object_tangible_item_beast_converted_razor_angler_decoration = object_tangible_item_beast_shared_converted_razor_angler_decoration:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_item_beast_converted_razor_angler_decoration, "object/tangible/item/beast/converted_razor_angler_decoration.iff")

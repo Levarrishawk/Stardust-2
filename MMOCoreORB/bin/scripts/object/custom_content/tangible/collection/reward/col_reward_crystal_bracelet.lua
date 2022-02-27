@@ -1,0 +1,5 @@
+object_tangible_collection_reward_col_reward_crystal_bracelet = object_tangible_collection_reward_shared_col_reward_crystal_bracelet:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_col_reward_crystal_bracelet, "object/tangible/collection/reward/col_reward_crystal_bracelet.iff")

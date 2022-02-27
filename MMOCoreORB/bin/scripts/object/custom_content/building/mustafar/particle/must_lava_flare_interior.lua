@@ -1,0 +1,1 @@
+object_building_mustafar_particle_must_lava_flare_interior = object_building_mustafar_particle_shared_must_lava_flare_interior:new {}ObjectTemplates:addTemplate(object_building_mustafar_particle_must_lava_flare_interior, "object/building/mustafar/particle/must_lava_flare_interior.iff")

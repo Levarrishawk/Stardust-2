@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series8_decorative_r2d2_dagobah = object_tangible_tcg_series8_shared_decorative_r2d2_dagobah:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series8_decorative_r2d2_dagobah, "object/tangible/tcg/series8/decorative_r2d2_dagobah.iff")

@@ -1,0 +1,1 @@
+object_mobile_nym_themepark_quatermaster = object_mobile_shared_nym_themepark_quatermaster:new {}ObjectTemplates:addTemplate(object_mobile_nym_themepark_quatermaster, "object/mobile/nym_themepark_quatermaster.iff")

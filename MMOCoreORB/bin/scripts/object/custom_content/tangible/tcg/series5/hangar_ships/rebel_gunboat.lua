@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series5_hangar_ships_rebel_gunboat = object_tangible_tcg_series5_hangar_ships_shared_rebel_gunboat:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series5_hangar_ships_rebel_gunboat, "object/tangible/tcg/series5/hangar_ships/rebel_gunboat.iff")

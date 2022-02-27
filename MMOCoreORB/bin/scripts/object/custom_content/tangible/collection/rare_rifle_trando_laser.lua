@@ -1,0 +1,5 @@
+
+object_tangible_collection_rare_rifle_trando_laser = object_tangible_collection_shared_rare_rifle_trando_laser:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_rare_rifle_trando_laser, "object/tangible/collection/rare_rifle_trando_laser.iff")

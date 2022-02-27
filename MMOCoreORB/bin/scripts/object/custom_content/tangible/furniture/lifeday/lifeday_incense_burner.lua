@@ -1,0 +1,3 @@
+object_tangible_furniture_lifeday_lifeday_incense_burner = object_tangible_furniture_lifeday_shared_lifeday_incense_burner:new {
+}
+ObjectTemplates:addTemplate(object_tangible_furniture_lifeday_lifeday_incense_burner, "object/tangible/furniture/lifeday/lifeday_incense_burner.iff")

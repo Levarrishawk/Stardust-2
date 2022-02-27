@@ -1,0 +1,5 @@
+
+object_tangible_collection_rare_rifle_doom_bringer_dp_23 = object_tangible_collection_shared_rare_rifle_doom_bringer_dp_23:new {
+
+gameObjectType = 8211,}
+ObjectTemplates:addTemplate(object_tangible_collection_rare_rifle_doom_bringer_dp_23, "object/tangible/collection/rare_rifle_doom_bringer_dp_23.iff")

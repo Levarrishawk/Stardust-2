@@ -1,0 +1,5 @@
+object_mobile_dressed_corellian_slavemaster = object_mobile_shared_dressed_corellian_slavemaster:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_corellian_slavemaster, "object/mobile/dressed_corellian_slavemaster.iff")

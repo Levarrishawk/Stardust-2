@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series4_consumable_ball_of_peace = object_tangible_tcg_series4_shared_consumable_ball_of_peace:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series4_consumable_ball_of_peace, "object/tangible/tcg/series4/consumable_ball_of_peace.iff")

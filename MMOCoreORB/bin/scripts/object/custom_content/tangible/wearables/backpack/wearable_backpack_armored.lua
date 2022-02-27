@@ -1,0 +1,5 @@
+object_tangible_wearables_backpack_wearable_backpack_armored = object_tangible_wearables_backpack_shared_wearable_backpack_armored:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_wearables_backpack_wearable_backpack_armored, "object/tangible/wearables/backpack/wearable_backpack_armored.iff")

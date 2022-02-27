@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series1_consumable_versafunction88_datapad = object_tangible_tcg_series1_shared_consumable_versafunction88_datapad:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series1_consumable_versafunction88_datapad, "object/tangible/tcg/series1/consumable_versafunction88_datapad.iff")

@@ -1,44 +1,4 @@
---Copyright (C) 2007 <SWGEmu>
- 
---This File is part of Core3.
- 
---This program is free software; you can redistribute 
---it and/or modify it under the terms of the GNU Lesser 
---General Public License as published by the Free Software
---Foundation; either version 2 of the License, 
---or (at your option) any later version.
- 
---This program is distributed in the hope that it will be useful, 
---but WITHOUT ANY WARRANTY; without even the implied warranty of 
---MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
---See the GNU Lesser General Public License for
---more details.
- 
---You should have received a copy of the GNU Lesser General 
---Public License along with this program; if not, write to
---the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
- 
---Linking Engine3 statically or dynamically with other modules 
---is making a combined work based on Engine3. 
---Thus, the terms and conditions of the GNU Lesser General Public License 
---cover the whole combination.
- 
---In addition, as a special exception, the copyright holders of Engine3 
---give you permission to combine Engine3 program with free software 
---programs or libraries that are released under the GNU LGPL and with 
---code included in the standard release of Core3 under the GNU LGPL 
---license (or modified versions of such code, with unchanged license). 
---You may copy and distribute such a system following the terms of the 
---GNU LGPL for Engine3 and the licenses of the other code concerned, 
---provided that you include the source code of that other code when 
---and as the GNU LGPL requires distribution of source code.
- 
---Note that people who make modified versions of Engine3 are not obligated 
---to grant this special exception for their modified versions; 
---it is their choice whether to do so. The GNU Lesser General Public License 
---gives permission to release a modified version without this exception; 
---this exception also makes it possible to release a modified version 
---which carries forward this exception.
+
 
 includeFile("object.lua")
 includeFile("SharedObjectTemplate.lua")
@@ -732,6 +692,7 @@ includeFile("tangible/vendor/objects.lua")
 includeFile("tangible/veteran_reward/one_year_anniversary/objects.lua")
 includeFile("tangible/veteran_reward/objects.lua")
 includeFile("tangible/wearables/apron/objects.lua")
+-- Armors
 includeFile("tangible/wearables/armor/bone/objects.lua")
 includeFile("tangible/wearables/armor/bounty_hunter/objects.lua")
 includeFile("tangible/wearables/armor/chitin/objects.lua")
@@ -754,6 +715,7 @@ includeFile("tangible/wearables/armor/tantel/objects.lua")
 includeFile("tangible/wearables/armor/ubese/objects.lua")
 includeFile("tangible/wearables/armor/zam/objects.lua")
 includeFile("tangible/wearables/armor/objects.lua")
+
 includeFile("tangible/wearables/backpack/objects.lua")
 includeFile("tangible/wearables/bandolier/objects.lua")
 includeFile("tangible/wearables/base/objects.lua")
@@ -784,8 +746,10 @@ includeFile("tangible/wearables/utility/objects.lua")
 includeFile("tangible/wearables/vest/objects.lua")
 includeFile("tangible/wearables/wookiee/objects.lua")
 includeFile("tangible/wearables/objects.lua")
+
 includeFile("tangible/weather_object/objects.lua")
 includeFile("tangible/objects.lua")
+
 includeFile("token/base/objects.lua")
 includeFile("token/objects.lua")
 includeFile("universe/base/objects.lua")
@@ -836,3 +800,277 @@ includeFile("weapon/ranged/objects.lua")
 includeFile("weapon/trap/objects.lua")
 includeFile("weapon/objects.lua")
 
+
+
+--   Custom_content
+includeFile("custom_content/mobile/objects.lua")
+includeFile("custom_content/mobile/ep3/objects.lua")
+includeFile("custom_content/mobile/npe/objects.lua")
+includeFile("custom_content/mobile/som/objects.lua")
+includeFile("custom_content/mobile/vehicle/objects.lua")
+
+
+--[[
+includeFile("custom_content/building/content/objects.lua")
+includeFile("custom_content/building/content/aurilia/objects.lua")
+includeFile("custom_content/building/content/aurilia/loot/objects.lua")
+includeFile("custom_content/building/content/imperial_theme_park/objects.lua")
+includeFile("custom_content/building/content/meatlump/objects.lua")
+includeFile("custom_content/building/content/nova_orion_station/objects.lua")
+includeFile("custom_content/building/content/rebel_theme_park/objects.lua")
+includeFile("custom_content/building/dathomir/objects.lua")
+includeFile("custom_content/building/endor/objects.lua")
+includeFile("custom_content/building/general/objects.lua")
+includeFile("custom_content/building/heroic/objects.lua")
+includeFile("custom_content/building/kashyyyk/objects.lua")
+includeFile("custom_content/building/military/objects.lua")
+includeFile("custom_content/building/mustafar/dungeon/objects.lua")
+includeFile("custom_content/building/mustafar/dungeon/escape_tunnel/objects.lua")
+includeFile("custom_content/building/mustafar/dungeon/establish_uplink/objects.lua")
+includeFile("custom_content/building/mustafar/dungeon/lava_cave/objects.lua")
+includeFile("custom_content/building/mustafar/dungeon/mining_tunnel_01/objects.lua")
+includeFile("custom_content/building/mustafar/dungeon/mining_tunnel_02/objects.lua")
+includeFile("custom_content/building/mustafar/dungeon/monster_lair/objects.lua")
+includeFile("custom_content/building/mustafar/dungeon/obiwan_finale/objects.lua")
+includeFile("custom_content/building/mustafar/items/objects.lua")
+includeFile("custom_content/building/mustafar/particle/objects.lua")
+includeFile("custom_content/building/mustafar/structures/objects.lua")
+includeFile("custom_content/building/mustafar/terrain/objects.lua")
+includeFile("custom_content/building/mustafar/terrain/creature_lairs/objects.lua")
+includeFile("custom_content/building/naboo/objects.lua")
+includeFile("custom_content/building/player/objects.lua")
+includeFile("custom_content/building/player/city/objects.lua")
+includeFile("custom_content/building/player/construction/objects.lua")
+includeFile("custom_content/building/poi/objects.lua")
+includeFile("custom_content/building/restuss/objects.lua")
+includeFile("custom_content/building/tatooine/objects.lua")
+
+includeFile("custom_content/intangible/vehicle/objects.lua")
+
+includeFile("custom_content/static/base/objects.lua")
+includeFile("custom_content/static/christmas/objects.lua")
+includeFile("custom_content/static/creature/objects.lua")
+includeFile("custom_content/static/firework/objects.lua")
+includeFile("custom_content/static/flora/objects.lua")
+includeFile("custom_content/static/halloween/objects.lua")
+includeFile("custom_content/static/installation/objects.lua")
+includeFile("custom_content/static/item/objects.lua")
+includeFile("custom_content/static/particle/objects.lua")
+includeFile("custom_content/static/structure/content/objects.lua")
+includeFile("custom_content/static/structure/content/meatlump/objects.lua")
+includeFile("custom_content/static/structure/dathomir/objects.lua")
+includeFile("custom_content/static/structure/general/objects.lua")
+includeFile("custom_content/static/structure/hoth/objects.lua")
+includeFile("custom_content/static/structure/military/objects.lua")
+includeFile("custom_content/static/structure/nobuild/objects.lua")
+includeFile("custom_content/static/structure/tatooine/objects.lua")
+includeFile("custom_content/static/terrain/all/objects.lua")
+includeFile("custom_content/static/vehicle/objects.lua")
+
+includeFile("custom_content/static/worldbuilding/objects.lua")
+includeFile("custom_content/static/worldbuilding/art/objects.lua")
+includeFile("custom_content/static/worldbuilding/building/objects.lua")
+includeFile("custom_content/static/worldbuilding/camping/objects.lua")
+includeFile("custom_content/static/worldbuilding/decal/objects.lua")
+includeFile("custom_content/static/worldbuilding/furniture/objects.lua")
+includeFile("custom_content/static/worldbuilding/furniture/cheap/objects.lua")
+includeFile("custom_content/static/worldbuilding/mechanical/objects.lua")
+includeFile("custom_content/static/worldbuilding/mechanical/ship_parts/objects.lua")
+includeFile("custom_content/static/worldbuilding/organic/objects.lua")
+includeFile("custom_content/static/worldbuilding/sign/objects.lua")
+includeFile("custom_content/static/worldbuilding/structures/objects.lua")
+includeFile("custom_content/static/worldbuilding/terminal/objects.lua")
+includeFile("custom_content/static/worldbuilding/vegitation/objects.lua")
+includeFile("custom_content/static/worldbuilding/vehicles/objects.lua")
+
+includeFile("custom_content/tangible/deed/vehicle_deed/objects.lua")
+
+includeFile("custom_content/tangible/furniture/all/objects.lua")
+includeFile("custom_content/tangible/furniture/cheap/objects.lua")
+includeFile("custom_content/tangible/furniture/city/objects.lua")
+includeFile("custom_content/tangible/furniture/decorative/objects.lua")
+includeFile("custom_content/tangible/furniture/efol/objects.lua")
+includeFile("custom_content/tangible/furniture/elegant/objects.lua")
+includeFile("custom_content/tangible/furniture/ep3_rewards/objects.lua")
+includeFile("custom_content/tangible/furniture/gcw/objects.lua")
+includeFile("custom_content/tangible/furniture/house_cleanup/objects.lua")
+includeFile("custom_content/tangible/furniture/jedi/objects.lua")
+includeFile("custom_content/tangible/furniture/lifeday/objects.lua")
+includeFile("custom_content/tangible/furniture/modern/objects.lua")
+includeFile("custom_content/tangible/furniture/nym_themepark/objects.lua")
+includeFile("custom_content/tangible/furniture/nym_themepark/collection/objects.lua")
+includeFile("custom_content/tangible/furniture/rustic/objects.lua")
+includeFile("custom_content/tangible/furniture/tatooine/objects.lua")
+includeFile("custom_content/tangible/furniture/technical/objects.lua")
+includeFile("custom_content/tangible/furniture/terminal/objects.lua")
+includeFile("custom_content/tangible/furniture/wod_themepark/objects.lua")
+
+includeFile("custom_content/tangible/painting/objects.lua")
+
+includeFile("custom_content/tangible/wearables/backpack/objects.lua")
+includeFile("custom_content/tangible/wearables/cape/objects.lua")
+includeFile("custom_content/tangible/wearables/cybernetic/objects.lua")
+includeFile("custom_content/tangible/wearables/cybernetic/s01/objects.lua")
+includeFile("custom_content/tangible/wearables/cybernetic/s02/objects.lua")
+includeFile("custom_content/tangible/wearables/cybernetic/s03/objects.lua")
+includeFile("custom_content/tangible/wearables/cybernetic/s04/objects.lua")
+includeFile("custom_content/tangible/wearables/cybernetic/s05/objects.lua")
+includeFile("custom_content/tangible/wearables/hat/objects.lua")
+includeFile("custom_content/tangible/wearables/jacket/objects.lua")
+
+-- Additions
+
+includeFile("custom_content/tangible/collection/reward/objects.lua")
+includeFile("custom_content/tangible/collection/objects.lua")
+
+
+includeFile("custom_content/tangible/dungeon/objects.lua")
+includeFile("custom_content/tangible/dungeon/mustafar/objects.lua")
+includeFile("custom_content/tangible/dungeon/mustafar/decrepit_droid_factory/objects.lua")
+includeFile("custom_content/tangible/dungeon/mustafar/obiwan_finale/objects.lua")
+includeFile("custom_content/tangible/dungeon/mustafar/old_republic_facility/objects.lua")
+includeFile("custom_content/tangible/dungeon/mustafar/uplink_trial/objects.lua")
+includeFile("custom_content/tangible/dungeon/mustafar/valley_battlefield/objects.lua")
+includeFile("custom_content/tangible/dungeon/mustafar/volcano_battlefield/objects.lua")
+includeFile("custom_content/tangible/dungeon/mustafar/working_droid_factory/objects.lua")
+
+includeFile("custom_content/tangible/dungeon/avatar_platform/objects.lua")
+includeFile("custom_content/tangible/dungeon/hoth/objects.lua")
+includeFile("custom_content/tangible/dungeon/restuss_event/objects.lua")
+
+includeFile("custom_content/tangible/hologram/objects.lua")
+
+includeFile("custom_content/tangible/item/objects.lua")
+includeFile("custom_content/tangible/item/beast/objects.lua")
+includeFile("custom_content/tangible/item/beast/barn_lite/objects.lua")
+includeFile("custom_content/tangible/item/costume_kit/objects.lua")
+includeFile("custom_content/tangible/item/entertainer_console/objects.lua")
+includeFile("custom_content/tangible/item/ep3/objects.lua")
+includeFile("custom_content/tangible/item/kashyyyk/objects.lua")
+includeFile("custom_content/tangible/item/market/objects.lua")
+includeFile("custom_content/tangible/item/quest/force_sensitive/objects.lua")
+includeFile("custom_content/tangible/item/skillmod/objects.lua")
+includeFile("custom_content/tangible/item/som/objects.lua")
+includeFile("custom_content/tangible/item/treasure_map/objects.lua")
+
+includeFile("custom_content/tangible/loot/objects.lua")
+includeFile("custom_content/tangible/loot/beast/objects.lua")
+
+includeFile("custom_content/tangible/loot/creature_loot/objects.lua")
+includeFile("custom_content/tangible/loot/creature_loot/collections/objects.lua")
+
+includeFile("custom_content/tangible/loot/creature_loot/collections/fried_icecream_components/corellia/objects.lua")
+includeFile("custom_content/tangible/loot/creature_loot/collections/fried_icecream_components/dantooine/objects.lua")
+includeFile("custom_content/tangible/loot/creature_loot/collections/fried_icecream_components/dathomir/objects.lua")
+includeFile("custom_content/tangible/loot/creature_loot/collections/fried_icecream_components/endor/objects.lua")
+includeFile("custom_content/tangible/loot/creature_loot/collections/fried_icecream_components/naboo/objects.lua")
+includeFile("custom_content/tangible/loot/creature_loot/collections/fried_icecream_components/tatooine/objects.lua")
+includeFile("custom_content/tangible/loot/creature_loot/collections/fried_icecream_components/yavin/objects.lua")
+includeFile("custom_content/tangible/loot/creature_loot/collections/space/objects.lua")
+
+includeFile("custom_content/tangible/loot/creature_loot/generic/objects.lua")
+includeFile("custom_content/tangible/loot/creature_loot/kashyyyk_loot/objects.lua")
+includeFile("custom_content/tangible/loot/generic/objects.lua")
+includeFile("custom_content/tangible/loot/generic_deed/objects.lua")
+includeFile("custom_content/tangible/loot/generic_usable/objects.lua")
+includeFile("custom_content/tangible/loot/loot_schematic/objects.lua")
+includeFile("custom_content/tangible/loot/misc/objects.lua")
+includeFile("custom_content/tangible/loot/mustafar/objects.lua")
+includeFile("custom_content/tangible/loot/mustafar/cube_loot/objects.lua")
+includeFile("custom_content/tangible/loot/npc_loot/objects.lua")
+includeFile("custom_content/tangible/loot/quest/objects.lua")
+includeFile("custom_content/tangible/loot/quest/hero_of_tatooine/objects.lua")
+includeFile("custom_content/tangible/loot/quest/nova_orion/objects.lua")
+includeFile("custom_content/tangible/loot/quest/npe/objects.lua")
+includeFile("custom_content/tangible/loot/simple_kit/objects.lua")
+includeFile("custom_content/tangible/loot/undead/objects.lua")
+
+
+includeFile("custom_content/tangible/npe/objects.lua")
+
+includeFile("custom_content/tangible/quest/objects.lua")
+includeFile("custom_content/tangible/quest/corellia/objects.lua")
+includeFile("custom_content/tangible/quest/content/objects.lua")
+includeFile("custom_content/tangible/quest/empire_day/objects.lua")
+includeFile("custom_content/tangible/quest/heroic/objects.lua")
+includeFile("custom_content/tangible/quest/imperial/objects.lua")
+includeFile("custom_content/tangible/quest/meatlump/objects.lua")
+includeFile("custom_content/tangible/quest/nova_orion/objects.lua")
+includeFile("custom_content/tangible/quest/outbreak/objects.lua")
+includeFile("custom_content/tangible/quest/quest_start/objects.lua")
+includeFile("custom_content/tangible/quest/rebel/objects.lua")
+includeFile("custom_content/tangible/quest/story_loot/objects.lua")
+includeFile("custom_content/tangible/quest/township/objects.lua")
+includeFile("custom_content/tangible/quest/wave_event/objects.lua")
+includeFile("custom_content/tangible/quest/wod/objects.lua")
+
+includeFile("custom_content/tangible/veteran_reward/objects.lua")
+includeFile("custom_content/tangible/veteran_reward/one_year_anniversary/objects.lua")
+
+includeFile("custom_content/tangible/tcg/objects.lua")
+includeFile("custom_content/tangible/tcg/series1/objects.lua")
+includeFile("custom_content/tangible/tcg/series3/objects.lua")
+includeFile("custom_content/tangible/tcg/series4/objects.lua")
+includeFile("custom_content/tangible/tcg/series5/objects.lua")
+includeFile("custom_content/tangible/tcg/series5/hangar_ships/objects.lua")
+includeFile("custom_content/tangible/tcg/series6/objects.lua")
+includeFile("custom_content/tangible/tcg/series7/objects.lua")
+includeFile("custom_content/tangible/tcg/series7/garage_display_vehicles/objects.lua")
+includeFile("custom_content/tangible/tcg/series8/objects.lua")
+
+includeFile("custom_content/tangible/smuggler/objects.lua")
+includeFile("custom_content/tangible/smuggler/contraband/objects.lua")
+
+includeFile("custom_content/tangible/door/objects.lua")
+includeFile("tangible/loot/creature_loot/collections/objects.lua")
+includeFile("tangible/smuggler/contraband/objects.lua")
+includeFile("tangible/smuggler/objects.lua")
+
+includeFile("custom_content/tangible/holiday/empire_day/objects.lua")
+includeFile("custom_content/tangible/holiday/empire_day/component/objects.lua")
+includeFile("custom_content/tangible/holiday/life_day/objects.lua")
+includeFile("custom_content/tangible/holiday/life_day/rewards_09/objects.lua")
+includeFile("custom_content/tangible/holiday/love_day/objects.lua")
+includeFile("custom_content/tangible/holiday/love_day/rewards_10/objects.lua")
+includeFile("custom_content/tangible/holiday/love_day/rewards_11/objects.lua")
+
+
+--  ARMORED CLOTHING
+
+includeFile("draft_schematic/armored_clothing/objects.lua")
+includeFile("tangible/wearables/armored_clothing/boots/objects.lua")
+includeFile("tangible/wearables/armored_clothing/hat/objects.lua")
+includeFile("tangible/wearables/armored_clothing/ithorian/objects.lua")
+includeFile("tangible/wearables/armored_clothing/jacket/objects.lua")
+includeFile("tangible/wearables/armored_clothing/pants/objects.lua")
+includeFile("tangible/wearables/armored_clothing/robe/objects.lua")
+includeFile("tangible/wearables/armored_clothing/skirt/objects.lua")
+
+-- More furniture
+includeFile("custom_content/draft_schematic/furniture/objects.lua")
+includeFile("custom_content/draft_schematic/furniture/city/objects.lua")
+
+-- Elysium
+includeFile("static/structure/elysium/objects.lua")
+includeFile("tangible/loot/dungeon/objects.lua")
+includeFile("tangible/loot/base/objects.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/objects.lua")
+
+-- Custom Armors
+includeFile("tangible/wearables/armor/assault_trooper/objects.lua")
+includeFile("tangible/wearables/armor/clone_trooper/objects.lua")
+includeFile("tangible/wearables/armor/deathtrooper/objects.lua")
+includeFile("tangible/wearables/armor/galactic_marine/objects.lua")
+includeFile("tangible/wearables/armor/infiltrator/objects.lua")
+includeFile("tangible/wearables/armor/mandalorian_imperial/objects.lua")
+includeFile("tangible/wearables/armor/mandalorian_sabine/objects.lua")
+includeFile("tangible/wearables/armor/mandalorian_rebel/objects.lua")
+includeFile("tangible/wearables/armor/rebel_assault/objects.lua")
+includeFile("tangible/wearables/armor/rebel_battle/objects.lua")
+includeFile("tangible/wearables/armor/rebel_snow/objects.lua")
+includeFile("tangible/wearables/armor/rebel_spec_force/objects.lua")
+includeFile("tangible/wearables/armor/scout_trooper/objects.lua")
+includeFile("tangible/wearables/armor/snowtrooper/objects.lua")
+includeFile("tangible/wearables/armor/veers/objects.lua")
+
+--]]

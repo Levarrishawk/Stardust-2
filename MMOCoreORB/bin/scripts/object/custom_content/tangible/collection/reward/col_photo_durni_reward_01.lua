@@ -1,0 +1,5 @@
+object_tangible_collection_reward_col_photo_durni_reward_01 = object_tangible_collection_reward_shared_col_photo_durni_reward_01:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_collection_reward_col_photo_durni_reward_01, "object/tangible/collection/reward/col_photo_durni_reward_01.iff")

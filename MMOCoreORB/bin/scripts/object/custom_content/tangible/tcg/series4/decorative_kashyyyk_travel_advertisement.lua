@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series4_decorative_kashyyyk_travel_advertisement = object_tangible_tcg_series4_shared_decorative_kashyyyk_travel_advertisement:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series4_decorative_kashyyyk_travel_advertisement, "object/tangible/tcg/series4/decorative_kashyyyk_travel_advertisement.iff")

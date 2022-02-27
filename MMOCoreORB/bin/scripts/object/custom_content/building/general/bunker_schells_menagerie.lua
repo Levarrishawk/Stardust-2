@@ -1,0 +1,3 @@
+object_building_general_bunker_schells_menagerie = object_building_general_shared_bunker_schells_menagerie:new {
+}
+ObjectTemplates:addTemplate(object_building_general_bunker_schells_menagerie, "object/building/general/bunker_schells_menagerie.iff")

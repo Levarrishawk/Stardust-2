@@ -1,0 +1,5 @@
+object_tangible_furniture_tatooine_uber_energy_coil = object_tangible_furniture_tatooine_shared_uber_energy_coil:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_tatooine_uber_energy_coil, "object/tangible/furniture/tatooine/uber_energy_coil.iff")

@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series4_mount_deed_peko_peko = object_tangible_tcg_series4_shared_mount_deed_peko_peko:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series4_mount_deed_peko_peko, "object/tangible/tcg/series4/mount_deed_peko_peko.iff")

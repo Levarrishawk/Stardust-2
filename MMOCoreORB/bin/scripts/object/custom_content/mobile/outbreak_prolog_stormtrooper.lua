@@ -1,0 +1,1 @@
+object_mobile_outbreak_prolog_stormtrooper = object_mobile_shared_outbreak_prolog_stormtrooper:new {}ObjectTemplates:addTemplate(object_mobile_outbreak_prolog_stormtrooper, "object/mobile/outbreak_prolog_stormtrooper.iff")

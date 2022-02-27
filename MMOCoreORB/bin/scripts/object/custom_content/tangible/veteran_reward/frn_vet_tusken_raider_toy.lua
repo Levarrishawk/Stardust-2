@@ -1,0 +1,3 @@
+object_tangible_veteran_reward_frn_vet_tusken_raider_toy = object_tangible_veteran_reward_shared_frn_vet_tusken_raider_toy:new {
+}
+ObjectTemplates:addTemplate(object_tangible_veteran_reward_frn_vet_tusken_raider_toy, "object/tangible/veteran_reward/frn_vet_tusken_raider_toy.iff")

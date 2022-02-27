@@ -1,0 +1,3 @@
+object_mobile_dressed_imperial_mechanic_nils_cridmeen = object_mobile_shared_dressed_imperial_mechanic_nils_cridmeen:new {
+}
+ObjectTemplates:addTemplate(object_mobile_dressed_imperial_mechanic_nils_cridmeen, "object/mobile/dressed_imperial_mechanic_nils_cridmeen.iff")

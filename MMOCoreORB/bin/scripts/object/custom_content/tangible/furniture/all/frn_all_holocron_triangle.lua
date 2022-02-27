@@ -1,0 +1,5 @@
+object_tangible_furniture_all_frn_all_holocron_triangle = object_tangible_furniture_all_shared_frn_all_holocron_triangle:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_all_holocron_triangle, "object/tangible/furniture/all/frn_all_holocron_triangle.iff")

@@ -1,0 +1,1 @@
+object_building_mustafar_terrain_creature_lairs_must_tulrus_lair = object_building_mustafar_terrain_creature_lairs_shared_must_tulrus_lair:new {}ObjectTemplates:addTemplate(object_building_mustafar_terrain_creature_lairs_must_tulrus_lair, "object/building/mustafar/terrain/creature_lairs/must_tulrus_lair.iff")

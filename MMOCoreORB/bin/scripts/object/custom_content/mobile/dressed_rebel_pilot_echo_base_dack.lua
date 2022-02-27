@@ -1,0 +1,5 @@
+object_mobile_dressed_rebel_pilot_echo_base_dack = object_mobile_shared_dressed_rebel_pilot_echo_base_dack:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_rebel_pilot_echo_base_dack, "object/mobile/dressed_rebel_pilot_echo_base_dack.iff")

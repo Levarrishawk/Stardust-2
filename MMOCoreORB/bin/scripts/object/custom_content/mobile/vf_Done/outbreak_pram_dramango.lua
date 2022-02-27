@@ -1,0 +1,1 @@
+object_mobile_outbreak_pram_dramango = object_mobile_shared_outbreak_pram_dramango:new {}ObjectTemplates:addTemplate(object_mobile_outbreak_pram_dramango, "object/mobile/outbreak_pram_dramango.iff")

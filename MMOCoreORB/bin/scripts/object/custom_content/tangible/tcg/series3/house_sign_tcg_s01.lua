@@ -1,0 +1,5 @@
+
+object_tangible_tcg_series3_house_sign_tcg_s01 = object_tangible_tcg_series3_shared_house_sign_tcg_s01:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_tcg_series3_house_sign_tcg_s01, "object/tangible/tcg/series3/house_sign_tcg_s01.iff")

@@ -1,0 +1,5 @@
+object_tangible_holiday_empire_day_command_console_comscan_subcomponent_crate = object_tangible_holiday_empire_day_shared_command_console_comscan_subcomponent_crate:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_command_console_comscan_subcomponent_crate, "object/tangible/holiday/empire_day/command_console_comscan_subcomponent_crate.iff")

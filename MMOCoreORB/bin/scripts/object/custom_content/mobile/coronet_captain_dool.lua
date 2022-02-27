@@ -1,0 +1,1 @@
+object_mobile_coronet_captain_dool = object_mobile_shared_coronet_captain_dool:new {}ObjectTemplates:addTemplate(object_mobile_coronet_captain_dool, "object/mobile/coronet_captain_dool.iff")

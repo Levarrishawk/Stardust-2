@@ -1,0 +1,5 @@
+object_mobile_dressed_tatooine_tosche_sorna = object_mobile_shared_dressed_tatooine_tosche_sorna:new {
+
+}
+
+ObjectTemplates:addTemplate(object_mobile_dressed_tatooine_tosche_sorna, "object/mobile/dressed_tatooine_tosche_sorna.iff")

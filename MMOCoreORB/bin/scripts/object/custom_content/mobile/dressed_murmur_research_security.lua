@@ -1,0 +1,3 @@
+object_mobile_dressed_murmur_research_security = object_mobile_shared_dressed_murmur_research_security:new {
+}
+ObjectTemplates:addTemplate(object_mobile_dressed_murmur_research_security, "object/mobile/dressed_murmur_research_security.iff")

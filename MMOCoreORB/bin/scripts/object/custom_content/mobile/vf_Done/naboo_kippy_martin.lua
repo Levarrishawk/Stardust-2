@@ -1,0 +1,1 @@
+object_mobile_naboo_kippy_martin = object_mobile_shared_naboo_kippy_martin:new {}ObjectTemplates:addTemplate(object_mobile_naboo_kippy_martin, "object/mobile/naboo_kippy_martin.iff")

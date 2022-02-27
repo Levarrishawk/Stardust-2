@@ -1,0 +1,1 @@
+object_static_structure_content_meatlump_meatlump_king_scepter = object_static_structure_content_meatlump_shared_meatlump_king_scepter:new {}ObjectTemplates:addTemplate(object_static_structure_content_meatlump_meatlump_king_scepter, "object/static/structure/content/meatlump/meatlump_king_scepter.iff")

@@ -1,0 +1,1 @@
+object_mobile_nym_themepark_smuggler = object_mobile_shared_nym_themepark_smuggler:new {}ObjectTemplates:addTemplate(object_mobile_nym_themepark_smuggler, "object/mobile/nym_themepark_smuggler.iff")
