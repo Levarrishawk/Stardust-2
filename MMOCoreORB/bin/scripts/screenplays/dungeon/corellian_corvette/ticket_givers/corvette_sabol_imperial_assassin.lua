@@ -2,7 +2,7 @@ sabolIntel =	{
 	itemTemplates = { "object/tangible/loot/dungeon/corellian_corvette/imperial_assassin_filler01.iff", "object/tangible/loot/dungeon/corellian_corvette/imperial_assassin_filler02.iff", "object/tangible/loot/dungeon/corellian_corvette/imperial_assassin_intel.iff" },
 }
 
-sabolTicketInfo = { depPlanet = "lok", faction = "imperial", missionType = "assassinate" }
+sabolTicketInfo = { depPlanet = "tatooine", faction = "imperial", missionType = "assassinate" }
 
 sabolCompensation = { { compType = "faction", faction = "imperial", amount = 100 } }
 

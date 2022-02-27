@@ -2,11 +2,11 @@ yondallaIntel =	{
 	itemTemplates = { "object/tangible/loot/dungeon/corellian_corvette/neutral_rescue_filler01.iff", "object/tangible/loot/dungeon/corellian_corvette/neutral_rescue_filler02.iff", "object/tangible/loot/dungeon/corellian_corvette/neutral_rescue_intel.iff" },
 }
 
-yondallaTicketInfo = { depPlanet = "chandrila", faction = "neutral", missionType = "rescue" }
+yondallaTicketInfo = { depPlanet = "tatooine", faction = "neutral", missionType = "rescue" }
 
 yondallaCompensation = { { compType = "credits", amount = 500 } }
 
-yondalla = { planetName = "chandrila", npcTemplate = "corvette_neutral_yondalla", x = 16.8, z = -0.9, y = 23.3, direction = 173, cellID = 35791446, position = STAND }
+yondalla = { planetName = "tatooine", npcTemplate = "corvette_neutral_yondalla", x = 20.19, z = -0.89, y = -19.07, direction = 109, cellID = 1134561, position = STAND }
 
 ticketGiverYondalla = CorvetteTicketGiverLogic:new {
 	npc = yondalla,

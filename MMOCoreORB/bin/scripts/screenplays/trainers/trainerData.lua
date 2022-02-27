@@ -211,15 +211,6 @@ trainerSkills = {
 		"crafting_armorsmith_complexity_03",
 		"crafting_armorsmith_complexity_04"
 	},
-	
-	trainer_armorweaver = {
-    "crafting_armorweaver_novice",
-    "crafting_armorweaver_master",
-    "crafting_armorweaver_combine_01",
-    "crafting_armorweaver_combine_02",
-    "crafting_armorweaver_combine_03",
-    "crafting_armorweaver_combine_04"
-  },
 
 	trainer_bioengineer = {
 		"outdoors_bio_engineer_novice",

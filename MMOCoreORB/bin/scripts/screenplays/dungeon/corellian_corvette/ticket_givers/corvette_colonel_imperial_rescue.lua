@@ -2,7 +2,7 @@ darkstoneIntel =	{
 	itemTemplates = { "object/tangible/loot/dungeon/corellian_corvette/imperial_rescue_filler01.iff", "object/tangible/loot/dungeon/corellian_corvette/imperial_rescue_filler02.iff", "object/tangible/loot/dungeon/corellian_corvette/imperial_rescue_intel.iff" },
 }
 
-darkstoneTicketInfo = { depPlanet = "lok", faction = "imperial", missionType = "rescue" }
+darkstoneTicketInfo = { depPlanet = "naboo", faction = "imperial", missionType = "rescue" }
 
 darkstoneCompensation = { { compType = "faction", faction = "imperial",  amount = 100 } }
 

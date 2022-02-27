@@ -27,13 +27,8 @@ require("sui.custom.SuiProcessorPuzzle")
 require("sui.custom.SuiRadiationSensor")
 require("sui.custom.SuiReceiverPuzzle")
 
--- Custom content
-includeFile("../custom_scripts/screenplays/screenplays.lua")
 includeFile("helperfuncs.lua")
 includeFile("playerTriggers.lua")
-includeFile("poi/corellia_rogue_corsec_base.lua")
-includeFile("sphelper.lua")
-
 
 -- Theme parks
 includeFile("themepark/conversations/goru_conv_handler.lua")
@@ -70,6 +65,8 @@ includeFile("trainers/skillTrainer.lua")
 includeFile("trainers/trainerConvHandler.lua")
 
 -- GCW
+includeFile("gcw/city_control_banners.lua")
+includeFile("gcw/city_control_landing.lua")
 includeFile("gcw/newsnet.lua")
 includeFile("gcw/recruiters/recruiterConvoHandler.lua")
 includeFile("gcw/recruiters/recruiterScreenplay.lua")
@@ -116,9 +113,18 @@ includeFile("dungeon/death_watch_bunker/conversations/deathWatchMedicalDroidConv
 includeFile("dungeon/death_watch_bunker/conversations/deathWatchRescueScientistConvoHandler.lua")
 includeFile("dungeon/death_watch_bunker/conversations/deathWatchTechnicianConvoHandler.lua")
 includeFile("dungeon/death_watch_bunker/conversations/deathWatchWorkshopDroidConvoHandler.lua")
-includeFile("dungeon/geonosian_lab/geo_lab.lua")
---[[
-  -- Removed old Warren Screenplays
+includeFile("dungeon/geonosian_lab/geoLab.lua")
+includeFile("dungeon/geonosian_lab/geoLabContainerComponents.lua")
+includeFile("dungeon/geonosian_lab/geoLabMenuComponents.lua")
+includeFile("dungeon/geonosian_lab/conversations/biogenicAssistantConvoHandler.lua")
+includeFile("dungeon/geonosian_lab/conversations/biogenicConstructionConvoHandler.lua")
+includeFile("dungeon/geonosian_lab/conversations/biogenicEngineerTechConvoHandler.lua")
+includeFile("dungeon/geonosian_lab/conversations/biogenicHeraldConvoHandler.lua")
+includeFile("dungeon/geonosian_lab/conversations/biogenicHeraldDealerConvoHandler.lua")
+includeFile("dungeon/geonosian_lab/conversations/biogenicRandomConvoHandler.lua")
+includeFile("dungeon/geonosian_lab/conversations/biogenicScientistGeneric02ConvoHandler.lua")
+includeFile("dungeon/geonosian_lab/conversations/biogenicScientistHumanConvoHandler.lua")
+includeFile("dungeon/geonosian_lab/conversations/biogenicSecurityTechConvoHandler.lua")
 includeFile("dungeon/warren/warren.lua")
 includeFile("dungeon/warren/warrenComponents.lua")
 includeFile("dungeon/warren/convos/mirla_convo_handler.lua")
@@ -126,10 +132,6 @@ includeFile("dungeon/warren/convos/oevitt_piboi_convo_handler.lua")
 includeFile("dungeon/warren/convos/manx_try_convo_handler.lua")
 includeFile("dungeon/warren/convos/captain_heff_convo_handler.lua")
 includeFile("dungeon/warren/convos/warren_worker_convo_handler.lua")
---]]
-
-includeFile("dungeon/warren/warren_abandoned.lua")
-
 includeFile("dungeon/corellian_corvette/conversations/corvetteTicketTakerConvoHandler.lua")
 includeFile("dungeon/corellian_corvette/conversations/corvetteTicketGiverConvoHandler.lua")
 includeFile("dungeon/corellian_corvette/conversations/corvetteRepairDroidConvoHandler.lua")
@@ -298,11 +300,19 @@ includeFile("events/bestine_election/convos/victor_questp_slums_conv_handler.lua
 includeFile("events/bestine_election/convos/victor_visalis_conv_handler.lua")
 includeFile("events/bestine_election/convos/tour_aryon_conv_handler.lua")
 
+-- Cries of Alderaan
+includeFile("events/coa/coa.lua")
+includeFile("events/coa/coa2Screenplay.lua")
+includeFile("events/coa/conversations/imperial_commander_conv_handler.lua")
+includeFile("events/coa/conversations/imperial_coordinator_conv_handler.lua")
+includeFile("events/coa/conversations/imperial_informant_conv_handler.lua")
+includeFile("events/coa/conversations/rebel_commander_conv_handler.lua")
+includeFile("events/coa/conversations/rebel_coordinator_conv_handler.lua")
+includeFile("events/coa/conversations/rebel_lyda_conv_handler.lua")
+includeFile("events/coa/conversations/rebel_sympathizer_conv_handler.lua")
+
 -- Events
 includeFile("events/conversations/bestine_artist_conv_handler.lua")
-includeFile("events/conversations/imperial_commander_conv_handler.lua")
-includeFile("events/conversations/imperial_coordinator_conv_handler.lua")
-includeFile("events/conversations/imperial_informant_conv_handler.lua")
 includeFile("events/conversations/life_day_anarra_conv_handler.lua")
 includeFile("events/conversations/life_day_kkatamk_conv_handler.lua")
 includeFile("events/conversations/life_day_oraalarri_conv_handler.lua")
@@ -310,12 +320,7 @@ includeFile("events/conversations/life_day_radrrl_conv_handler.lua")
 includeFile("events/conversations/life_day_tebeurra_conv_handler.lua")
 includeFile("events/conversations/museum_curator_conv_handler.lua")
 includeFile("events/conversations/race_droid_conv_handler.lua")
-includeFile("events/conversations/rebel_commander_conv_handler.lua")
-includeFile("events/conversations/rebel_coordinator_conv_handler.lua")
-includeFile("events/conversations/rebel_lyda_conv_handler.lua")
-includeFile("events/conversations/rebel_sympathizer_conv_handler.lua")
 includeFile("events/bestineMuseum.lua")
-includeFile("events/coa2Screenplay.lua")
 includeFile("events/eventPromoter.lua")
 includeFile("events/lifeDay.lua")
 includeFile("events/buffTerminalMenuComponent.lua")
@@ -660,195 +665,14 @@ includeFile("space/space_chassis_dealer_conv_handler.lua")
 --Record Keepers
 includeFile("record_keepers/record_keepers.lua")
 
+--Battlefields
+includeFile("battlefields/battlefield_spawner.lua");
+
 --Tests
 includeFile("tests/tests.lua")
 
--- Chandrila
-includeFile("cities/chandrila_hanna_city.lua")
-includeFile("cities/chandrila_nayli_outpost.lua")
-includeFile("cities/chandrila_chandriltech_facility.lua")
+-- Server Event Automation
+includeFile("events/ServerEventAutomation.lua")
 
-
---Teleport NPC functions
-includeFile("heroics/teleportplayer.lua")
-includeFile("heroics/rebel_chasm_teleporter.lua")
-
-
--- Jakku
-includeFile("gcw/jakku_battle_boundary.lua")
-includeFile("gcw/jakku_battle_spawns.lua")
-includeFile("heroics/rebel_jakku_teleporter.lua")
-includeFile("gcw/jakku_weapons_facility.lua")
-includeFile("gcw/jakku_weapons_facility_boss_1.lua")
-includeFile("gcw/jakku_weapons_facility_boss_2.lua")
-includeFile("gcw/jakku_weapons_facility_boss_3.lua")
-includeFile("gcw/jakku_weapons_facility_boss_4.lua")
-includeFile("gcw/jakku_weapons_facility_boss_5.lua")
-includeFile("gcw/jakku_weapons_facility_boss_6.lua")
-includeFile("heroics/jakku_overseer.lua")
-
-
-
--- Elysium
-includeFile("cities/coruscant_entertainment_district.lua")
-includeFile("heroics/retreat_curator.lua")
-includeFile("heroics/death_sticks.lua")
-includeFile("heroics/dex_diner.lua")
-includeFile("heroics/fake_imperial_officer.lua")
-includeFile("heroics/imperial_palace_onlooker.lua")
-includeFile("heroics/swoop_race_hutt.lua")
-
-
-
--- Florrum hidden world.
-
-includeFile("cities/florrum_outpost.lua")
-includeFile("heroics/hondo_return_teleporter.lua")
-includeFile("heroics/hondo_send_teleporter.lua")
-
--- Dromund Kaas
-
-includeFile("poi/kaas_abandon_separ_facility.lua")
-includeFile("poi/kaas_city_ruins.lua")
-includeFile("poi/kaas_imperial_garrison.lua")
-includeFile("poi/kaas_rebel_cave.lua")
-includeFile("poi/kaas_sith_facility.lua")
-includeFile("poi/kaas_vitiate_tomb.lua")
-includeFile("heroics/herald_of_the_prophets.lua")
-includeFile("heroics/prophet_kadann.lua")
-includeFile("heroics/prophet_cronal.lua")
-includeFile("heroics/chiss_hunter_herald.lua")
-includeFile("heroics/chiss_hunter_herald_cave.lua")
-includeFile("poi/kaas_city_ruins_mellichae.lua")
-includeFile("poi/kaas_dark_force_shrine.lua")
-includeFile("poi/kaas_smuggler_starport.lua")
-
-includeFile("poi/kaas_abandon_separ_facility_necrosis.lua")
-
---Chandrila Convos
-includeFile("heroics/chandriltech_greeter.lua")
-
-
--- Coruscant swoop track
-includeFile("events/coruscant_race/race_hazard_01.lua")
-includeFile("events/coruscant_race/race_hazard_02.lua")
-includeFile("events/coruscant_race/race_hazard_03.lua")
-includeFile("events/coruscant_race/race_hazard_04.lua")
-includeFile("events/coruscant_race/race_hazard_05.lua")
-includeFile("events/coruscant_race/race_hazard_06.lua")
-includeFile("events/coruscant_race/race_hazard_07.lua")
-includeFile("events/coruscant_race/race_hazard_08.lua")
-includeFile("events/coruscant_race/race_hazard_09.lua")
-includeFile("events/coruscant_race/race_hazard_10.lua")
-includeFile("events/coruscant_race/race_hazard_11.lua")
-includeFile("events/coruscant_race/race_hazard_12.lua")
-includeFile("events/coruscant_race/race_hazard_13.lua")
-includeFile("events/coruscant_race/race_hazard_14.lua")
-includeFile("events/coruscant_race/race_hazard_15.lua")
-includeFile("events/coruscant_race/race_hazard_16.lua")
-includeFile("events/coruscant_race/race_hazard_17.lua")
-includeFile("events/coruscant_race/race_hazard_18.lua")
-includeFile("events/coruscant_race/race_hazard_19.lua")
-includeFile("events/coruscant_race/race_hazard_20.lua")
-includeFile("events/coruscant_race/race_hazard_21.lua")
-includeFile("events/coruscant_race/race_hazard_22.lua")
-includeFile("events/coruscant_race/race_hazard_23.lua")
-includeFile("events/coruscant_race/race_hazard_24.lua")
-includeFile("events/coruscant_race/race_hazard_25.lua")
-includeFile("events/coruscant_race/race_hazard_26.lua")
-includeFile("events/coruscant_race/race_hazard_27.lua")
-includeFile("events/coruscant_race/race_hazard_28.lua")
-includeFile("events/coruscant_race/race_hazard_29.lua")
-includeFile("events/coruscant_race/race_hazard_30.lua")
-includeFile("events/coruscant_race/race_hazard_31.lua")
-includeFile("events/coruscant_race/race_hazard_32.lua")
-includeFile("events/coruscant_race/race_hazard_33.lua")
-includeFile("events/coruscant_race/race_hazard_34.lua")
-includeFile("events/coruscant_race/race_hazard_35.lua")
-includeFile("events/coruscant_race/race_hazard_36.lua")
-includeFile("events/coruscant_race/race_hazard_37.lua")
-includeFile("events/coruscant_race/race_hazard_38.lua")
-includeFile("events/coruscant_race/race_hazard_39.lua")
-includeFile("events/coruscant_race/race_hazard_40.lua")
-includeFile("events/coruscant_race/race_hazard_41.lua")
-includeFile("events/coruscant_race/race_hazard_42.lua")
-includeFile("events/coruscant_race/race_hazard_43.lua")
-includeFile("events/coruscant_race/race_hazard_44.lua")
-includeFile("events/coruscant_race/race_hazard_45.lua")
-includeFile("events/coruscant_race/race_hazard_46.lua")
-includeFile("events/coruscant_race/race_hazard_47.lua")
-includeFile("events/coruscant_race/race_hazard_48.lua")
-includeFile("events/coruscant_race/race_hazard_49.lua")
-includeFile("events/coruscant_race/race_hazard_50.lua")
-
---Moraband
-includeFile("cities/moraband_valley.lua")
-includeFile("heroics/archaeologist_leader.lua")
-includeFile("heroics/moraband_bunker_protocol_droid.lua")
-includeFile("heroics/reltha_aiden.lua")
-includeFile("heroics/bex_delata.lua")
-includeFile("heroics/omor_rikan.lua")
-includeFile("heroics/taelan_delar.lua")
-includeFile("heroics/bray_terex.lua")
-includeFile("heroics/jar_jar_binks.lua")
-
--- Nal Hutta
-includeFile("cities/hutta_bilbousa_city.lua")
-includeFile("heroics/hutt_slave_auctioneer.lua")
-
--- Dungeon2
-includeFile("poi/republic_corvette.lua")
-includeFile("poi/isd_active_areas.lua")
-includeFile("heroics/imperial_isd_teleporter.lua")
-includeFile("heroics/rebel_vette_teleporter.lua")
-includeFile("heroics/obi_wan_elysium.lua")
-
-includeFile("events/buffTerminalMenuComponent2.lua")
-includeFile("events/elysiumTerminalMenuComponent_01.lua")
-includeFile("events/elysiumTerminalMenuComponent_02.lua")
-includeFile("poi/elysium_teleportation_network.lua")
-includeFile("events/elysiumTerminalMenuComponent_03.lua")
-
--- Exar Kun
-
-includeFile("dungeon/exar_kun/exarKun.lua")
-includeFile("dungeon/exar_kun/exarKun2.lua")
-includeFile("dungeon/exar_kun/exarKun3.lua")
-includeFile("dungeon/exar_kun/exarKun4.lua")
-includeFile("events/exarKunEntryMenuComponent.lua")
-includeFile("dungeon/exar_kun/exarKunEntryWay.lua")
-
--- Axkva Min
-
-includeFile("dungeon/axkva_min/axkvaMin.lua")
-includeFile("dungeon/axkva_min/axkvaMinEntryWay.lua")
-includeFile("events/axkvaMinEntryMenuComponent.lua")
-
-
--- Mustafar
-
-includeFile("mustafar/boundaries/mustafar_boundaries.lua")
-includeFile("mustafar/mensix/mensix_mining_facility_main.lua")
-includeFile("mustafar/quest/map_exploration.lua")
-includeFile("mustafar/quest/mining_field_markers.lua")
-includeFile("mustafar/regions/mensix_facility_region.lua")
-includeFile("mustafar/regions/storm_lord_region.lua")
-includeFile("mustafar/regions/smoking_forest_region.lua")
-includeFile("mustafar/regions/north_west_region.lua")
-
--- Lothal
-includeFile("poi/lothal_easthills_bunker.lua")
-includeFile("cities/lothal_capital_city.lua")
-includeFile("cities/lothal_capital_city_patrol_mobs.lua")
-includeFile("heroics/oowroora.lua")
-includeFile("themepark/lothal/lothal_theme_park.lua")
-includeFile("themepark/lothal/themeParkLothal.lua")
-
--- Tansarii Point Station
-includeFile("heroics/tansarii_exit_teleporter.lua")
-
--- Abandoned Warren
-includeFile("heroics/warren_information_officer.lua")
-
--- Ewok Genocide
-includeFile("heroics/imperial_genocide_coordinator.lua")
+-- Custom content - Loads last to allow for overrides
+includeFile("../custom_scripts/screenplays/screenplays.lua")

@@ -7,7 +7,6 @@ lok_racetrack_screenplay = RaceTrack:new {
 		debugMode = 0, -- 0 = off, 1 = print debug messages
 		planetName = "lok", -- The planet the Track is on
 		badgeToAward=BDG_RACING_LOK_MARATHON,  -- Badge to be awarded for best daily time
-		lootGroup="lok_track",   -- Loot Group for Speeder Reward
 		trackName="LOKRT",  -- Internal trackname , should be unique to the track
 		className="lok_racetrack_screenplay", -- Class name of this class
 		trackCheckpoint="@theme_park/racing/racing:lok_waypoint_name_checkpoint", --Waypoint names

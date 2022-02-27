@@ -7,7 +7,6 @@ narmle_racetrack_screenplay = RaceTrack:new {
 		debugMode = 0, -- 0 = off, 1 = print debug messages
 		planetName = "rori", -- The planet the Track is on
 		badgeToAward=BDG_RACING_NARMLE_MEMORIAL,  -- Badge to be awarded for best daily time
-		lootGroup="narmle_track",   -- Loot Group for Speeder Reward
 		trackName="NARMLERT",  -- Internal trackname , should be unique to the track
 		className="narmle_racetrack_screenplay", -- Class name of this class
 		trackCheckpoint="@theme_park/racing/racing:narmle_waypoint_name_checkpoint", --Waypoint names

@@ -7,7 +7,6 @@ mosespa_racetrack_screenplay = RaceTrack:new {
 		debugMode = 0, -- 0 = off, 1 = print debug messages
 		planetName = "tatooine", -- The planet the Track is on
 		badgeToAward=BDG_RACING_MOS_ESPA,  -- Badge to be awarded for best daily time
-		lootGroup="mos_espa",   -- Loot Group for Speeder Reward
 		trackName="MESPART",  -- Internal trackname , should be unique to the track
 		className="mosespa_racetrack_screenplay", -- Class name of this class
 		trackCheckpoint="@theme_park/racing/racing:waypoint_name_checkpoint", --Waypoint names

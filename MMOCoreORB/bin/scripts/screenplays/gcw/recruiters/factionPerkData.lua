@@ -12,7 +12,7 @@ factionRewardType = {
 rebelRewardData = {
 	weaponsArmorList = {
 		"armor_marine_backpack", "armor_marine_helmet", "armor_marine_chest_plate", "armor_marine_leggings", "armor_marine_boots", "armor_marine_bicep_l",
-		"armor_marine_bicep_r", "carbine_laser", "pistol_scout_blaster", "lance_staff_metal", "rocket_launcher", "imp_shield_gen", "mine_drx", "mine_xg", "weaponsmith_belt_schematic", "high_velocity_blaster_barrel", "lightweight_vibro", "mod_rep_blaster", "spec_ops_pack", "ff_weapon_stock",
+		"armor_marine_bicep_r", "carbine_laser", "pistol_scout_blaster", "lance_staff_metal", "rocket_launcher", "mine_drx", "mine_xg",
 	},
 
 	weaponsArmor = {
@@ -25,30 +25,20 @@ rebelRewardData = {
 		armor_marine_leggings = { index=6, type=factionRewardType.armor, display="@wearables_name:armor_marine_leggings", item="object/tangible/wearables/armor/marine/armor_marine_leggings.iff",cost=3000},
 		carbine_laser = { index=7, type=factionRewardType.weapon, display="@weapon_name:carbine_laser", item="object/weapon/ranged/carbine/carbine_laser.iff", cost=1500},
 		pistol_scout_blaster = { index=8, type=factionRewardType.weapon, display="@weapon_name:pistol_scout_blaster", item="object/weapon/ranged/pistol/pistol_scout_blaster.iff", cost=1000},
-		imp_shield_gen = { type=factionRewardType.armor, display="@craft_weapon_ingredients_n:shield_generator_personal_imperial_test_schematic", item="object/tangible/loot/quest/shield_generator_personal_imperial_test_schematic.iff", cost=20000},
 		metal_staff = { index=9, type=factionRewardType.weapon, display="@weapon_name:sword_02", item="object/weapon/ranged/melee/sword/sword_02.iff", cost=1000},
 		rocket_launcher = { index=10, type=factionRewardType.weapon, display="@weapon_name:rocket_launcher", item="object/weapon/ranged/heavy/heavy_rocket_launcher.iff", cost=5000},
 		lance_staff_metal = { index=11, type=factionRewardType.weapon, display="@weapon_name:lance_staff_metal", item="object/weapon/melee/polearm/lance_staff_metal.iff", cost=1000},
 		mine_drx = { type=factionRewardType.weapon, display="@weapon_name:mine_drx", item="object/weapon/mine/wp_mine_drx55.iff", cost=350},
 		mine_xg = { type=factionRewardType.weapon, display="@weapon_name:mine_xg", item="object/weapon/mine/wp_mine_xg.iff", cost=350},
-		weaponsmith_belt_schematic = { type=factionRewardType.armor, display="@wearables_name:bandolier_s04_quest", item="object/tangible/loot/quest/schematic_bandolier_s04_quest.iff", cost=15000},
-                high_velocity_blaster_barrel = { type=factionRewardType.weapon, display="@craft_weapon_ingredients_n:blaster_pistol_barrel_quest", item="object/tangible/component/weapon/blaster_pistol_barrel_quest.iff", cost=2000},
-                lightweight_vibro = { type=factionRewardType.armor, display="@craft_weapon_ingredients_n:blade_vibro_unit_quest", item="object/tangible/component/weapon/vibro_unit_quest.iff", cost=2000},
-                mod_rep_blaster = { type=factionRewardType.armor, display="@craft_weapon_ingredients_n:schematic_republic_blaster_quest", item="object/tangible/loot/quest/schematic_republic_blaster_quest.iff", cost=8000},
-                spec_ops_pack = { type=factionRewardType.armor, display="@wearables_name:backpack_s06_quest", item="object/tangible/loot/quest/schematic_backpack_s06_quest.iff", cost=7500},
-                ff_weapon_stock = { type=factionRewardType.armor, display="@craft_weapon_ingredients_n:stock_unit_advanced_quest", item="object/tangible/component/weapon/stock_advanced_quest.iff", cost=2000},
-
 	},
 
 	installationsList = {
 		"hq_s01_pvp_rebel", "hq_s01_rebel", "hq_s02_pvp_rebel", "hq_s02_rebel", "hq_s03_pvp_rebel", "hq_s03_rebel", "hq_s04_pvp_rebel", "hq_s04_rebel", --"hq_s05_pvp_rebel",
 		"turret_block_lg", "turret_block_med", "turret_block_sm", "turret_dish_sm", "turret_dish_lg", "turret_tower_sm", "turret_tower_med", "turret_tower_lg",
-		"minefield_1x1", "barc_rebel",
-
+		"minefield_1x1",
 	},
 
 	installations = {
-		barc_rebel = {type=factionRewardType.installation, display="@deed:barc_s01_rebel", item="object/tangible/deed/vehicle_deed/barc_speeder_rebel_deed.iff", generatedObjectTemplate="object/mobile/vehicle/barc_speeder_rebel.iff", cost=5000},
 		hq_s01_pvp_rebel = {type=factionRewardType.installation, display="@deed:hq_s01_pvp_rebel", item="object/tangible/deed/faction_perk/hq/hq_s01_pvp.iff", generatedObjectTemplate="object/building/faction_perk/hq/hq_s01_rebel_pvp.iff", cost=20000, bonus={"hq_s01_rebel","hq_s01_rebel"} },
 		hq_s01_rebel = {type=factionRewardType.installation, display="@deed:hq_s01_rebel", item="object/tangible/deed/faction_perk/hq/hq_s01.iff", generatedObjectTemplate="object/building/faction_perk/hq/hq_s01_rebel.iff", cost=10000},
 		hq_s02_pvp_rebel = {type=factionRewardType.installation, display="@deed:hq_s02_pvp_rebel", item="object/tangible/deed/faction_perk/hq/hq_s02_pvp.iff", generatedObjectTemplate="object/building/faction_perk/hq/hq_s02_rebel_pvp.iff", cost=40000, bonus={"hq_s02_rebel","hq_s02_rebel"} },
@@ -88,7 +78,7 @@ rebelRewardData = {
 	hirelingList = {
 		"rebel_trooper", "senior_specforce_heavy_weapons_specialist", "senior_specforce_infiltrator", "senior_specforce_marine", "senior_specforce_pathfinder", "senior_specforce_technician",
 		"senior_specforce_urban_guerrilla", "senior_specforce_wilderness_fighter", "specforce_heavy_weapons_specialist", "specforce_infiltrator", "specforce_interrogator", "specforce_marine",
-		"specforce_procurement_specialist", "specforce_technician",	"specforce_wilderness_operative", "rebel_specforce_guerrilla"
+		"specforce_procurement_specialist", "specforce_technician",	"specforce_wilderness_operative", "rebel_specforce_guerrilla",
 	},
 
 	hirelings = {
@@ -108,7 +98,6 @@ rebelRewardData = {
 		specforce_technician = { type=factionRewardType.hireling, display="@mob/creature_names:specforce_technician", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="specforce_technician", cost=375},
 		specforce_wilderness_operative = { type=factionRewardType.hireling, display="@mob/creature_names:specforce_wilderness_operative", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="specforce_wilderness_operative", cost=375},
 		rebel_specforce_guerrilla = { type=factionRewardType.hireling, display="@mob/creature_names:rebel_specforce_guerrilla", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="rebel_specforce_urban_guerrilla", cost=375},
---		rebel_droideka = { type=factionRewardType.hireling, display="@mob/creature_names:droideka", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="rebel_droideka", cost=9450},
 	}
 }
 
@@ -116,7 +105,7 @@ imperialRewardData = {
 	weaponsArmorList = {
 		"armor_stormtrooper_helmet", "armor_stormtrooper_chest_plate", "armor_stormtrooper_leggings", "armor_stormtrooper_boots", "armor_stormtrooper_bicep_l", "armor_stormtrooper_bicep_r",
 		"armor_stormtrooper_bracer_l", "armor_stormtrooper_bracer_r", "armor_stormtrooper_gloves", "armor_stormtrooper_utility_belt", "carbine_e11", "pistol_power5", "sword_02",
-		"rocket_launcher", "mine_drx", "mine_xg", "droidsmith_belt_schematic", "high_velocity_blaster_barrel", "lightweight_vibro", "imp_shield_gen", "lw_mil_pack", "ff_weapon_stock", "armor_veers_chest_plate", "armor_veers_helmet",
+		"rocket_launcher", "mine_drx", "mine_xg",
 	},
 
 	weaponsArmor = {
@@ -137,14 +126,6 @@ imperialRewardData = {
 		rocket_launcher = { type=factionRewardType.weapon, display="@weapon_name:rocket_launcher", item="object/weapon/ranged/heavy/heavy_rocket_launcher.iff", cost=3500},
 		mine_drx = { type=factionRewardType.weapon, display="@weapon_name:mine_drx", item="object/weapon/mine/wp_mine_drx55.iff", cost=350},
 		mine_xg = { type=factionRewardType.weapon, display="@weapon_name:mine_xg", item="object/weapon/mine/wp_mine_xg.iff", cost=350},
-		droidsmith_belt_schematic = { type=factionRewardType.armor, display="@wearables_name:bandolier_s02_quest", item="object/tangible/loot/quest/schematic_bandolier_s02_quest.iff", cost=15000},
-		high_velocity_blaster_barrel = { type=factionRewardType.weapon, display="@craft_weapon_ingredients_n:blaster_pistol_barrel_quest", item="object/tangible/component/weapon/blaster_pistol_barrel_quest.iff", cost=2000},
-		lightweight_vibro = { type=factionRewardType.armor, display="@craft_weapon_ingredients_n:blade_vibro_unit_quest", item="object/tangible/component/weapon/vibro_unit_quest.iff", cost=2000},
-		imp_shield_gen = { type=factionRewardType.armor, display="@craft_weapon_ingredients_n:shield_generator_personal_imperial_test_schematic", item="object/tangible/loot/quest/shield_generator_personal_imperial_test_schematic.iff", cost=20000},
-		lw_mil_pack = { type=factionRewardType.armor, display="@wearables_name:backpack_s03_quest", item="object/tangible/loot/quest/schematic_backpack_s03_quest.iff", cost=7500},
-		ff_weapon_stock = { type=factionRewardType.armor, display="@craft_weapon_ingredients_n:stock_unit_advanced_quest", item="object/tangible/component/weapon/stock_advanced_quest.iff", cost=2000},
-		armor_veers_chest_plate = { type=factionRewardType.armor, display="Imperial Officer Armor Chest Plate", item="object/tangible/wearables/armor/veers/armor_veers_chest_plate.iff", cost=8000},
-		armor_veers_helmet = { type=factionRewardType.armor, display="Imperial Officer Armor Helmet", item="object/tangible/wearables/armor/veers/armor_veers_helmet.iff", cost=8000},
 	},
 
 	uniformList = {
@@ -163,11 +144,10 @@ imperialRewardData = {
 		--"hq_s05_pvp_imperial",
 		"turret_block_lg", "turret_block_med", "turret_block_sm", "turret_dish_sm", "turret_dish_lg", "turret_tower_sm", "turret_tower_med", "turret_tower_lg",
 		--"covert_detector_32m",
-		"minefield_1x1", "barc_imperial",
+		"minefield_1x1",
 	},
 
 	installations = {
-	  barc_imperial = {type=factionRewardType.installation, display="@deed:barc_s01_imperial", item="object/tangible/deed/vehicle_deed/barc_speeder_imperial_deed.iff", generatedObjectTemplate="object/mobile/vehicle/barc_speeder_imperial.iff", cost=5000 },
 		hq_s01_pvp_imperial = {type=factionRewardType.installation, display="@deed:hq_s01_pvp_imperial", item="object/tangible/deed/faction_perk/hq/hq_s01_pvp.iff", generatedObjectTemplate="object/building/faction_perk/hq/hq_s01_imp_pvp.iff", cost=14000, bonus={"hq_s01_imperial","hq_s01_imperial"} },
 		hq_s01_imperial = {type=factionRewardType.installation, display="@deed:hq_s01_imperial", item="object/tangible/deed/faction_perk/hq/hq_s01.iff", generatedObjectTemplate="object/building/faction_perk/hq/hq_s01_imp.iff", cost=7000},
 		hq_s02_pvp_imperial = {type=factionRewardType.installation, display="@deed:hq_s02_pvp_imperial", item="object/tangible/deed/faction_perk/hq/hq_s02_pvp.iff", generatedObjectTemplate="object/building/faction_perk/hq/hq_s02_imp_pvp.iff", cost=28000, bonus={"hq_s02_imperial","hq_s02_imperial"}},
@@ -211,8 +191,8 @@ imperialRewardData = {
 	},
 
 	hirelingList = {
-		"assault_trooper", "bombardier", "command_security_guard", "compforce_trooper", "gunner", "imperial_private", "imperial_trooper", "sand_trooper", "scout_trooper",
-		"storm_commando", "stormtrooper", "stormtrooper_bombardier", "stormtrooper_medic", "stormtrooper_rifleman", "stormtrooper_sniper", "swamp_trooper"
+		"assault_trooper", "bombardier", "command_security_guard", "compforce_trooper", "dark_trooper", "gunner", "imperial_private", "imperial_trooper", "sand_trooper", "scout_trooper",
+		"storm_commando", "stormtrooper", "stormtrooper_bombardier", "stormtrooper_medic", "stormtrooper_rifleman", "stormtrooper_sniper", "swamp_trooper", "at_st"
 	},
 
 	hirelings = {
@@ -220,7 +200,7 @@ imperialRewardData = {
 		bombardier = { type=factionRewardType.hireling, display="@mob/creature_names:bombardier", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="bombardier", cost=105},
 		command_security_guard = { type=factionRewardType.hireling, display="@mob/creature_names:command_security_guard", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="command_security_guard", cost=105},
 		compforce_trooper = { type=factionRewardType.hireling, display="@mob/creature_names:compforce_trooper", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="compforce_trooper", cost=367},
-		--dark_trooper = { type=factionRewardType.hireling, display="@mob/creature_names:dark_trooper", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="dark_trooper", cost=2100},
+		dark_trooper = { type=factionRewardType.hireling, display="@mob/creature_names:dark_trooper", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="dark_trooper", cost=2100},
 		gunner = { type=factionRewardType.hireling, display="@mob/creature_names:gunner", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="gunner", cost=105},
 		imperial_private = { type=factionRewardType.hireling, display="@mob/creature_names:imperial_private", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="imperial_private", cost=105},
 		imperial_trooper = { type=factionRewardType.hireling, display="@mob/creature_names:imperial_trooper", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="imperial_trooper", cost=105},
@@ -233,6 +213,6 @@ imperialRewardData = {
 		stormtrooper_rifleman = { type=factionRewardType.hireling, display="@mob/creature_names:stormtrooper_rifleman", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="stormtrooper_rifleman", cost=420},
 		stormtrooper_sniper = { type=factionRewardType.hireling, display="@mob/creature_names:stormtrooper_sniper", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="stormtrooper_sniper", cost=420},
 		swamp_trooper = { type=factionRewardType.hireling, display="@mob/creature_names:swamp_trooper", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="swamp_trooper", cost=420},
-	--	at_st = { type=factionRewardType.hireling, display="@mob/creature_names:at_st", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="at_st", cost=9450},
+		at_st = { type=factionRewardType.hireling, display="@mob/creature_names:at_st", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="at_st", cost=9450},
 	},
 }
