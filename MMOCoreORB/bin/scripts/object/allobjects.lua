@@ -845,7 +845,7 @@ includeFile("custom_content/building/poi/objects.lua")
 includeFile("custom_content/building/restuss/objects.lua")
 includeFile("custom_content/building/tatooine/objects.lua")
 
---[[
+
 includeFile("custom_content/intangible/vehicle/objects.lua")
 
 includeFile("custom_content/static/base/objects.lua")
@@ -1074,4 +1074,4 @@ includeFile("tangible/wearables/armor/scout_trooper/objects.lua")
 includeFile("tangible/wearables/armor/snowtrooper/objects.lua")
 includeFile("tangible/wearables/armor/veers/objects.lua")
 
---]]
+
