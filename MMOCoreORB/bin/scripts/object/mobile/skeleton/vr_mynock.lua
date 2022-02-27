@@ -41,13 +41,8 @@
 --this exception also makes it possible to release a modified version 
 
 
+object_mobile_skeleton_vr_mynock = object_mobile_skeleton_shared_vr_mynock:new {
 
---Children folder includes
+}
 
--- Server Objects
-includeFile("tangible/component/vehicle/base/base_armor_panel.lua")
-includeFile("tangible/component/vehicle/base/base_veh_hull.lua")
-includeFile("tangible/component/vehicle/base/base_veh_hull_hvy.lua")
-includeFile("tangible/component/vehicle/base/base_veh_weapon.lua")
-includeFile("tangible/component/vehicle/base/base_veh_weapon_hvy.lua")
-includeFile("tangible/component/vehicle/base/base_vehicle.lua")
+ObjectTemplates:addTemplate(object_mobile_skeleton_vr_mynock, "object/mobile/skeleton/vr_mynock.iff")

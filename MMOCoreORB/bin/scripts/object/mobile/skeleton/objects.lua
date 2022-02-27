@@ -4439,3 +4439,104 @@ object_mobile_skeleton_shared_wed_treadwell = SharedCreatureObjectTemplate:new {
 }
 
 ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_wed_treadwell, "object/mobile/skeleton/shared_wed_treadwell.iff")
+-- NEW SKELETONS
+
+
+--s
+object_mobile_skeleton_shared_undead_humanoid = SharedCreatureObjectTemplate:new {
+  clientTemplateFileName = "object/mobile/skeleton/shared_undead_humanoid.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_undead_humanoid, "object/mobile/skeleton/shared_undead_humanoid.iff")
+--f
+--s
+object_mobile_skeleton_shared_bm_rancor = SharedCreatureObjectTemplate:new {
+  clientTemplateFileName = "object/mobile/skeleton/shared_bm_rancor.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_bm_rancor, "object/mobile/skeleton/shared_bm_rancor.iff")
+--f
+--s
+object_mobile_skeleton_shared_vr_bat = SharedCreatureObjectTemplate:new {
+  clientTemplateFileName = "object/mobile/skeleton/shared_vr_bat.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_vr_bat, "object/mobile/skeleton/shared_vr_bat.iff")
+--f
+--s
+object_mobile_skeleton_shared_killer_worm = SharedCreatureObjectTemplate:new {
+  clientTemplateFileName = "object/mobile/skeleton/shared_killer_worm.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_killer_worm, "object/mobile/skeleton/shared_killer_worm.iff")
+--f
+--s
+object_mobile_skeleton_shared_massiff = SharedCreatureObjectTemplate:new {
+  clientTemplateFileName = "object/mobile/skeleton/shared_massiff.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_massiff, "object/mobile/skeleton/shared_massiff.iff")
+--f
+--s
+object_mobile_skeleton_shared_blistmok = SharedCreatureObjectTemplate:new {
+  clientTemplateFileName = "object/mobile/skeleton/shared_blistmok.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_blistmok, "object/mobile/skeleton/shared_blistmok.iff")
+--f
+--s
+object_mobile_skeleton_shared_toydarian_base_male = SharedCreatureObjectTemplate:new {
+  clientTemplateFileName = "object/mobile/skeleton/shared_toydarian_base_male.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_toydarian_base_male, "object/mobile/skeleton/shared_toydarian_base_male.iff")
+--f
+--s
+object_mobile_skeleton_shared_vr_mouse_droid = SharedCreatureObjectTemplate:new {
+  clientTemplateFileName = "object/mobile/skeleton/shared_vr_mouse_droid.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_vr_mouse_droid, "object/mobile/skeleton/shared_vr_mouse_droid.iff")
+--f
+--s
+object_mobile_skeleton_shared_vr_mynock = SharedCreatureObjectTemplate:new {
+  clientTemplateFileName = "object/mobile/skeleton/shared_vr_mynock.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_vr_mynock, "object/mobile/skeleton/shared_vr_mynock.iff")
+--f
+
+object_mobile_skeleton_shared_sher_kar = SharedCreatureObjectTemplate:new {
+  clientTemplateFileName = "object/mobile/skeleton/shared_sher_kar.iff"
+}
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_sher_kar, "object/mobile/skeleton/shared_sher_kar.iff")
+--***********************************************************************************************************************************************
+object_mobile_skeleton_shared_tanray = SharedCreatureObjectTemplate:new {
+  clientTemplateFileName = "object/mobile/skeleton/shared_tanray.iff"
+}
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_tanray, "object/mobile/skeleton/shared_tanray.iff")
+--***********************************************************************************************************************************************
+object_mobile_skeleton_shared_tulrus = SharedCreatureObjectTemplate:new {
+  clientTemplateFileName = "object/mobile/skeleton/shared_tulrus.iff"
+}
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_tulrus, "object/mobile/skeleton/shared_tulrus.iff")
+
+object_mobile_skeleton_shared_bm_cat_predatory = SharedCreatureObjectTemplate:new {
+  clientTemplateFileName = "object/mobile/skeleton/shared_bm_cat_predatory.iff"
+}
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_bm_cat_predatory, "object/mobile/skeleton/shared_bm_cat_predatory.iff")
+--
+object_mobile_skeleton_shared_dug = SharedCreatureObjectTemplate:new {
+  clientTemplateFileName = "object/mobile/skeleton/shared_dug.iff"
+}
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_dug, "object/mobile/skeleton/shared_dug.iff")
+--***********************************************************************************************************************************************
+object_mobile_skeleton_shared_hawk_bat = SharedCreatureObjectTemplate:new {
+  clientTemplateFileName = "object/mobile/skeleton/shared_hawk_bat.iff"
+}
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_hawk_bat, "object/mobile/skeleton/shared_hawk_bat.iff")
+
+object_mobile_skeleton_shared_varactyl = SharedCreatureObjectTemplate:new {
+  clientTemplateFileName = "object/mobile/skeleton/shared_varactyl.iff"
+}
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_varactyl, "object/mobile/skeleton/shared_varactyl.iff")
