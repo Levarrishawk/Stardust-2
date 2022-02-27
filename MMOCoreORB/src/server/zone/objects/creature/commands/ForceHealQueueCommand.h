@@ -91,9 +91,9 @@ public:
 
 	int runCommand(CreatureObject* creature, CreatureObject* targetCreature) const;
 
-	int doQueueCommand(CreatureObject* creature, const uint64& target, const UnicodeString& arguments) const;
+	int doQueueCommand(CreatureObject* creature, const uint64& target, const UnicodeString& arguments) const override;
 
-	bool isForceHealCommand() {
+	bool isForceHealCommand() const override {
 		return true;
 	}
 
@@ -173,9 +173,6 @@ public:
 		allowedTarget = t;
 	}
 
-	float getCommandDuration(CreatureObject* object, const UnicodeString& arguments) const {
-		return defaultTime * 2.0;
-	}
 };
 
 #endif /* FORCEHEALQUEUECOMMAND_H_ */
