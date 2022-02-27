@@ -6,14 +6,14 @@ rifle_jawa_ion = {
 	customObjectName = "",
 	directObjectTemplate = "object/weapon/ranged/rifle/rifle_jawa_ion.iff",
 	craftingValues = {
-		{"mindamage",47,96,0},
-		{"maxdamage",100,188,0},
-		{"attackspeed",9.1,6.3,0},
+		{"mindamage",43,89,0},
+		{"maxdamage",94,169,0},
+		{"attackspeed",4,4,1},
 		{"woundchance",2.4,4.2,0},
 		{"hitpoints",750,750,0},
-		{"attackhealthcost",23,14,0},
-		{"attackactioncost",47,28,0},
-		{"attackmindcost",61,37,0},
+		{"attackhealthcost",0,0,0},
+    {"attackactioncost",300,300,0},
+    {"attackmindcost",0,0,0},
 		{"roundsused",15,45,0},
 		{"zerorangemod",-50,-50,0},
 		{"maxrangemod",-80,-80,0},
@@ -24,7 +24,7 @@ rifle_jawa_ion = {
 	customizationValues = {},
 
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
-	randomDotChance = 750,
+	randomDotChance = 625,
 	junkDealerTypeNeeded = JUNKARMS+JUNKJAWA,
 	junkMinValue = 25,
 	junkMaxValue = 45

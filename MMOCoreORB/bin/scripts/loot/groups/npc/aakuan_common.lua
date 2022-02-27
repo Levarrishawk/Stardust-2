@@ -5,7 +5,8 @@ aakuan_common = {
 	minimumLevel = 0,
 	maximumLevel = 0,
 	lootItems = {
-		{itemTemplate = "aakuan_belt", weight = 1666667},
+		{itemTemplate = "aakuan_belt", weight = 1000000},
+		{itemTemplate = "decorative_bespin_sconce_on", weight = 666667},
 		{itemTemplate = "aakuan_ring", weight = 1666667},
 		{itemTemplate = "aakuan_robe", weight = 1666667},
 		{itemTemplate = "aakuan_shirt", weight = 1666667},

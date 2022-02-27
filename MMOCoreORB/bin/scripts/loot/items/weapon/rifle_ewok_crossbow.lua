@@ -6,20 +6,20 @@ rifle_ewok_crossbow = {
 	customObjectName = "",
 	directObjectTemplate = "object/weapon/ranged/rifle/rifle_ewok_crossbow.iff",
 	craftingValues = {
-		{"mindamage",61,122,0},
-		{"maxdamage",124,217,0},
-		{"attackspeed",9.6,6.2,0},
+		{"mindamage",60,119,0},
+		{"maxdamage",121,210,0},
+    {"attackspeed",4,4,1},
 		{"woundchance",6.4,15.6,0},
 		{"hitpoints",750,750,0},
-		{"attackhealthcost",46,23,0},
-		{"attackactioncost",46,23,0},
-		{"attackmindcost",57,35,0},
+		{"attackhealthcost",0,0,0},
+    {"attackactioncost",300,300,0},
+    {"attackmindcost",0,0,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {},
 
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
-	randomDotChance = 750,
+	randomDotChance = 625,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 20,
 	junkMaxValue = 60

@@ -6,9 +6,9 @@ polearm_lance = {
 	customObjectName = "",
 	directObjectTemplate = "object/weapon/melee/polearm/lance_controllerfp.iff",
 	craftingValues = {
-		{"mindamage",7,13,0},
-		{"maxdamage",133,247,0},
-		{"attackspeed",7,4,1},
+		{"mindamage",7,12,0},
+		{"maxdamage",123,234,0},
+    {"attackspeed",4,4,1},
 		{"woundchance",9,18,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",5,15,0},
@@ -16,15 +16,15 @@ polearm_lance = {
 		{"midrange",3,3,0},
 		{"midrangemod",5,15,0},
 		{"maxrange",7,7,0},
-		{"attackhealthcost",26,14,0},
-		{"attackactioncost",59,32,0},
-		{"attackmindcost",29,15,0},
+		{"attackhealthcost",0,0,0},
+    {"attackactioncost",300,300,0},
+    {"attackmindcost",0,0,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {},
 
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
-	randomDotChance = 500,
+	randomDotChance = 600,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 25,
 	junkMaxValue = 45

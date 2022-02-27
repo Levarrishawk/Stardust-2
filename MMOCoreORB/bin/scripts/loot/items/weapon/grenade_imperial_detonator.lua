@@ -4,9 +4,9 @@ grenade_imperial_detonator = {
 	customObjectName = "",
 	directObjectTemplate = "object/weapon/ranged/grenade/grenade_imperial_detonator.iff",
 	craftingValues = {
-		{"mindamage",645,989,0},
-		{"maxdamage",1300,2000,0},
-		{"attackspeed",6,2.5,1},
+		{"mindamage",545,900,0},
+		{"maxdamage",800,1000,0},
+		{"attackspeed",1,1,1},
 		{"woundchance",7,13,0},
 		{"hitpoints",1000,1000,0},
 		{"zerorangemod",-16,14,0},
@@ -14,13 +14,13 @@ grenade_imperial_detonator = {
 		{"maxrangemod",-45,-15,0},
 		{"midrange",0,30,0},
 		{"midrangemod",10,30,0},
-		{"attackhealthcost",163,88,0},
-		{"attackactioncost",163,88,0},
-		{"attackmindcost",65,35,0},
+		{"attackhealthcost",0,0,0},
+    {"attackactioncost",300,300,0},
+    {"attackmindcost",0,0,0},
 	},
 
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
-	randomDotChance = 750,
+	randomDotChance = 625,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 30,
 	junkMaxValue = 55

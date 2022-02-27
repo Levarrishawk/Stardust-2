@@ -6,9 +6,11 @@ death_watch_bunker_commoners = {
 	maximumLevel = 0,
 	lootItems = {
 		{itemTemplate = "alum_gel_packet", weight = 3000000},
-		{itemTemplate = "executioners_hack_schematic", weight = 2000000},
-		{itemTemplate = "mandalorian_rebreather", weight = 3000000},
-		{itemTemplate = "pistol_de10_schematic", weight = 2000000}
+		{itemTemplate = "executioners_hack_schematic", weight = 1500000},
+		{itemTemplate = "mandalorian_rebreather", weight = 2000000},
+		{itemTemplate = "pistol_de10_schematic", weight = 1000000},
+		{itemTemplate = "decorative_mandalorian_skull_banner", weight = 1000000},		
+		{itemTemplate = "decorative_merr_sonn_jt12_jetpack_blueprints", weight = 1500000},   
 	}
 }
 

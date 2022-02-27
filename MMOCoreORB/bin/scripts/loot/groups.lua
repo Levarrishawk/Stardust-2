@@ -21,6 +21,8 @@ includeFile("groups/sith_shadow_intro_theater_datapad.lua")
 includeFile("groups/skill_buffs.lua")
 includeFile("groups/tailor_components.lua")
 includeFile("groups/treasure_map_group.lua")
+includeFile("groups/custom/chiss_poacher_backpack_custom.lua")
+includeFile("groups/armor_segment_mandalorian.lua")
 
 -- armor sub-folder
 includeFile("groups/armor/armor_all.lua")
@@ -43,18 +45,9 @@ includeFile("groups/armor/ubese_armor.lua")
 includeFile("groups/bestine_election/bestine_history_quest_reward.lua")
 includeFile("groups/bestine_election/bestine_election_sean_trenwell_rewards.lua")
 includeFile("groups/bestine_election/bestine_election_tusken_head.lua")
-includeFile("groups/bestine_election/bestine_election_baton.lua")
-includeFile("groups/bestine_election/bestine_election_smooth_stone.lua")
-includeFile("groups/bestine_election/bestine_election_carved_stone.lua")
+includeFile("groups/bestine_election/bestine_election_tusken_loot.lua")
 includeFile("groups/bestine_election/bestine_election_tusken_quest.lua")
 includeFile("groups/bestine_election/bestine_election_victor_visalis_rewards.lua")
-
--- component loot sub-folder
-
-includeFile("groups/component_loot/chemistry_component_advanced.lua")
-includeFile("groups/component_loot/weapon_component_advanced.lua")
-includeFile("groups/component_loot/chemistry_component.lua")
-includeFile("groups/component_loot/weapon_component.lua")
 
 -- corellian_corvette sub-folder
 includeFile("groups/corellian_corvette/imperial_corvette_loot.lua")
@@ -81,6 +74,8 @@ includeFile("groups/creature/peko_albatross.lua")
 includeFile("groups/creature/rancor_common.lua")
 includeFile("groups/creature/sharnaff_common.lua")
 includeFile("groups/creature/voritor_lizard_common.lua")
+
+
 
 -- death_watch_bunker sub-folder
 includeFile("groups/death_watch_bunker/death_watch_bunker_art.lua")
@@ -113,7 +108,6 @@ includeFile("groups/geonosian_lab/geo_kliknik.lua")
 includeFile("groups/geonosian_lab/geonosian_common.lua")
 includeFile("groups/geonosian_lab/geonosian_cubes.lua")
 includeFile("groups/geonosian_lab/geonosian_hard.lua")
-includeFile("groups/geonosian_lab/geonosian_loot_container.lua")
 includeFile("groups/geonosian_lab/geonosian_relic.lua")
 
 -- hero_of_tatooine sub-folder
@@ -316,6 +310,9 @@ includeFile("groups/theme_park_reward/jabba_theme_park_g5p0.lua")
 includeFile("groups/theme_park_reward/jabba_theme_park_porcellus.lua")
 includeFile("groups/theme_park_reward/jabba_theme_park_ree_yees.lua")
 includeFile("groups/theme_park_reward/jabba_theme_park_reelo.lua")
+includeFile("groups/theme_park_reward/ff_weapon_stock.lua")
+includeFile("groups/theme_park_reward/high_velocity_blaster_barrel.lua")
+includeFile("groups/theme_park_reward/lightweight_vibro.lua")
 includeFile("groups/theme_park_reward/theme_park_reward_imperial_emperor.lua")
 includeFile("groups/theme_park_reward/theme_park_reward_imperial_hethrir.lua")
 includeFile("groups/theme_park_reward/theme_park_reward_imperial_kaja.lua")
@@ -368,3 +365,139 @@ includeFile("groups/wearables/wearables_common.lua")
 includeFile("groups/wearables/wearables_rare.lua")
 includeFile("groups/wearables/wearables_scarce.lua")
 includeFile("groups/wearables/wearables_uncommon.lua")
+
+-- custom items
+includeFile("groups/named_crystals.lua")
+
+includeFile("groups/npc/meatlump_melee_components.lua")
+includeFile("groups/npc/meatlump_ranged_components.lua")
+
+-- named crystals
+includeFile("groups/crystal_mauls_vengence.lua")
+includeFile("groups/crystal_qui_gons_devotion.lua")
+includeFile("groups/crystal_baass_wisdom.lua")
+includeFile("groups/crystal_banes_heart.lua")
+includeFile("groups/crystal_bnars_sacrifice.lua")
+includeFile("groups/crystal_bondaras_folly.lua")
+includeFile("groups/crystal_dawn_of_dagobah.lua")
+includeFile("groups/crystal_gallias_intuition.lua")
+includeFile("groups/crystal_horns_future.lua")
+includeFile("groups/crystal_kenobis_legacy.lua")
+includeFile("groups/crystal_kits_ferocity.lua")
+includeFile("groups/crystal_kuns_blood.lua")
+includeFile("groups/crystal_mundis_response.lua")
+includeFile("groups/crystal_prowess_of_plo_koon.lua")
+includeFile("groups/crystal_quintessence_of_the_force.lua")
+includeFile("groups/crystal_strength_of_luminaria.lua")
+includeFile("groups/crystal_sunriders_destiny.lua")
+includeFile("groups/crystal_ulics_redemption.lua")
+includeFile("groups/crystal_windus_guile.lua")
+includeFile("groups/crystal_black.lua")
+includeFile("groups/crystal_ahsokas_purity.lua")
+includeFile("groups/crystal_orange.lua")
+includeFile("groups/crystal_henriettes_might.lua")
+includeFile("groups/crystal_wickeds_burn.lua")
+includeFile("groups/crystal_dilly_dillys_damnation.lua")
+
+-- smuggler sub-folder
+-- includeFile("groups/smuggler/smug_armor.lua")
+-- includeFile("groups/smuggler/smug_medical.lua")
+-- includeFile("groups/smuggler/smug_wep.lua")
+
+
+------------------------------Halloween-----------------------------------
+includeFile("groups/halloween/enhanced_spider.lua")
+includeFile("groups/halloween/experimental_spider.lua")
+------------------------------Halloween-----------------------------------
+
+includeFile("groups/npc/nightsister_bicep_r_s01.lua")
+includeFile("groups/npc/nightsister/nightsister_clothing.lua")
+
+includeFile("groups/flare_s_swoop_crafted.lua")
+includeFile("groups/stap_speeder.lua")
+
+-- NGE House groups
+includeFile("groups/nge_house_group.lua")
+includeFile("groups/musty_house_group.lua")
+
+
+
+
+-- Veteran Rewards
+includeFile("groups/veteran_rewards/veteran_rewards_90_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_180_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_270_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_360_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_450_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_540_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_630_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_720_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_810_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_900_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_990_days.lua")
+includeFile("groups/veteran_rewards/veteran_rewards_1080_days.lua")
+
+-- All NGE Houses
+includeFile("groups/deeds/structure/nge_housing_all.lua")  --deeds
+includeFile("groups/schematic/structure/nge_houses_all.lua")  --schematics
+
+-- New Armors
+includeFile("groups/armor/clone_trooper_imperial.lua")
+includeFile("groups/armor/clone_trooper_rebel.lua")
+includeFile("groups/armor/clone_trooper_neutral.lua")
+includeFile("groups/armor/assault_trooper.lua")
+includeFile("groups/armor/rebel_assault.lua")
+
+-- New Weapons  Master Groups
+includeFile("groups/weapon/ranged/master_carbines.lua")
+includeFile("groups/weapon/ranged/master_rifles.lua")
+includeFile("groups/weapon/ranged/master_pistols.lua")
+includeFile("groups/weapon/melee/master_2h_swords.lua")
+includeFile("groups/weapon/melee/master_polearms.lua")
+includeFile("groups/weapon/melee/master_melee.lua")
+includeFile("groups/weapon/melee/master_swords.lua")
+
+-------------------------------------
+-- Start Specific Dungon Groups for new weapons
+-- ----------------------------------
+
+-- DWB
+includeFile("groups/weapon/dungeon/dwb_weapons.lua")
+includeFile("groups/weapon/dungeon/geo_weapons.lua")
+includeFile("groups/weapon/dungeon/massassi_sith_weapons.lua")
+includeFile("groups/weapon/dungeon/clone_war_weapons.lua")
+includeFile("groups/weapon/dungeon/jakku_weapons.lua")
+includeFile("groups/weapon/dungeon/kaas_weapons.lua")
+includeFile("groups/weapon/dungeon/chandriltech_weapons.lua")
+includeFile("groups/weapon/dungeon/black_sun_weapons.lua")
+includeFile("groups/weapon/dungeon/elite_weapons.lua")
+-- EK / AM
+includeFile("groups/dungeon/exar_kun/nge_jedi_cloaks.lua")
+includeFile("groups/dungeon/exar_kun/jedi_house_deeds.lua")
+includeFile("groups/dungeon/exar_kun/exar_kun_furniture.lua")
+includeFile("groups/dungeon/axkva_min/ns_clothing.lua")
+
+-- Race Tracks
+includeFile("groups/race_tracks/mos_espa.lua")
+includeFile("groups/race_tracks/coruscant_lower.lua")
+includeFile("groups/race_tracks/bilbousa.lua")
+includeFile("groups/race_tracks/agrilatswamp.lua")
+includeFile("groups/race_tracks/keren_track.lua")
+includeFile("groups/race_tracks/narmle_track.lua")
+includeFile("groups/race_tracks/nashal_track.lua")
+includeFile("groups/race_tracks/lok_track.lua")
+includeFile("groups/race_tracks/lothal_track.lua")
+
+--BH Armor Schematics
+includeFile("groups/death_watch_bunker/death_watch_bh_armor_schematics.lua")
+
+-- Buff Droid (Axkva Min Exclusive)
+includeFile("groups/buff_droid.lua")
+
+-- Mustafarian Bunker
+includeFile("groups/deeds/structure/mustafar_bunker.lua")
+
+-- Xeno
+
+includeFile("groups/creature/ewok_tooth.lua")
+includeFile("groups/furniture/xeno_desk.lua")

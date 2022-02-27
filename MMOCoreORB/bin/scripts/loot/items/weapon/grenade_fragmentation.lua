@@ -4,9 +4,9 @@ grenade_fragmentation = {
 	customObjectName = "",
 	directObjectTemplate = "object/weapon/ranged/grenade/grenade_fragmentation.iff",
 	craftingValues = {
-		{"mindamage",200,296,0},
-		{"maxdamage",400,1450,0},
-		{"attackspeed",4.5,3.5,1},
+		{"mindamage",150,246,0},
+		{"maxdamage",360,1100,0},
+		{"attackspeed",1,1,1},
 		{"woundchance",7,13,0},
 		{"hitpoints",1000,1000,0},
 		{"zerorangemod",-16,14,0},
@@ -14,13 +14,13 @@ grenade_fragmentation = {
 		{"maxrangemod",-45,15,0},
 		{"midrange",0,30,0},
 		{"midrangemod",10,30,0},
-		{"attackhealthcost",104,56,0},
-		{"attackactioncost",104,56,0},
-		{"attackmindcost",20,11,0},
+		{"attackhealthcost",0,0,0},
+    {"attackactioncost",300,300,0},
+    {"attackmindcost",0,0,0},
 	},
 
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
-	randomDotChance = 750,
+	randomDotChance = 625,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 30,
 	junkMaxValue = 55

@@ -7,7 +7,7 @@ geo_sword_core = {
 	directObjectTemplate = "object/tangible/component/weapon/geonosian_sword_core.iff",
 	craftingValues = {
 		{"mindamage",21,63,0},
-		{"maxdamage",21,63,0},
+		{"maxdamage",21,78,0},
 		{"attackspeed",-0.1,-0.7,1},
 		{"woundchance",0,8,0},
 		{"hitpoints",100,500,0},
@@ -15,7 +15,7 @@ geo_sword_core = {
 		{"attackhealthcost",13,-1,0},
 		{"attackactioncost",13,-1,0},
 		{"attackmindcost",13,-1,0},
-		{"useCount",1,5,0},
+		{"useCount",3,7,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

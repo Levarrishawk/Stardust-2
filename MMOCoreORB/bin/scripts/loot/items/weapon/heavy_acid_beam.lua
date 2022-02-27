@@ -4,9 +4,9 @@ heavy_acid_beam = {
 	customObjectName = "",
 	directObjectTemplate = "object/weapon/ranged/heavy/heavy_acid_beam.iff",
 	craftingValues = {
-		{"mindamage",833,1057,0},
-		{"maxdamage",1500,3700,0},
-		{"attackspeed",8.7,4.4,1},
+		{"mindamage",115,718,0},
+		{"maxdamage",120,800,0},
+		{"attackspeed",1,1,1},
 		{"woundchance",19,35,0},
 		{"hitpoints",1000,1000,0},
 		{"zerorangemod",0,10,0},
@@ -14,13 +14,13 @@ heavy_acid_beam = {
 		{"maxrangemod",-125,-95,0},
 		{"midrange",16,16,0},
 		{"midrangemod",20,30,0},
-		{"attackhealthcost",78,42,0},
-		{"attackactioncost",78,42,0},
-		{"attackmindcost",20,10,0},
+		{"attackhealthcost",0,0,0},
+    {"attackactioncost",300,300,0},
+    {"attackmindcost",0,0,0},
 	},
 
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
-	randomDotChance = 750,
+	randomDotChance = 625,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 30,
 	junkMaxValue = 55

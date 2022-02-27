@@ -5,7 +5,8 @@ force_hunter_rare = {
 	minimumLevel = 0,
 	maximumLevel = 0,
 	lootItems = {
-		{itemTemplate = "rare_artifact", weight = 10000000}
+		{itemTemplate = "rare_artifact", weight = 5000000},
+		{itemTemplate = "decorative_drink_dispenser", weight = 5000000}
 	}
 }
 

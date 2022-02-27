@@ -6,9 +6,9 @@ axe_vibroaxe = {
 	customObjectName = "",
 	directObjectTemplate = "object/weapon/melee/axe/axe_vibroaxe.iff",
 	craftingValues = {
-		{"mindamage",53,98,0},
-		{"maxdamage",123,228,0},
-		{"attackspeed",6.5,4.5,1},
+		{"mindamage",43,78,0},
+		{"maxdamage",99,198,0},
+    {"attackspeed",3,3,1},
 		{"woundchance",6,14,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",-26,-14,0},
@@ -16,15 +16,15 @@ axe_vibroaxe = {
 		{"midrange",3,3,0},
 		{"midrangemod",-26,-14,0},
 		{"maxrange",7,7,0},
-		{"attackhealthcost",85,46,0},
-		{"attackactioncost",52,28,0},
-		{"attackmindcost",20,11,0},
+		{"attackhealthcost",0,0,0},
+    {"attackactioncost",300,300,0},
+    {"attackmindcost",0,0,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {},
 
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
-	randomDotChance = 500,
+	randomDotChance = 600,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 25,
 	junkMaxValue = 45

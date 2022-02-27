@@ -9,7 +9,7 @@ atat_suit = {
 	},
 	customizationStringNames = {},
 	customizationValues = {},
-	skillMods = {{"slope_move", 5}}
+	skillMods = {{"slope_move", 25}}
 }
 
 addLootItemTemplate("atat_suit", atat_suit)

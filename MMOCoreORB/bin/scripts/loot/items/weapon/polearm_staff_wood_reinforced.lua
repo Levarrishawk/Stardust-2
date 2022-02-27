@@ -6,9 +6,9 @@ polearm_staff_wood_reinforced = {
 	customObjectName = "",
 	directObjectTemplate = "object/weapon/melee/polearm/lance_staff_wood_s2.iff",
 	craftingValues = {
-		{"mindamage",41,52,0},
-		{"maxdamage",86,111,0},
-		{"attackspeed",5.8,4,1},
+		{"mindamage",39,48,0},
+		{"maxdamage",76,101,0},
+    {"attackspeed",4,4,1},
 		{"woundchance",7,7,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",7,17,0},
@@ -16,15 +16,15 @@ polearm_staff_wood_reinforced = {
 		{"midrange",3,3,0},
 		{"midrangemod",7,17,0},
 		{"maxrange",7,7,0},		
-		{"attackhealthcost",20,14,0},
-		{"attackactioncost",38,27,0},
-		{"attackmindcost",15,11,0},
+		{"attackhealthcost",0,0,0},
+    {"attackactioncost",300,300,0},
+    {"attackmindcost",0,0,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {},
 
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
-	randomDotChance = 500,
+	randomDotChance = 600,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 25,
 	junkMaxValue = 45

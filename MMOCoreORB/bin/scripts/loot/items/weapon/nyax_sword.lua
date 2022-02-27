@@ -6,9 +6,9 @@ nyax_sword = {
 	customObjectName = "",
 	directObjectTemplate = "object/weapon/melee/sword/sword_curved_nyax.iff",
 	craftingValues = {
-		{"mindamage",25,50,0},
-		{"maxdamage",105,200,0},
-		{"attackspeed",4.3,3,1},
+		{"mindamage",22,45,0},
+		{"maxdamage",100,190,0},
+    {"attackspeed",2,2,1},
 		{"woundchance",15,29,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",-20,-10,0},
@@ -16,19 +16,19 @@ nyax_sword = {
 		{"midrange",3,3,0},
 		{"midrangemod",-20,-10,0},
 		{"maxrange",7,7,0},
-		{"attackhealthcost",51,27,0},
-		{"attackactioncost",39,21,0},
-		{"attackmindcost",33,18,0},
+		{"attackhealthcost",0,0,0},
+    {"attackactioncost",300,300,0},
+    {"attackmindcost",0,0,0},
 		{"maxrange",4,4,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {},
 
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
-	randomDotChance = 500,
+	randomDotChance = 600,
 
 	-- staticDotChance: The chance of this weapon object dropping with a static dot on it. Higher number means less chance. Set to 0 to always have a static dot.
-	staticDotChance = 0,
+	staticDotChance = 400,
 
 	-- staticDotType: 1 = Poison, 2 = Disease, 3 = Fire, 4 = Bleed
 	staticDotType = 1,

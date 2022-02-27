@@ -4,9 +4,9 @@ grenade_cryoban = {
 	customObjectName = "",
 	directObjectTemplate = "object/weapon/ranged/grenade/grenade_cryoban.iff",
 	craftingValues = {
-		{"mindamage",190,270,0},
-		{"maxdamage",320,650,0},
-		{"attackspeed",6.5,3,1},
+		{"mindamage",750,250,0},
+		{"maxdamage",285,580,0},
+		{"attackspeed",1,1,1},
 		{"woundchance",7,13,0},
 		{"hitpoints",1000,1000,0},
 		{"zerorangemod",-14,16,0},
@@ -14,13 +14,13 @@ grenade_cryoban = {
 		{"maxrangemod",-45,-15,0},
 		{"midrange",0,30,0},
 		{"midrangemod",10,30,0},
-		{"attackhealthcost",52,28,0},
-		{"attackactioncost",130,70,0},
-		{"attackmindcost",20,11,0},
+		{"attackhealthcost",0,0,0},
+    {"attackactioncost",300,300,0},
+    {"attackmindcost",0,0,0},
 	},
 
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
-	randomDotChance = 750,
+	randomDotChance = 625,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 30,
 	junkMaxValue = 55

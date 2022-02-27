@@ -5,9 +5,10 @@ donkuwah_common = {
 	minimumLevel = 0,
 	maximumLevel = 0,
 	lootItems = {
-		{itemTemplate = "donkuwah_bone_armor_segment", weight = 3500000},
-		{itemTemplate = "donkuwah_poison", weight = 3500000},
-		--{itemTemplate = "rifle_ewok_crossbow", weight = 10000},
+		{itemTemplate = "donkuwah_bone_armor_segment", weight = 3000000},
+		{itemTemplate = "donkuwah_poison", weight = 2000000},
+		{itemTemplate = "painting_lando_poster", weight = 1000000},
+		{itemTemplate = "rifle_ewok_crossbow", weight = 1000000},
 		{itemTemplate = "knife_donkuwah", weight = 1000000},
 		{groupTemplate = "wearables_common", weight = 2000000},
 	}

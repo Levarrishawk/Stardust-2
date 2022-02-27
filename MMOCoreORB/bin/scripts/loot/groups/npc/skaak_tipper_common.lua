@@ -4,7 +4,8 @@ skaak_tipper_common = {
 	maximumLevel = 0,
 	lootItems = {
 		{itemTemplate = "kitchen_utensils", weight = 2500000},
-		{groupTemplate = "wearables_common", weight = 7500000},
+		{itemTemplate = "decorative_indoor_garden_01", weight = 500000},
+		{groupTemplate = "wearables_common", weight = 7000000},
 	}
 }
 

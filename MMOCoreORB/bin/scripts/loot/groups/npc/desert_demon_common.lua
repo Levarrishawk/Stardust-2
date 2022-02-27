@@ -5,8 +5,9 @@ desert_demon_common = {
 	lootItems = {
 		{itemTemplate = "gambling_table_schematic", weight = 2000000},
 		{itemTemplate = "valley_view_painting", weight = 500000},
-		{itemTemplate = "skill_buff_heavy_weapon_accuracy", weight = 750000},
-		{itemTemplate = "skill_buff_heavy_weapon_speed", weight = 750000},
+		{itemTemplate = "decorative_indoor_fountain_01", weight = 500000},
+		{itemTemplate = "skill_buff_heavy_weapon_accuracy", weight = 500000},
+		{itemTemplate = "skill_buff_heavy_weapon_speed", weight = 500000},
 		{itemTemplate = "skill_buff_melee_accuracy", weight = 750000},
 		{itemTemplate = "skill_buff_melee_defense", weight = 750000},
 		{itemTemplate = "skill_buff_pistol_accuracy", weight = 750000},

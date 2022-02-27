@@ -6,9 +6,9 @@ axe_heavy_duty = {
 	customObjectName = "",
 	directObjectTemplate = "object/weapon/melee/axe/axe_heavy_duty.iff",
 	craftingValues = {
-		{"mindamage",25,46,0},
-		{"maxdamage",98,182,0},
-		{"attackspeed",6.5,4.5,1},
+		{"mindamage",20,35,0},
+		{"maxdamage",78,152,0},
+    {"attackspeed",3,3,1},
 		{"woundchance",11,20,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",-5,5,0},
@@ -16,15 +16,15 @@ axe_heavy_duty = {
 		{"midrange",3,3,0},
 		{"midrangemod",-5,5,0},
 		{"maxrange",4,4,0},
-		{"attackhealthcost",78,42,0},
-		{"attackactioncost",40,22,0},
-		{"attackmindcost",13,7,0},
+		{"attackhealthcost",0,0,0},
+		{"attackactioncost",300,300,0},
+		{"attackmindcost",0,0,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {},
 
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
-	randomDotChance = 750,
+	randomDotChance = 625,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 25,
 	junkMaxValue = 45 

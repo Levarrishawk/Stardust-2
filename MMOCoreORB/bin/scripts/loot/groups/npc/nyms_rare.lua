@@ -3,7 +3,8 @@ nyms_rare = {
 	minimumLevel = 0,
 	maximumLevel = 0,
 	lootItems = {
-		{itemTemplate = "bubble_tank_schematic", weight = 10000000}
+		{itemTemplate = "bubble_tank_schematic", weight = 9000000},
+		{itemTemplate = "decorative_shield_generator_blueprint", weight = 1000000}
 	}
 }
 

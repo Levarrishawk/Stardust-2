@@ -6,7 +6,8 @@ stormtrooper_common = {
 		{itemTemplate = "painting_bw_stormtrooper", weight = 2500000},
 		{itemTemplate = "painting_han_wanted", weight = 2500000},
 		{itemTemplate = "painting_leia_wanted", weight = 2500000},
-		{itemTemplate = "painting_luke_wanted", weight = 2500000}	
+		{itemTemplate = "painting_leia_wanted", weight = 2000000},
+		{itemTemplate = "painting_travel_ad_coruscant", weight = 500000}	--
 	}
 }
 

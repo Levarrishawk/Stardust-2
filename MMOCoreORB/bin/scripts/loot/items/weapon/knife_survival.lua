@@ -6,9 +6,9 @@ knife_survival = {
 	customObjectName = "",
 	directObjectTemplate = "object/weapon/melee/knife/knife_survival.iff",
 	craftingValues = {
-		{"mindamage",14,26,0},
-		{"maxdamage",28,52,0},
-		{"attackspeed",4.2,2.9,1},
+		{"mindamage",11,22,0},
+		{"maxdamage",22,47,0},
+    {"attackspeed",2,2,1},
 		{"woundchance",5,11,0},
 		{"hitpoints",750,1500,0},
 		{"zerorangemod",21,39,0},
@@ -16,15 +16,15 @@ knife_survival = {
 		{"midrange",3,3,0},
 		{"midrangemod",21,39,0},
 		{"maxrange",7,7,0},
-		{"attackhealthcost",9,5,0},
-		{"attackactioncost",29,15,0},
-		{"attackmindcost",7,4,0},
+		{"attackhealthcost",0,0,0},
+    {"attackactioncost",300,300,0},
+    {"attackmindcost",0,0,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {},
 
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
-	randomDotChance = 500,
+	randomDotChance = 600,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 20,
 	junkMaxValue = 40
