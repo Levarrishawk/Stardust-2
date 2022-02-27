@@ -732,6 +732,44 @@ void CommandConfigManager::parseVariableData(String varName, LuaObject &command,
 			jediCommand->setFrsDarkBuffModifier(Lua::getFloatParameter(L));
 		else if (varName == "frsLightForcePowerModifier")
 			jediCommand->setFrsLightForcePowerModifier(Lua::getFloatParameter(L));
+		else if (varName == "healWoundAmount")
+			jediCommand->setHealWoundAmount(Lua::getIntParameter(L));
+					else if (varName == "attributesToHeal")
+						jediCommand->setAttributesToHeal(Lua::getUnsignedIntParameter(L));
+					else if (varName == "woundAttributesToHeal")
+						jediCommand->setWoundAttributesToHeal(Lua::getUnsignedIntParameter(L));
+					else if (varName == "forceCostMultiplier")
+						jediCommand->setForceCostMultiplier(Lua::getFloatParameter(L));
+					else if (varName == "range")
+						jediCommand->setRange(Lua::getIntParameter(L));
+					else if (varName == "healBleedingCost")
+						jediCommand->setHealBleedingCost(Lua::getUnsignedIntParameter(L));
+					else if (varName == "healFireCost")
+						jediCommand->setHealFireCost(Lua::getUnsignedIntParameter(L));
+					else if (varName == "healDiseaseCost")
+						jediCommand->setHealDiseaseCost(Lua::getUnsignedIntParameter(L));
+					else if (varName == "healPoisonCost")
+						jediCommand->setHealPoisonCost(Lua::getUnsignedIntParameter(L));
+					else if (varName == "healBattleFatigue")
+						jediCommand->setHealBattleFatigue(Lua::getUnsignedIntParameter(L));
+					else if (varName == "healStateCost")
+						jediCommand->setHealStateCost(Lua::getUnsignedIntParameter(L));
+					else if (varName == "statesToHeal")
+						jediCommand->setStatesToHeal(Lua::getUnsignedIntParameter(L));
+					else if (varName == "bleedHealIterations")
+						jediCommand->setBleedHealIterations(Lua::getUnsignedIntParameter(L));
+					else if (varName == "poisonHealIterations")
+						jediCommand->setPoisonHealIterations(Lua::getUnsignedIntParameter(L));
+					else if (varName == "diseaseHealIterations")
+						jediCommand->setDiseaseHealIterations(Lua::getUnsignedIntParameter(L));
+					else if (varName == "fireHealIterations")
+						jediCommand->setFireHealIterations(Lua::getUnsignedIntParameter(L));
+					else if (varName == "speed")
+						jediCommand->setSpeed(Lua::getUnsignedIntParameter(L));
+					else if (varName == "allowedTarget")
+						jediCommand->setAllowedTarget(Lua::getUnsignedIntParameter(L));
+					else if (varName == "healAmount")
+						jediCommand->setHealAmount(Lua::getIntParameter(L));
 		else if (varName == "frsDarkForcePowerModifier")
 			jediCommand->setFrsDarkForcePowerModifier(Lua::getFloatParameter(L));
 		else if (jediCommand->isForceHealCommand()) {
