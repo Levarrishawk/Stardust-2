@@ -703,7 +703,7 @@ void CommandConfigManager::parseVariableData(String varName, LuaObject &command,
 			command.pop();
 		}
 	} else if (slashCommand->isForceHealCommand()) {
-		ForceHealQueueCommand* healCommand = cast<ForceHealQueueCommand*>(jediCommand);
+		ForceHealQueueCommand* healCommand = cast<ForceHealQueueCommand*>(slashCommand);
 		if (varName == "healAmount")
 			healCommand->setHealAmount(Lua::getIntParameter(L));
 		else if (varName == "healWoundAmount")
