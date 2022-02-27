@@ -128,3 +128,18 @@ includeFile("tangible/loot/loot_schematic/technical_console_s02_schematic.lua")
 includeFile("tangible/loot/loot_schematic/throwpillow_schematic.lua")
 includeFile("tangible/loot/loot_schematic/tumble_blender_schematic.lua")
 includeFile("tangible/loot/loot_schematic/utensils_schematic.lua")
+
+-- Weapon Schematics
+includeFile("tangible/loot/loot_schematic/weapon_schematic/serverobjects.lua")
+
+-- NS
+includeFile("tangible/loot/loot_schematic/ns_hat_s01_schematic.lua")
+includeFile("tangible/loot/loot_schematic/ns_hat_s02_schematic.lua")
+includeFile("tangible/loot/loot_schematic/ns_hat_s03_schematic.lua")
+includeFile("tangible/loot/loot_schematic/ns_shirt_s01_schematic.lua")
+includeFile("tangible/loot/loot_schematic/ns_shirt_s02_schematic.lua")
+includeFile("tangible/loot/loot_schematic/ns_shirt_s03_schematic.lua")
+includeFile("tangible/loot/loot_schematic/ns_pants_s01_schematic.lua")
+includeFile("tangible/loot/loot_schematic/ns_pants_s02_schematic.lua")
+includeFile("tangible/loot/loot_schematic/ns_dress_schematic.lua")
+includeFile("tangible/loot/loot_schematic/ns_boots_schematic.lua")

@@ -1,0 +1,3 @@
+object_tangible_loot_creature_loot_collections_base_collection = object_tangible_loot_creature_loot_collections_shared_base_collection:new {
+}
+ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_base_collection, "object/tangible/loot/creature_loot/collections/base_collection.iff")
