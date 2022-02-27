@@ -1055,7 +1055,7 @@ includeFile("custom_content/draft_schematic/furniture/city/objects.lua")
 includeFile("static/structure/elysium/objects.lua")
 includeFile("tangible/loot/dungeon/objects.lua")
 includeFile("tangible/loot/base/objects.lua")
-includeFile("tangible/loot/loot_schematic/weapon_schematic/objects.lua")
+--includeFile("tangible/loot/loot_schematic/weapon_schematic/objects.lua")
 
 -- Custom Armors
 includeFile("tangible/wearables/armor/assault_trooper/objects.lua")
