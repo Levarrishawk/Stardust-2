@@ -43,59 +43,14 @@
 
 object_tangible_furniture_base_shared_furniture_base = SharedTangibleObjectTemplate:new {
 	clientTemplateFileName = "object/tangible/furniture/base/shared_furniture_base.iff"
-	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
---[[
-	appearanceFilename = "",
-	arrangementDescriptorFilename = "",
-
-	certificationsRequired = {},
-	clearFloraRadius = 0,
-	clientDataFile = "",
-	clientGameObjectType = 8203,
-	collisionActionBlockFlags = 0,
-	collisionActionFlags = 51,
-	collisionActionPassFlags = 0,
-	collisionMaterialBlockFlags = 1,
-	collisionMaterialFlags = 1,
-	collisionMaterialPassFlags = 0,
-	containerType = 0,
-	containerVolumeLimit = 1,
-	customizationVariableMapping = {},
-
-	detailedDescription = "@item_n:default_furniture",
-
-	gameObjectType = 8203,
-
-	locationReservationRadius = 0,
-	lookAtText = "string_id_table",
-
-	noBuildRadius = 0,
-
-	objectName = "@item_n:default_furniture",
-	onlyVisibleInTools = 0,
-
-	paletteColorCustomizationVariables = {},
-	portalLayoutFilename = "",
-
-	rangedIntCustomizationVariables = {},
-
-	scale = 1,
-	scaleThresholdBeforeExtentTest = 0.5,
-	sendToClient = 1,
-	slotDescriptorFilename = "abstract/slot/descriptor/tangible.iff",
-	snapToTerrain = 1,
-	socketDestinations = {},
-	structureFootprintFileName = "",
-	surfaceType = 0,
-
-	targetable = 1,
-	totalCellNumber = 0,
-
-	useStructureFootprintOutline = 0,
-
-	clientObjectCRC = 3515230028,
-	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/tangible/base/shared_tangible_craftable.iff"}
-]]
+	
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_base_shared_furniture_base, "object/tangible/furniture/base/shared_furniture_base.iff")
+--
+object_tangible_furniture_base_shared_flag_city_base = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/furniture/base/shared_flag_city_base.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_base_shared_flag_city_base, "object/tangible/furniture/base/shared_flag_city_base.iff")
