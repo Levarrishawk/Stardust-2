@@ -1074,4 +1074,4 @@ includeFile("tangible/wearables/armor/scout_trooper/objects.lua")
 includeFile("tangible/wearables/armor/snowtrooper/objects.lua")
 includeFile("tangible/wearables/armor/veers/objects.lua")
 
-
+includeFile("tangible/dance_prop/objects.lua")
