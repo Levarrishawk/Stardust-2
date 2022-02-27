@@ -1,1 +1,0 @@
-object_static_structure_dathomir_decal_mtpsd = object_static_structure_dathomir_shared_decal_mtpsd:new {}ObjectTemplates:addTemplate(object_static_structure_dathomir_decal_mtpsd, "object/static/structure/dathomir/decal_mtpsd.iff")

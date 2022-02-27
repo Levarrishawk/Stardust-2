@@ -1,5 +1,0 @@
-object_tangible_loot_loot_schematic_yt1300_house_schematic = object_tangible_loot_loot_schematic_shared_yt1300_house_schematic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_loot_schematic_yt1300_house_schematic, "object/tangible/loot/loot/schematic/yt1300_house_schematic.iff")

@@ -1,5 +1,0 @@
-
-object_tangible_collection_rare_rifle_disruptor = object_tangible_collection_shared_rare_rifle_disruptor:new {
-
-gameObjectType = 8211,}
-ObjectTemplates:addTemplate(object_tangible_collection_rare_rifle_disruptor, "object/tangible/collection/rare_rifle_disruptor.iff")

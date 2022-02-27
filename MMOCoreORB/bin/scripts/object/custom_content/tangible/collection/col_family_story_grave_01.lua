@@ -1,5 +1,0 @@
-
-object_tangible_collection_col_family_story_grave_01 = object_tangible_collection_shared_col_family_story_grave_01:new {
-
-gameObjectType = 8211,}
-ObjectTemplates:addTemplate(object_tangible_collection_col_family_story_grave_01, "object/tangible/collection/col_family_story_grave_01.iff")

@@ -1,5 +1,0 @@
-object_tangible_collection_reward_col_rebel_gcw_reward = object_tangible_collection_reward_shared_col_rebel_gcw_reward:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_collection_reward_col_rebel_gcw_reward, "object/tangible/collection/reward/col_rebel_gcw_reward.iff")

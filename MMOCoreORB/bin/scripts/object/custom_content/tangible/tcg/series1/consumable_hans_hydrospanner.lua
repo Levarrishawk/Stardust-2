@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series1_consumable_hans_hydrospanner = object_tangible_tcg_series1_shared_consumable_hans_hydrospanner:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series1_consumable_hans_hydrospanner, "object/tangible/tcg/series1/consumable_hans_hydrospanner.iff")

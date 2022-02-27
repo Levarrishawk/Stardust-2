@@ -1,1 +1,0 @@
-object_mobile_naboo_lt_dunnels = object_mobile_shared_naboo_lt_dunnels:new {}ObjectTemplates:addTemplate(object_mobile_naboo_lt_dunnels, "object/mobile/naboo_lt_dunnels.iff")

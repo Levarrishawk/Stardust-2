@@ -1,5 +1,0 @@
-object_tangible_item_beast_converted_squall_decoration = object_tangible_item_beast_shared_converted_squall_decoration:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_item_beast_converted_squall_decoration, "object/tangible/item/beast/converted_squall_decoration.iff")

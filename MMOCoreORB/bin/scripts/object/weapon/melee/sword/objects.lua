@@ -1366,89 +1366,63 @@ ObjectTemplates:addClientTemplate(object_weapon_melee_sword_shared_sword_nyax, "
 
 object_weapon_melee_sword_shared_sword_rantok = SharedWeaponObjectTemplate:new {
 	clientTemplateFileName = "object/weapon/melee/sword/shared_sword_rantok.iff"
-	
+	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
+--[[
+	appearanceFilename = "appearance/wp_mle_sword_rantok.apt",
+	arrangementDescriptorFilename = "abstract/slot/arrangement/wearables/hold_r.iff",
+	attackType = 1,
+
+	certificationsRequired = {},
+	clearFloraRadius = 0,
+	clientDataFile = "clientdata/weapon/client_melee_sword_basic.cdf",
+	clientGameObjectType = 131079,
+	collisionActionBlockFlags = 0,
+	collisionActionFlags = 51,
+	collisionActionPassFlags = 1,
+	collisionMaterialBlockFlags = 0,
+	collisionMaterialFlags = 1,
+	collisionMaterialPassFlags = 0,
+	containerType = 1,
+	containerVolumeLimit = 0,
+	customizationVariableMapping = {},
+
+	detailedDescription = "@weapon_detail:sword_blade_rantok",
+
+	gameObjectType = 131079,
+
+	locationReservationRadius = 0,
+	lookAtText = "@weapon_lookat:sword_blade_rantok",
+
+	noBuildRadius = 0,
+
+	objectName = "@weapon_name:sword_blade_rantok",
+	onlyVisibleInTools = 0,
+
+	paletteColorCustomizationVariables = {},
+	portalLayoutFilename = "",
+
+	rangedIntCustomizationVariables = {},
+
+	scale = 1,
+	scaleThresholdBeforeExtentTest = 0.5,
+	sendToClient = 1,
+	slotDescriptorFilename = "abstract/slot/descriptor/default_weapon.iff",
+	snapToTerrain = 1,
+	socketDestinations = {},
+	structureFootprintFileName = "",
+	surfaceType = 0,
+
+	targetable = 1,
+	totalCellNumber = 0,
+
+	useStructureFootprintOutline = 0,
+
+	weaponEffect = "bolt",
+	weaponEffectIndex = 0,
+
+	clientObjectCRC = 3125045014,
+	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/tangible/base/shared_tangible_craftable.iff", "object/weapon/base/shared_base_weapon.iff", "object/weapon/melee/base/shared_base_melee.iff", "object/weapon/melee/sword/base/shared_sword_base.iff"}
+]]
 }
 
 ObjectTemplates:addClientTemplate(object_weapon_melee_sword_shared_sword_rantok, "object/weapon/melee/sword/shared_sword_rantok.iff")
---------------------------------------------------------------------------------
---  New Weapons
---------------------------------------------------------------------------------
-object_weapon_melee_sword_shared_som_sword_mustafar_bandit = SharedWeaponObjectTemplate:new {
-  clientTemplateFileName = "object/weapon/melee/sword/shared_som_sword_mustafar_bandit.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_weapon_melee_sword_shared_som_sword_mustafar_bandit, "object/weapon/melee/sword/shared_som_sword_mustafar_bandit.iff")
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-object_weapon_melee_sword_shared_som_sword_obsidian = SharedWeaponObjectTemplate:new {
-  clientTemplateFileName = "object/weapon/melee/sword/shared_som_sword_obsidian.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_weapon_melee_sword_shared_som_sword_obsidian, "object/weapon/melee/sword/shared_som_sword_obsidian.iff")
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-object_weapon_melee_sword_shared_sword_acid = SharedWeaponObjectTemplate:new {
-  clientTemplateFileName = "object/weapon/melee/sword/shared_sword_acid.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_weapon_melee_sword_shared_sword_acid, "object/weapon/melee/sword/shared_sword_acid.iff")
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-object_weapon_melee_sword_shared_sword_mace_junti = SharedWeaponObjectTemplate:new {
-  clientTemplateFileName = "object/weapon/melee/sword/shared_sword_mace_junti.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_weapon_melee_sword_shared_sword_mace_junti, "object/weapon/melee/sword/shared_sword_mace_junti.iff")
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-object_weapon_melee_sword_shared_sword_mandalorian = SharedWeaponObjectTemplate:new {
-  clientTemplateFileName = "object/weapon/melee/sword/shared_sword_mandalorian.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_weapon_melee_sword_shared_sword_mandalorian, "object/weapon/melee/sword/shared_sword_mandalorian.iff")
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-object_weapon_melee_sword_shared_sword_marauder = SharedWeaponObjectTemplate:new {
-  clientTemplateFileName = "object/weapon/melee/sword/shared_sword_marauder.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_weapon_melee_sword_shared_sword_marauder, "object/weapon/melee/sword/shared_sword_marauder.iff")
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-object_weapon_melee_sword_shared_sword_massassi = SharedWeaponObjectTemplate:new {
-  clientTemplateFileName = "object/weapon/melee/sword/shared_sword_massassi.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_weapon_melee_sword_shared_sword_massassi, "object/weapon/melee/sword/shared_sword_massassi.iff")
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-object_weapon_melee_sword_shared_sword_rebel = SharedWeaponObjectTemplate:new {
-  clientTemplateFileName = "object/weapon/melee/sword/shared_sword_rebel.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_weapon_melee_sword_shared_sword_rebel, "object/weapon/melee/sword/shared_sword_rebel.iff")
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-object_weapon_melee_sword_shared_sword_rsf = SharedWeaponObjectTemplate:new {
-  clientTemplateFileName = "object/weapon/melee/sword/shared_sword_rsf.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_weapon_melee_sword_shared_sword_rsf, "object/weapon/melee/sword/shared_sword_rsf.iff")
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-object_weapon_melee_sword_shared_sword_wookiee = SharedWeaponObjectTemplate:new {
-  clientTemplateFileName = "object/weapon/melee/sword/shared_sword_wookiee.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_weapon_melee_sword_shared_sword_wookiee, "object/weapon/melee/sword/shared_sword_wookiee.iff")
---------------------------------------------------------------------------------

@@ -1,1 +1,0 @@
-object_static_structure_military_military_column_huge_imperial = object_static_structure_military_shared_military_column_huge_imperial:new {}ObjectTemplates:addTemplate(object_static_structure_military_military_column_huge_imperial, "object/static/structure/military/military_column_huge_imperial.iff")

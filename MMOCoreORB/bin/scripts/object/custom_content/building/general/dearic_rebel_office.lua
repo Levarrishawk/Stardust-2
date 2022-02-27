@@ -1,3 +1,0 @@
-object_building_general_dearic_rebel_office = object_building_general_shared_dearic_rebel_office:new {
-}
-ObjectTemplates:addTemplate(object_building_general_dearic_rebel_office, "object/building/general/dearic_rebel_office.iff")

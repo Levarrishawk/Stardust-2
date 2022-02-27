@@ -1,5 +1,0 @@
-object_tangible_quest_naboo_theed_prisoner_control_panel = object_tangible_quest_shared_naboo_theed_prisoner_control_panel:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_naboo_theed_prisoner_control_panel, "object/tangible/quest/naboo_theed_prisoner_control_panel.iff")

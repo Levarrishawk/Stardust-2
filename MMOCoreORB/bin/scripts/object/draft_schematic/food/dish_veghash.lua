@@ -48,11 +48,12 @@ object_draft_schematic_food_dish_veghash = object_draft_schematic_food_shared_di
    customObjectName = "Veghash",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 8, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_food.iff",
+   
    xpType = "crafting_food_general", 
-   xp = 400, 
+   xp = 100, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

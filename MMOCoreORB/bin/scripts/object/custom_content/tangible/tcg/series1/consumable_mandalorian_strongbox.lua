@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series1_consumable_mandalorian_strongbox = object_tangible_tcg_series1_shared_consumable_mandalorian_strongbox:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series1_consumable_mandalorian_strongbox, "object/tangible/tcg/series1/consumable_mandalorian_strongbox.iff")

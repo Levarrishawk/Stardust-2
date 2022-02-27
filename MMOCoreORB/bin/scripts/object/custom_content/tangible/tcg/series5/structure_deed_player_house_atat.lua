@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series5_structure_deed_player_house_atat = object_tangible_tcg_series5_shared_structure_deed_player_house_atat:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series5_structure_deed_player_house_atat, "object/tangible/tcg/series5/structure_deed_player_house_atat.iff")

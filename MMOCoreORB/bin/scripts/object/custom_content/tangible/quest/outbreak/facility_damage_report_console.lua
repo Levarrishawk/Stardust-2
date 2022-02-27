@@ -1,5 +1,0 @@
-object_tangible_quest_outbreak_facility_damage_report_console = object_tangible_quest_outbreak_shared_facility_damage_report_console:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_outbreak_facility_damage_report_console, "object/tangible/quest/outbreak/facility_damage_report_console.iff")

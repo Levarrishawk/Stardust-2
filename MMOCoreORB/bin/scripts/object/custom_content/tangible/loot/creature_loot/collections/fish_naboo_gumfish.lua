@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_fish_naboo_gumfish = object_tangible_loot_creature_loot_collections_shared_fish_naboo_gumfish:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fish_naboo_gumfish, "object/tangible/loot/creature/loot/collections/fish_naboo_gumfish.iff")

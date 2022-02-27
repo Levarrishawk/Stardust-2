@@ -1,1 +1,0 @@
-object_mobile_turr_phennir = object_mobile_shared_turr_phennir:new {}ObjectTemplates:addTemplate(object_mobile_turr_phennir, "object/mobile/turr_phennir.iff")

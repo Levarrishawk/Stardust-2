@@ -295,22 +295,63 @@ ObjectTemplates:addClientTemplate(object_weapon_ranged_heavy_shared_heavy_rocket
 
 object_weapon_ranged_heavy_shared_launcher = SharedWeaponObjectTemplate:new {
 	clientTemplateFileName = "object/weapon/ranged/heavy/shared_launcher.iff"
-	
+	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
+--[[
+	appearanceFilename = "appearance/wp_hvy_launcher.apt",
+	arrangementDescriptorFilename = "abstract/slot/arrangement/wearables/empty.iff",
+	attackType = 1,
+
+	certificationsRequired = {},
+	clearFloraRadius = 0,
+	clientDataFile = "",
+	clientGameObjectType = 131076,
+	collisionActionBlockFlags = 0,
+	collisionActionFlags = 51,
+	collisionActionPassFlags = 1,
+	collisionMaterialBlockFlags = 0,
+	collisionMaterialFlags = 1,
+	collisionMaterialPassFlags = 0,
+	containerType = 1,
+	containerVolumeLimit = 0,
+	customizationVariableMapping = {},
+
+	detailedDescription = "@weapon_detail:launcher",
+
+	gameObjectType = 131076,
+
+	locationReservationRadius = 0,
+	lookAtText = "@weapon_lookat:launcher",
+
+	noBuildRadius = 0,
+
+	objectName = "@weapon_name:launcher",
+	onlyVisibleInTools = 0,
+
+	paletteColorCustomizationVariables = {},
+	portalLayoutFilename = "",
+
+	rangedIntCustomizationVariables = {},
+
+	scale = 1,
+	scaleThresholdBeforeExtentTest = 0.5,
+	sendToClient = 1,
+	slotDescriptorFilename = "abstract/slot/descriptor/default_weapon.iff",
+	snapToTerrain = 1,
+	socketDestinations = {},
+	structureFootprintFileName = "",
+	surfaceType = 0,
+
+	targetable = 1,
+	totalCellNumber = 0,
+
+	useStructureFootprintOutline = 0,
+
+	weaponEffect = "bolt",
+	weaponEffectIndex = 0,
+
+	clientObjectCRC = 2595978283,
+	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/tangible/base/shared_tangible_craftable.iff", "object/weapon/base/shared_base_weapon.iff", "object/weapon/ranged/heavy/base/shared_heavy_weapon_base.iff"}
+]]
 }
 
 ObjectTemplates:addClientTemplate(object_weapon_ranged_heavy_shared_launcher, "object/weapon/ranged/heavy/shared_launcher.iff")
--- --------------------------------------------------------------------------------
--- New Weapons
------------------------
---[[
-object_weapon_ranged_heavy_shared_carbonite_rifle = SharedWeaponObjectTemplate:new {
-  clientTemplateFileName = "object/weapon/ranged/heavy/shared_carbonite_rifle.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_weapon_ranged_heavy_shared_carbonite_rifle, "object/weapon/ranged/heavy/shared_carbonite_rifle.iff")
--- --------------------------------------------------------------------------------
-
---]]
-
--- Left unfinished.   Heavy weapon templates all incorrect.   - TODO

@@ -1,5 +1,0 @@
-object_tangible_quest_som_kenobi_final_chamber_entrance_item = object_tangible_quest_shared_som_kenobi_final_chamber_entrance_item:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_som_kenobi_final_chamber_entrance_item, "object/tangible/quest/som_kenobi_final_chamber_entrance_item.iff")

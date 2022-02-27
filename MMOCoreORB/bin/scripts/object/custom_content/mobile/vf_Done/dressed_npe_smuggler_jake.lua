@@ -1,3 +1,0 @@
-object_mobile_dressed_npe_smuggler_jake = object_mobile_shared_dressed_npe_smuggler_jake:new {
-}
-ObjectTemplates:addTemplate(object_mobile_dressed_npe_smuggler_jake, "object/mobile/dressed_npe_smuggler_jake.iff")

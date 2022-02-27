@@ -1,3 +1,0 @@
-object_tangible_veteran_reward_character_respec_reset_device = object_tangible_veteran_reward_shared_character_respec_reset_device:new {
-}
-ObjectTemplates:addTemplate(object_tangible_veteran_reward_character_respec_reset_device, "object/tangible/veteran_reward/character_respec_reset_device.iff")

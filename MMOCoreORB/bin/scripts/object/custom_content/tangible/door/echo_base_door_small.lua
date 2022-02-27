@@ -1,3 +1,0 @@
-object_tangible_door_echo_base_door_small = object_tangible_door_shared_echo_base_door_small:new {
-}
-ObjectTemplates:addTemplate(object_tangible_door_echo_base_door_small, "object/tangible/door/echo_base_door_small.iff")

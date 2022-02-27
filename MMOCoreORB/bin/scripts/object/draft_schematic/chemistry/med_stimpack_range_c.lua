@@ -48,12 +48,13 @@ object_draft_schematic_chemistry_med_stimpack_range_c = object_draft_schematic_c
 	customObjectName = "Ranged Stimpack - C",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 30,
 	size = 3,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 50,
+	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
-	xp = 225,
+	xp = 70,
 
 	assemblySkill = "combat_medicine_assembly",
 	experimentingSkill = "combat_medicine_experimentation",

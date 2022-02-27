@@ -1,5 +1,0 @@
-object_tangible_holiday_empire_day_component_carrier_rotary_valve = object_tangible_holiday_empire_day_component_shared_carrier_rotary_valve:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_component_carrier_rotary_valve, "object/tangible/holiday/empire_day/component/carrier_rotary_valve.iff")

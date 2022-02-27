@@ -1,5 +1,0 @@
-object_tangible_loot_npc_loot_spice_droid_lube_generic = object_tangible_loot_npc_loot_shared_spice_droid_lube_generic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_spice_droid_lube_generic, "object/tangible/loot/npc/loot/spice_droid_lube_generic.iff")

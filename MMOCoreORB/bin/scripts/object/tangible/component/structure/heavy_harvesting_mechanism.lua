@@ -50,7 +50,7 @@ object_tangible_component_structure_heavy_harvesting_mechanism = object_tangible
 	experimentalGroupTitles = {"null", "null", "null", "expEffeciency"},
 	experimentalSubGroupTitles = {"null", "null", "hitpoints", "extractrate"},
 	experimentalMin = {0, 0, 1000, 2},
-	experimentalMax = {0, 0, 5000, 20},
+	experimentalMax = {0, 0, 5000, 7},
 	experimentalPrecision = {0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 4, 1},
 }

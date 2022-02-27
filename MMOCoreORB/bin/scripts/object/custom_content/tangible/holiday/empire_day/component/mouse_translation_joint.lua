@@ -1,5 +1,0 @@
-object_tangible_holiday_empire_day_component_mouse_translation_joint = object_tangible_holiday_empire_day_component_shared_mouse_translation_joint:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_component_mouse_translation_joint, "object/tangible/holiday/empire_day/component/mouse_translation_joint.iff")

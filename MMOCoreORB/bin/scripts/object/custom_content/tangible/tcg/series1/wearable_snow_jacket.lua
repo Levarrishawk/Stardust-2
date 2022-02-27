@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series1_wearable_snow_jacket = object_tangible_tcg_series1_shared_wearable_snow_jacket:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series1_wearable_snow_jacket, "object/tangible/tcg/series1/wearable_snow_jacket.iff")

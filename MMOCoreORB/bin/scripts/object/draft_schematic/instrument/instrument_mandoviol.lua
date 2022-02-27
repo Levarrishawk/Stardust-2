@@ -48,11 +48,12 @@ object_draft_schematic_instrument_instrument_mandoviol = object_draft_schematic_
    customObjectName = "a Mandoviol",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 18, 
    size = 0, 
-
+   factoryCrateType = "object/factory/factory_crate_generic_items.iff",
+   
    xpType = "music", 
-   xp = 6416, -- Boosted xp for Musician craft grind expediency.
+   xp = 120, 
 
    assemblySkill = "instrument_assembly", 
    experimentingSkill = "general_experimentation", 

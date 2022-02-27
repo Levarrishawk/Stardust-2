@@ -1,5 +1,0 @@
-object_tangible_loot_loot_schematic_dancing_droid_schematic = object_tangible_loot_loot_schematic_shared_dancing_droid_schematic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_loot_schematic_dancing_droid_schematic, "object/tangible/loot/loot/schematic/dancing_droid_schematic.iff")

@@ -54,12 +54,5 @@ includeFile("weapon/melee/2h_sword/2h_sword_cleaver.lua")
 includeFile("weapon/melee/2h_sword/2h_sword_katana.lua")
 includeFile("weapon/melee/2h_sword/2h_sword_katana_quest.lua")
 includeFile("weapon/melee/2h_sword/2h_sword_maul.lua")
+includeFile("weapon/melee/2h_sword/2h_sword_maul_ranged.lua")
 includeFile("weapon/melee/2h_sword/2h_sword_scythe.lua")
-
--- New Weapons
-includeFile("weapon/melee/2h_sword/2h_sword_kashyyk.lua")
-includeFile("weapon/melee/2h_sword/2h_sword_kun_massassi.lua")
-includeFile("weapon/melee/2h_sword/2h_sword_pvp_bf_01.lua")
-includeFile("weapon/melee/2h_sword/2h_sword_sith.lua")
-includeFile("weapon/melee/2h_sword/som_2h_sword_obsidian.lua")
-includeFile("weapon/melee/2h_sword/som_2h_sword_tulrus.lua")

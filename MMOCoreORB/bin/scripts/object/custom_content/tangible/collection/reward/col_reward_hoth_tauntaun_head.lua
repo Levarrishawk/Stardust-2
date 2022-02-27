@@ -1,5 +1,0 @@
-object_tangible_collection_reward_col_reward_hoth_tauntaun_head = object_tangible_collection_reward_shared_col_reward_hoth_tauntaun_head:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_collection_reward_col_reward_hoth_tauntaun_head, "object/tangible/collection/reward/col_reward_hoth_tauntaun_head.iff")

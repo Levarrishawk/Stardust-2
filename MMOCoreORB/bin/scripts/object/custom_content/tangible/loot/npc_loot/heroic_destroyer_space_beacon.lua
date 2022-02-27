@@ -1,5 +1,0 @@
-object_tangible_loot_npc_loot_heroic_destroyer_space_beacon = object_tangible_loot_npc_loot_shared_heroic_destroyer_space_beacon:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_heroic_destroyer_space_beacon, "object/tangible/loot/npc/loot/heroic_destroyer_space_beacon.iff")

@@ -1,5 +1,0 @@
-object_tangible_furniture_decorative_decorative_whip_belt = object_tangible_furniture_decorative_shared_decorative_whip_belt:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_decorative_decorative_whip_belt, "object/tangible/furniture/decorative/decorative_whip_belt.iff")

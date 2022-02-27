@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_ig_88_left_leg = object_tangible_loot_creature_loot_collections_shared_ig_88_left_leg:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_ig_88_left_leg, "object/tangible/loot/creature/loot/collections/ig_88_left_leg.iff")

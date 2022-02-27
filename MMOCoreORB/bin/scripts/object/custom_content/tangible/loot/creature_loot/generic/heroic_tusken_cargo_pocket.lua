@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_generic_heroic_tusken_cargo_pocket = object_tangible_loot_creature_loot_generic_shared_heroic_tusken_cargo_pocket:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_generic_heroic_tusken_cargo_pocket, "object/tangible/loot/creature/loot/generic/heroic_tusken_cargo_pocket.iff")

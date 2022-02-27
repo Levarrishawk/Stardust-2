@@ -1,5 +1,0 @@
-object_tangible_item_crafted_armor_recolor_kit = object_tangible_item_shared_crafted_armor_recolor_kit:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_item_crafted_armor_recolor_kit, "object/tangible/item/crafted_armor_recolor_kit.iff")

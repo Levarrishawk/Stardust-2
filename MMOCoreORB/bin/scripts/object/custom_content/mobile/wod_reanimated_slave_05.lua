@@ -1,3 +1,0 @@
-object_mobile_wod_reanimated_slave_05 = object_mobile_shared_wod_reanimated_slave_05:new {
-}
-ObjectTemplates:addTemplate(object_mobile_wod_reanimated_slave_05, "object/mobile/wod_reanimated_slave_05.iff")

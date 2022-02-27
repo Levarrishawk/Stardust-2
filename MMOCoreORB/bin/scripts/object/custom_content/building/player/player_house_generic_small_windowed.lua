@@ -1,5 +1,0 @@
-object_building_player_player_house_generic_small_windowed = object_building_player_shared_player_house_generic_small_windowed:new {
-
-}
-
-ObjectTemplates:addTemplate(object_building_player_player_house_generic_small_windowed, "object/building/player/player_house_generic_small_windowed.iff")

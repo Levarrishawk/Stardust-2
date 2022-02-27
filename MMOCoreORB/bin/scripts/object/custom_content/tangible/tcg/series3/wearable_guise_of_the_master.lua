@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series3_wearable_guise_of_the_master = object_tangible_tcg_series3_shared_wearable_guise_of_the_master:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series3_wearable_guise_of_the_master, "object/tangible/tcg/series3/wearable_guise_of_the_master.iff")

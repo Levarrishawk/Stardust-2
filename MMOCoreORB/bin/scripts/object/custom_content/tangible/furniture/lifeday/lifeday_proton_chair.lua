@@ -1,5 +1,0 @@
-object_tangible_furniture_lifeday_lifeday_proton_chair = object_tangible_furniture_lifeday_shared_lifeday_proton_chair:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_lifeday_lifeday_proton_chair, "object/tangible/furniture/lifeday/lifeday_proton_chair.iff")

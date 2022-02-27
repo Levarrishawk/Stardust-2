@@ -1,5 +1,0 @@
-
-object_tangible_collection_storm_trooper_boots = object_tangible_collection_shared_storm_trooper_boots:new {
-
-gameObjectType = 8211,}
-ObjectTemplates:addTemplate(object_tangible_collection_storm_trooper_boots, "object/tangible/collection/storm_trooper_boots.iff")

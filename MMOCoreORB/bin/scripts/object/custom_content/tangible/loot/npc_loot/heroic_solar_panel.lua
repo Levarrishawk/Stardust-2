@@ -1,5 +1,0 @@
-object_tangible_loot_npc_loot_heroic_solar_panel = object_tangible_loot_npc_loot_shared_heroic_solar_panel:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_heroic_solar_panel, "object/tangible/loot/npc/loot/heroic_solar_panel.iff")

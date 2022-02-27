@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_furniture_love_seat_rustic = object_draft_schematic_furniture_shared_furniture_love_seat_rustic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_love_seat_rustic, "object/draft_schematic/furniture/furniture_love_seat_rustic.iff")

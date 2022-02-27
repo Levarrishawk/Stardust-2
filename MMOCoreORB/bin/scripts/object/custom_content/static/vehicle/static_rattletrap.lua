@@ -1,1 +1,0 @@
-object_static_vehicle_static_rattletrap = object_static_vehicle_shared_static_rattletrap:new {}ObjectTemplates:addTemplate(object_static_vehicle_static_rattletrap, "object/static/vehicle/static_rattletrap.iff")

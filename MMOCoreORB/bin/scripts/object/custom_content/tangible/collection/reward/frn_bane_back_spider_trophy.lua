@@ -1,5 +1,0 @@
-object_tangible_collection_reward_frn_bane_back_spider_trophy = object_tangible_collection_reward_shared_frn_bane_back_spider_trophy:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_collection_reward_frn_bane_back_spider_trophy, "object/tangible/collection/reward/frn_bane_back_spider_trophy.iff")

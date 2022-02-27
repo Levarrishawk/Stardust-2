@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_fried_icecream_components_dathomir_qana = object_tangible_loot_creature_loot_collections_fried_icecream_components_dathomir_shared_qana:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_dathomir_qana, "object/tangible/loot/creature/loot/collections/fried/icecream/components/dathomir/qana.iff")

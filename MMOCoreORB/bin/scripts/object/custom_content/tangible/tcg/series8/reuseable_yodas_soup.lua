@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series8_reuseable_yodas_soup = object_tangible_tcg_series8_shared_reuseable_yodas_soup:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series8_reuseable_yodas_soup, "object/tangible/tcg/series8/reuseable_yodas_soup.iff")

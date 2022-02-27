@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series1_target_creature_acklay_display = object_tangible_tcg_series1_shared_target_creature_acklay_display:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series1_target_creature_acklay_display, "object/tangible/tcg/series1/target_creature_acklay_display.iff")

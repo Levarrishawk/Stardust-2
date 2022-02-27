@@ -1,5 +1,0 @@
-object_tangible_loot_loot_schematic_kashyyyk_treehouse_scem = object_tangible_loot_loot_schematic_shared_kashyyyk_treehouse_scem:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_loot_schematic_kashyyyk_treehouse_scem, "object/tangible/loot/loot/schematic/kashyyyk_treehouse_scem.iff")

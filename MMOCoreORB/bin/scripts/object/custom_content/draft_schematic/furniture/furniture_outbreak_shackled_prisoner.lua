@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_furniture_outbreak_shackled_prisoner = object_draft_schematic_furniture_shared_furniture_outbreak_shackled_prisoner:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_outbreak_shackled_prisoner, "object/draft_schematic/furniture/furniture_outbreak_shackled_prisoner.iff")

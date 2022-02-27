@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_furniture_collection_hanging_light_01 = object_draft_schematic_furniture_shared_furniture_collection_hanging_light_01:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_collection_hanging_light_01, "object/draft_schematic/furniture/furniture_collection_hanging_light_01.iff")

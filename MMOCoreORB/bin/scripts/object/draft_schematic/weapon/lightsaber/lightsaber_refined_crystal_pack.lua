@@ -48,11 +48,17 @@ object_draft_schematic_weapon_lightsaber_lightsaber_refined_crystal_pack = objec
    customObjectName = "A Refined Crystal Pack",
 
    craftingToolTab = 2048, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 18, 
    size = 1, 
+   factoryCrateType = "object/factory/factory_crate_weapon.iff",
 
-   xpType = "crafting_general", 
-   xp = 130,  
+   xpType = "jedi_general", 
+   xp = 0, 
+
+   assemblySkill = "jedi_saber_assembly", 
+   experimentingSkill = "jedi_saber_experimentation", 
+   customizationSkill = "jedi_customization", 
+   factoryCrateSize = 0,   
 
    customizationOptions = {},
    customizationStringNames = {},
@@ -68,7 +74,8 @@ object_draft_schematic_weapon_lightsaber_lightsaber_refined_crystal_pack = objec
 
    targetTemplate = "object/tangible/component/weapon/lightsaber/lightsaber_refined_crystal_pack.iff",
 
-   additionalTemplates = {}
+   additionalTemplates = {
+             }
 
 }
 ObjectTemplates:addTemplate(object_draft_schematic_weapon_lightsaber_lightsaber_refined_crystal_pack, "object/draft_schematic/weapon/lightsaber/lightsaber_refined_crystal_pack.iff")

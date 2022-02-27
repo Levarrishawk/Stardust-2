@@ -60,7 +60,7 @@ object_tangible_food_crafted_dessert_felbar = object_tangible_food_crafted_share
 	quantityMax = 7, -- 4 on http://swgemu.wikia.com/wiki/Category:Chef 
 	speciesRestriction = "pets",
 
-	modifiers = { "health", 0 },
+	modifiers = { "mind", 0 },
 
 	buffName = "",
 	buffCRC = 0,

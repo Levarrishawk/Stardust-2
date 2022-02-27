@@ -1,3 +1,0 @@
-object_tangible_veteran_reward_mace_windu_statue = object_tangible_veteran_reward_shared_mace_windu_statue:new {
-}
-ObjectTemplates:addTemplate(object_tangible_veteran_reward_mace_windu_statue, "object/tangible/veteran_reward/mace_windu_statue.iff")

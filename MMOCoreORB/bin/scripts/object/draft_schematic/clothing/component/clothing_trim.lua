@@ -48,8 +48,9 @@ object_draft_schematic_clothing_component_clothing_trim = object_draft_schematic
    customObjectName = "Trim",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 10, 
    size = 1, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 60, 

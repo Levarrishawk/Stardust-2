@@ -1,5 +1,0 @@
-object_tangible_holiday_empire_day_component_mouse_manipulation_clamp_hand = object_tangible_holiday_empire_day_component_shared_mouse_manipulation_clamp_hand:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_component_mouse_manipulation_clamp_hand, "object/tangible/holiday/empire_day/component/mouse_manipulation_clamp_hand.iff")

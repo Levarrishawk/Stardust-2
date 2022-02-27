@@ -1,3 +1,0 @@
-object_mobile_dressed_npe_sequencer_secretary = object_mobile_shared_dressed_npe_sequencer_secretary:new {
-}
-ObjectTemplates:addTemplate(object_mobile_dressed_npe_sequencer_secretary, "object/mobile/dressed_npe_sequencer_secretary.iff")

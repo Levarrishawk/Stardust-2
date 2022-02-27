@@ -1,1 +1,0 @@
-object_mobile_dressed_disappearances_questgiver = object_mobile_shared_dressed_disappearances_questgiver:new {}ObjectTemplates:addTemplate(object_mobile_dressed_disappearances_questgiver, "object/mobile/dressed_disappearances_questgiver.iff")

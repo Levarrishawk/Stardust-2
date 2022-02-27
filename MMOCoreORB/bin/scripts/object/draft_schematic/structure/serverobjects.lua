@@ -3,42 +3,42 @@
 
 --This File is part of Core3.
 
---This program is free software; you can redistribute
---it and/or modify it under the terms of the GNU Lesser
+--This program is free software; you can redistribute 
+--it and/or modify it under the terms of the GNU Lesser 
 --General Public License as published by the Free Software
---Foundation; either version 2 of the License,
+--Foundation; either version 2 of the License, 
 --or (at your option) any later version.
 
---This program is distributed in the hope that it will be useful,
---but WITHOUT ANY WARRANTY; without even the implied warranty of
---MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+--This program is distributed in the hope that it will be useful, 
+--but WITHOUT ANY WARRANTY; without even the implied warranty of 
+--MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
 --See the GNU Lesser General Public License for
 --more details.
 
---You should have received a copy of the GNU Lesser General
+--You should have received a copy of the GNU Lesser General 
 --Public License along with this program; if not, write to
 --the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
---Linking Engine3 statically or dynamically with other modules
---is making a combined work based on Engine3.
---Thus, the terms and conditions of the GNU Lesser General Public License
+--Linking Engine3 statically or dynamically with other modules 
+--is making a combined work based on Engine3. 
+--Thus, the terms and conditions of the GNU Lesser General Public License 
 --cover the whole combination.
 
---In addition, as a special exception, the copyright holders of Engine3
---give you permission to combine Engine3 program with free software
---programs or libraries that are released under the GNU LGPL and with
---code included in the standard release of Core3 under the GNU LGPL
---license (or modified versions of such code, with unchanged license).
---You may copy and distribute such a system following the terms of the
---GNU LGPL for Engine3 and the licenses of the other code concerned,
---provided that you include the source code of that other code when
+--In addition, as a special exception, the copyright holders of Engine3 
+--give you permission to combine Engine3 program with free software 
+--programs or libraries that are released under the GNU LGPL and with 
+--code included in the standard release of Core3 under the GNU LGPL 
+--license (or modified versions of such code, with unchanged license). 
+--You may copy and distribute such a system following the terms of the 
+--GNU LGPL for Engine3 and the licenses of the other code concerned, 
+--provided that you include the source code of that other code when 
 --and as the GNU LGPL requires distribution of source code.
 
---Note that people who make modified versions of Engine3 are not obligated
---to grant this special exception for their modified versions;
---it is their choice whether to do so. The GNU Lesser General Public License
---gives permission to release a modified version without this exception;
---this exception also makes it possible to release a modified version
+--Note that people who make modified versions of Engine3 are not obligated 
+--to grant this special exception for their modified versions; 
+--it is their choice whether to do so. The GNU Lesser General Public License 
+--gives permission to release a modified version without this exception; 
+--this exception also makes it possible to release a modified version 
 
 
 
@@ -100,32 +100,3 @@ includeFile("draft_schematic/structure/naboo_house_player_medium.lua")
 includeFile("draft_schematic/structure/naboo_house_player_small.lua")
 includeFile("draft_schematic/structure/naboo_house_player_small_style_02.lua")
 includeFile("draft_schematic/structure/tatooine_house_guild_hall_style_02.lua")
-
-includeFile("draft_schematic/structure/installation_mining_ore_advanced.lua")
-
--- NGE Houses
-includeFile("draft_schematic/structure/atat_house_schem.lua")
-includeFile("draft_schematic/structure/bespin_house_schem.lua")
-includeFile("draft_schematic/structure/commando_house_schem.lua")
-includeFile("draft_schematic/structure/emperors_house_schem.lua")
-includeFile("draft_schematic/structure/gen_lg_win_01_schem.lua")
-includeFile("draft_schematic/structure/gen_lg_win_02_schem.lua")
-includeFile("draft_schematic/structure/gen_md_win_01_schem.lua")
-includeFile("draft_schematic/structure/gen_md_win_02_schem.lua")
-includeFile("draft_schematic/structure/gen_sm_win_01_schem.lua")
-includeFile("draft_schematic/structure/gen_sm_win_02_schem.lua")
-includeFile("draft_schematic/structure/hangar_house_schem.lua")
-includeFile("draft_schematic/structure/jabbas_house_schem.lua")
-includeFile("draft_schematic/structure/jedi_house_schem.lua")
-includeFile("draft_schematic/structure/musty_house_schem.lua")
-includeFile("draft_schematic/structure/nab_sm_win_01_schem.lua")
-includeFile("draft_schematic/structure/rebel_house_schem.lua")
-includeFile("draft_schematic/structure/relaxation_house_schem.lua")
-includeFile("draft_schematic/structure/sandcrawler_house_schem.lua")
-includeFile("draft_schematic/structure/sith_house_schem.lua")
-includeFile("draft_schematic/structure/tat_sm_win_01_schem.lua")
-includeFile("draft_schematic/structure/tree_house_schem.lua")
-includeFile("draft_schematic/structure/vehicle_house_schem.lua")
-includeFile("draft_schematic/structure/vipbunker_house_schem.lua")
-includeFile("draft_schematic/structure/yoda_house_schem.lua")
-includeFile("draft_schematic/structure/yt1300_house_schem.lua")

@@ -1,5 +1,0 @@
-object_tangible_furniture_tatooine_uber_aurila_crystal = object_tangible_furniture_tatooine_shared_uber_aurila_crystal:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_tatooine_uber_aurila_crystal, "object/tangible/furniture/tatooine/uber_aurila_crystal.iff")

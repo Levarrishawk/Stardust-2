@@ -1,1 +1,0 @@
-object_static_structure_general_poi_corl_farm_64x64_s01 = object_static_structure_general_shared_poi_corl_farm_64x64_s01:new {}ObjectTemplates:addTemplate(object_static_structure_general_poi_corl_farm_64x64_s01, "object/static/structure/general/poi_corl_farm_64x64_s01.iff")

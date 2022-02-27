@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series1_decorative_display_case_02 = object_tangible_tcg_series1_shared_decorative_display_case_02:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series1_decorative_display_case_02, "object/tangible/tcg/series1/decorative_display_case_02.iff")

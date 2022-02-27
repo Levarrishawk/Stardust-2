@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_generic_heroic_tusken_shredded_shoe = object_tangible_loot_creature_loot_generic_shared_heroic_tusken_shredded_shoe:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_generic_heroic_tusken_shredded_shoe, "object/tangible/loot/creature/loot/generic/heroic_tusken_shredded_shoe.iff")

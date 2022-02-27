@@ -1,3 +1,0 @@
-object_static_worldbuilding_structures_mun_nboo_guild_combat_destroyed = object_static_worldbuilding_structures_shared_mun_nboo_guild_combat_destroyed:new {
-}
-ObjectTemplates:addTemplate(object_static_worldbuilding_structures_mun_nboo_guild_combat_destroyed, "object/static/worldbuilding/structures/mun_nboo_guild_combat_destroyed.iff")

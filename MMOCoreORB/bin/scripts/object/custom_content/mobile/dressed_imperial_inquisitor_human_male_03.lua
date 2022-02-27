@@ -1,5 +1,0 @@
-object_mobile_dressed_imperial_inquisitor_human_male_03 = object_mobile_shared_dressed_imperial_inquisitor_human_male_03:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_dressed_imperial_inquisitor_human_male_03, "object/mobile/dressed_imperial_inquisitor_human_male_03.iff")

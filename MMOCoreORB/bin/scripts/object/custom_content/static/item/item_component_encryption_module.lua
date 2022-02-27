@@ -1,1 +1,0 @@
-object_static_item_item_component_encryption_module = object_static_item_shared_item_component_encryption_module:new {}ObjectTemplates:addTemplate(object_static_item_item_component_encryption_module, "object/static/item/item_component_encryption_module.iff")

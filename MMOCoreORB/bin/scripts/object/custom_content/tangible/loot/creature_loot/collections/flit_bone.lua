@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_flit_bone = object_tangible_loot_creature_loot_collections_shared_flit_bone:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_flit_bone, "object/tangible/loot/creature/loot/collections/flit_bone.iff")

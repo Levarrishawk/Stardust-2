@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_tusken_womp_rat_tusk = object_tangible_loot_creature_loot_collections_shared_tusken_womp_rat_tusk:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_tusken_womp_rat_tusk, "object/tangible/loot/creature/loot/collections/tusken_womp_rat_tusk.iff")

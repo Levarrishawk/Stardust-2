@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_eow_blackscale_scale = object_tangible_loot_creature_loot_collections_shared_eow_blackscale_scale:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_eow_blackscale_scale, "object/tangible/loot/creature/loot/collections/eow_blackscale_scale.iff")

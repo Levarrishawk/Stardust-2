@@ -48,9 +48,10 @@ object_draft_schematic_droid_droid_3p0 = object_draft_schematic_droid_shared_dro
 	customObjectName = "Deed for: Protocol Droid",
 
 	craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 32,
 	size = 1,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 5,
+	factoryCrateType = "object/factory/factory_crate_electronics.iff",
 
 	xpType = "crafting_droid_general",
 	xp = 210,

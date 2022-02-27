@@ -48,10 +48,11 @@ object_draft_schematic_furniture_furniture_chair_loveseat_cheap = object_draft_s
 	customObjectName = "Loveseat",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 14,
 	size = 2,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 10,
+	factoryCrateType = "object/factory/factory_crate_furniture.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 300,
 
@@ -60,8 +61,8 @@ object_draft_schematic_furniture_furniture_chair_loveseat_cheap = object_draft_s
 	customizationSkill = "structure_customization",
 
 	customizationOptions = {},
-  customizationStringNames = {},
-  customizationDefaults = {},
+	customizationStringNames = {},
+	customizationDefaults = {},
 
 	ingredientTemplateNames = {"craft_furniture_ingredients_n", "craft_furniture_ingredients_n"},
 	ingredientTitleNames = {"frame", "upholstery"},
@@ -70,7 +71,7 @@ object_draft_schematic_furniture_furniture_chair_loveseat_cheap = object_draft_s
 	resourceQuantities = {80, 70},
 	contribution = {100, 100},
 
-	targetTemplate = "object/tangible/furniture/cheap/love_seat_hue_s01.iff",
+	targetTemplate = "object/tangible/furniture/cheap/love_seat_s01.iff",
 
 	additionalTemplates = {}
 }

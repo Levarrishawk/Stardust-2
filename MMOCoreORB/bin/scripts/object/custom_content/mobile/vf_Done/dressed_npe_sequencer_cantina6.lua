@@ -1,3 +1,0 @@
-object_mobile_dressed_npe_sequencer_cantina6 = object_mobile_shared_dressed_npe_sequencer_cantina6:new {
-}
-ObjectTemplates:addTemplate(object_mobile_dressed_npe_sequencer_cantina6, "object/mobile/dressed_npe_sequencer_cantina6.iff")

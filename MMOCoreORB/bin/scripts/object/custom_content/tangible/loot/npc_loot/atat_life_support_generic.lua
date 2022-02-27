@@ -1,5 +1,0 @@
-object_tangible_loot_npc_loot_atat_life_support_generic = object_tangible_loot_npc_loot_shared_atat_life_support_generic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_atat_life_support_generic, "object/tangible/loot/npc/loot/atat_life_support_generic.iff")

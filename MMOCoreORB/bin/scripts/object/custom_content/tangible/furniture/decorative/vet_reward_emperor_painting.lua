@@ -1,5 +1,0 @@
-object_tangible_furniture_decorative_vet_reward_emperor_painting = object_tangible_furniture_decorative_shared_vet_reward_emperor_painting:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_decorative_vet_reward_emperor_painting, "object/tangible/furniture/decorative/vet_reward_emperor_painting.iff")

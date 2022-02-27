@@ -1,5 +1,0 @@
-object_tangible_furniture_decorative_event_wookiee_shield = object_tangible_furniture_decorative_shared_event_wookiee_shield:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_decorative_event_wookiee_shield, "object/tangible/furniture/decorative/event_wookiee_shield.iff")

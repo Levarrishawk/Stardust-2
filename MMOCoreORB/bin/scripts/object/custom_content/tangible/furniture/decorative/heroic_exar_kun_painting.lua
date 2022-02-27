@@ -1,5 +1,0 @@
-object_tangible_furniture_decorative_heroic_exar_kun_painting = object_tangible_furniture_decorative_shared_heroic_exar_kun_painting:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_decorative_heroic_exar_kun_painting, "object/tangible/furniture/decorative/heroic_exar_kun_painting.iff")

@@ -1,1 +1,0 @@
-object_static_structure_general_cylinder_clone_tube = object_static_structure_general_shared_cylinder_clone_tube:new {}ObjectTemplates:addTemplate(object_static_structure_general_cylinder_clone_tube, "object/static/structure/general/cylinder_clone_tube.iff")

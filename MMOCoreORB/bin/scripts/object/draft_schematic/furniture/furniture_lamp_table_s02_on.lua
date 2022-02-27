@@ -48,10 +48,11 @@ object_draft_schematic_furniture_furniture_lamp_table_s02_on = object_draft_sche
 	customObjectName = "Table-top Lamp \'Corellia\'",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 16,
 	size = 1,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 10,
+	factoryCrateType = "object/factory/factory_crate_furniture.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 140,
 

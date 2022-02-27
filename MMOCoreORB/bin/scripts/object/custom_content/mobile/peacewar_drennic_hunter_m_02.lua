@@ -1,5 +1,0 @@
-object_mobile_peacewar_drennic_hunter_m_02 = object_mobile_shared_peacewar_drennic_hunter_m_02:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_peacewar_drennic_hunter_m_02, "object/mobile/peacewar_drennic_hunter_m_02.iff")

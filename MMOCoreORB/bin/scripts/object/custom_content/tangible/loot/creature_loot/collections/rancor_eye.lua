@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_rancor_eye = object_tangible_loot_creature_loot_collections_shared_rancor_eye:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_rancor_eye, "object/tangible/loot/creature/loot/collections/rancor_eye.iff")

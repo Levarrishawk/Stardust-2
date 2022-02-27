@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series7_garage_display_vehicles_speederbike_flash = object_tangible_tcg_series7_garage_display_vehicles_shared_speederbike_flash:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_speederbike_flash, "object/tangible/tcg/series7/garage_display_vehicles/speederbike_flash.iff")

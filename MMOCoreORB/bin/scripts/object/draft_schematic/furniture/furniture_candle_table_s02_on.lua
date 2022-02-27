@@ -48,10 +48,11 @@ object_draft_schematic_furniture_furniture_candle_table_s02_on = object_draft_sc
 	customObjectName = "Candle \'Theed\'",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 20,
 	size = 1,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 10,
+	factoryCrateType = "object/factory/factory_crate_furniture.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 110,
 

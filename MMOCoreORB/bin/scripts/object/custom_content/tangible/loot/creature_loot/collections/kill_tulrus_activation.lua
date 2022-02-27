@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_kill_tulrus_activation = object_tangible_loot_creature_loot_collections_shared_kill_tulrus_activation:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_kill_tulrus_activation, "object/tangible/loot/creature/loot/collections/kill_tulrus_activation.iff")

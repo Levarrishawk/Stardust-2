@@ -1,1 +1,0 @@
-object_mobile_dressed_stormtrooper_sandtrooper_m = object_mobile_shared_dressed_stormtrooper_sandtrooper_m:new {}ObjectTemplates:addTemplate(object_mobile_dressed_stormtrooper_sandtrooper_m, "object/mobile/dressed_stormtrooper_sandtrooper_m.iff")

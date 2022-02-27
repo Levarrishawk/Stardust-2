@@ -51,15 +51,3 @@ includeFile("weapon/ranged/heavy/heavy_lightning_beam.lua")
 includeFile("weapon/ranged/heavy/heavy_particle_beam.lua")
 includeFile("weapon/ranged/heavy/heavy_rocket_launcher.lua")
 includeFile("weapon/ranged/heavy/launcher.lua")
-
--- New Weapons
---[[
-includeFile("weapon/ranged/heavy/heavy_carbonite_rifle.lua")
-includeFile("weapon/ranged/heavy/heavy_cr1_blast_cannon.lua")
-includeFile("weapon/ranged/heavy/heavy_mandalorian.lua")
-includeFile("weapon/ranged/heavy/heavy_pvp.lua")
-includeFile("weapon/ranged/heavy/heavy_rebel.lua")
-includeFile("weapon/ranged/heavy/som_lava_cannon.lua")
-includeFile("weapon/ranged/heavy/som_republic_flamer.lua")
-
---]]

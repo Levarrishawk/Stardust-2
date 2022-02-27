@@ -1,1 +1,0 @@
-object_building_mustafar_terrain_creature_lairs_must_xandank_lair = object_building_mustafar_terrain_creature_lairs_shared_must_xandank_lair:new {}ObjectTemplates:addTemplate(object_building_mustafar_terrain_creature_lairs_must_xandank_lair, "object/building/mustafar/terrain/creature_lairs/must_xandank_lair.iff")

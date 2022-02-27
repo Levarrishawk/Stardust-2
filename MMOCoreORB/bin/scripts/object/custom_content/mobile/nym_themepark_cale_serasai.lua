@@ -1,1 +1,0 @@
-object_mobile_nym_themepark_cale_serasai = object_mobile_shared_nym_themepark_cale_serasai:new {}ObjectTemplates:addTemplate(object_mobile_nym_themepark_cale_serasai, "object/mobile/nym_themepark_cale_serasai.iff")

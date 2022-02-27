@@ -1,1 +1,0 @@
-object_mobile_dressed_zahara_cody = object_mobile_shared_dressed_zahara_cody:new {}ObjectTemplates:addTemplate(object_mobile_dressed_zahara_cody, "object/mobile/dressed_zahara_cody.iff")

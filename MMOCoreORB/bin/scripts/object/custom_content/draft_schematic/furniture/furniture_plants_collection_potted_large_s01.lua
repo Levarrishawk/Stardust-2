@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_furniture_plants_collection_potted_large_s01 = object_draft_schematic_furniture_shared_furniture_plants_collection_potted_large_s01:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_plants_collection_potted_large_s01, "object/draft_schematic/furniture/furniture_plants_collection_potted_large_s01.iff")

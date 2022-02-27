@@ -1,5 +1,0 @@
-object_tangible_loot_loot_schematic_wod_trilithon_schematic = object_tangible_loot_loot_schematic_shared_wod_trilithon_schematic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_loot_schematic_wod_trilithon_schematic, "object/tangible/loot/loot/schematic/wod_trilithon_schematic.iff")

@@ -50,9 +50,10 @@ object_draft_schematic_droid_component_stimpack_dispensor = object_draft_schemat
    craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
    complexity = 17, 
    size = 1, 
+	factoryCrateType = "object/factory/factory_crate_electronics.iff",
 
    xpType = "crafting_droid_general", 
-   xp = 5879, -- Boosted xp for DE grind expediency.
+   xp = 165, 
 
    assemblySkill = "droid_assembly", 
    experimentingSkill = "droid_experimentation", 

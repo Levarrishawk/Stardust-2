@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_dejarik_klorslug = object_tangible_loot_creature_loot_collections_shared_dejarik_klorslug:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_dejarik_klorslug, "object/tangible/loot/creature/loot/collections/dejarik_klorslug.iff")

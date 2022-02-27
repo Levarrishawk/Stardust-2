@@ -1,1 +1,0 @@
-object_mobile_arvel_crynyd = object_mobile_shared_arvel_crynyd:new {}ObjectTemplates:addTemplate(object_mobile_arvel_crynyd, "object/mobile/arvel_crynyd.iff")

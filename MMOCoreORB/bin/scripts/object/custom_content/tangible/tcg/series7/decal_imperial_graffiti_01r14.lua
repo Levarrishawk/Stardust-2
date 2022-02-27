@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series7_decal_imperial_graffiti_01r14 = object_tangible_tcg_series7_shared_decal_imperial_graffiti_01r14:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series7_decal_imperial_graffiti_01r14, "object/tangible/tcg/series7/decal_imperial_graffiti_01r14.iff")

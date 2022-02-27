@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_generic_lungs_gland = object_tangible_loot_creature_loot_generic_shared_lungs_gland:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_generic_lungs_gland, "object/tangible/loot/creature/loot/generic/lungs_gland.iff")

@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series8_painting_tcg8_vintage = object_tangible_tcg_series8_shared_painting_tcg8_vintage:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series8_painting_tcg8_vintage, "object/tangible/tcg/series8/painting_tcg8_vintage.iff")

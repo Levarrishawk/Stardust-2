@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_armor_kashyyykian_black_mtn_bracer_r = 
    customObjectName = "Kashyyykian Black Mountain Right Bracer",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 40, 
    size = 4, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_armor", 
    xp = 360, 
@@ -65,7 +66,7 @@ object_draft_schematic_clothing_clothing_armor_kashyyykian_black_mtn_bracer_r = 
    ingredientTemplateNames = {"craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n"},
    ingredientTitleNames = {"auxilary_coverage", "body", "liner", "hardware_and_attachments", "binding_and_reinforcement", "padding", "armor", "load_bearing_harness", "reinforcement"},
    ingredientSlotType = {0, 0, 0, 0, 0, 1, 1, 1, 0},
-   resourceTypes = {"softwood", "hide_leathery", "hide_wooly", "copper", "petrochem_inert_polymer", "object/tangible/component/clothing/shared_padding_segment.iff", "object/tangible/component/armor/shared_armor_segment_kashyyykian_black_mtn.iff", "object/tangible/component/clothing/shared_synthetic_cloth.iff", "fiberplast"},
+   resourceTypes = {"wood_deciduous_endor", "hide_leathery", "hide_wooly_naboo", "copper", "petrochem_inert_polymer", "object/tangible/component/clothing/shared_padding_segment.iff", "object/tangible/component/armor/shared_armor_segment_kashyyykian_black_mtn.iff", "object/tangible/component/clothing/shared_synthetic_cloth.iff", "fiberplast"},
    resourceQuantities = {40, 40, 30, 25, 25, 2, 2, 1, 20},
    contribution = {100, 100, 100, 100, 100, 100, 100, 100, 100},
 

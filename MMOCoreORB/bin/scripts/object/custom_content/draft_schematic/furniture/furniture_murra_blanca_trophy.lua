@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_furniture_murra_blanca_trophy = object_draft_schematic_furniture_shared_furniture_murra_blanca_trophy:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_murra_blanca_trophy, "object/draft_schematic/furniture/furniture_murra_blanca_trophy.iff")

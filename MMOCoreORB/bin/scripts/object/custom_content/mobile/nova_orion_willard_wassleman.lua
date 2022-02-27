@@ -1,5 +1,0 @@
-object_mobile_nova_orion_willard_wassleman = object_mobile_shared_nova_orion_willard_wassleman:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_nova_orion_willard_wassleman, "object/mobile/nova_orion_willard_wassleman.iff")

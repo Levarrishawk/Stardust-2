@@ -48,10 +48,11 @@ object_draft_schematic_structure_component_structure_harvesting_mechanism = obje
 	customObjectName = "Harvesting Mechanism",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 14,
 	size = 8,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 10,
+	factoryCrateType = "object/factory/factory_crate_installation.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 1070,
 

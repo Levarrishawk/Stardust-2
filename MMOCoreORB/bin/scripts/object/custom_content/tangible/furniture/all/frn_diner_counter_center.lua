@@ -1,5 +1,0 @@
-object_tangible_furniture_all_frn_diner_counter_center = object_tangible_furniture_all_shared_frn_diner_counter_center:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_diner_counter_center, "object/tangible/furniture/all/frn_diner_counter_center.iff")

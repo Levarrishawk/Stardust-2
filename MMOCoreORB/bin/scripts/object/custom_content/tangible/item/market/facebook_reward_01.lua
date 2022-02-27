@@ -1,5 +1,0 @@
-object_tangible_item_market_facebook_reward_01 = object_tangible_item_market_shared_facebook_reward_01:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_item_market_facebook_reward_01, "object/tangible/item/market/facebook_reward_01.iff")

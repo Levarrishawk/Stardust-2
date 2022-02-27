@@ -1,5 +1,0 @@
-object_tangible_npe_npe_sign_cantina_elevator_ = object_tangible_npe_shared_npe_sign_cantina_elevator_:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_npe_npe_sign_cantina_elevator_, "object/tangible/npe/npe_sign_cantina_elevator_.iff")

@@ -1,3 +1,0 @@
-object_tangible_npe_npe_blacksun_transport = object_tangible_npe_shared_npe_blacksun_transport:new {
-}
-ObjectTemplates:addTemplate(object_tangible_npe_npe_blacksun_transport, "object/tangible/npe/npe_blacksun_transport.iff")

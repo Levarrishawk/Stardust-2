@@ -48,11 +48,12 @@ object_draft_schematic_clothing_clothing_hat_chef_02 = object_draft_schematic_cl
    customObjectName = "Bake Master\'s Cap",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 19, 
    size = 3, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
-   xp = 400, 
+   xp = 50, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

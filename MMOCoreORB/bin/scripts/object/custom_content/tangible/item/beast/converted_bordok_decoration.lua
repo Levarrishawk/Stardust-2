@@ -1,5 +1,0 @@
-object_tangible_item_beast_converted_bordok_decoration = object_tangible_item_beast_shared_converted_bordok_decoration:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_item_beast_converted_bordok_decoration, "object/tangible/item/beast/converted_bordok_decoration.iff")

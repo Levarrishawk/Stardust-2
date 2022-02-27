@@ -59,7 +59,7 @@ object_tangible_food_crafted_dish_ahrisa = object_tangible_food_crafted_shared_d
 	quantityMin = 3,
 	quantityMax = 4,
 
-	modifiers = { "constitution", 2 },
+	modifiers = { "focus", 2 },
 
 	buffName = "food.dish_ahrisa",
 	buffCRC = 0,

@@ -48,12 +48,13 @@ object_draft_schematic_bio_engineer_utilities_pet_stimpack_b = object_draft_sche
 	customObjectName = "Pet Stimpack - B",
 
 	craftingToolTab = 128, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 24,
 	size = 3,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 50,
+	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_bio_engineer_creature",
-	xp = 300,
+	xp = 90,
 
 	assemblySkill = "bio_engineer_assembly",
 	experimentingSkill = "bio_engineer_experimentation",

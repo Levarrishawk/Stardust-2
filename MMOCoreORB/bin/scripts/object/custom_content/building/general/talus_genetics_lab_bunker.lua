@@ -1,3 +1,0 @@
-object_building_general_talus_genetics_lab_bunker = object_building_general_shared_talus_genetics_lab_bunker:new {
-}
-ObjectTemplates:addTemplate(object_building_general_talus_genetics_lab_bunker, "object/building/general/talus_genetics_lab_bunker.iff")

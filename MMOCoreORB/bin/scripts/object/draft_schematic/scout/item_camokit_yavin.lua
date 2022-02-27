@@ -48,9 +48,10 @@ object_draft_schematic_scout_item_camokit_yavin = object_draft_schematic_scout_s
    customObjectName = "Camo Kit: Yavin",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 2, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_electronics.iff",
+   
    xpType = "scout", 
    xp = 230, 
 

@@ -48,10 +48,11 @@ object_draft_schematic_furniture_furniture_bed_large = object_draft_schematic_fu
 	customObjectName = "Large Bed",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 28,
 	size = 2,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 10,
+	factoryCrateType = "object/factory/factory_crate_furniture.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 800,
 
@@ -70,7 +71,7 @@ object_draft_schematic_furniture_furniture_bed_large = object_draft_schematic_fu
 	resourceQuantities = {150, 250},
 	contribution = {100, 100},
 
-	targetTemplate = "object/tangible/furniture/all/frn_all_bed_lg_hue_s1.iff",
+	targetTemplate = "object/tangible/furniture/all/frn_all_bed_lg_s1.iff",
 
 	additionalTemplates = {}
 }

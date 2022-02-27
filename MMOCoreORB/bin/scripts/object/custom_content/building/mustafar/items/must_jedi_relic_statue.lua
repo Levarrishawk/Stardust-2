@@ -1,1 +1,0 @@
-object_building_mustafar_items_must_jedi_relic_statue = object_building_mustafar_items_shared_must_jedi_relic_statue:new {}ObjectTemplates:addTemplate(object_building_mustafar_items_must_jedi_relic_statue, "object/building/mustafar/items/must_jedi_relic_statue.iff")

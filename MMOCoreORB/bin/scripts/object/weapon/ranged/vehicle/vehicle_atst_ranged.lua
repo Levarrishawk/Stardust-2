@@ -54,7 +54,7 @@ object_weapon_ranged_vehicle_vehicle_atst_ranged = object_weapon_ranged_vehicle_
 	damageType = ENERGY,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = LIGHT,
+	armorPiercing = HEAVY,
 
 	xpType = "combat_general",
 

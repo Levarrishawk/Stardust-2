@@ -1,3 +1,0 @@
-object_building_general_ac_frosch_research_station = object_building_general_shared_ac_frosch_research_station:new {
-}
-ObjectTemplates:addTemplate(object_building_general_ac_frosch_research_station, "object/building/general/ac_frosch_research_station.iff")

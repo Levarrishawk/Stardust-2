@@ -1,5 +1,0 @@
-object_tangible_furniture_all_bestine_quest_statue = object_tangible_furniture_all_shared_bestine_quest_statue:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_all_bestine_quest_statue, "object/tangible/furniture/all/bestine_quest_statue.iff")

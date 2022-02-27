@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_fried_icecream_components_yavin_blueleaf_shrub = object_tangible_loot_creature_loot_collections_fried_icecream_components_yavin_shared_blueleaf_shrub:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_yavin_blueleaf_shrub, "object/tangible/loot/creature/loot/collections/fried/icecream/components/yavin/blueleaf_shrub.iff")

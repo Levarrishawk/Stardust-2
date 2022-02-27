@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series5_hangar_ships_tie_bomber = object_tangible_tcg_series5_hangar_ships_shared_tie_bomber:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series5_hangar_ships_tie_bomber, "object/tangible/tcg/series5/hangar_ships/tie_bomber.iff")

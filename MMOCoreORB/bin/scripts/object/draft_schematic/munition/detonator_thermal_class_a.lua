@@ -48,9 +48,10 @@ object_draft_schematic_munition_detonator_thermal_class_a = object_draft_schemat
    customObjectName = "Thermal Detonator",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 30, 
    size = 3, 
-
+   factoryCrateType = "object/factory/factory_crate_weapon.iff",
+   
    xpType = "crafting_weapons_general", 
    xp = 96, 
 

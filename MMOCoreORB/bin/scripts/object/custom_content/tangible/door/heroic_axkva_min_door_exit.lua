@@ -1,3 +1,0 @@
-object_tangible_door_heroic_axkva_min_door_exit = object_tangible_door_shared_heroic_axkva_min_door_exit:new {
-}
-ObjectTemplates:addTemplate(object_tangible_door_heroic_axkva_min_door_exit, "object/tangible/door/heroic_axkva_min_door_exit.iff")

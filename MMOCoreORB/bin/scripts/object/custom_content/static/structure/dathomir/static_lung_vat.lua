@@ -1,1 +1,0 @@
-object_static_structure_dathomir_static_lung_vat = object_static_structure_dathomir_shared_static_lung_vat:new {}ObjectTemplates:addTemplate(object_static_structure_dathomir_static_lung_vat, "object/static/structure/dathomir/static_lung_vat.iff")

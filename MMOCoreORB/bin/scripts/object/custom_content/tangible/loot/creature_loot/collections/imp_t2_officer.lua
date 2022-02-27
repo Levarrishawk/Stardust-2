@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_imp_t2_officer = object_tangible_loot_creature_loot_collections_shared_imp_t2_officer:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_imp_t2_officer, "object/tangible/loot/creature/loot/collections/imp_t2_officer.iff")

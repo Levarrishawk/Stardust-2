@@ -49,7 +49,7 @@ SharedInstallationObjectTemplate = SharedTangibleObjectTemplate:new {
 	
 	--What zones can this installation be built by a player on.
 	--Default is all zones
-	allowedZones = {"corellia", "dantooine", "dathomir", "endor", "lok", "naboo", "rori", "talus", "tatooine", "yavin4", "chandrila", "kaas", "hutta", "moraband", "lothal"},
+	allowedZones = {"corellia", "dantooine", "dathomir", "endor", "lok", "naboo", "rori", "talus", "tatooine", "yavin4"},
 	
 	-- SOLAR = 1; CHEMICAL = 2; FLORA = 3; GAS = 4; GEOTHERMAL = 5; MINERAL = 6; WATER = 7; WIND = 8; FUSION = 9;
 	installationType = 0, 

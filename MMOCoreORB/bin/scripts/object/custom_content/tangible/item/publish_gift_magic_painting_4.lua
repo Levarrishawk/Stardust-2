@@ -1,5 +1,0 @@
-object_tangible_item_publish_gift_magic_painting_4 = object_tangible_item_shared_publish_gift_magic_painting_4:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_item_publish_gift_magic_painting_4, "object/tangible/item/publish_gift_magic_painting_4.iff")

@@ -1,3 +1,0 @@
-object_tangible_veteran_reward_frn_vet_painting_community_summit_s02 = object_tangible_veteran_reward_shared_frn_vet_painting_community_summit_s02:new {
-}
-ObjectTemplates:addTemplate(object_tangible_veteran_reward_frn_vet_painting_community_summit_s02, "object/tangible/veteran_reward/frn_vet_painting_community_summit_s02.iff")

@@ -60,7 +60,7 @@ object_tangible_food_foraged_foraged_vegetable_s2 = object_tangible_food_foraged
 	quantityMin = 0,
 	quantityMax = 0,
 	
-	modifiers = { "action", 50 },
+	modifiers = { "mind", 50 },
 
 	buffName = "schule_nef",
 	buffCRC = 0,

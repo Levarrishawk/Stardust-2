@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_dooku_datadisk_05 = object_tangible_loot_creature_loot_collections_shared_dooku_datadisk_05:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_dooku_datadisk_05, "object/tangible/loot/creature/loot/collections/dooku_datadisk_05.iff")

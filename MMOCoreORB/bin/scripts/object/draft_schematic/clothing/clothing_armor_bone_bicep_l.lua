@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_armor_bone_bicep_l = object_draft_schem
    customObjectName = "Bone Armor Left Bicep",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 14, 
    size = 3, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_general", 
    xp = 130, 

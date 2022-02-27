@@ -1,5 +1,0 @@
-object_tangible_collection_reward_rock_reward_01 = object_tangible_collection_reward_shared_rock_reward_01:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_collection_reward_rock_reward_01, "object/tangible/collection/reward/rock_reward_01.iff")

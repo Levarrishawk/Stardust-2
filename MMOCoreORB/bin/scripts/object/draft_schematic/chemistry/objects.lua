@@ -6168,7 +6168,51 @@ ObjectTemplates:addClientTemplate(object_draft_schematic_chemistry_shared_medpac
 
 object_draft_schematic_chemistry_shared_medpack_poison_action_a = SharedDraftSchematicObjectTemplate:new {
 	clientTemplateFileName = "object/draft_schematic/chemistry/shared_medpack_poison_action_a.iff"
+	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
+--[[
+	appearanceFilename = "",
+	arrangementDescriptorFilename = "abstract/slot/arrangement/arrangement_datapad.iff",
+
+	clearFloraRadius = 0,
+	clientDataFile = "",
+	clientGameObjectType = 2049,
+	collisionActionBlockFlags = 0,
+	collisionActionFlags = 0,
+	collisionActionPassFlags = 0,
+	collisionMaterialBlockFlags = 0,
+	collisionMaterialFlags = 0,
+	collisionMaterialPassFlags = 0,
+	containerType = 0,
+	containerVolumeLimit = 0,
+
+	detailedDescription = "string_id_table",
+
+	gameObjectType = 2049,
+
+	locationReservationRadius = 0,
+	lookAtText = "string_id_table",
+
+	noBuildRadius = 0,
+
+	objectName = "string_id_table",
+	onlyVisibleInTools = 0,
+
+	portalLayoutFilename = "",
+
+	scale = 0,
+	scaleThresholdBeforeExtentTest = 0.5,
+	sendToClient = 1,
+	slotDescriptorFilename = "",
+	snapToTerrain = 0,
+	surfaceType = 0,
+
+	totalCellNumber = 0,
+
+	clientObjectCRC = 2893232021,
+	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/intangible/base/shared_base_intangible.iff", "object/draft_schematic/base/shared_base_draft_schematic.iff"}
+]]
 }
+
 ObjectTemplates:addClientTemplate(object_draft_schematic_chemistry_shared_medpack_poison_action_a, "object/draft_schematic/chemistry/shared_medpack_poison_action_a.iff")
 
 object_draft_schematic_chemistry_shared_medpack_poison_action_b = SharedDraftSchematicObjectTemplate:new {
@@ -9012,9 +9056,3 @@ object_draft_schematic_chemistry_shared_stimpack_sm_s1 = SharedDraftSchematicObj
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_chemistry_shared_stimpack_sm_s1, "object/draft_schematic/chemistry/shared_stimpack_sm_s1.iff")
-
-
-object_draft_schematic_chemistry_shared_medpack_poison_hssiss = SharedDraftSchematicObjectTemplate:new {
-	clientTemplateFileName = "object/draft_schematic/chemistry/shared_medpack_poison_hssiss.iff"
-}
-ObjectTemplates:addClientTemplate(object_draft_schematic_chemistry_shared_medpack_poison_hssiss, "object/draft_schematic/chemistry/shared_medpack_poison_hssiss.iff")

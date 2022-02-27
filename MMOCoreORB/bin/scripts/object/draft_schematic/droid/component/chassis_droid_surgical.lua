@@ -48,9 +48,10 @@ object_draft_schematic_droid_component_chassis_droid_surgical = object_draft_sch
 	customObjectName = "Surgical ADV Droid Chassis",
 
 	craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 25,
 	size = 8,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 5,
+	factoryCrateType = "object/factory/factory_crate_electronics.iff",
 
 	xpType = "crafting_droid_general",
 	xp = 240,

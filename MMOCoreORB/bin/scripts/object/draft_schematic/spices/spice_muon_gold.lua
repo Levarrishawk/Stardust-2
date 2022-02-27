@@ -48,9 +48,10 @@ object_draft_schematic_spices_spice_muon_gold = object_draft_schematic_spices_sh
    customObjectName = "Muon Gold",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 13, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_food.iff",
+   
    xpType = "crafting_spice", 
    xp = 240, 
 

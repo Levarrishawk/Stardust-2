@@ -1,5 +1,0 @@
-object_tangible_loot_npc_loot_heroic_tusken_stairs = object_tangible_loot_npc_loot_shared_heroic_tusken_stairs:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_heroic_tusken_stairs, "object/tangible/loot/npc/loot/heroic_tusken_stairs.iff")

@@ -1,5 +1,0 @@
-
-object_tangible_collection_rare_melee_sayormi_heartstriker = object_tangible_collection_shared_rare_melee_sayormi_heartstriker:new {
-
-gameObjectType = 8211,}
-ObjectTemplates:addTemplate(object_tangible_collection_rare_melee_sayormi_heartstriker, "object/tangible/collection/rare_melee_sayormi_heartstriker.iff")

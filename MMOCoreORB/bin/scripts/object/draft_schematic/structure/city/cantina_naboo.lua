@@ -48,10 +48,11 @@ object_draft_schematic_structure_city_cantina_naboo = object_draft_schematic_str
 	customObjectName = "Deed for: Naboo Cantina",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 25,
 	size = 14,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 1,
+	factoryCrateType = "object/factory/factory_crate_installation.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 8800,
 

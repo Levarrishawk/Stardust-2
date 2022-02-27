@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series7_garage_display_vehicles_basilisk_war_droid = object_tangible_tcg_series7_garage_display_vehicles_shared_basilisk_war_droid:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_basilisk_war_droid, "object/tangible/tcg/series7/garage_display_vehicles/basilisk_war_droid.iff")

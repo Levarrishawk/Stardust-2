@@ -1,5 +1,0 @@
-object_tangible_furniture_all_frn_all_holocron_color_cube = object_tangible_furniture_all_shared_frn_all_holocron_color_cube:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_all_holocron_color_cube, "object/tangible/furniture/all/frn_all_holocron_color_cube.iff")

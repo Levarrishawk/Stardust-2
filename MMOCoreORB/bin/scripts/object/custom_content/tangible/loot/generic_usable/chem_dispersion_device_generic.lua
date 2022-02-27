@@ -1,5 +1,0 @@
-object_tangible_loot_generic_usable_chem_dispersion_device_generic = object_tangible_loot_generic_usable_shared_chem_dispersion_device_generic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_generic_usable_chem_dispersion_device_generic, "object/tangible/loot/generic/usable/chem_dispersion_device_generic.iff")

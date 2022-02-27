@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_furniture_diner_stool = object_draft_schematic_furniture_shared_furniture_diner_stool:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_diner_stool, "object/draft_schematic/furniture/furniture_diner_stool.iff")

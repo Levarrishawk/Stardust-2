@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series5_wearable_ceremonial_travel_headdress = object_tangible_tcg_series5_shared_wearable_ceremonial_travel_headdress:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series5_wearable_ceremonial_travel_headdress, "object/tangible/tcg/series5/wearable_ceremonial_travel_headdress.iff")

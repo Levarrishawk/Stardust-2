@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series4_greeter_deed_nightsister = object_tangible_tcg_series4_shared_greeter_deed_nightsister:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series4_greeter_deed_nightsister, "object/tangible/tcg/series4/greeter_deed_nightsister.iff")

@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series1_structure_barn_ranchhand = object_tangible_tcg_series1_shared_structure_barn_ranchhand:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series1_structure_barn_ranchhand, "object/tangible/tcg/series1/structure_barn_ranchhand.iff")

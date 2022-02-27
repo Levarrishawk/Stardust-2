@@ -1,5 +1,0 @@
-
-object_tangible_collection_rare_carbine_grievance_striker = object_tangible_collection_shared_rare_carbine_grievance_striker:new {
-
-gameObjectType = 8211,}
-ObjectTemplates:addTemplate(object_tangible_collection_rare_carbine_grievance_striker, "object/tangible/collection/rare_carbine_grievance_striker.iff")

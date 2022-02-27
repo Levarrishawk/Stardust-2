@@ -1,5 +1,0 @@
-object_tangible_holiday_empire_day_rebel_trooper_field_rations_crate = object_tangible_holiday_empire_day_shared_rebel_trooper_field_rations_crate:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_rebel_trooper_field_rations_crate, "object/tangible/holiday/empire_day/rebel_trooper_field_rations_crate.iff")

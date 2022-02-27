@@ -68,11 +68,11 @@ object_weapon_ranged_pistol_pistol_cdef_noob = object_weapon_ranged_pistol_share
 	-- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
 	attackType = RANGEDATTACK,
 
-	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, FORCE, LIGHTSABER
+	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, LIGHTSABER
 	damageType = ENERGY,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = LIGHT,
+	armorPiercing = NONE,
 
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
@@ -100,9 +100,9 @@ object_weapon_ranged_pistol_pistol_cdef_noob = object_weapon_ranged_pistol_share
 	
 
 	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 0,
-	actionAttackCost = 150,
-	mindAttackCost = 0,
+	healthAttackCost = 10,
+	actionAttackCost = 20,
+	mindAttackCost = 10,
 	forceCost = 0,
 
 	pointBlankRange = 0,
@@ -114,10 +114,10 @@ object_weapon_ranged_pistol_pistol_cdef_noob = object_weapon_ranged_pistol_share
 	maxRange = 64,
 	maxRangeAccuracy = -90,
 
-	minDamage = 9,
-	maxDamage = 18,
+	minDamage = 50,
+	maxDamage = 80,
 
-	attackSpeed = 1,
+	attackSpeed = 4,
 
 	woundsRatio = 7
 }

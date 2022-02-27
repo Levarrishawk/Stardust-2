@@ -1,1 +1,0 @@
-object_tangible_npe_npe_z95 = object_tangible_npe_shared_npe_z95:new {}ObjectTemplates:addTemplate(object_tangible_npe_npe_z95, "object/tangible/npe/npe_z95.iff")

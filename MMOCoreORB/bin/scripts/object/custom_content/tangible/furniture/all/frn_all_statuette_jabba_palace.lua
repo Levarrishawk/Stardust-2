@@ -1,5 +1,0 @@
-object_tangible_furniture_all_frn_all_statuette_jabba_palace = object_tangible_furniture_all_shared_frn_all_statuette_jabba_palace:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_all_statuette_jabba_palace, "object/tangible/furniture/all/frn_all_statuette_jabba_palace.iff")

@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_reb_t2_int_operative = object_tangible_loot_creature_loot_collections_shared_reb_t2_int_operative:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_reb_t2_int_operative, "object/tangible/loot/creature/loot/collections/reb_t2_int_operative.iff")

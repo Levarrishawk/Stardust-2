@@ -48,9 +48,10 @@ object_draft_schematic_item_item_weapon_tool = object_draft_schematic_item_share
    customObjectName = "Weapon, Droid, and General Item Crafting Tool",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 10, 
    size = 2, 
-
+   factoryCrateType = "object/factory/factory_crate_electronics.iff",
+   
    xpType = "crafting_general", 
    xp = 65, 
 

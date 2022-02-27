@@ -48,9 +48,10 @@ object_draft_schematic_armor_component_armor_layer_ris = object_draft_schematic_
 	customObjectName = "R.I.S. Armor Layer",
 
 	craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 3,
+	complexity = 35,
 	size = 3,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 100,
+	factoryCrateType = "object/factory/factory_crate_armor.iff",
 
 	xpType = "crafting_clothing_armor",
 	xp = 120,

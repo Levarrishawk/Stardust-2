@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_wod_deco_mask = object_draft_schematic_furniture_shared_wod_deco_mask:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_wod_deco_mask, "object/draft_schematic/furniture/wod_deco_mask.iff")

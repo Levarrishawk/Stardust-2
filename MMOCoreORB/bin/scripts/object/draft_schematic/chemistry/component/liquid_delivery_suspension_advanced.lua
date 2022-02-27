@@ -48,12 +48,13 @@ object_draft_schematic_chemistry_component_liquid_delivery_suspension_advanced =
 	customObjectName = "Advanced Liquid Suspension",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 18,
 	size = 2,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 50,
+	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
-	xpType = "medical",
-	xp = 2299, -- Boosted xp for CM/Doc Medical grind expediency.
+	xpType = "crafting_medicine_general",
+	xp = 25,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

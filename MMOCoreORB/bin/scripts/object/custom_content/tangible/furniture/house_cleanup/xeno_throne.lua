@@ -1,5 +1,0 @@
-object_tangible_furniture_house_cleanup_xeno_throne = object_tangible_furniture_house_cleanup_shared_xeno_throne:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_house_cleanup_xeno_throne, "object/tangible/furniture/house_cleanup/xeno_throne.iff")

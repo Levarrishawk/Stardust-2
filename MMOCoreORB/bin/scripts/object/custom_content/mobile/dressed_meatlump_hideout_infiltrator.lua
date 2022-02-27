@@ -1,5 +1,0 @@
-object_mobile_dressed_meatlump_hideout_infiltrator = object_mobile_shared_dressed_meatlump_hideout_infiltrator:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_dressed_meatlump_hideout_infiltrator, "object/mobile/dressed_meatlump_hideout_infiltrator.iff")

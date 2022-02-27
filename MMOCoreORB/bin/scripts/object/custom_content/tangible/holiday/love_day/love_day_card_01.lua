@@ -1,5 +1,0 @@
-object_tangible_holiday_love_day_love_day_card_01 = object_tangible_holiday_love_day_shared_love_day_card_01:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_love_day_love_day_card_01, "object/tangible/holiday/love_day/love_day_card_01.iff")

@@ -1,5 +1,0 @@
-object_tangible_furniture_house_cleanup_cts_intrepid_painting = object_tangible_furniture_house_cleanup_shared_cts_intrepid_painting:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_house_cleanup_cts_intrepid_painting, "object/tangible/furniture/house_cleanup/cts_intrepid_painting.iff")

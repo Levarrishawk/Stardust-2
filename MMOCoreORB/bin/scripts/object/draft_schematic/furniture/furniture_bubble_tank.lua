@@ -48,10 +48,11 @@ object_draft_schematic_furniture_furniture_bubble_tank = object_draft_schematic_
 	customObjectName = "Bubble Tank Draft Schematic",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 15,
 	size = 1,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 0,
+	factoryCrateType = "object/factory/factory_crate_furniture.iff",
+   
 	xpType = "crafting_spice",
 	xp = 250,
 

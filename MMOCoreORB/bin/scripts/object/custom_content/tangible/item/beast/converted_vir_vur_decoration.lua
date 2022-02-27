@@ -1,5 +1,0 @@
-object_tangible_item_beast_converted_vir_vur_decoration = object_tangible_item_beast_shared_converted_vir_vur_decoration:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_item_beast_converted_vir_vur_decoration, "object/tangible/item/beast/converted_vir_vur_decoration.iff")

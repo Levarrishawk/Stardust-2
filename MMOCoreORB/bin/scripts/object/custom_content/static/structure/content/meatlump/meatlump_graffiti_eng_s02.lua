@@ -1,1 +1,0 @@
-object_static_structure_content_meatlump_meatlump_graffiti_eng_s02 = object_static_structure_content_meatlump_shared_meatlump_graffiti_eng_s02:new {}ObjectTemplates:addTemplate(object_static_structure_content_meatlump_meatlump_graffiti_eng_s02, "object/static/structure/content/meatlump/meatlump_graffiti_eng_s02.iff")

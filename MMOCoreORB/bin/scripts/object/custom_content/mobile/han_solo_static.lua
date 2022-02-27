@@ -1,1 +1,0 @@
-object_mobile_han_solo_static = object_mobile_shared_han_solo_static:new {}ObjectTemplates:addTemplate(object_mobile_han_solo_static, "object/mobile/han_solo_static.iff")

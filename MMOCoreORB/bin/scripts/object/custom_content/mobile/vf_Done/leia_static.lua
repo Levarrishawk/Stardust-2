@@ -1,1 +1,0 @@
-object_mobile_leia_static = object_mobile_shared_leia_static:new {}ObjectTemplates:addTemplate(object_mobile_leia_static, "object/mobile/leia_static.iff")

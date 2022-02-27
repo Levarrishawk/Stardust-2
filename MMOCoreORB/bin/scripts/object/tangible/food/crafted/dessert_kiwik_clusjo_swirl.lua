@@ -59,7 +59,7 @@ object_tangible_food_crafted_dessert_kiwik_clusjo_swirl = object_tangible_food_c
 	quantityMin = 6,
 	quantityMax = 10,
 
-	modifiers = { "action", 0, "health", 0 },
+	modifiers = { "quickness", 0, "stamina", 0 },
 
 	buffName = "food.dessert_kiwik_clusjo_swirl",
 	buffCRC = 0,

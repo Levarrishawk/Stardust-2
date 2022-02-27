@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series1_house_capacity_organizational_datapad = object_tangible_tcg_series1_shared_house_capacity_organizational_datapad:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series1_house_capacity_organizational_datapad, "object/tangible/tcg/series1/house_capacity_organizational_datapad.iff")

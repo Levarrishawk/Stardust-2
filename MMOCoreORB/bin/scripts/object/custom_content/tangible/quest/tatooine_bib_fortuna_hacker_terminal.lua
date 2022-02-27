@@ -1,5 +1,0 @@
-object_tangible_quest_tatooine_bib_fortuna_hacker_terminal = object_tangible_quest_shared_tatooine_bib_fortuna_hacker_terminal:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_tatooine_bib_fortuna_hacker_terminal, "object/tangible/quest/tatooine_bib_fortuna_hacker_terminal.iff")

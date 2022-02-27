@@ -59,7 +59,7 @@ object_tangible_food_spice_spice_giggledust = object_tangible_food_spice_shared_
 	quantityMin = 0,
 	quantityMax = 0,
 
-	modifiers = { "action" , 300, "health" , 300 },
+	modifiers = { "action" , 300, "quickness" , 300, "focus", -100 },
 
 	buffName = "giggledust",
 	buffCRC = 0,

@@ -48,11 +48,12 @@ object_draft_schematic_food_dish_teltier_noodles = object_draft_schematic_food_s
    customObjectName = "Teltier Noodles",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 5, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_food.iff",
+   
    xpType = "crafting_general", 
-   xp = 192, 
+   xp = 75, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

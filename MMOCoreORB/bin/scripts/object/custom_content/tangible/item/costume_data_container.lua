@@ -1,5 +1,0 @@
-object_tangible_item_costume_data_container = object_tangible_item_shared_costume_data_container:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_item_costume_data_container, "object/tangible/item/costume_data_container.iff")

@@ -1,1 +1,0 @@
-object_static_worldbuilding_vegitation_ptch_kashyyk_fern_s04 = object_static_worldbuilding_vegitation_shared_ptch_kashyyk_fern_s04:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_vegitation_ptch_kashyyk_fern_s04, "object/static/worldbuilding/vegitation/ptch_kashyyk_fern_s04.iff")

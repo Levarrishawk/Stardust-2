@@ -1,5 +1,0 @@
-
-object_tangible_collection_rare_pistol_red_hydra = object_tangible_collection_shared_rare_pistol_red_hydra:new {
-
-gameObjectType = 8211,}
-ObjectTemplates:addTemplate(object_tangible_collection_rare_pistol_red_hydra, "object/tangible/collection/rare_pistol_red_hydra.iff")

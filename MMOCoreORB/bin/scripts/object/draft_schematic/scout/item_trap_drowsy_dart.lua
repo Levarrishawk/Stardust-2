@@ -48,9 +48,10 @@ object_draft_schematic_scout_item_trap_drowsy_dart = object_draft_schematic_scou
    customObjectName = "Lecepanine Dart",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 2, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_electronics.iff",
+   
    xpType = "camp", 
    xp = 12, 
 

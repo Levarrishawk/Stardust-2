@@ -1,1 +1,0 @@
-object_static_structure_content_exar_kun_column_complete = object_static_structure_content_shared_exar_kun_column_complete:new {}ObjectTemplates:addTemplate(object_static_structure_content_exar_kun_column_complete, "object/static/structure/content/exar_kun_column_complete.iff")

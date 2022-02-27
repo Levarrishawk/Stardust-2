@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_bandolier_field_05 = object_draft_schem
    customObjectName = "Ammo Bandolier",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 20, 
    size = 2, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 100, 

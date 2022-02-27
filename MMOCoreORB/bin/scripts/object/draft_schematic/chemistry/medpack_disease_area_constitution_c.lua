@@ -48,9 +48,10 @@ object_draft_schematic_chemistry_medpack_disease_area_constitution_c = object_dr
 	customObjectName = "Constitution Area Disease Delivery Unit - C",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 45,
 	size = 3,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 50,
+	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
 	xp = 105,

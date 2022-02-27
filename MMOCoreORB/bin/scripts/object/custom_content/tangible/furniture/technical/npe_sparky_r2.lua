@@ -1,3 +1,0 @@
-object_tangible_furniture_technical_npe_sparky_r2 = object_tangible_furniture_technical_shared_npe_sparky_r2:new {
-}
-ObjectTemplates:addTemplate(object_tangible_furniture_technical_npe_sparky_r2, "object/tangible/furniture/technical/npe_sparky_r2.iff")

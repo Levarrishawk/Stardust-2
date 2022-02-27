@@ -48,9 +48,10 @@ object_draft_schematic_food_component_container_barrel = object_draft_schematic_
    customObjectName = "Barrel",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 15, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_food.iff",
+   
    xpType = "crafting_general", 
    xp = 500, 
 

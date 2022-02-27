@@ -1,5 +1,0 @@
-
-object_tangible_wearables_hat_cyborg_crafting_headband_s01 = object_tangible_wearables_hat_shared_cyborg_crafting_headband_s01:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_wearables_hat_cyborg_crafting_headband_s01, "object/tangible/wearables/hat/cyborg_crafting_headband_s01.iff")

@@ -1,1 +1,0 @@
-object_building_mustafar_particle_must_steam_geyser_med = object_building_mustafar_particle_shared_must_steam_geyser_med:new {}ObjectTemplates:addTemplate(object_building_mustafar_particle_must_steam_geyser_med, "object/building/mustafar/particle/must_steam_geyser_med.iff")

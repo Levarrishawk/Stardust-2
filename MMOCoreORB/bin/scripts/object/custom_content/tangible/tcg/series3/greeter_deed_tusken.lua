@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series3_greeter_deed_tusken = object_tangible_tcg_series3_shared_greeter_deed_tusken:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series3_greeter_deed_tusken, "object/tangible/tcg/series3/greeter_deed_tusken.iff")

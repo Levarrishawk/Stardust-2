@@ -1,5 +1,0 @@
-object_tangible_loot_npc_loot_bottle_s04_generic = object_tangible_loot_npc_loot_shared_bottle_s04_generic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_bottle_s04_generic, "object/tangible/loot/npc/loot/bottle_s04_generic.iff")

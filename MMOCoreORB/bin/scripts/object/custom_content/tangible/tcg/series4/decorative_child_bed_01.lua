@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series4_decorative_child_bed_01 = object_tangible_tcg_series4_shared_decorative_child_bed_01:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series4_decorative_child_bed_01, "object/tangible/tcg/series4/decorative_child_bed_01.iff")

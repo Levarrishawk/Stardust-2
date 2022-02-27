@@ -1,5 +1,0 @@
-object_tangible_quest_quest_start_corellia_coronet_meatlump_act1_viewscreen = object_tangible_quest_quest_start_shared_corellia_coronet_meatlump_act1_viewscreen:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_quest_start_corellia_coronet_meatlump_act1_viewscreen, "object/tangible/quest/quest_start/corellia_coronet_meatlump_act1_viewscreen.iff")

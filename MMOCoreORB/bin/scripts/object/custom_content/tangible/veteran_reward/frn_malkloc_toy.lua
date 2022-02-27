@@ -1,3 +1,0 @@
-object_tangible_veteran_reward_frn_malkloc_toy = object_tangible_veteran_reward_shared_frn_malkloc_toy:new {
-}
-ObjectTemplates:addTemplate(object_tangible_veteran_reward_frn_malkloc_toy, "object/tangible/veteran_reward/frn_malkloc_toy.iff")

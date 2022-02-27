@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series5_hangar_ships_grievous_starship = object_tangible_tcg_series5_hangar_ships_shared_grievous_starship:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series5_hangar_ships_grievous_starship, "object/tangible/tcg/series5/hangar_ships/grievous_starship.iff")

@@ -48,9 +48,10 @@ object_draft_schematic_food_component_container_small_glass = object_draft_schem
    customObjectName = "Small Glass",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 5, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_food.iff",
+   
    xpType = "crafting_general", 
    xp = 20, 
 

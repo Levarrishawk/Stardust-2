@@ -1,1 +1,0 @@
-object_static_structure_dathomir_static_undead_stomach = object_static_structure_dathomir_shared_static_undead_stomach:new {}ObjectTemplates:addTemplate(object_static_structure_dathomir_static_undead_stomach, "object/static/structure/dathomir/static_undead_stomach.iff")

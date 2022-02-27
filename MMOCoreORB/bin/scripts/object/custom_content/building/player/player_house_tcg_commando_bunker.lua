@@ -1,5 +1,0 @@
-object_building_player_player_house_tcg_commando_bunker = object_building_player_shared_player_house_tcg_commando_bunker:new {
-
-}
-
-ObjectTemplates:addTemplate(object_building_player_player_house_tcg_commando_bunker, "object/building/player/player_house_tcg_commando_bunker.iff")

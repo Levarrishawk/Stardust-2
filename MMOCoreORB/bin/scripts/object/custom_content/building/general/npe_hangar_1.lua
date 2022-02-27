@@ -1,1 +1,0 @@
-object_building_general_npe_hangar_1 = object_building_general_shared_npe_hangar_1:new {}ObjectTemplates:addTemplate(object_building_general_npe_hangar_1, "object/building/general/npe_hangar_1.iff")

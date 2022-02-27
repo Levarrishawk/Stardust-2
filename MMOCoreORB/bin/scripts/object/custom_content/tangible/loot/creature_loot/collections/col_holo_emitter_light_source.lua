@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_col_holo_emitter_light_source = object_tangible_loot_creature_loot_collections_shared_col_holo_emitter_light_source:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_col_holo_emitter_light_source, "object/tangible/loot/creature/loot/collections/col_holo_emitter_light_source.iff")

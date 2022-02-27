@@ -59,7 +59,7 @@ object_tangible_food_spice_spice_grey_gabaki = object_tangible_food_spice_shared
 	quantityMin = 0,
 	quantityMax = 0,
 
-	modifiers = { "health", 500, "action", -400 },
+	modifiers = { "focus", 500 },
 
 	buffName = "grey_gabaki",
 	buffCRC = 0,

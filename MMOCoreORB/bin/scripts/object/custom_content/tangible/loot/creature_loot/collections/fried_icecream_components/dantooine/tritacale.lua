@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_fried_icecream_components_dantooine_tritacale = object_tangible_loot_creature_loot_collections_fried_icecream_components_dantooine_shared_tritacale:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_dantooine_tritacale, "object/tangible/loot/creature/loot/collections/fried/icecream/components/dantooine/tritacale.iff")

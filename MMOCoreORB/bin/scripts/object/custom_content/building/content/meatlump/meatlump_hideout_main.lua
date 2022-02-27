@@ -1,3 +1,0 @@
-object_building_content_meatlump_meatlump_hideout_main = object_building_content_meatlump_shared_meatlump_hideout_main:new {
-}
-ObjectTemplates:addTemplate(object_building_content_meatlump_meatlump_hideout_main, "object/building/content/meatlump/meatlump_hideout_main.iff")

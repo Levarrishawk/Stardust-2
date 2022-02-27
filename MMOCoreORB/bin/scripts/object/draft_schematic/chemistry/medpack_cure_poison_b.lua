@@ -48,12 +48,13 @@ object_draft_schematic_chemistry_medpack_cure_poison_b = object_draft_schematic_
 	customObjectName = "Cure Poison Medpack - B",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 15,
 	size = 1,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 50,
+	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
-	xp = 270,
+	xp = 55,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

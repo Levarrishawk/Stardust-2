@@ -48,10 +48,11 @@ object_draft_schematic_structure_component_structure_manufacturing_mechanism = o
 	customObjectName = "Manufacturing Mechanism",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 15,
 	size = 10,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 10,
+	factoryCrateType = "object/factory/factory_crate_installation.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 900,
 

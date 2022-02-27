@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_ith_bodysuit_formal_06 = object_draft_s
    customObjectName = "Ithorian Leather Gear",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 21, 
    size = 3, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 600, 

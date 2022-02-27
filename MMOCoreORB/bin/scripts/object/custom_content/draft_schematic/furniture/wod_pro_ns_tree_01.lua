@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_wod_pro_ns_tree_01 = object_draft_schematic_furniture_shared_wod_pro_ns_tree_01:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_wod_pro_ns_tree_01, "object/draft_schematic/furniture/wod_pro_ns_tree_01.iff")

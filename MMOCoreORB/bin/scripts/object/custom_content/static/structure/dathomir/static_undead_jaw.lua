@@ -1,1 +1,0 @@
-object_static_structure_dathomir_static_undead_jaw = object_static_structure_dathomir_shared_static_undead_jaw:new {}ObjectTemplates:addTemplate(object_static_structure_dathomir_static_undead_jaw, "object/static/structure/dathomir/static_undead_jaw.iff")

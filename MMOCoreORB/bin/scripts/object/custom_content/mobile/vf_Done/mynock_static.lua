@@ -1,1 +1,0 @@
-object_mobile_mynock_static = object_mobile_shared_mynock_static:new {}ObjectTemplates:addTemplate(object_mobile_mynock_static, "object/mobile/mynock_static.iff")

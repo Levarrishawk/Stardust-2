@@ -1,1 +1,0 @@
-object_static_item_wp_mine_remote_detonator = object_static_item_shared_wp_mine_remote_detonator:new {}ObjectTemplates:addTemplate(object_static_item_wp_mine_remote_detonator, "object/static/item/wp_mine_remote_detonator.iff")

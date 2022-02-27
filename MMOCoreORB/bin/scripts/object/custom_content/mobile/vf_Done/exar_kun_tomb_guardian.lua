@@ -1,3 +1,0 @@
-object_mobile_exar_kun_tomb_guardian = object_mobile_shared_exar_kun_tomb_guardian:new {
-}
-ObjectTemplates:addTemplate(object_mobile_exar_kun_tomb_guardian, "object/mobile/exar_kun_tomb_guardian.iff")

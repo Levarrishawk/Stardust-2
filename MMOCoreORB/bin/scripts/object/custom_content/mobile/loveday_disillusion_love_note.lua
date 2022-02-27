@@ -1,5 +1,0 @@
-object_mobile_loveday_disillusion_love_note = object_mobile_shared_loveday_disillusion_love_note:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_loveday_disillusion_love_note, "object/mobile/loveday_disillusion_love_note.iff")

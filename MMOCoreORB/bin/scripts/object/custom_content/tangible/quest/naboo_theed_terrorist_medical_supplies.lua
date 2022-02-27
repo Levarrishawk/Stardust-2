@@ -1,5 +1,0 @@
-object_tangible_quest_naboo_theed_terrorist_medical_supplies = object_tangible_quest_shared_naboo_theed_terrorist_medical_supplies:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_naboo_theed_terrorist_medical_supplies, "object/tangible/quest/naboo_theed_terrorist_medical_supplies.iff")

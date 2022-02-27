@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_ith_dress_formal_03 = object_draft_sche
    customObjectName = "Ithorian Elder\'s Dress",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 22, 
    size = 4, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 90, 

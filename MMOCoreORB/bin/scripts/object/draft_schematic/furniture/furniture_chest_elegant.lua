@@ -48,10 +48,11 @@ object_draft_schematic_furniture_furniture_chest_elegant = object_draft_schemati
 	customObjectName = "Chest",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 25,
 	size = 3,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 10,
+	factoryCrateType = "object/factory/factory_crate_furniture.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 600,
 
@@ -70,7 +71,7 @@ object_draft_schematic_furniture_furniture_chest_elegant = object_draft_schemati
 	resourceQuantities = {140, 160},
 	contribution = {100, 100},
 
-	targetTemplate = "object/tangible/furniture/elegant/chest_hue_s01.iff",
+	targetTemplate = "object/tangible/furniture/elegant/chest_s01.iff",
 
 	additionalTemplates = {}
 }

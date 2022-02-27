@@ -1,5 +1,0 @@
-object_tangible_loot_quest_levelup_lifeday_orb = object_tangible_loot_quest_shared_levelup_lifeday_orb:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_quest_levelup_lifeday_orb, "object/tangible/loot/quest/levelup_lifeday_orb.iff")

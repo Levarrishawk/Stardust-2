@@ -1,1 +1,0 @@
-object_static_structure_content_exar_kun_zapper = object_static_structure_content_shared_exar_kun_zapper:new {}ObjectTemplates:addTemplate(object_static_structure_content_exar_kun_zapper, "object/static/structure/content/exar_kun_zapper.iff")

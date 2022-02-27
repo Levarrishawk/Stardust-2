@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_skirt_formal_14 = object_draft_schemati
    customObjectName = "Two-Tone Formal Skirt",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 19, 
    size = 4, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 25, 

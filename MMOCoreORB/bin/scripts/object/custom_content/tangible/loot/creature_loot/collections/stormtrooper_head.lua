@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_stormtrooper_head = object_tangible_loot_creature_loot_collections_shared_stormtrooper_head:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_stormtrooper_head, "object/tangible/loot/creature/loot/collections/stormtrooper_head.iff")

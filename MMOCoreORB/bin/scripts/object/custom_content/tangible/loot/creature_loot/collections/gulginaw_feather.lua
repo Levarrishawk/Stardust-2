@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_gulginaw_feather = object_tangible_loot_creature_loot_collections_shared_gulginaw_feather:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_gulginaw_feather, "object/tangible/loot/creature/loot/collections/gulginaw_feather.iff")

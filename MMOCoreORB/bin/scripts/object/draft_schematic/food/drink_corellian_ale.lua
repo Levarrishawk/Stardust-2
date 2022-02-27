@@ -48,11 +48,12 @@ object_draft_schematic_food_drink_corellian_ale = object_draft_schematic_food_sh
    customObjectName = "Corellian Ale",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 8, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_food.iff",
+   
    xpType = "crafting_food_general", 
-   xp = 300, 
+   xp = 80, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

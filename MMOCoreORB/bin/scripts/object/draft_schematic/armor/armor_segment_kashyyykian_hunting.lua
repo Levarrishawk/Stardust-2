@@ -48,9 +48,10 @@ object_draft_schematic_armor_armor_segment_kashyyykian_hunting = object_draft_sc
 	customObjectName = "Kashyyykian Hunting Armor Segment",
 
 	craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 30,
 	size = 3,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 50,
+	factoryCrateType = "object/factory/factory_crate_armor.iff",
 
 	xpType = "crafting_clothing_armor",
 	xp = 35,

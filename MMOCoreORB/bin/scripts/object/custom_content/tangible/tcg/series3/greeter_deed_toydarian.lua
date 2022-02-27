@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series3_greeter_deed_toydarian = object_tangible_tcg_series3_shared_greeter_deed_toydarian:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series3_greeter_deed_toydarian, "object/tangible/tcg/series3/greeter_deed_toydarian.iff")

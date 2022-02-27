@@ -1,3 +1,0 @@
-object_mobile_dressed_tatooine_repo_kleetuz = object_mobile_shared_dressed_tatooine_repo_kleetuz:new {
-}
-ObjectTemplates:addTemplate(object_mobile_dressed_tatooine_repo_kleetuz, "object/mobile/dressed_tatooine_repo_kleetuz.iff")

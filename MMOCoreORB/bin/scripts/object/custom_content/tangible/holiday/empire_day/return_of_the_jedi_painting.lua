@@ -1,5 +1,0 @@
-object_tangible_holiday_empire_day_return_of_the_jedi_painting = object_tangible_holiday_empire_day_shared_return_of_the_jedi_painting:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_return_of_the_jedi_painting, "object/tangible/holiday/empire_day/return_of_the_jedi_painting.iff")

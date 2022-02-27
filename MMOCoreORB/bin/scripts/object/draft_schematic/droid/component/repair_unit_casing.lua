@@ -48,9 +48,10 @@ object_draft_schematic_droid_component_repair_unit_casing = object_draft_schemat
 	customObjectName = "Repair Unit Casing",
 
 	craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 10,
 	size = 1,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 50,
+	factoryCrateType = "object/factory/factory_crate_electronics.iff",
 
 	xpType = "crafting_droid_general",
 	xp = 50,

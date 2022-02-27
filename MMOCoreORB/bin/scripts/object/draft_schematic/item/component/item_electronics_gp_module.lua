@@ -48,9 +48,10 @@ object_draft_schematic_item_component_item_electronics_gp_module = object_draft_
    customObjectName = "Electronics GP Module",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 15, 
    size = 3, 
-
+   factoryCrateType = "object/factory/factory_crate_electronics.iff",
+   
    xpType = "crafting_general", 
    xp = 50, 
 

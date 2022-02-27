@@ -1,3 +1,0 @@
-object_building_military_gcw_battlefield_base = object_building_military_shared_gcw_battlefield_base:new {
-}
-ObjectTemplates:addTemplate(object_building_military_gcw_battlefield_base, "object/building/military/gcw_battlefield_base.iff")

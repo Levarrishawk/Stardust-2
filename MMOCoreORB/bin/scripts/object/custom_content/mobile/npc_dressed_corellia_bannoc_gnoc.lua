@@ -1,5 +1,0 @@
-object_mobile_npc_dressed_corellia_bannoc_gnoc = object_mobile_shared_npc_dressed_corellia_bannoc_gnoc:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_npc_dressed_corellia_bannoc_gnoc, "object/mobile/npc_dressed_corellia_bannoc_gnoc.iff")

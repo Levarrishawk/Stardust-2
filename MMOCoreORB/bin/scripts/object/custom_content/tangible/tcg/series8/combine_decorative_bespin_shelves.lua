@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series8_combine_decorative_bespin_shelves = object_tangible_tcg_series8_shared_combine_decorative_bespin_shelves:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series8_combine_decorative_bespin_shelves, "object/tangible/tcg/series8/combine_decorative_bespin_shelves.iff")

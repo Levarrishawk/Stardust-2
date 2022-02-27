@@ -1,1 +1,0 @@
-object_static_structure_dathomir_decal_hlpgm = object_static_structure_dathomir_shared_decal_hlpgm:new {}ObjectTemplates:addTemplate(object_static_structure_dathomir_decal_hlpgm, "object/static/structure/dathomir/decal_hlpgm.iff")

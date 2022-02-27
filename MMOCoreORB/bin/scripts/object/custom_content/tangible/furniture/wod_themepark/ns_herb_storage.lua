@@ -1,5 +1,0 @@
-object_tangible_furniture_wod_themepark_ns_herb_storage = object_tangible_furniture_wod_themepark_shared_ns_herb_storage:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_wod_themepark_ns_herb_storage, "object/tangible/furniture/wod_themepark/ns_herb_storage.iff")

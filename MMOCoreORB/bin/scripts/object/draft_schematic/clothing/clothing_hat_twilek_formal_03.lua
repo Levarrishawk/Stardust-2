@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_hat_twilek_formal_03 = object_draft_sch
    customObjectName = "Twi\'lek Noble\'s Crest",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 25, 
    size = 2, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 120, 

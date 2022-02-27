@@ -48,9 +48,10 @@ object_draft_schematic_scout_item_camokit_rori = object_draft_schematic_scout_sh
    customObjectName = "Camo Kit: Rori",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 2, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_electronics.iff",
+   
    xpType = "scout", 
    xp = 200, 
 

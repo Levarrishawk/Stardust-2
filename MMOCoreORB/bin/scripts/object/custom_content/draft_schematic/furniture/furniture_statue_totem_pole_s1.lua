@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_furniture_statue_totem_pole_s1 = object_draft_schematic_furniture_shared_furniture_statue_totem_pole_s1:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_statue_totem_pole_s1, "object/draft_schematic/furniture/furniture_statue_totem_pole_s1.iff")

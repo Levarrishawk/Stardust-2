@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_fried_icecream_components_tatooine_tatoes = object_tangible_loot_creature_loot_collections_fried_icecream_components_tatooine_shared_tatoes:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_tatooine_tatoes, "object/tangible/loot/creature/loot/collections/fried/icecream/components/tatooine/tatoes.iff")

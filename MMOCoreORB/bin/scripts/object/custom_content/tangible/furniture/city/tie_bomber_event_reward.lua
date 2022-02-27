@@ -1,5 +1,0 @@
-object_tangible_furniture_city_tie_bomber_event_reward = object_tangible_furniture_city_shared_tie_bomber_event_reward:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_city_tie_bomber_event_reward, "object/tangible/furniture/city/tie_bomber_event_reward.iff")

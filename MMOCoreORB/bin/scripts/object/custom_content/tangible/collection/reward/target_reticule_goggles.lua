@@ -1,5 +1,0 @@
-object_tangible_collection_reward_target_reticule_goggles = object_tangible_collection_reward_shared_target_reticule_goggles:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_collection_reward_target_reticule_goggles, "object/tangible/collection/reward/target_reticule_goggles.iff")

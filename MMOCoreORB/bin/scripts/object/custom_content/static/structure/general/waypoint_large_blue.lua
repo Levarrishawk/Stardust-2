@@ -1,1 +1,0 @@
-object_static_structure_general_waypoint_large_blue = object_static_structure_general_shared_waypoint_large_blue:new {}ObjectTemplates:addTemplate(object_static_structure_general_waypoint_large_blue, "object/static/structure/general/waypoint_large_blue.iff")

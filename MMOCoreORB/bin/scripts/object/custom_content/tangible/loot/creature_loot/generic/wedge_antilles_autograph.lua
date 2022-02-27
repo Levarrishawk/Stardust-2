@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_generic_wedge_antilles_autograph = object_tangible_loot_creature_loot_generic_shared_wedge_antilles_autograph:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_generic_wedge_antilles_autograph, "object/tangible/loot/creature/loot/generic/wedge_antilles_autograph.iff")

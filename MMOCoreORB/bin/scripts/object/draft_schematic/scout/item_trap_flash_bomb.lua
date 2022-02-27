@@ -48,9 +48,10 @@ object_draft_schematic_scout_item_trap_flash_bomb = object_draft_schematic_scout
    customObjectName = "Flash Bomb",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 14, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_electronics.iff",
+   
    xpType = "camp", 
    xp = 70, 
 

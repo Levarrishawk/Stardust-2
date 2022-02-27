@@ -1,1 +1,0 @@
-object_building_mustafar_terrain_creature_lairs_must_lava_flea_lair = object_building_mustafar_terrain_creature_lairs_shared_must_lava_flea_lair:new {}ObjectTemplates:addTemplate(object_building_mustafar_terrain_creature_lairs_must_lava_flea_lair, "object/building/mustafar/terrain/creature_lairs/must_lava_flea_lair.iff")

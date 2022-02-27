@@ -1,1 +1,0 @@
-object_static_structure_content_exar_kun_table = object_static_structure_content_shared_exar_kun_table:new {}ObjectTemplates:addTemplate(object_static_structure_content_exar_kun_table, "object/static/structure/content/exar_kun_table.iff")

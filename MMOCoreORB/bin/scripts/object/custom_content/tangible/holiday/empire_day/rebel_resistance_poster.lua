@@ -1,5 +1,0 @@
-object_tangible_holiday_empire_day_rebel_resistance_poster = object_tangible_holiday_empire_day_shared_rebel_resistance_poster:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_rebel_resistance_poster, "object/tangible/holiday/empire_day/rebel_resistance_poster.iff")

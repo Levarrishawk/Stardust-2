@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series7_garage_display_vehicles_hover_chair = object_tangible_tcg_series7_garage_display_vehicles_shared_hover_chair:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_hover_chair, "object/tangible/tcg/series7/garage_display_vehicles/hover_chair.iff")

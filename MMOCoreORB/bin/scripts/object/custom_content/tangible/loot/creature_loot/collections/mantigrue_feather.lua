@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_mantigrue_feather = object_tangible_loot_creature_loot_collections_shared_mantigrue_feather:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_mantigrue_feather, "object/tangible/loot/creature/loot/collections/mantigrue_feather.iff")

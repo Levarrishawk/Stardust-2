@@ -909,90 +909,687 @@ object_building_tatooine_shared_filler_building_slave_quarters_style_01 = Shared
 
 ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_slave_quarters_style_01, "object/building/tatooine/shared_filler_building_slave_quarters_style_01.iff")
 
-
-------------------
---
---
-
-
 object_building_tatooine_shared_filler_building_tatt_style01_01 = SharedBuildingObjectTemplate:new {
 	clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_01.iff"
-	
+	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
+--[[
+	appearanceFilename = "appearance/thm_tato_imprv_building_s01.apt",
+	arrangementDescriptorFilename = "",
+
+	certificationsRequired = {},
+	clearFloraRadius = 0,
+	clientDataFile = "",
+	clientGameObjectType = 512,
+	collisionActionBlockFlags = 255,
+	collisionActionFlags = 255,
+	collisionActionPassFlags = 0,
+	collisionMaterialBlockFlags = 1,
+	collisionMaterialFlags = 1,
+	collisionMaterialPassFlags = 0,
+	containerType = 0,
+	containerVolumeLimit = 0,
+	customizationVariableMapping = {},
+
+	detailedDescription = "@building_detail:filler_building_tatt_style01_01",
+
+	gameObjectType = 512,
+
+	interiorLayoutFileName = "",
+
+	locationReservationRadius = 0,
+	lookAtText = "@building_lookat:filler_building_tatt_style01_01",
+
+	noBuildRadius = 0,
+
+	objectName = "@building_name:filler_building_tatt_style01_01",
+	onlyVisibleInTools = 0,
+
+	paletteColorCustomizationVariables = {},
+	portalLayoutFilename = "",
+
+	rangedIntCustomizationVariables = {},
+
+	scale = 0,
+	scaleThresholdBeforeExtentTest = 0.5,
+	sendToClient = 1,
+	slotDescriptorFilename = "",
+	snapToTerrain = 1,
+	socketDestinations = {},
+	structureFootprintFileName = "",
+	surfaceType = 2,
+
+	targetable = 0,
+	terrainModificationFileName = "",
+	totalCellNumber = 0,
+
+	useStructureFootprintOutline = 0,
+
+	clientObjectCRC = 2338066597,
+	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/building/base/shared_base_building.iff", "object/building/base/shared_base_filler_building.iff"}
+]]
 }
 
 ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_01, "object/building/tatooine/shared_filler_building_tatt_style01_01.iff")
 
 object_building_tatooine_shared_filler_building_tatt_style01_02 = SharedBuildingObjectTemplate:new {
 	clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_02.iff"
-	
+	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
+--[[
+	appearanceFilename = "appearance/thm_tato_imprv_building_s02.apt",
+	arrangementDescriptorFilename = "",
+
+	certificationsRequired = {},
+	clearFloraRadius = 0,
+	clientDataFile = "",
+	clientGameObjectType = 512,
+	collisionActionBlockFlags = 255,
+	collisionActionFlags = 255,
+	collisionActionPassFlags = 0,
+	collisionMaterialBlockFlags = 1,
+	collisionMaterialFlags = 1,
+	collisionMaterialPassFlags = 0,
+	containerType = 0,
+	containerVolumeLimit = 0,
+	customizationVariableMapping = {},
+
+	detailedDescription = "@building_detail:filler_building_tatt_style01_02",
+
+	gameObjectType = 512,
+
+	interiorLayoutFileName = "",
+
+	locationReservationRadius = 0,
+	lookAtText = "@building_lookat:filler_building_tatt_style01_02",
+
+	noBuildRadius = 0,
+
+	objectName = "@building_name:filler_building_tatt_style01_02",
+	onlyVisibleInTools = 0,
+
+	paletteColorCustomizationVariables = {},
+	portalLayoutFilename = "",
+
+	rangedIntCustomizationVariables = {},
+
+	scale = 0,
+	scaleThresholdBeforeExtentTest = 0.5,
+	sendToClient = 1,
+	slotDescriptorFilename = "",
+	snapToTerrain = 1,
+	socketDestinations = {},
+	structureFootprintFileName = "",
+	surfaceType = 2,
+
+	targetable = 0,
+	terrainModificationFileName = "",
+	totalCellNumber = 0,
+
+	useStructureFootprintOutline = 0,
+
+	clientObjectCRC = 1347139634,
+	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/building/base/shared_base_building.iff", "object/building/base/shared_base_filler_building.iff"}
+]]
 }
 
 ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_02, "object/building/tatooine/shared_filler_building_tatt_style01_02.iff")
 
 object_building_tatooine_shared_filler_building_tatt_style01_03 = SharedBuildingObjectTemplate:new {
 	clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_03.iff"
-	
+	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
+--[[
+	appearanceFilename = "appearance/thm_tato_imprv_building_s03.apt",
+	arrangementDescriptorFilename = "",
+
+	certificationsRequired = {},
+	clearFloraRadius = 0,
+	clientDataFile = "",
+	clientGameObjectType = 512,
+	collisionActionBlockFlags = 255,
+	collisionActionFlags = 255,
+	collisionActionPassFlags = 0,
+	collisionMaterialBlockFlags = 1,
+	collisionMaterialFlags = 1,
+	collisionMaterialPassFlags = 0,
+	containerType = 0,
+	containerVolumeLimit = 0,
+	customizationVariableMapping = {},
+
+	detailedDescription = "@building_detail:filler_building_tatt_style01_03",
+
+	gameObjectType = 512,
+
+	interiorLayoutFileName = "",
+
+	locationReservationRadius = 0,
+	lookAtText = "@building_lookat:filler_building_tatt_style01_03",
+
+	noBuildRadius = 0,
+
+	objectName = "@building_name:filler_building_tatt_style01_03",
+	onlyVisibleInTools = 0,
+
+	paletteColorCustomizationVariables = {},
+	portalLayoutFilename = "",
+
+	rangedIntCustomizationVariables = {},
+
+	scale = 0,
+	scaleThresholdBeforeExtentTest = 0.5,
+	sendToClient = 1,
+	slotDescriptorFilename = "",
+	snapToTerrain = 1,
+	socketDestinations = {},
+	structureFootprintFileName = "",
+	surfaceType = 2,
+
+	targetable = 0,
+	terrainModificationFileName = "",
+	totalCellNumber = 0,
+
+	useStructureFootprintOutline = 0,
+
+	clientObjectCRC = 424075199,
+	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/building/base/shared_base_building.iff", "object/building/base/shared_base_filler_building.iff"}
+]]
 }
 
 ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_03, "object/building/tatooine/shared_filler_building_tatt_style01_03.iff")
 
 object_building_tatooine_shared_filler_building_tatt_style01_04 = SharedBuildingObjectTemplate:new {
 	clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_04.iff"
-	
+	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
+--[[
+	appearanceFilename = "appearance/thm_tato_imprv_building_s04.apt",
+	arrangementDescriptorFilename = "",
+
+	certificationsRequired = {},
+	clearFloraRadius = 0,
+	clientDataFile = "",
+	clientGameObjectType = 512,
+	collisionActionBlockFlags = 255,
+	collisionActionFlags = 255,
+	collisionActionPassFlags = 0,
+	collisionMaterialBlockFlags = 1,
+	collisionMaterialFlags = 1,
+	collisionMaterialPassFlags = 0,
+	containerType = 0,
+	containerVolumeLimit = 0,
+	customizationVariableMapping = {},
+
+	detailedDescription = "@building_detail:filler_building_tatt_style01_04",
+
+	gameObjectType = 512,
+
+	interiorLayoutFileName = "",
+
+	locationReservationRadius = 0,
+	lookAtText = "@building_lookat:filler_building_tatt_style01_04",
+
+	noBuildRadius = 0,
+
+	objectName = "@building_name:filler_building_tatt_style01_04",
+	onlyVisibleInTools = 0,
+
+	paletteColorCustomizationVariables = {},
+	portalLayoutFilename = "",
+
+	rangedIntCustomizationVariables = {},
+
+	scale = 0,
+	scaleThresholdBeforeExtentTest = 0.5,
+	sendToClient = 1,
+	slotDescriptorFilename = "",
+	snapToTerrain = 1,
+	socketDestinations = {},
+	structureFootprintFileName = "",
+	surfaceType = 2,
+
+	targetable = 0,
+	terrainModificationFileName = "",
+	totalCellNumber = 0,
+
+	useStructureFootprintOutline = 0,
+
+	clientObjectCRC = 3802526891,
+	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/building/base/shared_base_building.iff", "object/building/base/shared_base_filler_building.iff"}
+]]
 }
 
 ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_04, "object/building/tatooine/shared_filler_building_tatt_style01_04.iff")
 
 object_building_tatooine_shared_filler_building_tatt_style01_05 = SharedBuildingObjectTemplate:new {
 	clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_05.iff"
-	
+	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
+--[[
+	appearanceFilename = "appearance/thm_tato_imprv_building_s05.apt",
+	arrangementDescriptorFilename = "",
+
+	certificationsRequired = {},
+	clearFloraRadius = 0,
+	clientDataFile = "",
+	clientGameObjectType = 512,
+	collisionActionBlockFlags = 255,
+	collisionActionFlags = 255,
+	collisionActionPassFlags = 0,
+	collisionMaterialBlockFlags = 1,
+	collisionMaterialFlags = 1,
+	collisionMaterialPassFlags = 0,
+	containerType = 0,
+	containerVolumeLimit = 0,
+	customizationVariableMapping = {},
+
+	detailedDescription = "@building_detail:filler_building_tatt_style01_05",
+
+	gameObjectType = 512,
+
+	interiorLayoutFileName = "",
+
+	locationReservationRadius = 0,
+	lookAtText = "@building_lookat:filler_building_tatt_style01_05",
+
+	noBuildRadius = 0,
+
+	objectName = "@building_name:filler_building_tatt_style01_05",
+	onlyVisibleInTools = 0,
+
+	paletteColorCustomizationVariables = {},
+	portalLayoutFilename = "",
+
+	rangedIntCustomizationVariables = {},
+
+	scale = 0,
+	scaleThresholdBeforeExtentTest = 0.5,
+	sendToClient = 1,
+	slotDescriptorFilename = "",
+	snapToTerrain = 1,
+	socketDestinations = {},
+	structureFootprintFileName = "",
+	surfaceType = 2,
+
+	targetable = 0,
+	terrainModificationFileName = "",
+	totalCellNumber = 0,
+
+	useStructureFootprintOutline = 0,
+
+	clientObjectCRC = 2879951654,
+	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/building/base/shared_base_building.iff", "object/building/base/shared_base_filler_building.iff"}
+]]
 }
 
 ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_05, "object/building/tatooine/shared_filler_building_tatt_style01_05.iff")
 
 object_building_tatooine_shared_filler_building_tatt_style01_06 = SharedBuildingObjectTemplate:new {
 	clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_06.iff"
-	
+	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
+--[[
+	appearanceFilename = "appearance/thm_tato_imprv_building_s06.apt",
+	arrangementDescriptorFilename = "",
+
+	certificationsRequired = {},
+	clearFloraRadius = 0,
+	clientDataFile = "",
+	clientGameObjectType = 512,
+	collisionActionBlockFlags = 255,
+	collisionActionFlags = 255,
+	collisionActionPassFlags = 0,
+	collisionMaterialBlockFlags = 1,
+	collisionMaterialFlags = 1,
+	collisionMaterialPassFlags = 0,
+	containerType = 0,
+	containerVolumeLimit = 0,
+	customizationVariableMapping = {},
+
+	detailedDescription = "@building_detail:filler_building_tatt_style01_06",
+
+	gameObjectType = 512,
+
+	interiorLayoutFileName = "",
+
+	locationReservationRadius = 0,
+	lookAtText = "@building_lookat:filler_building_tatt_style01_06",
+
+	noBuildRadius = 0,
+
+	objectName = "@building_name:filler_building_tatt_style01_06",
+	onlyVisibleInTools = 0,
+
+	paletteColorCustomizationVariables = {},
+	portalLayoutFilename = "",
+
+	rangedIntCustomizationVariables = {},
+
+	scale = 0,
+	scaleThresholdBeforeExtentTest = 0.5,
+	sendToClient = 1,
+	slotDescriptorFilename = "",
+	snapToTerrain = 1,
+	socketDestinations = {},
+	structureFootprintFileName = "",
+	surfaceType = 2,
+
+	targetable = 0,
+	terrainModificationFileName = "",
+	totalCellNumber = 0,
+
+	useStructureFootprintOutline = 0,
+
+	clientObjectCRC = 1891580849,
+	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/building/base/shared_base_building.iff", "object/building/base/shared_base_filler_building.iff"}
+]]
 }
 
 ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_06, "object/building/tatooine/shared_filler_building_tatt_style01_06.iff")
 
 object_building_tatooine_shared_filler_building_tatt_style01_07 = SharedBuildingObjectTemplate:new {
 	clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_07.iff"
-	
+	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
+--[[
+	appearanceFilename = "appearance/thm_tato_imprv_building_s07.apt",
+	arrangementDescriptorFilename = "",
+
+	certificationsRequired = {},
+	clearFloraRadius = 0,
+	clientDataFile = "",
+	clientGameObjectType = 512,
+	collisionActionBlockFlags = 255,
+	collisionActionFlags = 255,
+	collisionActionPassFlags = 0,
+	collisionMaterialBlockFlags = 1,
+	collisionMaterialFlags = 1,
+	collisionMaterialPassFlags = 0,
+	containerType = 0,
+	containerVolumeLimit = 0,
+	customizationVariableMapping = {},
+
+	detailedDescription = "@building_detail:filler_building_tatt_style01_07",
+
+	gameObjectType = 512,
+
+	interiorLayoutFileName = "",
+
+	locationReservationRadius = 0,
+	lookAtText = "@building_lookat:filler_building_tatt_style01_07",
+
+	noBuildRadius = 0,
+
+	objectName = "@building_name:filler_building_tatt_style01_07",
+	onlyVisibleInTools = 0,
+
+	paletteColorCustomizationVariables = {},
+	portalLayoutFilename = "",
+
+	rangedIntCustomizationVariables = {},
+
+	scale = 0,
+	scaleThresholdBeforeExtentTest = 0.5,
+	sendToClient = 1,
+	slotDescriptorFilename = "",
+	snapToTerrain = 1,
+	socketDestinations = {},
+	structureFootprintFileName = "",
+	surfaceType = 2,
+
+	targetable = 0,
+	terrainModificationFileName = "",
+	totalCellNumber = 0,
+
+	useStructureFootprintOutline = 0,
+
+	clientObjectCRC = 967990332,
+	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/building/base/shared_base_building.iff", "object/building/base/shared_base_filler_building.iff"}
+]]
 }
 
 ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_07, "object/building/tatooine/shared_filler_building_tatt_style01_07.iff")
 
 object_building_tatooine_shared_filler_building_tatt_style01_08 = SharedBuildingObjectTemplate:new {
 	clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_08.iff"
-	
+	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
+--[[
+	appearanceFilename = "appearance/thm_tato_imprv_building_s08.apt",
+	arrangementDescriptorFilename = "",
+
+	certificationsRequired = {},
+	clearFloraRadius = 0,
+	clientDataFile = "",
+	clientGameObjectType = 512,
+	collisionActionBlockFlags = 255,
+	collisionActionFlags = 255,
+	collisionActionPassFlags = 0,
+	collisionMaterialBlockFlags = 1,
+	collisionMaterialFlags = 1,
+	collisionMaterialPassFlags = 0,
+	containerType = 0,
+	containerVolumeLimit = 0,
+	customizationVariableMapping = {},
+
+	detailedDescription = "@building_detail:filler_building_tatt_style01_08",
+
+	gameObjectType = 512,
+
+	interiorLayoutFileName = "",
+
+	locationReservationRadius = 0,
+	lookAtText = "@building_lookat:filler_building_tatt_style01_08",
+
+	noBuildRadius = 0,
+
+	objectName = "@building_name:filler_building_tatt_style01_08",
+	onlyVisibleInTools = 0,
+
+	paletteColorCustomizationVariables = {},
+	portalLayoutFilename = "",
+
+	rangedIntCustomizationVariables = {},
+
+	scale = 0,
+	scaleThresholdBeforeExtentTest = 0.5,
+	sendToClient = 1,
+	slotDescriptorFilename = "",
+	snapToTerrain = 1,
+	socketDestinations = {},
+	structureFootprintFileName = "",
+	surfaceType = 2,
+
+	targetable = 0,
+	terrainModificationFileName = "",
+	totalCellNumber = 0,
+
+	useStructureFootprintOutline = 0,
+
+	clientObjectCRC = 2209902638,
+	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/building/base/shared_base_building.iff", "object/building/base/shared_base_filler_building.iff"}
+]]
 }
 
 ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_08, "object/building/tatooine/shared_filler_building_tatt_style01_08.iff")
 
 object_building_tatooine_shared_filler_building_tatt_style01_09 = SharedBuildingObjectTemplate:new {
 	clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_09.iff"
-	
+	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
+--[[
+	appearanceFilename = "appearance/thm_tato_imprv_building_s09.apt",
+	arrangementDescriptorFilename = "",
+
+	certificationsRequired = {},
+	clearFloraRadius = 0,
+	clientDataFile = "",
+	clientGameObjectType = 512,
+	collisionActionBlockFlags = 255,
+	collisionActionFlags = 255,
+	collisionActionPassFlags = 0,
+	collisionMaterialBlockFlags = 1,
+	collisionMaterialFlags = 1,
+	collisionMaterialPassFlags = 0,
+	containerType = 0,
+	containerVolumeLimit = 0,
+	customizationVariableMapping = {},
+
+	detailedDescription = "@building_detail:filler_building_tatt_style01_09",
+
+	gameObjectType = 512,
+
+	interiorLayoutFileName = "",
+
+	locationReservationRadius = 0,
+	lookAtText = "@building_lookat:filler_building_tatt_style01_09",
+
+	noBuildRadius = 0,
+
+	objectName = "@building_name:filler_building_tatt_style01_09",
+	onlyVisibleInTools = 0,
+
+	paletteColorCustomizationVariables = {},
+	portalLayoutFilename = "",
+
+	rangedIntCustomizationVariables = {},
+
+	scale = 0,
+	scaleThresholdBeforeExtentTest = 0.5,
+	sendToClient = 1,
+	slotDescriptorFilename = "",
+	snapToTerrain = 1,
+	socketDestinations = {},
+	structureFootprintFileName = "",
+	surfaceType = 2,
+
+	targetable = 0,
+	terrainModificationFileName = "",
+	totalCellNumber = 0,
+
+	useStructureFootprintOutline = 0,
+
+	clientObjectCRC = 3400865699,
+	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/building/base/shared_base_building.iff", "object/building/base/shared_base_filler_building.iff"}
+]]
 }
 
 ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_09, "object/building/tatooine/shared_filler_building_tatt_style01_09.iff")
 
 object_building_tatooine_shared_filler_building_tatt_style01_10 = SharedBuildingObjectTemplate:new {
 	clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_10.iff"
-	
+	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
+--[[
+	appearanceFilename = "appearance/thm_tato_imprv_building_s10.apt",
+	arrangementDescriptorFilename = "",
+
+	certificationsRequired = {},
+	clearFloraRadius = 0,
+	clientDataFile = "",
+	clientGameObjectType = 512,
+	collisionActionBlockFlags = 255,
+	collisionActionFlags = 255,
+	collisionActionPassFlags = 0,
+	collisionMaterialBlockFlags = 1,
+	collisionMaterialFlags = 1,
+	collisionMaterialPassFlags = 0,
+	containerType = 0,
+	containerVolumeLimit = 0,
+	customizationVariableMapping = {},
+
+	detailedDescription = "@building_detail:filler_building_tatt_style01_10",
+
+	gameObjectType = 512,
+
+	interiorLayoutFileName = "",
+
+	locationReservationRadius = 0,
+	lookAtText = "@building_lookat:filler_building_tatt_style01_10",
+
+	noBuildRadius = 0,
+
+	objectName = "@building_name:filler_building_tatt_style01_10",
+	onlyVisibleInTools = 0,
+
+	paletteColorCustomizationVariables = {},
+	portalLayoutFilename = "",
+
+	rangedIntCustomizationVariables = {},
+
+	scale = 0,
+	scaleThresholdBeforeExtentTest = 0.5,
+	sendToClient = 1,
+	slotDescriptorFilename = "",
+	snapToTerrain = 1,
+	socketDestinations = {},
+	structureFootprintFileName = "",
+	surfaceType = 2,
+
+	targetable = 0,
+	terrainModificationFileName = "",
+	totalCellNumber = 0,
+
+	useStructureFootprintOutline = 0,
+
+	clientObjectCRC = 3648617040,
+	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/building/base/shared_base_building.iff", "object/building/base/shared_base_filler_building.iff"}
+]]
 }
 
 ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_10, "object/building/tatooine/shared_filler_building_tatt_style01_10.iff")
 
 object_building_tatooine_shared_filler_building_tatt_style01_11 = SharedBuildingObjectTemplate:new {
 	clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_11.iff"
-	
+	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
+--[[
+	appearanceFilename = "appearance/thm_tato_imprv_building_s11.apt",
+	arrangementDescriptorFilename = "",
+
+	certificationsRequired = {},
+	clearFloraRadius = 0,
+	clientDataFile = "",
+	clientGameObjectType = 512,
+	collisionActionBlockFlags = 255,
+	collisionActionFlags = 255,
+	collisionActionPassFlags = 0,
+	collisionMaterialBlockFlags = 1,
+	collisionMaterialFlags = 1,
+	collisionMaterialPassFlags = 0,
+	containerType = 0,
+	containerVolumeLimit = 0,
+	customizationVariableMapping = {},
+
+	detailedDescription = "@building_detail:filler_building_tatt_style01_10",
+
+	gameObjectType = 512,
+
+	interiorLayoutFileName = "",
+
+	locationReservationRadius = 0,
+	lookAtText = "@building_lookat:filler_building_tatt_style01_10",
+
+	noBuildRadius = 0,
+
+	objectName = "@building_name:filler_building_tatt_style01_10",
+	onlyVisibleInTools = 0,
+
+	paletteColorCustomizationVariables = {},
+	portalLayoutFilename = "",
+
+	rangedIntCustomizationVariables = {},
+
+	scale = 0,
+	scaleThresholdBeforeExtentTest = 0.5,
+	sendToClient = 1,
+	slotDescriptorFilename = "",
+	snapToTerrain = 1,
+	socketDestinations = {},
+	structureFootprintFileName = "",
+	surfaceType = 2,
+
+	targetable = 0,
+	terrainModificationFileName = "",
+	totalCellNumber = 0,
+
+	useStructureFootprintOutline = 0,
+
+	clientObjectCRC = 2423528925,
+	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/building/base/shared_base_building.iff", "object/building/base/shared_base_filler_building.iff"}
+]]
 }
 
 ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_11, "object/building/tatooine/shared_filler_building_tatt_style01_11.iff")
---
--------
 
 object_building_tatooine_shared_fort_tusken = SharedBuildingObjectTemplate:new {
 	clientTemplateFileName = "object/building/tatooine/shared_fort_tusken.iff"
@@ -2853,86 +3450,3 @@ object_building_tatooine_shared_tower_jabbas_palace = SharedBuildingObjectTempla
 }
 
 ObjectTemplates:addClientTemplate(object_building_tatooine_shared_tower_jabbas_palace, "object/building/tatooine/shared_tower_jabbas_palace.iff")
-
-
-----
---
---
-
-
-object_building_tatooine_shared_filler_building_tatt_style01_01w = SharedBuildingObjectTemplate:new {
-  clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_01w.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_01w, "object/building/tatooine/shared_filler_building_tatt_style01_01w.iff")
-
-object_building_tatooine_shared_filler_building_tatt_style01_02w = SharedBuildingObjectTemplate:new {
-  clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_02w.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_02w, "object/building/tatooine/shared_filler_building_tatt_style01_02w.iff")
-
-object_building_tatooine_shared_filler_building_tatt_style01_03w = SharedBuildingObjectTemplate:new {
-  clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_03w.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_03w, "object/building/tatooine/shared_filler_building_tatt_style01_03w.iff")
-
-object_building_tatooine_shared_filler_building_tatt_style01_04w = SharedBuildingObjectTemplate:new {
-  clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_04w.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_04w, "object/building/tatooine/shared_filler_building_tatt_style01_04w.iff")
-
-object_building_tatooine_shared_filler_building_tatt_style01_05w = SharedBuildingObjectTemplate:new {
-  clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_05w.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_05w, "object/building/tatooine/shared_filler_building_tatt_style01_05w.iff")
-
-object_building_tatooine_shared_filler_building_tatt_style01_06w = SharedBuildingObjectTemplate:new {
-  clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_06w.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_06w, "object/building/tatooine/shared_filler_building_tatt_style01_06w.iff")
-
-object_building_tatooine_shared_filler_building_tatt_style01_07w = SharedBuildingObjectTemplate:new {
-  clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_07w.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_07w, "object/building/tatooine/shared_filler_building_tatt_style01_07w.iff")
-
-object_building_tatooine_shared_filler_building_tatt_style01_08w = SharedBuildingObjectTemplate:new {
-  clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_08w.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_08w, "object/building/tatooine/shared_filler_building_tatt_style01_08w.iff")
-
-object_building_tatooine_shared_filler_building_tatt_style01_09w = SharedBuildingObjectTemplate:new {
-  clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_09w.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_09w, "object/building/tatooine/shared_filler_building_tatt_style01_09w.iff")
-
-object_building_tatooine_shared_filler_building_tatt_style01_10w = SharedBuildingObjectTemplate:new {
-  clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_10w.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_10w, "object/building/tatooine/shared_filler_building_tatt_style01_10w.iff")
-
-object_building_tatooine_shared_filler_building_tatt_style01_11w = SharedBuildingObjectTemplate:new {
-  clientTemplateFileName = "object/building/tatooine/shared_filler_building_tatt_style01_11w.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_building_tatooine_shared_filler_building_tatt_style01_11w, "object/building/tatooine/shared_filler_building_tatt_style01_11w.iff")

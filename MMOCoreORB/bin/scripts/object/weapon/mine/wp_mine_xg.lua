@@ -54,7 +54,7 @@ object_weapon_mine_wp_mine_xg = object_weapon_mine_shared_wp_mine_xg:new {
 	attackSpeed = 1,
 	woundsRatio = 20,
 	damageType = BLAST,
-	armorPiercing = LIGHT,
+	armorPiercing = HEAVY,
 
 	numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 1},
 	experimentalProperties = {"XX", "XX", "SR", "UT", "SR", "UT", "SR", "UT", "SR", "UT", "XX"},

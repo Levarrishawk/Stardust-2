@@ -48,10 +48,11 @@ object_draft_schematic_structure_house_guild_hall = object_draft_schematic_struc
 	customObjectName = "Deed for: Tatooine Guild Hall",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 36,
 	size = 14,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 1,
+	factoryCrateType = "object/factory/factory_crate_installation.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 7800,
 

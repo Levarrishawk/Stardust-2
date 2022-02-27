@@ -1,1 +1,0 @@
-object_static_worldbuilding_building_exarkun_scaffolding_s02 = object_static_worldbuilding_building_shared_exarkun_scaffolding_s02:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_building_exarkun_scaffolding_s02, "object/static/worldbuilding/building/exarkun_scaffolding_s02.iff")

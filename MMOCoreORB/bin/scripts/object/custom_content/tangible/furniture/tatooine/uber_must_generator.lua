@@ -1,5 +1,0 @@
-object_tangible_furniture_tatooine_uber_must_generator = object_tangible_furniture_tatooine_shared_uber_must_generator:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_tatooine_uber_must_generator, "object/tangible/furniture/tatooine/uber_must_generator.iff")

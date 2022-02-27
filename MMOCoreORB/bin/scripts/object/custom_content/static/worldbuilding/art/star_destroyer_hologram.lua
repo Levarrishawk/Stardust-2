@@ -1,1 +1,0 @@
-object_static_worldbuilding_art_star_destroyer_hologram = object_static_worldbuilding_art_shared_star_destroyer_hologram:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_art_star_destroyer_hologram, "object/static/worldbuilding/art/star_destroyer_hologram.iff")

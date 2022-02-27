@@ -1,5 +1,0 @@
-object_mobile_dressed_restuss_captain_roth = object_mobile_shared_dressed_restuss_captain_roth:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_dressed_restuss_captain_roth, "object/mobile/dressed_restuss_captain_roth.iff")

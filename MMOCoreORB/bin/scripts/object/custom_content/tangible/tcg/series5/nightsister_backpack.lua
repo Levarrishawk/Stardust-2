@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series5_nightsister_backpack = object_tangible_tcg_series5_shared_nightsister_backpack:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series5_nightsister_backpack, "object/tangible/tcg/series5/nightsister_backpack.iff")

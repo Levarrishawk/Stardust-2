@@ -1,5 +1,0 @@
-object_tangible_holiday_empire_day_wedge_antilles_poster = object_tangible_holiday_empire_day_shared_wedge_antilles_poster:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_wedge_antilles_poster, "object/tangible/holiday/empire_day/wedge_antilles_poster.iff")

@@ -1,5 +1,0 @@
-object_tangible_collection_reward_damind_crystal_reward = object_tangible_collection_reward_shared_damind_crystal_reward:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_collection_reward_damind_crystal_reward, "object/tangible/collection/reward/damind_crystal_reward.iff")

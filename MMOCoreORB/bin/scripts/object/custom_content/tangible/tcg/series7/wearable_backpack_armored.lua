@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series7_wearable_backpack_armored = object_tangible_tcg_series7_shared_wearable_backpack_armored:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series7_wearable_backpack_armored, "object/tangible/tcg/series7/wearable_backpack_armored.iff")

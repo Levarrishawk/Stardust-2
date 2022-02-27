@@ -48,11 +48,12 @@ object_draft_schematic_food_drink_tilla_tiil = object_draft_schematic_food_share
    customObjectName = "T\\\\\\\'illa-T\\\\\\\'iil",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 12, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_food.iff",
+   
    xpType = "crafting_food_general", 
-   xp = 600, 
+   xp = 360, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

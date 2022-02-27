@@ -1,5 +1,0 @@
-object_tangible_holiday_empire_day_component_dh17_cartridge_grips = object_tangible_holiday_empire_day_component_shared_dh17_cartridge_grips:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_component_dh17_cartridge_grips, "object/tangible/holiday/empire_day/component/dh17_cartridge_grips.iff")

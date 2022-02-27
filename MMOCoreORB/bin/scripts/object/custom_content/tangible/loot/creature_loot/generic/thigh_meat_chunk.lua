@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_generic_thigh_meat_chunk = object_tangible_loot_creature_loot_generic_shared_thigh_meat_chunk:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_generic_thigh_meat_chunk, "object/tangible/loot/creature/loot/generic/thigh_meat_chunk.iff")

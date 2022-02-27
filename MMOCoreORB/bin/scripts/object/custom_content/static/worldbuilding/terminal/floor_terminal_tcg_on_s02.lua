@@ -1,1 +1,0 @@
-object_static_worldbuilding_terminal_floor_terminal_tcg_on_s02 = object_static_worldbuilding_terminal_shared_floor_terminal_tcg_on_s02:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_terminal_floor_terminal_tcg_on_s02, "object/static/worldbuilding/terminal/floor_terminal_tcg_on_s02.iff")

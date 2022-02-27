@@ -61,7 +61,7 @@ object_tangible_food_crafted_dish_teltier_noodles = object_tangible_food_crafted
 	quantityMin = 6,
 	quantityMax = 10,
 
-	modifiers = { "action", 0 },
+	modifiers = { "stamina", 0 },
 
 	buffName = "food.dish_teltier_noodles",
 	buffCRC = 0,

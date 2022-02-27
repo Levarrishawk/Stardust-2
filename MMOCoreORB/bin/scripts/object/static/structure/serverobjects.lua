@@ -59,4 +59,3 @@ includeFile("static/structure/tatooine/serverobjects.lua")
 includeFile("static/structure/yavin/serverobjects.lua")
 
 -- Server Objects
-includeFile("static/structure/elysium/serverobjects.lua")

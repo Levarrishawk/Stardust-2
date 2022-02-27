@@ -48,11 +48,12 @@ object_draft_schematic_food_additive_additive_light = object_draft_schematic_foo
    customObjectName = "Light Food Additive",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 5, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_food.iff",
+   
    xpType = "crafting_general", 
-   xp = 100, 
+   xp = 20, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

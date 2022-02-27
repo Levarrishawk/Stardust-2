@@ -48,9 +48,10 @@ object_draft_schematic_weapon_pistol_blaster_scout_trooper = object_draft_schema
    customObjectName = "Scout Blaster",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 21, 
    size = 3, 
-
+   factoryCrateType = "object/factory/factory_crate_weapon.iff",
+   
    xpType = "crafting_weapons_general", 
    xp = 60, 
 

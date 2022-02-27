@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series4_wearable_guise_of_vapaad = object_tangible_tcg_series4_shared_wearable_guise_of_vapaad:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series4_wearable_guise_of_vapaad, "object/tangible/tcg/series4/wearable_guise_of_vapaad.iff")

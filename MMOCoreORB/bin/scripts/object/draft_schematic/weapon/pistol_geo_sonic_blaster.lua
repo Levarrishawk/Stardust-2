@@ -48,9 +48,10 @@ object_draft_schematic_weapon_pistol_geo_sonic_blaster = object_draft_schematic_
    customObjectName = "Geonosian Sonic Blaster Schematic",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 30, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_weapon.iff",
+   
    xpType = "crafting_weapons_general", 
    xp = 350, 
 

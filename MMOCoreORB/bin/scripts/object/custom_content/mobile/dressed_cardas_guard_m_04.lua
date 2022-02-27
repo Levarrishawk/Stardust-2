@@ -1,3 +1,0 @@
-object_mobile_dressed_cardas_guard_m_04 = object_mobile_shared_dressed_cardas_guard_m_04:new {
-}
-ObjectTemplates:addTemplate(object_mobile_dressed_cardas_guard_m_04, "object/mobile/dressed_cardas_guard_m_04.iff")

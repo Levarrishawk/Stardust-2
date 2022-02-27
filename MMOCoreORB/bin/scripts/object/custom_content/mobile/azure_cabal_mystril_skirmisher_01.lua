@@ -1,5 +1,0 @@
-object_mobile_azure_cabal_mystril_skirmisher_01 = object_mobile_shared_azure_cabal_mystril_skirmisher_01:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_azure_cabal_mystril_skirmisher_01, "object/mobile/azure_cabal_mystril_skirmisher_01.iff")

@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_col_photo_meatlump_camera = object_tangible_loot_creature_loot_collections_shared_col_photo_meatlump_camera:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_col_photo_meatlump_camera, "object/tangible/loot/creature/loot/collections/col_photo_meatlump_camera.iff")

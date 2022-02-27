@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_imp_t2_engineer = object_tangible_loot_creature_loot_collections_shared_imp_t2_engineer:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_imp_t2_engineer, "object/tangible/loot/creature/loot/collections/imp_t2_engineer.iff")

@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series7_wearable_gold_cape = object_tangible_tcg_series7_shared_wearable_gold_cape:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series7_wearable_gold_cape, "object/tangible/tcg/series7/wearable_gold_cape.iff")

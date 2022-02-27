@@ -1,5 +1,0 @@
-object_tangible_loot_loot_schematic_generic_limited_use_flashy = object_tangible_loot_loot_schematic_shared_generic_limited_use_flashy:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_loot_schematic_generic_limited_use_flashy, "object/tangible/loot/loot/schematic/generic_limited_use_flashy.iff")

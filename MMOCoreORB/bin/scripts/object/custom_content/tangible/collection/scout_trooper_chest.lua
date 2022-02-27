@@ -1,5 +1,0 @@
-
-object_tangible_collection_scout_trooper_chest = object_tangible_collection_shared_scout_trooper_chest:new {
-
-gameObjectType = 8211,}
-ObjectTemplates:addTemplate(object_tangible_collection_scout_trooper_chest, "object/tangible/collection/scout_trooper_chest.iff")

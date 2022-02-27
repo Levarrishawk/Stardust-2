@@ -1,5 +1,0 @@
-object_tangible_holiday_life_day_rewards_09_lifeday_ornament = object_tangible_holiday_life_day_rewards_09_shared_lifeday_ornament:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_life_day_rewards_09_lifeday_ornament, "object/tangible/holiday/life_day/rewards_09/lifeday_ornament.iff")

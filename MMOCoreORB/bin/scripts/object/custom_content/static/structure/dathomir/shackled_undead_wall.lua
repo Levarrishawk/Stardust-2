@@ -1,1 +1,0 @@
-object_static_structure_dathomir_shackled_undead_wall = object_static_structure_dathomir_shared_shackled_undead_wall:new {}ObjectTemplates:addTemplate(object_static_structure_dathomir_shackled_undead_wall, "object/static/structure/dathomir/shackled_undead_wall.iff")

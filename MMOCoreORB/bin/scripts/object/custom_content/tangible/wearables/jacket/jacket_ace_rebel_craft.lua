@@ -1,5 +1,0 @@
-
-object_tangible_wearables_jacket_jacket_ace_rebel_craft = object_tangible_wearables_jacket_shared_jacket_ace_rebel_craft:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_wearables_jacket_jacket_ace_rebel_craft, "object/tangible/wearables/jacket/jacket_ace_rebel_craft.iff")

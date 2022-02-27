@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_wod_ns_gate = object_draft_schematic_furniture_shared_wod_ns_gate:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_wod_ns_gate, "object/draft_schematic/furniture/wod_ns_gate.iff")

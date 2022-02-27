@@ -44,15 +44,15 @@
 object_building_player_city_cityhall_naboo = object_building_player_city_shared_cityhall_naboo:new {
 	lotSize = 0,
 	baseMaintenanceRate = 0,
-	allowedZones = {"dantooine", "lok", "tatooine", "naboo", "rori", "corellia", "talus", "chandrila", "kaas", "moraband", "hutta", "lothal"},
+	allowedZones = {"dantooine", "naboo", "rori"},
 	length = 7,
 	width = 9,
 	cityRankRequired = 0,
 	zoneComponent = "CityHallZoneComponent",
 	abilityRequired = "place_cityhall",
 	uniqueStructure = true,
-	cityMaintenanceBase = 12500,
-	cityMaintenanceRate = 8000,
+	cityMaintenanceBase = 35000,
+	cityMaintenanceRate = 25000,
 	skillMods = {
 		{"private_buff_mind", 100},
 		{"private_med_battle_fatigue", 5},

@@ -1,5 +1,0 @@
-object_tangible_furniture_all_frn_all_gcw2_twing = object_tangible_furniture_all_shared_frn_all_gcw2_twing:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_all_gcw2_twing, "object/tangible/furniture/all/frn_all_gcw2_twing.iff")

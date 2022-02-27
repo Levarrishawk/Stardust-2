@@ -1,5 +1,0 @@
-object_tangible_furniture_all_frn_bench_generic = object_tangible_furniture_all_shared_frn_bench_generic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_bench_generic, "object/tangible/furniture/all/frn_bench_generic.iff")

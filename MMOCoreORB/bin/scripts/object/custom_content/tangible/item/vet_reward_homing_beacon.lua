@@ -1,5 +1,0 @@
-object_tangible_item_vet_reward_homing_beacon = object_tangible_item_shared_vet_reward_homing_beacon:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_item_vet_reward_homing_beacon, "object/tangible/item/vet_reward_homing_beacon.iff")

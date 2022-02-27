@@ -1,1 +1,0 @@
-object_static_terrain_all_poi_all_lair_dead_log_small = object_static_terrain_all_shared_poi_all_lair_dead_log_small:new {}ObjectTemplates:addTemplate(object_static_terrain_all_poi_all_lair_dead_log_small, "object/static/terrain/all/poi_all_lair_dead_log_small.iff")

@@ -48,13 +48,13 @@ object_draft_schematic_furniture_furniture_bottle_pear = object_draft_schematic_
    customObjectName = "Pear-shaped Bottle Draft Schematic",
 
    craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 9, 
    size = 1, 
-
+   factoryCrateSize = 0,
+   factoryCrateType = "object/factory/factory_crate_furniture.iff",
+   
    xpType = "crafting_general", 
    xp = 120, 
-
-   factoryCrateSize = 0,
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

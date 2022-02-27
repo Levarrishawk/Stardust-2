@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series5_hangar_ships_tie_interceptor_imperial_guard = object_tangible_tcg_series5_hangar_ships_shared_tie_interceptor_imperial_guard:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series5_hangar_ships_tie_interceptor_imperial_guard, "object/tangible/tcg/series5/hangar_ships/tie_interceptor_imperial_guard.iff")

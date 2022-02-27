@@ -1,1 +1,0 @@
-object_static_terrain_all_poi_all_lair_bramble_light = object_static_terrain_all_shared_poi_all_lair_bramble_light:new {}ObjectTemplates:addTemplate(object_static_terrain_all_poi_all_lair_bramble_light, "object/static/terrain/all/poi_all_lair_bramble_light.iff")

@@ -48,9 +48,10 @@ object_draft_schematic_weapon_rifle_flame_thrower = object_draft_schematic_weapo
    customObjectName = "Flame Thrower",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 24, 
    size = 3, 
-
+   factoryCrateType = "object/factory/factory_crate_weapon.iff",
+   
    xpType = "crafting_weapons_general", 
    xp = 456, 
 

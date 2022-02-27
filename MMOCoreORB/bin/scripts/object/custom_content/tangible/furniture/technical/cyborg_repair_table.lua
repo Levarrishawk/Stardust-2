@@ -1,3 +1,0 @@
-object_tangible_furniture_technical_cyborg_repair_table = object_tangible_furniture_technical_shared_cyborg_repair_table:new {
-}
-ObjectTemplates:addTemplate(object_tangible_furniture_technical_cyborg_repair_table, "object/tangible/furniture/technical/cyborg_repair_table.iff")

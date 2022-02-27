@@ -1,5 +1,0 @@
-object_tangible_quest_corellia_murmur_shipment_datapad = object_tangible_quest_shared_corellia_murmur_shipment_datapad:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_corellia_murmur_shipment_datapad, "object/tangible/quest/corellia_murmur_shipment_datapad.iff")

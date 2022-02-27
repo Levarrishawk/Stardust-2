@@ -48,10 +48,11 @@ object_draft_schematic_furniture_furniture_chair_tatooine_cafe = object_draft_sc
 	customObjectName = "Cafe Chair",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 15,
 	size = 2,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 10,
+	factoryCrateType = "object/factory/factory_crate_furniture.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 200,
 

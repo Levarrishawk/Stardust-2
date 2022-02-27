@@ -68,11 +68,11 @@ object_weapon_melee_sword_sword_rantok = object_weapon_melee_sword_shared_sword_
 	-- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
 	attackType = MELEEATTACK,
 
-	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, FORCE, LIGHTSABER
+	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, LIGHTSABER
 	damageType = KINETIC,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = LIGHT,
+	armorPiercing = NONE,
 
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
@@ -96,13 +96,13 @@ object_weapon_melee_sword_sword_rantok = object_weapon_melee_sword_shared_sword_
 	speedModifiers = { "onehandmelee_speed" },
 
 	-- Leave blank for now
-	damageModifiers = { "frenzy" },
+	damageModifiers = { },
 	
 
 	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 0,
-	actionAttackCost = 300,
-	mindAttackCost = 0,
+	healthAttackCost = 27,
+	actionAttackCost = 40,
+	mindAttackCost = 25,
 	forceCost = 0,
 
 	pointBlankRange = 0,
@@ -114,8 +114,8 @@ object_weapon_melee_sword_sword_rantok = object_weapon_melee_sword_shared_sword_
 	maxRange = 3,
 	maxRangeAccuracy = 10,
 
-	minDamage = 245,
-	maxDamage = 250,
+	minDamage = 45,
+	maxDamage = 150,
 
 	attackSpeed = 3.3,
 

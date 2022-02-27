@@ -1,5 +1,0 @@
-object_mobile_coa_aclo_personnel_moncal_m = object_mobile_shared_coa_aclo_personnel_moncal_m:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_coa_aclo_personnel_moncal_m, "object/mobile/coa_aclo_personnel_moncal_m.iff")

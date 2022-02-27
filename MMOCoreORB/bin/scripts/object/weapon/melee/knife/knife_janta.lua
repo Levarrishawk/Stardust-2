@@ -68,11 +68,11 @@ object_weapon_melee_knife_knife_janta = object_weapon_melee_knife_shared_knife_j
 	-- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
 	attackType = MELEEATTACK,
 	
-	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, FORCE, LIGHTSABER
+	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, LIGHTSABER
 	damageType = KINETIC,
 	
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = LIGHT,
+	armorPiercing = NONE,
 	
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
@@ -96,13 +96,13 @@ object_weapon_melee_knife_knife_janta = object_weapon_melee_knife_shared_knife_j
 	speedModifiers = { "onehandmelee_speed" },
 	
 	-- Leave blank for now
-	damageModifiers = { "frenzy" },
+	damageModifiers = { },
 	       
 	
 	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 0,
-	actionAttackCost = 300,
-	mindAttackCost = 0,
+	healthAttackCost = 6,
+	actionAttackCost = 15,
+	mindAttackCost = 6,
 	forceCost = 0,
 	
 	pointBlankAccuracy = 0,
@@ -114,10 +114,10 @@ object_weapon_melee_knife_knife_janta = object_weapon_melee_knife_shared_knife_j
 	maxRange = 3,
 	maxRangeAccuracy = 4,
 
-	minDamage = 111,
-	maxDamage = 222,
+	minDamage = 11,
+	maxDamage = 22,
 	
-	attackSpeed = 1,
+	attackSpeed = 3.0,
 
 	woundsRatio = 6,
 }

@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series7_wearable_sash_handmade = object_tangible_tcg_series7_shared_wearable_sash_handmade:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series7_wearable_sash_handmade, "object/tangible/tcg/series7/wearable_sash_handmade.iff")

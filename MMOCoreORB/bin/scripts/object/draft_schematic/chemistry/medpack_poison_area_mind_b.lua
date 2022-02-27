@@ -48,9 +48,10 @@ object_draft_schematic_chemistry_medpack_poison_area_mind_b = object_draft_schem
 	customObjectName = "Mind Area Poison Delivery Unit - B",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 30,
 	size = 3,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 50,
+	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
 	xp = 90,

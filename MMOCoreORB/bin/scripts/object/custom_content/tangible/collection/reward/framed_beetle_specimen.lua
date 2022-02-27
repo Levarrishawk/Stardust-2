@@ -1,5 +1,0 @@
-object_tangible_collection_reward_framed_beetle_specimen = object_tangible_collection_reward_shared_framed_beetle_specimen:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_collection_reward_framed_beetle_specimen, "object/tangible/collection/reward/framed_beetle_specimen.iff")

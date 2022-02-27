@@ -48,9 +48,10 @@ object_draft_schematic_item_quest_item_attunement_grid = object_draft_schematic_
    customObjectName = "Attunement Grid",
 
    craftingToolTab = 2148007936, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 10, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_electronics.iff",
+   
    xpType = "crafting_general", 
    xp = 40, 
 

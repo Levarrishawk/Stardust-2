@@ -48,9 +48,10 @@ object_draft_schematic_armor_component_armor_layer_electrical = object_draft_sch
 	customObjectName = "Electrical Protection Armor Layer",
 
 	craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 3,
+	complexity = 30,
 	size = 2,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 100,
+	factoryCrateType = "object/factory/factory_crate_generic_items.iff",
 
 	xpType = "crafting_clothing_armor",
 	xp = 110,

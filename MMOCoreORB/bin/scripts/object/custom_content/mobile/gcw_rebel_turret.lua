@@ -1,1 +1,0 @@
-object_mobile_gcw_rebel_turret = object_mobile_shared_gcw_rebel_turret:new {}ObjectTemplates:addTemplate(object_mobile_gcw_rebel_turret, "object/mobile/gcw_rebel_turret.iff")

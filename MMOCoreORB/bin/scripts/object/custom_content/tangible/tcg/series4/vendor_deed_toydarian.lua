@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series4_vendor_deed_toydarian = object_tangible_tcg_series4_shared_vendor_deed_toydarian:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series4_vendor_deed_toydarian, "object/tangible/tcg/series4/vendor_deed_toydarian.iff")

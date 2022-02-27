@@ -1,5 +1,0 @@
-object_tangible_wearables_backpack_wearable_backpack_recon = object_tangible_wearables_backpack_shared_wearable_backpack_recon:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_wearables_backpack_wearable_backpack_recon, "object/tangible/wearables/backpack/wearable_backpack_recon.iff")

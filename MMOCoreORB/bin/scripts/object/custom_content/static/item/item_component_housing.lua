@@ -1,1 +1,0 @@
-object_static_item_item_component_housing = object_static_item_shared_item_component_housing:new {}ObjectTemplates:addTemplate(object_static_item_item_component_housing, "object/static/item/item_component_housing.iff")

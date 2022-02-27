@@ -1,1 +1,0 @@
-object_mobile_nym_themepark_rei_reeven = object_mobile_shared_nym_themepark_rei_reeven:new {}ObjectTemplates:addTemplate(object_mobile_nym_themepark_rei_reeven, "object/mobile/nym_themepark_rei_reeven.iff")

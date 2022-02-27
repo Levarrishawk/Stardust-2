@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_armor_tantel_boots = object_draft_schem
    customObjectName = "Tantel Armor Boots",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 30, 
    size = 3, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_armor", 
    xp = 180, 

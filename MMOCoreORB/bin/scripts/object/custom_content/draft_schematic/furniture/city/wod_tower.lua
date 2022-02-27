@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_city_wod_tower = object_draft_schematic_furniture_city_shared_wod_tower:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_city_wod_tower, "object/draft_schematic/furniture/city/wod_tower.iff")

@@ -1,1 +1,0 @@
-object_static_item_item_hoth_hand_radio = object_static_item_shared_item_hoth_hand_radio:new {}ObjectTemplates:addTemplate(object_static_item_item_hoth_hand_radio, "object/static/item/item_hoth_hand_radio.iff")

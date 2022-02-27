@@ -1,5 +1,0 @@
-
-object_tangible_collection_rebel_assault_gloves = object_tangible_collection_shared_rebel_assault_gloves:new {
-
-gameObjectType = 8211,}
-ObjectTemplates:addTemplate(object_tangible_collection_rebel_assault_gloves, "object/tangible/collection/rebel_assault_gloves.iff")

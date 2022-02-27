@@ -48,9 +48,10 @@ object_draft_schematic_clothing_component_clothing_fiberplast_panel = object_dra
 	customObjectName = "Fiberplast Panel",
 
 	craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 5,
 	size = 2,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 50,
+	factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
 	xpType = "crafting_general",
 	xp = 20,

@@ -48,9 +48,10 @@ object_draft_schematic_weapon_lance_nightsister = object_draft_schematic_weapon_
    customObjectName = "Nightsister Energy Lance Schematic",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 35, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_weapon.iff",
+   
    xpType = "crafting_weapons_general", 
    xp = 250, 
 

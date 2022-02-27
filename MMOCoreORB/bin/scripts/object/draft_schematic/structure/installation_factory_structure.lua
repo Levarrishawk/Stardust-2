@@ -48,10 +48,11 @@ object_draft_schematic_structure_installation_factory_structure = object_draft_s
 	customObjectName = "Deed for: Structure Factory",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 18,
 	size = 16,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 1,
+	factoryCrateType = "object/factory/factory_crate_installation.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 1900,
 

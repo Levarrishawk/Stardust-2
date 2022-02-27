@@ -1,1 +1,0 @@
-object_static_worldbuilding_camping_frn_all_glow_light_s1 = object_static_worldbuilding_camping_shared_frn_all_glow_light_s1:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_camping_frn_all_glow_light_s1, "object/static/worldbuilding/camping/frn_all_glow_light_s1.iff")

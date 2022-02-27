@@ -1,1 +1,0 @@
-object_static_worldbuilding_camping_eqp_camping_chair_s2 = object_static_worldbuilding_camping_shared_eqp_camping_chair_s2:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_camping_eqp_camping_chair_s2, "object/static/worldbuilding/camping/eqp_camping_chair_s2.iff")

@@ -1,5 +1,0 @@
-object_mobile_dressed_rebel_general_rieekan_01 = object_mobile_shared_dressed_rebel_general_rieekan_01:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_dressed_rebel_general_rieekan_01, "object/mobile/dressed_rebel_general_rieekan_01.iff")

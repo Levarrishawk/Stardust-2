@@ -48,12 +48,13 @@ object_draft_schematic_chemistry_medpack_enhance_health_a = object_draft_schemat
 	customObjectName = "Enhance Health Medpack - A",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 22,
 	size = 3,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 50,
+	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
-	xp = 260,
+	xp = 60,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

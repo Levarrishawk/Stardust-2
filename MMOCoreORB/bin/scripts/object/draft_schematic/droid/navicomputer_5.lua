@@ -48,9 +48,10 @@ object_draft_schematic_droid_navicomputer_5 = object_draft_schematic_droid_share
 	customObjectName = "v5 Flight Computer",
 
 	craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 23,
 	size = 1,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 10,
+	factoryCrateType = "object/factory/factory_crate_electronics.iff",
 
 	xpType = "crafting_droid_general",
 	xp = 190,

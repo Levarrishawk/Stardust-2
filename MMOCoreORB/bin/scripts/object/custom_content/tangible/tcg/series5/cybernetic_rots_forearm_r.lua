@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series5_cybernetic_rots_forearm_r = object_tangible_tcg_series5_shared_cybernetic_rots_forearm_r:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series5_cybernetic_rots_forearm_r, "object/tangible/tcg/series5/cybernetic_rots_forearm_r.iff")

@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_trader_mun_stand_base = object_tangible_loot_creature_loot_collections_shared_trader_mun_stand_base:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_trader_mun_stand_base, "object/tangible/loot/creature/loot/collections/trader_mun_stand_base.iff")

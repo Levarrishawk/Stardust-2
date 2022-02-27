@@ -1,1 +1,0 @@
-object_mobile_iran_ryad = object_mobile_shared_iran_ryad:new {}ObjectTemplates:addTemplate(object_mobile_iran_ryad, "object/mobile/iran_ryad.iff")

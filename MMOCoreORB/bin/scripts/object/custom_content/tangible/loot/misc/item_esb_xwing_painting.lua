@@ -1,5 +1,0 @@
-object_tangible_loot_misc_item_esb_xwing_painting = object_tangible_loot_misc_shared_item_esb_xwing_painting:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_misc_item_esb_xwing_painting, "object/tangible/loot/misc/item_esb_xwing_painting.iff")

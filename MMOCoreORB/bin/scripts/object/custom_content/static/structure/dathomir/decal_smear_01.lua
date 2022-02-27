@@ -1,1 +1,0 @@
-object_static_structure_dathomir_decal_smear_01 = object_static_structure_dathomir_shared_decal_smear_01:new {}ObjectTemplates:addTemplate(object_static_structure_dathomir_decal_smear_01, "object/static/structure/dathomir/decal_smear_01.iff")

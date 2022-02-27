@@ -1,1 +1,0 @@
-object_static_structure_general_empty_pallet = object_static_structure_general_shared_empty_pallet:new {}ObjectTemplates:addTemplate(object_static_structure_general_empty_pallet, "object/static/structure/general/empty_pallet.iff")

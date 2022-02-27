@@ -59,7 +59,7 @@ object_tangible_food_spice_spice_yarrock = object_tangible_food_spice_shared_spi
 	quantityMin = 0,
 	quantityMax = 0,
 
-	modifiers = { "action" , 200 },
+	modifiers = { "mind" , 200, "focus" , 100, "willpower", 100 },
 
 	buffName = "yarrock",
 	buffCRC = 0,

@@ -1,5 +1,0 @@
-object_tangible_item_skillmod_skillmod_wod_sm_banner_s03 = object_tangible_item_skillmod_shared_skillmod_wod_sm_banner_s03:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_item_skillmod_skillmod_wod_sm_banner_s03, "object/tangible/item/skillmod/skillmod_wod_sm_banner_s03.iff")

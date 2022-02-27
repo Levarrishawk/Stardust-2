@@ -1,1 +1,0 @@
-object_static_structure_content_exar_kun_dirt_mound = object_static_structure_content_shared_exar_kun_dirt_mound:new {}ObjectTemplates:addTemplate(object_static_structure_content_exar_kun_dirt_mound, "object/static/structure/content/exar_kun_dirt_mound.iff")

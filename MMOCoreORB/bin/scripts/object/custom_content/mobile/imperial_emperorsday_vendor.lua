@@ -1,5 +1,0 @@
-object_mobile_imperial_emperorsday_vendor = object_mobile_shared_imperial_emperorsday_vendor:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_imperial_emperorsday_vendor, "object/mobile/imperial_emperorsday_vendor.iff")

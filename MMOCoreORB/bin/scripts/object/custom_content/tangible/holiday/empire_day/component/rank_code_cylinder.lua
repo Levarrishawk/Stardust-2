@@ -1,5 +1,0 @@
-object_tangible_holiday_empire_day_component_rank_code_cylinder = object_tangible_holiday_empire_day_component_shared_rank_code_cylinder:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_component_rank_code_cylinder, "object/tangible/holiday/empire_day/component/rank_code_cylinder.iff")

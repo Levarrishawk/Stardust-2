@@ -1,5 +1,0 @@
-object_mobile_coa_aclo_saboteur_zabrak_f = object_mobile_shared_coa_aclo_saboteur_zabrak_f:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_coa_aclo_saboteur_zabrak_f, "object/mobile/coa_aclo_saboteur_zabrak_f.iff")

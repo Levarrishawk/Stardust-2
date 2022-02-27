@@ -1,5 +1,0 @@
-object_tangible_loot_npc_loot_generator_device_generic = object_tangible_loot_npc_loot_shared_generator_device_generic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_generator_device_generic, "object/tangible/loot/npc/loot/generator_device_generic.iff")

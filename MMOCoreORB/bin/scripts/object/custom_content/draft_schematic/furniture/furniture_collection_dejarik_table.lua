@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_furniture_collection_dejarik_table = object_draft_schematic_furniture_shared_furniture_collection_dejarik_table:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_collection_dejarik_table, "object/draft_schematic/furniture/furniture_collection_dejarik_table.iff")

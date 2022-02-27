@@ -1,4 +1,0 @@
-object_building_endor_endor_catwalk_cap = object_building_endor_shared_endor_catwalk_cap:new {
-
-}
-ObjectTemplates:addTemplate(object_building_endor_endor_catwalk_cap, "object/building/endor/endor_catwalk_cap.iff")

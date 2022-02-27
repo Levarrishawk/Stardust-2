@@ -1,5 +1,0 @@
-object_static_christmas_shared_swgemu_christmas_tree_02 = SharedStaticObjectTemplate:new {
-	clientTemplateFileName = "object/static/christmas/shared_swgemu_christmas_tree_02.iff"
-}
-ObjectTemplates:addClientTemplate(object_static_christmas_shared_swgemu_christmas_tree_02, "object/static/christmas/shared_swgemu_christmas_tree_02.iff")
-

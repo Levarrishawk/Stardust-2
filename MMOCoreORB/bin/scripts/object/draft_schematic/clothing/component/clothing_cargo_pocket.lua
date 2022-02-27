@@ -48,8 +48,9 @@ object_draft_schematic_clothing_component_clothing_cargo_pocket = object_draft_s
    customObjectName = "Cargo Pocket",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 10, 
    size = 2, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 55, 

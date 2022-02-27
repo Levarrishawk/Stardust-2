@@ -1,5 +1,0 @@
-object_tangible_loot_generic_usable_jedi_relic_01_generic = object_tangible_loot_generic_usable_shared_jedi_relic_01_generic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_generic_usable_jedi_relic_01_generic, "object/tangible/loot/generic/usable/jedi_relic_01_generic.iff")

@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series7_garage_display_vehicles_senate_pod = object_tangible_tcg_series7_garage_display_vehicles_shared_senate_pod:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_senate_pod, "object/tangible/tcg/series7/garage_display_vehicles/senate_pod.iff")

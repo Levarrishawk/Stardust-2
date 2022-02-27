@@ -1,5 +1,0 @@
-object_tangible_holiday_empire_day_component_dh17_cartridge_valves = object_tangible_holiday_empire_day_component_shared_dh17_cartridge_valves:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_component_dh17_cartridge_valves, "object/tangible/holiday/empire_day/component/dh17_cartridge_valves.iff")

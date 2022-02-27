@@ -1,1 +1,0 @@
-object_static_worldbuilding_vegitation_ptch_weedclump = object_static_worldbuilding_vegitation_shared_ptch_weedclump:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_vegitation_ptch_weedclump, "object/static/worldbuilding/vegitation/ptch_weedclump.iff")

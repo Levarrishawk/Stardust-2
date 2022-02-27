@@ -1,5 +1,0 @@
-object_tangible_furniture_technical_sd_console_s01 = object_tangible_furniture_technical_shared_sd_console_s01:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_technical_sd_console_s01, "object/tangible/furniture/technical/sd_console_s01.iff")

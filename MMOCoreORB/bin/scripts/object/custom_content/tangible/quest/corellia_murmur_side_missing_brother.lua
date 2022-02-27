@@ -1,5 +1,0 @@
-object_tangible_quest_corellia_murmur_side_missing_brother = object_tangible_quest_shared_corellia_murmur_side_missing_brother:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_corellia_murmur_side_missing_brother, "object/tangible/quest/corellia_murmur_side_missing_brother.iff")

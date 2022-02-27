@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_armor_bone_chest = object_draft_schemat
    customObjectName = "Bone Armor Chest Plate",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 17, 
    size = 3, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_general", 
    xp = 490, 

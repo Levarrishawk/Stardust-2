@@ -1,5 +1,0 @@
-object_tangible_holiday_empire_day_component_ration_non_nutritive_preservative = object_tangible_holiday_empire_day_component_shared_ration_non_nutritive_preservative:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_component_ration_non_nutritive_preservative, "object/tangible/holiday/empire_day/component/ration_non_nutritive_preservative.iff")

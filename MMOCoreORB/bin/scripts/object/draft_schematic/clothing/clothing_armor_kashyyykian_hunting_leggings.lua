@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_armor_kashyyykian_hunting_leggings = ob
    customObjectName = "Kashyyykian Hunting Leggings",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 45, 
    size = 4, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_armor", 
    xp = 550, 
@@ -65,7 +66,7 @@ object_draft_schematic_clothing_clothing_armor_kashyyykian_hunting_leggings = ob
    ingredientTemplateNames = {"craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n"},
    ingredientTitleNames = {"auxilary_coverage", "body", "liner", "hardware_and_attachments", "binding_and_reinforcement", "padding", "armor", "load_bearing_harness", "reinforcement"},
    ingredientSlotType = {0, 0, 0, 0, 0, 1, 1, 1, 0},
-   resourceTypes = {"softwood", "hide_leathery", "hide_wooly", "copper_mythra", "petrochem_inert_polymer", "object/tangible/component/clothing/shared_padding_segment.iff", "object/tangible/component/armor/shared_armor_segment_kashyyykian_hunting.iff", "object/tangible/component/clothing/shared_synthetic_cloth.iff", "fiberplast"},
+   resourceTypes = {"softwood_evergreen_dathomir", "hide_leathery_lok", "hide_wooly_tatooine", "copper_mythra", "petrochem_inert_polymer", "object/tangible/component/clothing/shared_padding_segment.iff", "object/tangible/component/armor/shared_armor_segment_kashyyykian_hunting.iff", "object/tangible/component/clothing/shared_synthetic_cloth.iff", "fiberplast_naboo"},
    resourceQuantities = {70, 70, 60, 30, 30, 4, 3, 1, 40},
    contribution = {100, 100, 100, 100, 100, 100, 100, 100, 100},
 

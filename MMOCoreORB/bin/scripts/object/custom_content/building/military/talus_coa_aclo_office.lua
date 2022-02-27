@@ -1,3 +1,0 @@
-object_building_military_talus_coa_aclo_office = object_building_military_shared_talus_coa_aclo_office:new {
-}
-ObjectTemplates:addTemplate(object_building_military_talus_coa_aclo_office, "object/building/military/talus_coa_aclo_office.iff")

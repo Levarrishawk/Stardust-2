@@ -1,5 +1,0 @@
-object_tangible_furniture_house_cleanup_cts_tempest_box_unrestricted = object_tangible_furniture_house_cleanup_shared_cts_tempest_box_unrestricted:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_house_cleanup_cts_tempest_box_unrestricted, "object/tangible/furniture/house_cleanup/cts_tempest_box_unrestricted.iff")

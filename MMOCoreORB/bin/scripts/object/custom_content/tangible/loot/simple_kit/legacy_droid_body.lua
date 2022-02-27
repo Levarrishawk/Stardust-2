@@ -1,5 +1,0 @@
-object_tangible_loot_simple_kit_legacy_droid_body = object_tangible_loot_simple_kit_shared_legacy_droid_body:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_simple_kit_legacy_droid_body, "object/tangible/loot/simple/kit/legacy_droid_body.iff")

@@ -1,5 +1,0 @@
-object_tangible_quest_col_jedi_robi_light_jedi_controller = object_tangible_quest_shared_col_jedi_robi_light_jedi_controller:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_col_jedi_robi_light_jedi_controller, "object/tangible/quest/col_jedi_robi_light_jedi_controller.iff")

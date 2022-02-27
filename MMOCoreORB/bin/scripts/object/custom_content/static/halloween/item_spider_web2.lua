@@ -1,1 +1,0 @@
-object_static_halloween_item_spider_web2 = object_static_halloween_shared_item_spider_web2:new {}ObjectTemplates:addTemplate(object_static_halloween_item_spider_web2, "object/static/halloween/item_spider_web2.iff")

@@ -43,8 +43,6 @@
 
 object_tangible_wearables_armor_ubese_armor_ubese_shirt = object_tangible_wearables_armor_ubese_shared_armor_ubese_shirt:new {
 	templateType = ARMOROBJECT,
-	
-	objectMenuComponent = "ArmorObjectMenuComponent", 
 
 	playerRaces = { "object/creature/player/bothan_male.iff",
 				"object/creature/player/bothan_female.iff",
@@ -90,14 +88,12 @@ object_tangible_wearables_armor_ubese_armor_ubese_shirt = object_tangible_wearab
 				"object/mobile/vendor/zabrak_male.iff" },
 
 	-- Damage types in WeaponObject
-	vulnerability = STUN,
-
-  specialResists = KINETIC,
+	vulnerability = HEAT + COLD + STUN + LIGHTSABER,
 
 	-- These are default Blue Frog stats
-	healthEncumbrance = 0,
-	actionEncumbrance = 0,
-	mindEncumbrance = 0,
+	healthEncumbrance = 1,
+	actionEncumbrance = 1,
+	mindEncumbrance = 1,
 
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,

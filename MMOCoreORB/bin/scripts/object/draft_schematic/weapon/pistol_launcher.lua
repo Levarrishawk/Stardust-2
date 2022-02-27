@@ -48,9 +48,10 @@ object_draft_schematic_weapon_pistol_launcher = object_draft_schematic_weapon_sh
    customObjectName = "Launcher Pistol",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 22, 
    size = 3, 
-
+   factoryCrateType = "object/factory/factory_crate_weapon.iff",
+   
    xpType = "crafting_weapons_general", 
    xp = 200, 
 

@@ -48,8 +48,9 @@ object_draft_schematic_bio_engineer_bio_component_bio_component_food_medium_fill
    customObjectName = "Caloric Conversion Supplement",
 
    craftingToolTab = 128, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 22, 
    size = 1, 
+   factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
    xpType = "crafting_bio_engineer_creature", 
    xp = 200, 

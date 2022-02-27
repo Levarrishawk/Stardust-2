@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series5_hangar_ships_bwing = object_tangible_tcg_series5_hangar_ships_shared_bwing:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series5_hangar_ships_bwing, "object/tangible/tcg/series5/hangar_ships/bwing.iff")

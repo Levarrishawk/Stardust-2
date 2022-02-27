@@ -48,9 +48,10 @@ object_draft_schematic_droid_droid_r4_advanced = object_draft_schematic_droid_sh
 	customObjectName = "Deed for: R4 Droid, Advanced Model",
 
 	craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 25,
 	size = 1,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 5,
+	factoryCrateType = "object/factory/factory_crate_electronics.iff",
 
 	xpType = "crafting_droid_general",
 	xp = 100,

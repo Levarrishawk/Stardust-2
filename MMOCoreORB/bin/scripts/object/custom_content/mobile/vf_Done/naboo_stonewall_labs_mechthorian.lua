@@ -1,1 +1,0 @@
-object_mobile_naboo_stonewall_labs_mechthorian = object_mobile_shared_naboo_stonewall_labs_mechthorian:new {}ObjectTemplates:addTemplate(object_mobile_naboo_stonewall_labs_mechthorian, "object/mobile/naboo_stonewall_labs_mechthorian.iff")

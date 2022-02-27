@@ -1,1 +1,0 @@
-object_static_structure_military_military_rebel_clone_tent_small = object_static_structure_military_shared_military_rebel_clone_tent_small:new {}ObjectTemplates:addTemplate(object_static_structure_military_military_rebel_clone_tent_small, "object/static/structure/military/military_rebel_clone_tent_small.iff")

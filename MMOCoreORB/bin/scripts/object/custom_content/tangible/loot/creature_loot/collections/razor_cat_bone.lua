@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_razor_cat_bone = object_tangible_loot_creature_loot_collections_shared_razor_cat_bone:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_razor_cat_bone, "object/tangible/loot/creature/loot/collections/razor_cat_bone.iff")

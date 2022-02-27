@@ -201,5 +201,3 @@ includeFile("intangible/pet/womp_rat_hue.lua")
 includeFile("intangible/pet/woolamander_hue.lua")
 includeFile("intangible/pet/worrt_hue.lua")
 includeFile("intangible/pet/zucca_boar_hue.lua")
---new pets
-includeFile("intangible/pet/ysalamiri_hue.lua")

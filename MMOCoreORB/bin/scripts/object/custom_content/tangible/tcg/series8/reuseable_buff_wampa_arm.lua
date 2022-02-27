@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series8_reuseable_buff_wampa_arm = object_tangible_tcg_series8_shared_reuseable_buff_wampa_arm:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series8_reuseable_buff_wampa_arm, "object/tangible/tcg/series8/reuseable_buff_wampa_arm.iff")

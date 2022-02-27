@@ -61,7 +61,7 @@ object_tangible_food_crafted_drink_mandalorian_wine = object_tangible_food_craft
 	quantityMin = 1,
 	quantityMax = 6,
 
-	modifiers = { "constitution", 0, "stamina", 0, "action", 0 },
+	modifiers = { "constitution", 0, "stamina", 0, "willpower", 0 },
 
 	buffName = "food.drink_mandalorian_wine",
 	buffCRC = 0,

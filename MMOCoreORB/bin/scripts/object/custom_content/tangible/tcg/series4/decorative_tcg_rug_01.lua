@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series4_decorative_tcg_rug_01 = object_tangible_tcg_series4_shared_decorative_tcg_rug_01:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series4_decorative_tcg_rug_01, "object/tangible/tcg/series4/decorative_tcg_rug_01.iff")

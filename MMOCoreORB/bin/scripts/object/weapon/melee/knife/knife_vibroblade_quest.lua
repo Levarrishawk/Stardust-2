@@ -68,7 +68,7 @@ object_weapon_melee_knife_knife_vibroblade_quest = object_weapon_melee_knife_sha
 	-- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
 	attackType = MELEEATTACK,
 	
-	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, FORCE, LIGHTSABER
+	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, LIGHTSABER
 	damageType = KINETIC,
 	
 	-- NONE, LIGHT, MEDIUM, HEAVY
@@ -96,13 +96,13 @@ object_weapon_melee_knife_knife_vibroblade_quest = object_weapon_melee_knife_sha
 	speedModifiers = { "onehandmelee_speed" },
 	
 	-- Leave blank for now
-	damageModifiers = { "frenzy" },
+	damageModifiers = { },
 	       
 	
 	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 0,
-	actionAttackCost = 300,
-	mindAttackCost = 0,
+	healthAttackCost = 5,
+	actionAttackCost = 15,
+	mindAttackCost = 5,
 	forceCost = 0,
 	
 	pointBlankAccuracy = 5,
@@ -114,10 +114,10 @@ object_weapon_melee_knife_knife_vibroblade_quest = object_weapon_melee_knife_sha
 	maxRange = 4,
 	maxRangeAccuracy = 5,
 
-	minDamage = 115,
-	maxDamage = 290,
+	minDamage = 15,
+	maxDamage = 90,
 	
-	attackSpeed = 1,
+	attackSpeed = 3.2,
 
 	woundsRatio = 8
 

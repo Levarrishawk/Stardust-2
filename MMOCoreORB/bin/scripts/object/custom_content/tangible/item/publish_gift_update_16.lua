@@ -1,5 +1,0 @@
-object_tangible_item_publish_gift_update_16 = object_tangible_item_shared_publish_gift_update_16:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_item_publish_gift_update_16, "object/tangible/item/publish_gift_update_16.iff")

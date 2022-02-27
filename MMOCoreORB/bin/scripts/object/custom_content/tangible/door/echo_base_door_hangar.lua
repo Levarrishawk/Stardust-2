@@ -1,3 +1,0 @@
-object_tangible_door_echo_base_door_hangar = object_tangible_door_shared_echo_base_door_hangar:new {
-}
-ObjectTemplates:addTemplate(object_tangible_door_echo_base_door_hangar, "object/tangible/door/echo_base_door_hangar.iff")

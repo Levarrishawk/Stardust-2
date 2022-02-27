@@ -1,1 +1,0 @@
-object_tangible_furniture_ep3_rewards_avatar_hologram_squid = object_tangible_furniture_ep3_rewards_shared_avatar_hologram_squid:new {}ObjectTemplates:addTemplate(object_tangible_furniture_ep3_rewards_avatar_hologram_squid, "object/tangible/furniture/ep3_rewards/avatar_hologram_squid.iff")

@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_ith_shirt_formal_02 = object_draft_sche
    customObjectName = "Ithorian Frilly Shirt",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 16, 
    size = 4, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 60, 

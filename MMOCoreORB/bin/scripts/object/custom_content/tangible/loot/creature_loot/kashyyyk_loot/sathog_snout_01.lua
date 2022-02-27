@@ -1,5 +1,0 @@
-
-object_tangible_loot_creature_loot_kashyyyk_loot_sathog_snout_01 = object_tangible_loot_creature_loot_kashyyyk_loot_shared_sathog_snout_01:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_sathog_snout_01, "object/tangible/loot/creature_loot/kashyyyk_loot/sathog_snout_01.iff")

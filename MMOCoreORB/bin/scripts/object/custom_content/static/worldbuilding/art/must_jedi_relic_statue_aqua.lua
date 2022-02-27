@@ -1,1 +1,0 @@
-object_static_worldbuilding_art_must_jedi_relic_statue_aqua = object_static_worldbuilding_art_shared_must_jedi_relic_statue_aqua:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_art_must_jedi_relic_statue_aqua, "object/static/worldbuilding/art/must_jedi_relic_statue_aqua.iff")

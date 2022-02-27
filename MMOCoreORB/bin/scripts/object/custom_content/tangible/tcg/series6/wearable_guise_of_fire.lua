@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series6_wearable_guise_of_fire = object_tangible_tcg_series6_shared_wearable_guise_of_fire:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series6_wearable_guise_of_fire, "object/tangible/tcg/series6/wearable_guise_of_fire.iff")

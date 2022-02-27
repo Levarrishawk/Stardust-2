@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_backdrop_image_01 = object_tangible_loot_creature_loot_collections_shared_backdrop_image_01:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_backdrop_image_01, "object/tangible/loot/creature/loot/collections/backdrop_image_01.iff")

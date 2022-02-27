@@ -60,7 +60,7 @@ object_tangible_food_foraged_edible_jar_fungus = object_tangible_food_foraged_sh
 	quantityMin = 0,
 	quantityMax = 0,
 	
-	modifiers = { "health", 50 },
+	modifiers = { "health", 50, "mind", 100 },
 
 	buffName = "jar_fungus",
 	buffCRC = 0,

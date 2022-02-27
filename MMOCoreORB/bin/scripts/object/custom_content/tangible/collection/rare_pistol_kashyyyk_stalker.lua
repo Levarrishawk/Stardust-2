@@ -1,5 +1,0 @@
-
-object_tangible_collection_rare_pistol_kashyyyk_stalker = object_tangible_collection_shared_rare_pistol_kashyyyk_stalker:new {
-
-gameObjectType = 8211,}
-ObjectTemplates:addTemplate(object_tangible_collection_rare_pistol_kashyyyk_stalker, "object/tangible/collection/rare_pistol_kashyyyk_stalker.iff")

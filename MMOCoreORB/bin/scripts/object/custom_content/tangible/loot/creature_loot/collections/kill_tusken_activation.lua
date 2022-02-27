@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_kill_tusken_activation = object_tangible_loot_creature_loot_collections_shared_kill_tusken_activation:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_kill_tusken_activation, "object/tangible/loot/creature/loot/collections/kill_tusken_activation.iff")

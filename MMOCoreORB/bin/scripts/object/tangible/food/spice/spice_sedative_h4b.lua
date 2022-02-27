@@ -59,7 +59,7 @@ object_tangible_food_spice_spice_sedative_h4b = object_tangible_food_spice_share
 	quantityMin = 0,
 	quantityMax = 0,
 
-	modifiers = { "health" , 400, "constitution" , 300 },
+	modifiers = { "health" , 400, "constitution" , 300, "mind", -100, "focus", -100 },
 
 	buffName = "sedative_h4b",
 	buffCRC = 0,

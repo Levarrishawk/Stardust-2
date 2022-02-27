@@ -1,5 +1,0 @@
-object_tangible_holiday_empire_day_component_carrier_torque_sensor = object_tangible_holiday_empire_day_component_shared_carrier_torque_sensor:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_component_carrier_torque_sensor, "object/tangible/holiday/empire_day/component/carrier_torque_sensor.iff")

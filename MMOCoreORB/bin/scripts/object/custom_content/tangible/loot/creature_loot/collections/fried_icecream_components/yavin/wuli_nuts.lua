@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_fried_icecream_components_yavin_wuli_nuts = object_tangible_loot_creature_loot_collections_fried_icecream_components_yavin_shared_wuli_nuts:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_yavin_wuli_nuts, "object/tangible/loot/creature/loot/collections/fried/icecream/components/yavin/wuli_nuts.iff")

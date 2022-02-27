@@ -1,5 +1,0 @@
-object_tangible_collection_reward_buddy_painting_03 = object_tangible_collection_reward_shared_buddy_painting_03:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_collection_reward_buddy_painting_03, "object/tangible/collection/reward/buddy_painting_03.iff")

@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_imp_t1_shock_trooper = object_tangible_loot_creature_loot_collections_shared_imp_t1_shock_trooper:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_imp_t1_shock_trooper, "object/tangible/loot/creature/loot/collections/imp_t1_shock_trooper.iff")

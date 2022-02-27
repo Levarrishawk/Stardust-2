@@ -48,11 +48,12 @@ object_draft_schematic_food_dish_kanali_wafers = object_draft_schematic_food_sha
    customObjectName = "Kanali Wafers",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 4, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_food.iff",
+   
    xpType = "crafting_general", 
-   xp = 150, 
+   xp = 80, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

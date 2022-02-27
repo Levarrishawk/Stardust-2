@@ -1,5 +1,0 @@
-object_mobile_dressed_imperial_restuss_trooper_leader = object_mobile_shared_dressed_imperial_restuss_trooper_leader:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_dressed_imperial_restuss_trooper_leader, "object/mobile/dressed_imperial_restuss_trooper_leader.iff")

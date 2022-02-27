@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_treasure_hunter_sith_mask = object_tangible_loot_creature_loot_collections_shared_treasure_hunter_sith_mask:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_treasure_hunter_sith_mask, "object/tangible/loot/creature/loot/collections/treasure_hunter_sith_mask.iff")

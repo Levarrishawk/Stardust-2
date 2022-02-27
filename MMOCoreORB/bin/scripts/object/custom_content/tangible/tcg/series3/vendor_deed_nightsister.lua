@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series3_vendor_deed_nightsister = object_tangible_tcg_series3_shared_vendor_deed_nightsister:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series3_vendor_deed_nightsister, "object/tangible/tcg/series3/vendor_deed_nightsister.iff")

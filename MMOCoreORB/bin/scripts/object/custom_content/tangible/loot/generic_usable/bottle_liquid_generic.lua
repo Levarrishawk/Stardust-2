@@ -1,5 +1,0 @@
-object_tangible_loot_generic_usable_bottle_liquid_generic = object_tangible_loot_generic_usable_shared_bottle_liquid_generic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_generic_usable_bottle_liquid_generic, "object/tangible/loot/generic/usable/bottle_liquid_generic.iff")

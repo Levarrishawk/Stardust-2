@@ -1,5 +1,0 @@
-object_mobile_meatlump_f_01_nonvendor_vendor = object_mobile_shared_meatlump_f_01_nonvendor_vendor:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_meatlump_f_01_nonvendor_vendor, "object/mobile/meatlump_f_01_nonvendor_vendor.iff")

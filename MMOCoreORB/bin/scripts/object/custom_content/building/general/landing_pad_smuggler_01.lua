@@ -1,3 +1,0 @@
-object_building_general_landing_pad_smuggler_01 = object_building_general_shared_landing_pad_smuggler_01:new {
-}
-ObjectTemplates:addTemplate(object_building_general_landing_pad_smuggler_01, "object/building/general/landing_pad_smuggler_01.iff")

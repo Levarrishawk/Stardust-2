@@ -1,5 +1,0 @@
-object_mobile_dressed_echo_base_darth_vader = object_mobile_shared_dressed_echo_base_darth_vader:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_dressed_echo_base_darth_vader, "object/mobile/dressed_echo_base_darth_vader.iff")

@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series1_consumable_keelkana_tooth = object_tangible_tcg_series1_shared_consumable_keelkana_tooth:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series1_consumable_keelkana_tooth, "object/tangible/tcg/series1/consumable_keelkana_tooth.iff")

@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series5_house_sign_tcg_hanging = object_tangible_tcg_series5_shared_house_sign_tcg_hanging:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series5_house_sign_tcg_hanging, "object/tangible/tcg/series5/house_sign_tcg_hanging.iff")

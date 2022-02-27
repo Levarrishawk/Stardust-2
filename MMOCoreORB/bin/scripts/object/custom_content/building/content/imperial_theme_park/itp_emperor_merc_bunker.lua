@@ -1,3 +1,0 @@
-object_building_content_imperial_theme_park_itp_emperor_merc_bunker = object_building_content_imperial_theme_park_shared_itp_emperor_merc_bunker:new {
-}
-ObjectTemplates:addTemplate(object_building_content_imperial_theme_park_itp_emperor_merc_bunker, "object/building/content/imperial_theme_park/itp_emperor_merc_bunker.iff")

@@ -1,5 +1,0 @@
-object_tangible_furniture_technical_guild_screen_cartridge_reb_2 = object_tangible_furniture_technical_shared_guild_screen_cartridge_reb_2:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_technical_guild_screen_cartridge_reb_2, "object/tangible/furniture/technical/guild_screen_cartridge_reb_2.iff")

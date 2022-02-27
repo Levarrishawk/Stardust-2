@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_furniture_structure_customization_kit = object_draft_schematic_furniture_shared_furniture_structure_customization_kit:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_structure_customization_kit, "object/draft_schematic/furniture/furniture_structure_customization_kit.iff")

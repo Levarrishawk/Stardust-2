@@ -48,9 +48,10 @@ object_draft_schematic_droid_droid_surgical_advanced = object_draft_schematic_dr
 	customObjectName = "Deed for: Surgical Droid, Advanced Model",
 
 	craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 40,
 	size = 1,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 5,
+	factoryCrateType = "object/factory/factory_crate_electronics.iff",
 
 	xpType = "crafting_droid_general",
 	xp = 560,

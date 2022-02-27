@@ -1,1 +1,0 @@
-object_static_structure_content_meatlump_meatlump_lump_currency = object_static_structure_content_meatlump_shared_meatlump_lump_currency:new {}ObjectTemplates:addTemplate(object_static_structure_content_meatlump_meatlump_lump_currency, "object/static/structure/content/meatlump/meatlump_lump_currency.iff")

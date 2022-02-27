@@ -1,5 +1,0 @@
-object_tangible_item_beast_converted_langlatch_decoration = object_tangible_item_beast_shared_converted_langlatch_decoration:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_item_beast_converted_langlatch_decoration, "object/tangible/item/beast/converted_langlatch_decoration.iff")

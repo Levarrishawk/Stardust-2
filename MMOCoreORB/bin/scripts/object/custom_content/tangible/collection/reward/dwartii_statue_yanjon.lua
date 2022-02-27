@@ -1,5 +1,0 @@
-object_tangible_collection_reward_dwartii_statue_yanjon = object_tangible_collection_reward_shared_dwartii_statue_yanjon:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_collection_reward_dwartii_statue_yanjon, "object/tangible/collection/reward/dwartii_statue_yanjon.iff")

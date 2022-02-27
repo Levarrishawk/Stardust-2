@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_jacket_casual_18 = object_draft_schemat
    customObjectName = "Reinforced Pullover",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 22, 
    size = 2, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 270, 

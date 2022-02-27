@@ -1,5 +1,0 @@
-object_tangible_loot_beast_beast_steroid_horse_lizard = object_tangible_loot_beast_shared_beast_steroid_horse_lizard:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_beast_beast_steroid_horse_lizard, "object/tangible/loot/beast/beast_steroid_horse_lizard.iff")

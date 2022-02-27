@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series5_decorative_deathstar_hologram = object_tangible_tcg_series5_shared_decorative_deathstar_hologram:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series5_decorative_deathstar_hologram, "object/tangible/tcg/series5/decorative_deathstar_hologram.iff")

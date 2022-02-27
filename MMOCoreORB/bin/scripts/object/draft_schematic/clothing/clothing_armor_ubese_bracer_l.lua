@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_armor_ubese_bracer_l = object_draft_sch
    customObjectName = "Ubese Armor Left Bracer",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 35, 
    size = 4, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_armor", 
    xp = 270, 

@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_smoke_powder_01 = object_tangible_loot_creature_loot_collections_shared_smoke_powder_01:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_smoke_powder_01, "object/tangible/loot/creature/loot/collections/smoke_powder_01.iff")

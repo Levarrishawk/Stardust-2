@@ -1,5 +1,0 @@
-object_mobile_dressed_stormtrooper_fat_m = object_mobile_shared_dressed_stormtrooper_fat_m:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_dressed_stormtrooper_fat_m, "object/mobile/dressed_stormtrooper_fat_m.iff")

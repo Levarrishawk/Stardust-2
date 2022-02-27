@@ -1,5 +1,0 @@
-object_tangible_collection_reward_rock_glowing_reward = object_tangible_collection_reward_shared_rock_glowing_reward:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_collection_reward_rock_glowing_reward, "object/tangible/collection/reward/rock_glowing_reward.iff")

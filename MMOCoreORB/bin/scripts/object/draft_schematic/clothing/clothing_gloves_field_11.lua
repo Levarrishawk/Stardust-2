@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_gloves_field_11 = object_draft_schemati
    customObjectName = "Workman\'s Gloves",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 15, 
    size = 2, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 165, 

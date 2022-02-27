@@ -1,5 +1,0 @@
-object_tangible_furniture_decorative_hologram_nebulon_frigate = object_tangible_furniture_decorative_shared_hologram_nebulon_frigate:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_decorative_hologram_nebulon_frigate, "object/tangible/furniture/decorative/hologram_nebulon_frigate.iff")

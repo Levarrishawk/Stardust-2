@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_boots_casual_04 = object_draft_schemati
    customObjectName = "Hide Boots",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 7, 
    size = 3, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_general", 
    xp = 90, 

@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_fried_icecream_components_endor_gin_jang_berry = object_tangible_loot_creature_loot_collections_fried_icecream_components_endor_shared_gin_jang_berry:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_endor_gin_jang_berry, "object/tangible/loot/creature/loot/collections/fried/icecream/components/endor/gin_jang_berry.iff")

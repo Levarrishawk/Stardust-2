@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_fried_icecream_components_dantooine_shefna_fruit = object_tangible_loot_creature_loot_collections_fried_icecream_components_dantooine_shared_shefna_fruit:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_dantooine_shefna_fruit, "object/tangible/loot/creature/loot/collections/fried/icecream/components/dantooine/shefna_fruit.iff")

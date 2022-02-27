@@ -1,5 +1,0 @@
-
-object_tangible_collection_rare_melee_nyenthioris = object_tangible_collection_shared_rare_melee_nyenthioris:new {
-
-gameObjectType = 8211,}
-ObjectTemplates:addTemplate(object_tangible_collection_rare_melee_nyenthioris, "object/tangible/collection/rare_melee_nyenthioris.iff")

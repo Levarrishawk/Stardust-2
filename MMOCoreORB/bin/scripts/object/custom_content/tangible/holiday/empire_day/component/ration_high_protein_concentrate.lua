@@ -1,5 +1,0 @@
-object_tangible_holiday_empire_day_component_ration_high_protein_concentrate = object_tangible_holiday_empire_day_component_shared_ration_high_protein_concentrate:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_component_ration_high_protein_concentrate, "object/tangible/holiday/empire_day/component/ration_high_protein_concentrate.iff")

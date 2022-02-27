@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_generic_heart_s02 = object_tangible_loot_creature_loot_generic_shared_heart_s02:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_generic_heart_s02, "object/tangible/loot/creature/loot/generic/heart_s02.iff")

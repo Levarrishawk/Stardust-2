@@ -1,1 +1,0 @@
-object_static_worldbuilding_furniture_item_avenge_family_book = object_static_worldbuilding_furniture_shared_item_avenge_family_book:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_furniture_item_avenge_family_book, "object/static/worldbuilding/furniture/item_avenge_family_book.iff")

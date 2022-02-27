@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_reb_t1_battle_trooper = object_tangible_loot_creature_loot_collections_shared_reb_t1_battle_trooper:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_reb_t1_battle_trooper, "object/tangible/loot/creature/loot/collections/reb_t1_battle_trooper.iff")

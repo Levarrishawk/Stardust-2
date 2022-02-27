@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_armor_kashyyykian_ceremonial_bracer_r =
    customObjectName = "Kashyyykian Ceremonial Right Bracer",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 25, 
    size = 1, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_armor", 
    xp = 180, 

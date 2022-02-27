@@ -1,1 +1,0 @@
-object_building_mustafar_terrain_must_bridge_rock_sml = object_building_mustafar_terrain_shared_must_bridge_rock_sml:new {}ObjectTemplates:addTemplate(object_building_mustafar_terrain_must_bridge_rock_sml, "object/building/mustafar/terrain/must_bridge_rock_sml.iff")

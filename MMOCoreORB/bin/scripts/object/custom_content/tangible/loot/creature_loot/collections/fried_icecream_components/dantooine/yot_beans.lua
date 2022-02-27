@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_fried_icecream_components_dantooine_yot_beans = object_tangible_loot_creature_loot_collections_fried_icecream_components_dantooine_shared_yot_beans:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_dantooine_yot_beans, "object/tangible/loot/creature/loot/collections/fried/icecream/components/dantooine/yot_beans.iff")

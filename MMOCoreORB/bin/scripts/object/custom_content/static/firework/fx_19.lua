@@ -1,1 +1,0 @@
-object_static_firework_fx_19 = object_static_firework_shared_fx_19:new {}ObjectTemplates:addTemplate(object_static_firework_fx_19, "object/static/firework/fx_19.iff")

@@ -1,5 +1,0 @@
-object_tangible_quest_outbreak_lower_level_command_console = object_tangible_quest_outbreak_shared_lower_level_command_console:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_outbreak_lower_level_command_console, "object/tangible/quest/outbreak/lower_level_command_console.iff")

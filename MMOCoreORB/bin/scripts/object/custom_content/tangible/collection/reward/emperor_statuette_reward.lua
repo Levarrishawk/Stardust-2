@@ -1,5 +1,0 @@
-object_tangible_collection_reward_emperor_statuette_reward = object_tangible_collection_reward_shared_emperor_statuette_reward:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_collection_reward_emperor_statuette_reward, "object/tangible/collection/reward/emperor_statuette_reward.iff")

@@ -1,5 +1,0 @@
-object_tangible_loot_loot_schematic_portable_bazaar_terminal_schematic = object_tangible_loot_loot_schematic_shared_portable_bazaar_terminal_schematic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_loot_schematic_portable_bazaar_terminal_schematic, "object/tangible/loot/loot/schematic/portable_bazaar_terminal_schematic.iff")

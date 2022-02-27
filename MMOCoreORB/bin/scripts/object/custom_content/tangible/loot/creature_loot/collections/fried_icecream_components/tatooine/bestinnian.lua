@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_fried_icecream_components_tatooine_bestinnian = object_tangible_loot_creature_loot_collections_fried_icecream_components_tatooine_shared_bestinnian:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_tatooine_bestinnian, "object/tangible/loot/creature/loot/collections/fried/icecream/components/tatooine/bestinnian.iff")

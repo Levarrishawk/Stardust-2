@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_furniture_statue_gungan_statue_s03 = object_draft_schematic_furniture_shared_furniture_statue_gungan_statue_s03:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_statue_gungan_statue_s03, "object/draft_schematic/furniture/furniture_statue_gungan_statue_s03.iff")

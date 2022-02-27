@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_armor_bone_leggings = object_draft_sche
    customObjectName = "Bone Armor Leggings",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 16, 
    size = 3, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_general", 
    xp = 260, 

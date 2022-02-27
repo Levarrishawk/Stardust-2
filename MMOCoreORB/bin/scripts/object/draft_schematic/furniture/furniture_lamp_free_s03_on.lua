@@ -48,10 +48,11 @@ object_draft_schematic_furniture_furniture_lamp_free_s03_on = object_draft_schem
 	customObjectName = "Free-standing Lamp \'Tallbirch\'",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 18,
 	size = 1,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 10,
+	factoryCrateType = "object/factory/factory_crate_furniture.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 250,
 

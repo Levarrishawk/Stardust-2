@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series5_hangar_ships_vt49_decimator = object_tangible_tcg_series5_hangar_ships_shared_vt49_decimator:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series5_hangar_ships_vt49_decimator, "object/tangible/tcg/series5/hangar_ships/vt49_decimator.iff")

@@ -1,5 +1,0 @@
-object_tangible_loot_npc_loot_heroic_exar_brazier = object_tangible_loot_npc_loot_shared_heroic_exar_brazier:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_heroic_exar_brazier, "object/tangible/loot/npc/loot/heroic_exar_brazier.iff")

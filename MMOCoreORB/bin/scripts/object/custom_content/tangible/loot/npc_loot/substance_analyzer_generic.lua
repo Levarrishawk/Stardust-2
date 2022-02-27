@@ -1,5 +1,0 @@
-object_tangible_loot_npc_loot_substance_analyzer_generic = object_tangible_loot_npc_loot_shared_substance_analyzer_generic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_substance_analyzer_generic, "object/tangible/loot/npc/loot/substance_analyzer_generic.iff")

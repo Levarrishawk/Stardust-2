@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_generic_jaw_bone = object_tangible_loot_creature_loot_generic_shared_jaw_bone:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_generic_jaw_bone, "object/tangible/loot/creature/loot/generic/jaw_bone.iff")

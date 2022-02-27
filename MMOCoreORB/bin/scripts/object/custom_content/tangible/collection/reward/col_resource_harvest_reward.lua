@@ -1,5 +1,0 @@
-object_tangible_collection_reward_col_resource_harvest_reward = object_tangible_collection_reward_shared_col_resource_harvest_reward:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_collection_reward_col_resource_harvest_reward, "object/tangible/collection/reward/col_resource_harvest_reward.iff")

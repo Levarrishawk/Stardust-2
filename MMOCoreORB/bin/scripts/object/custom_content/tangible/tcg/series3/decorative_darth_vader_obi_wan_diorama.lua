@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series3_decorative_darth_vader_obi_wan_diorama = object_tangible_tcg_series3_shared_decorative_darth_vader_obi_wan_diorama:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series3_decorative_darth_vader_obi_wan_diorama, "object/tangible/tcg/series3/decorative_darth_vader_obi_wan_diorama.iff")

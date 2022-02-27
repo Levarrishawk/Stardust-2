@@ -49,7 +49,7 @@ object_tangible_component_chemistry_resilience_compound_advanced = object_tangib
 	experimentalGroupTitles = {"null", "null", "null", "null", "null", "null", "expEaseOfUse", "exp_effectiveness", "null"},
 	experimentalSubGroupTitles = {"null", "null", "power", "charges", "area", "range", "potency", "duration", "hitpoints"},
 	experimentalMin = {0, 0, 0, 0, 0, 0, 10, 5, 1000},
-	experimentalMax = {0, 0, 0, 0, 0, 0, 100, 15, 1000},
+	experimentalMax = {0, 0, 0, 0, 0, 0, 100, 180, 1000},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 4},
 }

@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_tusken_hubba_gourd = object_tangible_loot_creature_loot_collections_shared_tusken_hubba_gourd:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_tusken_hubba_gourd, "object/tangible/loot/creature/loot/collections/tusken_hubba_gourd.iff")

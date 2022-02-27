@@ -1,1 +1,0 @@
-object_mobile_urnsoris_assassin = object_mobile_shared_urnsoris_assassin:new {}ObjectTemplates:addTemplate(object_mobile_urnsoris_assassin, "object/mobile/urnsoris_assassin.iff")

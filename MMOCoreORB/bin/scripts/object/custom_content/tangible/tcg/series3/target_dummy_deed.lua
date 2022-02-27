@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series3_target_dummy_deed = object_tangible_tcg_series3_shared_target_dummy_deed:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series3_target_dummy_deed, "object/tangible/tcg/series3/target_dummy_deed.iff")

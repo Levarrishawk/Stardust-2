@@ -40,13 +40,9 @@
 --gives permission to release a modified version without this exception; 
 --this exception also makes it possible to release a modified version 
 
+
 object_tangible_loot_loot_schematic_table_coffee_modern_schematic = object_tangible_loot_loot_schematic_shared_table_coffee_modern_schematic:new {
-  templateType = LOOTSCHEMATIC,
-  objectMenuComponent = "LootSchematicMenuComponent",
-  attributeListComponent = "LootSchematicAttributeListComponent",
-  requiredSkill = "crafting_architect_production_04",
-  targetDraftSchematic = "object/draft_schematic/furniture/furniture_table_coffee_modern_02.iff",
-  targetUseCount = 30,
+
 }
 
 ObjectTemplates:addTemplate(object_tangible_loot_loot_schematic_table_coffee_modern_schematic, "object/tangible/loot/loot_schematic/table_coffee_modern_schematic.iff")

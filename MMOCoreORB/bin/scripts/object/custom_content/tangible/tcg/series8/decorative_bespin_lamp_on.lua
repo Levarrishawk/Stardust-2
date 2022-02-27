@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series8_decorative_bespin_lamp_on = object_tangible_tcg_series8_shared_decorative_bespin_lamp_on:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series8_decorative_bespin_lamp_on, "object/tangible/tcg/series8/decorative_bespin_lamp_on.iff")

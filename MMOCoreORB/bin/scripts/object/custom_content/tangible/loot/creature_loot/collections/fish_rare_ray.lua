@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_fish_rare_ray = object_tangible_loot_creature_loot_collections_shared_fish_rare_ray:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fish_rare_ray, "object/tangible/loot/creature/loot/collections/fish_rare_ray.iff")

@@ -1,5 +1,0 @@
-object_tangible_loot_misc_heroic_exar_kun_torture_table = object_tangible_loot_misc_shared_heroic_exar_kun_torture_table:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_misc_heroic_exar_kun_torture_table, "object/tangible/loot/misc/heroic_exar_kun_torture_table.iff")

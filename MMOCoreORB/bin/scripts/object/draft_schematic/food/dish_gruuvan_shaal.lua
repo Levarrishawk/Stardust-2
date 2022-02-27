@@ -48,11 +48,12 @@ object_draft_schematic_food_dish_gruuvan_shaal = object_draft_schematic_food_sha
    customObjectName = "Gruuvan Shaal",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 10, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_food.iff",
+   
    xpType = "crafting_food_general", 
-   xp = 500, 
+   xp = 200, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

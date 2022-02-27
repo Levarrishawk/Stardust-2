@@ -1,1 +1,0 @@
-object_static_structure_dathomir_static_zombie_hand = object_static_structure_dathomir_shared_static_zombie_hand:new {}ObjectTemplates:addTemplate(object_static_structure_dathomir_static_zombie_hand, "object/static/structure/dathomir/static_zombie_hand.iff")

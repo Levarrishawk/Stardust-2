@@ -1,1 +1,0 @@
-object_static_structure_nobuild_noflora_5 = object_static_structure_nobuild_shared_noflora_5:new {}ObjectTemplates:addTemplate(object_static_structure_nobuild_noflora_5, "object/static/structure/nobuild/noflora_5.iff")

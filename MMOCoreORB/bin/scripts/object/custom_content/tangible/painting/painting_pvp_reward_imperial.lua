@@ -1,3 +1,0 @@
-object_tangible_painting_painting_pvp_reward_imperial = object_tangible_painting_shared_painting_pvp_reward_imperial:new {
-}
-ObjectTemplates:addTemplate(object_tangible_painting_painting_pvp_reward_imperial, "object/tangible/painting/painting_pvp_reward_imperial.iff")

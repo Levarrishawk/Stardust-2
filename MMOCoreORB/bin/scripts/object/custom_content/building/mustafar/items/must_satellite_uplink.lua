@@ -1,1 +1,0 @@
-object_building_mustafar_items_must_satellite_uplink = object_building_mustafar_items_shared_must_satellite_uplink:new {}ObjectTemplates:addTemplate(object_building_mustafar_items_must_satellite_uplink, "object/building/mustafar/items/must_satellite_uplink.iff")

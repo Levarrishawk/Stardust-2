@@ -1,1 +1,0 @@
-object_building_mustafar_dungeon_mining_tunnel_01_must_mining_tunnel_01 = object_building_mustafar_dungeon_mining_tunnel_01_shared_must_mining_tunnel_01:new {}ObjectTemplates:addTemplate(object_building_mustafar_dungeon_mining_tunnel_01_must_mining_tunnel_01, "object/building/mustafar/dungeon/mining_tunnel_01/must_mining_tunnel_01.iff")

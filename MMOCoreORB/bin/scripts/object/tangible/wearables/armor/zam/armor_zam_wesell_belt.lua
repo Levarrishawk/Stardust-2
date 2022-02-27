@@ -43,8 +43,6 @@
 
 object_tangible_wearables_armor_zam_armor_zam_wesell_belt = object_tangible_wearables_armor_zam_shared_armor_zam_wesell_belt:new {
 	templateType = ARMOROBJECT,
-	
-	objectMenuComponent = "ArmorObjectMenuComponent", 
 
 	playerRaces = { "object/creature/player/bothan_male.iff",
 				"object/creature/player/bothan_female.iff",
@@ -98,7 +96,7 @@ object_tangible_wearables_armor_zam_armor_zam_wesell_belt = object_tangible_wear
 				"object/mobile/vendor/zabrak_male.iff" },
 
 	-- Damage types in WeaponObject
-	vulnerability = NONE,
+	vulnerability = ACID + ENERGY + STUN + LIGHTSABER,
 
 	-- These are default Blue Frog stats
 	healthEncumbrance = 1,

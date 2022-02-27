@@ -1,5 +1,0 @@
-object_tangible_furniture_decorative_community_painting_2009_imp = object_tangible_furniture_decorative_shared_community_painting_2009_imp:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_decorative_community_painting_2009_imp, "object/tangible/furniture/decorative/community_painting_2009_imp.iff")

@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series7_armor_kit_composite_camo = object_tangible_tcg_series7_shared_armor_kit_composite_camo:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series7_armor_kit_composite_camo, "object/tangible/tcg/series7/armor_kit_composite_camo.iff")

@@ -1,1 +1,0 @@
-object_mobile_naboo_lt_khartoor = object_mobile_shared_naboo_lt_khartoor:new {}ObjectTemplates:addTemplate(object_mobile_naboo_lt_khartoor, "object/mobile/naboo_lt_khartoor.iff")

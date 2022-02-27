@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series1_decorative_fish_tank = object_tangible_tcg_series1_shared_decorative_fish_tank:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series1_decorative_fish_tank, "object/tangible/tcg/series1/decorative_fish_tank.iff")

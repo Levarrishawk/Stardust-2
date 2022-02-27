@@ -1,5 +1,0 @@
-object_tangible_holiday_empire_day_imperial_second_lieutenant_rank_crate = object_tangible_holiday_empire_day_shared_imperial_second_lieutenant_rank_crate:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_imperial_second_lieutenant_rank_crate, "object/tangible/holiday/empire_day/imperial_second_lieutenant_rank_crate.iff")

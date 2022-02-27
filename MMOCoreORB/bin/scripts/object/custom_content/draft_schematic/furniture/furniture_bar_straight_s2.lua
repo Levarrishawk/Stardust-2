@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_furniture_bar_straight_s2 = object_draft_schematic_furniture_shared_furniture_bar_straight_s2:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_bar_straight_s2, "object/draft_schematic/furniture/furniture_bar_straight_s2.iff")

@@ -1,5 +1,0 @@
-object_tangible_quest_corellia_corellia_38_mayor_terminal = object_tangible_quest_corellia_shared_corellia_38_mayor_terminal:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_corellia_corellia_38_mayor_terminal, "object/tangible/quest/corellia/corellia_38_mayor_terminal.iff")

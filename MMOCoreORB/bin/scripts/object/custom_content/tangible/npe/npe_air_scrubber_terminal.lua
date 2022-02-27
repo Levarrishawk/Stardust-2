@@ -1,5 +1,0 @@
-object_tangible_npe_npe_air_scrubber_terminal = object_tangible_npe_shared_npe_air_scrubber_terminal:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_npe_npe_air_scrubber_terminal, "object/tangible/npe/npe_air_scrubber_terminal.iff")

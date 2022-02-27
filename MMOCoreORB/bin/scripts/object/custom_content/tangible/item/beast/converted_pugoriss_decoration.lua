@@ -1,5 +1,0 @@
-object_tangible_item_beast_converted_pugoriss_decoration = object_tangible_item_beast_shared_converted_pugoriss_decoration:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_item_beast_converted_pugoriss_decoration, "object/tangible/item/beast/converted_pugoriss_decoration.iff")

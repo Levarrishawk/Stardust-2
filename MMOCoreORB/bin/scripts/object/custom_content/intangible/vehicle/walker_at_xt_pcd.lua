@@ -1,5 +1,0 @@
-
-object_intangible_vehicle_walker_at_xt_pcd = object_intangible_vehicle_shared_walker_at_xt_pcd:new {
-
-}
-ObjectTemplates:addTemplate(object_intangible_vehicle_walker_at_xt_pcd, "object/intangible/vehicle/walker_at_xt_pcd.iff")

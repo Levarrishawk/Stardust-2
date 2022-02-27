@@ -1,5 +1,0 @@
-object_tangible_furniture_lifeday_lifeday_mini_tree = object_tangible_furniture_lifeday_shared_lifeday_mini_tree:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_lifeday_lifeday_mini_tree, "object/tangible/furniture/lifeday/lifeday_mini_tree.iff")

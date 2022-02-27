@@ -1,5 +1,0 @@
-object_tangible_furniture_all_frn_all_statuette_small_naboo_house = object_tangible_furniture_all_shared_frn_all_statuette_small_naboo_house:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_all_statuette_small_naboo_house, "object/tangible/furniture/all/frn_all_statuette_small_naboo_house.iff")

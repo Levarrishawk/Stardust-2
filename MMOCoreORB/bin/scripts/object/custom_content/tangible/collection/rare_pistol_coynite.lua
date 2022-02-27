@@ -1,5 +1,0 @@
-
-object_tangible_collection_rare_pistol_coynite = object_tangible_collection_shared_rare_pistol_coynite:new {
-
-gameObjectType = 8211,}
-ObjectTemplates:addTemplate(object_tangible_collection_rare_pistol_coynite, "object/tangible/collection/rare_pistol_coynite.iff")

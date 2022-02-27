@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_furniture_stage_smoke = object_draft_schematic_furniture_shared_furniture_stage_smoke:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_stage_smoke, "object/draft_schematic/furniture/furniture_stage_smoke.iff")

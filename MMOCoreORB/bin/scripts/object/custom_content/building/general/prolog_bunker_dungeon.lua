@@ -1,3 +1,0 @@
-object_building_general_prolog_bunker_dungeon = object_building_general_shared_prolog_bunker_dungeon:new {
-}
-ObjectTemplates:addTemplate(object_building_general_prolog_bunker_dungeon, "object/building/general/prolog_bunker_dungeon.iff")

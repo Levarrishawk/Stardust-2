@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_generic_alien_brain = object_tangible_loot_creature_loot_generic_shared_alien_brain:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_generic_alien_brain, "object/tangible/loot/creature/loot/generic/alien_brain.iff")

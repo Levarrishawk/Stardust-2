@@ -1,1 +1,0 @@
-object_static_item_wp_mine_drx55 = object_static_item_shared_wp_mine_drx55:new {}ObjectTemplates:addTemplate(object_static_item_wp_mine_drx55, "object/static/item/wp_mine_drx55.iff")

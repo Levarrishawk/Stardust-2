@@ -1,1 +1,0 @@
-object_mobile_soontir_fel = object_mobile_shared_soontir_fel:new {}ObjectTemplates:addTemplate(object_mobile_soontir_fel, "object/mobile/soontir_fel.iff")

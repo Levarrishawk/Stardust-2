@@ -1,1 +1,0 @@
-object_mobile_atxt_toy = object_mobile_shared_atxt_toy:new {}ObjectTemplates:addTemplate(object_mobile_atxt_toy, "object/mobile/atxt_toy.iff")

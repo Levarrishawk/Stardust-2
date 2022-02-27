@@ -1,1 +1,0 @@
-object_static_structure_content_exar_kun_scaffolding_02 = object_static_structure_content_shared_exar_kun_scaffolding_02:new {}ObjectTemplates:addTemplate(object_static_structure_content_exar_kun_scaffolding_02, "object/static/structure/content/exar_kun_scaffolding_02.iff")

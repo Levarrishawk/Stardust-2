@@ -1,5 +1,0 @@
-object_tangible_collection_reward_luxum_crystal_reward = object_tangible_collection_reward_shared_luxum_crystal_reward:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_collection_reward_luxum_crystal_reward, "object/tangible/collection/reward/luxum_crystal_reward.iff")

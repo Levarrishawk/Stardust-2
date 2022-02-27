@@ -48,11 +48,12 @@ object_draft_schematic_food_dessert_blob_candy = object_draft_schematic_food_sha
    customObjectName = "Blob Candy",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 3, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_food.iff",
+   
    xpType = "crafting_general", 
-   xp = 50, 
+   xp = 10, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

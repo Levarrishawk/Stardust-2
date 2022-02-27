@@ -48,12 +48,13 @@ object_draft_schematic_chemistry_med_stimpack_state_stunned_a = object_draft_sch
 	customObjectName = "Stun State Stimpack - A",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 20,
 	size = 3,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 50,
+	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
-	xp = 210,
+	xp = 45,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

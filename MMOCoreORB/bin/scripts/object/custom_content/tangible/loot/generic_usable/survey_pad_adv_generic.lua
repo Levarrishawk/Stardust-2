@@ -1,5 +1,0 @@
-object_tangible_loot_generic_usable_survey_pad_adv_generic = object_tangible_loot_generic_usable_shared_survey_pad_adv_generic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_generic_usable_survey_pad_adv_generic, "object/tangible/loot/generic/usable/survey_pad_adv_generic.iff")

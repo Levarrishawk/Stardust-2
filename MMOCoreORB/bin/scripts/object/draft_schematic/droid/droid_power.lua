@@ -48,9 +48,10 @@ object_draft_schematic_droid_droid_power = object_draft_schematic_droid_shared_d
 	customObjectName = "Deed for: Power Droid",
 
 	craftingToolTab = 32, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 18,
 	size = 3,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 5,
+	factoryCrateType = "object/factory/factory_crate_electronics.iff",
 
 	xpType = "crafting_droid_general",
 	xp = 300,

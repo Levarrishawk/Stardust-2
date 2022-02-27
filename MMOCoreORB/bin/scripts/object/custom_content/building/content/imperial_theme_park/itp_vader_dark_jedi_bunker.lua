@@ -1,3 +1,0 @@
-object_building_content_imperial_theme_park_itp_vader_dark_jedi_bunker = object_building_content_imperial_theme_park_shared_itp_vader_dark_jedi_bunker:new {
-}
-ObjectTemplates:addTemplate(object_building_content_imperial_theme_park_itp_vader_dark_jedi_bunker, "object/building/content/imperial_theme_park/itp_vader_dark_jedi_bunker.iff")

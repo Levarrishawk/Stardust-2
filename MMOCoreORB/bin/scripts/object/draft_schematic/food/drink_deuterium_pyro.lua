@@ -48,11 +48,12 @@ object_draft_schematic_food_drink_deuterium_pyro = object_draft_schematic_food_s
    customObjectName = "Deuterium-pyro",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 12, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_food.iff",
+   
    xpType = "crafting_food_general", 
-   xp = 300, 
+   xp = 120, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

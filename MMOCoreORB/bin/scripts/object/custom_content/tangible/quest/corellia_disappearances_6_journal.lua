@@ -1,5 +1,0 @@
-object_tangible_quest_corellia_disappearances_6_journal = object_tangible_quest_shared_corellia_disappearances_6_journal:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_corellia_disappearances_6_journal, "object/tangible/quest/corellia_disappearances_6_journal.iff")

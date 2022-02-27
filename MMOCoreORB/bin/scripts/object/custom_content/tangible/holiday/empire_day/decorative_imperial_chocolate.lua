@@ -1,5 +1,0 @@
-object_tangible_holiday_empire_day_decorative_imperial_chocolate = object_tangible_holiday_empire_day_shared_decorative_imperial_chocolate:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_decorative_imperial_chocolate, "object/tangible/holiday/empire_day/decorative_imperial_chocolate.iff")

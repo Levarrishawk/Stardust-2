@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series1_house_capacity_beru_whitesuns_cookbook = object_tangible_tcg_series1_shared_house_capacity_beru_whitesuns_cookbook:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series1_house_capacity_beru_whitesuns_cookbook, "object/tangible/tcg/series1/house_capacity_beru_whitesuns_cookbook.iff")

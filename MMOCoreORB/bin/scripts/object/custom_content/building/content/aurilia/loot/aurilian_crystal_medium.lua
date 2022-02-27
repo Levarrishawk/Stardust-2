@@ -1,5 +1,0 @@
-object_building_content_aurilia_loot_aurilian_crystal_medium = object_building_content_aurilia_loot_shared_aurilian_crystal_medium:new {
-
-}
-
-ObjectTemplates:addTemplate(object_building_content_aurilia_loot_aurilian_crystal_medium, "object/building/content/aurilia/loot/aurilian_crystal_medium.iff")

@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_fish_dathomir_burra = object_tangible_loot_creature_loot_collections_shared_fish_dathomir_burra:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fish_dathomir_burra, "object/tangible/loot/creature/loot/collections/fish_dathomir_burra.iff")

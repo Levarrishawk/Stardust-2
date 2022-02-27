@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series5_decorative_theater_poster = object_tangible_tcg_series5_shared_decorative_theater_poster:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series5_decorative_theater_poster, "object/tangible/tcg/series5/decorative_theater_poster.iff")

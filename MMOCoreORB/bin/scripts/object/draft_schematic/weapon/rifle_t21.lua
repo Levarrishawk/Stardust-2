@@ -48,9 +48,10 @@ object_draft_schematic_weapon_rifle_t21 = object_draft_schematic_weapon_shared_r
    customObjectName = "T21 Rifle",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 30, 
    size = 4, 
-
+   factoryCrateType = "object/factory/factory_crate_weapon.iff",
+   
    xpType = "crafting_weapons_general", 
    xp = 650, 
 

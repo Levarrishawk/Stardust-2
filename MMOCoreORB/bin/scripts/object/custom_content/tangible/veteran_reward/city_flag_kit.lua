@@ -1,3 +1,0 @@
-object_tangible_veteran_reward_city_flag_kit = object_tangible_veteran_reward_shared_city_flag_kit:new {
-}
-ObjectTemplates:addTemplate(object_tangible_veteran_reward_city_flag_kit, "object/tangible/veteran_reward/city_flag_kit.iff")

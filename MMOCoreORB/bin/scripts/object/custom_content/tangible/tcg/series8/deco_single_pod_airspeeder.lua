@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series8_deco_single_pod_airspeeder = object_tangible_tcg_series8_shared_deco_single_pod_airspeeder:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series8_deco_single_pod_airspeeder, "object/tangible/tcg/series8/deco_single_pod_airspeeder.iff")

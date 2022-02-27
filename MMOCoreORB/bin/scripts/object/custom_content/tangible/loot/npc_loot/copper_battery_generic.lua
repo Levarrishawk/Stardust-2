@@ -1,5 +1,0 @@
-object_tangible_loot_npc_loot_copper_battery_generic = object_tangible_loot_npc_loot_shared_copper_battery_generic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_copper_battery_generic, "object/tangible/loot/npc/loot/copper_battery_generic.iff")

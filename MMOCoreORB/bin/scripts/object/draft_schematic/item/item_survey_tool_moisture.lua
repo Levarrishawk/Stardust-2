@@ -48,9 +48,10 @@ object_draft_schematic_item_item_survey_tool_moisture = object_draft_schematic_i
    customObjectName = "Water Survey Device",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 7, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_electronics.iff",
+   
    xpType = "crafting_general", 
    xp = 55, 
 

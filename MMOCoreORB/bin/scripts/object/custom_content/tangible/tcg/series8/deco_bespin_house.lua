@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series8_deco_bespin_house = object_tangible_tcg_series8_shared_deco_bespin_house:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series8_deco_bespin_house, "object/tangible/tcg/series8/deco_bespin_house.iff")

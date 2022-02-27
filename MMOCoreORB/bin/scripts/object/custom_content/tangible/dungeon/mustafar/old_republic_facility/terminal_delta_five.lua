@@ -1,3 +1,0 @@
-object_tangible_dungeon_mustafar_old_republic_facility_terminal_delta_five = object_tangible_dungeon_mustafar_old_republic_facility_shared_terminal_delta_five:new {
-}
-ObjectTemplates:addTemplate(object_tangible_dungeon_mustafar_old_republic_facility_terminal_delta_five, "object/tangible/dungeon/mustafar/old_republic_facility/terminal_delta_five.iff")

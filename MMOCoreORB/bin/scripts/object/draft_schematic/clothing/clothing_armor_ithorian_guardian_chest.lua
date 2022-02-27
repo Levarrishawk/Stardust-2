@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_armor_ithorian_guardian_chest = object_
    customObjectName = "Ithorian Guardian Chest Plate",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 25, 
    size = 3, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_armor", 
    xp = 320, 

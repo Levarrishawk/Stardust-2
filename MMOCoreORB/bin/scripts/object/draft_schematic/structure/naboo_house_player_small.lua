@@ -48,10 +48,11 @@ object_draft_schematic_structure_naboo_house_player_small = object_draft_schemat
 	customObjectName = "Deed for: Small Naboo House",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 13,
 	size = 10,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 1,
+	factoryCrateType = "object/factory/factory_crate_installation.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 1000,
 

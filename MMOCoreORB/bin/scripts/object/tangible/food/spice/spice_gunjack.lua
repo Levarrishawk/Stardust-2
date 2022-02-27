@@ -59,7 +59,7 @@ object_tangible_food_spice_spice_gunjack = object_tangible_food_spice_shared_spi
 	quantityMin = 0,
 	quantityMax = 0,
 
-	modifiers = { "action", 500, "health" , -200, },
+	modifiers = { "strength", 500, "quickness" , -200, "focus", -100 },
 
 	buffName = "gunjack",
 	buffCRC = 0,

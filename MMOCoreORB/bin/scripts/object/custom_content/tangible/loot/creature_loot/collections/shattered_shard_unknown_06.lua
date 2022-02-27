@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_shattered_shard_unknown_06 = object_tangible_loot_creature_loot_collections_shared_shattered_shard_unknown_06:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_shattered_shard_unknown_06, "object/tangible/loot/creature/loot/collections/shattered_shard_unknown_06.iff")

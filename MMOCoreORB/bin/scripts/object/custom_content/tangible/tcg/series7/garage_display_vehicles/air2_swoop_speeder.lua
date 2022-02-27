@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series7_garage_display_vehicles_air2_swoop_speeder = object_tangible_tcg_series7_garage_display_vehicles_shared_air2_swoop_speeder:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_air2_swoop_speeder, "object/tangible/tcg/series7/garage_display_vehicles/air2_swoop_speeder.iff")

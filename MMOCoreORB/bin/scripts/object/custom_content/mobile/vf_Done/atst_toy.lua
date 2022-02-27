@@ -1,1 +1,0 @@
-object_mobile_atst_toy = object_mobile_shared_atst_toy:new {}ObjectTemplates:addTemplate(object_mobile_atst_toy, "object/mobile/atst_toy.iff")

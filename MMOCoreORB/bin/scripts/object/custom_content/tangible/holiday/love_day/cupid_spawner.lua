@@ -1,5 +1,0 @@
-object_tangible_holiday_love_day_cupid_spawner = object_tangible_holiday_love_day_shared_cupid_spawner:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_love_day_cupid_spawner, "object/tangible/holiday/love_day/cupid_spawner.iff")

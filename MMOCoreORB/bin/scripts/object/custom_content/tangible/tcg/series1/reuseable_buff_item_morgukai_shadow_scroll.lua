@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series1_reuseable_buff_item_morgukai_shadow_scroll = object_tangible_tcg_series1_shared_reuseable_buff_item_morgukai_shadow_scroll:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series1_reuseable_buff_item_morgukai_shadow_scroll, "object/tangible/tcg/series1/reuseable_buff_item_morgukai_shadow_scroll.iff")

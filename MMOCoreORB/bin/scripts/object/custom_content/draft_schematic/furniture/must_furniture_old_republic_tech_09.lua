@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_must_furniture_old_republic_tech_09 = object_draft_schematic_furniture_shared_must_furniture_old_republic_tech_09:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_must_furniture_old_republic_tech_09, "object/draft_schematic/furniture/must_furniture_old_republic_tech_09.iff")

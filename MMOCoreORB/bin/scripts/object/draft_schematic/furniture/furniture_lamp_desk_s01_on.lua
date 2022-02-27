@@ -48,10 +48,11 @@ object_draft_schematic_furniture_furniture_lamp_desk_s01_on = object_draft_schem
 	customObjectName = "Desk Lamp \'Bantha\'",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 20,
 	size = 1,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 10,
+	factoryCrateType = "object/factory/factory_crate_furniture.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 110,
 

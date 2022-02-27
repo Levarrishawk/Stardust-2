@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series7_familiar_deed_hutt_fighter = object_tangible_tcg_series7_shared_familiar_deed_hutt_fighter:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series7_familiar_deed_hutt_fighter, "object/tangible/tcg/series7/familiar_deed_hutt_fighter.iff")

@@ -1,1 +1,0 @@
-object_static_vehicle_static_speeder_sorob_lars = object_static_vehicle_shared_static_speeder_sorob_lars:new {}ObjectTemplates:addTemplate(object_static_vehicle_static_speeder_sorob_lars, "object/static/vehicle/static_speeder_sorob_lars.iff")

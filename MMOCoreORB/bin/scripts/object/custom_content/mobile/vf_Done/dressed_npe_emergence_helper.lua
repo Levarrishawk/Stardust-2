@@ -1,3 +1,0 @@
-object_mobile_dressed_npe_emergence_helper = object_mobile_shared_dressed_npe_emergence_helper:new {
-}
-ObjectTemplates:addTemplate(object_mobile_dressed_npe_emergence_helper, "object/mobile/dressed_npe_emergence_helper.iff")

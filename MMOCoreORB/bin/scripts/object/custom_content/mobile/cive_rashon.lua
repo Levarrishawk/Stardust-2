@@ -1,1 +1,0 @@
-object_mobile_cive_rashon = object_mobile_shared_cive_rashon:new {}ObjectTemplates:addTemplate(object_mobile_cive_rashon, "object/mobile/cive_rashon.iff")

@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_eow_hutt_transponder = object_tangible_loot_creature_loot_collections_shared_eow_hutt_transponder:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_eow_hutt_transponder, "object/tangible/loot/creature/loot/collections/eow_hutt_transponder.iff")

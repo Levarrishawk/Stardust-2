@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_rancor_entrails = object_tangible_loot_creature_loot_collections_shared_rancor_entrails:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_rancor_entrails, "object/tangible/loot/creature/loot/collections/rancor_entrails.iff")

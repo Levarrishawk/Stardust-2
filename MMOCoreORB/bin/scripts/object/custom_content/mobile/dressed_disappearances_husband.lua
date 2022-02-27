@@ -1,1 +1,0 @@
-object_mobile_dressed_disappearances_husband = object_mobile_shared_dressed_disappearances_husband:new {}ObjectTemplates:addTemplate(object_mobile_dressed_disappearances_husband, "object/mobile/dressed_disappearances_husband.iff")

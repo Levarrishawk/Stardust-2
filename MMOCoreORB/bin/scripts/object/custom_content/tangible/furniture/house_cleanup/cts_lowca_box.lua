@@ -1,5 +1,0 @@
-object_tangible_furniture_house_cleanup_cts_lowca_box = object_tangible_furniture_house_cleanup_shared_cts_lowca_box:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_house_cleanup_cts_lowca_box, "object/tangible/furniture/house_cleanup/cts_lowca_box.iff")

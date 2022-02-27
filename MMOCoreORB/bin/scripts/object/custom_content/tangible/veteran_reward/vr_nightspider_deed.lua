@@ -1,3 +1,0 @@
-object_tangible_veteran_reward_vr_nightspider_deed = object_tangible_veteran_reward_shared_vr_nightspider_deed:new {
-}
-ObjectTemplates:addTemplate(object_tangible_veteran_reward_vr_nightspider_deed, "object/tangible/veteran_reward/vr_nightspider_deed.iff")

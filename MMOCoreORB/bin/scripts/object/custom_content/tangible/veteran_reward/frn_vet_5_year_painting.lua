@@ -1,3 +1,0 @@
-object_tangible_veteran_reward_frn_vet_5_year_painting = object_tangible_veteran_reward_shared_frn_vet_5_year_painting:new {
-}
-ObjectTemplates:addTemplate(object_tangible_veteran_reward_frn_vet_5_year_painting, "object/tangible/veteran_reward/frn_vet_5_year_painting.iff")

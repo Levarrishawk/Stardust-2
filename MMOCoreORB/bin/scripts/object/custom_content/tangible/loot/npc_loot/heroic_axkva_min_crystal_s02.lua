@@ -1,5 +1,0 @@
-object_tangible_loot_npc_loot_heroic_axkva_min_crystal_s02 = object_tangible_loot_npc_loot_shared_heroic_axkva_min_crystal_s02:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_npc_loot_heroic_axkva_min_crystal_s02, "object/tangible/loot/npc/loot/heroic_axkva_min_crystal_s02.iff")

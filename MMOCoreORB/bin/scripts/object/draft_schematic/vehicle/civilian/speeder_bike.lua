@@ -48,10 +48,11 @@ object_draft_schematic_vehicle_civilian_speeder_bike = object_draft_schematic_ve
 	customObjectName = "Speederbike",
 
 	craftingToolTab = 16, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1, 
+	complexity = 20, 
 	size = 1,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 50,
+	factoryCrateType = "object/factory/factory_crate_installation.iff",
+   
 	xpType = "crafting_general", 
 	xp = 1600, 
 
@@ -67,7 +68,7 @@ object_draft_schematic_vehicle_civilian_speeder_bike = object_draft_schematic_ve
 	ingredientTitleNames = {"vehicle_body", "structural_frame"},
 	ingredientSlotType = {0, 0},
 	resourceTypes = {"metal_nonferrous", "metal_ferrous"},
-	resourceQuantities = {200, 800},
+	resourceQuantities = {1200, 4800},
 	contribution = {100, 100},
 
 

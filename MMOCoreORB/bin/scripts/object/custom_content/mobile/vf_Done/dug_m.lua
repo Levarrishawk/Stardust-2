@@ -1,1 +1,0 @@
-object_mobile_dug_m = object_mobile_shared_dug_m:new {}ObjectTemplates:addTemplate(object_mobile_dug_m, "object/mobile/dug_m.iff")

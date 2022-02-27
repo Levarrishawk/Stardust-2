@@ -48,10 +48,11 @@ object_draft_schematic_structure_installation_factory_food = object_draft_schema
 	customObjectName = "Deed for: Food Factory",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 16,
 	size = 16,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 1,
+	factoryCrateType = "object/factory/factory_crate_installation.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 1900,
 

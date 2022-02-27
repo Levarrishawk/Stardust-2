@@ -3179,47 +3179,49 @@ ObjectTemplates:addClientTemplate(object_soundobject_shared_soundobject_waterfal
 
 object_soundobject_shared_soundobject_wind_power_generator = SharedStaticObjectTemplate:new {
 	clientTemplateFileName = "object/soundobject/shared_soundobject_wind_power_generator.iff"
-	
+	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
+--[[
+	appearanceFilename = "appearance/pt_sound_location.prt",
+	arrangementDescriptorFilename = "",
+
+	clearFloraRadius = 0,
+	clientDataFile = "clientdata/soundobject/client_shared_soundobject_wind_power_generator.cdf",
+	clientGameObjectType = 5,
+	collisionActionBlockFlags = 255,
+	collisionActionFlags = 1,
+	collisionActionPassFlags = 0,
+	collisionMaterialBlockFlags = 1,
+	collisionMaterialFlags = 1,
+	collisionMaterialPassFlags = 0,
+	containerType = 0,
+	containerVolumeLimit = 0,
+
+	detailedDescription = "@string_table:sound_object",
+
+	gameObjectType = 5,
+
+	locationReservationRadius = 0,
+	lookAtText = "string_id_table",
+
+	noBuildRadius = 0,
+
+	objectName = "@obj_n:unknown_object",
+	onlyVisibleInTools = 1,
+
+	portalLayoutFilename = "",
+
+	scale = 1,
+	scaleThresholdBeforeExtentTest = 0.5,
+	sendToClient = 1,
+	slotDescriptorFilename = "",
+	snapToTerrain = 0,
+	surfaceType = 0,
+
+	totalCellNumber = 0,
+
+	clientObjectCRC = 2041745522,
+	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/soundobject/base/shared_soundobject_base.iff"}
+]]
 }
 
 ObjectTemplates:addClientTemplate(object_soundobject_shared_soundobject_wind_power_generator, "object/soundobject/shared_soundobject_wind_power_generator.iff")
---
-
--- New
-
-object_soundobject_shared_soundobject_isd_briefing = SharedStaticObjectTemplate:new {
-  clientTemplateFileName = "object/soundobject/shared_soundobject_isd_briefing.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_soundobject_shared_soundobject_isd_briefing, "object/soundobject/shared_soundobject_isd_briefing.iff")
---
-object_soundobject_shared_soundobject_isd_hangar = SharedStaticObjectTemplate:new {
-  clientTemplateFileName = "object/soundobject/shared_soundobject_isd_hangar.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_soundobject_shared_soundobject_isd_hangar, "object/soundobject/shared_soundobject_isd_hangar.iff")
---
-object_soundobject_shared_soundobject_isd_hangar2 = SharedStaticObjectTemplate:new {
-  clientTemplateFileName = "object/soundobject/shared_soundobject_isd_hangar2.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_soundobject_shared_soundobject_isd_hangar2, "object/soundobject/shared_soundobject_isd_hangar2.iff")
---
-object_soundobject_shared_soundobject_music_hondo = SharedStaticObjectTemplate:new {
-  clientTemplateFileName = "object/soundobject/shared_soundobject_music_hondo.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_soundobject_shared_soundobject_music_hondo, "object/soundobject/shared_soundobject_music_hondo.iff")
---
-object_soundobject_shared_soundobject_music_cantina_general = SharedStaticObjectTemplate:new {
-  clientTemplateFileName = "object/soundobject/shared_soundobject_music_cantina_general.iff"
-  
-}
-
-ObjectTemplates:addClientTemplate(object_soundobject_shared_soundobject_music_cantina_general, "object/soundobject/shared_soundobject_music_cantina_general.iff")
---
-

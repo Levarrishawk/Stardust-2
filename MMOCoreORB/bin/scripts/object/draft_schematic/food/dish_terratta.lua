@@ -48,11 +48,12 @@ object_draft_schematic_food_dish_terratta = object_draft_schematic_food_shared_d
    customObjectName = "Terratta",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 12, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_food.iff",
+   
    xpType = "crafting_food_general", 
-   xp = 600, 
+   xp = 240, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

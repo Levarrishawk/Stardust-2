@@ -1,5 +1,0 @@
-object_tangible_furniture_all_frn_all_trophy_murra_blanca_new = object_tangible_furniture_all_shared_frn_all_trophy_murra_blanca_new:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_all_frn_all_trophy_murra_blanca_new, "object/tangible/furniture/all/frn_all_trophy_murra_blanca_new.iff")

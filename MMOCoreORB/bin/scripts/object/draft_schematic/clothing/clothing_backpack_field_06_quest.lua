@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_backpack_field_06_quest = object_draft_
    customObjectName = "Spec-Ops Field Agent Pack",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 30, 
    size = 1, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 60, 

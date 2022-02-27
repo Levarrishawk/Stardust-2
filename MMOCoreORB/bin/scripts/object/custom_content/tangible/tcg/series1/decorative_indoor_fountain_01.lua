@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series1_decorative_indoor_fountain_01 = object_tangible_tcg_series1_shared_decorative_indoor_fountain_01:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series1_decorative_indoor_fountain_01, "object/tangible/tcg/series1/decorative_indoor_fountain_01.iff")

@@ -1,3 +1,0 @@
-object_building_content_rebel_theme_park_bunker_dantooine_generals_bunker = object_building_content_rebel_theme_park_shared_bunker_dantooine_generals_bunker:new {
-}
-ObjectTemplates:addTemplate(object_building_content_rebel_theme_park_bunker_dantooine_generals_bunker, "object/building/content/rebel_theme_park/bunker_dantooine_generals_bunker.iff")

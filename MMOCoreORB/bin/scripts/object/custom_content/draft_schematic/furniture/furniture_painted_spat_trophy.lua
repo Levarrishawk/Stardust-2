@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_furniture_painted_spat_trophy = object_draft_schematic_furniture_shared_furniture_painted_spat_trophy:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_painted_spat_trophy, "object/draft_schematic/furniture/furniture_painted_spat_trophy.iff")

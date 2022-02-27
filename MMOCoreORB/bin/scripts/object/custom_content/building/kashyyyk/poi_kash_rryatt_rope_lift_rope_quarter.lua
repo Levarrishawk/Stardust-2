@@ -1,5 +1,0 @@
-object_building_kashyyyk_poi_kash_rryatt_rope_lift_rope_quarter = object_building_kashyyyk_shared_poi_kash_rryatt_rope_lift_rope_quarter:new {
-
-}
-
-ObjectTemplates:addTemplate(object_building_kashyyyk_poi_kash_rryatt_rope_lift_rope_quarter, "object/building/kashyyyk/poi_kash_rryatt_rope_lift_rope_quarter.iff")

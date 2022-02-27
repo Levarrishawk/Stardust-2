@@ -1,5 +1,0 @@
-object_tangible_collection_reward_space_mobile_publish_gift = object_tangible_collection_reward_shared_space_mobile_publish_gift:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_collection_reward_space_mobile_publish_gift, "object/tangible/collection/reward/space_mobile_publish_gift.iff")

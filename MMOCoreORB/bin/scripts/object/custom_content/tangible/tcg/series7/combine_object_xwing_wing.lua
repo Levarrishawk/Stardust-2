@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series7_combine_object_xwing_wing = object_tangible_tcg_series7_shared_combine_object_xwing_wing:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series7_combine_object_xwing_wing, "object/tangible/tcg/series7/combine_object_xwing_wing.iff")

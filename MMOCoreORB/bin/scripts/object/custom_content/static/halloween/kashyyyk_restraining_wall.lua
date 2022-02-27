@@ -1,1 +1,0 @@
-object_static_halloween_kashyyyk_restraining_wall = object_static_halloween_shared_kashyyyk_restraining_wall:new {}ObjectTemplates:addTemplate(object_static_halloween_kashyyyk_restraining_wall, "object/static/halloween/kashyyyk_restraining_wall.iff")

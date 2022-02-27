@@ -1,5 +1,0 @@
-object_tangible_collection_reward_mon_mothma_statuette_reward = object_tangible_collection_reward_shared_mon_mothma_statuette_reward:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_collection_reward_mon_mothma_statuette_reward, "object/tangible/collection/reward/mon_mothma_statuette_reward.iff")

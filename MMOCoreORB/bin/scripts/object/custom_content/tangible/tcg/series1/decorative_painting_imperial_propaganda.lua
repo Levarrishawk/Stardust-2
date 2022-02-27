@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series1_decorative_painting_imperial_propaganda = object_tangible_tcg_series1_shared_decorative_painting_imperial_propaganda:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series1_decorative_painting_imperial_propaganda, "object/tangible/tcg/series1/decorative_painting_imperial_propaganda.iff")

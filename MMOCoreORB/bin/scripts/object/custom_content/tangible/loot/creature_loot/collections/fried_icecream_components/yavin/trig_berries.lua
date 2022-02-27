@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_fried_icecream_components_yavin_trig_berries = object_tangible_loot_creature_loot_collections_fried_icecream_components_yavin_shared_trig_berries:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_fried_icecream_components_yavin_trig_berries, "object/tangible/loot/creature/loot/collections/fried/icecream/components/yavin/trig_berries.iff")

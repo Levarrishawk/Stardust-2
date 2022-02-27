@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series5_hangar_ships_black_sun_fighter_medium_01 = object_tangible_tcg_series5_hangar_ships_shared_black_sun_fighter_medium_01:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series5_hangar_ships_black_sun_fighter_medium_01, "object/tangible/tcg/series5/hangar_ships/black_sun_fighter_medium_01.iff")

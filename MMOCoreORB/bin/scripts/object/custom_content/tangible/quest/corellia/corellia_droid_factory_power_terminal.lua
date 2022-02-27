@@ -1,5 +1,0 @@
-object_tangible_quest_corellia_corellia_droid_factory_power_terminal = object_tangible_quest_corellia_shared_corellia_droid_factory_power_terminal:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_corellia_corellia_droid_factory_power_terminal, "object/tangible/quest/corellia/corellia_droid_factory_power_terminal.iff")

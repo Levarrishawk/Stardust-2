@@ -48,10 +48,11 @@ object_draft_schematic_furniture_furniture_chair_futon = object_draft_schematic_
 	customObjectName = "Futon",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 15,
 	size = 2,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 10,
+	factoryCrateType = "object/factory/factory_crate_furniture.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 350,
 
@@ -70,7 +71,7 @@ object_draft_schematic_furniture_furniture_chair_futon = object_draft_schematic_
 	resourceQuantities = {175},
 	contribution = {100},
 
-	targetTemplate = "object/tangible/furniture/all/frn_all_couch_futon_hue_s1.iff",
+	targetTemplate = "object/tangible/furniture/all/frn_all_couch_futon_s1.iff",
 
 	additionalTemplates = {}
 }

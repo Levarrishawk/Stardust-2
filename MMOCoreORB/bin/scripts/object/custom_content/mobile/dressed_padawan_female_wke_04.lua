@@ -1,5 +1,0 @@
-object_mobile_dressed_padawan_female_wke_04 = object_mobile_shared_dressed_padawan_female_wke_04:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_dressed_padawan_female_wke_04, "object/mobile/dressed_padawan_female_wke_04.iff")

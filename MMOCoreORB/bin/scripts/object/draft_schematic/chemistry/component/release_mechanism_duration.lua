@@ -48,12 +48,13 @@ object_draft_schematic_chemistry_component_release_mechanism_duration = object_d
 	customObjectName = "Chemical Release Duration Mechanism",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 17,
 	size = 4,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 50,
+	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
-	xp = 75,
+	xp = 35,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

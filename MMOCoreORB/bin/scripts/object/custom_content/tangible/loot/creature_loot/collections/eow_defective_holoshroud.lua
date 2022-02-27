@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_eow_defective_holoshroud = object_tangible_loot_creature_loot_collections_shared_eow_defective_holoshroud:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_eow_defective_holoshroud, "object/tangible/loot/creature/loot/collections/eow_defective_holoshroud.iff")

@@ -1,5 +1,0 @@
-object_tangible_holiday_empire_day_component_aa1n_memory_bank = object_tangible_holiday_empire_day_component_shared_aa1n_memory_bank:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_holiday_empire_day_component_aa1n_memory_bank, "object/tangible/holiday/empire_day/component/aa1n_memory_bank.iff")

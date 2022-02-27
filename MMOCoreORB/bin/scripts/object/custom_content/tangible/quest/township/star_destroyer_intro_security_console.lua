@@ -1,5 +1,0 @@
-object_tangible_quest_township_star_destroyer_intro_security_console = object_tangible_quest_township_shared_star_destroyer_intro_security_console:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_township_star_destroyer_intro_security_console, "object/tangible/quest/township/star_destroyer_intro_security_console.iff")

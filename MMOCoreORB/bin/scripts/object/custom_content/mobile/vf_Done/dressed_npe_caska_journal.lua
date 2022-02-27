@@ -1,3 +1,0 @@
-object_mobile_dressed_npe_caska_journal = object_mobile_shared_dressed_npe_caska_journal:new {
-}
-ObjectTemplates:addTemplate(object_mobile_dressed_npe_caska_journal, "object/mobile/dressed_npe_caska_journal.iff")

@@ -1,7 +1,0 @@
-includeFile("custom_content/tangible/loot/creature_loot/collections/fried_icecream_components/yavin/blueleaf_shrub.lua")
-includeFile("custom_content/tangible/loot/creature_loot/collections/fried_icecream_components/yavin/celto.lua")
-includeFile("custom_content/tangible/loot/creature_loot/collections/fried_icecream_components/yavin/farrberries.lua")
-includeFile("custom_content/tangible/loot/creature_loot/collections/fried_icecream_components/yavin/sweetmelon.lua")
-includeFile("custom_content/tangible/loot/creature_loot/collections/fried_icecream_components/yavin/topatoes.lua")
-includeFile("custom_content/tangible/loot/creature_loot/collections/fried_icecream_components/yavin/trig_berries.lua")
-includeFile("custom_content/tangible/loot/creature_loot/collections/fried_icecream_components/yavin/wuli_nuts.lua")

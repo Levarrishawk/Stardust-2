@@ -1,3 +1,0 @@
-object_building_general_corellia_disappear_cave = object_building_general_shared_corellia_disappear_cave:new {
-}
-ObjectTemplates:addTemplate(object_building_general_corellia_disappear_cave, "object/building/general/corellia_disappear_cave.iff")

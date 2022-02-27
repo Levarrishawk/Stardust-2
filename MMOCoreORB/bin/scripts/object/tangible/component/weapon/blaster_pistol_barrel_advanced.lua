@@ -50,7 +50,7 @@ object_tangible_component_weapon_blaster_pistol_barrel_advanced = object_tangibl
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "null", "null", "null", "expRange"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "maxrangemod", "minrangemod", "midrangemod"},
 	experimentalMin = {0, 0, 1, 1, 0, 0, 10, 0, 0, 0, 0},
-	experimentalMax = {0, 0, 25, 25, 0, 15, 100, 0, 0, 0, 30},
+	experimentalMax = {0, 0, 25, 25, -1.2, 15, 100, 0, 0, 0, 30},
 	experimentalPrecision = {0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

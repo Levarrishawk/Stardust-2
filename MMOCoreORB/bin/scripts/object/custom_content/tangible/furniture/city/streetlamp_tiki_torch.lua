@@ -1,5 +1,0 @@
-object_tangible_furniture_city_streetlamp_tiki_torch = object_tangible_furniture_city_shared_streetlamp_tiki_torch:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_city_streetlamp_tiki_torch, "object/tangible/furniture/city/streetlamp_tiki_torch.iff")

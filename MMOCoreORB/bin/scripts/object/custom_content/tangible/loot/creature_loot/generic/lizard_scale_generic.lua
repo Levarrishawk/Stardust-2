@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_generic_lizard_scale_generic = object_tangible_loot_creature_loot_generic_shared_lizard_scale_generic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_generic_lizard_scale_generic, "object/tangible/loot/creature/loot/generic/lizard_scale_generic.iff")

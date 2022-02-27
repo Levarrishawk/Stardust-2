@@ -1,5 +1,0 @@
-object_building_player_player_house_tcg_vehicle_garage = object_building_player_shared_player_house_tcg_vehicle_garage:new {
-
-}
-
-ObjectTemplates:addTemplate(object_building_player_player_house_tcg_vehicle_garage, "object/building/player/player_house_tcg_vehicle_garage.iff")

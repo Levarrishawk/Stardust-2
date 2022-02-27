@@ -1,1 +1,0 @@
-object_static_worldbuilding_building_echo_base_lift = object_static_worldbuilding_building_shared_echo_base_lift:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_building_echo_base_lift, "object/static/worldbuilding/building/echo_base_lift.iff")

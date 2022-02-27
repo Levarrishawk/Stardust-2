@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_eow_treasure_hunt_disk = object_tangible_loot_creature_loot_collections_shared_eow_treasure_hunt_disk:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_eow_treasure_hunt_disk, "object/tangible/loot/creature/loot/collections/eow_treasure_hunt_disk.iff")

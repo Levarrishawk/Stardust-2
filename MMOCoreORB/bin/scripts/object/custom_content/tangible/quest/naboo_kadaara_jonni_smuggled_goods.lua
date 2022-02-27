@@ -1,5 +1,0 @@
-object_tangible_quest_naboo_kadaara_jonni_smuggled_goods = object_tangible_quest_shared_naboo_kadaara_jonni_smuggled_goods:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_naboo_kadaara_jonni_smuggled_goods, "object/tangible/quest/naboo_kadaara_jonni_smuggled_goods.iff")

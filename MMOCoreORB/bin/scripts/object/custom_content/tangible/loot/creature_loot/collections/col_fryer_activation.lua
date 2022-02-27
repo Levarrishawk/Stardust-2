@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_col_fryer_activation = object_tangible_loot_creature_loot_collections_shared_col_fryer_activation:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_col_fryer_activation, "object/tangible/loot/creature/loot/collections/col_fryer_activation.iff")

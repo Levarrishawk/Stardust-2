@@ -48,9 +48,10 @@ object_draft_schematic_slicing_slicing_laser_knife = object_draft_schematic_slic
    customObjectName = "Precision Laser Knife",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 7, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_electronics.iff",
+   
    xpType = "crafting_general", 
    xp = 32, 
 

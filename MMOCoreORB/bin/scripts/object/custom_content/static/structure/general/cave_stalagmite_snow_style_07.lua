@@ -1,1 +1,0 @@
-object_static_structure_general_cave_stalagmite_snow_style_07 = object_static_structure_general_shared_cave_stalagmite_snow_style_07:new {}ObjectTemplates:addTemplate(object_static_structure_general_cave_stalagmite_snow_style_07, "object/static/structure/general/cave_stalagmite_snow_style_07.iff")

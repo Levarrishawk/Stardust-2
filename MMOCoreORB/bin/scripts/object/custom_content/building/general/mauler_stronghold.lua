@@ -1,3 +1,0 @@
-object_building_general_mauler_stronghold = object_building_general_shared_mauler_stronghold:new {
-}
-ObjectTemplates:addTemplate(object_building_general_mauler_stronghold, "object/building/general/mauler_stronghold.iff")

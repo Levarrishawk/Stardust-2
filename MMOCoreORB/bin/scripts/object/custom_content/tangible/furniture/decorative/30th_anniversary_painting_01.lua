@@ -1,5 +1,0 @@
-object_tangible_furniture_decorative_30th_anniversary_painting_01 = object_tangible_furniture_decorative_shared_30th_anniversary_painting_01:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_decorative_30th_anniversary_painting_01, "object/tangible/furniture/decorative/30th_anniversary_painting_01.iff")

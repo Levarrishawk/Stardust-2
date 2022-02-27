@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series7_garage_display_vehicles_landspeeder_desert_skiff = object_tangible_tcg_series7_garage_display_vehicles_shared_landspeeder_desert_skiff:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_landspeeder_desert_skiff, "object/tangible/tcg/series7/garage_display_vehicles/landspeeder_desert_skiff.iff")

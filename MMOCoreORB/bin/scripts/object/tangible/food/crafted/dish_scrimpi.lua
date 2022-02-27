@@ -59,7 +59,7 @@ object_tangible_food_crafted_dish_scrimpi = object_tangible_food_crafted_shared_
 	quantityMin = 3,
 	quantityMax = 4,
 
-	modifiers = { "strength", 0 },
+	modifiers = { "quickness", 0 },
 
 	buffName = "food.dish_scrimpi",
 	buffCRC = 0,

@@ -48,10 +48,11 @@ object_draft_schematic_furniture_furniture_chair_metal = object_draft_schematic_
 	customObjectName = "Squared Metal Chair",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 11,
 	size = 2,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 10,
+	factoryCrateType = "object/factory/factory_crate_furniture.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 200,
 
@@ -70,7 +71,7 @@ object_draft_schematic_furniture_furniture_chair_metal = object_draft_schematic_
 	resourceQuantities = {25, 75},
 	contribution = {100, 100},
 
-	targetTemplate = "object/tangible/furniture/all/frn_all_chair_metal_hue_s1.iff",
+	targetTemplate = "object/tangible/furniture/all/frn_all_chair_metal_s1.iff",
 
 	additionalTemplates = {}
 }

@@ -1,5 +1,0 @@
-object_tangible_quest_corellia_corellia_39_trins_evnar_answering = object_tangible_quest_corellia_shared_corellia_39_trins_evnar_answering:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_corellia_corellia_39_trins_evnar_answering, "object/tangible/quest/corellia/corellia_39_trins_evnar_answering.iff")

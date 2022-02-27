@@ -73,7 +73,7 @@ object_weapon_ranged_grenade_grenade_bug_bomb = object_weapon_ranged_grenade_sha
 	damageType = BLAST,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = LIGHT,
+	armorPiercing = MEDIUM,
 
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
@@ -99,9 +99,9 @@ object_weapon_ranged_grenade_grenade_bug_bomb = object_weapon_ranged_grenade_sha
 
 	combatSpam = "throw_bug_bomb",
 
-	healthAttackCost = 0,
-	actionAttackCost = 150,
-	mindAttackCost = 0,
+	healthAttackCost = 97,
+	actionAttackCost = 97,
+	mindAttackCost = 45,
 	forceCost = 0,
 
 	pointBlankRange = 0,

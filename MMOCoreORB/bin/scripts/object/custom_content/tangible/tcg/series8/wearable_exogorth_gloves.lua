@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series8_wearable_exogorth_gloves = object_tangible_tcg_series8_shared_wearable_exogorth_gloves:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series8_wearable_exogorth_gloves, "object/tangible/tcg/series8/wearable_exogorth_gloves.iff")

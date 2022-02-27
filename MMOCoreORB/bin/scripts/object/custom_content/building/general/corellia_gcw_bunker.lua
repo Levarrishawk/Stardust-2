@@ -1,3 +1,0 @@
-object_building_general_corellia_gcw_bunker = object_building_general_shared_corellia_gcw_bunker:new {
-}
-ObjectTemplates:addTemplate(object_building_general_corellia_gcw_bunker, "object/building/general/corellia_gcw_bunker.iff")

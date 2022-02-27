@@ -48,9 +48,10 @@ object_draft_schematic_weapon_component_blaster_power_handler = object_draft_sch
    customObjectName = "Blaster Power-handler",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 20, 
    size = 3, 
-
+   factoryCrateType = "object/factory/factory_crate_weapon.iff",
+   
    xpType = "crafting_weapons_general", 
    xp = 50, 
 

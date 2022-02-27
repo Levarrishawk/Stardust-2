@@ -1,5 +1,0 @@
-object_tangible_quest_quest_start_ep3_hunt_loot_silkthrower_fang = object_tangible_quest_quest_start_shared_ep3_hunt_loot_silkthrower_fang:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_quest_start_ep3_hunt_loot_silkthrower_fang, "object/tangible/quest/quest_start/ep3_hunt_loot_silkthrower_fang.iff")

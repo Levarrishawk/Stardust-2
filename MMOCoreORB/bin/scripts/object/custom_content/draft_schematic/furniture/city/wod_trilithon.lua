@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_city_wod_trilithon = object_draft_schematic_furniture_city_shared_wod_trilithon:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_city_wod_trilithon, "object/draft_schematic/furniture/city/wod_trilithon.iff")

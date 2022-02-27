@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_imp_t3_darth_tyranus = object_tangible_loot_creature_loot_collections_shared_imp_t3_darth_tyranus:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_imp_t3_darth_tyranus, "object/tangible/loot/creature/loot/collections/imp_t3_darth_tyranus.iff")

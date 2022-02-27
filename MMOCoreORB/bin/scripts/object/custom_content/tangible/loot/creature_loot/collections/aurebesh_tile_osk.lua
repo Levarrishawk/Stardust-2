@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_aurebesh_tile_osk = object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_osk:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_aurebesh_tile_osk, "object/tangible/loot/creature/loot/collections/aurebesh_tile_osk.iff")

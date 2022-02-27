@@ -48,10 +48,11 @@ object_draft_schematic_furniture_furniture_table_endtable_elegant = object_draft
 	customObjectName = "End Table",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 29,
 	size = 3,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 10,
+	factoryCrateType = "object/factory/factory_crate_furniture.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 260,
 
@@ -70,7 +71,7 @@ object_draft_schematic_furniture_furniture_table_endtable_elegant = object_draft
 	resourceQuantities = {75, 50},
 	contribution = {100, 100},
 
-	targetTemplate = "object/tangible/furniture/elegant/end_table_hue_s01.iff",
+	targetTemplate = "object/tangible/furniture/elegant/end_table_s01.iff",
 
 	additionalTemplates = {}
 }

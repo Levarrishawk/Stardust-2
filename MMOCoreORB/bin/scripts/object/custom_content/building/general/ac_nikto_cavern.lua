@@ -1,3 +1,0 @@
-object_building_general_ac_nikto_cavern = object_building_general_shared_ac_nikto_cavern:new {
-}
-ObjectTemplates:addTemplate(object_building_general_ac_nikto_cavern, "object/building/general/ac_nikto_cavern.iff")

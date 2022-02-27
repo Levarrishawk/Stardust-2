@@ -1,1 +1,0 @@
-object_static_structure_general_small_map_with_x = object_static_structure_general_shared_small_map_with_x:new {}ObjectTemplates:addTemplate(object_static_structure_general_small_map_with_x, "object/static/structure/general/small_map_with_x.iff")

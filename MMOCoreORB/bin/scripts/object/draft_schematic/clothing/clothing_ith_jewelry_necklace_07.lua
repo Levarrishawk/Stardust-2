@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_ith_jewelry_necklace_07 = object_draft_
    customObjectName = "Ithorian Emerald Pendant",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 15, 
    size = 2, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 70, 

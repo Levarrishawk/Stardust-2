@@ -1,1 +1,0 @@
-object_static_structure_tatooine_palette_tatooine_food_crates_02 = object_static_structure_tatooine_shared_palette_tatooine_food_crates_02:new {}ObjectTemplates:addTemplate(object_static_structure_tatooine_palette_tatooine_food_crates_02, "object/static/structure/tatooine/palette_tatooine_food_crates_02.iff")

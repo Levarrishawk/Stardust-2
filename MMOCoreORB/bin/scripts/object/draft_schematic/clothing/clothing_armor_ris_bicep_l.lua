@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_armor_ris_bicep_l = object_draft_schema
    customObjectName = "R.I.S. Armor Left Bicep",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 45, 
    size = 1, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_armor", 
    xp = 836, 

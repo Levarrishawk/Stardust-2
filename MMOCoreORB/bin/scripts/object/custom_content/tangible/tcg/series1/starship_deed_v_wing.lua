@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series1_starship_deed_v_wing = object_tangible_tcg_series1_shared_starship_deed_v_wing:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series1_starship_deed_v_wing, "object/tangible/tcg/series1/starship_deed_v_wing.iff")

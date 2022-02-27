@@ -1,3 +1,0 @@
-object_building_content_nova_orion_station_chapter_8_space_station = object_building_content_nova_orion_station_shared_chapter_8_space_station:new {
-}
-ObjectTemplates:addTemplate(object_building_content_nova_orion_station_chapter_8_space_station, "object/building/content/nova_orion_station/chapter_8_space_station.iff")

@@ -61,8 +61,8 @@ object_tangible_medicine_crafted_medpack_disease_health_c = object_tangible_medi
 	experimentalWeights = {1, 1, 2, 1, 2, 1, 1, 2, 2, 1, 2, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "exp_effectiveness", "exp_charges", "exp_charges", "expEaseOfUse", "expEaseOfUse", "exp_effectiveness", "null"},
 	experimentalSubGroupTitles = {"null", "null", "power", "charges", "range", "skillmodmin", "potency", "duration", "hitpoints"},
-	experimentalMin = {0, 0, 10, 15, 15, 80, 25, 60, 1000},
-	experimentalMax = {0, 0, 60, 35, 30, 40, 150, 180, 1000},
+	experimentalMin = {0, 0, 10, 15, 15, 80, 25, 120, 1000},
+	experimentalMax = {0, 0, 60, 35, 30, 40, 150, 1000, 1000},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 4},
 }

@@ -1,1 +1,0 @@
-object_static_worldbuilding_furniture_item_statue_yanjon = object_static_worldbuilding_furniture_shared_item_statue_yanjon:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_furniture_item_statue_yanjon, "object/static/worldbuilding/furniture/item_statue_yanjon.iff")

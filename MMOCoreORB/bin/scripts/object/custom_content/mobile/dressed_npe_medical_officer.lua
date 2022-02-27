@@ -1,3 +1,0 @@
-object_mobile_dressed_npe_medical_officer = object_mobile_shared_dressed_npe_medical_officer:new {
-}
-ObjectTemplates:addTemplate(object_mobile_dressed_npe_medical_officer, "object/mobile/dressed_npe_medical_officer.iff")

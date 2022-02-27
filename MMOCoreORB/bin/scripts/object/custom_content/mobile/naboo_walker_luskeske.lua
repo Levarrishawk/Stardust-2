@@ -1,1 +1,0 @@
-object_mobile_naboo_walker_luskeske = object_mobile_shared_naboo_walker_luskeske:new {}ObjectTemplates:addTemplate(object_mobile_naboo_walker_luskeske, "object/mobile/naboo_walker_luskeske.iff")

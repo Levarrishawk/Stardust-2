@@ -1,5 +1,0 @@
-
-object_tangible_loot_creature_loot_kashyyyk_loot_kerritamba_jaw = object_tangible_loot_creature_loot_kashyyyk_loot_shared_kerritamba_jaw:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_kerritamba_jaw, "object/tangible/loot/creature_loot/kashyyyk_loot/kerritamba_jaw.iff")

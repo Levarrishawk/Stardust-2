@@ -1,5 +1,0 @@
-object_tangible_quest_corellia_corellia_droid_factory_antenna_control = object_tangible_quest_corellia_shared_corellia_droid_factory_antenna_control:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_corellia_corellia_droid_factory_antenna_control, "object/tangible/quest/corellia/corellia_droid_factory_antenna_control.iff")

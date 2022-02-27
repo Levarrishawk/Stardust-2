@@ -1,5 +1,0 @@
-object_tangible_item_item_blackwing_canister = object_tangible_item_shared_item_blackwing_canister:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_item_item_blackwing_canister, "object/tangible/item/item_blackwing_canister.iff")

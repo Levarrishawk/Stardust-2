@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_dress_formal_08 = object_draft_schemati
    customObjectName = "Exotic Leotard",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 23, 
    size = 4, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 330, 

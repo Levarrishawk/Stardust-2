@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_armor_zam_pants = object_draft_schemati
    customObjectName = "Mabari Armorweave Pants",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 20, 
    size = 4, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_armor", 
    xp = 250, 

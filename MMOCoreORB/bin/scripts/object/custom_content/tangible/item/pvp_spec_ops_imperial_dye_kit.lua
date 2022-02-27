@@ -1,5 +1,0 @@
-object_tangible_item_pvp_spec_ops_imperial_dye_kit = object_tangible_item_shared_pvp_spec_ops_imperial_dye_kit:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_item_pvp_spec_ops_imperial_dye_kit, "object/tangible/item/pvp_spec_ops_imperial_dye_kit.iff")

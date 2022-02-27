@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_bodysuit_field_16 = object_draft_schema
    customObjectName = "Infiltration Suit",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 24, 
    size = 3, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 110, 

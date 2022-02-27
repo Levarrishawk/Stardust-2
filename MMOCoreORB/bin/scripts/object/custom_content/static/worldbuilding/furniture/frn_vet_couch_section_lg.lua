@@ -1,1 +1,0 @@
-object_static_worldbuilding_furniture_frn_vet_couch_section_lg = object_static_worldbuilding_furniture_shared_frn_vet_couch_section_lg:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_furniture_frn_vet_couch_section_lg, "object/static/worldbuilding/furniture/frn_vet_couch_section_lg.iff")

@@ -1,3 +1,0 @@
-object_tangible_painting_painting_heroic_exar_kun_ultra_rare = object_tangible_painting_shared_painting_heroic_exar_kun_ultra_rare:new {
-}
-ObjectTemplates:addTemplate(object_tangible_painting_painting_heroic_exar_kun_ultra_rare, "object/tangible/painting/painting_heroic_exar_kun_ultra_rare.iff")

@@ -1,1 +1,0 @@
-object_static_halloween_item_restraining_table = object_static_halloween_shared_item_restraining_table:new {}ObjectTemplates:addTemplate(object_static_halloween_item_restraining_table, "object/static/halloween/item_restraining_table.iff")

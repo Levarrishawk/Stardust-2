@@ -1,5 +1,0 @@
-object_tangible_furniture_nym_themepark_collection_frn_all_plant_potted_lg_s4 = object_tangible_furniture_nym_themepark_collection_shared_frn_all_plant_potted_lg_s4:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_nym_themepark_collection_frn_all_plant_potted_lg_s4, "object/tangible/furniture/nym_themepark/collection/frn_all_plant_potted_lg_s4.iff")

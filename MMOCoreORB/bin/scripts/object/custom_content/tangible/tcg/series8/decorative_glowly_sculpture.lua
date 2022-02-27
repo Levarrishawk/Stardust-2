@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series8_decorative_glowly_sculpture = object_tangible_tcg_series8_shared_decorative_glowly_sculpture:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series8_decorative_glowly_sculpture, "object/tangible/tcg/series8/decorative_glowly_sculpture.iff")

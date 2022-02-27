@@ -48,11 +48,12 @@ object_draft_schematic_item_item_jedi_tool = object_draft_schematic_item_shared_
    customObjectName = "Lightsaber Crafting Toolkit",
 
    craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 10, 
    size = 1, 
-
-   xpType = "crafting_general", 
-   xp = 130, 
+   factoryCrateType = "object/factory/factory_crate_electronics.iff",
+   
+   xpType = "jedi_general", 
+   xp = 0, 
 
    assemblySkill = "jedi_saber_assembly", 
    experimentingSkill = "jedi_saber_experimentation", 

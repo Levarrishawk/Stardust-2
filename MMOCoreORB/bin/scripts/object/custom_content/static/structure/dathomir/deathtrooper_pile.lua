@@ -1,1 +1,0 @@
-object_static_structure_dathomir_deathtrooper_pile = object_static_structure_dathomir_shared_deathtrooper_pile:new {}ObjectTemplates:addTemplate(object_static_structure_dathomir_deathtrooper_pile, "object/static/structure/dathomir/deathtrooper_pile.iff")

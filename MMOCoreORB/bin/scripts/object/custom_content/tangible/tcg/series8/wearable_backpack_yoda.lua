@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series8_wearable_backpack_yoda = object_tangible_tcg_series8_shared_wearable_backpack_yoda:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series8_wearable_backpack_yoda, "object/tangible/tcg/series8/wearable_backpack_yoda.iff")

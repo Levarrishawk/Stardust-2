@@ -1,5 +1,0 @@
-object_mobile_coa_aclo_personnel_gotal_m = object_mobile_shared_coa_aclo_personnel_gotal_m:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_coa_aclo_personnel_gotal_m, "object/mobile/coa_aclo_personnel_gotal_m.iff")

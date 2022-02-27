@@ -1,5 +1,0 @@
-object_tangible_quest_corellia_corellia_39_drall_patriot_terminal = object_tangible_quest_corellia_shared_corellia_39_drall_patriot_terminal:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_corellia_corellia_39_drall_patriot_terminal, "object/tangible/quest/corellia/corellia_39_drall_patriot_terminal.iff")

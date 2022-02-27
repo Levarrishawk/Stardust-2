@@ -1,5 +1,0 @@
-object_tangible_loot_generic_usable_slave_collar_generic = object_tangible_loot_generic_usable_shared_slave_collar_generic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_generic_usable_slave_collar_generic, "object/tangible/loot/generic/usable/slave_collar_generic.iff")

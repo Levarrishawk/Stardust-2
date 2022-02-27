@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_furniture_uber_roulette = object_draft_schematic_furniture_shared_furniture_uber_roulette:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_uber_roulette, "object/draft_schematic/furniture/furniture_uber_roulette.iff")

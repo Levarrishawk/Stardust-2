@@ -1,5 +1,0 @@
-object_tangible_furniture_tatooine_uber_kash_bar_table = object_tangible_furniture_tatooine_shared_uber_kash_bar_table:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_tatooine_uber_kash_bar_table, "object/tangible/furniture/tatooine/uber_kash_bar_table.iff")

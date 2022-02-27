@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series7_garage_display_vehicles_fg_8t8_podracer = object_tangible_tcg_series7_garage_display_vehicles_shared_fg_8t8_podracer:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_fg_8t8_podracer, "object/tangible/tcg/series7/garage_display_vehicles/fg_8t8_podracer.iff")

@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series7_garage_display_vehicles_tcg_hk47_jetpack = object_tangible_tcg_series7_garage_display_vehicles_shared_tcg_hk47_jetpack:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series7_garage_display_vehicles_tcg_hk47_jetpack, "object/tangible/tcg/series7/garage_display_vehicles/tcg_hk47_jetpack.iff")

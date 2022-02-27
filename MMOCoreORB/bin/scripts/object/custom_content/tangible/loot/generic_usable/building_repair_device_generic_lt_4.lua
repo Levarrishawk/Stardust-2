@@ -1,5 +1,0 @@
-object_tangible_loot_generic_usable_building_repair_device_generic_lt_4 = object_tangible_loot_generic_usable_shared_building_repair_device_generic_lt_4:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_generic_usable_building_repair_device_generic_lt_4, "object/tangible/loot/generic/usable/building_repair_device_generic_lt_4.iff")

@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_trader_eng_torso = object_tangible_loot_creature_loot_collections_shared_trader_eng_torso:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_trader_eng_torso, "object/tangible/loot/creature/loot/collections/trader_eng_torso.iff")

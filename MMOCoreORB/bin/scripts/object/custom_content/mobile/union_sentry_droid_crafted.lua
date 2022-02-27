@@ -1,5 +1,0 @@
-object_mobile_union_sentry_droid_crafted = object_mobile_shared_union_sentry_droid_crafted:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_union_sentry_droid_crafted, "object/mobile/union_sentry_droid_crafted.iff")

@@ -48,11 +48,12 @@ object_draft_schematic_clothing_clothing_jacket_field_21 = object_draft_schemati
    customObjectName = "Spec-Ops Duster",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 21, 
    size = 3, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
-   xp = 500, 
+   xp = 130, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

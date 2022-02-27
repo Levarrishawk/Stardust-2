@@ -48,8 +48,9 @@ object_draft_schematic_bio_engineer_bio_component_bio_component_clothing_field_c
    customObjectName = "Visual Camouflage",
 
    craftingToolTab = 128, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 22, 
    size = 1, 
+   factoryCrateTypeateTypeateType = "object/factory/factory_crate_chemicals.iff",
 
    xpType = "crafting_bio_engineer_creature", 
    xp = 120, 

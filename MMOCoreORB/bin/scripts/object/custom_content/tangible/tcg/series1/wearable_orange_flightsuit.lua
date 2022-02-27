@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series1_wearable_orange_flightsuit = object_tangible_tcg_series1_shared_wearable_orange_flightsuit:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series1_wearable_orange_flightsuit, "object/tangible/tcg/series1/wearable_orange_flightsuit.iff")

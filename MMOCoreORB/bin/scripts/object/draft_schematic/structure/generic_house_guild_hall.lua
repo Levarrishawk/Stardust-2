@@ -48,10 +48,11 @@ object_draft_schematic_structure_generic_house_guild_hall = object_draft_schemat
 	customObjectName = "Deed for: Generic Planet Guild Hall",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 39,
 	size = 14,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 1,
+	factoryCrateType = "object/factory/factory_crate_installation.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 7800,
 

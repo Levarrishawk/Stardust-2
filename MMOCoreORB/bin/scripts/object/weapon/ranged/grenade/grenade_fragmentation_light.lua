@@ -68,13 +68,13 @@ object_weapon_ranged_grenade_grenade_fragmentation_light = object_weapon_ranged_
 
 	-- RANGEDATTACK, MELEEATTACK, FORCEATTACK, TRAPATTACK, GRENADEATTACK, HEAVYACIDBEAMATTACK,
 	-- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
-	attackType = GENADEATTACK,
+	attackType = GRENADEATTACK,
 
 	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, LIGHTSABER
 	damageType = BLAST,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = LIGHT,
+	armorPiercing = NONE,
 
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
@@ -100,9 +100,9 @@ object_weapon_ranged_grenade_grenade_fragmentation_light = object_weapon_ranged_
 
 	combatSpam = "throw_fragmentation",
 
-	healthAttackCost = 0,
-	actionAttackCost = 150,
-	mindAttackCost = 0,
+	healthAttackCost = 50,
+	actionAttackCost = 50,
+	mindAttackCost = 10,
 
 	pointBlankRange = 0,
 	pointBlankAccuracy = -10,
@@ -127,8 +127,8 @@ object_weapon_ranged_grenade_grenade_fragmentation_light = object_weapon_ranged_
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "null", "expRange", "expRange", "expRange", "expRange", "null", "expEffeciency", "expEffeciency", "expEffeciency"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "maxrangemod", "midrangemod", "midrange", "maxrange", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 260, 440, 5.5, 7, 1000, -16, -45, 0, 10, 64, 0, 300, 0},
-	experimentalMax = {0, 0, 350, 1520, 2.5, 13, 1000, 14, 15, 30, 30, 64, 0, 300, 0},
+	experimentalMin = {0, 0, 130, 220, 5.5, 7, 1000, -16, -45, 0, 10, 64, 75, 65, 13},
+	experimentalMax = {0, 0, 170, 760, 2.5, 13, 1000, 14, 15, 30, 30, 64, 35, 25, 7},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1},
 }

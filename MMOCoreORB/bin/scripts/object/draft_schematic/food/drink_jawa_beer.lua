@@ -48,11 +48,12 @@ object_draft_schematic_food_drink_jawa_beer = object_draft_schematic_food_shared
    customObjectName = "Jawa Beer",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 4, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_food.iff",
+   
    xpType = "crafting_general", 
-   xp = 150, 
+   xp = 70, 
 
    assemblySkill = "general_assembly", 
    experimentingSkill = "general_experimentation", 

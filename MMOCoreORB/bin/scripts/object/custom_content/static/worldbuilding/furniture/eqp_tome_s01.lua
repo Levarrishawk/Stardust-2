@@ -1,1 +1,0 @@
-object_static_worldbuilding_furniture_eqp_tome_s01 = object_static_worldbuilding_furniture_shared_eqp_tome_s01:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_furniture_eqp_tome_s01, "object/static/worldbuilding/furniture/eqp_tome_s01.iff")

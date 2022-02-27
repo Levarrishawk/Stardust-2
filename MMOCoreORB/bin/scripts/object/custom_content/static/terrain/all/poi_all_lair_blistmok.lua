@@ -1,1 +1,0 @@
-object_static_terrain_all_poi_all_lair_blistmok = object_static_terrain_all_shared_poi_all_lair_blistmok:new {}ObjectTemplates:addTemplate(object_static_terrain_all_poi_all_lair_blistmok, "object/static/terrain/all/poi_all_lair_blistmok.iff")

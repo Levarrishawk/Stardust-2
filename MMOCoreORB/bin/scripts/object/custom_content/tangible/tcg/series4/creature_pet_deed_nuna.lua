@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series4_creature_pet_deed_nuna = object_tangible_tcg_series4_shared_creature_pet_deed_nuna:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series4_creature_pet_deed_nuna, "object/tangible/tcg/series4/creature_pet_deed_nuna.iff")

@@ -48,10 +48,11 @@ object_draft_schematic_structure_city_garage_corellia = object_draft_schematic_s
 	customObjectName = "Deed for: Corellia Garage",
 
 	craftingToolTab = 1024, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 24,
 	size = 1,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 1,
+	factoryCrateType = "object/factory/factory_crate_installation.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 6075,
 

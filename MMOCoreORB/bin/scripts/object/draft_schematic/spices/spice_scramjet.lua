@@ -48,9 +48,10 @@ object_draft_schematic_spices_spice_scramjet = object_draft_schematic_spices_sha
    customObjectName = "Scramjet",
 
    craftingToolTab = 4, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 10, 
    size = 1, 
-
+   factoryCrateType = "object/factory/factory_crate_food.iff",
+   
    xpType = "crafting_spice", 
    xp = 80, 
 

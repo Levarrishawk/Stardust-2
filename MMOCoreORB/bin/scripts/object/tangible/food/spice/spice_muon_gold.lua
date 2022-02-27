@@ -59,7 +59,7 @@ object_tangible_food_spice_spice_muon_gold = object_tangible_food_spice_shared_s
 	quantityMin = 0,
 	quantityMax = 0,
 
-	modifiers = { "action", 500, "health" , 500 },
+	modifiers = { "mind", 500, "focus" , 500, "willpower", 500 },
 
 	buffName = "muon_gold",
 	buffCRC = 0,

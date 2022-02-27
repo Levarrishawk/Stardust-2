@@ -1,1 +1,0 @@
-object_static_structure_military_poi_all_force_bandit_fence_8m = object_static_structure_military_shared_poi_all_force_bandit_fence_8m:new {}ObjectTemplates:addTemplate(object_static_structure_military_poi_all_force_bandit_fence_8m, "object/static/structure/military/poi_all_force_bandit_fence_8m.iff")

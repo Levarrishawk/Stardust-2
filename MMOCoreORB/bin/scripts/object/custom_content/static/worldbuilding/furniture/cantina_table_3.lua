@@ -1,1 +1,0 @@
-object_static_worldbuilding_furniture_cantina_table_3 = object_static_worldbuilding_furniture_shared_cantina_table_3:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_furniture_cantina_table_3, "object/static/worldbuilding/furniture/cantina_table_3.iff")

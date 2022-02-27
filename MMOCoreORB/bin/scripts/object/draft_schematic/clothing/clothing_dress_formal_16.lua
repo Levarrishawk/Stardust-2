@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_dress_formal_16 = object_draft_schemati
    customObjectName = "Cloaked Dress",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 22, 
    size = 4, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 100, 

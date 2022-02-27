@@ -1,5 +1,0 @@
-object_mobile_dressed_rebel_restuss_commando_leader = object_mobile_shared_dressed_rebel_restuss_commando_leader:new {
-
-}
-
-ObjectTemplates:addTemplate(object_mobile_dressed_rebel_restuss_commando_leader, "object/mobile/dressed_rebel_restuss_commando_leader.iff")

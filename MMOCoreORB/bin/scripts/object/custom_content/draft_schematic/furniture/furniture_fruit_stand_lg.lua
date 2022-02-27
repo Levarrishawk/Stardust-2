@@ -1,5 +1,0 @@
-object_draft_schematic_furniture_furniture_fruit_stand_lg = object_draft_schematic_furniture_shared_furniture_fruit_stand_lg:new {
-
-}
-
-ObjectTemplates:addTemplate(object_draft_schematic_furniture_furniture_fruit_stand_lg, "object/draft_schematic/furniture/furniture_fruit_stand_lg.iff")

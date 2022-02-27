@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_armor_ris_chest_plate = object_draft_sc
    customObjectName = "R.I.S. Armor Chest Plate",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 45, 
    size = 1, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_armor", 
    xp = 1782, 

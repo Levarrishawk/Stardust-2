@@ -1,1 +1,0 @@
-object_mobile_derek_klivian = object_mobile_shared_derek_klivian:new {}ObjectTemplates:addTemplate(object_mobile_derek_klivian, "object/mobile/derek_klivian.iff")

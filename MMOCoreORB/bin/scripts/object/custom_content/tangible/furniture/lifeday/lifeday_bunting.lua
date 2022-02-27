@@ -1,5 +1,0 @@
-object_tangible_furniture_lifeday_lifeday_bunting = object_tangible_furniture_lifeday_shared_lifeday_bunting:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_lifeday_lifeday_bunting, "object/tangible/furniture/lifeday/lifeday_bunting.iff")

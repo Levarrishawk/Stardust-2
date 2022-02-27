@@ -1,1 +1,0 @@
-object_mobile_wampa_static = object_mobile_shared_wampa_static:new {}ObjectTemplates:addTemplate(object_mobile_wampa_static, "object/mobile/wampa_static.iff")

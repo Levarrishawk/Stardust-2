@@ -48,10 +48,11 @@ object_draft_schematic_furniture_furniture_chair_recliner = object_draft_schemat
 	customObjectName = "Reclining Chair",
 
 	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 19,
 	size = 2,
-	factoryCrateSize = 1000,
-
+	factoryCrateSize = 10,
+	factoryCrateType = "object/factory/factory_crate_furniture.iff",
+   
 	xpType = "crafting_structure_general",
 	xp = 440,
 
@@ -70,7 +71,7 @@ object_draft_schematic_furniture_furniture_chair_recliner = object_draft_schemat
 	resourceQuantities = {80, 20, 120},
 	contribution = {100, 100, 100},
 
-	targetTemplate = "object/tangible/furniture/all/frn_all_chair_recliner_hue_s1.iff",
+	targetTemplate = "object/tangible/furniture/all/frn_all_chair_recliner_s1.iff",
 
 	additionalTemplates = {}
 }

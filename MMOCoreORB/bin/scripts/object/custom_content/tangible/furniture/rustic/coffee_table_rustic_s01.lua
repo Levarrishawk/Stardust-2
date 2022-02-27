@@ -1,5 +1,0 @@
-object_tangible_furniture_rustic_coffee_table_rustic_s01 = object_tangible_furniture_rustic_shared_coffee_table_rustic_s01:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_rustic_coffee_table_rustic_s01, "object/tangible/furniture/rustic/coffee_table_rustic_s01.iff")

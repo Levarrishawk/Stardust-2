@@ -1,5 +1,0 @@
-object_tangible_loot_creature_loot_collections_meatlump_lint_04 = object_tangible_loot_creature_loot_collections_shared_meatlump_lint_04:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_creature_loot_collections_meatlump_lint_04, "object/tangible/loot/creature/loot/collections/meatlump_lint_04.iff")

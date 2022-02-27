@@ -1,5 +1,0 @@
-object_tangible_quest_talus_genetic_potential_tracking_device_04 = object_tangible_quest_shared_talus_genetic_potential_tracking_device_04:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_quest_talus_genetic_potential_tracking_device_04, "object/tangible/quest/talus_genetic_potential_tracking_device_04.iff")

@@ -1,5 +1,0 @@
-object_tangible_item_beast_converted_lava_flea_decoration = object_tangible_item_beast_shared_converted_lava_flea_decoration:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_item_beast_converted_lava_flea_decoration, "object/tangible/item/beast/converted_lava_flea_decoration.iff")

@@ -52,7 +52,7 @@ object_tangible_powerup_weapon_ranged_grip = object_tangible_powerup_weapon_shar
 	primary = {
 		{"attackSpeed", "Hair-Trigger", "cat_pup.pup_wpn_attack_speed"}, 
 		{"idealRange", "Ergonomic", "cat_pup.pup_wpn_range_mid"}, 
-  	--	{"actionAttackCost", "Lightened", "cat_pup.pup_wpn_attack_cost_action"},
+  		{"actionAttackCost", "Lightened", "cat_pup.pup_wpn_attack_cost_action"},
 		{"idealAccuracy", "Fitted Grip", "cat_pup.pup_wpn_range_attack_mod_mid"}
 	},
 
@@ -60,7 +60,7 @@ object_tangible_powerup_weapon_ranged_grip = object_tangible_powerup_weapon_shar
 		{"maxDamage", "Aiming", "cat_pup.pup_wpn_damage_max"}, 
 		{"maxRangeAccuracy", "Steadying", "cat_pup.pup_wpn_range_attack_mod_max"}, 
 		{"woundsRatio", "Reckoning", "cat_pup.pup_wpn_wound_chance"}, 
-	--	{"healthAttackCost", "Recoil-Deadening", "cat_pup.pup_wpn_attack_cost_health"}
+		{"healthAttackCost", "Recoil-Deadening", "cat_pup.pup_wpn_attack_cost_health"}
 	},
 
 	numberExperimentalProperties = {1, 1, 1, 1},

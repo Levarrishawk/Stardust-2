@@ -48,9 +48,10 @@ object_draft_schematic_chemistry_medpack_disease_action_c = object_draft_schemat
 	customObjectName = "Action Disease Delivery Unit - C",
 
 	craftingToolTab = 64, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 1,
+	complexity = 50,
 	size = 3,
-	factoryCrateSize = 1000,
+	factoryCrateSize = 50,
+	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
 	xp = 100,

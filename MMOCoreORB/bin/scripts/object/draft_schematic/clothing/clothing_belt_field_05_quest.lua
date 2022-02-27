@@ -48,8 +48,9 @@ object_draft_schematic_clothing_clothing_belt_field_05_quest = object_draft_sche
    customObjectName = "Demolitionist\'s Belt",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 1, 
+   complexity = 16, 
    size = 1, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 285, 

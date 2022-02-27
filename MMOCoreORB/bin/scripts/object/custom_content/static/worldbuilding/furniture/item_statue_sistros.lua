@@ -1,1 +1,0 @@
-object_static_worldbuilding_furniture_item_statue_sistros = object_static_worldbuilding_furniture_shared_item_statue_sistros:new {}ObjectTemplates:addTemplate(object_static_worldbuilding_furniture_item_statue_sistros, "object/static/worldbuilding/furniture/item_statue_sistros.iff")

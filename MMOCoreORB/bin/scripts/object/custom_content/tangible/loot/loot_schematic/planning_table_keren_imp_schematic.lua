@@ -1,5 +1,0 @@
-object_tangible_loot_loot_schematic_planning_table_keren_imp_schematic = object_tangible_loot_loot_schematic_shared_planning_table_keren_imp_schematic:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_loot_loot_schematic_planning_table_keren_imp_schematic, "object/tangible/loot/loot/schematic/planning_table_keren_imp_schematic.iff")

@@ -1,3 +1,0 @@
-object_building_general_corellia_greck_hq = object_building_general_shared_corellia_greck_hq:new {
-}
-ObjectTemplates:addTemplate(object_building_general_corellia_greck_hq, "object/building/general/corellia_greck_hq.iff")

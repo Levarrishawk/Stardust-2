@@ -1,5 +1,0 @@
-
-object_building_player_city_city_imperial_statue = object_building_player_city_shared_city_imperial_statue:new {
-
-}
-ObjectTemplates:addTemplate(object_building_player_city_city_imperial_statue, "object/building/player/city/city_imperial_statue.iff")

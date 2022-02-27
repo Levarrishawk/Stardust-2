@@ -1,5 +1,0 @@
-
-object_tangible_tcg_series5_combine_object_vader_statuette = object_tangible_tcg_series5_shared_combine_object_vader_statuette:new {
-
-}
-ObjectTemplates:addTemplate(object_tangible_tcg_series5_combine_object_vader_statuette, "object/tangible/tcg/series5/combine_object_vader_statuette.iff")

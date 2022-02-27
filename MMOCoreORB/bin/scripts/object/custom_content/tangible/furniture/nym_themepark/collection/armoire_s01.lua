@@ -1,5 +1,0 @@
-object_tangible_furniture_nym_themepark_collection_armoire_s01 = object_tangible_furniture_nym_themepark_collection_shared_armoire_s01:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_nym_themepark_collection_armoire_s01, "object/tangible/furniture/nym_themepark/collection/armoire_s01.iff")

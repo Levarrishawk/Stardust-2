@@ -1,5 +1,0 @@
-object_tangible_furniture_tatooine_uber_basket_holder = object_tangible_furniture_tatooine_shared_uber_basket_holder:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_tatooine_uber_basket_holder, "object/tangible/furniture/tatooine/uber_basket_holder.iff")

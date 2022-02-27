@@ -1,5 +1,0 @@
-object_tangible_furniture_decorative_event_lifeday07_plant = object_tangible_furniture_decorative_shared_event_lifeday07_plant:new {
-
-}
-
-ObjectTemplates:addTemplate(object_tangible_furniture_decorative_event_lifeday07_plant, "object/tangible/furniture/decorative/event_lifeday07_plant.iff")

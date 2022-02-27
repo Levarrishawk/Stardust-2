@@ -1,1 +1,0 @@
-object_tangible_dungeon_mustafar_valley_battlefield_demo_charge_medium = object_tangible_dungeon_mustafar_valley_battlefield_shared_demo_charge_medium:new {}ObjectTemplates:addTemplate(object_tangible_dungeon_mustafar_valley_battlefield_demo_charge_medium, "object/tangible/dungeon/mustafar/valley_battlefield/demo_charge_medium.iff")
