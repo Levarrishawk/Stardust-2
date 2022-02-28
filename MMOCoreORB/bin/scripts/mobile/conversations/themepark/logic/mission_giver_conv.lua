@@ -474,3 +474,6 @@ createMissionGiverConvoTemplate("megan_drlar_mission_giver_convotemplate","megan
 createMissionGiverConvoTemplate("ruwan_tokai_mission_giver_convotemplate","ruwan_tokai_mission_giver_conv_handler")
 createMissionGiverConvoTemplate("vraker_orde_mission_giver_convotemplate","vraker_orde_mission_giver_conv_handler")
 createMissionGiverConvoTemplate("yith_seenath_mission_giver_convotemplate","yith_seenath_mission_giver_conv_handler")
+
+-- Lothal
+createMissionGiverConvoTemplate("theme_park_lothal_mission_giver_convotemplate", "theme_park_lothal_mission_giver_conv_handler")

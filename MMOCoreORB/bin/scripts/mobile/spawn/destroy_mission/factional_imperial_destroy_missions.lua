@@ -152,6 +152,14 @@ factional_imperial_destroy_missions = {
 			maxDifficulty = 27,
 			size = 25,
 		},
+		{
+			lairTemplateName = "global_rebel_light_jedi_knight_camp_rebel_large_theater",
+			minDifficulty = 120,
+			maxDifficulty = 300,
+			size = 25,
+		},
+
+
 	}
 }
 

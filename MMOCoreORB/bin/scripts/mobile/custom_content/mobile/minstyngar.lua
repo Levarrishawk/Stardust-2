@@ -1,0 +1,40 @@
+minstyngar = Creature:new {
+	customName = "Minstyngar",
+	socialGroup = "townsperson",
+	level = 400,
+	chanceHit = 500,
+	damageMin = 1800,
+	damageMax = 3600,
+	baseXp = 79336,
+	baseHAM = 2050000,
+	baseHAMmax = 2200000,
+	armor = 1,
+	resists = {45,30,45,50,40,30,35,45,35},
+	meatType = "meat_carnivore",
+	meatAmount = 1000,
+	hideType = "hide_leathery",
+	hideAmount = 870,
+	boneType = "bone_mammal",
+	boneAmount = 805,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 30,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = PACK + KILLER,
+	optionsBitmask = 128,
+	diet = CARNIVORE,
+	scale = 1,
+	templates = {"object/mobile/minstyngar.iff"},
+	lootGroups = {},
+	weapons = {},
+	conversationTemplate = "",
+	attacks = {
+	    {"creatureareaknockdown","knockdownChance=90"},
+		{"creatureareadisease","stateAccuracyBonus=100"},
+		{"dizzyattack","stateAccuracyBonus=100"},
+		{"strongpoison","stateAccuracyBonus=100"},
+		{"creatureareapoison","stateAccuracyBonus=100"}
+	}
+}
+
+CreatureTemplates:addCreatureTemplate(minstyngar, "minstyngar")

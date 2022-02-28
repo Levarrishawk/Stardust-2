@@ -1,0 +1,7 @@
+includeFile("moraband/npcs/archaeologist_leader.lua")
+includeFile("moraband/npcs/moraband_bunker_protocol_droid.lua")
+includeFile("moraband/npcs/reltha_aiden.lua")
+includeFile("moraband/npcs/bex_delata.lua")
+includeFile("moraband/npcs/omor_rikan.lua")
+includeFile("moraband/npcs/taelan_delar.lua")
+includeFile("moraband/npcs/bray_terex.lua")

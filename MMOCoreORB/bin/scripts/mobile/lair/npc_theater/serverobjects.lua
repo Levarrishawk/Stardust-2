@@ -260,3 +260,7 @@ includeFile("lair/npc_theater/yavin4_stranded_imperial_patrol_imperial_medium_th
 includeFile("lair/npc_theater/yavin4_stranded_rebel_base_rebel_medium_theater.lua")
 includeFile("lair/npc_theater/yavin4_stranded_rebel_patrol_rebel_medium_theater.lua")
 
+--Custom DJK/LJK high level faction missions
+includeFile("lair/npc_theater/global_rebel_light_jedi_knight_camp_rebel_large_theater.lua")
+includeFile("lair/npc_theater/global_imperial_dark_jedi_knight_camp_imperial_large_theater.lua")
+--End Custom DJK/LJK Missions

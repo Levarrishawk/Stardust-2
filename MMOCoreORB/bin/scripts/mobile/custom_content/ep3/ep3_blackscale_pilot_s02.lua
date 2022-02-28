@@ -1,0 +1,37 @@
+ep3_blackscale_pilot_s02 = Creature:new {
+	customName = "Blackscale Pilot",
+	randomNameType = NAME_GENERIC_TAG,
+	socialGroup = "trandoshan",
+	faction = "",
+	level = 60,
+	chanceHit = 0.60,
+	damageMin = 400,
+	damageMax = 600,
+	baseXp = 7500,
+	baseHAM = 10000,
+	baseHAMmax = 15000,
+	armor = 1,
+	resists = {40,40,80,60,35,55,75,40,-1},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = KILLER,
+	optionsBitmask = AIENABLED,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/ep3/ep3_blackscale_pilot_s02.iff"},
+	lootGroups = {},
+	weapons = {"pirate_weapons_heavy"},
+	conversationTemplate = "",
+	reactionStf = "@npc_reaction/slang",
+	attacks = merge(brawlermaster,marksmanmaster)
+}
+
+CreatureTemplates:addCreatureTemplate(ep3_blackscale_pilot_s02, "ep3_blackscale_pilot_s02")

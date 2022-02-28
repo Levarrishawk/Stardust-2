@@ -1,0 +1,37 @@
+oowroora = Creature:new {
+	customName = "Oowroora",
+	randomNameType = NAME_GENERIC_TAG,
+	socialGroup = "wookiee",
+	faction = "",
+	level = 105,
+	chanceHit = 1.05,
+	damageMin = 1150,
+	damageMax = 1470,
+	baseXp = 7500,
+	baseHAM = 80000,
+	baseHAMmax = 90000,
+	armor = 1,
+	resists = {60,60,60,60,60,60,60,60,-1},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	scale = 1.3,
+	pvpBitmask = NONE,
+	creatureBitmask = HERD,
+	optionsBitmask = AIENABLED + CONVERSABLE + INTERESTING,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/ep3/ep3_mad_wookiee_03.iff"},
+	lootGroups = {},
+	weapons = {"chewbacca_weapons"},
+	conversationTemplate = "oowroora",
+	attacks = merge(brawlermaster,marksmanmaster)
+}
+
+CreatureTemplates:addCreatureTemplate(oowroora, "oowroora")

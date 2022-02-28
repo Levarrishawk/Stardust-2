@@ -48,3 +48,14 @@ includeFile("outfits/serverobjects.lua")
 
 -- Custom content - Loads last to allow for overrides
 includeFile("../custom_scripts/mobile/serverobjects.lua")
+
+-- Infinity
+includeFile("infinity/serverobjects.lua")
+
+--New Content
+includeFile("custom_content/serverobjects.lua")
+includeFile("custom-dlswg/serverobjects.lua")
+includeFile("kaas/serverobjects.lua")
+includeFile("moraband/serverobjects.lua")
+includeFile("hutta/serverobjects.lua")
+includeFile("lothal/serverobjects.lua")

@@ -2,7 +2,7 @@ yavin4_world = {
 
 	lairSpawns = {
 		{
-			lairTemplateName = "yavin4_tanc_herd_neutral_none",
+			lairTemplateName = "yavin4_acklay_pack_neutral_none",
 			spawnLimit = -1,
 			minDifficulty = 2,
 			maxDifficulty = 11,
@@ -10,6 +10,15 @@ yavin4_world = {
 			weighting = 15,
 			size = 20
 		},
+		{
+      lairTemplateName = "yavin4_tanc_herd_neutral_none",
+      spawnLimit = -1,
+      minDifficulty = 2,
+      maxDifficulty = 11,
+      numberToSpawn = 0,
+      weighting = 15,
+      size = 20
+    },
 		{
 			lairTemplateName = "yavin4_skreeg_pack_neutral_none",
 			spawnLimit = -1,
@@ -795,11 +804,11 @@ yavin4_world = {
 		},
 		{
 			lairTemplateName = "yavin4_stintaril_prowler_neutral_none",
-			spawnLimit = 5,
-			minDifficulty = 83,
-			maxDifficulty = 87,
+			spawnLimit = -1,
+			minDifficulty = 140,
+			maxDifficulty = 200,
 			numberToSpawn = 0,
-			weighting = 3,
+			weighting = 9,
 			size = 25
 		},
 		{

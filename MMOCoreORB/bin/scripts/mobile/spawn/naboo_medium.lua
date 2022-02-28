@@ -488,6 +488,15 @@ naboo_medium = {
 			size = 20
 		},
 		{
+      lairTemplateName = "naboo_peko_peko_solitary_neutral_none",
+      spawnLimit = -1,
+      minDifficulty = 14,
+      maxDifficulty = 18,
+      numberToSpawn = 0,
+      weighting = 3,
+      size = 20
+    },  
+		{
 			lairTemplateName = "naboo_bark_mite_lair_neutral_boss_01",
 			spawnLimit = -1,
 			minDifficulty = 14,

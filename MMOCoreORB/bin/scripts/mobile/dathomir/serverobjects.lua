@@ -133,3 +133,10 @@ includeFile("dathomir/young_baz_nitch.lua")
 includeFile("dathomir/young_malkloc.lua")
 includeFile("dathomir/young_malkloc_plainswalker.lua")
 includeFile("dathomir/young_reptilian_flier.lua")
+
+-- New
+includeFile("dathomir/nandina.lua")
+includeFile("dathomir/lelli_hi.lua")
+includeFile("dathomir/kimaru.lua")
+includeFile("dathomir/suin_chalo.lua")
+includeFile("dathomir/mother_talzin.lua")

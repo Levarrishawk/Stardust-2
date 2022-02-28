@@ -248,6 +248,13 @@ endor_destroy_missions = {
 			maxDifficulty = 58,
 			size = 25,
 		},
+		-- This is for the 4th Jedi Knight Trial
+		{
+			lairTemplateName = "endor_blurrg_raptor_neutral_none",
+			minDifficulty = 22,
+			maxDifficulty = 26,
+			size = 25,
+		},
 	}
 }
 

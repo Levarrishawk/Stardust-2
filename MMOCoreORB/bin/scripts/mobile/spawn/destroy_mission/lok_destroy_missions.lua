@@ -152,6 +152,13 @@ lok_destroy_missions = {
 			maxDifficulty = 50,
 			size = 25,
 		},
+		-- This is for the 5th Jedi Knight Trial Mobs
+		{
+			lairTemplateName = "lok_kimogilla_pack2_neutral_none",
+			minDifficulty = 38,
+			maxDifficulty = 44,
+			size = 25,
+		},
 	}
 }
 

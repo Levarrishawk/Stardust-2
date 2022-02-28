@@ -1389,11 +1389,11 @@ naboo_world = {
 		},
 		{
 			lairTemplateName = "naboo_peko_peko_albatross_neutral_none",
-			spawnLimit = 5,
-			minDifficulty = 155,
-			maxDifficulty = 159,
+			spawnLimit = -1,
+			minDifficulty = 140,
+			maxDifficulty = 200,
 			numberToSpawn = 0,
-			weighting = 3,
+			weighting = 9,
 			size = 35
 		},
 	}

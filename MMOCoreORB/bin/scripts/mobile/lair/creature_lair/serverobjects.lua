@@ -585,3 +585,15 @@ includeFile("lair/creature_lair/yavin4_whisper_bird_lair2_neutral_medium.lua")
 includeFile("lair/creature_lair/yavin4_whisper_bird_lair_neutral_medium.lua")
 includeFile("lair/creature_lair/yavin4_whisper_bird_male_neutral_medium_boss_01.lua")
 
+--Dromund Kaas Mission Lairs
+includeFile("lair/creature_lair/kaas_kell_dragon_lair_small.lua")
+includeFile("lair/creature_lair/kaas_gundark_lair_small.lua")
+includeFile("lair/creature_lair/kaas_mailoc_lair_small.lua")
+includeFile("lair/creature_lair/kaas_sleen_lair_small.lua")
+includeFile("lair/creature_lair/kaas_vine_cat_lair_small.lua")
+includeFile("lair/creature_lair/kaas_ysalamiri_lair_small.lua")
+
+-- Moraband Lairs
+includeFile("lair/creature_lair/moraband_tukata_lair.lua")
+includeFile("lair/creature_lair/moraband_hssiss_lair.lua")
+includeFile("lair/creature_lair/moraband_klor_slug_lair.lua")

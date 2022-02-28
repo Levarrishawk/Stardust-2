@@ -121,6 +121,7 @@ createTrainerConversationTemplate("1hswordTrainerConvoTemplate", "trainer_1hswor
 createTrainerConversationTemplate("2hswordTrainerConvoTemplate", "trainer_2hsword")
 createTrainerConversationTemplate("architectTrainerConvoTemplate", "trainer_architect")
 createTrainerConversationTemplate("armorsmithTrainerConvoTemplate", "trainer_armorsmith")
+createTrainerConversationTemplate("armorweaverTrainerConvoTemplate", "trainer_armorweaver")
 createTrainerConversationTemplate("bioengineerTrainerConvoTemplate", "trainer_bioengineer")
 createTrainerConversationTemplate("bountyhunterTrainerConvoTemplate", "trainer_bountyhunter")
 createTrainerConversationTemplate("carbineTrainerConvoTemplate", "trainer_carbine")

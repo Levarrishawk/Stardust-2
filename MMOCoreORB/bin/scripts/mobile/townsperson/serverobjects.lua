@@ -49,3 +49,16 @@ includeFile("townsperson/teras_kasi_master.lua")
 includeFile("townsperson/twilek_slave.lua")
 includeFile("townsperson/vendor.lua")
 includeFile("townsperson/vrak.lua")
+
+--New Content
+includeFile("townsperson/chandriltech_security_guard.lua")
+includeFile("townsperson/chandriltech_security_guard_noaggro.lua")
+includeFile("townsperson/chandriltech_greeter.lua")
+includeFile("townsperson/chandrila_park_ranger.lua")
+includeFile("townsperson/senator.lua")
+includeFile("townsperson/elan_sleazebaggano.lua")
+includeFile("townsperson/hermione_bagwa.lua")
+includeFile("townsperson/chandriltech_contractor.lua")
+includeFile("townsperson/sabine_wren.lua")
+includeFile("townsperson/hera_syndulla.lua")
+

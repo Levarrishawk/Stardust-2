@@ -80,12 +80,12 @@ dantooine_destroy_missions = {
 			maxDifficulty = 36,
 			size = 25,
 		},
-		{
-			lairTemplateName = "dantooine_graul_mauler_lair_neutral_large_boss_01",
-			minDifficulty = 33,
-			maxDifficulty = 37,
-			size = 35,
-		},
+		-- {
+		-- 	lairTemplateName = "dantooine_graul_mauler_lair_neutral_large_boss_01",
+		-- 	minDifficulty = 33,
+		-- 	maxDifficulty = 37,
+		-- 	size = 35,
+		-- },
 		{
 			lairTemplateName = "dantooine_kunga_hunter_neutral_none",
 			minDifficulty = 35,
@@ -180,6 +180,13 @@ dantooine_destroy_missions = {
 			lairTemplateName = "dantooine_mokk_shaman_neutral_none",
 			minDifficulty = 58,
 			maxDifficulty = 62,
+			size = 25,
+		},
+		-- This is for the 7th Trial!
+		{
+			lairTemplateName = "dantooine_graul_frenzied_pack_neutral_none",
+			minDifficulty = 27,
+			maxDifficulty = 31,
 			size = 25,
 		},
 	}

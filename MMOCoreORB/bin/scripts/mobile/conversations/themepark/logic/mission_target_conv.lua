@@ -270,4 +270,7 @@ createMissionTargetConvoTemplate("ruwan_tokai_mission_target_convotemplate","ruw
 createMissionTargetConvoTemplate("vraker_orde_mission_target_convotemplate","vraker_orde_mission_target_conv_handler")
 createMissionTargetConvoTemplate("yith_seenath_mission_target_convotemplate","yith_seenath_mission_target_conv_handler")
 
+-- Lothal
+
+createMissionTargetConvoTemplate("theme_park_lothal_mission_target_convotemplate","theme_park_lothal_mission_target_conv_handler")
 
