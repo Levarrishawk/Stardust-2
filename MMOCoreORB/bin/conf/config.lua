@@ -135,8 +135,8 @@ Core3 = {
   "tutorial",   -- comma here
   --"umbra",
   --"watertabletest",
-  "yavin4"
- -- "chandrila",
+  "yavin4",
+  "chandrila"
   --"coruscant",
   --"jakku",
   --"kaas",
