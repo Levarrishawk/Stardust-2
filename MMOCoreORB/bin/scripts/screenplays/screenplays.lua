@@ -125,6 +125,7 @@ includeFile("dungeon/geonosian_lab/conversations/biogenicRandomConvoHandler.lua"
 includeFile("dungeon/geonosian_lab/conversations/biogenicScientistGeneric02ConvoHandler.lua")
 includeFile("dungeon/geonosian_lab/conversations/biogenicScientistHumanConvoHandler.lua")
 includeFile("dungeon/geonosian_lab/conversations/biogenicSecurityTechConvoHandler.lua")
+
 includeFile("dungeon/warren/warren.lua")
 includeFile("dungeon/warren/warrenComponents.lua")
 includeFile("dungeon/warren/convos/mirla_convo_handler.lua")
@@ -132,6 +133,7 @@ includeFile("dungeon/warren/convos/oevitt_piboi_convo_handler.lua")
 includeFile("dungeon/warren/convos/manx_try_convo_handler.lua")
 includeFile("dungeon/warren/convos/captain_heff_convo_handler.lua")
 includeFile("dungeon/warren/convos/warren_worker_convo_handler.lua")
+
 includeFile("dungeon/corellian_corvette/conversations/corvetteTicketTakerConvoHandler.lua")
 includeFile("dungeon/corellian_corvette/conversations/corvetteTicketGiverConvoHandler.lua")
 includeFile("dungeon/corellian_corvette/conversations/corvetteRepairDroidConvoHandler.lua")
@@ -676,3 +678,13 @@ includeFile("events/ServerEventAutomation.lua")
 
 -- Custom content - Loads last to allow for overrides
 includeFile("../custom_scripts/screenplays/screenplays.lua")
+includeFile("poi/corellia_rogue_corsec_base.lua")
+includeFile("sphelper.lua")
+--  Start all Stardust Content Here.
+
+-- Chandrila
+includeFile("cities/chandrila_hanna_city.lua")
+includeFile("cities/chandrila_nayli_outpost.lua")
+includeFile("cities/chandrila_chandriltech_facility.lua")
+
+
