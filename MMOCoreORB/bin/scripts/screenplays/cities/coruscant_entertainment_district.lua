@@ -216,7 +216,9 @@ function CoruscantEntertainmentScreenPlay:spawnSceneObjects()
   spawnSceneObject("coruscant", "object/static/structure/military/military_wall_weak_imperial_style_01.iff", -1815, 38, -47, 0, math.rad(15) )
   spawnSceneObject("coruscant", "object/static/structure/military/military_wall_weak_imperial_style_01.iff", -1825, 38, -38, 0, math.rad(45) )
   spawnSceneObject("coruscant", "object/static/structure/military/military_wall_weak_imperial_style_01.iff", -1828, 38, -25, 0, math.rad(75) )
-
+-- lower city shuttle
+  spawnSceneObject("coruscant", "object/building/player/city/shuttleport_corellia.iff", -5816, 0, -4833, 0, math.rad(180) )
+ 
 end
 
 function CoruscantEntertainmentScreenPlay:spawnMobiles()
