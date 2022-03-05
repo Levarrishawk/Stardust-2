@@ -41,7 +41,7 @@
 --this exception also makes it possible to release a modified version 
 
 
-object_tangible_wearables_robe_robe_jedi_dark_s03 = object_tangible_wearables_robe_shared_robe_jedi_dark_s03:new {
+object_tangible_wearables_robe_exar_cultist_hood_down = object_tangible_wearables_robe_shared_exar_cultist_hood_down:new {
 	playerRaces = { "object/creature/player/bothan_male.iff",
 				"object/creature/player/bothan_female.iff",
 				"object/creature/player/human_male.iff",
@@ -62,20 +62,19 @@ object_tangible_wearables_robe_robe_jedi_dark_s03 = object_tangible_wearables_ro
 				"object/creature/player/wookiee_female.iff",
 				"object/creature/player/zabrak_male.iff",
 				"object/creature/player/zabrak_female.iff" },
-
+				
 				skillMods = {
-            {"jedi_force_power_max", 350},
-            {"jedi_force_power_regen", 30},
-            {"force_power_dark", 10},
-            {"force_control_dark", 10},
-            {"force_manipulation_dark", 10}
+				   {"saber_block", 20},
+           {"jedi_toughness", 10},
+           {"lightsaber_toughness", 25},
+           {"forcelightning_accuracy", 25}
 				},
 
-				noTrade = 1,
+				noTrade = 0,
 
 				objectMenuComponent = "RobeObjectMenuComponent",
-				certificationsRequired = {"force_rank_dark_rank_05"},
+				--certificationsRequired = {"combat_jedi_light_04"},
 				attributeListComponent = "JediRobeAttributeListComponent",
 }
 
-ObjectTemplates:addTemplate(object_tangible_wearables_robe_robe_jedi_dark_s03, "object/tangible/wearables/robe/robe_jedi_dark_s03.iff")
+ObjectTemplates:addTemplate(object_tangible_wearables_robe_exar_cultist_hood_down, "object/tangible/wearables/robe/exar_cultist_hood_down.iff")

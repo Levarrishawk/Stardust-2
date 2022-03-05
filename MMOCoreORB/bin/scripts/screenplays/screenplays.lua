@@ -756,11 +756,11 @@ includeFile("poi/kaas_sith_facility.lua")
 
 
 
---includeFile("heroics/herald_of_the_prophets.lua")
---includeFile("heroics/prophet_kadann.lua")
---includeFile("heroics/prophet_cronal.lua")
---includeFile("poi/kaas_dark_force_shrine.lua")
---includeFile("poi/kaas_smuggler_starport.lua")
+includeFile("heroics/herald_of_the_prophets.lua")
+includeFile("heroics/prophet_kadann.lua")
+includeFile("heroics/prophet_cronal.lua")
+includeFile("poi/kaas_dark_force_shrine.lua")
+includeFile("poi/kaas_smuggler_starport.lua")
 
 --includeFile("heroics/chiss_hunter_herald.lua")
 --includeFile("heroics/chiss_hunter_herald_cave.lua")
