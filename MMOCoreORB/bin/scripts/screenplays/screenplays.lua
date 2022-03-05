@@ -764,9 +764,9 @@ includeFile("poi/kaas_smuggler_starport.lua")
 includeFile("heroics/chiss_hunter_herald.lua")
 includeFile("heroics/chiss_hunter_herald_cave.lua")
 
---includeFile("poi/kaas_city_ruins_mellichae.lua")
---includeFile("poi/kaas_abandon_separ_facility_necrosis.lua")
---includeFile("poi/kaas_vitiate_tomb.lua")
+includeFile("poi/kaas_city_ruins_mellichae.lua")
+includeFile("poi/kaas_abandon_separ_facility_necrosis.lua")
+includeFile("poi/kaas_vitiate_tomb.lua")
 
 
 
