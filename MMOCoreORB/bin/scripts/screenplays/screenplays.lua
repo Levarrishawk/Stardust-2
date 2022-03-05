@@ -753,14 +753,17 @@ includeFile("poi/kaas_city_ruins.lua")
 includeFile("poi/kaas_imperial_garrison.lua")
 includeFile("poi/kaas_rebel_cave.lua")
 includeFile("poi/kaas_sith_facility.lua")
-includeFile("poi/kaas_vitiate_tomb.lua")
+
+--includeFile("poi/kaas_vitiate_tomb.lua")
 
 includeFile("heroics/herald_of_the_prophets.lua")
 includeFile("heroics/prophet_kadann.lua")
 includeFile("heroics/prophet_cronal.lua")
 includeFile("heroics/chiss_hunter_herald.lua")
 includeFile("heroics/chiss_hunter_herald_cave.lua")
-includeFile("poi/kaas_city_ruins_mellichae.lua")
+
+--includeFile("poi/kaas_city_ruins_mellichae.lua")
+
 includeFile("poi/kaas_dark_force_shrine.lua")
 includeFile("poi/kaas_smuggler_starport.lua")
 includeFile("poi/kaas_abandon_separ_facility_necrosis.lua")
