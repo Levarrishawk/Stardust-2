@@ -136,8 +136,8 @@ Core3 = {
   --"umbra",
   --"watertabletest",
   "yavin4",
-  "chandrila",
-  "coruscant"
+  "chandrila"
+  --"coruscant"
   --"jakku",
   --"kaas",
   --"moraband",
