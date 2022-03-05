@@ -687,4 +687,6 @@ includeFile("cities/chandrila_hanna_city.lua")
 includeFile("cities/chandrila_nayli_outpost.lua")
 includeFile("cities/chandrila_chandriltech_facility.lua")
 
+--Coruscant
+includeFile("cities/coruscant_entertainment_district.lua")
 
