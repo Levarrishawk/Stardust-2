@@ -7,6 +7,7 @@ keren_racetrack_screenplay = RaceTrack:new {
 		debugMode = 0, -- 0 = off, 1 = print debug messages
 		planetName = "naboo", -- The planet the Track is on
 		badgeToAward=BDG_RACING_KEREN_CITY,  -- Badge to be awarded for best daily time
+		lootGroup="keren_track",   -- Loot Group for Speeder Reward
 		trackName="KERENRT",  -- Internal trackname , should be unique to the track
 		className="keren_racetrack_screenplay", -- Class name of this class
 		trackCheckpoint="@theme_park/racing/racing:keren_waypoint_name_checkpoint", --Waypoint names
