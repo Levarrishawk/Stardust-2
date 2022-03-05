@@ -1,3 +1,5 @@
+local ObjectManager = require("managers.object.object_manager")
+
 HannaCityScreenPlay = ScreenPlay:new {
 	numberOfActs = 1,
 
