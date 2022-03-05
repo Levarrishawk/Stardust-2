@@ -752,9 +752,10 @@ includeFile("poi/kaas_abandon_separ_facility.lua")
 includeFile("poi/kaas_city_ruins.lua")
 includeFile("poi/kaas_imperial_garrison.lua")
 includeFile("poi/kaas_rebel_cave.lua")
---[[
 includeFile("poi/kaas_sith_facility.lua")
 includeFile("poi/kaas_vitiate_tomb.lua")
+
+--[[
 includeFile("heroics/herald_of_the_prophets.lua")
 includeFile("heroics/prophet_kadann.lua")
 includeFile("heroics/prophet_cronal.lua")
