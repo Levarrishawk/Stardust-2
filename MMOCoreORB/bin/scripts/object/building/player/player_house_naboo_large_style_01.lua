@@ -44,7 +44,7 @@
 object_building_player_player_house_naboo_large_style_01 = object_building_player_shared_player_house_naboo_large_style_01:new {
 	lotSize = 5,
 	baseMaintenanceRate = 50,
-	allowedZones = {"dantooine", "naboo", "rori"},
+	allowedZones = {"dantooine", "lok", "tatooine", "naboo", "rori", "corellia", "talus", "chandrila", "kaas", "moraband", "hutta", "lothal"},
 	publicStructure = 0,
 	skillMods = {
 		{"private_medical_rating", 100},

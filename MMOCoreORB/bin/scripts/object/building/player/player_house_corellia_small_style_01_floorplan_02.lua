@@ -44,7 +44,7 @@
 object_building_player_player_house_corellia_small_style_01_floorplan_02 = object_building_player_shared_player_house_corellia_small_style_01_floorplan_02:new {
 	lotSize = 2,
 	baseMaintenanceRate = 16,
-	allowedZones = {"corellia", "talus"},
+	allowedZones = {"dantooine", "lok", "tatooine", "naboo", "rori", "corellia", "talus", "chandrila", "kaas", "moraband", "hutta", "lothal"},
 	publicStructure = 0,
 	skillMods = {
 		{"private_medical_rating", 100},
