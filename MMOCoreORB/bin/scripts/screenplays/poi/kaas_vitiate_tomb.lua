@@ -95,16 +95,15 @@ function KaasVitiateScreenPlay:notifySpawnArea(pActiveArea, pMovingObject)
         local pMob1 = spawnMobile("kaas", "sith_ghost", 0, 2.2, 0.0, 0.3, 0, 36000090)
         createObserver(OBJECTDESTRUCTION, "KaasVitiateScreenPlay", "notifyMob1Dead", pMob1)
         CreatureObject(pMob1):engageCombat(pMovingObject)
-        createEvent(300000, "KaasVitiateScreenPlay", "despawnMob1", pMob1, "")       
-        writeData("oMob1", pMob1:getObjectID())
-        
-        
-        
+        --writeData("pMob1", pMob1:getObjectID())
+        createEvent(300000, "KaasVitiateScreenPlay", "despawnMob1", pMob1, "")                     
+                       
         local pMob2 = spawnMobile("kaas", "sith_ghost", 0, -2.8, 0.0, -6.8, 0, 36000090)
         createObserver(OBJECTDESTRUCTION, "KaasVitiateScreenPlay", "notifyMob2Dead", pMob2)
         CreatureObject(pMob2):engageCombat(pMovingObject)
-        writeData("oMob2", pMob2:getObjectID())            
+        --writeData("pMob2", pMob2:getObjectID())            
         createEvent(300000, "KaasVitiateScreenPlay", "despawnMob2", pMob2, "")      
+        
       else 
         return 0
       end      
