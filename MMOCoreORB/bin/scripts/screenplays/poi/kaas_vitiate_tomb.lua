@@ -87,7 +87,27 @@ function KaasVitiateScreenPlay:notifySpawnArea(pActiveArea, pMovingObject)
     if (not SceneObject(pMovingObject):isPlayerCreature()) then 
       return 0
     else 
-      CreatureObject(pMovingObject):sendSystemMessage("Task Failed Successfully!") print("System Message Sent but to where?")
+      if (readData("KaasVitiateScreenPlay:spawnState") == 0) then
+        writeData("KaasVitiateScreenPlay:spawnState", 1)
+    
+        CreatureObject(pMovingObject):sendSystemMessage("Task Failed Successfully!") 
+        
+        local pMob1 = spawnMobile("kaas", "sith_ghost", 0, 2.2, 0.0, 0.3, 0, 36000090)
+        createObserver(OBJECTDESTRUCTION, "KaasVitiateScreenPlay", "notifyMob1Dead", pMob1)
+        ObjectManager.withCreatureObject(pMob1, function(oMob1)
+        writeData("oMob1", oMob1:getObjectID())
+        oMob1:engageCombat(pMovingObject)end)
+        createEvent(300000, "KaasVitiateScreenPlay", "despawnMob1", pMob1, "")
+        
+        local pMob2 = spawnMobile("kaas", "sith_ghost", 0, -2.8, 0.0, -6.8, 0, 36000090)
+        createObserver(OBJECTDESTRUCTION, "KaasVitiateScreenPlay", "notifyMob2Dead", pMob2)
+        ObjectManager.withCreatureObject(pMob2, function(oMob2)
+        writeData("oMob2", oMob2:getObjectID())
+        oMob2:engageCombat(pMovingObject)end)      
+        createEvent(300000, "KaasVitiateScreenPlay", "despawnMob2", pMob2, "")      
+      else 
+        return 0
+      end      
     end
   return 0
 end  
