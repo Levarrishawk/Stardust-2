@@ -703,6 +703,8 @@ function ChandrilTechScreenPlay:spawnMobiles()
   spawnMobile("chandrila", "at_st",600,-130,-50,52,90,35792167)
   spawnMobile("chandrila", "at_st",600,-130,-50,42,90,35792167)
   spawnMobile("chandrila", "at_st",600,-130,-50,32,90,35792167)
+  
+  writeData("ChandrilTechScreenPlay:spawnState",0)
 end
 
 
@@ -713,30 +715,18 @@ function ChandrilTechScreenPlay:spawnActiveArea1()
     local activeArea1 = LuaActiveArea(pSpawnArea1)
           activeArea1:setCellObjectID(35792151)
           activeArea1:setRadius(512)
-          createObserver(ENTEREDAREA, "ChandrilTechScreenPlay", "notifySpawnArea1", pSpawnArea1)
-          --createObserver(EXITEDAREA, "ChandrilTechScreenPlay", "notifySpawnAreaLeave", pSpawnArea1)
+          createObserver(ENTEREDAREA, "ChandrilTechScreenPlay", "notifySpawnArea1", pSpawnArea1)         
       end
 end
 
 function ChandrilTechScreenPlay:notifySpawnArea1(pActiveArea1, pMovingObject, pPlayer)
-  
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
-  end
-  
-  return ObjectManager.withCreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end
-    
-    if ((player:isImperial() or player:isRebel()or player:isNeutral())) then
-
-      player:sendSystemMessage("ATTENTION: Worker Revolt in Progress on Level Three.  Security to Level Three.")
-      player:playMusicMessage("sound/amb_alarm_air_raid.snd")
-      
-      end
-    return 0    
-  end)
+  else
+    CreatureObject(pMovingObject):sendSystemMessage("ATTENTION: Worker Revolt in Progress on Level Three.  Security to Level Three.")
+    CreatureObject(pMovingObject):playMusicMessage("sound/amb_alarm_air_raid.snd")
+  end 
+  return 0
 end
 
 function ChandrilTechScreenPlay:spawnActiveArea2()
@@ -747,29 +737,17 @@ function ChandrilTechScreenPlay:spawnActiveArea2()
           activeArea2:setCellObjectID(35792166)
           activeArea2:setRadius(512)
           createObserver(ENTEREDAREA, "ChandrilTechScreenPlay", "notifySpawnArea2", pSpawnArea2)
-          --createObserver(EXITEDAREA, "ChandrilTechScreenPlay", "notifySpawnAreaLeave", pSpawnArea1)
       end
 end
 
 function ChandrilTechScreenPlay:notifySpawnArea2(pActiveArea2, pMovingObject, pPlayer)
-  
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
-  end
-  
-  return ObjectManager.withCreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end
-    
-    if ((player:isImperial() or player:isRebel()or player:isNeutral())) then
-
-      player:sendSystemMessage("ATTENTION: Intruder Alert in Level Three Production Storage.  Security to Level Three Production Storage.")
-      player:playMusicMessage("sound/amb_alarm_air_raid.snd")
-      
-      end
-    return 0    
-  end)
+  else
+    CreatureObject(pMovingObject):sendSystemMessage("ATTENTION: Intruder Alert in Level Three Production Storage.  Security to Level Three Production Storage.")
+    CreatureObject(pMovingObject):playMusicMessage("sound/amb_alarm_air_raid.snd")
+  end 
+  return 0    
 end
 
 function ChandrilTechScreenPlay:spawnActiveArea3()
@@ -779,30 +757,18 @@ function ChandrilTechScreenPlay:spawnActiveArea3()
     local activeArea3 = LuaActiveArea(pSpawnArea3)
           activeArea3:setCellObjectID(35792157)
           activeArea3:setRadius(512)
-          createObserver(ENTEREDAREA, "ChandrilTechScreenPlay", "notifySpawnArea3", pSpawnArea3)
-          --createObserver(EXITEDAREA, "ChandrilTechScreenPlay", "notifySpawnAreaLeave", pSpawnArea1)
+          createObserver(ENTEREDAREA, "ChandrilTechScreenPlay", "notifySpawnArea3", pSpawnArea3)         
       end
 end
 
 function ChandrilTechScreenPlay:notifySpawnArea3(pActiveArea3, pMovingObject, pPlayer)
-  
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
-  end
-  
-  return ObjectManager.withCreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end
-    
-    if ((player:isImperial() or player:isRebel()or player:isNeutral())) then
-
-      player:sendSystemMessage("ATTENTION: Intruders have reached Secondary Elevator Shaft.  Security proceed to Secondary Elevator Shaft.")
-      player:playMusicMessage("sound/amb_alarm_air_raid.snd")
-      
-      end
-    return 0    
-  end)
+  else
+    CreatureObject(pMovingObject):sendSystemMessage("ATTENTION: Intruders have reached Secondary Elevator Shaft.  Security proceed to Secondary Elevator Shaft.")
+    CreatureObject(pMovingObject):playMusicMessage("sound/amb_alarm_air_raid.snd")
+  end 
+  return 0    
 end
 
 function ChandrilTechScreenPlay:spawnActiveArea4()
@@ -812,65 +778,51 @@ function ChandrilTechScreenPlay:spawnActiveArea4()
     local activeArea4 = LuaActiveArea(pSpawnArea4)
           activeArea4:setCellObjectID(35792171)
           activeArea4:setRadius(512)
-          createObserver(ENTEREDAREA, "ChandrilTechScreenPlay", "notifySpawnArea4", pSpawnArea4)
-          --createObserver(EXITEDAREA, "ChandrilTechScreenPlay", "notifySpawnAreaLeave", pSpawnArea1)
+          createObserver(ENTEREDAREA, "ChandrilTechScreenPlay", "notifySpawnArea4", pSpawnArea4)          
       end
 end
 
 function ChandrilTechScreenPlay:notifySpawnArea4(pActiveArea4, pMovingObject, pPlayer)
-  
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
-  end
-  
-  return ObjectManager.withCreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end
-    
-    if ((player:isImperial() or player:isRebel()or player:isNeutral()) and readData("ChandrilTechScreenPlay:spawnState") == 0) then
-      writeData("ChandrilTechScreenPlay:spawnState", 1)
-      player:sendSystemMessage("ATTENTION: Intruders have breached Mainframe Room.   Initiating Protocol 77.")
-      player:sendSystemMessage("ATTENTION: Protocol 77 Initiated.. Transmission Sent.. Initiating Data Wipe on Mainframes.")
-      player:playMusicMessage("sound/amb_alarm_air_raid.snd")
-           
-      local pMob1 = spawnMobile("chandrila", "jakku_black_trooper_1",600,-45.7,-50.0,116,-90,35792171)       
-      local pMob2 = spawnMobile("chandrila", "jakku_battle_droid",600,58.2,-20,27.4,0,35792156)
-      local pMob3 = spawnMobile("chandrila", "jakku_battle_droid",600,-27.1,-20,-0.6,-90,35792170)     
-      local pMob4 = spawnMobile("chandrila", "jakku_battle_droid",600,-55.1,-20,119,-90,35792171)
-      local pMob5 = spawnMobile("chandrila", "jakku_battle_droid",600,-55.1,-20,113,-90,35792171)
-      local pMob6 = spawnMobile("chandrila", "jakku_battle_droid",600,60,-20,59,90,35792157)
-      local pMob7 = spawnMobile("chandrila", "jakku_battle_droid",600,28,-20,61,135,35792151)
-      local pMob8 = spawnMobile("chandrila", "jakku_battle_droid",600,3.9,-20,66,-177,35792151)
-      local pMob9 = spawnMobile("chandrila", "jakku_battle_droid",600,3.3,-20,65,-90,35792151)
-      local pMob10 = spawnMobile("chandrila", "jakku_battle_droid",600,3.1,-20,52,-90,35792151)
-      local pMob11 = spawnMobile("chandrila", "jakku_battle_droid",600,19,-20,113,180,35792153)
-      local pMob12 = spawnMobile("chandrila", "jakku_battle_droid",600,-3.8,-12,63,58,35792132)
-      local pMob13 = spawnMobile("chandrila", "jakku_battle_droid",600,-10.4,-12,80.8,-141,35792132)
-      local pMob14 = spawnMobile("chandrila", "jakku_battle_droid",600,29.8,-12,63,90,35792131)
-      local pMob15 = spawnMobile("chandrila", "jakku_battle_droid",600,29.8,-12,56.3,90,35792131)
-      local pMob16 = spawnMobile("chandrila", "jakku_battle_droid",600,58.8,-12,58,-90,35792131)
-      local pMob17 = spawnMobile("chandrila", "jakku_battle_droid",600,10.2,-12,26.4,90,35792128)
-      local pMob18 = spawnMobile("chandrila", "jakku_battle_droid",600,19.6,-12,28.6,90,35792128)
-      local pMob19 = spawnMobile("chandrila", "jakku_battle_droid",600,58.9,-50,37.7,0,35792159)
-      local pMob20 = spawnMobile("chandrila", "jakku_battle_droid",600,66.3,-50,37.7,0,35792159)
-      local pMob21 = spawnMobile("chandrila", "jakku_battle_droid",600,58.9,-50,64.9,180,35792159)
-      local pMob21 = spawnMobile("chandrila", "jakku_battle_droid",600,66.3,-50,64.9,180,35792159)
+  else    
+    if (readData("ChandrilTechScreenPlay:spawnState") == 0) then
+       writeData("ChandrilTechScreenPlay:spawnState", 1) 
+       CreatureObject(pMovingObject):sendSystemMessage("ATTENTION: Intruders have breached Mainframe Room.   Initiating Protocol 77.")
+       CreatureObject(pMovingObject):sendSystemMessage("Protocol 77 Initiated.. Transmission Sent.. Initiating Data Wipe on Mainframes.")    
+       CreatureObject(pMovingObject):playMusicMessage("sound/amb_alarm_air_raid.snd")
       
-      spatialChat(pMob1, "Protocol 77 has been initiated.  This unit has been directed to terminate all sentients!")
-          
-      createObserver(OBJECTDESTRUCTION, "ChandrilTechScreenPlay", "notifyMob1Dead", pMob1)
-      ObjectManager.withCreatureObject(pMob1, function(oMob1)
-      writeData("oMob1", oMob1:getObjectID())
-      oMob1:engageCombat(player)end)
-      createEvent(300000, "ChandrilTechScreenPlay", "despawnMob1", pMob1, "")
-    else      
-      player:sendSystemMessage("ATTENTION: Intruders have breached Mainframe Room.   Initiating Protocol 77.")
-      player:sendSystemMessage("ERROR:  Protocol 77 already initiated..   Critical Failure..  Please contact maintenance.")
-      player:playMusicMessage("sound/amb_alarm_air_raid.snd")
+        local pMob1 = spawnMobile("chandrila", "jakku_black_trooper_1",600,-45.7,-50.0,116,-90,35792171)       
+        local pMob2 = spawnMobile("chandrila", "jakku_battle_droid",600,58.2,-20,27.4,0,35792156)
+        local pMob3 = spawnMobile("chandrila", "jakku_battle_droid",600,-27.1,-20,-0.6,-90,35792170)     
+        local pMob4 = spawnMobile("chandrila", "jakku_battle_droid",600,-55.1,-20,119,-90,35792171)
+        local pMob5 = spawnMobile("chandrila", "jakku_battle_droid",600,-55.1,-20,113,-90,35792171)
+        local pMob6 = spawnMobile("chandrila", "jakku_battle_droid",600,60,-20,59,90,35792157)
+        local pMob7 = spawnMobile("chandrila", "jakku_battle_droid",600,28,-20,61,135,35792151)
+        local pMob8 = spawnMobile("chandrila", "jakku_battle_droid",600,3.9,-20,66,-177,35792151)
+        local pMob9 = spawnMobile("chandrila", "jakku_battle_droid",600,3.3,-20,65,-90,35792151)
+        local pMob10 = spawnMobile("chandrila", "jakku_battle_droid",600,3.1,-20,52,-90,35792151)
+        local pMob11 = spawnMobile("chandrila", "jakku_battle_droid",600,19,-20,113,180,35792153)
+        local pMob12 = spawnMobile("chandrila", "jakku_battle_droid",600,-3.8,-12,63,58,35792132)
+        local pMob13 = spawnMobile("chandrila", "jakku_battle_droid",600,-10.4,-12,80.8,-141,35792132)
+        local pMob14 = spawnMobile("chandrila", "jakku_battle_droid",600,29.8,-12,63,90,35792131)
+        local pMob15 = spawnMobile("chandrila", "jakku_battle_droid",600,29.8,-12,56.3,90,35792131)
+        local pMob16 = spawnMobile("chandrila", "jakku_battle_droid",600,58.8,-12,58,-90,35792131)
+        local pMob17 = spawnMobile("chandrila", "jakku_battle_droid",600,10.2,-12,26.4,90,35792128)
+        local pMob18 = spawnMobile("chandrila", "jakku_battle_droid",600,19.6,-12,28.6,90,35792128)
+        local pMob19 = spawnMobile("chandrila", "jakku_battle_droid",600,58.9,-50,37.7,0,35792159)
+        local pMob20 = spawnMobile("chandrila", "jakku_battle_droid",600,66.3,-50,37.7,0,35792159)
+        local pMob21 = spawnMobile("chandrila", "jakku_battle_droid",600,58.9,-50,64.9,180,35792159)
+        local pMob21 = spawnMobile("chandrila", "jakku_battle_droid",600,66.3,-50,64.9,180,35792159)    
+             
+      spatialChat(pMob1, "Protocol 77 has been initiated.  This unit has been directed to terminate all sentients!") 
+      CreatureObject(pMob1):engageCombat(pMovingObject)           
+      return 0
+    else
+      return 0      
     end
-    return 0    
-  end)
+  end 
+  return 0   
 end
 
 function ChandrilTechScreenPlay:spawnActiveArea5()
@@ -915,23 +867,15 @@ end
 
 function ChandrilTechScreenPlay:notifySpawnArea6(pActiveArea6, pMovingObject, pPlayer)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+     CreatureObject(pMovingObject):sendSystemMessage("WARNING: Dioxis Gas Hazard Ahead!  Environmental Protection Required for all Organics")
+     CreatureObject(pMovingObject):playMusicMessage("sound/amb_alarm_air_raid.snd")
+     
+     return 0
   end
-  
-  return ObjectManager.withCreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end
-    
-    if ((player:isImperial() or player:isRebel()or player:isNeutral())) then
-
-      player:sendSystemMessage("WARNING: Dioxis Gas Hazard Ahead!  Environmental Protection Required for all Organics")
-      player:playMusicMessage("sound/amb_alarm_air_raid.snd")
-      
-      end
-    return 0    
-  end)
+  return 0         
 end
 
 function ChandrilTechScreenPlay:spawnActiveArea7()
@@ -948,23 +892,15 @@ end
 
 function ChandrilTechScreenPlay:notifySpawnArea7(pActiveArea6, pMovingObject, pPlayer)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
-  end
-  
-  return ObjectManager.withCreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end
     
-    if ((player:isImperial() or player:isRebel()or player:isNeutral())) then
-
-      player:sendSystemMessage("WARNING: Dioxis Gas Hazard Ahead!  Environmental Protection Required for all Organics")
-      player:playMusicMessage("sound/amb_alarm_air_raid.snd")
-      
-      end
-    return 0    
-  end)
+  else
+    CreatureObject(pMovingObject):sendSystemMessage("WARNING: Dioxis Gas Hazard Ahead!  Environmental Protection Required for all Organics")
+    CreatureObject(pMovingObject):playMusicMessage("sound/amb_alarm_air_raid.snd")
+    return 0
+  end   
+  return 0     
 end
 
 
