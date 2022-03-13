@@ -94,16 +94,16 @@ function KaasVitiateScreenPlay:notifySpawnArea(pActiveArea, pMovingObject)
         
         local pMob1 = spawnMobile("kaas", "sith_ghost", 0, 2.2, 0.0, 0.3, 0, 36000090)
         createObserver(OBJECTDESTRUCTION, "KaasVitiateScreenPlay", "notifyMob1Dead", pMob1)
-        ObjectManager.withCreatureObject(pMob1, function(oMob1)
-        writeData("oMob1", oMob1:getObjectID())
-        oMob1:engageCombat(pMovingObject)end)
-        createEvent(300000, "KaasVitiateScreenPlay", "despawnMob1", pMob1, "")
+        CreatureObject(pMob1):engageCombat(pMovingObject)
+        createEvent(300000, "KaasVitiateScreenPlay", "despawnMob1", pMob1, "")       
+        writeData("oMob1", pMob1:getObjectID())
+        
+        
         
         local pMob2 = spawnMobile("kaas", "sith_ghost", 0, -2.8, 0.0, -6.8, 0, 36000090)
         createObserver(OBJECTDESTRUCTION, "KaasVitiateScreenPlay", "notifyMob2Dead", pMob2)
-        ObjectManager.withCreatureObject(pMob2, function(oMob2)
-        writeData("oMob2", oMob2:getObjectID())
-        oMob2:engageCombat(pMovingObject)end)      
+        CreatureObject(pMob2):engageCombat(pMovingObject)
+        writeData("oMob2", pMob2:getObjectID())            
         createEvent(300000, "KaasVitiateScreenPlay", "despawnMob2", pMob2, "")      
       else 
         return 0
@@ -111,45 +111,6 @@ function KaasVitiateScreenPlay:notifySpawnArea(pActiveArea, pMovingObject)
     end
   return 0
 end  
-
-
-
---[[
-function KaasVitiateScreenPlay:notifySpawnArea(pActiveArea, pMovingObject)
-  
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
-    return 0
-  end
-  
-  if (not SceneObject(pMovingObject):isPlayerCreature()) then
-    return 0
-  end
-  
-  return SceneObject(pMovingObject, function(player)
-   
-    if (readData("KaasVitiateScreenPlay:spawnState") == 0) then
-      writeData("KaasVitiateScreenPlay:spawnState", 1)
-      
-      player:sendSystemMessage("Your intrusion into the tomb has awoken spirits of ancient Sith!")
-      
-      local pMob1 = spawnMobile("kaas", "sith_ghost", 0, 2.2, 0.0, 0.3, 0, 36000090)
-      createObserver(OBJECTDESTRUCTION, "KaasVitiateScreenPlay", "notifyMob1Dead", pMob1)
-      ObjectManager.withCreatureObject(pMob1, function(oMob1)
-      writeData("oMob1", oMob1:getObjectID())
-      oMob1:engageCombat(player)end)
-      createEvent(300000, "KaasVitiateScreenPlay", "despawnMob1", pMob1, "")
-    
-      local pMob2 = spawnMobile("kaas", "sith_ghost", 0, -2.8, 0.0, -6.8, 0, 36000090)
-      createObserver(OBJECTDESTRUCTION, "KaasVitiateScreenPlay", "notifyMob2Dead", pMob2)
-      ObjectManager.withCreatureObject(pMob2, function(oMob2)
-      writeData("oMob2", oMob2:getObjectID())
-      oMob2:engageCombat(player)end)      
-      createEvent(300000, "KaasVitiateScreenPlay", "despawnMob2", pMob2, "")
-      end
-    return    
-  end)
-end
---]]
 
 
 function KaasVitiateScreenPlay:despawnMob1(pMob1, pPlayer)
