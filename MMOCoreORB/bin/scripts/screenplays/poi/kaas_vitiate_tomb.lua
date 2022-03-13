@@ -87,7 +87,7 @@ function KaasVitiateScreenplay:notifySpawnArea(pActiveArea, pMovingObject)
     if (not SceneObject(pMovingObject):isPlayerCreature()) then 
       return 0
     else 
-      CreatureObject(pMovingObject):sendSystemMessage("Task Failed Successfully!")
+      CreatureObject(pMovingObject):sendSystemMessage("Task Failed Successfully!") print("System Message Sent but to where?")
     end
   return 0
 end  
