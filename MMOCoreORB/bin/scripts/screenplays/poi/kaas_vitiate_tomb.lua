@@ -87,7 +87,11 @@ function KaasVitiateScreenPlay:notifySpawnArea(pActiveArea, pMovingObject)
     return 0
   end
   
-  return ObjectManager.withCreatureObject(pMovingObject, function(player)
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
+    return 0
+  end
+  
+  return SceneObject(pMovingObject, function(player)
     if (player:isAiAgent()) then
       return 0
     end
