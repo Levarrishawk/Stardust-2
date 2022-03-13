@@ -82,25 +82,17 @@ function KaasVitiateScreenPlay:spawnActiveArea1()
 end
 
 
-function KaasVitiateScreenPlay:notifySpawnArea(pActiveArea, pMovingObject)
-  
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
-    return 0
-  end
-  
-  return ObjectManager.withCreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
+
+function KaasVitiateScreenplay:notifySpawnArea(pActiveArea, pMovingObject)
+    if (not SceneObject(pMovingObject):isPlayerCreature()) then 
       return 0
+    else 
+      CreatureObject(pMovingObject):sendSystemMessage("Task Failed Successfully!")
     end
-    
-    if (player:isImperial() or player:isRebel()or player:isNeutral()) then
-      player:sendSystemMessage("Your intrusion into the tomb has awoken spirits of ancient Sith!")
-      spawnMobile("kaas", "sith_ghost", 1, 2.2, 0.0, 0.3, 0, 36000090)
-      spawnMobile("kaas", "sith_ghost", 1, -2.8, 0.0, -6.8, 0, 36000090)
-      end
-    return 0    
-  end)
-end
+  return 0
+end  
+
+
 
 --[[
 function KaasVitiateScreenPlay:notifySpawnArea(pActiveArea, pMovingObject)
