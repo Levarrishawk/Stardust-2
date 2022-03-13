@@ -83,7 +83,7 @@ end
 
 
 
-function KaasVitiateScreenplay:notifySpawnArea(pActiveArea, pMovingObject)
+function KaasVitiateScreenPlay:notifySpawnArea(pActiveArea, pMovingObject)
     if (not SceneObject(pMovingObject):isPlayerCreature()) then 
       return 0
     else 
