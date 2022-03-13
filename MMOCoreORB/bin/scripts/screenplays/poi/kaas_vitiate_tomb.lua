@@ -81,6 +81,28 @@ function KaasVitiateScreenPlay:spawnActiveArea1()
       end
 end
 
+
+function KaasVitiateScreenPlay:notifySpawnArea(pActiveArea, pMovingObject)
+  
+  if (not SceneObject(pMovingObject):isCreatureObject()) then
+    return 0
+  end
+  
+  return ObjectManager.withCreatureObject(pMovingObject, function(player)
+    if (player:isAiAgent()) then
+      return 0
+    end
+    
+    if (player:isImperial() or player:isRebel()or player:isNeutral()) then
+      player:sendSystemMessage("Your intrusion into the tomb has awoken spirits of ancient Sith!")
+      spawnMobile("kaas", "sith_ghost", 1, 2.2, 0.0, 0.3, 0, 36000090)
+      spawnMobile("kaas", "sith_ghost", 1, -2.8, 0.0, -6.8, 0, 36000090)
+      end
+    return 0    
+  end)
+end
+
+--[[
 function KaasVitiateScreenPlay:notifySpawnArea(pActiveArea, pMovingObject)
   
   if (not SceneObject(pMovingObject):isCreatureObject()) then
@@ -92,11 +114,8 @@ function KaasVitiateScreenPlay:notifySpawnArea(pActiveArea, pMovingObject)
   end
   
   return SceneObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end
-    
-    if ((player:isImperial() or player:isRebel()or player:isNeutral()) and readData("KaasVitiateScreenPlay:spawnState") == 0) then
+   
+    if (readData("KaasVitiateScreenPlay:spawnState") == 0) then
       writeData("KaasVitiateScreenPlay:spawnState", 1)
       
       player:sendSystemMessage("Your intrusion into the tomb has awoken spirits of ancient Sith!")
@@ -115,9 +134,11 @@ function KaasVitiateScreenPlay:notifySpawnArea(pActiveArea, pMovingObject)
       oMob2:engageCombat(player)end)      
       createEvent(300000, "KaasVitiateScreenPlay", "despawnMob2", pMob2, "")
       end
-    return 0    
+    return    
   end)
 end
+--]]
+
 
 function KaasVitiateScreenPlay:despawnMob1(pMob1, pPlayer)
       forcePeace(pMob1)
