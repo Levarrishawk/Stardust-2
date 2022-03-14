@@ -815,7 +815,8 @@ function ChandrilTechScreenPlay:notifySpawnArea4(pActiveArea4, pMovingObject, pP
         local pMob20 = spawnMobile("chandrila", "jakku_battle_droid",600,66.3,-50,37.7,0,35792159)
         local pMob21 = spawnMobile("chandrila", "jakku_battle_droid",600,58.9,-50,64.9,180,35792159)
         local pMob21 = spawnMobile("chandrila", "jakku_battle_droid",600,66.3,-50,64.9,180,35792159)    
-             
+
+      createObserver(OBJECTDESTRUCTION, "ChandrilTechScreenPlay", "notifyMob1Dead", pMob1)             
       spatialChat(pMob1, "Protocol 77 has been initiated.  This unit has been directed to terminate all sentients!") 
       CreatureObject(pMob1):engageCombat(pMovingObject)    
       writeData("ChandrilTechScreenPlay:spawnState", 1)              
