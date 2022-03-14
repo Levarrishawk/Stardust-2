@@ -943,7 +943,7 @@ function ChandrilTechScreenPlay:despawnMob1(pMob1, pPlayer)
 end
 
 function ChandrilTechScreenPlay:notifyMob1Dead(pMob1, pPlayer)     
-      createEvent(1800000, "ChandrilTechScreenPlay", "resetState1", pMob1, "")     
+      createEvent(18000, "ChandrilTechScreenPlay", "resetState1", pMob1, "")     
       print("ChandrilTech Facility Spawn State 2 triggered.")   
       writeData("ChandrilTechScreenPlay:spawnState", 2)
     return 0
