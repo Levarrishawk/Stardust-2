@@ -784,6 +784,7 @@ end
 
 function ChandrilTechScreenPlay:notifySpawnArea4(pActiveArea4, pMovingObject, pPlayer)
   if (not SceneObject(pMovingObject):isPlayerCreature()) then
+      print("Player Creature check failed.")
     return 0
   else    
     if (readData("ChandrilTechScreenPlay:spawnState") == 0) then
