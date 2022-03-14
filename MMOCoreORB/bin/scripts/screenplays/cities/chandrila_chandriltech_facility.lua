@@ -772,7 +772,7 @@ function ChandrilTechScreenPlay:notifySpawnArea3(pActiveArea3, pMovingObject, pP
 end
 
 function ChandrilTechScreenPlay:spawnActiveArea4()
-  local pSpawnArea4 = spawnSceneObject("chandrila", "object/active_area.iff", -168, -34.3, 4783, 0, 35792171)
+  local pSpawnArea4 = spawnSceneObject("chandrila", "object/active_area.iff", -152, -34.3, 4783, 0, 35792171)
     
   if (pSpawnArea4 ~= nil) then
     local activeArea4 = LuaActiveArea(pSpawnArea4)
