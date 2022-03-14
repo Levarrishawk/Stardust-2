@@ -784,11 +784,11 @@ end
 
 function ChandrilTechScreenPlay:notifySpawnArea4(pActiveArea4, pMovingObject, pPlayer)
   if (not SceneObject(pMovingObject):isPlayerCreature()) then
-      print("Player Creature check failed.")
+     -- print("Player Creature check failed.")
     return 0
   else    
     if (readData("ChandrilTechScreenPlay:spawnState") == 0) then
-       print("Spawn State 0 Detected, attempting npc spawns")
+       --print("Spawn State 0 Detected, attempting npc spawns")
        CreatureObject(pMovingObject):sendSystemMessage("ATTENTION: Intruders have breached Mainframe Room.   Initiating Protocol 77.")
        CreatureObject(pMovingObject):sendSystemMessage("Protocol 77 Initiated.. Transmission Sent.. Initiating Data Wipe on Mainframes.")    
        CreatureObject(pMovingObject):playMusicMessage("sound/amb_alarm_air_raid.snd")
@@ -820,7 +820,7 @@ function ChandrilTechScreenPlay:notifySpawnArea4(pActiveArea4, pMovingObject, pP
       CreatureObject(pMob1):engageCombat(pMovingObject)    
       writeData("ChandrilTechScreenPlay:spawnState", 1)              
     else
-      print("Spawn State 1 Detected.  Doing nothing.")
+     -- print("Spawn State 0 Not Detected.  Doing nothing.")
       return 0      
     end
   end 
@@ -947,7 +947,8 @@ function ChandrilTechScreenPlay:notifyMob1Dead(pMob1, pPlayer)
     return 0
 end
 
-function ChandrilTechScreenPlay:resetState1(pMob1, pPlayer)         
+function ChandrilTechScreenPlay:resetState1(pMob1, pPlayer)
+      print("Resetting ChandrilTech Facility Spawn State")         
       writeData("ChandrilTechScreenPlay:spawnState", 0)
     return 0
 end
