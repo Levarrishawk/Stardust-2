@@ -787,7 +787,7 @@ function ChandrilTechScreenPlay:notifySpawnArea4(pActiveArea4, pMovingObject, pP
     return 0
   else    
     if (readData("ChandrilTechScreenPlay:spawnState") == 0) then
-       writeData("ChandrilTechScreenPlay:spawnState", 1) 
+       print("Spawn State 0 Detected, attempting npc spawns")
        CreatureObject(pMovingObject):sendSystemMessage("ATTENTION: Intruders have breached Mainframe Room.   Initiating Protocol 77.")
        CreatureObject(pMovingObject):sendSystemMessage("Protocol 77 Initiated.. Transmission Sent.. Initiating Data Wipe on Mainframes.")    
        CreatureObject(pMovingObject):playMusicMessage("sound/amb_alarm_air_raid.snd")
@@ -816,8 +816,10 @@ function ChandrilTechScreenPlay:notifySpawnArea4(pActiveArea4, pMovingObject, pP
         local pMob21 = spawnMobile("chandrila", "jakku_battle_droid",600,66.3,-50,64.9,180,35792159)    
              
       spatialChat(pMob1, "Protocol 77 has been initiated.  This unit has been directed to terminate all sentients!") 
-      CreatureObject(pMob1):engageCombat(pMovingObject)                 
+      CreatureObject(pMob1):engageCombat(pMovingObject)    
+      writeData("ChandrilTechScreenPlay:spawnState", 1)              
     else
+      print("Spawn State 1 Detected.  Doing nothing.")
       return 0      
     end
   end 
