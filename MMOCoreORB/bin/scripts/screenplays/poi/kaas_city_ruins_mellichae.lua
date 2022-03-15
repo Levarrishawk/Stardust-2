@@ -94,7 +94,7 @@ function kaas_city_ruins_mellichae:boss_damage(pBoss, pPlayer)
 
 
         if (((bossHealth <= (bossMaxHealth *0.95))) and readData("kaas_city_ruins_mellichae:spawnState") == 1) then
-          spatialChat(pBoss, "You are mine. Servants. Slaves. Weapons. And you will obey…")
+          spatialChat(pBoss, "You are mine... servants, slaves, seapons, and you will obey me!")
           writeData("kaas_city_ruins_mellichae:spawnState", 2)
           local pJos = spawnMobile("kaas", "sith_shadow_thug", 0, -0.2, -43.3, -141.0, 177, 36000020)
           CreatureObject(pJos, function(firstTime)
