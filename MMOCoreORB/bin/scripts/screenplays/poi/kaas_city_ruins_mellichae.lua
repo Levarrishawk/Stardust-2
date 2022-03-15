@@ -42,11 +42,12 @@ end
 
 function kaas_city_ruins_mellichae:notifyTriggerDead(pTrigger, pPlayer)
   local pBoss = spawnMobile("kaas", "vitiate", 0, -0.2, -43.3, -150.7, 0, 36000020)
-  writeData("kaas_city_ruins_mellichae:spawnState", 1)
-  spatialChat(pBoss, "My life spans millennia. Legions have risen to test me.  My ascendance is inevitable. A day, a year, a millennium... it matters not. I hold the patience of stone and the will of stars. Your striving is insignificant. Let your death be the same..")
-  createObserver(DAMAGERECEIVED,"kaas_city_ruins_mellichae","boss_damage", pBoss)
-  createObserver(OBJECTDESTRUCTION, "kaas_city_ruins_mellichae", "notifyBossDead", pBoss)
-  createEvent(1800000, "kaas_city_ruins_mellichae", "despawnBoss", pBoss, "")
+    writeData("kaas_city_ruins_mellichae:spawnState", 1)
+    spatialChat(pBoss, "My life spans millennia. Legions have risen to test me.  My ascendance is inevitable. A day, a year, a millennium... it matters not. I hold the patience of stone and the will of stars. Your striving is insignificant. Let your death be the same..")
+    createObserver(DAMAGERECEIVED,"kaas_city_ruins_mellichae","boss_damage", pBoss)
+    createObserver(OBJECTDESTRUCTION, "kaas_city_ruins_mellichae", "notifyBossDead", pBoss)
+    createEvent(1800000, "kaas_city_ruins_mellichae", "despawnBoss", pBoss, "")
+  return 0
 end
  
 function kaas_city_ruins_mellichae:notifyBossDead(pBoss, pPlayer)
