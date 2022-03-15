@@ -59,3 +59,16 @@ includeFile("weapon/melee/polearm/lance_staff_wood_s1.lua")
 includeFile("weapon/melee/polearm/lance_staff_wood_s2.lua")
 includeFile("weapon/melee/polearm/lance_vibrolance.lua")
 includeFile("weapon/melee/polearm/polearm_vibro_axe.lua")
+
+-- New Weapons
+includeFile("weapon/melee/polearm/lance_cryo.lua")
+includeFile("weapon/melee/polearm/lance_electric_polearm.lua")
+includeFile("weapon/melee/polearm/lance_kaminoan.lua")
+includeFile("weapon/melee/polearm/lance_kashyyk.lua")
+includeFile("weapon/melee/polearm/lance_massassi.lua")
+includeFile("weapon/melee/polearm/lance_shock.lua")
+includeFile("weapon/melee/polearm/lance_staff_magna_guard.lua")
+includeFile("weapon/melee/polearm/polearm_heroic_sd.lua")
+includeFile("weapon/melee/polearm/som_lance_obsidian.lua")
+includeFile("weapon/melee/polearm/som_lance_xandank.lua")
+

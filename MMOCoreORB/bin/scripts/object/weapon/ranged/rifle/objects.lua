@@ -1240,63 +1240,128 @@ ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_tusken
 
 object_weapon_ranged_rifle_shared_rifle_victor_tusken = SharedWeaponObjectTemplate:new {
 	clientTemplateFileName = "object/weapon/ranged/rifle/shared_rifle_victor_tusken.iff"
-	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
---[[
-	appearanceFilename = "appearance/wp_rifle_tusken_s01.apt",
-	arrangementDescriptorFilename = "abstract/slot/arrangement/wearables/hold_both.iff",
-	attackType = 1,
 
-	certificationsRequired = {},
-	clearFloraRadius = 0,
-	clientDataFile = "",
-	clientGameObjectType = 131084,
-	collisionActionBlockFlags = 0,
-	collisionActionFlags = 51,
-	collisionActionPassFlags = 1,
-	collisionMaterialBlockFlags = 0,
-	collisionMaterialFlags = 1,
-	collisionMaterialPassFlags = 0,
-	containerType = 1,
-	containerVolumeLimit = 0,
-	customizationVariableMapping = {},
-
-	detailedDescription = "@weapon_detail:rifle_victor_tusken",
-
-	gameObjectType = 131084,
-
-	locationReservationRadius = 0,
-	lookAtText = "@weapon_lookat:rifle_victor_tusken",
-
-	noBuildRadius = 0,
-
-	objectName = "@weapon_name:rifle_victor_tusken",
-	onlyVisibleInTools = 0,
-
-	paletteColorCustomizationVariables = {},
-	portalLayoutFilename = "",
-
-	rangedIntCustomizationVariables = {},
-
-	scale = 1,
-	scaleThresholdBeforeExtentTest = 0.5,
-	sendToClient = 1,
-	slotDescriptorFilename = "abstract/slot/descriptor/default_weapon.iff",
-	snapToTerrain = 1,
-	socketDestinations = {},
-	structureFootprintFileName = "",
-	surfaceType = 0,
-
-	targetable = 1,
-	totalCellNumber = 0,
-
-	useStructureFootprintOutline = 0,
-
-	weaponEffect = "projectile_rifle",
-	weaponEffectIndex = 1,
-
-	clientObjectCRC = 4165527266,
-	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/tangible/base/shared_tangible_craftable.iff", "object/weapon/base/shared_base_weapon.iff", "object/weapon/ranged/base/shared_base_ranged_weapon.iff", "object/weapon/ranged/rifle/base/shared_rifle_base.iff"}
-]]
 }
 
 ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_victor_tusken, "object/weapon/ranged/rifle/shared_rifle_victor_tusken.iff")
+---------------------------------------------------------------------------------------
+-- New Weapons
+----------------------------------------------------------------------------------------
+object_weapon_ranged_rifle_shared_rifle_a280 = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/rifle/shared_rifle_a280.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_a280, "object/weapon/ranged/rifle/shared_rifle_a280.iff")
+----------------------------------------------------------------------------------------
+object_weapon_ranged_rifle_shared_rifle_adventurer = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/rifle/shared_rifle_adventurer.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_adventurer, "object/weapon/ranged/rifle/shared_rifle_adventurer.iff")
+----------------------------------------------------------------------------------------
+object_weapon_ranged_rifle_shared_rifle_alliance_gauss_generic = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/rifle/shared_rifle_alliance_gauss_generic.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_alliance_gauss_generic, "object/weapon/ranged/rifle/shared_rifle_alliance_gauss_generic.iff")
+----------------------------------------------------------------------------------------
+object_weapon_ranged_rifle_shared_rifle_bounty_dc15 = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/rifle/shared_rifle_bounty_dc15.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_bounty_dc15, "object/weapon/ranged/rifle/shared_rifle_dc15.iff")
+----------------------------------------------------------------------------------------
+object_weapon_ranged_rifle_shared_rifle_eweb= SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/rifle/shared_rifle_eweb.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_eweb, "object/weapon/ranged/rifle/shared_rifle_eweb.iff")
+----------------------------------------------------------------------------------------
+object_weapon_ranged_rifle_shared_rifle_geo_drill = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/rifle/shared_rifle_geo_drill.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_geo_drill, "object/weapon/ranged/rifle/shared_rifle_geo_drill.iff")
+----------------------------------------------------------------------------------------
+object_weapon_ranged_rifle_shared_rifle_ld1 = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/rifle/shared_rifle_ld1.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_ld1, "object/weapon/ranged/rifle/shared_rifle_ld1.iff")
+----------------------------------------------------------------------------------------
+object_weapon_ranged_rifle_shared_rifle_mandalorian = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/rifle/shared_rifle_mandalorian.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_mandalorian, "object/weapon/ranged/rifle/shared_rifle_mandalorian.iff")
+----------------------------------------------------------------------------------------
+object_weapon_ranged_rifle_shared_rifle_massassi_ink= SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/rifle/shared_rifle_massassi_ink.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_massassi_ink, "object/weapon/ranged/rifle/shared_rifle_massassi_ink.iff")
+----------------------------------------------------------------------------------------
+object_weapon_ranged_rifle_shared_rifle_proton = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/rifle/shared_rifle_proton.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_proton, "object/weapon/ranged/rifle/shared_rifle_proton.iff")
+----------------------------------------------------------------------------------------
+object_weapon_ranged_rifle_shared_rifle_pvp = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/rifle/shared_rifle_a280.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_pvp, "object/weapon/ranged/rifle/shared_rifle_pvp.iff")
+----------------------------------------------------------------------------------------
+object_weapon_ranged_rifle_shared_rifle_tc22_blaster = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/rifle/shared_rifle_tc22_blaster.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_tc22_blaster, "object/weapon/ranged/rifle/shared_rifle_tc22_blaster.iff")
+----------------------------------------------------------------------------------------
+object_weapon_ranged_rifle_shared_rifle_westar_m5 = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/rifle/shared_rifle_westar_m5.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_westar_m5, "object/weapon/ranged/rifle/shared_rifle_westar_m5.iff")
+----------------------------------------------------------------------------------------
+object_weapon_ranged_rifle_shared_som_rifle_dp23 = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/rifle/shared_som_rifle_dp23.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_som_rifle_dp23, "object/weapon/ranged/rifle/shared_som_rifle_dp23.iff")
+----------------------------------------------------------------------------------------
+object_weapon_ranged_rifle_shared_som_rifle_mustafar_disruptor = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/rifle/shared_som_rifle_mustafar_disruptor.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_som_rifle_mustafar_disruptor, "object/weapon/ranged/rifle/shared_som_rifle_mustafar_disruptor.iff")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
