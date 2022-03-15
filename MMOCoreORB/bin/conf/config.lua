@@ -139,9 +139,9 @@ Core3 = {
   "chandrila",
   "coruscant",
   --"jakku",
-  "kaas"
-  --"moraband",
-  --"hutta",
+  "kaas",
+  "moraband",
+  "hutta"
   --"florrum",
   --"lothal",
   --"elysium",

@@ -753,9 +753,6 @@ includeFile("poi/kaas_city_ruins.lua")
 includeFile("poi/kaas_imperial_garrison.lua")
 includeFile("poi/kaas_rebel_cave.lua")
 includeFile("poi/kaas_sith_facility.lua")
-
-
-
 includeFile("heroics/herald_of_the_prophets.lua")
 includeFile("heroics/prophet_kadann.lua")
 includeFile("heroics/prophet_cronal.lua")
@@ -763,12 +760,19 @@ includeFile("poi/kaas_dark_force_shrine.lua")
 includeFile("poi/kaas_smuggler_starport.lua")
 includeFile("heroics/chiss_hunter_herald.lua")
 includeFile("heroics/chiss_hunter_herald_cave.lua")
-
 includeFile("poi/kaas_city_ruins_mellichae.lua")
 includeFile("poi/kaas_abandon_separ_facility_necrosis.lua")
 includeFile("poi/kaas_vitiate_tomb.lua")
 
-
+--Moraband
+includeFile("cities/moraband_valley.lua")
+includeFile("heroics/archaeologist_leader.lua")
+includeFile("heroics/moraband_bunker_protocol_droid.lua")
+includeFile("heroics/reltha_aiden.lua")
+includeFile("heroics/bex_delata.lua")
+includeFile("heroics/omor_rikan.lua")
+includeFile("heroics/taelan_delar.lua")
+includeFile("heroics/bray_terex.lua")
 
 
 
