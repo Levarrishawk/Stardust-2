@@ -308,24 +308,16 @@ end
 
 function MorabandValleyScreenPlay:notifySpawnArea1(pActiveArea1, pMovingObject, pPlayer)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
-    return 0
-  end
-  
-  return ObjectManager.withCreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
+    if (not SceneObject(pMovingObject):isPlayerCreature()) then
       return 0
-    end
-    
-    if ((player:isImperial() or player:isRebel()or player:isNeutral())) then
-
-      player:sendSystemMessage("You feel cold as you approach the edifice of the Tomb.")
-      player:playMusicMessage("sound/music_event_danger.snd")
+    else
+      CreatureObject(pMovingObject):sendSystemMessage("You feel cold as you approach the edifice of the Tomb.")
+      CreatureObject(pMovingObject):playMusicMessage("sound/music_event_danger.snd")
       
-      end
+    end
     return 0    
-  end)
 end
+
 
 function MorabandValleyScreenPlay:spawnActiveArea2()
   local pSpawnArea2 = spawnSceneObject("moraband", "object/active_area.iff", -1102, 93, -484, 0, 42000220)
@@ -343,24 +335,16 @@ function MorabandValleyScreenPlay:notifySpawnArea2(pActiveArea2, pMovingObject, 
   
   if (not SceneObject(pMovingObject):isCreatureObject()) then
     return 0
-  end
-  
-  return ObjectManager.withCreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end
+  end    
+    if  (CreatureObject(pMovingObject):isRebel() or CreatureObject(pMovingObject):isNeutral()) then
+      CreatureObject(pMovingObject):sendSystemMessage("You feel uneasy as you enter the building.  The Dark Side is strong here.")
+      CreatureObject(pMovingObject):playMusicMessage("sound/music_bcome_light_jedi.snd")      
+    else    
+      CreatureObject(pMovingObject):sendSystemMessage("You feel a rush of energy.  The Dark Side is strong here.")
+      CreatureObject(pMovingObject):playMusicMessage("sound/music_become_dark_jedi.snd")
     
-    if (( player:isRebel()or player:isNeutral() )) then
-
-      player:sendSystemMessage("You feel uneasy as you enter the building.  The Dark Side is strong here.")
-      player:playMusicMessage("sound/music_bcome_light_jedi.snd")
-    end  
-    if (( player:isImperial() )) then
-      player:sendSystemMessage("You feel a rush of energy.  The Dark Side is strong here.")
-      player:playMusicMessage("sound/music_become_dark_jedi.snd")
-    end
-    return 0    
-  end)
+   end 
+ return 0      
 end
 
 
@@ -376,23 +360,12 @@ function MorabandValleyScreenPlay:spawnActiveArea3()
       end
 end
 
-function MorabandValleyScreenPlay:notifySpawnArea3(pActiveArea2, pMovingObject, pPlayer)
-  
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
-    return 0
-  end
-  
-  return ObjectManager.withCreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end
-    
-    if ((player:isImperial() or player:isRebel()or player:isNeutral())) then
-
-      player:sendSystemMessage("You feel an uncontrollable sense of anger as you approach the edifice of the Tomb.")
-      player:playMusicMessage("sound/music_event_danger.snd")
-      
-      end
-    return 0    
-  end)
+function MorabandValleyScreenPlay:notifySpawnArea3(pActiveArea2, pMovingObject, pPlayer) 
+    if (not SceneObject(pMovingObject):isPlayerCreature()) then
+        return 0
+    else
+        CreatureObject(pMovingObject):sendSystemMessage("You feel an uncontrollable sense of anger as you approach the edifice of the Tomb.")
+        CreatureObject(pMovingObject):playMusicMessage("sound/music_event_danger.snd")     
+    end       
+  return 0   
 end
