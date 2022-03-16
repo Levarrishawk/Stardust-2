@@ -292,6 +292,13 @@ object_weapon_melee_sword_shared_sword_02 = SharedWeaponObjectTemplate:new {
 }
 
 ObjectTemplates:addClientTemplate(object_weapon_melee_sword_shared_sword_02, "object/weapon/melee/sword/shared_sword_02.iff")
+--
+object_weapon_melee_sword_shared_sword_02_ranged = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/melee/sword/shared_sword_02_ranged.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_melee_sword_shared_sword_02_ranged, "object/weapon/melee/sword/shared_sword_02_ranged.iff")
+--
 
 object_weapon_melee_sword_shared_sword_blade_ryyk = SharedWeaponObjectTemplate:new {
 	clientTemplateFileName = "object/weapon/melee/sword/shared_sword_blade_ryyk.iff"
