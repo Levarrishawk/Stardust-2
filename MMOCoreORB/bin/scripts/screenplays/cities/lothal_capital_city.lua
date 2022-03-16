@@ -98,17 +98,6 @@ function LohthalCityScreenPlay:spawnSceneObjects()
 end
 
 function LohthalCityScreenPlay:spawnMobiles()
-
-  -- Tinker Convo
-  local pKid1 = spawnMobile("lothal", "commoner_child",0,-1186.9,28,-3173.7,78,0)  -- -55.1,31.5,-120.3,-33,12112248  Original NGE Position (changed to outdoors due to spatialChat not working in cell)
-      self:setMoodString(pKid1, "npc_use_terminal_high")    
-  local pKid2 = spawnMobile("lothal", "commoner_child",0,-1186.5,28,-3171.2,-174,0)  -- -56.7,31.5,-118.9,-90,12112248 Original NGE Position (changed to outdoors due to spatialChat not working in cell)
-      self:setMoodString(pKid2, "conversation")    
-      
-  writeData("LohthalCityScreenPlay:pKid1_objectID", SceneObject(pKid1):getObjectID() )
-  writeData("LohthalCityScreenPlay:pKid2_objectID", SceneObject(pKid2):getObjectID() ) 
-
-
 	--Outdoors
 	local pNpc = spawnMobile("lothal", "surgical_droid_21b",60,3.1,0.1,11.5,0,0)
 	self:setMoodString(pNpc, "neutral")
@@ -467,14 +456,21 @@ function LohthalCityScreenPlay:spawnMobiles()
   self:setMoodString(pNpc, "conversation")
   pNpc = spawnMobile(self.planet, "commoner",60,-1479.8,28,-3302.7,88,0) 
   self:setMoodString(pNpc, "conversation")
+  
+  
 end
 
 
 function LohthalCityScreenPlay:startTinkerConvo(pActiveArea1, pMovingObject, pPlayer, pKid1, pKid2)
+     -- Tinker Convo
+  local pKid1 = spawnMobile("lothal", "commoner_child",0,-1186.9,28,-3173.7,78,0)  -- -55.1,31.5,-120.3,-33,12112248  Original NGE Position (changed to outdoors due to spatialChat not working in cell)
+      self:setMoodString(pKid1, "npc_use_terminal_high")    
+  local pKid2 = spawnMobile("lothal", "commoner_child",0,-1186.5,28,-3171.2,-174,0)  -- -56.7,31.5,-118.9,-90,12112248 Original NGE Position (changed to outdoors due to spatialChat not working in cell)
+      self:setMoodString(pKid2, "conversation")    
+      
+  writeData("LohthalCityScreenPlay:pKid1_objectID", SceneObject(pKid1):getObjectID() )
+  writeData("LohthalCityScreenPlay:pKid2_objectID", SceneObject(pKid2):getObjectID() ) 
   
-   local pKid2 = getSceneObject(readData("LohthalCityScreenPlay:pKid2_objectID"))
-   local pKid1 = getSceneObject(readData("LohthalCityScreenPlay:pKid1_objectID"))
-
    if not(readData("LohthalCityScreenPlay:tinkerConvoInProgress") == 1) then       
           writeData("LohthalCityScreenPlay:tinkerConvoInProgress", 1)
           createEvent(90 * 1000, "LohthalCityScreenPlay", "touristConvoF1", pKid2, "")
