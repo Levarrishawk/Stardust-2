@@ -783,15 +783,15 @@ includeFile("cities/florrum_outpost.lua")
 includeFile("heroics/hondo_return_teleporter.lua")
 includeFile("heroics/hondo_send_teleporter.lua")
 
---[[
+
 -- Lothal
 includeFile("poi/lothal_easthills_bunker.lua")
 includeFile("cities/lothal_capital_city.lua")
-includeFile("cities/lothal_capital_city_patrol_mobs.lua")
+--includeFile("cities/lothal_capital_city_patrol_mobs.lua")   -- Need to re-write (Low priority)
 includeFile("heroics/oowroora.lua")
 includeFile("themepark/lothal/lothal_theme_park.lua")
 includeFile("themepark/lothal/themeParkLothal.lua")
---]]
+
 
 
 

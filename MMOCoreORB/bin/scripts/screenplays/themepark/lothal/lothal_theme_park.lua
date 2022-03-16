@@ -48,19 +48,10 @@ end
 
 function lothal_theme_park:notifySpawnArea1(pActiveArea1, pMovingObject, pPlayer)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
-  end
-  
-  return ObjectManager.withCreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end
-    
-    if ((player:isImperial() or player:isRebel()or player:isNeutral())) then   
-      player:playMusicMessage("sound/mus_ahsoka.snd")
-      
-      end
-    return 0    
-  end)
+  else
+      CreatureObject(pMovingObject):playMusicMessage("sound/mus_ahsoka.snd")
+  end          
+  return 0     
 end
