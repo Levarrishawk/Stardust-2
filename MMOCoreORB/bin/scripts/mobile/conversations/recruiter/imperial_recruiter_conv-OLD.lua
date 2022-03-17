@@ -44,8 +44,6 @@ member_covert_start = ConvoScreen:new {
 		{"@conversation/faction_recruiter_imperial:s_374", "leave_time_covert"}, -- I would like to use my personal leave time.
 		{"@conversation/faction_recruiter_imperial:s_386", "resign_covert"}, -- I believe it is time to end my tour of duty. I would like to resign.
 		{"@conversation/faction_recruiter_imperial:s_410", "show_gcw_score"}, -- How are we doing in the war effort against the Rebel scum?
-	  {"Where is our war effort concentrated right now?", "first_conv"},
-	  {"I need a shuttle to the command ship at once.", "second_conv"}, 
 	}
 }
 
@@ -61,8 +59,6 @@ member_overt_start = ConvoScreen:new {
 		{"@conversation/faction_recruiter_imperial:s_374", "leave_time_overt"}, -- I would like to use my personal leave time.
 		{"@conversation/faction_recruiter_imperial:s_386", "resign_overt"}, -- I believe it is time to end my tour of duty. I would like to resign.
 		{"@conversation/faction_recruiter_imperial:s_410", "show_gcw_score"}, -- How are we doing in the war effort against the Rebel scum?
-    {"Where is our war effort concentrated right now?", "first_conv"},
-    {"I need a shuttle to the command ship at once.", "second_conv"},
 	}
 }
 
@@ -164,8 +160,6 @@ stay_special_forces = ConvoScreen:new {
 		{"@conversation/faction_recruiter_imperial:s_374", "leave_time_overt"}, -- I would like to use my personal leave time.
 		{"@conversation/faction_recruiter_imperial:s_386", "resign_overt"}, -- I believe it is time to end my tour of duty. I would like to resign.
 		{"@conversation/faction_recruiter_imperial:s_410", "show_gcw_score"}, -- How are we doing in the war effort against the Rebel scum?
-    {"Where is our war effort concentrated right now?", "first_conv"},
-    {"I need a shuttle to the command ship at once.", "second_conv"},
 	}
 }
 
@@ -212,8 +206,6 @@ stay_covert = ConvoScreen:new {
 		{"@conversation/faction_recruiter_imperial:s_374", "leave_time_covert"}, -- I would like to use my personal leave time.
 		{"@conversation/faction_recruiter_imperial:s_386", "resign_covert"}, -- I believe it is time to end my tour of duty. I would like to resign.
 		{"@conversation/faction_recruiter_imperial:s_410", "show_gcw_score"}, -- How are we doing in the war effort against the Rebel scum?
-    {"Where is our war effort concentrated right now?", "first_conv"},
-    {"I need a shuttle to the command ship at once.", "second_conv"},
 	}
 }
 
@@ -240,8 +232,6 @@ stay_overt = ConvoScreen:new {
 		{"@conversation/faction_recruiter_imperial:s_374", "leave_time_covert"}, -- I would like to use my personal leave time.
 		{"@conversation/faction_recruiter_imperial:s_386", "resign_covert"}, -- I believe it is time to end my tour of duty. I would like to resign.
 		{"@conversation/faction_recruiter_imperial:s_410", "show_gcw_score"}, -- How are we doing in the war effort against the Rebel scum?
-    {"Where is our war effort concentrated right now?", "first_conv"},
-    {"I need a shuttle to the command ship at once.", "second_conv"},
 	}
 }
 
@@ -278,8 +268,6 @@ dont_resign_covert = ConvoScreen:new {
 		{"@conversation/faction_recruiter_imperial:s_374", "leave_time_covert"}, -- I would like to use my personal leave time.
 		{"@conversation/faction_recruiter_imperial:s_386", "resign_covert"}, -- I believe it is time to end my tour of duty. I would like to resign.
 		{"@conversation/faction_recruiter_imperial:s_410", "show_gcw_score"}, -- How are we doing in the war effort against the Rebel scum?
-    {"Where is our war effort concentrated right now?", "first_conv"},
-    {"I need a shuttle to the command ship at once.", "second_conv"},
 	}
 }
 
@@ -306,8 +294,6 @@ dont_resign_overt = ConvoScreen:new {
 		{"@conversation/faction_recruiter_imperial:s_374", "leave_time_covert"}, -- I would like to use my personal leave time.
 		{"@conversation/faction_recruiter_imperial:s_386", "resign_covert"}, -- I believe it is time to end my tour of duty. I would like to resign.
 		{"@conversation/faction_recruiter_imperial:s_410", "show_gcw_score"}, -- How are we doing in the war effort against the Rebel scum?
-    {"Where is our war effort concentrated right now?", "first_conv"},
-    {"I need a shuttle to the command ship at once.", "second_conv"},
 	}
 }
 
@@ -501,71 +487,5 @@ show_gcw_score = ConvoScreen:new {
 }
 
 imperialRecruiterConvoTemplate:addScreen(show_gcw_score);
-
-first_conv = ConvoScreen:new {
-  id = "first_conv",
-  leftDialog = "",
-  customDialogText = "Grand Moff Randd has rallied the bulk of our forces at Jakku in defense of a key weapons research facility.  Even now the New Republic is assaulting the planet, we need all able bodied troops to get to the fight as soon as possible.  The future of the Empire is at stake it is instrumental that we ensure that the facility does not fall under Republic hands at any cost!  Are you prepared?",
-  stopConversation = "false",
-  options = {
-    {"I am ready to join the Battle of Jakku!", "imp_tp"},
-  --  {"Instance 2", "mayor3"},
- --   {"Instance 3", "mayor4"},
-  --  {"Instance 4", "mayor5"},
-    {"Not yet, I need more time to prepare.", "deny"}
-  
-  }
-}
-
-imperialRecruiterConvoTemplate:addScreen(first_conv);
-
-second_conv = ConvoScreen:new {
-  id = "second_conv",
-  leftDialog = "",
-  customDialogText = "Very well, this had better not be a waste of Imperial Resources.  The ISD Vigilance is currently in orbit of Lok, I can call a shuttle down to pick you up but you will answer to the Grand Admiral if this is unauthorized.",
-  stopConversation = "false",
-  options = {
-    {"This is all according to regulations I assure you.  Here is my security code rod.", "imp_tp2"},
-  --  {"Instance 2", "mayor3"},
- --   {"Instance 3", "mayor4"},
-  --  {"Instance 4", "mayor5"},
-    --{"Not yet, I need more time to prepare.", "deny"}
-  
-  }
-}
-
-imperialRecruiterConvoTemplate:addScreen(second_conv);
-
-deny = ConvoScreen:new {
-  id = "deny",
-  leftDialog = "",
-  customDialogText = "Alright, come back when you are ready to fight!",
-  stopConversation = "true",
-  options = {
-  }
-}
-imperialRecruiterConvoTemplate:addScreen(deny);
-
-imp_tp = ConvoScreen:new {
-  id = "imp_tp",
-  leftDialog = "",
-  customDialogText = "For the Empire!",
-  stopConversation = "true",
-  options = {
-  --   {"I see. What would I have to do?","mayor3"},
-  }
-}
-imperialRecruiterConvoTemplate:addScreen(imp_tp);
-
-imp_tp2 = ConvoScreen:new {
-  id = "imp_tp2",
-  leftDialog = "",
-  customDialogText = "Very well, this code checks out.  You are cleared.",
-  stopConversation = "true",
-  options = {
-  --   {"I see. What would I have to do?","mayor3"},
-  }
-}
-imperialRecruiterConvoTemplate:addScreen(imp_tp2);
 
 addConversationTemplate("imperialRecruiterConvoTemplate", imperialRecruiterConvoTemplate);
