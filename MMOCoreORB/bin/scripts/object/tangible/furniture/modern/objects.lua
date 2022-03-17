@@ -2105,3 +2105,11 @@ object_tangible_furniture_modern_shared_table_modern_style_01 = SharedTangibleOb
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_modern_shared_table_modern_style_01, "object/tangible/furniture/modern/shared_table_modern_style_01.iff")
+
+object_tangible_furniture_modern_shared_flr_elysium = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/furniture/modern/shared_flr_elysium.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_modern_shared_flr_elysium, "object/tangible/furniture/modern/shared_flr_elysium.iff")
+
