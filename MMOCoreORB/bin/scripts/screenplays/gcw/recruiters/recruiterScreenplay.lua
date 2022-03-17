@@ -641,7 +641,7 @@ end
 function recruiterScreenplay:handleRebelTp(pPlayer)
   CreatureObject(pPlayer, function(player, playerObject)
     local player = LuaSceneObject(pPlayer)
-    player:switchZone("jakku", -5708.5, 48.2, 5506.0, 0)  --("jakku", 2.0, -20.8, 22.1, 610000100)
+    CreatureObject(pPlayer):switchZone("jakku", -5708.5, 48.2, 5506.0, 0)  --("jakku", 2.0, -20.8, 22.1, 610000100)
   end)
     createEvent(1000, "recruiterScreenplay", "handleGoOvert", pPlayer, "")
 end
