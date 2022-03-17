@@ -143,9 +143,9 @@ Core3 = {
   "moraband",
   "hutta",
   "florrum",
-  "lothal"
-  --"elysium",
-  --"dungeon2",
+  "lothal",
+  "elysium",
+  "dungeon2"
   --"mustafar"
 	},
 
