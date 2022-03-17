@@ -91,7 +91,7 @@ end
 function pvp:notifySpawnArea(pActiveArea, pMovingObject)
   
   if (not SceneObject(pMovingObject):isPlayerCreature()) then
-    print("NPC Crossed Jakku Boundary")
+    print("Non Player Object Crossed Jakku Boundary")
     return 0
   else
     print("Player Detected at Jakku Boundary: attempting to detect faction.")   
@@ -113,7 +113,7 @@ end
 function pvp:notifySpawnAreaLeave(pActiveArea, pMovingObject)
   
   if (not SceneObject(pMovingObject):isPlayerCreature()) then
-    print("NPC Crossed Jakku Boundary")
+    print("Non Player Object Crossed Jakku Boundary")
     return 0
   else
     print("Player Exited Boundary.  Determining Combat State")
