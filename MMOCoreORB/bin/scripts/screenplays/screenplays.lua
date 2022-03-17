@@ -806,3 +806,6 @@ includeFile("gcw/jakku_weapons_facility_boss_5.lua")
 includeFile("gcw/jakku_weapons_facility_boss_6.lua")
 includeFile("heroics/jakku_overseer.lua")
 
+-- Jar Jar
+includeFile("heroics/jar_jar_binks.lua")
+
