@@ -230,6 +230,7 @@ function mission_giver_conv_handler:handleScreenAccept(pConvTemplate, pPlayer, p
 	elseif self.themePark:handleMissionAccept(npcNumber, missionNumber, pPlayer) == true then
 		if (self.themePark.genericGiver) then
 			writeData(CreatureObject(pPlayer):getObjectID() ..":genericGiverID", SceneObject(pNpc):getObjectID())
+			CreatureObject(pPlayer):playMusicMessage("sound/ui_npe2_quest_received_m.snd")
 		end
 		nextScreenName = "npc_2_n"
 	end
@@ -442,9 +443,11 @@ function mission_giver_conv_handler:handleScreenReward(pConvTemplate, pPlayer, p
 	self.themePark:handleMissionReward(pPlayer)
 	if (self.themePark.genericGiver) then
 		self.themePark:resetCurrentMission(pPlayer)
+		CreatureObject(pPlayer):playMusicMessage("sound/ui_npe2_quest_completed_m.snd")
 	else
 		self.themePark:cleanUpMission(pPlayer)
 		self.themePark:goToNextMission(pPlayer)
+		CreatureObject(pPlayer):playMusicMessage("sound/ui_npe2_quest_completed_m.snd")
 	end
 
 	return pConvScreen

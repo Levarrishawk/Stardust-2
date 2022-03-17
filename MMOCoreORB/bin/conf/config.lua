@@ -138,7 +138,7 @@ Core3 = {
   "yavin4",
   "chandrila",
   "coruscant",
-  --"jakku",
+  "jakku",
   "kaas",
   "moraband",
   "hutta",
