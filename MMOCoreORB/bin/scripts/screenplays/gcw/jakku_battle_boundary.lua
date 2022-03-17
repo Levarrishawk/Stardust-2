@@ -76,7 +76,7 @@ function pvp:spawnMobiles()
 end
   
 function pvp:spawnActiveAreas()
-  local pSpawnArea = spawnSceneObject("jakku", "object/active_area.iff", -5945, 20, 5774, 0, 0, 0, 0, 0)
+  local pSpawnArea = spawnSceneObject("jakku", "object/active_area.iff", -5945, 25, 5774, 0, 0)
     
   if (pSpawnArea ~= nil) then
     local activeArea = LuaActiveArea(pSpawnArea)
@@ -116,16 +116,18 @@ function pvp:notifySpawnAreaLeave(pActiveArea, pMovingObject)
     print("NPC Crossed Jakku Boundary")
     return 0
   else
-    
+    print("Player Exited Boundary.  Determining Combat State")
     if (CreatureObject(pMovingObject):isInCombat()) then
       print("Player in Combat Crossed Jakku Boundary.  Teleporting to Acklay Pen")
       CreatureObject(pMovingObject):sendSystemMessage("You have deserted in the heat of battle. For this you will be sent to the Cratertown Arena.")
-      createEvent(1000, "recruiterScreenplay", "handleGoCovert", pPlayer, "")
+      CreatureObject(pMovingObject):setFactionStatus(0)
+      --createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
       CreatureObject(pMovingObject):teleport(4444, 7, -5168, 0)
     else
         print("Player Exited Jakku Boundary out of combat.  Teleporting to Cratertown")
         CreatureObject(pMovingObject):sendSystemMessage("You are now leaving the battle area!")
-        createEvent(1000, "recruiterScreenplay", "handleGoCovert", pPlayer, "")
+        --createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
+        CreatureObject(pMovingObject):setFactionStatus(0)
         CreatureObject(pMovingObject):teleport(4331, 9.1, -5130, 0)
     end           
   end 
