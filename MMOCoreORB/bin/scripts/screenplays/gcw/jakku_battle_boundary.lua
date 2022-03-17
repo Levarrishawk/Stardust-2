@@ -94,8 +94,8 @@ function pvp:notifySpawnArea(pActiveArea, pMovingObject)
     print("NPC Crossed Jakku Boundary")
     return 0
   else
-    
-    if (CreatureObject(pMovingObject):isImperial() or CreatureObject(pMovingObject):isRebel()) then     
+    print("Player Detected at Jakku Boundary: attempting to detect faction.")   
+    if not(CreatureObject(pMovingObject):isNeutral()) then     
       print("Faction Detected, Sending System Message and Autoflagging Overt")
       CreatureObject(pMovingObject):sendSystemMessage("You have entered the Battle of Jakku!")
       CreatureObject(pMovingObject):setFactionStatus(2)
@@ -122,12 +122,12 @@ function pvp:notifySpawnAreaLeave(pActiveArea, pMovingObject)
       CreatureObject(pMovingObject):sendSystemMessage("You have deserted in the heat of battle. For this you will be sent to the Cratertown Arena.")
       createEvent(1000, "recruiterScreenplay", "handleGoCovert", pPlayer, "")
       CreatureObject(pMovingObject):teleport(4444, 7, -5168, 0)
-      else
+    else
         print("Player Exited Jakku Boundary out of combat.  Teleporting to Cratertown")
         CreatureObject(pMovingObject):sendSystemMessage("You are now leaving the battle area!")
         createEvent(1000, "recruiterScreenplay", "handleGoCovert", pPlayer, "")
         CreatureObject(pMovingObject):teleport(4331, 9.1, -5130, 0)
-      end           
+    end           
   end 
   return 0
 end
