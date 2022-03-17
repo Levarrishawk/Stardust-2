@@ -12,48 +12,15 @@ registerScreenPlay("JakkuBattleScreenPlay", true)
 function JakkuBattleScreenPlay:start()
 	if (isZoneEnabled("jakku")) then
 		self:spawnMobiles()
-		self:spawnSceneObjects()
+		--self:spawnSceneObjects()
 	end
 end
 
 function JakkuBattleScreenPlay:spawnSceneObjects()
-  for i = 1, 6, 1 do
-    local turretData = self.turrets[i]
-    local pTurret = spawnSceneObject("jakku", turretData.template, turretData.x, turretData.z, turretData.y, 0, 0.707107, 0, 0.707107, 0)
-
-    if pTurret ~= nil then
-      local turret = TangibleObject(pTurret)
-      turret:setFaction(FACTIONREBEL)
-      turret:setPvpStatusBitmask(1)
-    end
-
-    writeData(SceneObject(pTurret):getObjectID() .. ":rebel_hideout:turret_index", i)
-    createObserver(OBJECTDESTRUCTION, "JakkuBattleScreenPlay", "notifyTurretDestroyed", pTurret)
-  end
   
 end
 
-function JakkuBattleScreenPlay:notifyTurretDestroyed(pTurret, pPlayer)
-  ObjectManager.withSceneObject(pTurret, function(turret)
-    local turretData = self.turrets[readData(turret:getObjectID() .. ":rebel_hideout:turret_index")]
-    turret:destroyObjectFromWorld()
-    createEvent(1800000, "JakkuBattleScreenPlay", "respawnTurret", pTurret, "")
-  end)
-  CreatureObject(pPlayer):clearCombatState(1)
-  return 0
-end
 
-function JakkuBattleScreenPlay:respawnTurret(pTurret)
-  if pTurret == nil then return end
-
-  TangibleObject(pTurret):setConditionDamage(0, false)
-  local turretData = self.turrets[readData(SceneObject(pTurret):getObjectID() .. ":rebel_hideout:turret_index")]
-  local pZone = getZoneByName("jakku")
-
-  if pZone == nil then return end
-
-  SceneObject(pZone):transferObject(pTurret, -1, true)
-end
 
 function JakkuBattleScreenPlay:spawnMobiles()
 --gladiator arena
@@ -65,51 +32,51 @@ function JakkuBattleScreenPlay:spawnMobiles()
   
   local pMobile = spawnMobile("jakku", "at_xt", 60, -5763, 45, 5505, -116, 0)
         self:setMoodString(pMobile, "neutral")
-        AiAgent(pMobile):setAiTemplate("idlewander")
+        
         
   pMobile = spawnMobile("jakku", "at_xt", 60, -5764, 56, 5606, -40, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_xt", 60, -5755, 52, 5552, -60, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_xt", 60, -5790, 56, 5535, -40, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_xt", 60, -5750, 50, 5531, -60, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_xt", 60, -5709, 46, 5531, -43, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_xt", 60, -5725, 47, 5508, -54, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_xt", 60, -5715, 47, 5622, 13, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_xt", 60, -5660, 42, 5579, 39, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_xt", 60, -5591, 39.5, 5540, 24, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_xt", 60, -5746, 48.8, 5394, -95, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_xt", 60, -5827.6, 54.4, 5493.1, -88, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   spawnMobile("jakku", "fbase_rebel_heavy_trooper_extreme", 60, -5709.5, 48, 5503, -42, 0)
   spawnMobile("jakku", "fbase_rebel_heavy_trooper_extreme", 60, -5705, 48, 5507, -42, 0)
@@ -132,47 +99,47 @@ function JakkuBattleScreenPlay:spawnMobiles()
    
   pMobile = spawnMobile("jakku", "at_at_pvp", 300, -5928.6, 41.9, 6110.3, -177, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_at_pvp", 300, -6051.5, 38.1, 6118.2, -172, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_at_pvp", 300, -5990.3, 36.0, 6189.2, -172, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_st", 60, -6177.5, 54.5, 6134.8, -136, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_st", 60, -6154.6, 52.1, 6094.1, -136, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_st", 60, -6115.1, 53.3, 6047.7, -156, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_st", 60, -6057.8, 54.6, 6008.1, -154, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_st", 60, -5990.7, 50.4, 5984.9, 172, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_st", 60, -5917.2, 53.6, 5988.7, 158, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_st", 60, -5848.6, 54.7, 6020.6, 141, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   pMobile = spawnMobile("jakku", "at_st", 60, -5792.2, 52.5, 6087.9, 111, 0)
   self:setMoodString(pMobile, "neutral")
-  AiAgent(pMobile):setAiTemplate("idlewander")
+  
   
   spawnMobile("jakku", "fbase_stormtrooper_hard", 60, -6044, 56.6, 6013, -150, 0)
   spawnMobile("jakku", "fbase_stormtrooper_hard", 60, -6065, 56.4, 6022, -152, 0)

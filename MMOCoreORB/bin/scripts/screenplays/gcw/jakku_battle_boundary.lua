@@ -94,7 +94,7 @@ function pvp:notifySpawnArea(pActiveArea, pMovingObject)
     return 0
   end
   
-  return ObjectManager.withCreatureObject(pMovingObject, function(player)
+  return CreatureObject(pMovingObject, function(player)
     if (player:isAiAgent()) then
       return 0
     end
@@ -120,7 +120,7 @@ function pvp:notifySpawnAreaLeave(pActiveArea, pMovingObject)
     return 0
   end
   
-  return ObjectManager.withCreatureObject(pMovingObject, function(player)
+  return CreatureObject(pMovingObject, function(player)
     if (player:isAiAgent()) then
       return 0
     end

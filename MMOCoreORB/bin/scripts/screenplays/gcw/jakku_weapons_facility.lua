@@ -358,21 +358,12 @@ end
 
 function JakkuWeaponsFacilityScreenPlay:notifySpawnArea1(pActiveArea1, pMovingObject, pPlayer)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
-  end
-  
-  return ObjectManager.withCreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end
-    
-    if ((player:isImperial() or player:isRebel()or player:isNeutral())) then
+  else
 
-      player:sendSystemMessage("ATTENTION ALL PERSONNEL:  PROTOCOL 77 IS IN EFFECT.  EVACUATE IMMEDIATELY!")
-      player:playMusicMessage("sound/amb_alarm_air_raid.snd")
-      
-      end
-    return 0    
-  end)
+      CreatureObject(pMovingObject):sendSystemMessage("ATTENTION ALL PERSONNEL:  PROTOCOL 77 IS IN EFFECT.  EVACUATE IMMEDIATELY!")
+      CreatureObject(pMovingObject):playMusicMessage("sound/amb_alarm_air_raid.snd")     
+  end
+  return 0  
 end
