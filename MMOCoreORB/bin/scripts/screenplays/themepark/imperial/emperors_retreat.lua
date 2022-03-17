@@ -74,44 +74,43 @@ function EmperorsRetreatScreenPlay:retreatPatrolDestReached(pMobile)
 end
 
 function EmperorsRetreatScreenPlay:droidPatrol(pMobile)
-	if (pMobile == nil) then
-		return
-	end
-	local name = readStringData(SceneObject(pMobile):getObjectID() .. ":name")
-	local curLoc = readData(SceneObject(pMobile):getObjectID() .. ":currentLoc")
-	local nextLoc
+  if (pMobile == nil) then
+    return
+  end
+  local name = readStringData(SceneObject(pMobile):getObjectID() .. ":name")
+  local curLoc = readData(SceneObject(pMobile):getObjectID() .. ":currentLoc")
+  local nextLoc
 
-	if (name == "droid1") then
-		if (curLoc == 1) then
+  if (name == "droid1") then
+    if (curLoc == 1) then
 
-			nextLoc = { 12.25, 0.2, -24.38, 1418874}
-		else
-			nextLoc = { -52.15, 0.2, -23.82, 1418884 }
-		end
-	end
+      nextLoc = { 12.25, 0.2, -24.38, 1418874}
+    else
+      nextLoc = { -52.15, 0.2, -23.82, 1418884 }
+    end
+  end
 
-	if (name == "droid2") then
-		if (curLoc == 1) then
+  if (name == "droid2") then
+    if (curLoc == 1) then
 
-			nextLoc = { -8.91, 0.2, -12.67, 1418879}
-		else
-			nextLoc = { 23.83, 0.2, -40.42, 1418875 }
-		end
-	end
+      nextLoc = { -8.91, 0.2, -12.67, 1418879}
+    else
+      nextLoc = { 23.83, 0.2, -40.42, 1418875 }
+    end
+  end
 
-	if (name == "droid3") then
-		if (curLoc == 1) then
+  if (name == "droid3") then
+    if (curLoc == 1) then
 
-			nextLoc = { 11.63, .2, -51.12, 1418876}
-		else
-			nextLoc = { -45.79, 0.2, -12.5, 1418879}
-		end
-	end
+      nextLoc = { 11.63, .2, -51.12, 1418876}
+    else
+      nextLoc = { -45.79, 0.2, -12.5, 1418879}
+    end
+  end
 
-	AiAgent(pMobile):stopWaiting()
-	AiAgent(pMobile):setWait(0)
-	AiAgent(pMobile):setNextPosition(nextLoc[1], nextLoc[2], nextLoc[3], nextLoc[4])
-	AiAgent(pMobile):executeBehavior()
+  AiAgent(pMobile):stopWaiting()
+  AiAgent(pMobile):setNextPosition(nextLoc[1], nextLoc[2], nextLoc[3], nextLoc[4])
+  AiAgent(pMobile):executeBehavior()
 
 end
 
@@ -202,8 +201,7 @@ function EmperorsRetreatScreenPlay:spawnMobiles()
 end
 
 function EmperorsRetreatScreenPlay:setupDroidPatrol(pDroid)
-	createEvent(getRandomNumber(350,450) * 100, "EmperorsRetreatScreenPlay", "droidPatrol", pDroid, "")
-	createObserver(DESTINATIONREACHED, "EmperorsRetreatScreenPlay", "retreatPatrolDestReached", pDroid)
-	AiAgent(pDroid):setAiTemplate("manualescortwalk")
-	AiAgent(pDroid):setFollowState(4)
+  createEvent(getRandomNumber(350,450) * 100, "EmperorsRetreatScreenPlay", "droidPatrol", pDroid, "")
+  createObserver(DESTINATIONREACHED, "EmperorsRetreatScreenPlay", "retreatPatrolDestReached", pDroid)
+  AiAgent(pDroid):setMovementState(AI_PATROLLING)
 end
