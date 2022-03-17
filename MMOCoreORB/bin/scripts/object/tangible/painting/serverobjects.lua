@@ -125,3 +125,5 @@ includeFile("tangible/painting/painting_wookiee_f.lua")
 includeFile("tangible/painting/painting_wookiee_m.lua")
 includeFile("tangible/painting/painting_zabrak_f.lua")
 includeFile("tangible/painting/painting_zabrak_m.lua")
+-- New
+includeFile("tangible/painting/portal_yavin.lua")
