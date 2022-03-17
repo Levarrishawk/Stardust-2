@@ -647,7 +647,7 @@ function recruiterScreenplay:handleRebelTp(pPlayer)
 end
 
 function recruiterScreenplay:handleImpTp(pPlayer)
-  ObjectManager.withCreatureAndPlayerObject(pPlayer, function(player, playerObject)
+  CreatureObject(pPlayer, function(player, playerObject)
     local player = LuaSceneObject(pPlayer)
     player:switchZone("jakku", -5991.7, 35.7, 6136.2, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
   end)
@@ -655,21 +655,21 @@ function recruiterScreenplay:handleImpTp(pPlayer)
 end
 
 function recruiterScreenplay:handleImpTp2(pPlayer)
-  ObjectManager.withCreatureAndPlayerObject(pPlayer, function(player, playerObject)
+  CreatureObject(pPlayer, function(player, playerObject)
     local player = LuaSceneObject(pPlayer)
     player:switchZone("dungeon2", -0.0, 173.8, 53.7, 480000038)  --("jakku", 1.5, -20.8, 27.5, 610000111)
   end)  
 end
 
 function recruiterScreenplay:handleRebelTp2(pPlayer)
-  ObjectManager.withCreatureAndPlayerObject(pPlayer, function(player, playerObject)
+  CreatureObject(pPlayer, function(player, playerObject)
     local player = LuaSceneObject(pPlayer)
     player:switchZone("dungeon2", -41.2, 0, -0.2, 480000159)  --("jakku", 2.0, -20.8, 22.1, 610000100)
   end)
 end
 
 function recruiterScreenplay:handleElysiumTp(pPlayer)
-  ObjectManager.withCreatureAndPlayerObject(pPlayer, function(player, playerObject)
+  CreatureObject(pPlayer, function(player, playerObject)
     local player = LuaSceneObject(pPlayer)
     player:switchZone("elysium", 2606, 0, 2343, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
   end)
@@ -677,7 +677,7 @@ function recruiterScreenplay:handleElysiumTp(pPlayer)
 end
 
 function recruiterScreenplay:handleYavinTp(pPlayer)
-  ObjectManager.withCreatureAndPlayerObject(pPlayer, function(player, playerObject)
+  CreatureObject(pPlayer, function(player, playerObject)
     local player = LuaSceneObject(pPlayer)
     player:switchZone("yavin4", -5575, 87, 4903, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
   end)
@@ -685,7 +685,7 @@ function recruiterScreenplay:handleYavinTp(pPlayer)
 end
 
 function recruiterScreenplay:handleYavinTpDark(pPlayer)
-  ObjectManager.withCreatureAndPlayerObject(pPlayer, function(player, playerObject)
+  CreatureObject(pPlayer, function(player, playerObject)
     local player = LuaSceneObject(pPlayer)
     player:switchZone("yavin4", 5121, 81, 301, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
   end)
@@ -693,7 +693,7 @@ function recruiterScreenplay:handleYavinTpDark(pPlayer)
 end
 
 function recruiterScreenplay:handleLothalTp(pPlayer)
-  ObjectManager.withCreatureAndPlayerObject(pPlayer, function(player, playerObject)
+  CreatureObject(pPlayer, function(player, playerObject)
     local player = LuaSceneObject(pPlayer)
     player:switchZone("lothal", 96, 39, 4183, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
   end)
@@ -701,7 +701,7 @@ function recruiterScreenplay:handleLothalTp(pPlayer)
 end
 
 function recruiterScreenplay:handleDantooineTp(pPlayer)
-  ObjectManager.withCreatureAndPlayerObject(pPlayer, function(player, playerObject)
+  CreatureObject(pPlayer, function(player, playerObject)
     local player = LuaSceneObject(pPlayer)
     player:switchZone("dantooine", 4248, 8, 5181, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
   end)
@@ -709,7 +709,7 @@ function recruiterScreenplay:handleDantooineTp(pPlayer)
 end
 
 function recruiterScreenplay:handleChandrilaTp(pPlayer)
-  ObjectManager.withCreatureAndPlayerObject(pPlayer, function(player, playerObject)
+  CreatureObject(pPlayer, function(player, playerObject)
     local player = LuaSceneObject(pPlayer)
     player:switchZone("chandrila", 4363, 97, -4299, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
   end)
@@ -717,7 +717,7 @@ function recruiterScreenplay:handleChandrilaTp(pPlayer)
 end
 
 function recruiterScreenplay:handleAuriliaTp(pPlayer)
-  ObjectManager.withCreatureAndPlayerObject(pPlayer, function(player, playerObject)
+  CreatureObject(pPlayer, function(player, playerObject)
     local player = LuaSceneObject(pPlayer)
     player:switchZone("dathomir", 5301, 78, -4151, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
   end)
