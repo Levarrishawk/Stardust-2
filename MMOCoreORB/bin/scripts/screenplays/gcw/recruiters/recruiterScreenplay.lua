@@ -638,88 +638,68 @@ function recruiterScreenplay:handleResign(pPlayer)
   PlayerObject(pGhost):decreaseFactionStanding(oldFactionName, 0)
 end
 
-function recruiterScreenplay:handleRebelTp(pPlayer)
-  CreatureObject(pPlayer, function(player, playerObject)
+function recruiterScreenplay:handleRebelTp(pPlayer) 
     local player = LuaSceneObject(pPlayer)
-    CreatureObject(pPlayer):switchZone("jakku", -5708.5, 48.2, 5506.0, 0)  --("jakku", 2.0, -20.8, 22.1, 610000100)
-  end)
+    player:switchZone("jakku", -5708.5, 48.2, 5506.0, 0)  --("jakku", 2.0, -20.8, 22.1, 610000100) 
     createEvent(1000, "recruiterScreenplay", "handleGoOvert", pPlayer, "")
 end
 
-function recruiterScreenplay:handleImpTp(pPlayer)
-  CreatureObject(pPlayer, function(player, playerObject)
+function recruiterScreenplay:handleImpTp(pPlayer)  
     local player = LuaSceneObject(pPlayer)
-    CreatureObject(pPlayer):switchZone("jakku", -5991.7, 35.7, 6136.2, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
-  end)
-  createEvent(1000, "recruiterScreenplay", "handleGoOvert", pPlayer, "")
+    player:switchZone("jakku", -5991.7, 35.7, 6136.2, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)  
+    createEvent(1000, "recruiterScreenplay", "handleGoOvert", pPlayer, "")
 end
 
-function recruiterScreenplay:handleImpTp2(pPlayer)
-  CreatureObject(pPlayer, function(player, playerObject)
+function recruiterScreenplay:handleImpTp2(pPlayer) 
     local player = LuaSceneObject(pPlayer)
-    CreatureObject(pPlayer):switchZone("dungeon2", -0.0, 173.8, 53.7, 480000038)  --("jakku", 1.5, -20.8, 27.5, 610000111)
-  end)  
+    player:switchZone("dungeon2", -0.0, 173.8, 53.7, 480000038)  --("jakku", 1.5, -20.8, 27.5, 610000111)   
 end
 
-function recruiterScreenplay:handleRebelTp2(pPlayer)
-  CreatureObject(pPlayer, function(player, playerObject)
+function recruiterScreenplay:handleRebelTp2(pPlayer) 
     local player = LuaSceneObject(pPlayer)
-    CreatureObject(pPlayer):switchZone("dungeon2", -41.2, 0, -0.2, 480000159)  --("jakku", 2.0, -20.8, 22.1, 610000100)
-  end)
+    player:switchZone("dungeon2", -41.2, 0, -0.2, 480000159)  --("jakku", 2.0, -20.8, 22.1, 610000100) 
 end
 
 function recruiterScreenplay:handleElysiumTp(pPlayer)
-  CreatureObject(pPlayer, function(player, playerObject)
     local player = LuaSceneObject(pPlayer)
-    CreatureObject(pPlayer):switchZone("elysium", 2606, 0, 2343, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
-  end)
-  createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
+    player:switchZone("elysium", 2606, 0, 2343, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)  
+    createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
 end
 
 function recruiterScreenplay:handleYavinTp(pPlayer)
-  CreatureObject(pPlayer, function(player, playerObject)
+  
     local player = LuaSceneObject(pPlayer)
-    CreatureObject(pPlayer):switchZone("yavin4", -5575, 87, 4903, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
-  end)
-  createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
+    player:switchZone("yavin4", -5575, 87, 4903, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)  
+    createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
 end
 
-function recruiterScreenplay:handleYavinTpDark(pPlayer)
-  CreatureObject(pPlayer, function(player, playerObject)
+function recruiterScreenplay:handleYavinTpDark(pPlayer)  
     local player = LuaSceneObject(pPlayer)
-    CreatureObject(pPlayer):switchZone("yavin4", 5121, 81, 301, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
-  end)
-  createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
+    player:switchZone("yavin4", 5121, 81, 301, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)  
+    createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
 end
 
 function recruiterScreenplay:handleLothalTp(pPlayer)
-  CreatureObject(pPlayer, function(player, playerObject)
     local player = LuaSceneObject(pPlayer)
-    CreatureObject(pPlayer):switchZone("lothal", 96, 39, 4183, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
-  end)
-  createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
+    player:switchZone("lothal", 96, 39, 4183, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111) 
+    createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
 end
 
-function recruiterScreenplay:handleDantooineTp(pPlayer)
-  CreatureObject(pPlayer, function(player, playerObject)
+function recruiterScreenplay:handleDantooineTp(pPlayer) 
     local player = LuaSceneObject(pPlayer)
-    CreatureObject(pPlayer):switchZone("dantooine", 4248, 8, 5181, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
-  end)
-  createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
+    player:switchZone("dantooine", 4248, 8, 5181, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)  
+    createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
 end
 
 function recruiterScreenplay:handleChandrilaTp(pPlayer)
-  CreatureObject(pPlayer, function(player, playerObject)
+  
     local player = LuaSceneObject(pPlayer)
-    CreatureObject(pPlayer):switchZone("chandrila", 4363, 97, -4299, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
-  end)
-  createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
+    player:switchZone("chandrila", 4363, 97, -4299, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111) 
+    createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
 end
 
-function recruiterScreenplay:handleAuriliaTp(pPlayer)
-  CreatureObject(pPlayer, function(player, playerObject)
+function recruiterScreenplay:handleAuriliaTp(pPlayer) 
     local player = LuaSceneObject(pPlayer)
-    CreatureObject(pPlayer):switchZone("dathomir", 5301, 78, -4151, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111)
-  end)
+    player:switchZone("dathomir", 5301, 78, -4151, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111) 
   createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
 end
