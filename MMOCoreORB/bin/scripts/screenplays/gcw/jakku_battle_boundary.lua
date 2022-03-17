@@ -91,16 +91,19 @@ end
 function pvp:notifySpawnArea(pActiveArea, pMovingObject)
   
   if (not SceneObject(pMovingObject):isPlayerCreature()) then
+    print("NPC Crossed Jakku Boundary")
     return 0
   else
-    local player = LuaSceneObject(pMovingObject)
+    
     if (CreatureObject(pMovingObject):isImperial() or CreatureObject(pMovingObject):isRebel()) then     
-      player:sendSystemMessage("You have entered the Battle of Jakku!")
-      player:setFactionStatus(2)
+      print("Faction Detected, Sending System Message and Autoflagging Overt")
+      CreatureObject(pMovingObject):sendSystemMessage("You have entered the Battle of Jakku!")
+      CreatureObject(pMovingObject):setFactionStatus(2)
     end 
     if (CreatureObject(pMovingObject):isNeutral()) then
-      player:sendSystemMessage("You must be a member of a faction to join the Battle of Jakku!")
-      player:teleport(4331, 9.1, -5130, 0)  
+      print("Neutral Player Detected, Teleporting to Cratertown")
+      CreatureObject(pMovingObject):sendSystemMessage("You must be a member of a faction to join the Battle of Jakku!")
+      CreatureObject(pMovingObject):teleport(4331, 9.1, -5130, 0)  
     end           
   end
    return 0  
@@ -110,17 +113,20 @@ end
 function pvp:notifySpawnAreaLeave(pActiveArea, pMovingObject)
   
   if (not SceneObject(pMovingObject):isPlayerCreature()) then
+    print("NPC Crossed Jakku Boundary")
     return 0
   else
-    local player = LuaSceneObject(pMovingObject)
+    
     if (CreatureObject(pMovingObject):isInCombat()) then
+      print("Player in Combat Crossed Jakku Boundary.  Teleporting to Acklay Pen")
       CreatureObject(pMovingObject):sendSystemMessage("You have deserted in the heat of battle. For this you will be sent to the Cratertown Arena.")
       createEvent(1000, "recruiterScreenplay", "handleGoCovert", pPlayer, "")
-      player:teleport(4444, 7, -5168, 0)
+      CreatureObject(pMovingObject):teleport(4444, 7, -5168, 0)
       else
+        print("Player Exited Jakku Boundary out of combat.  Teleporting to Cratertown")
         CreatureObject(pMovingObject):sendSystemMessage("You are now leaving the battle area!")
         createEvent(1000, "recruiterScreenplay", "handleGoCovert", pPlayer, "")
-        player:teleport(4331, 9.1, -5130, 0)
+        CreatureObject(pMovingObject):teleport(4331, 9.1, -5130, 0)
       end           
   end 
   return 0
