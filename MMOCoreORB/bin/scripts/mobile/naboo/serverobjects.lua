@@ -227,3 +227,5 @@ includeFile("naboo/vine_rawl.lua")
 includeFile("naboo/vrir_unglan.lua")
 includeFile("naboo/ysnide_omewror.lua")
 includeFile("naboo/zogor_storm.lua")
+--New
+includeFile("naboo/jar_jar_binks.lua")
