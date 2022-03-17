@@ -76,12 +76,10 @@ function pvp:spawnMobiles()
 end
   
 function pvp:spawnActiveAreas()
-  local pSpawnArea = spawnSceneObject("jakku", "object/active_area.iff", -5945, 25, 5774, 0, 0)
-    
+  local pSpawnArea = spawnActiveArea("jakku", "object/active_area.iff", -5945, 25, 5774, 512, 0)
+     
   if (pSpawnArea ~= nil) then
-    local activeArea = LuaActiveArea(pSpawnArea)
-          activeArea:setCellObjectID(0)
-          activeArea:setRadius(512)
+    local activeArea = LuaActiveArea(pSpawnArea)         
           createObserver(ENTEREDAREA, "pvp", "notifySpawnArea", pSpawnArea)
           createObserver(EXITEDAREA, "pvp", "notifySpawnAreaLeave", pSpawnArea)
       end
