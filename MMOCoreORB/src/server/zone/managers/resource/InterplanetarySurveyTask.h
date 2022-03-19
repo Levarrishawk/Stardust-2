@@ -32,6 +32,8 @@ public:
 		// We need to sort this by family name
 		HashTable<String, Reference<Vector<String>*> > mapped;
 		HashTable<String, Reference<Vector<String>*> > typeMap;
+		HashTable<String, String> attributeMap;
+
 
 		for(int i = 0; i < resources.size(); i++) {
 			resourceSpawn = resources.get(i);
@@ -58,6 +60,20 @@ public:
 				mlist = new Vector<String>();
 				mlist->add(name);
 				mapped.put(type, mlist);
+
+				// Map name to attribute string
+							StringBuffer attributeBuffer;
+							int value = -1;
+							String attributeName = "";
+							int attributeIndex = 0;
+							while(value != 0) {
+								value = resourceSpawn->getAttributeAndValue(attributeName, attributeIndex);
+								if (value != 0) {
+									attributeBuffer << "\t\t\t" << attributeName << ": " << value << "\n";
+									attributeIndex++;
+								}
+							}
+							attributeMap.put(name, attributeBuffer.toString());
 			}
 		}
 		// Create Email:
@@ -118,6 +134,7 @@ public:
 
 				for(int j = 0; j < values->size(); j++) {
 					body << "\t\t\\#pcontrast1 " << values->get(j) << "\\#.\n";
+					body << attributeMap.get(values->get(j));
 				}
 			}
 		}

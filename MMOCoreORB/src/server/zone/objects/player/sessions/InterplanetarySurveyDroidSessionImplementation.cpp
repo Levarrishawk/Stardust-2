@@ -179,8 +179,13 @@ void InterplanetarySurveyDroidSessionImplementation::handleMenuSelect(CreatureOb
 
 		ObjectManager::instance()->persistObject(data, 1, "surveys");
 
-		tool->destroyObjectFromWorld(true);
-		tool->destroyObjectFromDatabase(true);
+		// Rather than always using a tool per survey droid, simply damage it.
+						tool->setConditionDamage(tool->getConditionDamage() + 40, true);
+						// If the damage is greater than the remaining condition, trash it.
+						if (tool->isDestroyed()) {
+							tool->destroyObjectFromWorld(true);
+							tool->destroyObjectFromDatabase(true);
+						}
 
 		tangibleObject->decreaseUseCount();
 		cancelSession();

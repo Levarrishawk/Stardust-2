@@ -524,8 +524,8 @@ void SlicingSessionImplementation::handleWeaponSlice() {
 		max += 5;
 	case 3:
 	case 2:
-		min += 10;
-		max += 25;
+		min += 5;
+		max += 5;
 		break;
 	default:
 		return;
@@ -539,7 +539,7 @@ void SlicingSessionImplementation::handleWeaponSlice() {
 		handleSliceDamage(percentage);
 		break;
 	case 1:
-		handleSliceSpeed(percentage);
+		handleSliceDamage(percentage);
 		break;
 	}
 }
@@ -629,7 +629,7 @@ void SlicingSessionImplementation::handleArmorSlice() {
 		max += 5;
 	case 4:
 		min += (sliceType == 0) ? 0 : 10;
-		max += 10;
+		max += 5;
 	case 3:
 		min += 5;
 		max += (sliceType == 0) ? 20 : 30;
@@ -638,14 +638,14 @@ void SlicingSessionImplementation::handleArmorSlice() {
 		return;
 	}
 
-	uint8 percent = System::random(max - min) + min;
+	uint8 percent = (System::random(max - min) + min) * 0.25;
 
 	switch (sliceType) {
 	case 0:
 		handleSliceEffectiveness(percent);
 		break;
 	case 1:
-		handleSliceEncumbrance(percent);
+		handleSliceEffectiveness(percent);
 		break;
 	}
 }

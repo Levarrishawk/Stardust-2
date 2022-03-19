@@ -41,9 +41,9 @@
 --this exception also makes it possible to release a modified version 
 
 
-object_tangible_terminal_terminal_event_buffs = object_tangible_terminal_shared_terminal_event_buffs:new {
-	customName = "Medical Enhancement Droid",
-	objectMenuComponent = "buffTerminalMenuComponent",
+object_tangible_terminal_terminal_axkva_min_entrance = object_tangible_terminal_shared_terminal_axkva_min_entrance:new {
+	customName = "Crystal of Binding",
+	objectMenuComponent = "axkvaMinEntryMenuComponent",
 }
 
-ObjectTemplates:addTemplate(object_tangible_terminal_terminal_event_buffs, "object/tangible/terminal/terminal_event_buffs.iff")
+ObjectTemplates:addTemplate(object_tangible_terminal_terminal_axkva_min_entrance, "object/tangible/terminal/terminal_axkva_min_entrance.iff")

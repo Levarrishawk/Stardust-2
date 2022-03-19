@@ -815,3 +815,10 @@ includeFile("poi/isd_active_areas.lua")
 includeFile("heroics/imperial_isd_teleporter.lua")
 includeFile("heroics/rebel_vette_teleporter.lua")
 
+--Elysium WbW
+includeFile("events/buffTerminalMenuComponent2.lua")
+includeFile("events/elysiumTerminalMenuComponent_01.lua")
+includeFile("events/elysiumTerminalMenuComponent_02.lua")
+includeFile("poi/elysium_teleportation_network.lua")
+includeFile("events/elysiumTerminalMenuComponent_03.lua")
+
