@@ -77,7 +77,7 @@ opt3a = ConvoScreen:new {
    customDialogText = "No, I thought I might use the force to lift these boulders.  Of course I plan to use tools, I am taking scans of the entrance to be sure it won't collapse further if I remove the rocks.",  -- Bookmark
   stopConversation = "false",
   options = {   
-    {"What do you hope to find inside the tomb?","opt1a"},   
+    {"Okay, so who was Marka Ragnos anyway?","opt1a"},   
   }
 }
 bex_delata:addScreen(opt3a);
