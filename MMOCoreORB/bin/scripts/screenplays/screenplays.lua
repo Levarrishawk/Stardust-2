@@ -821,4 +821,5 @@ includeFile("events/elysiumTerminalMenuComponent_01.lua")
 includeFile("events/elysiumTerminalMenuComponent_02.lua")
 includeFile("poi/elysium_teleportation_network.lua")
 includeFile("events/elysiumTerminalMenuComponent_03.lua")
+includeFile("heroics/obi_wan_elysium.lua")
 
