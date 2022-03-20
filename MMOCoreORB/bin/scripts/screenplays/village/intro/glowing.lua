@@ -2,13 +2,14 @@ local ObjectManager = require("managers.object.object_manager")
 local Logger = require("utils.logger")
 
 Glowing = ScreenPlay:new {
-	requiredBadges = {
-		{ type = "exploration_jedi", amount = 3 },
-		{ type = "exploration_dangerous", amount = 2 },
-		{ type = "exploration_easy", amount = 5 },
-		{ type = "master", amount = 1 },
-		{ type = "content", amount = 5 },
-	}
+  requiredBadges = {
+    { type = "exploration_jedi", amount = 3 },
+    { type = "exploration_dangerous", amount = 5 },
+    { type = "exploration_easy", amount = 15 },
+    { type = "master", amount = 1 },
+    { type = "content", amount = 5 },
+    { type = "events", amount = 2 },
+  }
 }
 
 function Glowing:getCompletedBadgeTypeCount(pPlayer)
