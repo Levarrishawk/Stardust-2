@@ -87,6 +87,9 @@ bool EnclaveContainerComponent::checkCellPermission(SceneObject* sceneObject, Cr
 	if (ghost->hasGodMode())
 		return true;
 
+	if (ghost->getZone()->getZoneName() != "yavin4")
+			return true;
+
 	int enclaveType = 0;
 
 	ManagedReference<SceneObject*> enclave = sceneObject->getParent().get();
