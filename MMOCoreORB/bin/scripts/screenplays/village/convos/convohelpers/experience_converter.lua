@@ -9,62 +9,66 @@ require("screenplays.screenplay")
 -- 2: Branch Unlocked.
 
 ExperienceConverter = ScreenPlay:new {
-	xpConversion = {
-		combat = {
-			{ "bountyhunter", 5 },
-			{ "combat_general", 3 },
-			{ "combat_meleespecialize_onehand", 30 },
-			{ "combat_meleespecialize_polearm", 30 },
-			{ "combat_meleespecialize_twohand", 30 },
-			{ "combat_meleespecialize_unarmed", 30 },
-			{ "combat_rangedspecialize_carbine", 30 },
-			{ "combat_rangedspecialize_heavy", 30 },
-			{ "combat_rangedspecialize_pistol", 30 },
-			{ "combat_rangedspecialize_rifle", 30 },
-			{ "squadleader", 90 }
-		},
-		senses = {
-			{ "bio_engineer_dna_harvesting", 3 },
-			{ "camp", 5 },
-			{ "creaturehandler", 9 },
-			{ "dance", 10 },
-			{ "entertainer_healing", 10 },
-			{ "imagedesigner", 7 },
-			{ "medical", 10 },
-			{ "merchant", 4 },
-			{ "music", 10 },
-			{ "political", 3 },
-			{ "resource_harvesting_inorganic", 10 },
-			{ "scout", 8 },
-			{ "slicing", 3 },
-			{ "trapping", 25 },
-		},
-		reflex = {
-			{ "bountyhunter", 5 },
-			{ "combat_general", 3 },
-			{ "combat_meleespecialize_onehand", 30 },
-			{ "combat_meleespecialize_polearm", 30 },
-			{ "combat_meleespecialize_twohand", 30 },
-			{ "combat_meleespecialize_unarmed", 30 },
-			{ "combat_rangedspecialize_carbine", 30 },
-			{ "combat_rangedspecialize_heavy", 30 },
-			{ "combat_rangedspecialize_pistol", 30 },
-			{ "combat_rangedspecialize_rifle", 30 },
-			{ "squadleader", 90 }
-		},
-		crafting = {
-			{ "crafting_bio_engineer_creature", 4 },
-			{ "crafting_clothing_armor", 5 },
-			{ "crafting_clothing_general", 5 },
-			{ "crafting_droid_general", 5 },
-			{ "crafting_food_general", 5 },
-			{ "crafting_general", 8 },
-			{ "crafting_medicine_general", 5 },
-			{ "crafting_spice", 5 },
-			{ "crafting_structure_general", 35 },
-			{ "crafting_weapons_general", 5 }
-		}
-	}
+  xpConversion = {
+    combat = {
+      { "bountyhunter", 5 },
+      { "combat_general", 3 },
+      { "jedi_general", 1 },
+      { "combat_meleespecialize_onehand", 30 },
+      { "combat_meleespecialize_polearm", 30 },
+      { "combat_meleespecialize_twohand", 30 },
+      { "combat_meleespecialize_unarmed", 30 },
+      { "combat_rangedspecialize_carbine", 30 },
+      { "combat_rangedspecialize_heavy", 30 },
+      { "combat_rangedspecialize_pistol", 30 },
+      { "combat_rangedspecialize_rifle", 30 },
+      { "squadleader", 90 }
+    },
+    senses = {
+      { "bio_engineer_dna_harvesting", 3 },
+      { "camp", 5 },
+      { "jedi_general", 1 },
+      { "creaturehandler", 9 },
+      { "dance", 10 },
+      { "entertainer_healing", 10 },
+      { "imagedesigner", 7 },
+      { "medical", 10 },
+      { "merchant", 4 },
+      { "music", 10 },
+      { "political", 3 },
+      { "resource_harvesting_inorganic", 10 },
+      { "scout", 8 },
+      { "slicing", 3 },
+      { "trapping", 25 },
+    },
+    reflex = {
+      { "bountyhunter", 5 },
+      { "combat_general", 3 },
+      { "jedi_general", 1 },
+      { "combat_meleespecialize_onehand", 30 },
+      { "combat_meleespecialize_polearm", 30 },
+      { "combat_meleespecialize_twohand", 30 },
+      { "combat_meleespecialize_unarmed", 30 },
+      { "combat_rangedspecialize_carbine", 30 },
+      { "combat_rangedspecialize_heavy", 30 },
+      { "combat_rangedspecialize_pistol", 30 },
+      { "combat_rangedspecialize_rifle", 30 },
+      { "squadleader", 90 }
+    },
+    crafting = {
+      { "crafting_bio_engineer_creature", 4 },
+      { "crafting_clothing_armor", 5 },
+      { "jedi_general", 1 },
+      { "crafting_clothing_general", 5 },
+      { "crafting_droid_general", 5 },
+      { "crafting_food_general", 5 },
+      { "crafting_general", 8 },
+      { "crafting_medicine_general", 5 },
+      { "crafting_spice", 5 },
+      { "crafting_structure_general", 35 },
+      { "crafting_weapons_general", 5 }
+    }
+  }
 }
 
 function ExperienceConverter:getBranchLearnList(pPlayer)
