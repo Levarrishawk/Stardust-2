@@ -1,3 +1,8 @@
 MMOEngine
 luacov.report.out
 luacov.stats.out
+.metadata
+RemoteSystemsTempFiles
+README.md
+MMOCoreORB/bin/conf/config.lua
+*.db
