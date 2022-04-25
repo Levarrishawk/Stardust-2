@@ -91,22 +91,23 @@ object_tangible_wearables_armor_bone_armor_smc_s01_bicep_l = object_tangible_wea
 	vulnerability = KINETIC + BLAST + STUN + HEAT + COLD + ACID + LIGHTSABER,
 
 	-- These are default Blue Frog stats
-	healthEncumbrance = 6,
-	actionEncumbrance = 15,
-	mindEncumbrance = 4,
+	healthEncumbrance = 0,
+	actionEncumbrance = 0,
+	mindEncumbrance = 0,
 
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
 
-	kinetic = 0,
-	energy = 20,
-	electricity = 10,
-	stun = 0,
-	blast = 0,
-	heat = 0,
-	cold = 0,
-	acid = 0,
-	lightSaber = 0
+	kinetic = 35,
+  energy = 35,
+  electricity = 35,
+  stun = 35,
+  blast = 35,
+  heat = 35,
+  cold = 35,
+  acid = 35,
+  lightSaber = 0,
+
 }
 
 ObjectTemplates:addTemplate(object_tangible_wearables_armor_bone_armor_smc_s01_bicep_l, "object/tangible/wearables/armor/bone/armor_smc_s01_bicep_l.iff")
