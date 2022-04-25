@@ -68,11 +68,11 @@ object_weapon_melee_knife_knife_donkuwah = object_weapon_melee_knife_shared_knif
 	-- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
 	attackType = MELEEATTACK,
 	
-	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, LIGHTSABER
+	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, FORCE, LIGHTSABER
 	damageType = KINETIC,
 	
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = NONE,
+	armorPiercing = LIGHT,
 	
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
@@ -96,13 +96,13 @@ object_weapon_melee_knife_knife_donkuwah = object_weapon_melee_knife_shared_knif
 	speedModifiers = { "onehandmelee_speed" },
 	
 	-- Leave blank for now
-	damageModifiers = { },
+	damageModifiers = { "frenzy" },
 	       
 	
 	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 6,
-	actionAttackCost = 6,
-	mindAttackCost = 2,
+	healthAttackCost = 0,
+	actionAttackCost = 300,
+	mindAttackCost = 0,
 	forceCost = 0,
 	
 	pointBlankAccuracy = 0,
@@ -114,10 +114,10 @@ object_weapon_melee_knife_knife_donkuwah = object_weapon_melee_knife_shared_knif
 	maxRange = 3,
 	maxRangeAccuracy = 4,
 
-	minDamage = 24,
-	maxDamage = 36,
+	minDamage = 124,
+	maxDamage = 136,
 	
-	attackSpeed = 4.5,
+	attackSpeed = 1,
 
 	woundsRatio = 6,
 }
