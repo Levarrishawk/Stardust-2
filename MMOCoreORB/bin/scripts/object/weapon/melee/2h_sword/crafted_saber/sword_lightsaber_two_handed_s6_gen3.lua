@@ -64,78 +64,78 @@ object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_s6_gen3 =
 				"object/creature/player/zabrak_male.iff",
 				"object/creature/player/zabrak_female.iff" },
 
-	-- RANGEDATTACK, MELEEATTACK, FORCEATTACK, TRAPATTACK, GRENADEATTACK, HEAVYACIDBEAMATTACK, 
-	-- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
-	attackType = MELEEATTACK,
+	-- RANGEDATTACK, MELEEATTACK, FORCEATTACK, TRAPATTACK, GRENADEATTACK, HEAVYACIDBEAMATTACK,
+  -- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
+  attackType = MELEEATTACK,
 
-	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, LIGHTSABER
-	damageType = LIGHTSABER,
+  -- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, FORCE, LIGHTSABER
+  damageType = LIGHTSABER,
 
-	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = MEDIUM,
+  -- NONE, LIGHT, MEDIUM, HEAVY
+  armorPiercing = LIGHT,
 
-	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
-	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
-	-- jedi_general, combat_meleespecialize_polearmlightsaber, combat_meleespecialize_onehandlightsaber
-	xpType = "jedi_general",
-	
-	-- See http://www.ocdsoft.com/files/certifications.xls
-	certificationsRequired = { "cert_twohandlightsaber_gen3" },
-	-- See http://www.ocdsoft.com/files/accuracy.xls
-	creatureAccuracyModifiers = { "twohandlightsaber_accuracy" },
+  -- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
+  -- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
+  -- jedi_general, combat_meleespecialize_polearmlightsaber, combat_meleespecialize_onehandlightsaber
+  xpType = "jedi_general",
 
-	-- See http://www.ocdsoft.com/files/defense.xls
-	defenderDefenseModifiers = { "melee_defense" },
+  -- See http://www.ocdsoft.com/files/certifications.xls
+  certificationsRequired = { "cert_twohandlightsaber_gen3" },
+  -- See http://www.ocdsoft.com/files/accuracy.xls
+  creatureAccuracyModifiers = { "twohandlightsaber_accuracy" },
 
-	-- Leave as "dodge" for now, may have additions later
-	defenderSecondaryDefenseModifiers = { "saber_block" },
+  -- See http://www.ocdsoft.com/files/defense.xls
+  defenderDefenseModifiers = { "melee_defense" },
 
-	-- See http://www.ocdsoft.com/files/speed.xls
-	speedModifiers = { "twohandlightsaber_speed" },
+  -- Leave as "dodge" for now, may have additions later
+  defenderSecondaryDefenseModifiers = { "saber_block" },
 
-	-- Leave blank for now
-	damageModifiers = { },
+  -- See http://www.ocdsoft.com/files/speed.xls
+  speedModifiers = { "twohandlightsaber_speed" },
+
+  -- Leave blank for now
+  damageModifiers = { },
 
 
-	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 85,
-	actionAttackCost = 50,
-	mindAttackCost = 35,
-	forceCost = 36,
+  -- The values below are the default values.  To be used for blue frog objects primarily
+  healthAttackCost = 85,
+  actionAttackCost = 50,
+  mindAttackCost = 35,
+  forceCost = 36,
 
-	pointBlankRange = 0,
-	pointBlankAccuracy = 20,
+  pointBlankRange = 0,
+  pointBlankAccuracy = 20,
 
-	idealRange = 3,
-	idealAccuracy = 15,
+  idealRange = 3,
+  idealAccuracy = 15,
 
-	maxRange = 5,
-	maxRangeAccuracy = 5,
+  maxRange = 5,
+  maxRangeAccuracy = 5,
 
-	minDamage = 175,
-	maxDamage = 255,
+  minDamage = 175,
+  maxDamage = 255,
 
-	attackSpeed = 4.8,
+  attackSpeed = 4.8,
 
-	woundsRatio = 25,
+  woundsRatio = 25,
 
-	defenderToughnessModifiers = { "lightsaber_toughness" },
-			
-	noTrade = 1,
-		
-	childObjects = {
-		{templateFile = "object/tangible/inventory/lightsaber_inventory_3.iff", x = 0, z = 0, y = 0, ox = 0, oy = 0, oz = 0, ow = 0, cellid = -1, containmentType = 4}
-	},
+  defenderToughnessModifiers = { "lightsaber_toughness" },
+      
+  noTrade = 1,
+  
+  childObjects = {
+    {templateFile = "object/tangible/inventory/lightsaber_inventory_3.iff", x = 0, z = 0, y = 0, ox = 0, oy = 0, oz = 0, ow = 0, cellid = -1, containmentType = 4}
+  },
 
-	numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 2, 1, 1, 1},
-	experimentalProperties = {"XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "SR", "UT", "CD", "OQ", "OQ", "OQ", "OQ"},
-	experimentalWeights = {1, 1, 1, 2, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1},
-	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "expEffeciency", "expEffeciency", "expEffeciency"},
-	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "forcecost", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 175, 255, 4.8, 19, 40, 85, 50, 35},
-	experimentalMax = {0, 0, 185, 295, 4.5, 31, 36, 55, 45, 30},
-	experimentalPrecision = {0, 0, 0, 0, 1, 0, 1, 0, 0, 0},
-	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1},
+  numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 2, 1, 1, 1},
+  experimentalProperties = {"XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "SR", "UT", "CD", "OQ", "OQ", "OQ", "OQ"},
+  experimentalWeights = {1, 1, 1, 2, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1},
+  experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "expEffeciency", "expEffeciency", "expEffeciency"},
+  experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "forcecost", "attackhealthcost", "attackactioncost", "attackmindcost"},
+  experimentalMin = {0, 0, 130, 220, 3.0, 19, 12, 0, 300, 0},
+  experimentalMax = {0, 0, 150, 260, 3.0, 31, 12, 0, 300, 0},
+  experimentalPrecision = {0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+  experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1},
 }
 
 ObjectTemplates:addTemplate(object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_s6_gen3, "object/weapon/melee/2h_sword/crafted_saber/sword_lightsaber_two_handed_s6_gen3.iff")
