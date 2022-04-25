@@ -199,10 +199,7 @@ end
 
 function axkvaMin:spawnBossRoomOneActiveArea()  -- Active areas use world coords.   Set to actual world coord in each instance manually.
   local pActiveArea1 = spawnActiveArea("dathomir", "object/active_area.iff", 7333.7, 506, 4373.9, 5, 480000333)
-  if (pActiveArea1 ~= nil) then
-    local activeArea = LuaActiveArea(pActiveArea1)
-          activeArea:setCellObjectID(480000333)
-          activeArea:setRadius(5)
+  if pActiveArea1 ~= nil then
           createObserver(ENTEREDAREA, "axkvaMin", "notifyBossRoomOneActiveArea", pActiveArea1)
                   
       end
@@ -222,12 +219,8 @@ end
 function axkvaMin:spawnBossRoomOneTrash(boss1)
   if (readData("axkvaMin:bossOneTrashState") == 1) then
     return
-  else
-    
-    spatialChat(boss1, "Intruders?  You will not stop us, our mother will be reborn!")
-    
-    
-       
+  else  
+    spatialChat(boss1, "Intruders?  You will not stop us, our mother will be reborn!")             
   end 
   writeData("axkvaMin:bossOneTrashState", 1) 
 end
@@ -342,7 +335,7 @@ function axkvaMin:boss2_damage(boss2, pPlayer)
    
   
       if (((bossHealth <= (bossMaxHealth *0.99))) and readData("axkvaMin:bossTwoFightState") == 0) then
-      spatialChat(boss2, "You will not stop us from being back Mother!")
+      spatialChat(boss2, "You will not stop us from bringing back Mother!")
         CreatureObject(boss2):playEffect("clienteffect/space_command/shp_shocked_01.cef", "")
         writeData("axkvaMin:bossTwoFightState", 1)        
       end 

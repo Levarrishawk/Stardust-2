@@ -304,34 +304,23 @@ function exarKun4:boss1_damage(boss1, pPlayer)
 end
 
 function exarKun4:spawnBossRoomOneActiveArea()  -- Active areas use world coords.   Set to actual world coord in each instance manually.
-  local pActiveArea1 = spawnSceneObject("yavin4", "object/active_area.iff", 6280, 704, -4591, 0, 0, 0, 0, 0)
-  if (pActiveArea1 ~= nil) then
-    local activeArea = LuaActiveArea(pActiveArea1)
-          activeArea:setCellObjectID(480000318)
-          activeArea:setRadius(15)
+  local pActiveArea1 = spawnActiveArea("yavin4", "object/active_area.iff", 6280, 704, -4591, 15, 480000318)
+  if pActiveArea1 ~= nil then
+ 
           createObserver(ENTEREDAREA, "exarKun4", "notifyBossRoomOneActiveArea", pActiveArea1)
                   
       end
 end
 
 function exarKun4:notifyBossRoomOneActiveArea(pActiveArea1, pMovingObject, pPlayer)
-  
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
-    return 0
-  end
-  
-  return ObjectManager.withCreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end
     
-    if ((player:isImperial() or player:isRebel()or player:isNeutral())) then
-
-      self:spawnBossRoomOneTrash()
-      
-      end
-    return 0    
-  end)
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
+    return 0
+  else      
+     self:spawnBossRoomOneTrash()
+     return 0
+  end
+  return 0
 end
 
 function exarKun4:spawnBossRoomOneTrash()
