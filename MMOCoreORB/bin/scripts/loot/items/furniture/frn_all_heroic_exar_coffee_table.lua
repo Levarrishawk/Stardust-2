@@ -2,7 +2,7 @@ frn_all_heroic_exar_coffee_table = {
 	minimumLevel = 0,
 	maximumLevel = 0,
 	customObjectName = "",
-	directObjectTemplate = "object/tangible/furniture/frn_all_heroic_exar_coffee_table.iff",
+	directObjectTemplate = "object/tangible/furniture/all/frn_all_heroic_exar_coffee_table.iff",
 	craftingValues = {
 	},
 	customizationStringNames = {},
