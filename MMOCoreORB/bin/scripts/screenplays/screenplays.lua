@@ -824,13 +824,13 @@ includeFile("events/elysiumTerminalMenuComponent_03.lua")
 includeFile("heroics/obi_wan_elysium.lua")
 
 -- Exar Kun
---includeFile("dungeon/exar_kun/exarKun.lua")
---includeFile("dungeon/exar_kun/exarKun2.lua")
---includeFile("dungeon/exar_kun/exarKun3.lua")
---includeFile("dungeon/exar_kun/exarKun4.lua")
+includeFile("dungeon/exar_kun/exarKun.lua")
+includeFile("dungeon/exar_kun/exarKun2.lua")
+includeFile("dungeon/exar_kun/exarKun3.lua")
+includeFile("dungeon/exar_kun/exarKun4.lua")
 
---includeFile("events/exarKunEntryMenuComponent.lua")
---includeFile("dungeon/exar_kun/exarKunEntryWay.lua")
+includeFile("events/exarKunEntryMenuComponent.lua")
+includeFile("dungeon/exar_kun/exarKunEntryWay.lua")
 
 -- Axkva Min
 includeFile("dungeon/axkva_min/axkvaMin.lua")
