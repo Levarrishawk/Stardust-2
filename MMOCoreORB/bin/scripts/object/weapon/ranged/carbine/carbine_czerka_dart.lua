@@ -41,9 +41,9 @@
 --this exception also makes it possible to release a modified version 
 
 
-object_weapon_ranged_carbine_carbine_dh17_snubnose = object_weapon_ranged_carbine_shared_carbine_dh17_snubnose:new {
-  
-  playerRaces = { "object/creature/player/bothan_male.iff",
+object_weapon_ranged_carbine_carbine_czerka_dart = object_weapon_ranged_carbine_shared_carbine_czerka_dart:new {
+	
+	playerRaces = { "object/creature/player/bothan_male.iff",
         "object/creature/player/bothan_female.iff",
         "object/creature/player/human_male.iff",
         "object/creature/player/human_female.iff",
@@ -69,7 +69,7 @@ object_weapon_ranged_carbine_carbine_dh17_snubnose = object_weapon_ranged_carbin
   attackType = RANGEDATTACK,
 
   -- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, FORCE, LIGHTSABER
-  damageType = ENERGY,
+  damageType = KINETIC,
 
   -- NONE, LIGHT, MEDIUM, HEAVY
   armorPiercing = LIGHT,
@@ -80,7 +80,7 @@ object_weapon_ranged_carbine_carbine_dh17_snubnose = object_weapon_ranged_carbin
   xpType = "combat_rangedspecialize_carbine",
 
   -- See http://www.ocdsoft.com/files/certifications.xls
-  certificationsRequired = { "cert_carbine_dh17_snubnose" },
+  certificationsRequired = { "cert_carbine_elite" },
   -- See http://www.ocdsoft.com/files/accuracy.xls
   creatureAccuracyModifiers = { "carbine_accuracy" },
 
@@ -100,36 +100,36 @@ object_weapon_ranged_carbine_carbine_dh17_snubnose = object_weapon_ranged_carbin
 
 
   -- The values below are the default values.  To be used for blue frog objects primarily
-  healthAttackCost = 22,
-  actionAttackCost = 24,
-  mindAttackCost = 12,
+  healthAttackCost = 0,
+  actionAttackCost = 300,
+  mindAttackCost = 0,
   forceCost = 0,
 
   pointBlankRange = 0,
-  pointBlankAccuracy = -25,
+  pointBlankAccuracy = -35,
 
-  idealRange = 25,
-  idealAccuracy = 0,
+  idealRange = 40,
+  idealAccuracy = 10,
 
   maxRange = 64,
-  maxRangeAccuracy = -80,
+  maxRangeAccuracy = -50,
 
-  minDamage = 40,
-  maxDamage = 115,
+  minDamage = 180,
+  maxDamage = 400,
 
-  attackSpeed = 3.5,
+  attackSpeed = 4.1,
 
-  woundsRatio = 9,
+  woundsRatio = 12,
 
   numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 2},
   experimentalProperties = {"XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "XX", "XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "XX", "XX", "XX"},
   experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
   experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "null", "null", "null", "expRange", "null", "null", "null"},
   experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
-  experimentalMin = {0, 0, 28, 281, 3, 6, 30, 750, -25, -80, 25, -5, 0, 300, 0},
-  experimentalMax = {0, 0, 52, 350, 3, 12, 65, 1500, -25, -80, 25, 5, 0, 300, 0},
+  experimentalMin = {0, 0, 156, 375, 3, 8, 30, 750, -35, -50, 40, 5, 0, 300, 0},
+  experimentalMax = {0, 0, 290, 425, 3, 16, 65, 1500, -35, -50, 40, 15, 0, 300, 0},
   experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
   experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }
 
-ObjectTemplates:addTemplate(object_weapon_ranged_carbine_carbine_dh17_snubnose, "object/weapon/ranged/carbine/carbine_dh17_snubnose.iff")
+ObjectTemplates:addTemplate(object_weapon_ranged_carbine_carbine_czerka_dart, "object/weapon/ranged/carbine/carbine_czerka_dart.iff")

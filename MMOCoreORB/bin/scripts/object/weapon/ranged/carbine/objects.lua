@@ -799,63 +799,106 @@ ObjectTemplates:addClientTemplate(object_weapon_ranged_carbine_shared_carbine_la
 
 object_weapon_ranged_carbine_shared_carbine_nym_slugthrower = SharedWeaponObjectTemplate:new {
 	clientTemplateFileName = "object/weapon/ranged/carbine/shared_carbine_nym_slugthrower.iff"
-	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
---[[
-	appearanceFilename = "appearance/wp_carbine_slug_carbine_s01.apt",
-	arrangementDescriptorFilename = "abstract/slot/arrangement/wearables/hold_both.iff",
-	attackType = 1,
-
-	certificationsRequired = {},
-	clearFloraRadius = 0,
-	clientDataFile = "",
-	clientGameObjectType = 131083,
-	collisionActionBlockFlags = 0,
-	collisionActionFlags = 51,
-	collisionActionPassFlags = 1,
-	collisionMaterialBlockFlags = 0,
-	collisionMaterialFlags = 1,
-	collisionMaterialPassFlags = 0,
-	containerType = 1,
-	containerVolumeLimit = 0,
-	customizationVariableMapping = {},
-
-	detailedDescription = "@weapon_detail:carbine_nym_slugthrower",
-
-	gameObjectType = 131083,
-
-	locationReservationRadius = 0,
-	lookAtText = "@weapon_lookat:carbine_nym_slugthrower",
-
-	noBuildRadius = 0,
-
-	objectName = "@weapon_name:carbine_nym_slugthrower",
-	onlyVisibleInTools = 0,
-
-	paletteColorCustomizationVariables = {},
-	portalLayoutFilename = "",
-
-	rangedIntCustomizationVariables = {},
-
-	scale = 1,
-	scaleThresholdBeforeExtentTest = 0.5,
-	sendToClient = 1,
-	slotDescriptorFilename = "abstract/slot/descriptor/default_weapon.iff",
-	snapToTerrain = 1,
-	socketDestinations = {},
-	structureFootprintFileName = "",
-	surfaceType = 0,
-
-	targetable = 1,
-	totalCellNumber = 0,
-
-	useStructureFootprintOutline = 0,
-
-	weaponEffect = "projectile_rifle",
-	weaponEffectIndex = 1,
-
-	clientObjectCRC = 1757923070,
-	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/tangible/base/shared_tangible_craftable.iff", "object/weapon/base/shared_base_weapon.iff", "object/weapon/ranged/base/shared_base_ranged_weapon.iff", "object/weapon/ranged/carbine/base/shared_carbine_base.iff"}
-]]
+	
 }
 
 ObjectTemplates:addClientTemplate(object_weapon_ranged_carbine_shared_carbine_nym_slugthrower, "object/weapon/ranged/carbine/shared_carbine_nym_slugthrower.iff")
+------------------------------------------------------------------------------------------------
+-- New Weapons
+------------------------------------------------------------------------------------------------
+object_weapon_ranged_carbine_shared_carbine_alliance_needler = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/carbine/shared_carbine_alliance_needler.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_carbine_shared_carbine_alliance_needler, "object/weapon/ranged/carbine/shared_carbine_alliance_needler.iff")
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+object_weapon_ranged_carbine_shared_carbine_bothan_bola = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/carbine/shared_carbine_bothan_bola.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_carbine_shared_carbine_bothan_bola, "object/weapon/ranged/carbine/shared_carbine_bothan_bola.iff")
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+object_weapon_ranged_carbine_shared_carbine_charric = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/carbine/shared_carbine_charric.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_carbine_shared_carbine_charric, "object/weapon/ranged/carbine/shared_carbine_charric.iff")
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+object_weapon_ranged_carbine_shared_carbine_czerka_dart = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/carbine/shared_carbine_czerka_dart.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_carbine_shared_carbine_czerka_dart, "object/weapon/ranged/carbine/shared_carbine_czerka_dart.iff")
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+object_weapon_ranged_carbine_shared_carbine_geo = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/carbine/shared_carbine_geo.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_carbine_shared_carbine_geo, "object/weapon/ranged/carbine/shared_carbine_geo.iff")
+------------------------------------------------------------------------------------------------ 
+------------------------------------------------------------------------------------------------
+object_weapon_ranged_carbine_shared_carbine_heroic_sd = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/carbine/shared_carbine_heroic_sd.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_carbine_shared_carbine_heroic_sd, "object/weapon/ranged/carbine/shared_carbine_heroic_sd.iff")
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+object_weapon_ranged_carbine_shared_carbine_mandalorian = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/carbine/shared_carbine_mandalorian.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_carbine_shared_carbine_mandalorian, "object/weapon/ranged/carbine/shared_carbine_mandalorian.iff")
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+object_weapon_ranged_carbine_shared_carbine_kun_massassi = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/carbine/shared_carbine_kun_massassi.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_carbine_shared_carbine_kun_massassi, "object/weapon/ranged/carbine/shared_carbine_kun_massassi.iff")
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+object_weapon_ranged_carbine_shared_carbine_proton = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/carbine/shared_carbine_proton.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_carbine_shared_carbine_proton, "object/weapon/ranged/carbine/shared_carbine_proton.iff")
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+object_weapon_ranged_carbine_shared_carbine_pvp_ngant = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/carbine/shared_carbine_pvp_ngant.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_carbine_shared_carbine_pvp_ngant, "object/weapon/ranged/carbine/shared_carbine_pvp_ngant.iff")
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+object_weapon_ranged_carbine_shared_carbine_pvp = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/carbine/shared_carbine_pvp.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_carbine_shared_carbine_pvp, "object/weapon/ranged/carbine/shared_carbine_pvp.iff")
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+object_weapon_ranged_carbine_shared_som_carbine_republic_sfor = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/ranged/carbine/shared_som_carbine_republic_sfor.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_carbine_shared_som_carbine_republic_sfor, "object/weapon/ranged/carbine/shared_som_carbine_republic_sfor.iff")
+------------------------------------------------------------------------------------------------
+

@@ -41,7 +41,7 @@
 --this exception also makes it possible to release a modified version 
 
 
-object_weapon_ranged_carbine_carbine_e11_quest = object_weapon_ranged_carbine_shared_carbine_e11_quest:new {
+object_weapon_ranged_carbine_carbine_underslung = object_weapon_ranged_carbine_shared_carbine_underslung:new {
 	
 	playerRaces = { "object/creature/player/bothan_male.iff",
 				"object/creature/player/bothan_female.iff",
@@ -61,15 +61,15 @@ object_weapon_ranged_carbine_carbine_e11_quest = object_weapon_ranged_carbine_sh
 				"object/creature/player/twilek_female.iff",
 				"object/creature/player/wookiee_male.iff",
 				"object/creature/player/wookiee_female.iff",
-				"object/creature/player/zabrak_male.iff",
-				"object/creature/player/zabrak_female.iff" },
+			"object/creature/player/zabrak_male.iff","object/creature/player/chiss_male.iff",
+			"object/creature/player/zabrak_female.iff","object/creature/player/chiss_female.iff"},
 
-	-- RANGEDATTACK, MELEEATTACK, FORCEATTACK, TRAPATTACK, GRENADEATTACK, HEAVYACIDBEAMATTACK, 
+	-- RANGEDATTACK, MELEEATTACK, FORCEATTACK, TRAPATTACK, GRENADEATTACK, HEAVYACIDBEAMATTACK,
 	-- HEAVYLIGHTNINGBEAMATTACK, HEAVYPARTICLEBEAMATTACK, HEAVYROCKETLAUNCHERATTACK, HEAVYLAUNCHERATTACK
 	attackType = RANGEDATTACK,
 
 	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, LIGHTSABER
-	damageType = ENERGY,
+	damageType = BLAST,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
 	armorPiercing = LIGHT,
@@ -78,9 +78,9 @@ object_weapon_ranged_carbine_carbine_e11_quest = object_weapon_ranged_carbine_sh
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
 	-- combat_meleespecialize_twohandlightsaber, combat_meleespecialize_polearmlightsaber, combat_meleespecialize_onehandlightsaber
 	xpType = "combat_rangedspecialize_carbine",
-	
+
 	-- See http://www.ocdsoft.com/files/certifications.xls
-	certificationsRequired = { "cert_carbine_e11" },
+	certificationsRequired = { "cert_carbine_elite" },
 	-- See http://www.ocdsoft.com/files/accuracy.xls
 	creatureAccuracyModifiers = { "carbine_accuracy" },
 
@@ -97,39 +97,39 @@ object_weapon_ranged_carbine_carbine_e11_quest = object_weapon_ranged_carbine_sh
 
 	-- Leave blank for now
 	damageModifiers = { },
-	
+
 
 	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 16,
-	actionAttackCost = 26,
-	mindAttackCost = 43,
+	healthAttackCost = 10,
+	actionAttackCost = 10,
+	mindAttackCost = 10,
 	forceCost = 0,
 
-	pointBlankAccuracy = 0,
 	pointBlankRange = 0,
+	pointBlankAccuracy = -20,
 
-	idealRange = 35,
-	idealAccuracy = 0,
+	idealRange = 30,
+	idealAccuracy = 40,
 
 	maxRange = 65,
-	maxRangeAccuracy = 0,
+	maxRangeAccuracy = 10,
 
-	minDamage = 42,
-	maxDamage = 84,
+	minDamage = 385,
+	maxDamage = 415,
 
-	attackSpeed = 6.8,
+	attackSpeed = 2.5,
 
-	woundsRatio = 10,
+	woundsRatio = 20,
 
 	numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 2},
 	experimentalProperties = {"XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "XX", "XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ"},
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "null", "null", "null", "expRange", "expEffeciency", "expEffeciency", "expEffeciency"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 28, 67, 3, 7, 15, 750, -40, -80, 30, -5, 0, 300, 0},
-	experimentalMax = {0, 0, 52, 124, 3, 13, 45, 1500, -40, -80, 30, 5, 0, 300, 0},
-	experimentalPrecision = {0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+	experimentalMin = {0, 0, 56, 91, 3, 8, 30, 750, -35, -50, 40, 5, 33, 52, 26},
+	experimentalMax = {0, 0, 90, 163, 3, 16, 65, 1500, -35, -50, 40, 15, 18, 28, 14},
+	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }
 
-ObjectTemplates:addTemplate(object_weapon_ranged_carbine_carbine_e11_quest, "object/weapon/ranged/carbine/carbine_e11_quest.iff")
+ObjectTemplates:addTemplate(object_weapon_ranged_carbine_carbine_underslung, "object/weapon/ranged/carbine/carbine_underslung.iff")
