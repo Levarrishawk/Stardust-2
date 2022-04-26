@@ -227,9 +227,9 @@ function mensix_mining_facility_main:minerConvo_miner3_2(pMiner3, pPlayer)
   
   if (readData("mensix_mining_facility_main:minerConvoState") == 4) then
       spatialChat(pMiner3, "It is funny because it is true.") --@must_joker:i_love_that
-      CreatureObject(pMiner1):doAnimation("emt_rofl")
-      CreatureObject(pMiner2):doAnimation("emt_rofl")
-      CreatureObject(pMiner3):doAnimation("emt_rofl")
+      CreatureObject(pMiner1):doAnimation("laugh")
+      CreatureObject(pMiner2):doAnimation("laugh")
+      CreatureObject(pMiner3):doAnimation("laugh")
         writeData("mensix_mining_facility_main:minerConvoState", 5)   
         createEvent(2 * 64 * 1000, "mensix_mining_facility_main", "minerConvo_miner3_3", pMiner3, "")   --
   end
@@ -241,6 +241,7 @@ function mensix_mining_facility_main:minerConvo_miner2_1(pMiner2, pPlayer)
   
   if (readData("mensix_mining_facility_main:minerConvoState") == 5) then
       spatialChat(pMiner2, "Hey, hey...now do a Wookiee.") --@must_joker:do_wookiee
+      CreatureObject(pMiner2):doAnimation("beckon")
         writeData("mensix_mining_facility_main:minerConvoState", 6)   
         createEvent(76 * 1000, "mensix_mining_facility_main", "minerConvo_miner2_2", pMiner2, "")   --76
   end
@@ -254,9 +255,9 @@ function mensix_mining_facility_main:minerConvo_miner1_3(pMiner1, pPlayer)
   
   if (readData("mensix_mining_facility_main:minerConvoState") == 6) then
       spatialChat(pMiner1, "No way! Those walking furballs smell something fierce.") -- @must_joker:wookiee_smell
-      CreatureObject(pMiner1):doAnimation("rofl")
-      CreatureObject(pMiner2):doAnimation("rofl")
-      CreatureObject(pMiner3):doAnimation("rofl")
+      CreatureObject(pMiner1):doAnimation("laugh")
+      CreatureObject(pMiner2):doAnimation("laugh")
+      CreatureObject(pMiner3):doAnimation("laugh")
         writeData("mensix_mining_facility_main:minerConvoState", 7)   
         createEvent(45 * 1000, "mensix_mining_facility_main", "minerConvo_miner1_4", pMiner1, "")   -- 43
   end
