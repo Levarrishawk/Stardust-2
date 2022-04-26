@@ -1544,876 +1544,508 @@ end
 --Southeast Exfiltration Teleport.
 function mustafar_boundaries:notifySpawnAreaSe(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else   
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(197, 121, -214, 0)          
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(197, 121, -214, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 -- south 1
 function mustafar_boundaries:notifySpawnAreaSo1(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-133, 175, -272, 0)         
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-133, 175, -272, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 -- south2
 function mustafar_boundaries:notifySpawnAreaSo2(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else 
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-658, 104, -268, 0)        
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-658, 104, -268, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 
 function mustafar_boundaries:notifySpawnAreaSo3(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-1117, 102, -199, 0)         
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-1117, 102, -199, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 --
 function mustafar_boundaries:notifySpawnAreaSo4(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else   
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-1678, 101, -87, 0)            
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-1678, 101, -87, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 --
 function mustafar_boundaries:notifySpawnAreaSo5(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else 
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-2258, 103, -276, 0)          
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-2258, 103, -276, 0)
-      end
-    return 0    
-  end)
+   return 0  
 end
 
 function mustafar_boundaries:notifySpawnAreaSo6(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else    
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-2694, 103, -291, 0)          
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-2694, 103, -291, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 
 function mustafar_boundaries:notifySpawnAreaSo7(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-3099, 103, -335, 0)           
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-3099, 103, -335, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaSo8(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-3593, 116, -129, 0)        
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-3593, 116, -129, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 
 function mustafar_boundaries:notifySpawnAreaSo9(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-3918, 3, -188, 0)           
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-3918, 3, -188, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaSo10(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-4409, 3, -50, 0)            
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-4409, 3, -50, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaSo11(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else    
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-4943, 3, -134, 0)           
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-4943, 3, -134, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaSo12(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else 
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-5436, 4, -130, 0)             
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-5436, 4, -130, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaSo13(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else 
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-5826, 25, -100, 0)          
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-5826, 25, -100, 0)
-      end
-    return 0    
-  end)
+   return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaWe1(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else    
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-6241, 85, -146, 0)           
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-6241, 85, -146, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 
 function mustafar_boundaries:notifySpawnAreaWe2(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-6183, 109, 286, 0)             
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-6183, 109, 286, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaWe3(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-6040, 242, 851, 0)            
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-6040, 242, 851, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 
 function mustafar_boundaries:notifySpawnAreaWe4(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-6004, 195, 1575, 0)           
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-6004, 195, 1575, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 
 function mustafar_boundaries:notifySpawnAreaWe5(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-5971, 80, 2451, 0)             
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-5971, 80, 2451, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaWe6(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-6164, 3, 2879, 0)          
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-6164, 3, 2879, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 
 function mustafar_boundaries:notifySpawnAreaWe7(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else   
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-6214, 80, 3592, 0)           
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-6214, 80, 3592, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaWe8(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-6317, 43, 4261, 0)            
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-6317, 43, 4261, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaWe9(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-6221, 152, 5007, 0)           
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-6221, 152, 5007, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 
 function mustafar_boundaries:notifySpawnAreaWe10(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-6003, 96, 5586, 0)         
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-6003, 96, 5586, 0)
-      end
-    return 0    
-  end)
+  return 0   
 end
 
 function mustafar_boundaries:notifySpawnAreaWe11(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-6071, 113, 5983, 0)            
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-6071, 113, 5983, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 -- North exfil points ---------------------------------------------------------------------------------------------
 
 function mustafar_boundaries:notifySpawnAreaNo1(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-5245, 135, 6192, 0)           
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-5245, 135, 6192, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaNo2(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-4815, 28, 6115, 0)            
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-4815, 28, 6115, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 
 function mustafar_boundaries:notifySpawnAreaNo3(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-4179, 23, 5952, 0)          
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-4179, 23, 5952, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 
 function mustafar_boundaries:notifySpawnAreaNo4(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-3383, 36, 6128, 0)           
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-3383, 36, 6128, 0)
-      end
-    return 0    
-  end)
+   return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaNo5(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else 
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-2987, 43, 6142, 0)            
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-2987, 43, 6142, 0)
-      end
-    return 0    
-  end)
+  return 0
 end
 
 function mustafar_boundaries:notifySpawnAreaNo6(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-2496, 35, 5706, 0)             
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-2496, 35, 5706, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaNo7(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else 
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-1744, 57, 5951, 0)          
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-1744, 57, 5951, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 
 function mustafar_boundaries:notifySpawnAreaNo8(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else   
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-724, 87, 6111, 0)             
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-724, 87, 6111, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaNo9(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else   
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(-374, 126, 6142, 0)           
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(-374, 126, 6142, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaNo10(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(96, 128, 6141, 0)           
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(96, 128, 6141, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaNo11(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(465, 129, 5837, 0)            
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(465, 129, 5837, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 -- East
 function mustafar_boundaries:notifySpawnAreaEa1(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else    
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(487, 131, 5567, 0)         
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(487, 131, 5567, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 
 function mustafar_boundaries:notifySpawnAreaEa2(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(475, 128, 5052, 0)            
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(475, 128, 5052, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaEa3(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else   
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(281, 128, 4652, 0)            
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(281, 128, 4652, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaEa4(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(474, 135, 3996, 0)           
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(474, 135, 3996, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaEa5(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(436, 128, 3426, 0)            
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(436, 128, 3426, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaEa6(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else  
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(403, 128, 3169, 0)          
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(403, 128, 3169, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 
 function mustafar_boundaries:notifySpawnAreaEa7(pActiveArea, pMovingObject)
   
   if (not SceneObject(pMovingObject):isCreatureObject()) then
     return 0
+  else   
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(484, 57, 2211, 0)            
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(484, 57, 2211, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 
 function mustafar_boundaries:notifySpawnAreaEa8(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else 
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
+      CreatureObject(pMovingObject):teleport(508, 294, 1511, 0)           
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from travelling further in that direction.")
-      player:teleport(508, 294, 1511, 0)
-      end
-    return 0    
-  end)
+  return 0 
 end
 
 function mustafar_boundaries:notifySpawnAreaTul(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
+  else   
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from scaling this mountain.")
+      CreatureObject(pMovingObject):teleport(-1817, 119, 1999, 0)           
   end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from scaling this mountain.")
-      player:teleport(-1817, 119, 1999, 0)
-      end
-    return 0    
-  end)
+  return 0  
 end
 
 function mustafar_boundaries:notifySpawnAreaMin(pActiveArea, pMovingObject)
   
-  if (not SceneObject(pMovingObject):isCreatureObject()) then
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
-  end
-  
-  return CreatureObject(pMovingObject, function(player)
-    if (player:isAiAgent()) then
-      return 0
-    end    
-    
-    if not (player:isAiAgent()) then
-      player:sendSystemMessage("An invisible force prevents you from scaling this mountain.")
-      player:teleport(-2448, 122, 874, 0)
-      end
+  else
+      CreatureObject(pMovingObject):sendSystemMessage("An invisible force prevents you from scaling this mountain.")
+      CreatureObject(pMovingObject):teleport(-2448, 122, 874, 0)    
     return 0    
-  end)
+  end
 end
