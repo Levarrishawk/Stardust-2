@@ -22,7 +22,7 @@ mustafarian_miner_01 = Creature:new {
 	ferocity = 0,
 	pvpBitmask = NONE,
 	creatureBitmask = PACK + STALKER,
-	optionsBitmask = AIENABLED,
+	--optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 
 	templates = {"object/mobile/som/mustafarian_m_01.iff"},
