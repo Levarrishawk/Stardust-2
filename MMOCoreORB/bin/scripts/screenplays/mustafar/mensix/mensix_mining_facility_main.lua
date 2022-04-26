@@ -254,9 +254,9 @@ function mensix_mining_facility_main:minerConvo_miner1_3(pMiner1, pPlayer)
   
   if (readData("mensix_mining_facility_main:minerConvoState") == 6) then
       spatialChat(pMiner1, "No way! Those walking furballs smell something fierce.") -- @must_joker:wookiee_smell
-      CreatureObject(pMiner1):doAnimation("emt_rofl")
-      CreatureObject(pMiner2):doAnimation("emt_rofl")
-      CreatureObject(pMiner3):doAnimation("emt_rofl")
+      CreatureObject(pMiner1):doAnimation("rofl")
+      CreatureObject(pMiner2):doAnimation("rofl")
+      CreatureObject(pMiner3):doAnimation("rofl")
         writeData("mensix_mining_facility_main:minerConvoState", 7)   
         createEvent(45 * 1000, "mensix_mining_facility_main", "minerConvo_miner1_4", pMiner1, "")   -- 43
   end
