@@ -187,7 +187,7 @@ end
 
 function miningFieldMarkersScreenPlay:spawnMobiles()
 
-	spawnMobile("mustafar", "surveyor_jo", 1, 145.6, 18.6, -58.0, -50, 12112243 )
+	spawnMobile("mustafar", "surveyor_jo", 1, -140.0, 19.1, -58.2, -95, 12112243 )
 
 end
 
