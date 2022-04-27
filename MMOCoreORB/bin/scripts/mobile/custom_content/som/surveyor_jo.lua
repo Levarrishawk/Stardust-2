@@ -29,7 +29,7 @@ surveyor_jo = Creature:new {
 	templates = {"object/mobile/som/miner_hens.iff"},
 	lootGroups = {},
 	weapons = {"pirate_weapons_light"},
-	conversationTemplate = "jo_kelsev,
+	conversationTemplate = "jo_kelsev",
 	attacks = merge(marksmannovice,brawlernovice)
 }
 
