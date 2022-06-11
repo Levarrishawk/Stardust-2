@@ -890,7 +890,7 @@ hoth = {
   gcwEnabled = 1,
 
   planetTravelPoints = {
-    {name = "Keldabe", x = 1563, z = 4, y = -6415, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 1},
+    --{name = "Keldabe", x = 1563, z = 4, y = -6415, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 1},
   },
 
   badgeAreas = {
