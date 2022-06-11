@@ -844,7 +844,7 @@ mustafar = {
   gcwEnabled = 0,
   
   planetTravelPoints = {
-    {name = "Mensix Mining Facility", x = -2471, z = 230, y = 1620, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 1},
+    {name = "Mensix Mining Facility", x = -2471, z = 230, y = 1620, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 0},
     },
     
     badgeAreas = {   
@@ -866,6 +866,38 @@ lothal = {
       {"lothal_jedi_temple", 122,4158,0,50,156}, 
        
   },
+}
+
+mandalore = {
+
+  weatherEnabled = 1,
+  gcwEnabled = 1,
+
+  planetTravelPoints = {
+    {name = "Keldabe", x = 1563, z = 4, y = -6415, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 0},
+  },
+
+  badgeAreas = {
+
+  },
+
+  
+}
+
+hoth = {
+
+  weatherEnabled = 1,
+  gcwEnabled = 1,
+
+  planetTravelPoints = {
+    {name = "Keldabe", x = 1563, z = 4, y = -6415, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 1},
+  },
+
+  badgeAreas = {
+
+  },
+
+  
 }
 
 
