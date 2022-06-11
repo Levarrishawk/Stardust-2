@@ -868,22 +868,6 @@ lothal = {
   },
 }
 
-mandalore = {
-
-  weatherEnabled = 1,
-  gcwEnabled = 1,
-
-  planetTravelPoints = {
-    {name = "Keldabe", x = 1563, z = 4, y = -6415, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 0},
-  },
-
-  badgeAreas = {
-
-  },
-
-  
-}
-
 hoth = {
 
   weatherEnabled = 1,
