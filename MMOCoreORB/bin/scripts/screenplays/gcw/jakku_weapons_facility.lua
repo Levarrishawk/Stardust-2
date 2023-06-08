@@ -345,12 +345,10 @@ function JakkuWeaponsFacilityScreenPlay:spawnMobiles()
 end
 
 function JakkuWeaponsFacilityScreenPlay:spawnActiveArea1()
-  local pSpawnArea1 = spawnSceneObject("jakku", "object/active_area.iff", -5957, -28.2, 5709, 0, 610000147)
+  local pSpawnArea1 = spawnActiveArea("jakku", "object/active_area.iff", -5957, -28.2, 5709, 512, 610000147)
     
   if (pSpawnArea1 ~= nil) then
-    local activeArea1 = LuaActiveArea(pSpawnArea1)
-          activeArea1:setCellObjectID(610000147)
-          activeArea1:setRadius(512)
+    local activeArea1 = LuaActiveArea(pSpawnArea1)          
           createObserver(ENTEREDAREA, "JakkuWeaponsFacilityScreenPlay", "notifySpawnArea1", pSpawnArea1)
           --createObserver(EXITEDAREA, "ChandrilTechScreenPlay", "notifySpawnAreaLeave", pSpawnArea1)
       end
