@@ -709,12 +709,10 @@ end
 
 
 function ChandrilTechScreenPlay:spawnActiveArea1()
-  local pSpawnArea1 = spawnSceneObject("chandrila", "object/active_area.iff", -83.1, -4.3, 4725.7, 0, 35792151)
+  local pSpawnArea1 = spawnActiveArea("chandrila", "object/active_area.iff", -83.1, -4.3, 4725.7, 512, 35792151)
     
   if (pSpawnArea1 ~= nil) then
-    local activeArea1 = LuaActiveArea(pSpawnArea1)
-          activeArea1:setCellObjectID(35792151)
-          activeArea1:setRadius(512)
+    local activeArea1 = LuaActiveArea(pSpawnArea1)          
           createObserver(ENTEREDAREA, "ChandrilTechScreenPlay", "notifySpawnArea1", pSpawnArea1)         
       end
 end
@@ -730,12 +728,10 @@ function ChandrilTechScreenPlay:notifySpawnArea1(pActiveArea1, pMovingObject, pP
 end
 
 function ChandrilTechScreenPlay:spawnActiveArea2()
-  local pSpawnArea2 = spawnSceneObject("chandrila", "object/active_area.iff", -88.2, -34.3, 4739.8, 0, 35792166)
+  local pSpawnArea2 = spawnActiveArea("chandrila", "object/active_area.iff", -88.2, -34.3, 4739.8, 512, 35792166)
     
   if (pSpawnArea2 ~= nil) then
-    local activeArea2 = LuaActiveArea(pSpawnArea2)
-          activeArea2:setCellObjectID(35792166)
-          activeArea2:setRadius(512)
+    local activeArea2 = LuaActiveArea(pSpawnArea2)          
           createObserver(ENTEREDAREA, "ChandrilTechScreenPlay", "notifySpawnArea2", pSpawnArea2)
       end
 end
@@ -751,12 +747,10 @@ function ChandrilTechScreenPlay:notifySpawnArea2(pActiveArea2, pMovingObject, pP
 end
 
 function ChandrilTechScreenPlay:spawnActiveArea3()
-  local pSpawnArea3 = spawnSceneObject("chandrila", "object/active_area.iff", -20, -34.3, 4725.8, 0, 35792157)
+  local pSpawnArea3 = spawnActiveArea("chandrila", "object/active_area.iff", -20, -34.3, 4725.8, 512, 35792157)
     
   if (pSpawnArea3 ~= nil) then
-    local activeArea3 = LuaActiveArea(pSpawnArea3)
-          activeArea3:setCellObjectID(35792157)
-          activeArea3:setRadius(512)
+    local activeArea3 = LuaActiveArea(pSpawnArea3)         
           createObserver(ENTEREDAREA, "ChandrilTechScreenPlay", "notifySpawnArea3", pSpawnArea3)         
       end
 end
@@ -772,12 +766,10 @@ function ChandrilTechScreenPlay:notifySpawnArea3(pActiveArea3, pMovingObject, pP
 end
 
 function ChandrilTechScreenPlay:spawnActiveArea4()
-  local pSpawnArea4 = spawnSceneObject("chandrila", "object/active_area.iff", -152, -34.3, 4783, 0, 35792171)
+  local pSpawnArea4 = spawnActiveArea("chandrila", "object/active_area.iff", -152, -34.3, 4783, 512, 35792171)
     
   if (pSpawnArea4 ~= nil) then
-    local activeArea4 = LuaActiveArea(pSpawnArea4)
-          activeArea4:setCellObjectID(35792171)
-          activeArea4:setRadius(512)
+    local activeArea4 = LuaActiveArea(pSpawnArea4)         
           createObserver(ENTEREDAREA, "ChandrilTechScreenPlay", "notifySpawnArea4", pSpawnArea4)          
       end
 end
@@ -829,12 +821,11 @@ function ChandrilTechScreenPlay:notifySpawnArea4(pActiveArea4, pMovingObject, pP
 end
 
 function ChandrilTechScreenPlay:spawnActiveArea5()
-  local pSpawnArea5 = spawnSceneObject("chandrila", "object/active_area.iff", -114, -34, 4666, 0, 35792170)
+  local pSpawnArea5 = spawnActiveArea("chandrila", "object/active_area.iff", -114, -34, 4666, 512, 35792170)
     
   if (pSpawnArea5 ~= nil) then
     local activeArea5 = LuaActiveArea(pSpawnArea5)
-          activeArea5:setCellObjectID(35792170)
-          activeArea5:setRadius(512)
+          
           createObserver(ENTEREDAREA, "ChandrilTechScreenPlay", "notifyElectroShock", pSpawnArea5)          
       end
 end
@@ -857,12 +848,11 @@ end
 
 
 function ChandrilTechScreenPlay:spawnActiveArea6()
-  local pSpawnArea6 = spawnSceneObject("chandrila", "object/active_area.iff", -146, -34, 4666, 0, 35792168)
+  local pSpawnArea6 = spawnActiveArea("chandrila", "object/active_area.iff", -146, -34, 4666, 512, 35792168)
     
   if (pSpawnArea6 ~= nil) then
     local activeArea6 = LuaActiveArea(pSpawnArea6)
-          activeArea6:setCellObjectID(35792168)
-          activeArea6:setRadius(512)
+          
           createObserver(ENTEREDAREA, "ChandrilTechScreenPlay", "notifySpawnArea6", pSpawnArea6)
           
       end
@@ -882,12 +872,10 @@ function ChandrilTechScreenPlay:notifySpawnArea6(pActiveArea6, pMovingObject, pP
 end
 
 function ChandrilTechScreenPlay:spawnActiveArea7()
-  local pSpawnArea7 = spawnSceneObject("chandrila", "object/active_area.iff", -146, -34, 4666, 0, 35792155)
+  local pSpawnArea7 = spawnActiveArea("chandrila", "object/active_area.iff", -146, -34, 4666, 0, 35792155)
     
   if (pSpawnArea7 ~= nil) then
-    local activeArea7 = LuaActiveArea(pSpawnArea7)
-          activeArea7:setCellObjectID(35792155)
-          activeArea7:setRadius(512)
+    local activeArea7 = LuaActiveArea(pSpawnArea7)         
           createObserver(ENTEREDAREA, "ChandrilTechScreenPlay", "notifySpawnArea7", pSpawnArea7)
           
       end
@@ -908,12 +896,10 @@ end
 
 
 function ChandrilTechScreenPlay:spawnActiveArea8()
-  local pSpawnArea8 = spawnSceneObject("chandrila", "object/active_area.iff", -24, -34, 4694, 0, 35792156)
+  local pSpawnArea8 = spawnActiveArea("chandrila", "object/active_area.iff", -24, -34, 4694, 512, 35792156)
     
   if (pSpawnArea8 ~= nil) then
-    local activeArea8 = LuaActiveArea(pSpawnArea8)
-          activeArea8:setCellObjectID(35792156)
-          activeArea8:setRadius(512)
+    local activeArea8 = LuaActiveArea(pSpawnArea8)         
           createObserver(ENTEREDAREA, "ChandrilTechScreenPlay", "notifyElectroShock8", pSpawnArea8)          
       end
 end
