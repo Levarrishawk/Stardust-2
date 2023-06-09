@@ -27,17 +27,12 @@ function jakku_weapons_facility_boss_1:spawnMobiles()
 end
  
 function jakku_weapons_facility_boss_1:notifyTriggerDead(pTrigger, pPlayer)
-        local pBoss = spawnMobile("jakku", "jakku_black_trooper_1", 0, -32.6, -28, -17.9, 180, 610000119)
-        CreatureObject(pBoss, function(oBoss)
-        writeData("jakku_weapons_facility_boss_1:spawnState", 1)
-        writeData("facilityboss1", oBoss:getObjectID())
+        local pBoss = spawnMobile("jakku", "jakku_black_trooper_1", 0, -32.6, -28, -17.9, 180, 610000119)      
+        writeData("jakku_weapons_facility_boss_1:spawnState", 1)        
           spatialChat(pBoss, "WARNING, this facility is under a protocol 77 emergency evacuation lockdown. You are not authorized and will be terminated.")
             createObserver(DAMAGERECEIVED,"jakku_weapons_facility_boss_1","boss_damage", pBoss)
             createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_1", "notifyBossDead", pBoss)
-          createEvent(1800000, "jakku_weapons_facility_boss_1", "despawnBoss", pBoss, "")
-   
-        end)
-  return 0
+        --  createEvent(1800000, "jakku_weapons_facility_boss_1", "despawnBoss", pBoss, "")       
 end
  
 function jakku_weapons_facility_boss_1:notifyBossDead(pBoss, pPlayer)
@@ -74,80 +69,53 @@ function jakku_weapons_facility_boss_1:boss_damage(pBoss, pPlayer)
   local maxDistance = 45
    
   if distance > (maxDistance * maxDistance) then
-  spatialChat(pBoss, "Hostiles retreating. Protocol-77 remains in effect. Unit Standing down.")
- 
-
-  -- boss:setPvpStatusBitmask(0)
-  forcePeace(pBoss)
-  -- boss:setOptionsBitmask(128)
+    spatialChat(pBoss, "Hostiles retreating. Protocol-77 remains in effect. Unit Standing down.")
+    forcePeace(pBoss)
+    createEvent(3500, "jakku_weapons_facility_boss_1", "resetScreenplayStatus", pPlayer)
+    else
+   return 0
    
-  createEvent(3500, "jakku_weapons_facility_boss_1", "resetScreenplayStatus", pPlayer)
 end
  
 if (((bossHealth <= (bossMaxHealth *0.9))) and readData("jakku_weapons_facility_boss_1:spawnState") == 1) then
   spatialChat(pBoss, "Resistance levels exceeding maximum acceptable value. Reinforcement required.")
     writeData("jakku_weapons_facility_boss_1:spawnState", 2)
-    local pJos = spawnMobile("jakku", "jakku_fast_battle_droid", 0, -27.9, -28.0, -23.1, -90, 610000119)
-    CreatureObject(pJos, function(firstTime)
-    firstTime:engageCombat(pPlayer)
-    end)
+    local pJos = spawnMobile("jakku", "jakku_fast_battle_droid", 0, -27.9, -28.0, -23.1, -90, 610000119)     
   spatialChat(pJos, "Roger Roger.")
  
 end
  
 if (((bossHealth <= (bossMaxHealth *0.89))) and readData("jakku_weapons_facility_boss_1:spawnState") == 2) then
- -- spatialChat(pBoss, "Once again, to my side!")
     writeData("jakku_weapons_facility_boss_1:spawnState", 3)
-    local pJosTwo = spawnMobile("jakku", "jakku_fast_battle_droid", 0, -37.7, -28, -23.1, 0, 610000119)
-    CreatureObject(pJosTwo, function(secondTime)
-    secondTime:engageCombat(pPlayer)
-    end)
+    local pJosTwo = spawnMobile("jakku", "jakku_fast_battle_droid", 0, -37.7, -28, -23.1, 0, 610000119)    
   spatialChat(pJosTwo, "Freeze Intruders!")
- 
 end
  
 if (((bossHealth <= (bossMaxHealth *0.85))) and readData("jakku_weapons_facility_boss_1:spawnState") == 3) then
---  spatialChat(pBoss, "Prophets of the dark side, kill these intruders!")
     writeData("jakku_weapons_facility_boss_1:spawnState", 4)
     local pJosThree = spawnMobile("jakku", "jakku_fast_battle_droid", 0, -32.4, -28, -28.5, -3, 610000119)
-    CreatureObject(pJosThree, function(thirdTime)
-    thirdTime:engageCombat(pPlayer)
-    end)
   spatialChat(pJosThree, "This is a restricted area!")
- 
 end
 
 if (((bossHealth <= (bossMaxHealth *0.84))) and readData("jakku_weapons_facility_boss_1:spawnState") == 4) then
   spatialChat(pBoss, "WARNING, the facility is now under incursion. Protocol-77 under threat. Requesting additional droid reinforcement.")
     writeData("jakku_weapons_facility_boss_1:spawnState", 5)
-    local pJosFour = spawnMobile("jakku", "jakku_fast_battle_droid", 0, -32.6, -28, -15.4, 180, 610000119)
-    CreatureObject(pJosFour, function(fourthTime)
-    fourthTime:engageCombat(pPlayer)
-    end)
+    local pJosFour = spawnMobile("jakku", "jakku_fast_battle_droid", 0, -32.6, -28, -15.4, 180, 610000119)    
   spatialChat(pJosFour, "Protocol-77 in effect. Eliminating threat.")
- 
 end
 
 if (((bossHealth <= (bossMaxHealth * 0.5))) and readData("jakku_weapons_facility_boss_1:spawnState") == 5) then
   spatialChat(pBoss,"WARNING, this incursion must not be allowed to succeed.  By special decree of Emperor Palpatine this facility will be destroyed if Protocol-77 is breached.")
     writeData("jakku_weapons_facility_boss_1:spawnState", 6)
     local pJosFive = spawnMobile("jakku", "jakku_fast_battle_droid", 0, -32.6, -28, -15.4, 180, 610000119)
-    CreatureObject(pJosFive, function(fifthTime)
-    fifthTime:engageCombat(pPlayer)
-    end)
   spatialChat(pJosFive, "Directive: Protocol-77 Must not be compromised.")
- 
 end
 
 if (((bossHealth <= (bossMaxHealth * 0.4))) and readData("jakku_weapons_facility_boss_1:spawnState") == 6) then
   spatialChat(pBoss,"WARNING, Protocol-77 nearing compromise.  Incursion on facility level 1.   Intruders, this facility has been programmed to self destruct if Protocol-77 is breached.  Cease hostilities and submit at once.")
     writeData("jakku_weapons_facility_boss_1:spawnState", 7)
     local pJosSix = spawnMobile("jakku", "jakku_battle_droid", 0, -32.6, -28, -15.4, 180, 610000119)
-    CreatureObject(pJosSix, function(sixthTime)
-    sixthTime:engageCombat(pPlayer)
-    end)
   spatialChat(pJosSix, "Eliminating Threat.")
- 
 end
 
  
