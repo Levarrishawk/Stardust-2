@@ -12,6 +12,7 @@ function JakkuWeaponsFacilityScreenPlay:start()
 	if (isZoneEnabled("jakku")) then
 		self:spawnMobiles()
 		self:spawnSceneObjects()
+		self:spawnActiveArea1()
 	end
 end
 
