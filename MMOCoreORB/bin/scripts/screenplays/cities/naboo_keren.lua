@@ -147,6 +147,7 @@ function NabooKerenScreenPlay:spawnSceneObjects()
 	--outside starport
 	spawnSceneObject(self.planet, "object/tangible/crafting/station/public_space_station.iff", 1437.02, 13, 2763.06, 0, math.rad(90) )
 	spawnSceneObject(self.planet, "object/tangible/crafting/station/public_space_station.iff", 1436.71, 13, 2778.92, 0, math.rad(90) )
+	spawnSceneObject(self.planet, "object/tangible/terminal/terminal_event_buffs.iff", -10.7, 0.3, 0.0, 1661370, math.rad(-90) )
 end
 
 function NabooKerenScreenPlay:spawnMobiles()

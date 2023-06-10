@@ -385,6 +385,7 @@ end
 function CorelliaKorVellaScreenPlay:spawnSceneObjects()
 	--outside starport
 	spawnSceneObject(self.planet, "object/tangible/crafting/station/public_space_station.iff", -3118.55, 31, 2783.4, 0, math.rad(90) )
+	spawnSceneObject(self.planet, "object/tangible/terminal/terminal_event_buffs.iff", 13.3, 0.2, 0.0, 3375392, math.rad(-90) )
 end
 
 function CorelliaKorVellaScreenPlay:spawnMobiles()

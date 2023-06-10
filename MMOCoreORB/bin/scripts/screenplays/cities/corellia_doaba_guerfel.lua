@@ -225,6 +225,7 @@ function CorelliaDoabaGuerfelScreenPlay:spawnSceneObjects()
 
 	--outside starport
 	spawnSceneObject(self.planet, "object/tangible/crafting/station/public_space_station.iff", 3327.89, 308, 5534.89, 0, math.rad(-150) )
+	spawnSceneObject(self.planet, "object/tangible/terminal/terminal_event_buffs.iff", -13.3, 0.2, 0.0, 3375392, math.rad(90) )
 end
 
 function CorelliaDoabaGuerfelScreenPlay:spawnMobiles()

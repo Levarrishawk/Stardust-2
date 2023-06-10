@@ -232,6 +232,7 @@ end
 function TalusDearicScreenPlay:spawnSceneObjects()
 	--outside starport
 	spawnSceneObject(self.planet, "object/tangible/crafting/station/public_space_station.iff", 318.301, 6, -2896.49, 0, math.rad(95) )
+	spawnSceneObject("talus", "object/tangible/terminal/terminal_event_buffs.iff", 13.3, 0.2, 0.0, 3305354, math.rad(-90) )
 end
 
 function TalusDearicScreenPlay:spawnMobiles()

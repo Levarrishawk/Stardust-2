@@ -369,6 +369,7 @@ end
 function CorelliaTyrenaScreenPlay:spawnSceneObjects()
 	--outside starport
 	spawnSceneObject(self.planet, "object/tangible/crafting/station/public_space_station.iff", -5032.14, 21, -2317.33, 0, 0 )
+	spawnSceneObject(self.planet, "object/tangible/terminal/terminal_event_buffs.iff", -10.7, 0.3, 0.0, 1935835, math.rad(-90) )
 
 end
 

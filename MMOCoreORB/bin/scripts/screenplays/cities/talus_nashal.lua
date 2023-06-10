@@ -216,6 +216,7 @@ end
 function TalusNashalScreenPlay:spawnSceneObjects()
 	--outside starport
 	spawnSceneObject(self.planet, "object/tangible/crafting/station/public_space_station.iff", 4433.46, 2, 5300.02, 0, math.rad(-125) )
+	spawnSceneObject("talus", "object/tangible/terminal/terminal_event_buffs.iff", -13.3, 0.2, 0.0, 4265477, math.rad(90) )
 end
 
 function TalusNashalScreenPlay:spawnMobiles()
