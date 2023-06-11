@@ -48,7 +48,7 @@ jakku_rebel_general = Creature:new {
 				{group = "clothing_attachments", chance = 100000},
 				{group = "armor_attachments", chance = 100000},
 				{group = "rebel_officer_common", chance = 450000},
-				{group = "nge_housing_all", chance = 1000000}
+				{group = "nge_housing_all", chance = 10000}
 			}
 		}
 	},
