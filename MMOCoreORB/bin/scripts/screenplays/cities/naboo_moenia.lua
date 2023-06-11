@@ -142,6 +142,7 @@ function NabooMoeniaScreenPlay:spawnSceneObjects()
 	--outside starport
 	spawnSceneObject(self.planet, "object/tangible/crafting/station/public_space_station.iff", 4805.93, 4.17, -4685.56, 0, math.rad(125) )
 	spawnSceneObject(self.planet, "object/tangible/crafting/station/public_space_station.iff", 4789.74, 4.17, -4709.03, 0, math.rad(125) )
+	spawnSceneObject("naboo", "object/tangible/terminal/terminal_event_buffs.iff", -10.7, 0.3, 0.0, 1717506, math.rad(-90) )
 end
 
 function NabooMoeniaScreenPlay:spawnMobiles()

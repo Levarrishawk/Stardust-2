@@ -70,7 +70,12 @@ function DantooineImperialOutpostScreenPlay:start()
 		self:spawnMobiles()
 		self:spawnPatrolMobiles()
 		self:spawnStationaryMobiles()
+		self:spawnSceneObjects()
 	end
+end
+
+function DantooineImperialOutpostScreenPlay:spawnSceneObjects()
+  spawnSceneObject("dantooine", "object/tangible/terminal/terminal_event_buffs.iff", -4.0, 0.1, -3.8, 1380128, math.rad(90) )
 end
 
 function DantooineImperialOutpostScreenPlay:spawnMobiles()

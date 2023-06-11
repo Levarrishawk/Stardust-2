@@ -190,6 +190,7 @@ function NabooKaadaraScreenPlay:spawnSceneObjects()
 	--outside starport
 	spawnSceneObject(self.planet, "object/tangible/crafting/station/public_space_station.iff", 5212.39, -192, 6686.37, 0, math.rad(-80) )
 	spawnSceneObject(self.planet, "object/tangible/crafting/station/public_space_station.iff", 5210, -192, 6668.48, 0, math.rad(-80) )
+	spawnSceneObject(self.planet, "object/tangible/terminal/terminal_event_buffs.iff", -10.7, 0.3, 0.0, 1741443, math.rad(-90) )
 end
 
 function NabooKaadaraScreenPlay:spawnMobiles()

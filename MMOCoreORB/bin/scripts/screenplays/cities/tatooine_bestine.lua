@@ -262,6 +262,7 @@ function TatooineBestineScreenPlay:spawnSceneObjects()
 	--east Tavern
 	spawnSceneObject(self.planet, "object/tangible/furniture/decorative/basket_closed.iff", -2.9, 0.4, -5.9, 1528397, math.rad(-90) )
 	spawnSceneObject(self.planet, "object/tangible/furniture/all/frn_all_tiki_torch_s1.iff", -0.7, -4.0, 1.7, 1528401, math.rad(0) )
+	spawnSceneObject("tatooine", "object/tangible/terminal/terminal_event_buffs.iff", -13.2, 0.2, 0.0, 4005383, math.rad(90) )
 end
 
 function TatooineBestineScreenPlay:spawnMobiles()

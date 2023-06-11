@@ -430,6 +430,7 @@ function TatooineMosEnthaScreenPlay:spawnSceneObjects()
 
 	--northeast Tavern b
 	spawnSceneObject(self.planet, "object/static/structure/general/droid_probedroid_powerdown.iff", 10.3, -9.5, 0.8, 1144145, math.rad(-145) )
+	spawnSceneObject(self.planet, "object/tangible/terminal/terminal_event_buffs.iff", 30, 0.3, 0.2, 1153582, math.rad(-90) )
 end
 
 function TatooineMosEnthaScreenPlay:spawnMobiles()

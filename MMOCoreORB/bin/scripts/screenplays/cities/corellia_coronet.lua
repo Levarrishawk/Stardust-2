@@ -347,6 +347,8 @@ end
 function CorelliaCoronetScreenPlay:spawnSceneObjects()
 	--outside starport
 	spawnSceneObject(self.planet, "object/tangible/crafting/station/public_space_station.iff", -178.575, 28, -4689.35, 0, math.rad(180) )
+	-- Med center buff droid
+	spawnSceneObject(self.planet, "object/tangible/terminal/terminal_event_buffs.iff", -10.7, 0.3, 0.0, 1855535, math.rad(-90) )
 end
 
 function CorelliaCoronetScreenPlay:spawnMobiles()

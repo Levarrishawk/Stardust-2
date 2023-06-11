@@ -142,6 +142,7 @@ function RoriNarmleScreenPlay:spawnSceneObjects()
 	--outside starport
 	spawnSceneObject(self.planet, "object/tangible/crafting/station/public_space_station.iff", -5304.54, 80.1132, -2213.02, 0, math.rad(135) )
 	spawnSceneObject(self.planet, "object/tangible/crafting/station/public_space_station.iff", -5320.03, 80.1015, -2228.33, 0, math.rad(135) )
+	spawnSceneObject("rori", "object/tangible/terminal/terminal_event_buffs.iff", -10.8, 0.3, 0.0, 4635424, math.rad(-90) )
 end
 
 function RoriNarmleScreenPlay:spawnMobiles()

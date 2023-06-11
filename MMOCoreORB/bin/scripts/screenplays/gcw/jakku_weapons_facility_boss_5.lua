@@ -27,16 +27,11 @@ function jakku_weapons_facility_boss_5:spawnMobiles()
 end
  
 function jakku_weapons_facility_boss_5:notifyTriggerDead(pTrigger, pPlayer)
-        local pBoss = spawnMobile("jakku", "jakku_s_battle_droid", 0, 82.8, -74, -57.7, 180, 610000130)
-        CreatureObject(pBoss, function(nBoss)
-        writeData("jakku_weapons_facility_boss_5:spawnState", 1)
-        writeData("facilityboss5", nBoss:getObjectID())
+        local pBoss = spawnMobile("jakku", "jakku_s_battle_droid", 0, 82.8, -74, -57.7, 180, 610000130)      
+        writeData("jakku_weapons_facility_boss_5:spawnState", 1)        
           spatialChat(pBoss, "Protocol-77 Breach! Administration compromised.  Activating Duplicate unit.. Synchonizing..")
             createObserver(DAMAGERECEIVED,"jakku_weapons_facility_boss_5","boss_damage", pBoss)
-            createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_5", "notifyBossDead", pBoss)
-          createEvent(1800000, "jakku_weapons_facility_boss_5", "despawnBoss", pBoss, "")
-   
-        end)
+            createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_5", "notifyBossDead", pBoss)         
   return 0
 end
  
@@ -75,22 +70,14 @@ function jakku_weapons_facility_boss_5:boss_damage(pBoss, pPlayer)
    
   if distance > (maxDistance * maxDistance) then
   spatialChat(pBoss, "Hostiles retreating. Unit Standing down.")
- 
-
-  -- boss:setPvpStatusBitmask(0)
-  forcePeace(pBoss)
-  -- boss:setOptionsBitmask(128)
-   
+  forcePeace(pBoss) 
   createEvent(3500, "jakku_weapons_facility_boss_5", "resetScreenplayStatus", pPlayer)
 end
  
 if (((bossHealth <= (bossMaxHealth *0.99))) and readData("jakku_weapons_facility_boss_5:spawnState") == 1) then
   spatialChat(pBoss, "Synchronization Completed.")
     writeData("jakku_weapons_facility_boss_5:spawnState", 2)
-    local pJos = spawnMobile("jakku", "jakku_s_battle_droid", 0, 68.5, -74, -68.7, 0, 610000130)
-    CreatureObject(pJos, function(firstTime)
-    firstTime:engageCombat(pPlayer)
-    end)
+    local pJos = spawnMobile("jakku", "jakku_s_battle_droid", 0, 68.5, -74, -68.7, 0, 610000130)    
   spatialChat(pJos, "Synchronization Complete: Protocol-77 breach... Systems online... Executing directive...  Eliminate sentient organisms.")
  
 end
@@ -98,10 +85,7 @@ end
 if (((bossHealth <= (bossMaxHealth *0.9))) and readData("jakku_weapons_facility_boss_5:spawnState") == 2) then
  -- spatialChat(pBoss, "Once again, to my side!")
     writeData("jakku_weapons_facility_boss_5:spawnState", 3)
-    local pJosTwo = spawnMobile("jakku", "jakku_battle_droid", 0, 83.6, -74, -42.9, -129, 610000130)
-    CreatureObject(pJosTwo, function(secondTime)
-    secondTime:engageCombat(pPlayer)
-    end)
+    local pJosTwo = spawnMobile("jakku", "jakku_battle_droid", 0, 83.6, -74, -42.9, -129, 610000130)   
   spatialChat(pJosTwo, "Protocol-77 breach.  Priority override dictated.  Eliminate sentient organisms.")
  
 end
@@ -110,10 +94,7 @@ end
 if (((bossHealth <= (bossMaxHealth *0.8))) and readData("jakku_weapons_facility_boss_5:spawnState") == 3) then
 --  spatialChat(pBoss, "Prophets of the dark side, kill these intruders!")
     writeData("jakku_weapons_facility_boss_5:spawnState", 4)
-    local pJosThree = spawnMobile("jakku", "jakku_battle_droid", 0, 83.4, -74, -67.8, 0, 610000130)
-    CreatureObject(pJosThree, function(thirdTime)
-    thirdTime:engageCombat(pPlayer)
-    end)
+    local pJosThree = spawnMobile("jakku", "jakku_battle_droid", 0, 83.4, -74, -67.8, 0, 610000130)   
   spatialChat(pJosThree, "Protocol-77 breach.  Priority override dictated.  Eliminate sentient organisms.")
  
 end
@@ -121,10 +102,7 @@ end
 if (((bossHealth <= (bossMaxHealth *0.7))) and readData("jakku_weapons_facility_boss_5:spawnState") == 4) then
  -- spatialChat(pBoss, "Protocol-77 has been breached.  All remaining sentients within the facility must be eliminated.")
     writeData("jakku_weapons_facility_boss_5:spawnState", 5)
-    local pJosFour = spawnMobile("jakku", "jakku_battle_droid", 0, 90.5, -74, -58.3, -90, 610000130)
-    CreatureObject(pJosFour, function(fourthTime)
-    fourthTime:engageCombat(pPlayer)
-    end)
+    local pJosFour = spawnMobile("jakku", "jakku_battle_droid", 0, 90.5, -74, -58.3, -90, 610000130)    
   spatialChat(pJosFour, "Protocol-77 breach.  Priority override dictated.  Eliminate sentient organisms.")
  
 end
@@ -132,10 +110,7 @@ end
 if (((bossHealth <= (bossMaxHealth * 0.5))) and readData("jakku_weapons_facility_boss_5:spawnState") == 5) then
   spatialChat(pBoss,"Alert! Administration compromised. Requesting additional Units!")
     writeData("jakku_weapons_facility_boss_5:spawnState", 6)
-    local pJosFive = spawnMobile("jakku", "jakku_fast_battle_droid", 0, 79.3, -74, -60.5, 90, 610000130)
-    CreatureObject(pJosFive, function(fifthTime)
-    fifthTime:engageCombat(pPlayer)
-    end)
+    local pJosFive = spawnMobile("jakku", "jakku_fast_battle_droid", 0, 79.3, -74, -60.5, 90, 610000130)    
   spatialChat(pJosFive, "Roger, Roger!")
  
 end
@@ -143,10 +118,7 @@ end
 if (((bossHealth <= (bossMaxHealth * 0.49))) and readData("jakku_weapons_facility_boss_5:spawnState") == 6) then
  -- spatialChat(pBoss,"Level 2 Cloning Laboratory compromised.  Additional security required in Level 4 production center.  Droid production set to highest affinity.")
     writeData("jakku_weapons_facility_boss_5:spawnState", 7)
-    local pJosSix = spawnMobile("jakku", "jakku_fast_battle_droid", 0, 78.6, -74, -58.2, 90, 610000130)
-    CreatureObject(pJosSix, function(sixthTime)
-    sixthTime:engageCombat(pPlayer)
-    end)
+    local pJosSix = spawnMobile("jakku", "jakku_fast_battle_droid", 0, 78.6, -74, -58.2, 90, 610000130)    
   spatialChat(pJosSix, "Roger, Roger!")
  
 end
@@ -154,10 +126,7 @@ end
 if (((bossHealth <= (bossMaxHealth * 0.48))) and readData("jakku_weapons_facility_boss_5:spawnState") == 7) then
  -- spatialChat(pBoss,"Level 2 Cloning Laboratory compromised.  Additional security required in Level 4 production center.  Droid production set to highest affinity.")
     writeData("jakku_weapons_facility_boss_5:spawnState", 8)
-    local pJosSeven = spawnMobile("jakku", "jakku_fast_battle_droid", 0, 77.8, -74, -53.9, 90, 610000130)
-    CreatureObject(pJosSeven, function(seventhTime)
-    seventhTime:engageCombat(pPlayer)
-    end)
+    local pJosSeven = spawnMobile("jakku", "jakku_fast_battle_droid", 0, 77.8, -74, -53.9, 90, 610000130)   
   spatialChat(pJosSeven, "Roger, Roger!")
  
 end
@@ -165,10 +134,7 @@ end
 if (((bossHealth <= (bossMaxHealth * 0.47))) and readData("jakku_weapons_facility_boss_5:spawnState") == 8) then
  -- spatialChat(pBoss,"Level 2 Cloning Laboratory compromised.  Additional security required in Level 4 production center.  Droid production set to highest affinity.")
     writeData("jakku_weapons_facility_boss_5:spawnState", 9)
-    local pJosEight = spawnMobile("jakku", "jakku_fast_battle_droid", 0, 78.9, -74, -51.9, 90, 610000130)
-    CreatureObject(pJosEight, function(eighthTime)
-    eighthTime:engageCombat(pPlayer)
-    end)
+    local pJosEight = spawnMobile("jakku", "jakku_fast_battle_droid", 0, 78.9, -74, -51.9, 90, 610000130)   
   spatialChat(pJosEight, "Roger, Roger!")
  
 end

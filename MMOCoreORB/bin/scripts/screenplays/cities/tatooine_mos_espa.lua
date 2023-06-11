@@ -385,6 +385,7 @@ function TatooineMosEspaScreenPlay:spawnSceneObjects()
 	spawnSceneObject(self.planet, "object/tangible/item/quest/force_sensitive/bacta_tank.iff", 9.7, -9.5, -10.0, 1261579, math.rad(-45) )
 	spawnSceneObject(self.planet, "object/mobile/mouse_droid.iff", 8.3, -9.5, -7.3, 1261579, math.rad(135) )
 	spawnSceneObject(self.planet, "object/tangible/furniture/technical/armoire_s01.iff", 5.5, -9.5, -11.0, 1261579, math.rad(0) )
+	spawnSceneObject(self.planet, "object/tangible/terminal/terminal_event_buffs.iff", -13.2, 0.2, 0.0, 4005424, math.rad(90) )
 end
 
 function TatooineMosEspaScreenPlay:spawnMobiles()
