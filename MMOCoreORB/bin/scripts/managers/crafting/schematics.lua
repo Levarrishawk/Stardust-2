@@ -1818,24 +1818,25 @@ schematics = {
   
   {path="object/draft_schematic/clothing/clothing_pants_nightsister_s01.iff"},
   {path="object/draft_schematic/clothing/clothing_pants_nightsister_s02.iff"},
-  {path="object/draft_schematic/clothing/clothing_pants_nightsister_01.iff"},
-  {path="object/draft_schematic/clothing/clothing_pants_nightsister_02.iff"},
+  
+ -- {path="object/draft_schematic/clothing/clothing_pants_nightsister_01.iff"},
+ -- {path="object/draft_schematic/clothing/clothing_pants_nightsister_02.iff"},
   
   {path="object/draft_schematic/clothing/clothing_shirt_nightsister_s01.iff"},
   {path="object/draft_schematic/clothing/clothing_shirt_nightsister_s02.iff"},
   {path="object/draft_schematic/clothing/clothing_shirt_nightsister_s03.iff"},
   
-  {path="object/draft_schematic/clothing/clothing_shirt_nightsister_01.iff"},
-  {path="object/draft_schematic/clothing/clothing_shirt_nightsister_02.iff"},
-  {path="object/draft_schematic/clothing/clothing_shirt_nightsister_03.iff"},
+--  {path="object/draft_schematic/clothing/clothing_shirt_nightsister_01.iff"},
+--  {path="object/draft_schematic/clothing/clothing_shirt_nightsister_02.iff"},
+--  {path="object/draft_schematic/clothing/clothing_shirt_nightsister_03.iff"},
   
   {path="object/draft_schematic/clothing/clothing_boots_nightsister.iff"},
   {path="object/draft_schematic/clothing/clothing_dress_nightsister.iff"},
   
-  {path="object/draft_schematic/item/clothing_sea_removal_tool.iff"},
-  {path="object/draft_schematic/vehicle/civilian/flare_s_swoop_crafted.iff"},
-  {path="object/draft_schematic/vehicle/civilian/barc_speeder.iff"},
-  {path="object/draft_schematic/vehicle/civilian/speeder_stap.iff"},
+ -- {path="object/draft_schematic/item/clothing_sea_removal_tool.iff"},
+ -- {path="object/draft_schematic/vehicle/civilian/flare_s_swoop_crafted.iff"},
+ -- {path="object/draft_schematic/vehicle/civilian/barc_speeder.iff"},
+ -- {path="object/draft_schematic/vehicle/civilian/speeder_stap.iff"},
 
   -- Craftable Jedi Robes
   --[[
@@ -1860,8 +1861,8 @@ schematics = {
   {path="object/draft_schematic/structure/gen_md_win_02_schem.iff"},
   {path="object/draft_schematic/structure/gen_sm_win_01_schem.iff"},
   {path="object/draft_schematic/structure/gen_sm_win_02_schem.iff"},
-  {path="object/draft_schematic/structure/nab_sm_win_01_schem.iff"},
-  {path="object/draft_schematic/structure/tat_sm_win_01_schem.iff"},
+ -- {path="object/draft_schematic/structure/nab_sm_win_01_schem.iff"},
+ -- {path="object/draft_schematic/structure/tat_sm_win_01_schem.iff"},
   {path="object/draft_schematic/structure/hangar_house_schem.iff"},
 --  {path="object/draft_schematic/structure/jabbas_house_schem.iff"},
   {path="object/draft_schematic/structure/jedi_house_schem.iff"},
