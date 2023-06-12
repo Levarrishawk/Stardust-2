@@ -48,10 +48,9 @@ object_draft_schematic_weapon_axe_vibro = object_draft_schematic_weapon_shared_a
    customObjectName = "Vibro Axe",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 30, 
+   complexity = 1, 
    size = 4, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general", 
    xp = 120, 
 

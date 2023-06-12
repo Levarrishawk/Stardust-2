@@ -48,10 +48,9 @@ object_draft_schematic_weapon_component_blade_vibro_unit = object_draft_schemati
    customObjectName = "Blade Vibro Unit",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 18, 
+   complexity = 1, 
    size = 3, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general", 
    xp = 70, 
 

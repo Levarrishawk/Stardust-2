@@ -48,12 +48,11 @@ object_draft_schematic_clothing_clothing_pants_casual_26 = object_draft_schemati
    customObjectName = "Hot Pants",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 17, 
+   complexity = 1, 
    size = 3, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
-   xp = 50, 
+   xp = 5000, -- Boosted xp for tailor grind expediency.
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

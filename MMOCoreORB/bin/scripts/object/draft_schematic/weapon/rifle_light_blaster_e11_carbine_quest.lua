@@ -48,10 +48,9 @@ object_draft_schematic_weapon_rifle_light_blaster_e11_carbine_quest = object_dra
    customObjectName = "Schematic: Enhanced E11 Carbine",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 30, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general", 
    xp = 140, 
 

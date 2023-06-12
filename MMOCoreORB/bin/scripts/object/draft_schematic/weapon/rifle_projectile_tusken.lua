@@ -48,10 +48,9 @@ object_draft_schematic_weapon_rifle_projectile_tusken = object_draft_schematic_w
    customObjectName = "Tusken Rifle",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 16, 
+   complexity = 1, 
    size = 3, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general", 
    xp = 110, 
 

@@ -48,10 +48,9 @@ object_draft_schematic_weapon_staff_reinforced = object_draft_schematic_weapon_s
    customObjectName = "Reinforced Combat Staff",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 5, 
+   complexity = 1, 
    size = 3, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_general", 
    xp = 80, 
 

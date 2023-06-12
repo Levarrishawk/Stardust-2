@@ -4955,6 +4955,100 @@ object_tangible_loot_loot_schematic_shared_ns_dress_schematic = SharedTangibleOb
   clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_ns_dress_schematic.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_ns_dress_schematic, "object/tangible/loot/loot_schematic/shared_ns_dress_schematic.iff")
+-- --------------------------------------------------------------
+-- NGE House Schematics
+-- --------------------------------------------------------------
+--bespin Schem
+object_tangible_loot_loot_schematic_shared_bespin_house_loot_schem = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_bespin_house_loot_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_bespin_house_loot_schem, "object/tangible/loot/loot_schematic/shared_bespin_house_loot_schem.iff")
+
+--emperors Schem
+object_tangible_loot_loot_schematic_shared_emperors_house_loot_schem = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_emperors_house_loot_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_emperors_house_loot_schem, "object/tangible/loot/loot_schematic/shared_emperors_house_loot_schem.iff")
+
+--hangar Schem
+object_tangible_loot_loot_schematic_shared_hangar_house_loot_schem = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_hangar_house_loot_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_hangar_house_loot_schem, "object/tangible/loot/loot_schematic/shared_hangar_house_loot_schem.iff")
+
+--jedi Schem
+object_tangible_loot_loot_schematic_shared_jedi_house_loot_schem = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_jedi_house_loot_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_jedi_house_loot_schem, "object/tangible/loot/loot_schematic/shared_jedi_house_loot_schem.iff")
+
+--musty Schem
+object_tangible_loot_loot_schematic_shared_musty_house_loot_schem = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_musty_house_loot_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_musty_house_loot_schem, "object/tangible/loot/loot_schematic/shared_musty_house_loot_schem.iff")
+
+--rebel Schem
+object_tangible_loot_loot_schematic_shared_rebel_house_loot_schem = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_house_loot_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_house_loot_schem, "object/tangible/loot/loot_schematic/shared_rebel_house_loot_schem.iff")
+
+--relaxation Schem
+object_tangible_loot_loot_schematic_shared_relaxation_house_loot_schem = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_relaxation_house_loot_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_relaxation_house_loot_schem, "object/tangible/loot/loot_schematic/shared_relaxation_house_loot_schem.iff")
+
+--sith Schem
+object_tangible_loot_loot_schematic_shared_sith_house_loot_schem = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_sith_house_loot_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_sith_house_loot_schem, "object/tangible/loot/loot_schematic/shared_sith_house_loot_schem.iff")
+
+--vehicle Schem
+object_tangible_loot_loot_schematic_shared_vehicle_house_loot_schem = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_vehicle_house_loot_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_vehicle_house_loot_schem, "object/tangible/loot/loot_schematic/shared_vehicle_house_loot_schem.iff")
+
+--gen_lg_win_01_schem Schem
+object_tangible_loot_loot_schematic_shared_gen_lg_win_01_loot_schem = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_gen_lg_win_01_loot_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_gen_lg_win_01_loot_schem, "object/tangible/loot/loot_schematic/shared_gen_lg_win_01_loot_schem.iff")
+
+--gen_lg_win_02_schem Schem
+object_tangible_loot_loot_schematic_shared_gen_lg_win_02_loot_schem = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_gen_lg_win_02_loot_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_gen_lg_win_02_loot_schem, "object/tangible/loot/loot_schematic/shared_gen_lg_win_02_loot_schem.iff")
+
+--gen_md_win_01_schem Schem
+object_tangible_loot_loot_schematic_shared_gen_md_win_01_loot_schem = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_gen_md_win_01_loot_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_gen_md_win_01_loot_schem, "object/tangible/loot/loot_schematic/shared_gen_md_win_01_loot_schem.iff")
+
+--gen_md_win_02_schem Schem
+object_tangible_loot_loot_schematic_shared_gen_md_win_02_loot_schem = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_gen_md_win_02_loot_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_gen_md_win_02_loot_schem, "object/tangible/loot/loot_schematic/shared_gen_md_win_02_loot_schem.iff")
+
+--gen_sm_win_01_schem Schem
+object_tangible_loot_loot_schematic_shared_gen_sm_win_01_loot_schem = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_gen_sm_win_01_loot_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_gen_sm_win_01_loot_schem, "object/tangible/loot/loot_schematic/shared_gen_sm_win_01_loot_schem.iff")
+
+--gen_sm_win_02_schem Schem
+object_tangible_loot_loot_schematic_shared_gen_sm_win_02_loot_schem = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_gen_sm_win_02_loot_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_gen_sm_win_02_loot_schem, "object/tangible/loot/loot_schematic/shared_gen_sm_win_02_loot_schem.iff")
+
+
 
 
 

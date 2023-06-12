@@ -48,9 +48,8 @@ object_draft_schematic_weapon_lightsaber_lightsaber_polearm_gen1 = object_draft_
    customObjectName = "Double-Bladed First Generation Lightsaber",
 
    craftingToolTab = 2048, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 16, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
 
    xpType = "jedi_general", 
    xp = 0, 
@@ -68,8 +67,8 @@ object_draft_schematic_weapon_lightsaber_lightsaber_polearm_gen1 = object_draft_
    ingredientTitleNames = {"emitter_shroud", "primary_crystal", "activator", "handgrip", "focusing_crystals", "power_field_insulator", "energizers"},
    ingredientSlotType = {0, 1, 0, 0, 1, 0, 0},
    resourceTypes = {"mineral", "object/tangible/component/weapon/lightsaber/shared_lightsaber_refined_crystal_pack.iff", "metal", "chemical", "object/tangible/component/weapon/lightsaber/shared_lightsaber_refined_crystal_pack.iff", "gas", "metal"},
-   resourceQuantities = {25, 1, 24, 40, 1, 40, 40},
-   contribution = {100, 100, 100, 100, 100, 100, 100},
+   resourceQuantities = {15, 1, 14, 17, 1, 20, 14},
+   contribution = {100, 0, 100, 100, 0, 100, 100},
 
 
    targetTemplate = "object/weapon/melee/polearm/crafted_saber/sword_lightsaber_polearm_gen1.iff",

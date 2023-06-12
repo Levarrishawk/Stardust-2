@@ -48,9 +48,8 @@ object_draft_schematic_clothing_clothing_jewelry_necklace_06 = object_draft_sche
    customObjectName = "Metal Necklace",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 17, 
+   complexity = 1, 
    size = 2, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
    xp = 55, 

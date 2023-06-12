@@ -48,9 +48,8 @@ object_draft_schematic_clothing_clothing_armor_tantel_chest = object_draft_schem
    customObjectName = "Tantel Armor Chest Plate",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 30, 
+   complexity = 1, 
    size = 3, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_armor", 
    xp = 400, 

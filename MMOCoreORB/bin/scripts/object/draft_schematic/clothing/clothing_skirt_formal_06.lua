@@ -48,12 +48,11 @@ object_draft_schematic_clothing_clothing_skirt_formal_06 = object_draft_schemati
    customObjectName = "Belted Skirt",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 19, 
+   complexity = 1, 
    size = 4, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
-   xp = 25, 
+   xp = 300, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

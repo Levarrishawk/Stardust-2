@@ -48,10 +48,9 @@ object_draft_schematic_weapon_rifle_berserker = object_draft_schematic_weapon_sh
    customObjectName = "Berserker Rifle Schematic",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 16, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general", 
    xp = 110, 
 

@@ -48,13 +48,11 @@ object_draft_schematic_clothing_clothing_robe_casual_05b = object_draft_schemati
    customObjectName = "Cloak (Hood Up)",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 2, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
-
 
    xpType = "crafting_clothing_general", 
-   xp = 275, 
+   xp = 500, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

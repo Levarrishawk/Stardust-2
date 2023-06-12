@@ -48,10 +48,9 @@ object_draft_schematic_armor_component_armor_layer_acid = object_draft_schematic
 	customObjectName = "Acid Protection Armor Layer",
 
 	craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 35,
+	complexity = 3,
 	size = 3,
-	factoryCrateSize = 100,
-	factoryCrateType = "object/factory/factory_crate_generic_items.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_clothing_armor",
 	xp = 120,

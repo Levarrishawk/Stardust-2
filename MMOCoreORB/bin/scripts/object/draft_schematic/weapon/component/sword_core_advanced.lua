@@ -50,10 +50,9 @@ object_draft_schematic_weapon_component_sword_core_advanced = object_draft_schem
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
    complexity = 5, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general", 
-   xp = 25, 
+   xp = 4287, -- Boosted xp for WS grind expediency.
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

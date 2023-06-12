@@ -48,10 +48,9 @@ object_draft_schematic_armor_armor_segment_kashyyykian_hunting_advanced = object
 	customObjectName = "Advanced Kashyyykian Hunting Armor Segment",
 
 	craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-	complexity = 30,
+	complexity = 1,
 	size = 1,
-	factoryCrateSize = 50,
-	factoryCrateType = "object/factory/factory_crate_armor.iff",
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_clothing_armor",
 	xp = 35,
@@ -67,7 +66,7 @@ object_draft_schematic_armor_armor_segment_kashyyykian_hunting_advanced = object
 	ingredientTemplateNames = {"craft_armor_ingredients_n", "craft_armor_ingredients_n", "craft_armor_ingredients_n", "craft_armor_ingredients_n", "craft_armor_ingredients_n", "craft_armor_ingredients_n", "craft_armor_ingredients_n"},
 	ingredientTitleNames = {"armor_segment_kashyyykian_hunting", "armor_layer_track", "segment_mounting_tabs", "defensive_layer", "defensive_layer_2", "defensive_layer_3", "segment_enhancement"},
 	ingredientSlotType = {0, 0, 0, 3, 3, 3, 3},
-	resourceTypes = {"hide_leathery_dantooine", "bone_avian_dantooine", "softwood_evergreen_yavin4", "object/tangible/component/armor/shared_armor_layer.iff", "object/tangible/component/armor/shared_armor_layer.iff", "object/tangible/component/armor/shared_armor_layer.iff", "object/tangible/component/armor/shared_base_armor_segment_enhancement.iff"},
+	resourceTypes = {"hide_leathery", "bone_avian", "softwood_evergreen", "object/tangible/component/armor/shared_armor_layer.iff", "object/tangible/component/armor/shared_armor_layer.iff", "object/tangible/component/armor/shared_armor_layer.iff", "object/tangible/component/armor/shared_base_armor_segment_enhancement.iff"},
 	resourceQuantities = {25, 16, 8, 1, 1, 1, 1},
 	contribution = {100, 100, 100, 100, 100, 100, 100},
 

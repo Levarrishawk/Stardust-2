@@ -48,10 +48,9 @@ object_draft_schematic_weapon_baton_gaderiffi = object_draft_schematic_weapon_sh
    customObjectName = "Gaderiffi Baton",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 20, 
+   complexity = 1, 
    size = 4, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general", 
    xp = 90, 
 

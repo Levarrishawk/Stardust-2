@@ -48,10 +48,9 @@ object_draft_schematic_weapon_heavy_lightning_beam = object_draft_schematic_weap
    customObjectName = "Lightning Beam Cannon",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 50, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general", 
    xp = 550, 
 

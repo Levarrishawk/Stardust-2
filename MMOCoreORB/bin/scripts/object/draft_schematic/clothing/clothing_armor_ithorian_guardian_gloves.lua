@@ -48,9 +48,8 @@ object_draft_schematic_clothing_clothing_armor_ithorian_guardian_gloves = object
    customObjectName = "Ithorian Guardian Gloves",
 
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 25, 
+   complexity = 1, 
    size = 3, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_armor", 
    xp = 110, 

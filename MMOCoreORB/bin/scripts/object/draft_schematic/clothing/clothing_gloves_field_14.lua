@@ -48,12 +48,11 @@ object_draft_schematic_clothing_clothing_gloves_field_14 = object_draft_schemati
    customObjectName = "Link-Steel Reinforced Gloves",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 2, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
-   xp = 165, 
+   xp = 400, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

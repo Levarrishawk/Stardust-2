@@ -48,12 +48,11 @@ object_draft_schematic_clothing_clothing_ith_gloves_field_02 = object_draft_sche
    customObjectName = "Ithorian Leather Work Gloves",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 2, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
-   xp = 90, 
+   xp = 200, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

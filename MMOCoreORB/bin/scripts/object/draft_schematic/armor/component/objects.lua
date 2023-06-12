@@ -1363,3 +1363,13 @@ object_draft_schematic_armor_component_shared_heavy_armor_layer_stun = SharedDra
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_armor_component_shared_heavy_armor_layer_stun, "object/draft_schematic/armor/component/shared_heavy_armor_layer_stun.iff")
+
+
+object_draft_schematic_armor_component_shared_armor_layer_lightsaber = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armor/component/shared_armor_layer_lightsaber.iff"
+  --Data below here is deprecated and loaded from the tres, keeping for easy lookups
+
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_component_shared_armor_layer_lightsaber, "object/draft_schematic/armor/component/shared_armor_layer_lightsaber.iff")
+

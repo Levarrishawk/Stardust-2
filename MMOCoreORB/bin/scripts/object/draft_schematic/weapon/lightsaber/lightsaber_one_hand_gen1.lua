@@ -48,10 +48,9 @@ object_draft_schematic_weapon_lightsaber_lightsaber_one_hand_gen1 = object_draft
    customObjectName = "First Generation Lightsaber",
 
    craftingToolTab = 2048, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 16, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "jedi_general", 
    xp = 0, 
 
@@ -69,7 +68,7 @@ object_draft_schematic_weapon_lightsaber_lightsaber_one_hand_gen1 = object_draft
    ingredientSlotType = {0, 1, 0, 0, 1, 0, 0},
    resourceTypes = {"mineral", "object/tangible/component/weapon/lightsaber/shared_lightsaber_refined_crystal_pack.iff", "metal", "chemical", "object/tangible/component/weapon/lightsaber/shared_lightsaber_refined_crystal_pack.iff", "gas", "metal"},
    resourceQuantities = {15, 1, 14, 17, 1, 20, 14},
-   contribution = {100, 100, 100, 100, 100, 100, 100},
+   contribution = {100, 0, 100, 100, 0, 100, 100},
 
 
    targetTemplate = "object/weapon/melee/sword/crafted_saber/sword_lightsaber_one_handed_gen1.iff",

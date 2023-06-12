@@ -48,10 +48,9 @@ object_draft_schematic_weapon_sword = object_draft_schematic_weapon_shared_sword
    customObjectName = "Sword",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 2, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general", 
    xp = 45, 
 

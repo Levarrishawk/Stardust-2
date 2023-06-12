@@ -48,9 +48,8 @@ object_draft_schematic_clothing_clothing_ith_pants_field_04 = object_draft_schem
    customObjectName = "Ithorian Reinforced Trousers",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 10, 
+   complexity = 1, 
    size = 3, 
-   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_general", 
    xp = 60, 

@@ -48,10 +48,9 @@ object_draft_schematic_weapon_component_chemical_dispersion_mechanism_advanced =
    customObjectName = "Advanced Chemical Dispersion Mechanism",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
-   complexity = 15, 
+   complexity = 1, 
    size = 1, 
-   factoryCrateType = "object/factory/factory_crate_weapon.iff",
-   
+
    xpType = "crafting_weapons_general", 
    xp = 50, 
 
