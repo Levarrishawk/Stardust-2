@@ -174,6 +174,8 @@ schematics = {
 	{path="object/draft_schematic/armor/component/armor_layer_electrical.iff"},
 	{path="object/draft_schematic/armor/component/armor_layer_acid.iff"},
 	{path="object/draft_schematic/armor/component/armor_layer_stun.iff"},
+	--Add LS Layer
+	{path="object/draft_schematic/armor/component/armor_layer_lightsaber.iff"},
 	{path="object/draft_schematic/armor/component/deflector_shield_generator_particle.iff"},
 	{path="object/draft_schematic/armor/component/deflector_shield_generator_energy_ray.iff"},
 	{path="object/draft_schematic/armor/component/deflector_shield_emitter_assembly.iff"},
