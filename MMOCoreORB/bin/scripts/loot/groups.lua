@@ -502,3 +502,6 @@ includeFile("groups/deeds/structure/mustafar_bunker.lua")
 
 includeFile("groups/creature/ewok_tooth.lua")
 includeFile("groups/furniture/xeno_desk.lua")
+
+-- NGE Weapon Schematics
+includeFile("groups/schematic/weapon/nge_ranged_weapon_schematics.lua")

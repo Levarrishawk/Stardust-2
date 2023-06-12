@@ -47,4 +47,4 @@
 -- Server Objects
 
 
---includeFile("tangible/loot/loot_schematic/weapon_schematic/carbine_charric_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/carbine_charric_schematic.lua")
