@@ -39,7 +39,7 @@ jakku_assassin_droid = Creature:new {
         {group = "jakku_weapons", chance = 1000000},
         {group = "clothing_attachments", chance = 1000000},
         {group = "armor_attachments", chance = 1000000},        
-        {group = "nge_housing_all", chance = 10000}
+        {group = "nge_houses_all", chance = 10000}
       }
     }
   },
