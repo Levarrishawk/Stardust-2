@@ -11,4 +11,4 @@ carbine_charric_schematic = {
 	customizationValues = {}
 }
 
-addLootItemTemplate("carbine_charric_schematic", carbine_char1ric_schematic)
+addLootItemTemplate("carbine_charric_schematic", carbine_charric_schematic)
