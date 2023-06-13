@@ -1,5 +1,5 @@
 
-object_tangible_loot_loot_schematic_weapon_schematic_carbine_charric_schematic = object_tangible_loot_loot_schematic_weapon_schematic_shared_charric_carbine_schematic:new {
+object_tangible_loot_loot_schematic_weapon_schematic_carbine_charric_schematic = object_tangible_loot_loot_schematic_weapon_schematic_shared_carbine_charric_schematic:new {
 	templateType = LOOTSCHEMATIC,
 	objectMenuComponent = "LootSchematicMenuComponent",
 	attributeListComponent = "LootSchematicAttributeListComponent",
