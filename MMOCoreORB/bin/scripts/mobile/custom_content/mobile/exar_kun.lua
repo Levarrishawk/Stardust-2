@@ -118,13 +118,7 @@ exar_kun = Creature:new {
         {group = "armor_attachments", chance = 2000000},
       },
       lootChance = 10000000,
-    },  
-    {
-      groups = {
-        {group = "buff_droid", chance = 10000000},        
-      },
-      lootChance = 500000,
-    },
+    },    
     {
       groups = {
         {group = "nge_jedi_cloaks", chance = 5000000},        
