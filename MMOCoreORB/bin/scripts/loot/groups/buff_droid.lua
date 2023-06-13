@@ -7,4 +7,4 @@ buff_droid = {
 	}
 }
 
-addLootGroupTemplate("buff_droid", crystal_black)
+addLootGroupTemplate("buff_droid", buff_droid)

@@ -3,7 +3,7 @@ nge_ranged_weapon_schematics = {
   minimumLevel = 0,
   maximumLevel = -1,
   lootItems = {
-    {itemTemplate = "carbine_charric_schematic", weight = 625000},    
+    {itemTemplate = "carbine_charric_schematic", weight = 625000}    
   }
 }
 
