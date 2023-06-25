@@ -1,11 +1,8 @@
-
-
-
-object_draft_schematic_weapon_sword_marauder = object_draft_schematic_weapon_shared_sword_marauder:new {
+object_draft_schematic_weapon_sword_massassi = object_draft_schematic_weapon_shared_sword_massassi:new {
 
    templateType = DRAFTSCHEMATIC,
 
-   customObjectName = "Marauder Sword",
+   customObjectName = "Massassi Sword",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
    complexity = 1, 
@@ -30,10 +27,10 @@ object_draft_schematic_weapon_sword_marauder = object_draft_schematic_weapon_sha
    contribution = {100, 100, 100, 100, 100, 100},
 
 
-   targetTemplate = "object/weapon/melee/sword/sword_marauder.iff",
+   targetTemplate = "object/weapon/melee/sword/sword_massassi.iff",
 
    additionalTemplates = {
              }
 
 }
-ObjectTemplates:addTemplate(object_draft_schematic_weapon_sword_marauder, "object/draft_schematic/weapon/sword_marauder.iff")
+ObjectTemplates:addTemplate(object_draft_schematic_weapon_sword_massassi, "object/draft_schematic/weapon/sword_massassi.iff")

@@ -1,8 +1,8 @@
-object_draft_schematic_weapon_rifle_ld1 = object_draft_schematic_weapon_shared_rifle_ld1:new {
+object_draft_schematic_weapon_rifle_massassi_ink = object_draft_schematic_weapon_shared_rifle_massassi_ink:new {
 
    templateType = DRAFTSCHEMATIC,
 
-   customObjectName = "LD-1 Rifle",
+   customObjectName = "Massassi Ink Rifle",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
    complexity = 1, 
@@ -28,10 +28,10 @@ object_draft_schematic_weapon_rifle_ld1 = object_draft_schematic_weapon_shared_r
    ingredientAppearance = {"", "", "", "", "", "", "muzzle", "stock"},
 
 
-   targetTemplate = "object/weapon/ranged/rifle/rifle_ld1.iff",
+   targetTemplate = "object/weapon/ranged/rifle/rifle_massassi_ink.iff",
 
    additionalTemplates = {
              }
 
 }
-ObjectTemplates:addTemplate(object_draft_schematic_weapon_rifle_ld1, "object/draft_schematic/weapon/rifle_ld1.iff")
+ObjectTemplates:addTemplate(object_draft_schematic_weapon_rifle_massassi_ink, "object/draft_schematic/weapon/rifle_massassi_ink.iff")

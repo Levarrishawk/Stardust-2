@@ -1,11 +1,8 @@
-
-
-
-object_draft_schematic_weapon_sword_marauder = object_draft_schematic_weapon_shared_sword_marauder:new {
+object_draft_schematic_weapon_sword_junti_mace = object_draft_schematic_weapon_shared_sword_junti_mace:new {
 
    templateType = DRAFTSCHEMATIC,
 
-   customObjectName = "Marauder Sword",
+   customObjectName = "Junti Mace",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
    complexity = 1, 
@@ -30,10 +27,10 @@ object_draft_schematic_weapon_sword_marauder = object_draft_schematic_weapon_sha
    contribution = {100, 100, 100, 100, 100, 100},
 
 
-   targetTemplate = "object/weapon/melee/sword/sword_marauder.iff",
+   targetTemplate = "object/weapon/melee/sword/sword_junti_mace.iff",
 
    additionalTemplates = {
              }
 
 }
-ObjectTemplates:addTemplate(object_draft_schematic_weapon_sword_marauder, "object/draft_schematic/weapon/sword_marauder.iff")
+ObjectTemplates:addTemplate(object_draft_schematic_weapon_sword_junti_mace, "object/draft_schematic/weapon/sword_junti_mace.iff")

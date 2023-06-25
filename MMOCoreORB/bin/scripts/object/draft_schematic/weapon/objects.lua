@@ -4066,7 +4066,33 @@ object_draft_schematic_weapon_shared_turbo_laser = SharedDraftSchematicObjectTem
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_turbo_laser, "object/draft_schematic/weapon/shared_turbo_laser.iff")
 --
+-- Loot Weapon Schematics
+--
 
+-------------------------------------
+object_draft_schematic_weapon_shared_blasterfist = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_blasterfist.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_blasterfist, "object/draft_schematic/weapon/shared_blasterfist.iff")
+-----------------------------------------
+-------------------------------------
+object_draft_schematic_weapon_shared_carbine_alliance_needler = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_carbine_alliance_needler.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_carbine_alliance_needler, "object/draft_schematic/weapon/shared_carbine_alliance_needler.iff")
+-----------------------------------------
+-------------------------------------------
+object_draft_schematic_weapon_shared_carbine_bothan_bola = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_carbine_bothan_bola.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_carbine_bothan_bola, "object/draft_schematic/weapon/shared_carbine_bothan_bola.iff")
+-------------------------------------
 object_draft_schematic_weapon_shared_carbine_charric = SharedDraftSchematicObjectTemplate:new {
   clientTemplateFileName = "object/draft_schematic/weapon/shared_carbine_charric.iff"
   
@@ -4074,7 +4100,38 @@ object_draft_schematic_weapon_shared_carbine_charric = SharedDraftSchematicObjec
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_carbine_charric, "object/draft_schematic/weapon/shared_carbine_charric.iff")
 -------------------------------------
+-----------------------------------------
+object_draft_schematic_weapon_shared_carbine_czerka_dart = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_carbine_czerka_dart.iff"
+  
+}
 
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_carbine_czerka_dart, "object/draft_schematic/weapon/shared_carbine_czerka_dart.iff")
+-------------------------------------
+-----------------------------------------
+object_draft_schematic_weapon_shared_carbine_geo = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_carbine_geo.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_carbine_geo, "object/draft_schematic/weapon/shared_carbine_geo.iff")
+-------------------------------------
+-----------------------------------------
+object_draft_schematic_weapon_shared_carbine_kun_massassi = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_carbine_kun_massassi.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_carbine_kun_massassi, "object/draft_schematic/weapon/shared_carbine_kun_massassi.iff")
+-------------------------------------
+-------------------------------------------
+object_draft_schematic_weapon_shared_carbine_republic_sfor = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_carbine_republic_sfor.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_carbine_republic_sfor, "object/draft_schematic/weapon/shared_carbine_republic_sfor.iff")
+-------------------------------------
 -------------------------------------
 object_draft_schematic_weapon_shared_lance_shock = SharedDraftSchematicObjectTemplate:new {
   clientTemplateFileName = "object/draft_schematic/weapon/shared_lance_shock.iff"
@@ -4082,6 +4139,24 @@ object_draft_schematic_weapon_shared_lance_shock = SharedDraftSchematicObjectTem
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_lance_shock, "object/draft_schematic/weapon/shared_lance_shock.iff")
+
+-------------------------------------
+---------------------------------------
+object_draft_schematic_weapon_shared_lance_obsidian = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_lance_obsidian.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_lance_obsidian, "object/draft_schematic/weapon/shared_lance_obsidian.iff")
+
+-------------------------------------
+-----------------------------------------
+object_draft_schematic_weapon_shared_lance_xandank = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_lance_xandank.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_lance_xandank, "object/draft_schematic/weapon/shared_lance_xandank.iff")
 
 -------------------------------------
 object_draft_schematic_weapon_shared_loot_soulstinger = SharedDraftSchematicObjectTemplate:new {
@@ -4100,12 +4175,88 @@ object_draft_schematic_weapon_shared_pistol_renegade = SharedDraftSchematicObjec
 ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_pistol_renegade, "object/draft_schematic/weapon/shared_pistol_renegade.iff")
 
 -------------------------------------
+-------------------------------------
+object_draft_schematic_weapon_shared_pistol_heroic_sd = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_pistol_heroic_sd.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_pistol_heroic_sd, "object/draft_schematic/weapon/shared_pistol_heroic_sd.iff")
+
+-------------------------------------
+-------------------------------------
+object_draft_schematic_weapon_shared_pistol_intimidator = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_pistol_intimidator.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_pistol_intimidator, "object/draft_schematic/weapon/shared_pistol_intimidator.iff")
+
+-------------------------------------
+--
+---------------------------------------
+object_draft_schematic_weapon_shared_polearm_heroic_sd = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_polearm_heroic_sd.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_polearm_heroic_sd, "object/draft_schematic/weapon/shared_polearm_heroic_sd.iff")
+
+-------------------------------------
+-----------------------------------------
+object_draft_schematic_weapon_shared_polearm_electric = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_polearm_electric.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_polearm_electric, "object/draft_schematic/weapon/shared_polearm_electric.iff")
+
+-------------------------------------
+-----------------------------------------
+object_draft_schematic_weapon_shared_polearm_kashyyk_bladestick = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_polearm_kashyyk_bladestick.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_polearm_kashyyk_bladestick, "object/draft_schematic/weapon/shared_polearm_kashyyk_bladestick.iff")
+
+-------------------------------------
+-----------------------------------------
+object_draft_schematic_weapon_shared_lance_kaminoan = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_lance_kaminoan.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_lance_kaminoan, "object/draft_schematic/weapon/shared_lance_kaminoan.iff")
+
+-------------------------------------
+-----------------------------------------
+object_draft_schematic_weapon_shared_lance_massassi = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_lance_massassi.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_lance_massassi, "object/draft_schematic/weapon/shared_lance_massassi.iff")
+
+-------------------------------------
+
 object_draft_schematic_weapon_shared_rifle_ld1 = SharedDraftSchematicObjectTemplate:new {
   clientTemplateFileName = "object/draft_schematic/weapon/shared_rifle_ld1.iff"
   
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_rifle_ld1, "object/draft_schematic/weapon/shared_rifle_ld1.iff")
+
+-------------------------------------
+--
+---------------------------------------
+
+object_draft_schematic_weapon_shared_rifle_adventurer_hv_sniper = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_rifle_adventurer_hv_sniper.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_rifle_adventurer_hv_sniper, "object/draft_schematic/weapon/shared_rifle_adventurer_hv_sniper.iff")
 
 -------------------------------------
 object_draft_schematic_weapon_shared_rifle_tc22_blaster = SharedDraftSchematicObjectTemplate:new {
@@ -4116,14 +4267,145 @@ object_draft_schematic_weapon_shared_rifle_tc22_blaster = SharedDraftSchematicOb
 ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_rifle_tc22_blaster, "object/draft_schematic/weapon/shared_rifle_tc22_blaster.iff")
 
 -------------------------------------
+---------------------------------------
+object_draft_schematic_weapon_shared_rifle_dc15 = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_rifle_dc15.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_rifle_dc15, "object/draft_schematic/weapon/shared_rifle_dc15.iff")
+
+-------------------------------------
+-----------------------------------------
+object_draft_schematic_weapon_shared_rifle_dp23 = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_rifle_dp23.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_rifle_dp23, "object/draft_schematic/weapon/shared_rifle_dp23.iff")
+
+-------------------------------------
+-----------------------------------------
+object_draft_schematic_weapon_shared_rifle_geo_drill = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_rifle_geo_drill.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_rifle_geo_drill, "object/draft_schematic/weapon/shared_rifle_geo_drill.iff")
+
+-------------------------------------
+-------------------------------------------
+object_draft_schematic_weapon_shared_rifle_massassi_ink = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_rifle_massassi_ink.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_rifle_massassi_ink, "object/draft_schematic/weapon/shared_rifle_massassi_ink.iff")
+
+-------------------------------------
+---------------------------------------------
+object_draft_schematic_weapon_shared_rifle_proton = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_rifle_proton.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_rifle_proton, "object/draft_schematic/weapon/shared_rifle_proton.iff")
+
+-------------------------------------
 object_draft_schematic_weapon_shared_sword_marauder = SharedDraftSchematicObjectTemplate:new {
   clientTemplateFileName = "object/draft_schematic/weapon/shared_sword_marauder.iff"
   
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_sword_marauder, "object/draft_schematic/weapon/shared_sword_marauder.iff")
+-------------------------------------
+-------------------------------------
+object_draft_schematic_weapon_shared_sword_bandit = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_sword_bandit.iff"
+  
+}
 
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_sword_bandit, "object/draft_schematic/weapon/shared_sword_bandit.iff")
+-------------------------------------
+--
+-------------------------------------
+object_draft_schematic_weapon_shared_sword_obsidian = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_sword_obsidian.iff"
+  
+}
 
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_sword_obsidian, "object/draft_schematic/weapon/shared_sword_obsidian.iff")
+-------------------------------------
+-------------------------------------
+object_draft_schematic_weapon_shared_2h_sword_obsidian = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_2h_sword_obsidian.iff"
+  
+}
 
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_2h_sword_obsidian, "object/draft_schematic/weapon/shared_2h_sword_obsidian.iff")
+-------------------------------------
+-------------------------------------
+object_draft_schematic_weapon_shared_2h_sword_tulrus = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_2h_sword_tulrus.iff"
+  
+}
 
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_2h_sword_tulrus, "object/draft_schematic/weapon/shared_2h_sword_tulrus.iff")
+-------------------------------------
+-------------------------------------
+object_draft_schematic_weapon_shared_sword_acid = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_sword_acid.iff"
+  
+}
 
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_sword_acid, "object/draft_schematic/weapon/shared_sword_acid.iff")
+-------------------------------------
+---------------------------------------
+object_draft_schematic_weapon_shared_sword_junti_mace = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_sword_junti_mace.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_sword_junti_mace, "object/draft_schematic/weapon/shared_sword_junti_mace.iff")
+-------------------------------------
+
+object_draft_schematic_weapon_shared_sword_massassi = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_sword_massassi.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_sword_massassi, "object/draft_schematic/weapon/shared_sword_massassi.iff")
+-------------------------------------
+-------------------------------------
+
+object_draft_schematic_weapon_shared_sword_rsf = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_sword_rsf.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_sword_rsf, "object/draft_schematic/weapon/shared_sword_rsf.iff")
+-------------------------------------
+---------------------------------------
+object_draft_schematic_weapon_shared_2h_sword_kashyyk = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_2h_sword_kashyyk.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_2h_sword_kashyyk, "object/draft_schematic/weapon/shared_2h_sword_kashyyk.iff")
+-------------------------------------
+-----------------------------------------
+object_draft_schematic_weapon_shared_2h_sword_kun_massassi = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_2h_sword_kun_massassi.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_2h_sword_kun_massassi, "object/draft_schematic/weapon/shared_2h_sword_kun_massassi.iff")
+-------------------------------------
+-------------------------------------------
+object_draft_schematic_weapon_shared_2h_sword_sith = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/weapon/shared_2h_sword_sith.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_2h_sword_sith, "object/draft_schematic/weapon/shared_2h_sword_sith.iff")
+-------------------------------------

@@ -1,8 +1,8 @@
-object_draft_schematic_weapon_rifle_ld1 = object_draft_schematic_weapon_shared_rifle_ld1:new {
+object_draft_schematic_weapon_rifle_adventurer_hv_sniper = object_draft_schematic_weapon_shared_rifle_adventurer_hv_sniper:new {
 
    templateType = DRAFTSCHEMATIC,
 
-   customObjectName = "LD-1 Rifle",
+   customObjectName = "Adventurer Rifle",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
    complexity = 1, 
@@ -28,10 +28,10 @@ object_draft_schematic_weapon_rifle_ld1 = object_draft_schematic_weapon_shared_r
    ingredientAppearance = {"", "", "", "", "", "", "muzzle", "stock"},
 
 
-   targetTemplate = "object/weapon/ranged/rifle/rifle_ld1.iff",
+   targetTemplate = "object/weapon/ranged/rifle/rifle_adventurer_hv_sniper.iff",
 
    additionalTemplates = {
              }
 
 }
-ObjectTemplates:addTemplate(object_draft_schematic_weapon_rifle_ld1, "object/draft_schematic/weapon/rifle_ld1.iff")
+ObjectTemplates:addTemplate(object_draft_schematic_weapon_rifle_adventurer_hv_sniper, "object/draft_schematic/weapon/rifle_adventurer_hv_sniper.iff")

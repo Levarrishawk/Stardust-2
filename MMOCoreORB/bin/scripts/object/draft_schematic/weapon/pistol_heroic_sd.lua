@@ -1,9 +1,9 @@
 
-object_draft_schematic_weapon_pistol_renegade = object_draft_schematic_weapon_shared_pistol_renegade:new {
+object_draft_schematic_weapon_pistol_heroic_sd = object_draft_schematic_weapon_shared_pistol_heroic_sd:new {
 
    templateType = DRAFTSCHEMATIC,
 
-   customObjectName = "Renegade Pistol",
+   customObjectName = "P-8 Lamprey Pistol",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
    complexity = 1, 
@@ -28,10 +28,10 @@ object_draft_schematic_weapon_pistol_renegade = object_draft_schematic_weapon_sh
    contribution = {100, 100, 100, 100, 100, 100},
 
 
-   targetTemplate = "object/weapon/ranged/pistol/pistol_renegade.iff",
+   targetTemplate = "object/weapon/ranged/pistol/pistol_heroic_sd.iff",
 
    additionalTemplates = {
              }
 
 }
-ObjectTemplates:addTemplate(object_draft_schematic_weapon_pistol_renegade, "object/draft_schematic/weapon/pistol_renegade.iff")
+ObjectTemplates:addTemplate(object_draft_schematic_weapon_pistol_heroic_sd, "object/draft_schematic/weapon/pistol_heroic_sd.iff")

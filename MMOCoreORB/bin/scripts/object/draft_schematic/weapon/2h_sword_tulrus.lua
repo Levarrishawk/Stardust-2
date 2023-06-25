@@ -1,8 +1,8 @@
-object_draft_schematic_weapon_maul = object_draft_schematic_weapon_shared_maul:new {
+object_draft_schematic_weapon_2h_sword_tulrus = object_draft_schematic_weapon_shared_2h_sword_tulrus:new {
 
    templateType = DRAFTSCHEMATIC,
 
-   customObjectName = "Power Hammer",
+   customObjectName = "Two-Handed Tulrus Sword",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
    complexity = 1, 
@@ -27,10 +27,10 @@ object_draft_schematic_weapon_maul = object_draft_schematic_weapon_shared_maul:n
    contribution = {100, 100, 100, 100},
 
 
-   targetTemplate = "object/weapon/melee/2h_sword/2h_sword_maul.iff",
+   targetTemplate = "object/weapon/melee/2h_sword/2h_sword_tulrus.iff",
 
    additionalTemplates = {
              }
 
 }
-ObjectTemplates:addTemplate(object_draft_schematic_weapon_maul, "object/draft_schematic/weapon/maul.iff")
+ObjectTemplates:addTemplate(object_draft_schematic_weapon_2h_sword_tulrus, "object/draft_schematic/weapon/2h_sword_tulrus.iff")

@@ -1,8 +1,8 @@
-object_draft_schematic_weapon_lance_shock = object_draft_schematic_weapon_shared_lance_shock:new {
+object_draft_schematic_weapon_polearm_kashyyk_bladestick = object_draft_schematic_weapon_shared_polearm_kashyyk_bladestick:new {
 
    templateType = DRAFTSCHEMATIC,
 
-   customObjectName = "Shock Lance",
+   customObjectName = "Kashyyyk Blade Stick",
 
    craftingToolTab = 1, -- (See DraftSchematicObjectTemplate.h)
    complexity = 1, 
@@ -27,10 +27,10 @@ object_draft_schematic_weapon_lance_shock = object_draft_schematic_weapon_shared
    contribution = {100, 100, 100, 100, 100},
 
 
-   targetTemplate = "object/weapon/melee/polearm/lance_shock.iff",
+   targetTemplate = "object/weapon/melee/polearm/polearm_kashyyk_bladestick.iff",
 
    additionalTemplates = {
              }
 
 }
-ObjectTemplates:addTemplate(object_draft_schematic_weapon_lance_shock, "object/draft_schematic/weapon/lance_shock.iff")
+ObjectTemplates:addTemplate(object_draft_schematic_weapon_polearm_kashyyk_bladestick, "object/draft_schematic/weapon/polearm_kashyyk_bladestick.iff")
