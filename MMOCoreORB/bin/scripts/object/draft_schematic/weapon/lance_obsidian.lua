@@ -27,7 +27,7 @@ object_draft_schematic_weapon_lance_obsidian = object_draft_schematic_weapon_sha
    contribution = {100, 100, 100, 100, 100},
 
 
-   targetTemplate = "object/weapon/melee/polearm/lance_obsidian.iff",
+   targetTemplate = "object/weapon/melee/polearm/som_lance_obsidian.iff",
 
    additionalTemplates = {
              }

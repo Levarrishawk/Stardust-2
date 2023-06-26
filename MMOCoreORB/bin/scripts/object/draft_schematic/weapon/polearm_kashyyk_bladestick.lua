@@ -27,7 +27,7 @@ object_draft_schematic_weapon_polearm_kashyyk_bladestick = object_draft_schemati
    contribution = {100, 100, 100, 100, 100},
 
 
-   targetTemplate = "object/weapon/melee/polearm/polearm_kashyyk_bladestick.iff",
+   targetTemplate = "object/weapon/melee/polearm/lance_kashyyk.iff",
 
    additionalTemplates = {
              }

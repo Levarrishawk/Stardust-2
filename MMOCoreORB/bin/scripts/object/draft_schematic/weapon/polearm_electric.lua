@@ -27,7 +27,7 @@ object_draft_schematic_weapon_polearm_electric = object_draft_schematic_weapon_s
    contribution = {100, 100, 100, 100, 100},
 
 
-   targetTemplate = "object/weapon/melee/polearm/polearm_electric.iff",
+   targetTemplate = "object/weapon/melee/polearm/polearm_lance_electric_polearm.iff",
 
    additionalTemplates = {
              }

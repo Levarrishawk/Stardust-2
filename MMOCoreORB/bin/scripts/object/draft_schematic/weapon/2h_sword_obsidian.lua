@@ -27,7 +27,7 @@ object_draft_schematic_weapon_2h_sword_obsidian = object_draft_schematic_weapon_
    contribution = {100, 100, 100, 100},
 
 
-   targetTemplate = "object/weapon/melee/2h_sword/2h_sword_obsidian.iff",
+   targetTemplate = "object/weapon/melee/2h_sword/som_2h_sword_obsidian.iff",
 
    additionalTemplates = {
              }

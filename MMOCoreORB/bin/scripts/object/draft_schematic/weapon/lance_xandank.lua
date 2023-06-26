@@ -27,7 +27,7 @@ object_draft_schematic_weapon_lance_xandank = object_draft_schematic_weapon_shar
    contribution = {100, 100, 100, 100, 100},
 
 
-   targetTemplate = "object/weapon/melee/polearm/lance_xandank.iff",
+   targetTemplate = "object/weapon/melee/polearm/som_lance_xandank.iff",
 
    additionalTemplates = {
              }

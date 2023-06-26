@@ -27,7 +27,7 @@ object_draft_schematic_weapon_sword_bandit = object_draft_schematic_weapon_share
    contribution = {100, 100, 100, 100, 100, 100},
 
 
-   targetTemplate = "object/weapon/melee/sword/sword_bandit.iff",
+   targetTemplate = "object/weapon/melee/sword/som_sword_mustafar_bandit.iff",
 
    additionalTemplates = {
              }

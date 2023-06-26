@@ -171,7 +171,7 @@ includeFile("draft_schematic/weapon/2h_sword_tulrus.lua")
 includeFile("draft_schematic/weapon/2h_sword_kashyyk.lua")
 includeFile("draft_schematic/weapon/2h_sword_kun_massassi.lua")
 
--- TODO: Check each schematic target path for accuracy.
+
 
 
 

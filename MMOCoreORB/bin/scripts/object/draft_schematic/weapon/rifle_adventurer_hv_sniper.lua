@@ -28,7 +28,7 @@ object_draft_schematic_weapon_rifle_adventurer_hv_sniper = object_draft_schemati
    ingredientAppearance = {"", "", "", "", "", "", "muzzle", "stock"},
 
 
-   targetTemplate = "object/weapon/ranged/rifle/rifle_adventurer_hv_sniper.iff",
+   targetTemplate = "object/weapon/ranged/rifle/rifle_adventurer.iff",
 
    additionalTemplates = {
              }
