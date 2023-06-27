@@ -4,7 +4,7 @@ object_tangible_loot_loot_schematic_weapon_schematic_sword_mace_junti_schematic 
 	objectMenuComponent = "LootSchematicMenuComponent",
 	attributeListComponent = "LootSchematicAttributeListComponent",
 	requiredSkill = "crafting_weaponsmith_master", 
-	targetDraftSchematic = "object/draft_schematic/weapon/sword_mace_junti.iff",
+	targetDraftSchematic = "object/draft_schematic/weapon/sword_junti_mace.iff",
 	targetUseCount = 1
 }
 

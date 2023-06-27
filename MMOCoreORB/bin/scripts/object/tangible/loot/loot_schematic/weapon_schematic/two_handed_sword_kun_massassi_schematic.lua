@@ -4,7 +4,7 @@ object_tangible_loot_loot_schematic_weapon_schematic_two_handed_sword_kun_massas
 	objectMenuComponent = "LootSchematicMenuComponent",
 	attributeListComponent = "LootSchematicAttributeListComponent",
 	requiredSkill = "crafting_weaponsmith_master", 
-	targetDraftSchematic = "object/draft_schematic/weapon/two_handed_sword_kun_massassi.iff",
+	targetDraftSchematic = "object/draft_schematic/weapon/2h_sword_kun_massassi.iff",
 	targetUseCount = 1
 }
 

@@ -1,50 +1,78 @@
---Copyright (C) 2010 <SWGEmu>
-
-
---This File is part of Core3.
-
---This program is free software; you can redistribute 
---it and/or modify it under the terms of the GNU Lesser 
---General Public License as published by the Free Software
---Foundation; either version 2 of the License, 
---or (at your option) any later version.
-
---This program is distributed in the hope that it will be useful, 
---but WITHOUT ANY WARRANTY; without even the implied warranty of 
---MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
---See the GNU Lesser General Public License for
---more details.
-
---You should have received a copy of the GNU Lesser General 
---Public License along with this program; if not, write to
---the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
-
---Linking Engine3 statically or dynamically with other modules 
---is making a combined work based on Engine3. 
---Thus, the terms and conditions of the GNU Lesser General Public License 
---cover the whole combination.
-
---In addition, as a special exception, the copyright holders of Engine3 
---give you permission to combine Engine3 program with free software 
---programs or libraries that are released under the GNU LGPL and with 
---code included in the standard release of Core3 under the GNU LGPL 
---license (or modified versions of such code, with unchanged license). 
---You may copy and distribute such a system following the terms of the 
---GNU LGPL for Engine3 and the licenses of the other code concerned, 
---provided that you include the source code of that other code when 
---and as the GNU LGPL requires distribution of source code.
-
---Note that people who make modified versions of Engine3 are not obligated 
---to grant this special exception for their modified versions; 
---it is their choice whether to do so. The GNU Lesser General Public License 
---gives permission to release a modified version without this exception; 
---this exception also makes it possible to release a modified version 
-
-
-
---Children folder includes
 
 -- Server Objects
 
 
+-- Carbines
+includeFile("tangible/loot/loot_schematic/weapon_schematic/carbine_alliance_needler_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/carbine_bothan_bola_schematic.lua")
 includeFile("tangible/loot/loot_schematic/weapon_schematic/carbine_charric_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/carbine_geo_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/carbine_kun_massassi_schematic.lua")
+--includeFile("tangible/loot/loot_schematic/weapon_schematic/carbine_mandalorian_schematic.lua") --No Client IFF
+includeFile("tangible/loot/loot_schematic/weapon_schematic/carbine_proton_schematic.lua")
+--includeFile("tangible/loot/loot_schematic/weapon_schematic/carbine_pvp_ngant_schematic.lua") --No Client IFF
+--includeFile("tangible/loot/loot_schematic/weapon_schematic/carbine_pvp_schematic.lua") --No Client IFF
+includeFile("tangible/loot/loot_schematic/weapon_schematic/som_carbine_republic_sfor_schematic.lua")
+
+-- Knucklers
+includeFile("tangible/loot/loot_schematic/weapon_schematic/melee_ep3_loot_soulstinger_schematic.lua")
+--includeFile("tangible/loot/loot_schematic/weapon_schematic/melee_fan_metal_schematic.lua") -- No client IFF
+--includeFile("tangible/loot/loot_schematic/weapon_schematic/melee_punch_dagger_schematic.lua") -- No client IFF
+--includeFile("tangible/loot/loot_schematic/weapon_schematic/melee_pvp_bf_schematic.lua") -- No client IFF
+
+--Pistols
+includeFile("tangible/loot/loot_schematic/weapon_schematic/pistol_heroic_sd_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/pistol_intimidator_schematic.lua")
+--includeFile("tangible/loot/loot_schematic/weapon_schematic/pistol_mandalorian_schematic.lua") -- No client IFF
+--includeFile("tangible/loot/loot_schematic/weapon_schematic/pistol_pvp_schematic.lua") -- No client iFF
+includeFile("tangible/loot/loot_schematic/weapon_schematic/pistol_renegade_schematic.lua")
+--includeFile("tangible/loot/loot_schematic/weapon_schematic/pistol_westar_34_schematic.lua") -- No client iFF
+
+--Polearms
+includeFile("tangible/loot/loot_schematic/weapon_schematic/polearm_lance_electric_polearm_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/polearm_lance_kaminoan_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/polearm_lance_kashyyk_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/polearm_lance_massassi_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/polearm_lance_shock_schematic.lua")
+--includeFile("tangible/loot/loot_schematic/weapon_schematic/polearm_lance_staff_magna_guard_schematic.lua") --No client iff
+includeFile("tangible/loot/loot_schematic/weapon_schematic/som_lance_obsidian_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/som_lance_xandank_schematic.lua")
+
+--Rifles
+includeFile("tangible/loot/loot_schematic/weapon_schematic/rifle_adventurer_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/rifle_bounty_dc15_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/rifle_geo_drill_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/rifle_ld1_schematic.lua")
+--includeFile("tangible/loot/loot_schematic/weapon_schematic/rifle_mandalorian_schematic.lua") --No client iFF
+includeFile("tangible/loot/loot_schematic/weapon_schematic/rifle_massassi_ink_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/rifle_proton_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/rifle_tc22_blaster_schematic.lua")
+--includeFile("tangible/loot/loot_schematic/weapon_schematic/rifle_westar_m5_schematic.lua") --No client iff
+includeFile("tangible/loot/loot_schematic/weapon_schematic/som_rifle_dp23_schematic.lua")
+
+--Sword
+includeFile("tangible/loot/loot_schematic/weapon_schematic/som_sword_mustafar_bandit_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/som_sword_obsidian_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/sword_acid_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/sword_mace_junti_schematic.lua")
+--includeFile("tangible/loot/loot_schematic/weapon_schematic/sword_mandalorian_schematic.lua") --No client iff
+includeFile("tangible/loot/loot_schematic/weapon_schematic/sword_marauder_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/sword_massassi_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/sword_rsf_schematic.lua")
+
+--Two handed sword
+includeFile("tangible/loot/loot_schematic/weapon_schematic/som_two_handed_sword_obsidian_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/som_two_handed_sword_tulrus_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/two_handed_sword_kashyyk_schematic.lua")
+includeFile("tangible/loot/loot_schematic/weapon_schematic/two_handed_sword_kun_massassi_schematic.lua")
+--includeFile("tangible/loot/loot_schematic/weapon_schematic/two_handed_sword_pvp_bf_01_schematic.lua") --No client iff
+includeFile("tangible/loot/loot_schematic/weapon_schematic/two_handed_sword_sith_schematic.lua")
+
+
+
+
+
+
+
+
+
