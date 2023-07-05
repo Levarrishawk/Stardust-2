@@ -5,13 +5,13 @@ kaas_weapons = {
 	minimumLevel = 0,
 	maximumLevel = 0,
 	lootItems = {
-		{itemTemplate = "pistol_intimidator", weight = 1500000},
-		{itemTemplate = "rifle_proton", weight = 1500000},
-		{itemTemplate = "som_two_handed_sword_obsidian", weight = 1500000},
-		{itemTemplate = "som_sword_obsidian", weight = 1500000},
-		{itemTemplate = "som_lance_obsidian", weight = 1500000},
+		{itemTemplate = "pistol_intimidator_schematic", weight = 1500000},
+		{itemTemplate = "rifle_proton_schematic", weight = 1500000},
+		{itemTemplate = "som_two_handed_sword_obsidian_schematic", weight = 1500000},
+		{itemTemplate = "som_sword_obsidian_schematic", weight = 1500000},
+		{itemTemplate = "som_lance_obsidian_schematic", weight = 1500000},
 		{itemTemplate = "melee_punch_dagger", weight = 1500000},
-		{itemTemplate = "carbine_czerka_dart", weight = 1000000}		
+		{itemTemplate = "carbine_czerka_dart_schematic", weight = 1000000}		
 	}
 }
 

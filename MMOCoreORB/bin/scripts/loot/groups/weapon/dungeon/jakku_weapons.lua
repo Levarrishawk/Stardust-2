@@ -9,9 +9,9 @@ jakku_weapons = {
 		{itemTemplate = "rifle_pvp", weight = 1500000},
 		{itemTemplate = "carbine_pvp_ngant", weight = 1500000},
 		{itemTemplate = "carbine_pvp", weight = 1500000},
-		{itemTemplate = "polearm_heroic_sd", weight = 1500000},
+		{itemTemplate = "polearm_heroic_sd_schematic", weight = 1500000},
 		{itemTemplate = "two_handed_sword_pvp_bf_01", weight = 1500000},
-		{itemTemplate = "sword_rsf", weight = 1000000}		
+		{itemTemplate = "sword_rsf_schematic", weight = 1000000}		
 	}
 }
 

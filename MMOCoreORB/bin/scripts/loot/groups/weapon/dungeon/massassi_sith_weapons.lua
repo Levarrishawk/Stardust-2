@@ -5,13 +5,13 @@ massassi_sith_weapons = {
 	minimumLevel = 0,
 	maximumLevel = 0,
 	lootItems = {
-		{itemTemplate = "rifle_massassi_ink", weight = 1500000},
-		{itemTemplate = "carbine_kun_massassi", weight = 1500000},
-		{itemTemplate = "two_handed_sword_kun_massassi", weight = 1500000},
-		{itemTemplate = "polearm_lance_massassi", weight = 1500000},
-		{itemTemplate = "sword_massassi", weight = 1500000},
+		{itemTemplate = "rifle_massassi_ink_schematic", weight = 1500000},
+		{itemTemplate = "carbine_kun_massassi_schematic", weight = 1500000},
+		{itemTemplate = "two_handed_sword_kun_massassi_schematic", weight = 1500000},
+		{itemTemplate = "polearm_lance_massassi_schematic", weight = 1500000},
+		{itemTemplate = "sword_massassi_schematic", weight = 1500000},
 		{itemTemplate = "melee_pvp_bf_knuckler", weight = 1500000},
-		{itemTemplate = "two_handed_sword_sith", weight = 1000000}		
+		{itemTemplate = "two_handed_sword_sith_schematic", weight = 1000000}		
 	}
 }
 

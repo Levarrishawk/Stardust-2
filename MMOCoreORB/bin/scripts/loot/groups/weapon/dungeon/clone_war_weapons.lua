@@ -5,14 +5,14 @@ clone_war_weapons = {
 	minimumLevel = 0,
 	maximumLevel = 0,
 	lootItems = {
-		{itemTemplate = "rifle_bounty_dc15", weight = 1500000},
-		{itemTemplate = "som_carbine_republic_sfor", weight = 1500000},
+		{itemTemplate = "rifle_bounty_dc15_schematic", weight = 1500000},
+		{itemTemplate = "som_carbine_republic_sfor_schematic", weight = 1500000},
 		{itemTemplate = "pistol_kyd21_generic", weight = 1500000},
-		{itemTemplate = "polearm_lance_kashyyk", weight = 1500000},
-		{itemTemplate = "two_handed_sword_kashyyk", weight = 1000000},
+		{itemTemplate = "polearm_lance_kashyyk_schematic", weight = 1500000},
+		{itemTemplate = "two_handed_sword_kashyyk_schematic", weight = 1000000},
 		{itemTemplate = "decorative_painting_trooper", weight = 500000},
 		{itemTemplate = "polearm_lance_staff_magna_guard", weight = 1500000},
-		{itemTemplate = "polearm_lance_kaminoan", weight = 1000000}		
+		{itemTemplate = "polearm_lance_kaminoan_schematic", weight = 1000000}		
 	}
 }
 

@@ -9,7 +9,7 @@ dwb_weapons = {
 		{itemTemplate = "pistol_mandalorian", weight = 2000000},
 		{itemTemplate = "rifle_mandalorian", weight = 2000000},
 		{itemTemplate = "sword_mandalorian", weight = 2000000},
-		{itemTemplate = "melee_blasterfist", weight = 2000000}
+		{itemTemplate = "melee_blasterfist_schematic", weight = 2000000}
 	}
 }
 

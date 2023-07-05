@@ -6,13 +6,13 @@ black_sun_weapons = {
 	maximumLevel = 0,
 	lootItems = {
 		
-		{itemTemplate = "rifle_tc22_blaster", weight = 1500000},
-		{itemTemplate = "rifle_ld1", weight = 1500000},
-		{itemTemplate = "melee_ep3_loot_soulstinger", weight = 1500000},
-		{itemTemplate = "carbine_charric", weight = 1500000},
-		{itemTemplate = "polearm_lance_shock", weight = 1500000},
-		{itemTemplate = "pistol_renegade", weight = 1500000},
-		{itemTemplate = "sword_marauder", weight = 1000000}		
+		{itemTemplate = "rifle_tc22_blaster_schematic", weight = 1500000},
+		{itemTemplate = "rifle_ld1_schematic", weight = 1500000},
+		{itemTemplate = "melee_ep3_loot_soulstinger_schematic", weight = 1500000},
+		{itemTemplate = "carbine_charric_schematic", weight = 1500000},
+		{itemTemplate = "polearm_lance_shock_schematic", weight = 1500000},
+		{itemTemplate = "pistol_renegade_schematic", weight = 1500000},
+		{itemTemplate = "sword_marauder_schematic", weight = 1000000}		
 		
 		--{itemTemplate = "carbine_charric_schematic", weight = 10000000}   
 	}

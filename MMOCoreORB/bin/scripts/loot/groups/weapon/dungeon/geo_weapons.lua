@@ -5,10 +5,10 @@ geo_weapons = {
 	minimumLevel = 0,
 	maximumLevel = 0,
 	lootItems = {
-		{itemTemplate = "rifle_geo_drill", weight = 2500000},
-		{itemTemplate = "carbine_geo", weight = 2500000},
+		{itemTemplate = "rifle_geo_drill_schematic", weight = 2500000},
+		{itemTemplate = "carbine_geo_schematic", weight = 2500000},
 		{itemTemplate = "polarm_lance_staff_magna_guard", weight = 2500000},
-		{itemTemplate = "som_sword_mustafar_bandit", weight = 2500000}
+		{itemTemplate = "som_sword_mustafar_bandit_schematic", weight = 2500000}
 	}
 }
 

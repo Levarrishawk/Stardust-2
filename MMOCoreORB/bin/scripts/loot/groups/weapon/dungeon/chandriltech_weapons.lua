@@ -8,10 +8,10 @@ chandriltech_weapons = {
 		{itemTemplate = "pistol_westar_34", weight = 1500000},
 		{itemTemplate = "rifle_westar_m5", weight = 1500000},
 		{itemTemplate = "melee_fan_metal", weight = 1500000},
-		{itemTemplate = "polearm_lance_electric_polearm", weight = 1500000},
-		{itemTemplate = "sword_acid", weight = 1500000},
-		{itemTemplate = "carbine_bothan_bola", weight = 1500000},
-		{itemTemplate = "som_two_handed_sword_tulrus", weight = 1000000}		
+		{itemTemplate = "polearm_lance_electric_polearm_schematic", weight = 1500000},
+		{itemTemplate = "sword_acid_schematic", weight = 1500000},
+		{itemTemplate = "carbine_bothan_bola_schematic", weight = 1500000},
+		{itemTemplate = "som_two_handed_sword_tulrus_schematic", weight = 1000000}		
 	}
 }
 

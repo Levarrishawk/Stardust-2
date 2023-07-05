@@ -5,14 +5,14 @@ elite_weapons = {
 	minimumLevel = 0,
 	maximumLevel = 0,
 	lootItems = {
-		{itemTemplate = "som_rifle_dp23", weight = 1500000},
-		{itemTemplate = "rifle_adventurer", weight = 1500000},
-		{itemTemplate = "melee_ep3_loot_soulstinger", weight = 1500000},
-		{itemTemplate = "pistol_heroic_sd", weight = 1500000},
-		{itemTemplate = "carbine_alliance_needler", weight = 1000000},
-		{itemTemplate = "carbine_proton", weight = 1000000},
-		{itemTemplate = "som_lance_xandank", weight = 1000000},
-		{itemTemplate = "sword_mace_junti", weight = 1000000}		
+		{itemTemplate = "som_rifle_dp23_schematic", weight = 1500000},
+		{itemTemplate = "rifle_adventurer_schematic", weight = 1500000},
+		{itemTemplate = "melee_ep3_loot_soulstinger_schematic", weight = 1500000},
+		{itemTemplate = "pistol_heroic_sd_schematic", weight = 1500000},
+		{itemTemplate = "carbine_alliance_needler_schematic", weight = 1000000},
+		{itemTemplate = "carbine_proton_schematic", weight = 1000000},
+		{itemTemplate = "som_lance_xandank_schematic", weight = 1000000},
+		{itemTemplate = "sword_mace_junti_schematic", weight = 1000000}		
 	}
 }
 
