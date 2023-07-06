@@ -2144,5 +2144,5 @@ schematics = {
   {path="object/draft_schematic/weapon/2h_sword_tulrus.iff"},
   {path="object/draft_schematic/weapon/2h_sword_kashyyk.iff"},
   {path="object/draft_schematic/weapon/2h_sword_kun_massassi.iff"},
-  
+  {path="object/draft_schematic/weapon/2h_sword_sith.iff"},
 };
