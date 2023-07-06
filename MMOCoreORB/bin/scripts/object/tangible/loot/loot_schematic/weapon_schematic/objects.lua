@@ -39,6 +39,14 @@ object_tangible_loot_loot_schematic_weapon_schematic_shared_carbine_geo_schemati
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_weapon_schematic_shared_carbine_geo_schematic, "object/tangible/loot/loot_schematic/weapon_schematic/shared_carbine_geo_schematic.iff")
 ----
+--
+object_tangible_loot_loot_schematic_weapon_schematic_shared_carbine_kun_massassi_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/weapon_schematic/shared_carbine_kun_massassi_schematic.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_weapon_schematic_shared_carbine_kun_massassi_schematic, "object/tangible/loot/loot_schematic/weapon_schematic/shared_carbine_kun_massassi_schematic.iff")
+----
 -- carbine_mandalorian
 --
 object_tangible_loot_loot_schematic_weapon_schematic_shared_carbine_proton_schematic = SharedTangibleObjectTemplate:new {
