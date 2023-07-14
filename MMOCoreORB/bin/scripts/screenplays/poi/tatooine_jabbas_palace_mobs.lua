@@ -35,10 +35,10 @@ TatooineJabbasPalaceMobsScreenPlay = ScreenPlay:new {
 	},
 
 	jabba_band = {
-		{"sy_snootles", 60, -9, 2, 37, 0, 1177487, "Sy Snootles", "themepark_sy_snootles"},
-		{"max_rebo", 60, -11, 2, 36, 0, 1177487, "Max Rebo","themepark_music_3"},
-		{"droopy_mccool", 60, -13, 2, 37, 0, 1177487, "Droopy McCool","themepark_music_3"},
-		{"oola", 60, -10, 2, 43, 180, 1177487, "Oola", "themepark_oola"}
+	--	{"sy_snootles", 60, -9, 2, 37, 0, 1177487, "Sy Snootles", "themepark_sy_snootles"},
+	--	{"max_rebo", 60, -11, 2, 36, 0, 1177487, "Max Rebo","themepark_music_3"},
+	--	{"droopy_mccool", 60, -13, 2, 37, 0, 1177487, "Droopy McCool","themepark_music_3"},
+	--	{"oola", 60, -10, 2, 43, 180, 1177487, "Oola", "themepark_oola"}
 	},
 
 }
@@ -47,7 +47,7 @@ registerScreenPlay("TatooineJabbasPalaceMobsScreenPlay", true)
 
 function TatooineJabbasPalaceMobsScreenPlay:start()
 	if (isZoneEnabled("tatooine")) then
-		spawnSceneObject("tatooine","object/tangible/instrument/organ_max_rebo.iff", -11, 2, 36, 1177487, 0.0707,0,0.0707,0)
+	--	spawnSceneObject("tatooine","object/tangible/instrument/organ_max_rebo.iff", -11, 2, 36, 1177487, 0.0707,0,0.0707,0)
 		--spawnSceneObject("tatooine", "object/tangible/instrument/instrument_organ_max_rebo.iff", -11.1, 2, 36.2, 1177487, 0.9974847113288691, 0, -0.07088194879630508, 0)
 		self:spawnMobiles()
 		self:spawnStatics()
@@ -55,14 +55,14 @@ function TatooineJabbasPalaceMobsScreenPlay:start()
 end
 
 function TatooineJabbasPalaceMobsScreenPlay:spawnStatics()
-	spawnMobile("tatooine", "beissa", 60, 8.11982, 2, 34.2394, 295, 1177487)
+--	spawnMobile("tatooine", "beissa", 60, 8.11982, 2, 34.2394, 295, 1177487)   -- Jabba Pilot Trainer
 	spawnMobile("tatooine", "ev_9d9", 60, 24.47, 0.2, 87.86, 312, 1177479)
-	spawnMobile("tatooine", "boba_fett",60,-1,3,31,322.95,1177487)
-	spawnMobile("tatooine", "salacious_crumb",60,-16.29,2.81087,42.54,86.0692,1177487)
-	spawnMobile("tatooine", "jabba_the_hutt",60,-16.65,2.81087,45,106.884,1177487)
+--	spawnMobile("tatooine", "boba_fett",60,-1,3,31,322.95,1177487)
+--	spawnMobile("tatooine", "salacious_crumb",60,-16.29,2.81087,42.54,86.0692,1177487)
+--	spawnMobile("tatooine", "jabba_the_hutt",60,-16.65,2.81087,45,106.884,1177487)
 	spawnMobile("tatooine", "le_repair_droid", 60, 23.67, 0.2, 76.43, 130.65, 1177479)
-	spawnMobile("tatooine", "malakili", 60, 19, -11, 42, 23.355, 1177502)
-	spawnMobile("tatooine", "jabba_rancor", 60, 3.93472, -10.9823, 45.0053, 101.285, 1177503)
+--	spawnMobile("tatooine", "malakili", 60, 19, -11, 42, 23.355, 1177502)
+--	spawnMobile("tatooine", "jabba_rancor", 60, 3.93472, -10.9823, 45.0053, 101.285, 1177503)
 	spawnMobile("tatooine", "protocol_droid_3po_red", 60, 10.71, 0.2, 84.27, 216, 1177479)
 	spawnMobile("tatooine", "ra7_bug_droid", 60, 13.33, 0.2, 88.72, 111.64,1177479)
 
