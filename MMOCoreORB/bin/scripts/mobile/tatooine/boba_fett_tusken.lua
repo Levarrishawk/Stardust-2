@@ -30,7 +30,7 @@ boba_fett_tusken = Creature:new {
   templates = {
     "object/mobile/tatooine_npc/hedon_istee.iff"},
   outfit = "boba_fett_tusken_outfit",
-  conversationTemplate = "bobaFettConvoTemplate",
+  conversationTemplate = "boba_fett_tusken",
   lootGroups = {
       {
       groups = {
