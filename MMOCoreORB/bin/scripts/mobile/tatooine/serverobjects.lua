@@ -315,3 +315,4 @@ includeFile("tatooine/zucca_boar.lua")
 --
 includeFile("tatooine/hondo_return_teleporter.lua")
 includeFile("tatooine/hondo_send_teleporter.lua")
+includeFile("tatooine/boba_fett_tusken.lua")
