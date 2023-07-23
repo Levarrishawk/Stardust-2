@@ -853,3 +853,4 @@ includeFile("mustafar/regions/north_west_region.lua")
 
 --Timeline Fixes
 includeFile("heroics/boba_fett_tusken.lua")
+includeFile("poi/talus_mandalorian_covert.lua")
