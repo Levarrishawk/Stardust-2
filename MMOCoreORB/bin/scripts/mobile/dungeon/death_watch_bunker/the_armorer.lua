@@ -27,7 +27,7 @@ the_armorer = Creature:new {
 	optionsBitmask = INVULNERABLE + CONVERSABLE,
 	diet = HERBIVORE,
 
-	templates = {"object/mobile/mara_jade.iff"},
+	templates = {"object/mobile/human_female.iff"},
 	lootGroups = {},
 	
 
