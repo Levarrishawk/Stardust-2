@@ -27,7 +27,7 @@ jilljoo_jab = Creature:new {
 	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
 
-	templates = {"object/mobile/dressed_tatooine_jilljoo_jab"},
+	templates = {"object/mobile/dressed_tatooine_jilljoo_jab.iff"},
 	lootGroups = {},
 
 	-- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)
