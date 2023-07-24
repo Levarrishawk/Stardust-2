@@ -29,12 +29,13 @@ the_armorer = Creature:new {
 
 	templates = {"object/mobile/mara_jade.iff"},
 	lootGroups = {},
-	outfit = "the_armorer_outfit",
+	
 
 	-- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)
 	-- Unarmed should be put on secondary unless the mobile doesn't use weapons, in which case "unarmed" should be put primary and "none" as secondary
 	primaryWeapon = "boba_fett_weapons",
 	secondaryWeapon = "unarmed",
+	outfit = "the_armorer_outfit",
 	conversationTemplate = "bobaFettConvoTemplate",
 	
 	-- primaryAttacks and secondaryAttacks should be separate skill groups specific to the weapon type listed in primaryWeapon and secondaryWeapon
