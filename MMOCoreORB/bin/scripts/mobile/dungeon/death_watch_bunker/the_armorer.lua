@@ -26,6 +26,7 @@ the_armorer = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = INVULNERABLE + CONVERSABLE,
 	diet = HERBIVORE,
+	scale = 0.85,
 
 	templates = {"object/mobile/tatooine_npc/aaph_koden.iff"},
 	lootGroups = {},
