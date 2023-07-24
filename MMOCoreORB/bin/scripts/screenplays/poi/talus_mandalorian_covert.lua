@@ -35,6 +35,9 @@ function TalusMandalorianCovertScreenPlay:spawnMobiles()
     self:setMoodString(pNpc, "neutral")
     pNpc = spawnMobile("talus", "child_of_the_watch",60,-65.6,-36.0,103.6,-2,9895485)
     self:setMoodString(pNpc, "neutral")
+    --New DWB Start
+    pNpc = spawnMobile("talus", "the_armorer",60,-56.2,-36.0,110.8,90,9895485)
+    self:setMoodString(pNpc, "neutral")
   --end mobile spawns
 end
 
