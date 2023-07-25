@@ -38,14 +38,31 @@ function TalusMandalorianCovertScreenPlay:spawnMobiles()
     --New DWB Start
     pNpc = spawnMobile("talus", "the_armorer",60,-56.2,-36.0,110.8,90,9895485)
     self:setMoodString(pNpc, "neutral")
+    
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4208,6,1130,0,0)
+    self:setMoodString(pNpc, "neutral") 
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4210,6,114.1,0,0)
+    self:setMoodString(pNpc, "neutral") 
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4212,6,114.0,0,0)
+    self:setMoodString(pNpc, "neutral")
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4214,6,103.6,0,0)
+    self:setMoodString(pNpc, "neutral")
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4206,6,1130,0,0)
+    self:setMoodString(pNpc, "neutral") 
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4204,6,114.1,0,0)
+    self:setMoodString(pNpc, "neutral") 
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4202,6,114.0,0,0)
+    self:setMoodString(pNpc, "neutral")
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4200,6,103.6,0,0)
+    self:setMoodString(pNpc, "neutral")
   --end mobile spawns
 end
 
 function TalusMandalorianCovertScreenPlay:startTinkerConvo(pActiveArea1, pMovingObject, pPlayer, pKid1, pKid2)
      -- Tinker Convo
-  local pKid1 = spawnMobile("talus", "child_of_the_watch",0,-54.5,-36,183,-90,9895487)  
+  local pKid1 = spawnMobile("talus", "child_of_the_watch",0,4207.7,6,1137.5,180,0)  
       self:setMoodString(pKid1, "neutral")    
-  local pKid2 = spawnMobile("talus", "child_of_the_watch",0,-54.5,-36,183,90,9895487) 
+  local pKid2 = spawnMobile("talus", "child_of_the_watch",0,4207.7,6,1132,0,0) 
       self:setMoodString(pKid2, "neutral")    
       
   writeData("TalusMandalorianCovertScreenPlay:pKid1_objectID", SceneObject(pKid1):getObjectID() )
