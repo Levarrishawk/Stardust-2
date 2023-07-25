@@ -12,7 +12,7 @@ function TalusMandalorianCovertScreenPlay:start()
   if (isZoneEnabled("talus")) then
     self:spawnMobiles()
     self:spawnSceneObjects()
-
+    self:startTinkerConvo()
   end
 end
 
@@ -41,4 +41,96 @@ function TalusMandalorianCovertScreenPlay:spawnMobiles()
   --end mobile spawns
 end
 
+function TalusMandalorianCovertScreenPlay:startTinkerConvo(pActiveArea1, pMovingObject, pPlayer, pKid1, pKid2)
+     -- Tinker Convo
+  local pKid1 = spawnMobile("talus", "child_of_the_watch",0,-54.5,-36,183,-90,9895487)  
+      self:setMoodString(pKid1, "neutral")    
+  local pKid2 = spawnMobile("talus", "child_of_the_watch",0,-54.5,-36,183,90,9895487) 
+      self:setMoodString(pKid2, "neutral")    
+      
+  writeData("TalusMandalorianCovertScreenPlay:pKid1_objectID", SceneObject(pKid1):getObjectID() )
+  writeData("TalusMandalorianCovertScreenPlay:pKid2_objectID", SceneObject(pKid2):getObjectID() ) 
+  
+   if not(readData("TalusMandalorianCovertScreenPlay:tinkerConvoInProgress") == 1) then       
+          writeData("TalusMandalorianCovertScreenPlay:tinkerConvoInProgress", 1)
+          createEvent(90 * 1000, "TalusMandalorianCovertScreenPlay", "touristConvoF1", pKid2, "")
+          createEvent(100 * 1000, "TalusMandalorianCovertScreenPlay", "touristConvoM1", pKid1, "")
+   else
+      return 0
+   end              
+end
 
+
+
+
+
+
+function TalusMandalorianCovertScreenPlay:touristConvoF1(pKid2, pPlayer)
+  
+  local pKid2 = getSceneObject(readData("TalusMandalorianCovertScreenPlay:pKid2_objectID"))
+  
+  if (readData("TalusMandalorianCovertScreenPlay:tinkerConvoState") == 0) then
+      spatialChat(pKid2, "Now, Foundling.  Repeat after me.   I swear on my name and the names of the ancestors...")     
+        writeData("TalusMandalorianCovertScreenPlay:tinkerConvoState", 1)   
+        createEvent(20 * 1000, "TalusMandalorianCovertScreenPlay", "touristConvoF2", pKid2, "")  
+  end
+end
+
+function TalusMandalorianCovertScreenPlay:touristConvoM1(pKid1, pPlayer)
+  
+  local pKid1 = getSceneObject(readData("TalusMandalorianCovertScreenPlay:pKid1_objectID"))
+  
+  if (readData("TalusMandalorianCovertScreenPlay:tinkerConvoState") == 1) then
+      spatialChat(pKid1, "I swear on my name and the names of the ancestors...")     
+        writeData("TalusMandalorianCovertScreenPlay:tinkerConvoState", 2)   
+        createEvent(20 * 1000, "LohthalCityScreenPlay", "touristConvoM2", pKid1, "")   
+  end
+end
+
+function TalusMandalorianCovertScreenPlay:touristConvoF2(pKid2, pPlayer)
+  
+  local pKid2 = getSceneObject(readData("TalusMandalorianCovertScreenPlay:pKid2_objectID"))
+  
+  if (readData("TalusMandalorianCovertScreenPlay:tinkerConvoState") == 2) then
+      spatialChat(pKid2, "That I shall walk the way of the Mand'alor and the words of the creed shall be forever forged in my heart.")     
+        writeData("TalusMandalorianCovertScreenPlay:tinkerConvoState", 3)    
+        createEvent(20 * 1000, "TalusMandalorianCovertScreenPlay", "touristConvoF3", pKid2, "")  
+  end
+end
+
+function TalusMandalorianCovertScreenPlay:touristConvoM2(pKid1, pPlayer)
+  
+  local pKid1 = getSceneObject(readData("TalusMandalorianCovertScreenPlay:pKid1_objectID"))
+  
+  if (readData("TalusMandalorianCovertScreenPlay:tinkerConvoState") == 3) then
+      spatialChat(pKid1, "That I shall walk the way of the Mand'alor and the words of the creed shall be forever forged in my heart.")     
+        writeData("TalusMandalorianCovertScreenPlay:tinkerConvoState", 4)  
+        createEvent(22 * 1000, "TalusMandalorianCovertScreenPlay", "touristConvoM3", pKid1, "")   
+  end
+end
+
+function TalusMandalorianCovertScreenPlay:touristConvoF3(pKid2, pPlayer)
+  
+  local pKid2 = getSceneObject(readData("TalusMandalorianCovertScreenPlay:pKid2_objectID"))
+  
+  if (readData("TalusMandalorianCovertScreenPlay:tinkerConvoState") == 4) then
+      spatialChat(pKid2, "This is the way.")     
+        writeData("TalusMandalorianCovertScreenPlay:tinkerConvoState", 5)           
+  end
+end
+
+function TalusMandalorianCovertScreenPlay:touristConvoM3(pKid1, pPlayer)
+  
+  local pKid1 = getSceneObject(readData("LohthalCityScreenPlay:pKid1_objectID"))
+  
+  if (readData("TalusMandalorianCovertScreenPlay:tinkerConvoState") == 5) then
+      spatialChat(pKid1, "This is the way.") 
+        writeData("TalusMandalorianCovertScreenPlay:tinkerConvoState", 0)   
+        createEvent(6 * 100 * 1000, "LohthalCityScreenPlay", "resetTinkerConvo", pKid1, "")   
+  end
+end
+
+function TalusMandalorianCovertScreenPlay:resetTinkerConvo(pPlayer, pKid1, pKid2)
+    writeData("TalusMandalorianCovertScreenPlay:tinkerConvoInProgress", 0)    
+    self:startTinkerConvo()
+end
