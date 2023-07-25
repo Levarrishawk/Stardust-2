@@ -61,9 +61,9 @@ end
 function TalusMandalorianCovertScreenPlay:startTinkerConvo(pActiveArea1, pMovingObject, pPlayer, pKid1, pKid2)
      -- Tinker Convo
   local pKid1 = spawnMobile("talus", "child_of_the_watch",0,4207.7,6,1137.5,180,0)  
-      self:setMoodString(pKid1, "neutral")    
+      self:setMoodString(pKid1, "proud")    
   local pKid2 = spawnMobile("talus", "child_of_the_watch",0,4207.7,6,1132,0,0) 
-      self:setMoodString(pKid2, "neutral")    
+      self:setMoodString(pKid2, "proud")    
       
   writeData("TalusMandalorianCovertScreenPlay:pKid1_objectID", SceneObject(pKid1):getObjectID() )
   writeData("TalusMandalorianCovertScreenPlay:pKid2_objectID", SceneObject(pKid2):getObjectID() ) 
