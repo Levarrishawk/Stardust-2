@@ -138,7 +138,7 @@ end
 
 function TalusMandalorianCovertScreenPlay:touristConvoM3(pKid1, pPlayer)
   
-  local pKid1 = getSceneObject(readData("LohthalCityScreenPlay:pKid1_objectID"))
+  local pKid1 = getSceneObject(readData("TalusMandalorianCovertScreenPlay:pKid1_objectID"))
   
   if (readData("TalusMandalorianCovertScreenPlay:tinkerConvoState") == 5) then
       spatialChat(pKid1, "This is the way.") 
