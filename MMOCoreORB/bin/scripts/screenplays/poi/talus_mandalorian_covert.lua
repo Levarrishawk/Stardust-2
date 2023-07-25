@@ -41,19 +41,19 @@ function TalusMandalorianCovertScreenPlay:spawnMobiles()
     
     pNpc = spawnMobile("talus", "child_of_the_watch",60,4208,6,1130,0,0)
     self:setMoodString(pNpc, "neutral") 
-    pNpc = spawnMobile("talus", "child_of_the_watch",60,4210,6,114.1,0,0)
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4210,6,1130.1,0,0)
     self:setMoodString(pNpc, "neutral") 
-    pNpc = spawnMobile("talus", "child_of_the_watch",60,4212,6,114.0,0,0)
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4212,6,1130.0,0,0)
     self:setMoodString(pNpc, "neutral")
-    pNpc = spawnMobile("talus", "child_of_the_watch",60,4214,6,103.6,0,0)
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4214,6,1130.6,0,0)
     self:setMoodString(pNpc, "neutral")
     pNpc = spawnMobile("talus", "child_of_the_watch",60,4206,6,1130,0,0)
     self:setMoodString(pNpc, "neutral") 
-    pNpc = spawnMobile("talus", "child_of_the_watch",60,4204,6,114.1,0,0)
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4204,6,1130.1,0,0)
     self:setMoodString(pNpc, "neutral") 
-    pNpc = spawnMobile("talus", "child_of_the_watch",60,4202,6,114.0,0,0)
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4202,6,1130.0,0,0)
     self:setMoodString(pNpc, "neutral")
-    pNpc = spawnMobile("talus", "child_of_the_watch",60,4200,6,103.6,0,0)
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4200,6,1130.6,0,0)
     self:setMoodString(pNpc, "neutral")
   --end mobile spawns
 end
@@ -100,7 +100,7 @@ function TalusMandalorianCovertScreenPlay:touristConvoM1(pKid1, pPlayer)
   if (readData("TalusMandalorianCovertScreenPlay:tinkerConvoState") == 1) then
       spatialChat(pKid1, "I swear on my name and the names of the ancestors...")     
         writeData("TalusMandalorianCovertScreenPlay:tinkerConvoState", 2)   
-        createEvent(20 * 1000, "LohthalCityScreenPlay", "touristConvoM2", pKid1, "")   
+        createEvent(20 * 1000, "TalusMandalorianCovertScreenPlay", "touristConvoM2", pKid1, "")   
   end
 end
 
@@ -143,7 +143,7 @@ function TalusMandalorianCovertScreenPlay:touristConvoM3(pKid1, pPlayer)
   if (readData("TalusMandalorianCovertScreenPlay:tinkerConvoState") == 5) then
       spatialChat(pKid1, "This is the way.") 
         writeData("TalusMandalorianCovertScreenPlay:tinkerConvoState", 0)   
-        createEvent(6 * 100 * 1000, "LohthalCityScreenPlay", "resetTinkerConvo", pKid1, "")   
+        createEvent(6 * 100 * 1000, "TalusMandalorianCovertScreenPlay", "resetTinkerConvo", pKid1, "")   
   end
 end
 
