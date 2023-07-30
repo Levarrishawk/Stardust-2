@@ -26,7 +26,7 @@ palpatine = Creature:new {
 	optionsBitmask = INVULNERABLE + CONVERSABLE,
 	diet = HERBIVORE,
 
-	templates = {"object/mobile/palpatine.iff"},
+	templates = {"object/mobile/ep3/palpatine_hologram.iff"},
 	lootGroups = {},
 
 	-- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)

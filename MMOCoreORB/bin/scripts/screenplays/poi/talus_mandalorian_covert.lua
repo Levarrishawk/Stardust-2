@@ -21,6 +21,9 @@ function TalusMandalorianCovertScreenPlay:spawnSceneObjects()
   spawnSceneObject("talus", "object/static/structure/corellia/corl_fountain_brazier_round_s01.iff", -60.8, -36, 110.9, 9895485, math.rad(90) )
   spawnSceneObject("talus", "object/tangible/tcg/series3/combine_object_mandalorian_skull_banner.iff", -20.2954, -24, 110.9, 9895520, math.rad(90) )
   
+  spawnSceneObject("talus", "object/static/structure/corellia/corl_fountain_brazier_round_s01.iff", 4225.7, 6, 1117.8, 0, math.rad(0) )
+  spawnSceneObject("talus", "object/static/structure/corellia/corl_fountain_brazier_round_s01.iff", 4174.7, 6, 1101.8, 0, math.rad(0) )
+  
 end
 
 function TalusMandalorianCovertScreenPlay:spawnMobiles()
@@ -54,6 +57,26 @@ function TalusMandalorianCovertScreenPlay:spawnMobiles()
     pNpc = spawnMobile("talus", "child_of_the_watch",60,4202,6,1130.0,0,0)
     self:setMoodString(pNpc, "neutral")
     pNpc = spawnMobile("talus", "child_of_the_watch",60,4200,6,1130.6,0,0)
+    self:setMoodString(pNpc, "neutral")
+    
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4208,6,1126,0,0)
+    self:setMoodString(pNpc, "neutral") 
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4210,6,1126.1,0,0)
+    self:setMoodString(pNpc, "neutral") 
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4212,6,1126.0,0,0)
+    self:setMoodString(pNpc, "neutral")
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4214,6,1126.6,0,0)
+    self:setMoodString(pNpc, "neutral")
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4206,6,1126,0,0)
+    self:setMoodString(pNpc, "neutral") 
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4204,6,1126.1,0,0)
+    self:setMoodString(pNpc, "neutral") 
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4202,6,1126.0,0,0)
+    self:setMoodString(pNpc, "neutral")
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4200,6,1126.6,0,0)
+    self:setMoodString(pNpc, "neutral")
+    
+    pNpc = spawnMobile("talus", "child_of_the_watch",60,4204,6,1005.6,20,0)
     self:setMoodString(pNpc, "neutral")
   --end mobile spawns
 end
