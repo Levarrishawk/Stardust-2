@@ -54,7 +54,7 @@ object_draft_schematic_chemistry_medpack_disease_area_strength_c = object_draft_
 	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
-	xp = 105,
+	xp = 405,
 
 	assemblySkill = "combat_medicine_assembly",
 	experimentingSkill = "combat_medicine_experimentation",

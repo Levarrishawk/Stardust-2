@@ -54,7 +54,7 @@ object_draft_schematic_chemistry_medpack_poison_health_c = object_draft_schemati
 	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
-	xp = 100,
+	xp = 1000,
 
 	assemblySkill = "combat_medicine_assembly",
 	experimentingSkill = "combat_medicine_experimentation",

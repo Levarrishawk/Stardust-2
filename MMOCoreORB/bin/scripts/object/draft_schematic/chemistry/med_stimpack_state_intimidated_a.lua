@@ -54,7 +54,7 @@ object_draft_schematic_chemistry_med_stimpack_state_intimidated_a = object_draft
 	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
-	xp = 45,
+	xp = 145,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

@@ -54,7 +54,7 @@ object_draft_schematic_chemistry_medpack_disease_stamina_b = object_draft_schema
 	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
-	xp = 80,
+	xp = 380,
 
 	assemblySkill = "combat_medicine_assembly",
 	experimentingSkill = "combat_medicine_experimentation",

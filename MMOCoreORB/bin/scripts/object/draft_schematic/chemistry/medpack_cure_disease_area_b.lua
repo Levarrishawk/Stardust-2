@@ -54,7 +54,7 @@ object_draft_schematic_chemistry_medpack_cure_disease_area_b = object_draft_sche
 	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
-	xp = 80,
+	xp = 280,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",
