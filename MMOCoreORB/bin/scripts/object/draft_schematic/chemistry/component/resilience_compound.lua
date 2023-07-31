@@ -54,7 +54,7 @@ object_draft_schematic_chemistry_component_resilience_compound = object_draft_sc
 	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
-	xp = 45,
+	xp = 100,
 
 	assemblySkill = "combat_medicine_assembly",
 	experimentingSkill = "combat_medicine_experimentation",

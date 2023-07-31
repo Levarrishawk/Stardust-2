@@ -54,7 +54,7 @@ object_draft_schematic_chemistry_med_fire_blanket = object_draft_schematic_chemi
 	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
-	xp = 105,
+	xp = 330,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

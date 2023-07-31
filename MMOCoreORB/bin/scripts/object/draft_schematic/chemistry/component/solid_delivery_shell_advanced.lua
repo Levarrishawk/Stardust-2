@@ -54,7 +54,7 @@ object_draft_schematic_chemistry_component_solid_delivery_shell_advanced = objec
 	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
-	xp = 65,
+	xp = 200,
 
 	assemblySkill = "medicine_assembly",
 	experimentingSkill = "medicine_experimentation",

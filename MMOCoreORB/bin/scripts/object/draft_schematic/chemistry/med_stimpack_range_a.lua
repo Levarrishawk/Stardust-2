@@ -54,7 +54,7 @@ object_draft_schematic_chemistry_med_stimpack_range_a = object_draft_schematic_c
 	factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
 	xpType = "crafting_medicine_general",
-	xp = 55,
+	xp = 100,
 
 	assemblySkill = "combat_medicine_assembly",
 	experimentingSkill = "combat_medicine_experimentation",

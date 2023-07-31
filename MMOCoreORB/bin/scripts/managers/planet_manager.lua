@@ -121,8 +121,8 @@ dantooine = { -- 1
 		{"badge_dantari_village2",-7185,-883,0,30,85},
 		{"badge_jedi_temple",4195,5203,0,30,30},
 		{"badge_rebel_base",-6836,5520,0,30,31},
-		{"warren_compassion",-550,-3834,0,30,38},
-    {"warren_hero",-550,-3834,0,30,39},
+	--	{"warren_compassion",-550,-3834,0,30,38},
+  --  {"warren_hero",-550,-3834,0,30,39},
 	},
 
 	navAreas = {

@@ -53,7 +53,7 @@ object_draft_schematic_food_drink_veronian_berry_wine = object_draft_schematic_f
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 120, 
+   xp = 3920, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 
