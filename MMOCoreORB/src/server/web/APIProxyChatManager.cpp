@@ -161,7 +161,7 @@ void APIProxyChatManager::handle(APIRequest& apiRequest) {
 	if (!apiRequest.parseRequestJSON())
 		return;
 
-	auto from = apiRequest.getRequestFieldString("from", false, "SKYNET");
+	auto from = apiRequest.getRequestFieldString("from", false, "STARDUST-ADMIN");
 
 	auto to = apiRequest.getRequestFieldString("to", false, "");
 

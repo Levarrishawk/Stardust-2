@@ -1,1 +1,1 @@
-Please dont forget to hard restart your clients if the server crashed/restarted.
+Welcome to Stardust Version 2.0 
