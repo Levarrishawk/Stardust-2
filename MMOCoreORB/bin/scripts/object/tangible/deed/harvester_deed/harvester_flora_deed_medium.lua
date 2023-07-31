@@ -54,7 +54,7 @@ object_tangible_deed_harvester_deed_harvester_flora_deed_medium = object_tangibl
 	experimentalGroupTitles = {"null", "null", "expEffeciency", "expStorage", "null"},
 	experimentalSubGroupTitles = {"null", "null", "extractrate", "hoppersize", "hitpoints"},
 	experimentalMin = {0, 0, 2, 50000, 1000},
-	experimentalMax = {0, 0, 6, 75000, 1000},
+	experimentalMax = {0, 0, 15, 75000, 1000},
 	experimentalPrecision = {0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 4},
 }
