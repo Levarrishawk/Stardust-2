@@ -53,7 +53,7 @@ object_draft_schematic_instrument_instrument_fanfar = object_draft_schematic_ins
    factoryCrateType = "object/factory/factory_crate_generic_items.iff",
    
    xpType = "music", 
-   xp = 110, 
+   xp = 3000, 
 
    assemblySkill = "instrument_assembly", 
    experimentingSkill = "general_experimentation", 

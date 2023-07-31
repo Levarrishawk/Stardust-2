@@ -53,7 +53,7 @@ object_draft_schematic_instrument_instrument_mandoviol = object_draft_schematic_
    factoryCrateType = "object/factory/factory_crate_generic_items.iff",
    
    xpType = "music", 
-   xp = 120, 
+   xp = 6000, 
 
    assemblySkill = "instrument_assembly", 
    experimentingSkill = "general_experimentation", 
