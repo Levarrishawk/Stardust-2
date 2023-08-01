@@ -1253,8 +1253,8 @@ void PlayerManagerImplementation::killPlayer(TangibleObject* attacker, CreatureO
 	if (player->isRidingMount()) {
 		player->updateCooldownTimer("mount_dismount", 0);
 		player->executeObjectControllerAction(STRING_HASHCODE("dismount"));
-		playerCreature->setSpeedMultiplierMod(1.f);
-		playerCreature->setAccelerationMultiplierMod(1.f);
+		player->setSpeedMultiplierMod(1.f);
+		player->setAccelerationMultiplierMod(1.f);
 	}
 
 	player->clearCombatState(true);
@@ -1890,7 +1890,7 @@ void PlayerManagerImplementation::disseminateExperience(TangibleObject* destruct
 				float xpAmount = baseXp;
 
 				if (ConfigManager::instance()->getBool("Core3.PlayerManager.CombatXpSplit", true)) {
-					xpAmount *= float;// damage / totalDamage;
+					xpAmount *= (float) damage / totalDamage;
 				} else {
 					float xpMod = Math::max(0.8f, 1.f - (mobTapCount * 0.02f));
 					xpAmount *= xpMod;
