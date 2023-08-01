@@ -1108,6 +1108,8 @@ int PlayerManagerImplementation::notifyDestruction(TangibleObject* destructor, T
 	if (playerCreature->isRidingMount()) {
 		playerCreature->updateCooldownTimer("mount_dismount", 0);
 		playerCreature->executeObjectControllerAction(STRING_HASHCODE("dismount"));
+		playerCreature->setSpeedMultiplierMod(1.f);
+		playerCreature->setAccelerationMultiplierMod(1.f);
 	}
 
 	PlayerObject* ghost = playerCreature->getPlayerObject();
@@ -1251,6 +1253,8 @@ void PlayerManagerImplementation::killPlayer(TangibleObject* attacker, CreatureO
 	if (player->isRidingMount()) {
 		player->updateCooldownTimer("mount_dismount", 0);
 		player->executeObjectControllerAction(STRING_HASHCODE("dismount"));
+		playerCreature->setSpeedMultiplierMod(1.f);
+		playerCreature->setAccelerationMultiplierMod(1.f);
 	}
 
 	player->clearCombatState(true);
@@ -1846,7 +1850,7 @@ void PlayerManagerImplementation::disseminateExperience(TangibleObject* destruct
 
 			trx.addState("combatTotalPets", totalPets);
 
-			awardExperience(owner, "creaturehandler", xpAmount);
+			awardExperience(owner, "creaturehandler", xpAmount * 6);
 		} else if (attacker->isPlayerCreature()) {
 			if (!(attacker->getZone() == zone && destructedObject->isInRangeZoneless(attacker, 80))) {
 				continue;
@@ -1886,7 +1890,7 @@ void PlayerManagerImplementation::disseminateExperience(TangibleObject* destruct
 				float xpAmount = baseXp;
 
 				if (ConfigManager::instance()->getBool("Core3.PlayerManager.CombatXpSplit", true)) {
-					xpAmount *= (float);// damage / totalDamage;
+					xpAmount *= float;// damage / totalDamage;
 				} else {
 					float xpMod = Math::max(0.8f, 1.f - (mobTapCount * 0.02f));
 					xpAmount *= xpMod;
@@ -1906,7 +1910,7 @@ void PlayerManagerImplementation::disseminateExperience(TangibleObject* destruct
 				if (xpType != "jedi_general")
 					combatXp += xpAmount;
 				else
-					xpAmount *= 0.2f;
+					xpAmount *= 0.5f;
 
 				if (xpType == "dotDMG") { // Prevents XP generated from DoTs from applying to the equiped weapon, but still counts towards combat XP
 					continue;
