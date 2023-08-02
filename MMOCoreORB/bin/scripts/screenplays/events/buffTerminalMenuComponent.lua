@@ -53,6 +53,9 @@ function buffTerminalMenuComponent:handleBuffChoice(pPlayer, pSui, eventIndex, .
   local args = {...}
   
   if (cancelPressed) then   
+    return
+  elseif (CreatureObject(pPlayer):getCashCredits() < 5000) then
+    CreatureObject(pPlayer):sendSystemMessage("You do not have enough credits on hand to pay the droid.")
     return 
   elseif (eventIndex == 0) then -- Buff the player
     CreatureObject(pPlayer):enhanceCharacter()
@@ -74,6 +77,9 @@ function buffTerminalMenuComponent:handleWoundChoice(pPlayer, pSui, eventIndex, 
   
   if (cancelPressed) then   
     return 
+  elseif (CreatureObject(pPlayer):getCashCredits() < 25000) then
+    CreatureObject(pPlayer):sendSystemMessage("You do not have enough credits on hand to pay the droid.")
+    return   
   elseif (eventIndex == 0) then -- Heal Wounds
     
     for i = 0, 8 do
