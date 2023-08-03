@@ -1371,8 +1371,8 @@ int CombatManager::applyDamage(TangibleObject* attacker, WeaponObject* weapon, C
 	float logDamage = 0.f;
 
 	if (healthDamaged) {
-		static const uint8 bodyLocations[] = {HIT_BODY, HIT_BODY, HIT_LARM, HIT_RARM};
-		hitLocation = bodyLocations[System::random(3)];
+		static const uint8 bodyLocations[] = {HIT_BODY, HIT_BODY, HIT_LARM, HIT_RARM, HIT_LLEG, HIT_RLEG, HIT_HEAD};
+		hitLocation = bodyLocations[System::random(6)];
 
 		float damageMultiplied = damage * data.getHealthDamageMultiplier();
 
