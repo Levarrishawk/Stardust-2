@@ -2,11 +2,11 @@ bronellIntel =	{
 	itemTemplates = { "object/tangible/loot/dungeon/corellian_corvette/neutral_assassin_filler01.iff", "object/tangible/loot/dungeon/corellian_corvette/neutral_assassin_filler02.iff", "object/tangible/loot/dungeon/corellian_corvette/neutral_assassin_intel.iff" },
 }
 
-bronellTicketInfo = { depPlanet = "tatooine", faction = "neutral", missionType = "assassinate" }
+bronellTicketInfo = { depPlanet = "chandrila", faction = "neutral", missionType = "assassinate" }
 
 bronellCompensation = { { compType = "credits", amount = 500 } }
 
-bronell = { planetName = "tatooine", npcTemplate = "corvette_neutral_bronell", x = -6.7, z = 5.8, y = 97.9, direction = 180, cellID = 1177469, position = STAND }
+bronell = { planetName = "chandrila", npcTemplate = "corvette_neutral_bronell", x = 31.7, z = 0.1, y = 4.7, direction = 172, cellID = 35791443, position = STAND }
 
 ticketGiverBronell = CorvetteTicketGiverLogic:new {
 	npc = bronell,

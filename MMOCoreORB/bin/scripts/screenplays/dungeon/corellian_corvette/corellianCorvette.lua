@@ -8,7 +8,7 @@ CorellianCorvette = ScreenPlay:new {
 	},
 
 	escapePoints = {
-		{ faction = "neutral", planet = "tatooine", x = -5842, y = -6191 },
+		{ faction = "neutral", planet = "chandrila", x = 164, y = -2937 },
 		{ faction = "imperial", planet = "naboo", x = 2445, y = -3913 },
 		{ faction = "rebel", planet = "corellia", x = -6460, y = 5972 },
 	},

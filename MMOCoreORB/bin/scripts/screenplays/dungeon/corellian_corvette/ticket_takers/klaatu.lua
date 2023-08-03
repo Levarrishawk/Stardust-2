@@ -1,6 +1,6 @@
 
 
-klaatu = { planetName = "tatooine", npcTemplate = "klaatu", x = -6178.8, z = 90.0, y = -6381.5, direction = -114, cellID = 0, position = STAND }
+klaatu = { planetName = "chandrila", npcTemplate = "klaatu", x = -31.8, z = 1.6, y = 51.8, direction = -150, cellID = 35791481, position = STAND }
 
 ticketTakerKlaatu = CorvetteTicketTakerLogic:new {
 	numberOfActs = 1,
