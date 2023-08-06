@@ -32,7 +32,7 @@ end
 
 function naboo_memorial:spawnSceneObjects()
 
- spawnSceneObject("naboo", "object/static/structure/naboo/garden_gazebo_lg_s01.iff", 5373, 5.5, 1525, 0, math.rad(0) )
+ spawnSceneObject("naboo", "object/static/structure/naboo/garden_gazebo_lg_s01.iff", 5373, 7.5, 1525, 0, math.rad(0) )
  
  
  
