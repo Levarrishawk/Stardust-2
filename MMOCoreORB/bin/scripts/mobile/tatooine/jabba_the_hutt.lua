@@ -1,5 +1,6 @@
 jabba_the_hutt = Creature:new {
 	objectName = "@mob/creature_names:jabba_the_hutt",
+	customName = "Rotta the Hutt",
 	socialGroup = "jabba",
 	faction = "jabba",
 	mobType = MOB_NPC,

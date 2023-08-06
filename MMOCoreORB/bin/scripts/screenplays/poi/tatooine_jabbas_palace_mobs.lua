@@ -63,6 +63,7 @@ function TatooineJabbasPalaceMobsScreenPlay:spawnStatics()
 	spawnMobile("tatooine", "le_repair_droid", 60, 23.67, 0.2, 76.43, 130.65, 1177479)
 --	spawnMobile("tatooine", "malakili", 60, 19, -11, 42, 23.355, 1177502)
 --	spawnMobile("tatooine", "jabba_rancor", 60, 3.93472, -10.9823, 45.0053, 101.285, 1177503)
+  spawnMobile("chandrila", "jabba_the_hutt",60,4.2,-0.9,-12.0,14,35791444)
 	spawnMobile("tatooine", "protocol_droid_3po_red", 60, 10.71, 0.2, 84.27, 216, 1177479)
 	spawnMobile("tatooine", "ra7_bug_droid", 60, 13.33, 0.2, 88.72, 111.64,1177479)
 
