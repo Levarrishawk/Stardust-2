@@ -54,7 +54,7 @@ function naboo_memorial:spawnMobiles()
 end
 
 function naboo_memorial:spawnActiveArea1()
-  local pSpawnArea1 = spawnSceneObject("naboo", "object/active_area.iff", 5373, 7, 1524, 0, 0)
+  local pSpawnArea1 = spawnSceneObject("naboo", "object/active_area.iff", 5373, 7.7, 1524, 0, 0)
     
   if (pSpawnArea1 ~= nil) then
     local activeArea1 = LuaActiveArea(pSpawnArea1)
