@@ -54,12 +54,12 @@ function naboo_memorial:spawnMobiles()
 end
 
 function naboo_memorial:spawnActiveArea1()
-  local pSpawnArea1 = spawnActiveArea("naboo", "object/active_area.iff", 5373, 7, 1524, 20, 0)
+  local pSpawnArea1 = spawnActiveArea("naboo", "object/active_area.iff", 5373, 9, 1524, 30, 0)
     
   if (pSpawnArea1 ~= nil) then
     local activeArea1 = LuaActiveArea(pSpawnArea1)
           activeArea1:setCellObjectID(0)
-          activeArea1:setRadius(20)
+          activeArea1:setRadius(30)
           createObserver(ENTEREDAREA, "naboo_memorial", "notifySpawnArea1", pSpawnArea1)          
       end
 end
