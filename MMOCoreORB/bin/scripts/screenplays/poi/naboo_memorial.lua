@@ -43,7 +43,7 @@ function naboo_memorial:spawnMobiles()
 
 -- Mobiles
 
---	spawnMobile("naboo", "rodian_thug", 200, 2866.6, 124, 3874.7, 121, 0)
+	spawnMobile("naboo", "naboo_heat_memorial", 200, 5373, 7.7, 1525.0, 169, 0)
 	
 	
 
