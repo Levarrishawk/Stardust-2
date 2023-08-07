@@ -37,6 +37,9 @@ function naboo_memorial:spawnSceneObjects()
  spawnSceneObject("naboo", "object/tangible/furniture/all/frn_all_tiki_torch_s1.iff", 5375.2, 7.7, 1525.5, 0, math.rad(0) )
  spawnSceneObject("naboo", "object/tangible/furniture/all/frn_all_tiki_torch_s1.iff", 5371.4, 7.7, 1526.6, 0, math.rad(0) )
  spawnSceneObject("naboo", "object/tangible/furniture/all/frn_all_tiki_torch_s1.iff", 5370.8, 7.7, 1524.4, 0, math.rad(0) )
+ spawnSceneObject("naboo", "object/tangible/furniture/all/event_flag_game_imp_banner.iff", 5370.4, 7.7, 1522.5, 0, math.rad(-139) ) 
+ spawnSceneObject("naboo", "object/tangible/furniture/all/event_flag_game_imp_banner.iff", 5372.1, 7.7, 1528.5, 0, math.rad(-20) ) 
+ spawnSceneObject("naboo", "object/tangible/furniture/all/event_flag_game_imp_banner.iff", 5376.4, 7.7, 1524.0, 0, math.rad(100) ) 
 
 end
 
@@ -51,7 +54,7 @@ function naboo_memorial:spawnMobiles()
 end
 
 function naboo_memorial:spawnActiveArea1()
-  local pSpawnArea1 = spawnSceneObject("lothal", "object/active_area.iff", 5373, 7, 1524, 0, 0)
+  local pSpawnArea1 = spawnSceneObject("naboo", "object/active_area.iff", 5373, 7, 1524, 0, 0)
     
   if (pSpawnArea1 ~= nil) then
     local activeArea1 = LuaActiveArea(pSpawnArea1)
