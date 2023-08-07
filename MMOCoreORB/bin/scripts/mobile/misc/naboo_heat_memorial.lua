@@ -1,6 +1,6 @@
 naboo_heat_memorial = Creature:new {
   objectName = "",
-  customName = "Heat (an Interactive Memorial)",
+  customName = "Heat",
   socialGroup = "townsperson",
   faction = "",
   level = 126,
@@ -24,14 +24,14 @@ naboo_heat_memorial = Creature:new {
   scale = 2.5,
   pvpBitmask = NONE,
   creatureBitmask = PACK,
-  optionsBitmask = AIENABLED + CONVERSABLE + INTERESTING,
+  optionsBitmask = AIENABLED,
   diet = HERBIVORE,
 
   templates = {
     "object/mobile/tatooine_npc/hedon_istee.iff"},
   outfit = "heat_outfit",
   lootGroups = {},
-  conversationTemplate = "fake_imperial_officer",
+  conversationTemplate = "",
   weapons = {"mixed_force_weapons"},
   attacks = merge(brawlermaster,forcewielder)
 }
