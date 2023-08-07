@@ -103,14 +103,14 @@ object_tangible_wearables_armor_veers_armor_veers_chest_plate = object_tangible_
   -- LIGHT, MEDIUM, HEAVY
   rating = LIGHT,
 
-  kinetic = 70,
-  energy = 70,
-  electricity = 70,
-  stun = 70,
-  blast = 70,
-  heat = 70,
-  cold = 70,
-  acid = 70,
+  kinetic = 50,
+  energy = 50,
+  electricity = 50,
+  stun = 50,
+  blast = 50,
+  heat = 50,
+  cold = 50,
+  acid = 50,
   lightSaber = 0,
 
   numberExperimentalProperties = {1, 1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 2, 1},
