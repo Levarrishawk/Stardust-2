@@ -311,7 +311,7 @@ naboo = { -- 5
 		{"badge_deeja_falls_top",5161,-1627,0,10,76},
 		{"badge_gungan_sacred_place",-2000,-5429,0,10,19},
 		{"badge_theed_falls_bottom",-4614,4261,0,10,75},
-		{"naboo_heat_memorial",5373,1525,0,10,75},
+		{"naboo_heat_memorial",5373,1525,0,30,158},
 	},
 
 	navAreas = {
