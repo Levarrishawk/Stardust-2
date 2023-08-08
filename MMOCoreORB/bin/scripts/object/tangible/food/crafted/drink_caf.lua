@@ -48,7 +48,7 @@ object_tangible_food_crafted_drink_caf = object_tangible_food_crafted_shared_dri
 	filling = 10,
 	nutrition = 10,
 
-	effectType = 1,
+	effectType = 4,
 
 	fillingMin = 17,
 	fillingMax = 10,

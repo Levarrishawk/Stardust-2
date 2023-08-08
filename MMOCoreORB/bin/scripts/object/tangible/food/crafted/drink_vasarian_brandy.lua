@@ -49,7 +49,7 @@ object_tangible_food_crafted_drink_vasarian_brandy = object_tangible_food_crafte
 	filling = 49,
 	nutrition = 300,
 
-	effectType = 1,
+	effectType = 4,
 
 	fillingMin = 55,
 	fillingMax = 33,

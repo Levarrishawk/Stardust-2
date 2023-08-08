@@ -48,7 +48,7 @@ object_tangible_food_crafted_dessert_bofa_treat = object_tangible_food_crafted_s
 	filling = 10,
 	nutrition = 10,
 
-	effectType = 1,
+	effectType = 4,
 
 	fillingMin = 11,
 	fillingMax = 7,
