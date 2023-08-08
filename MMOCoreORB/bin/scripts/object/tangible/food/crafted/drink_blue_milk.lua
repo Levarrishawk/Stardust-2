@@ -59,7 +59,7 @@ object_tangible_food_crafted_drink_blue_milk = object_tangible_food_crafted_shar
 	quantityMin = 4,
 	quantityMax = 7,
 
-	modifiers = { "mind", 0 },
+	modifiers = { "droid_track_speed", 0 },
 
 	buffName = "",
 	buffCRC = 0,

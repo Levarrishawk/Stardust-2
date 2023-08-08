@@ -209,6 +209,7 @@ function NabooTheedScreenPlay:spawnSceneObjects()
 	spawnSceneObject(self.planet, "object/tangible/crafting/station/public_space_station.iff", -4830.96, 6, 4141.53, 0, math.rad(-140) )
 	spawnSceneObject(self.planet, "object/tangible/crafting/station/public_space_station.iff", -4886.07, 6, 4188.23, 0, math.rad(-140) )
 	spawnSceneObject(self.planet, "object/tangible/terminal/terminal_event_buffs.iff", -29.9, 0.3, 0.2, 9655496, math.rad(90) )
+	spawnSceneObject(self.planet, "object/tangible/terminal/terminal_event_buffs.iff", 12.0, 0.3, -0.2, 1697360, math.rad(90) )
 end
 
 function NabooTheedScreenPlay:spawnMobiles()

@@ -59,7 +59,7 @@ object_tangible_food_crafted_dessert_blob_candy = object_tangible_food_crafted_s
 	quantityMin = 6,
 	quantityMax = 10,
 
-	modifiers = { "action", 0 },
+	modifiers = { "block", 0 },
 
 	buffName = "food.dessert_blob_candy",
 	buffCRC = 0,
