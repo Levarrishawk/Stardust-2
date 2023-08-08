@@ -28,6 +28,7 @@ registerScreenPlay("naboo_memorial", true)
 function naboo_memorial:start()
 	self:spawnMobiles()
 	self:spawnSceneObjects()
+	self:spawnActiveArea1()
 end
 
 function naboo_memorial:spawnSceneObjects()
