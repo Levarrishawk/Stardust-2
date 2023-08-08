@@ -62,7 +62,7 @@ object_tangible_food_crafted_dessert_blob_candy = object_tangible_food_crafted_s
 	modifiers = { "block", 0 },
 
 	buffName = "food.dessert_blob_candy",
-	buffCRC = 0,
+	buffCRC = 0x8268C9CB,
 	speciesRestriction = "",
 
 
