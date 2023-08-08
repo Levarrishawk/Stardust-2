@@ -44,7 +44,7 @@
 object_tangible_food_crafted_dessert_blob_candy = object_tangible_food_crafted_shared_dessert_blob_candy:new {
 	templateType = CONSUMABLE,
 
-	duration = 10,
+	duration = 120,
 	filling = 10,
 	nutrition = 10,
 

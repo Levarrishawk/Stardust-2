@@ -47,7 +47,7 @@ object_tangible_food_crafted_drink_vasarian_brandy = object_tangible_food_crafte
 	useCount = 5,
 	duration = 1800,
 	filling = 49,
-	nutrition = 300,
+	nutrition = 35,
 
 	effectType = 4,
 

@@ -44,7 +44,7 @@
 object_tangible_food_crafted_drink_caf = object_tangible_food_crafted_shared_drink_caf:new {
 	templateType = CONSUMABLE,
 
-	duration = 45,
+	duration = 300,
 	filling = 10,
 	nutrition = 10,
 

@@ -44,7 +44,7 @@
 object_tangible_food_crafted_drink_aitha = object_tangible_food_crafted_shared_drink_aitha:new {
 	templateType = CONSUMABLE,
 
-	duration = 45,
+	duration = 450,
 	filling = 10,
 	nutrition = 10,
 
