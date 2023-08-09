@@ -8,7 +8,7 @@ armor_marauder_bicep_l = {
 	craftingValues = {
 		{"armor_integrity",20000,20000,0},
 		{"armor_rating",1,1,0},
-		{"armor_effectiveness",65,65,0},
+		{"armor_effectiveness",55,60,0},
 		{"kineticeffectiveness",60,60,0},
 		{"armor_health_encumbrance",0,0,0},
 		{"armor_action_encumbrance",0,0,0},

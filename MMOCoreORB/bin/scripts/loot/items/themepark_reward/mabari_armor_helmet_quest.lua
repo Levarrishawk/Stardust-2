@@ -8,9 +8,9 @@ mabari_armor_helmet_quest = {
 	craftingValues = {
 		{"armor_integrity",15000,15000,0},
     {"armor_rating",1,1,0},
-    {"armor_effectiveness",60,70,10},
-    {"heateffectiveness",69,79,10},
-    {"blasteffectiveness",74,74,10},
+    {"armor_effectiveness",50,60,10},
+    {"heateffectiveness",45,60,10},
+    {"blasteffectiveness",50,60,10},
     {"armor_health_encumbrance",0,0,0},
     {"armor_action_encumbrance",0,0,0},
     {"armor_mind_encumbrance",0,0,0},
