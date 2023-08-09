@@ -5049,6 +5049,96 @@ object_tangible_loot_loot_schematic_shared_gen_sm_win_02_loot_schem = SharedTang
 ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_gen_sm_win_02_loot_schem, "object/tangible/loot/loot_schematic/shared_gen_sm_win_02_loot_schem.iff")
 
 
+object_tangible_loot_loot_schematic_shared_rebel_marine_bicep_l_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_bicep_l_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_bicep_l_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_bicep_l_schematic.iff")
 
+object_tangible_loot_loot_schematic_shared_rebel_marine_bicep_r_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_bicep_r_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_bicep_r_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_bicep_r_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_rebel_marine_bracer_r_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_bracer_r_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_bracer_r_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_bracer_r_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_rebel_marine_bracer_l_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_bracer_l_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_bracer_l_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_bracer_l_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_rebel_marine_helmet_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_helmet_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_helmet_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_helmet_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_rebel_marine_chest_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_chest_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_chest_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_chest_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_rebel_marine_leggings_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_leggings_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_leggings_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_leggings_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_rebel_marine_boots_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_boots_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_boots_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_boots_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_rebel_marine_gloves_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_gloves_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_gloves_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_gloves_schematic.iff")
+
+--------------------------------------
+
+object_tangible_loot_loot_schematic_shared_stormtrooper_bicep_l_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_bicep_l_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_bicep_l_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_bicep_l_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_stormtrooper_bicep_r_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_bicep_r_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_bicep_r_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_bicep_r_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_stormtrooper_bracer_r_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_bracer_r_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_bracer_r_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_bracer_r_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_stormtrooper_bracer_l_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_bracer_l_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_bracer_l_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_bracer_l_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_stormtrooper_helmet_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_helmet_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_helmet_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_helmet_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_stormtrooper_chest_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_chest_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_chest_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_chest_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_stormtrooper_leggings_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_leggings_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_leggings_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_leggings_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_stormtrooper_boots_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_boots_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_boots_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_boots_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_stormtrooper_gloves_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_gloves_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_gloves_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_gloves_schematic.iff")
 
 
