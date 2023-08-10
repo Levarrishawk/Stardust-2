@@ -104,15 +104,15 @@ object_tangible_wearables_armor_marine_armor_marine_bicep_r = object_tangible_we
 	
 	maxCondition = 30000,
 	
-	kinetic = 60,
-  energy = 60,
-  electricity = 60,
-  stun = 60,
-  blast = 60,
-  heat = 60,
-  cold = 60,
-  acid = 60,
-  lightSaber = 0
+	kinetic = 50,
+  energy = 50,
+  electricity = 50,
+  stun = 50,
+  blast = 50,
+  heat = 50,
+  cold = 50,
+  acid = 50,
+  lightSaber = 0,
 }
 
 ObjectTemplates:addTemplate(object_tangible_wearables_armor_marine_armor_marine_bicep_r, "object/tangible/wearables/armor/marine/armor_marine_bicep_r.iff")

@@ -1,5 +1,5 @@
 object_draft_schematic_armor_armor_appearance_stormtrooper_chest = object_draft_schematic_armor_shared_armor_appearance_stormtrooper_chest:new {
-templateType = DRAFTSCHEMATIC,
+   templateType = DRAFTSCHEMATIC,
 
    customObjectName = "Stormtrooper Armor Chest",
 
