@@ -26,7 +26,7 @@ templateType = DRAFTSCHEMATIC,
    contribution = {100, 100, 100, 100, 100, 100, 100, 100, 100},
 
 
-   targetTemplate = "object/tangible/wearables/armor/stormtrooper/armor_stormtrooper_chest.iff",
+   targetTemplate = "object/tangible/wearables/armor/stormtrooper/armor_stormtrooper_chest_plate.iff",
 
    additionalTemplates = {
              }
