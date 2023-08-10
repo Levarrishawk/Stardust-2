@@ -50,3 +50,4 @@ object_tangible_loot_loot_schematic_stormtrooper_bicep_l_schematic = object_tang
 	targetUseCount = 1
 }
 
+ObjectTemplates:addTemplate(object_tangible_loot_loot_schematic_stormtrooper_bicep_l_schematic, "object/tangible/loot/loot_schematic/stormtrooper_bicep_l_schematic.iff")
