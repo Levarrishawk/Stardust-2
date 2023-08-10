@@ -51,6 +51,9 @@ bool EnclaveContainerComponent::checkBuildingPermission(SceneObject* sceneObject
 	if (ghost->hasGodMode())
 		return true;
 
+	if (ghost->getZone()->getZoneName() != "yavin4")
+			return true;
+
 	int enclaveType = 0;
 
 	if (sceneObject->getServerObjectCRC() == STRING_HASHCODE("object/building/yavin/light_enclave.iff"))
