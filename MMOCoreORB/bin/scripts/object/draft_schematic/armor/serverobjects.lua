@@ -332,3 +332,13 @@ includeFile("draft_schematic/armor/armor_appearance_stormtrooper_gloves_gcw.lua"
 includeFile("draft_schematic/armor/armor_appearance_stormtrooper_helmet_gcw.lua")
 includeFile("draft_schematic/armor/armor_appearance_stormtrooper_leggings_gcw.lua")
 includeFile("draft_schematic/armor/armor_appearance_stormtrooper_utility_belt_gcw.lua")
+
+includeFile("draft_schematic/armor/armor_appearance_stormtrooper_bicep_l.lua")
+includeFile("draft_schematic/armor/armor_appearance_stormtrooper_bicep_r.lua")
+includeFile("draft_schematic/armor/armor_appearance_stormtrooper_boots.lua")
+includeFile("draft_schematic/armor/armor_appearance_stormtrooper_bracer_l.lua")
+includeFile("draft_schematic/armor/armor_appearance_stormtrooper_bracer_r.lua")
+includeFile("draft_schematic/armor/armor_appearance_stormtrooper_chest.lua")
+includeFile("draft_schematic/armor/armor_appearance_stormtrooper_gloves.lua")
+includeFile("draft_schematic/armor/armor_appearance_stormtrooper_helmet.lua")
+includeFile("draft_schematic/armor/armor_appearance_stormtrooper_leggings.lua")

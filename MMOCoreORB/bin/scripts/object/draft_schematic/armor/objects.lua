@@ -3418,4 +3418,77 @@ object_draft_schematic_armor_shared_armor_marauder_s03_leggings = SharedDraftSch
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_marauder_s03_leggings, "object/draft_schematic/armor/shared_armor_appearance_marauder_s03_leggings.iff")
 ------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+object_draft_schematic_armor_shared_armor_appearance_stormtrooper_bicep_l = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_bicep_l.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_stormtrooper_bicep_l, "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_bicep_l.iff")
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+object_draft_schematic_armor_shared_armor_appearance_stormtrooper_bicep_r = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_bicep_r.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_stormtrooper_bicep_r, "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_bicep_r.iff")
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+object_draft_schematic_armor_shared_armor_appearance_stormtrooper_boots = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_boots.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_stormtrooper_boots, "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_boots.iff")
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+object_draft_schematic_armor_shared_armor_appearance_stormtrooper_bracer_l = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_bracer_l.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_stormtrooper_bracer_l, "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_bracer_l.iff")
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+object_draft_schematic_armor_shared_armor_appearance_stormtrooper_bracer_r = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_bracer_r.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_stormtrooper_bracer_r, "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_bracer_r.iff")
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+object_draft_schematic_armor_shared_armor_appearance_stormtrooper_chest = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_chest.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_stormtrooper_chest, "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_chest.iff")
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+object_draft_schematic_armor_shared_armor_appearance_stormtrooper_gloves = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_gloves.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_stormtrooper_gloves, "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_gloves.iff")
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+object_draft_schematic_armor_shared_armor_appearance_stormtrooper_helmet = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_helmet.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_stormtrooper_helmet, "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_helmet.iff")
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+object_draft_schematic_armor_shared_armor_appearance_stormtrooper_leggings = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_leggings.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_stormtrooper_leggings, "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_leggings.iff")
+------------------------------------------------------------------------------------------------------------------------------------
 
