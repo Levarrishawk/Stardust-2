@@ -30,6 +30,6 @@ object_draft_schematic_armor_armor_appearance_stormtrooper_chest = object_draft_
 
    additionalTemplates = {
              }
+             
 }
-
 ObjectTemplates:addTemplate(object_draft_schematic_armor_armor_appearance_stormtrooper_chest, "object/draft_schematic/armor/armor_appearance_stormtrooper_chest.iff")
