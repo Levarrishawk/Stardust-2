@@ -15,10 +15,8 @@ nge_houses_all = {
     {itemTemplate = "jedi_house_loot_schematic", weight = 625000}, --ok
     {itemTemplate = "generic_medium_window_s02_loot_schematic", weight = 625000}, --ok
     {itemTemplate = "generic_small_window_s02_loot_schematic", weight = 625000}, --ok    
-    {itemTemplate = "musty_house_loot_schematic", weight = 625000}
-  --  {itemTemplate = "generic_small_window_s01_loot_schematic", weight = 625000}
-                
-   --   
+    {itemTemplate = "musty_house_loot_schematic", weight = 625000} --ok
+  --  {itemTemplate = "generic_small_window_s01_loot_schematic", weight = 625000}               
  -- {itemTemplate = "bespin_house_loot_schematic", weight = 625000}, --  ew 
 --  {itemTemplate = "hangar_house_loot_schematic", weight = 625000},
 --  {itemTemplate = "naboo_small_window_s01_loot_schematic", weight = 625000},
