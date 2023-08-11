@@ -7,7 +7,7 @@ melee_pvp_bf_knuckler = {
 	directObjectTemplate = "object/weapon/melee/special/pvp_bf_knuckler.iff",
 	craftingValues = {
 		{"mindamage",37,160,0},
-		{"maxdamage",200,260,0},
+		{"maxdamage",200,270,0},
 		{"attackspeed",1,1,1},
 		{"woundchance",14,26,0},
 		{"hitpoints",750,1500,0},
