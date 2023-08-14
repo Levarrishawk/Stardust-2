@@ -15,7 +15,7 @@ registerScreenPlay("aurilian_teleporter", true) --Initialize the screenplay IAW 
 
 --Simply spawns the NPC
 function aurilian_teleporter:start()
-   spawnMobile("dathomir", "aurilian_teleporter", 1, 5254, 78, -4117, 0, 0)  
+   spawnMobile("dathomir", "aurilian_teleporter", 1, 5256, 78, -4124, 0, 0)  
    spawnSceneObject("dathomir", "object/static/vehicle/player_shuttle.iff", 5254, 78, -4109, 0, math.rad(-180) )
 
 end
