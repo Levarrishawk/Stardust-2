@@ -855,3 +855,6 @@ includeFile("mustafar/regions/north_west_region.lua")
 includeFile("heroics/boba_fett_tusken.lua")
 includeFile("poi/talus_mandalorian_covert.lua")
 includeFile("poi/naboo_memorial.lua")
+
+-- Village enhancements
+includeFile("heroics/aurilian_teleporter.lua")

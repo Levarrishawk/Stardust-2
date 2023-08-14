@@ -334,6 +334,7 @@ includeFile("conversations/racetracks/huttaconversation.lua")
 includeFile("conversations/racetracks/lothalconversation.lua")
 includeFile("conversations/dungeon/imperial_genocide_coordinator.lua")
 includeFile("conversations/dungeon/boba_fett_tusken.lua")
+includeFile("conversations/dungeon/aurilian_teleporter.lua")
 
 --Mustafar
 includeFile("conversations/mustafar/som_exploration_marker.lua")
