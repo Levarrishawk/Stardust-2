@@ -126,8 +126,8 @@ object_weapon_ranged_rifle_rifle_eweb = object_weapon_ranged_rifle_shared_rifle_
   experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
   experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "expEffeciency", "exp_durability", "null", "expRange", "null", "null", "null", "null", "null"},
   experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "roundsused", "hitpoints", "zerorangemod", "midrangemod", "midrange", "maxrangemod", "attackhealthcost", "attackactioncost", "attackmindcost"},
-  experimentalMin = {0, 0, 80, 200, 4, 15, 30, 750, -70, -10, 50, 10, 0, 300, 0},
-  experimentalMax = {0, 0, 115, 575, 4, 29, 65, 1500, -70, 15, 50, 10, 0, 300, 0},
+  experimentalMin = {0, 0, 80, 300, 4, 15, 30, 750, -70, -10, 50, 10, 0, 300, 0},
+  experimentalMax = {0, 0, 115, 675, 4, 29, 65, 1500, -70, 15, 50, 10, 0, 300, 0},
   experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
   experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }
