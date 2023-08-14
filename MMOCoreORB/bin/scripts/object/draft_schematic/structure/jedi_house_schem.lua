@@ -64,9 +64,9 @@ object_draft_schematic_structure_jedi_house_schem = object_draft_schematic_struc
    customizationDefaults = {},
 
    ingredientTemplateNames = {"art_n","craft_structure_ingredients_n", "craft_structure_ingredients_n", "craft_structure_ingredients_n", "craft_structure_ingredients_n", "craft_structure_ingredients_n", "craft_structure_ingredients_n"},
-   ingredientTitleNames = {"loot_299_000000000000000000000","load_bearing_structure_and_shell", "insulation_and_covering", "foundation", "wall_sections", "power_supply_unit", "storage_space"},
+   ingredientTitleNames = {"foundation","load_bearing_structure_and_shell", "insulation_and_covering", "foundation", "wall_sections", "power_supply_unit", "storage_space"},
    ingredientSlotType = {1, 0, 0, 0, 2, 1, 1},
-   resourceTypes = {"object/tangible/custom/shared_loot_299_000000000000000000000.iff","metal", "ore", "ore", "object/tangible/component/structure/shared_wall_module.iff", "object/tangible/component/structure/shared_generator_turbine.iff", "object/tangible/component/structure/shared_structure_storage_section.iff"},
+   resourceTypes = {"object/tangible/jedi/shared_jedi_holocron_light.iff","metal", "ore", "ore", "object/tangible/component/structure/shared_wall_module.iff", "object/tangible/component/structure/shared_generator_turbine.iff", "object/tangible/component/structure/shared_structure_storage_section.iff"},
    resourceQuantities = {1, 1250, 2250, 400, 5, 1, 1},
    contribution = {100, 100, 100, 100, 100, 100, 100},
 
