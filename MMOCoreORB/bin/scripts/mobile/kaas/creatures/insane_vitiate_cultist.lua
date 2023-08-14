@@ -1,8 +1,9 @@
 insane_vitiate_cultist = Creature:new {
   objectName = "",
   customName = "an Insane Cultist",
-  socialGroup = "death_watch",
-  faction = "",
+  socialGroup = "sith_shadow",
+  faction = "sith_shadow",
+  mobType = MOB_NPC,
   level = 126,
   chanceHit = 4,
   damageMin = 345,
@@ -21,7 +22,7 @@ insane_vitiate_cultist = Creature:new {
   milk = 0,
   tamingChance = 0,
   ferocity = 0,
-  pvpBitmask = ATTACKABLE,
+  pvpBitmask = ATTACKABLE + AGGRESSIVE + ENEMY,
   creatureBitmask = PACK + KILLER,
   diet = HERBIVORE,
   optionsBitmask = AIENABLED,
@@ -38,11 +39,11 @@ insane_vitiate_cultist = Creature:new {
         {group = "kaas_weapons", chance = 50000},
         {group = "color_crystals", chance = 1000000},
         {group = "melee_weapons", chance = 1000000},
-        {group = "armor_attachments", chance = 1000000},
-        {group = "clothing_attachments", chance = 1000000},
+        {group = "armor_attachments", chance = 500000},
+        {group = "clothing_attachments", chance = 500000},
         {group = "nge_houses_all", chance = 50000}        
       },
-      lootChance = 5000000
+      lootChance = 4000000
     }
   },
   weapons = {"mixed_force_weapons"},
