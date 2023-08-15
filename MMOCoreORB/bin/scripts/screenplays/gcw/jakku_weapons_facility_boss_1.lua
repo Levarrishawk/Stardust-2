@@ -71,7 +71,7 @@ function jakku_weapons_facility_boss_1:boss_damage(pBoss, pPlayer)
   if distance > (maxDistance * maxDistance) then
     spatialChat(pBoss, "Hostiles retreating. Protocol-77 remains in effect. Unit Standing down.")
     forcePeace(pBoss)
-    createEvent(3500, "jakku_weapons_facility_boss_1", "resetScreenplayStatus", pPlayer)
+  --  createEvent(3500, "jakku_weapons_facility_boss_1", "resetScreenplayStatus", pPlayer)
     else
    return 0
    

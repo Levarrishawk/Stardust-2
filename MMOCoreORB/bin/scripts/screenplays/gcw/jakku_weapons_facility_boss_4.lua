@@ -71,7 +71,7 @@ function jakku_weapons_facility_boss_4:boss_damage(pBoss, pPlayer)
   if distance > (maxDistance * maxDistance) then
   spatialChat(pBoss, "Hostiles retreating. Unit Standing down.")
   forcePeace(pBoss) 
-  createEvent(3500, "jakku_weapons_facility_boss_4", "resetScreenplayStatus", pPlayer)
+ -- createEvent(3500, "jakku_weapons_facility_boss_4", "resetScreenplayStatus", pPlayer)
 end
  
 if (((bossHealth <= (bossMaxHealth *0.9))) and readData("jakku_weapons_facility_boss_4:spawnState") == 1) then
