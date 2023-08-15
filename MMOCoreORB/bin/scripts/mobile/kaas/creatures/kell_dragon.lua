@@ -6,12 +6,12 @@ kell_dragon = Creature:new {
 	level = 375,
 	chanceHit = 27.25,
 	damageMin = 520,
-	damageMax = 1250,
+	damageMax = 1950,
 	baseXp = 26356,
 	baseHAM = 120000,
 	baseHAMmax = 138000,
 	armor = 0,
-	resists = {30,30,30,30,30,30,30,30,10},
+	resists = {65,65,65,65,65,65,65,65,35},
 	meatType = "meat_carnivore",
 	meatAmount = 1000,
 	hideType = "hide_bristley",
@@ -31,11 +31,11 @@ kell_dragon = Creature:new {
 	lootGroups = {
 		{
 	        groups = {
-				{group = "krayt_tissue_rare", chance = 2000000},
-        {group = "krayt_dragon_common", chance = 7000000},
-        {group = "krayt_pearls", chance = 1000000}			
+				{group = "krayt_tissue_rare", chance = 1000000},
+        {group = "krayt_dragon_common", chance = 3500000},
+        {group = "krayt_pearls", chance = 500000}			
 			},
-			lootChance = 10000000
+			lootChance = 5000000
 		},
 	},
 	weapons = {},
