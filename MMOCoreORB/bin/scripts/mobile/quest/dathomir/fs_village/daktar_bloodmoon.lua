@@ -6,7 +6,7 @@ daktar_bloodmoon = Creature:new {
 	level = 115,
 	chanceHit = 1,
 	damageMin = 820,
-	damageMax = 1350,
+	damageMax = 1150,
 	baseXp = 10921,
 	baseHAM = 24500,
 	baseHAMmax = 30000,
@@ -22,7 +22,7 @@ daktar_bloodmoon = Creature:new {
 	tamingChance = 0,
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
-	creatureBitmask = PACK + KILLER + HEALER,
+	creatureBitmask = KILLER + HEALER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 
