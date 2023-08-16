@@ -58,7 +58,7 @@ void GCWManagerImplementation::initialize() {
 
 void GCWManagerImplementation::start() {
 	performGCWTasks(true);
-	performCheckWildContrabandScanTask();
+//	performCheckWildContrabandScanTask();
 }
 
 void GCWManagerImplementation::loadLuaConfig() {
