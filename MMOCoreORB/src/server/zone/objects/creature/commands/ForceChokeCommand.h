@@ -39,7 +39,7 @@ public:
 			return INVALIDTARGET;
 		}
 
-		return doCombatAction(creature, target);
+		int res = doCombatAction(creature, target);
 
 		if (res == SUCCESS) {
 
