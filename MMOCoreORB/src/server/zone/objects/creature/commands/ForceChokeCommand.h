@@ -29,6 +29,9 @@ public:
 		if (!checkInvalidLocomotions(creature))
 			return INVALIDLOCOMOTION;
 
+		ManagedReference<SceneObject*> object = server->getZoneServer()->getObject(target);
+		CreatureObject* targetCreature = dynamic_cast<CreatureObject*>(object.get());
+
 		if (isWearingArmor(creature)) {
 			return NOJEDIARMOR;
 		}
@@ -38,7 +41,10 @@ public:
 		if (targetObject == nullptr || !targetObject->isCreatureObject()) {
 			return INVALIDTARGET;
 		}
+		Locker clocker(targetCreature, creature);
 
+		ManagedReference<PlayerObject*> player = creature->getPlayerObject();
+		PlayerObject* targetPlayerObject = targetCreature->getPlayerObject();
 		int res = doCombatAction(creature, target);
 
 		if (res == SUCCESS) {
