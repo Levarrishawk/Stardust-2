@@ -105,7 +105,7 @@
 #include "server/zone/objects/player/badges/Badge.h"
 #include "server/zone/objects/building/TutorialBuildingObject.h"
 #include "server/zone/managers/frs/FrsManager.h"
-//#include "server/zone/objects/player/events/OnlinePlayerLogTask.h"
+#include "server/zone/objects/player/events/OnlinePlayerLogTask.h"
 #include <sys/stat.h>
 #include "server/zone/objects/transaction/TransactionLog.h"
 #include "server/zone/objects/creature/commands/TransferItemMiscCommand.h"
@@ -6466,7 +6466,7 @@ Vector<uint64> PlayerManagerImplementation::getOnlinePlayerList() {
 
 	return playerList;
 }
-/*
+
 void PlayerManagerImplementation::logOnlinePlayers(bool onlyWho) {
 	int countOnline = 0;
 	int countAccounts = 0;
@@ -6688,7 +6688,7 @@ void PlayerManagerImplementation::logOnlinePlayers(bool onlyWho) {
 		error() << "logOnlinePlayers failed to write " << fileName << ": " << e.getMessage();
 	}
 }
-*/
+
 void PlayerManagerImplementation::iteratePlayerNames(const PlayerNameIterator& iterator) {
 	auto names = nameMap->getNames();
 	auto iter = names.iterator();

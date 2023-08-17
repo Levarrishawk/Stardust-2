@@ -204,20 +204,20 @@ public:
 
 			body = UnicodeString(newBody.trim());
 
-	//		Vector<uint64> playerList = playerManager->getOnlinePlayerList();
+			Vector<uint64> playerList = playerManager->getOnlinePlayerList();
 			int countSent = 0;
 			auto chatManager = server->getChatManager();
 
-		//	for (int i = 0; i < playerList.size(); i++) {
-			//	uint64 playerID = playerList.get(i);
+			for (int i = 0; i < playerList.size(); i++) {
+				uint64 playerID = playerList.get(i);
 
-			//	auto playerName = playerManager->getPlayerName(playerID);
+				auto playerName = playerManager->getPlayerName(playerID);
 
-			//	if (playerName.isEmpty())
-				//	continue;
+				if (playerName.isEmpty())
+					continue;
 
-			//	if (chatManager->sendMail(from, header, body, playerName, &stringIdParameters, &waypointParameters) == ChatManager::IM_SUCCESS)
-			//		countSent++;
+				if (chatManager->sendMail(from, header, body, playerName, &stringIdParameters, &waypointParameters) == ChatManager::IM_SUCCESS)
+					countSent++;
 			}
 
 			StringBuffer msg;
