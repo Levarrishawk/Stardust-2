@@ -6599,11 +6599,11 @@ void PlayerManagerImplementation::logOnlinePlayers(bool onlyWho) {
 
 	if (countnullptrGhost > 0)
 		logEntry["countnullptrGhost"] = countnullptrGhost;
-/*
+
 	StringBuffer logLine;
 
 	logLine << logEntry.dump().c_str() << "\n";
-
+/*
 	// Write who file
 	try {
 		// Write a new "current status" file
