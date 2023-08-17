@@ -48,6 +48,7 @@ Saber1hComboHit3Command = {
   speedMultiplier = 3,
   actionCostMultiplier = 1,  
   forceCostMultiplier = 1.5,
+  accuracyBonus = 50,
 	visMod = 25,
 
 	animation = "showoff_1", 

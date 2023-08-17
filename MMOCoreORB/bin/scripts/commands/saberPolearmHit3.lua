@@ -50,6 +50,7 @@ SaberPolearmHit3Command = {
 	actionCostMultiplier = 2,
 	mindCostMultiplier = 0,
 	forceCostMultiplier = 2.5,
+	accuracyBonus = 50,
 	visMod = 25,
 
 	stateEffects = {

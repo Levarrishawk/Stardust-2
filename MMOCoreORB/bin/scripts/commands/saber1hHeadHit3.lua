@@ -50,6 +50,7 @@ Saber1hHeadHit3Command = {
 	actionCostMultiplier = 1,
 	mindCostMultiplier = 0,
 	forceCostMultiplier = 1.75,
+	accuracyBonus = 50,
 	visMod = 25,
 
 	animation = "combo_5a", 

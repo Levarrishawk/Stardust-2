@@ -50,6 +50,7 @@ Saber2hSweep1Command = {
 	actionCostMultiplier = 1,
 	mindCostMultiplier = 0,
 	forceCostMultiplier = 1.25,
+	accuracyBonus = 50,
 	visMod = 25,
 
 	stateEffects = {

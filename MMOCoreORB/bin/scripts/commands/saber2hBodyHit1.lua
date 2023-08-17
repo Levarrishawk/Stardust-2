@@ -50,6 +50,7 @@ Saber2hBodyHit1Command = {
 	actionCostMultiplier = 1,
 	mindCostMultiplier = 0,
 	forceCostMultiplier = 1.25,
+	accuracyBonus = 50,
 	visMod = 25,
 
 	animation = "combo_3b",

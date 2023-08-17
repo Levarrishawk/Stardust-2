@@ -50,6 +50,7 @@ Saber1hComboHit1Command = {
 	actionCostMultiplier = 1,
 	mindCostMultiplier = 0,
 	forceCostMultiplier = 2,
+	accuracyBonus = 50,
 	visMod = 25,
 
 	animation = "combo_3b", 
