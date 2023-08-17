@@ -6599,7 +6599,7 @@ void PlayerManagerImplementation::logOnlinePlayers(bool onlyWho) {
 
 	if (countnullptrGhost > 0)
 		logEntry["countnullptrGhost"] = countnullptrGhost;
-
+/*
 	StringBuffer logLine;
 
 	logLine << logEntry.dump().c_str() << "\n";
@@ -6629,7 +6629,7 @@ void PlayerManagerImplementation::logOnlinePlayers(bool onlyWho) {
 
 	if (onlyWho)
 		return;
-
+*/
 	Locker logfileLock(&onlinePlayerLogMutext);
 
 	String fileName = "log/online-players.log";
