@@ -204,7 +204,7 @@ public:
 
 			body = UnicodeString(newBody.trim());
 
-			Vector<uint64> playerList = playerManager->getOnlinePlayerList();
+	//		Vector<uint64> playerList = playerManager->getOnlinePlayerList();
 			int countSent = 0;
 			auto chatManager = server->getChatManager();
 
