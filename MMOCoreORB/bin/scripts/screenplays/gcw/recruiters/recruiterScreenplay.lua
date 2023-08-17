@@ -708,3 +708,9 @@ function recruiterScreenplay:handleKaasTp(pPlayer)
     player:switchZone("kaas", -1123, 129, -4776, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111) 
     createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
 end
+
+function recruiterScreenplay:handleMorabandTp(pPlayer) 
+    local player = LuaSceneObject(pPlayer)
+    player:switchZone("moraband", -1197.8, 13, -1235.7, -39)  --("jakku", 1.5, -20.8, 27.5, 610000111) 
+    createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
+end

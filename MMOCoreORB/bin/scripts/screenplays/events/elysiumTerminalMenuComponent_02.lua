@@ -9,6 +9,7 @@ function elysiumTerminalMenuComponent_02:fillObjectMenuResponse(pSceneObject, pM
 	response:addRadialMenuItem(22, 3, "Travel to Dantooine")  
 	response:addRadialMenuItem(23, 3, "Travel to Chandrila")  
 	response:addRadialMenuItem(24, 3, "Travel to Dromund Kaas") 
+	response:addRadialMenuItem(24, 3, "Travel to Moraband") 
 end
 
 function elysiumTerminalMenuComponent_02:handleObjectMenuSelect(pSceneObject, pPlayer, selectedID)
@@ -71,6 +72,18 @@ function elysiumTerminalMenuComponent_02:handleObjectMenuSelect(pSceneObject, pP
   if selectedID == 24 then
     
     local sui = SuiMessageBox.new("elysiumTerminalMenuComponent_02", "handleTeleport5")
+    sui.setPrompt("As you touch the Crystal it begins to hum and you feel a strange pulling sensation in the force. It is not so strong that you could not back away from it now, but the pull grows stronger as you hold your hand on it's surface.  (This will transport you to another location.  Do you wish to proceed?)")
+    sui.setTitle("Strange Crystal")
+    sui.setCancelButtonText("Cancel") -- Cancel  
+    sui.setOkButtonText("OK") -- OK   
+
+    sui.sendTo(pPlayer)             
+    
+  end
+  
+  if selectedID == 25 then
+    
+    local sui = SuiMessageBox.new("elysiumTerminalMenuComponent_02", "handleTeleport6")
     sui.setPrompt("As you touch the Crystal it begins to hum and you feel a strange pulling sensation in the force. It is not so strong that you could not back away from it now, but the pull grows stronger as you hold your hand on it's surface.  (This will transport you to another location.  Do you wish to proceed?)")
     sui.setTitle("Strange Crystal")
     sui.setCancelButtonText("Cancel") -- Cancel  
@@ -183,3 +196,21 @@ function elysiumTerminalMenuComponent_02:handleTeleport5(pPlayer, pSui, eventInd
   end
 end
 
+function elysiumTerminalMenuComponent_02:handleTeleport6(pPlayer, pSui, eventIndex, ...)
+  if (pPlayer == nil) then
+    return
+  end
+
+  local cancelPressed = (eventIndex == 1)
+  local args = {...}
+  
+  local councilType = 1
+  
+  if (cancelPressed) then
+    CreatureObject(pPlayer):sendSystemMessage("The crystal stops humming as you pull your hand away.")   
+    return 
+  elseif (eventIndex == 0) then -- Teleport
+      createEvent(1000, "recruiterScreenplay", "handleMorabandTp", pPlayer, "")
+     
+  end
+end
