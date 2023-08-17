@@ -597,14 +597,14 @@ class PlayerManager extends Observer implements Logger {
 //	public native void logOnlinePlayers(boolean onlyWho);
 
 	@local
-	public native boolean rescheduleOnlinePlayerLogTask(int logSeconds);
+//	public native boolean rescheduleOnlinePlayerLogTask(int logSeconds);
 
-	public void updateOnlinePlayers() {
+//	public void updateOnlinePlayers() {
 		// Update just the log/who.json file based on Core3.LogOnlineOnSessionChange (default: true)
-		logOnlinePlayers(!onlinePlayersLogOnSessionChange);
+//		logOnlinePlayers(!onlinePlayersLogOnSessionChange);
 	}
 
-	public native void stopOnlinePlayerLogTask();
+//	public native void stopOnlinePlayerLogTask();
 
 	@local
 	public native void iteratePlayerNames(@dereferenced final PlayerNameIterator iterator);
