@@ -33,7 +33,7 @@ class OnlinePlayerLogTask : public Task {
 		if (playerManager == nullptr)
 			return;
 
-		playerManager->logOnlinePlayers(false);
+	//	playerManager->logOnlinePlayers(false);
 	}
 };
 
