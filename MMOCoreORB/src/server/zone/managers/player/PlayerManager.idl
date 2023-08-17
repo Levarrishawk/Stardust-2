@@ -594,7 +594,7 @@ class PlayerManager extends Observer implements Logger {
 	public native Vector<unsigned long> getOnlinePlayerList();
 
 	@local
-	public native void logOnlinePlayers(boolean onlyWho);
+//	public native void logOnlinePlayers(boolean onlyWho);
 
 	@local
 	public native boolean rescheduleOnlinePlayerLogTask(int logSeconds);
