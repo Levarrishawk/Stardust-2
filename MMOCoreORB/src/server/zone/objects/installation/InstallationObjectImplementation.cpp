@@ -590,7 +590,7 @@ void InstallationObjectImplementation::updateResourceContainerQuantity(ResourceC
 
 	Time timeToWorkTill;
 
-	container->setQuantity(newQuantity, false, true);
+	container->setQuantity(newQuantity, false, true, false);
 
 	for (int i = 0; i < resourceHopper.size(); ++i) {
 		ResourceContainer* cont = resourceHopper.get(i);
