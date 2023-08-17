@@ -9,7 +9,7 @@ function elysiumTerminalMenuComponent_02:fillObjectMenuResponse(pSceneObject, pM
 	response:addRadialMenuItem(22, 3, "Travel to Dantooine")  
 	response:addRadialMenuItem(23, 3, "Travel to Chandrila")  
 	response:addRadialMenuItem(24, 3, "Travel to Dromund Kaas") 
-	response:addRadialMenuItem(24, 3, "Travel to Moraband") 
+	response:addRadialMenuItem(25, 3, "Travel to Moraband") 
 end
 
 function elysiumTerminalMenuComponent_02:handleObjectMenuSelect(pSceneObject, pPlayer, selectedID)
