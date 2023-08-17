@@ -691,8 +691,7 @@ function recruiterScreenplay:handleDantooineTp(pPlayer)
     createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
 end
 
-function recruiterScreenplay:handleChandrilaTp(pPlayer)
-  
+function recruiterScreenplay:handleChandrilaTp(pPlayer) 
     local player = LuaSceneObject(pPlayer)
     player:switchZone("chandrila", 4363, 97, -4299, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111) 
     createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
@@ -702,4 +701,10 @@ function recruiterScreenplay:handleAuriliaTp(pPlayer)
     local player = LuaSceneObject(pPlayer)
     player:switchZone("dathomir", 5301, 78, -4151, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111) 
   createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
+end
+
+function recruiterScreenplay:handleKaasTp(pPlayer) 
+    local player = LuaSceneObject(pPlayer)
+    player:switchZone("kaas", -1123, 129, -4776, 0)  --("jakku", 1.5, -20.8, 27.5, 610000111) 
+    createEvent(1000, "recruiterScreenplay", "handleGoOnLeave", pPlayer, "")
 end

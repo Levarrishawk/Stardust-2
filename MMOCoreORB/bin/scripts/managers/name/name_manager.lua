@@ -184,7 +184,7 @@ reservedNames = {
 	{ "seeman", DECLINED_PROFANE },
 	{ "seemen", DECLINED_PROFANE },
 	{ "semen", DECLINED_PROFANE },
-	{ "Sith", DECLINED_PROFANE },
+--	{ "Sith", DECLINED_PROFANE },
 	{ "skank", DECLINED_PROFANE },
 	{ "skanq", DECLINED_PROFANE },
 	{ "Skywalker", DECLINED_PROFANE },
