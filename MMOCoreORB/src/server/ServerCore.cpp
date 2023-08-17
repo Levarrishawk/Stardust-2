@@ -865,7 +865,7 @@ void ServerCore::shutdown() {
 
 			PlayerManager* playerManager = zoneServer->getPlayerManager();
 
-			playerManager->stopOnlinePlayerLogTask();
+	//		playerManager->stopOnlinePlayerLogTask();
 			playerManager->disconnectAllPlayers();
 
 			int count = 0;
