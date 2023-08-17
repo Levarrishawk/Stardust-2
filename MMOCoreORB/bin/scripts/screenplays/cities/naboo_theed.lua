@@ -309,6 +309,22 @@ function NabooTheedScreenPlay:spawnMobiles()
 	spawnMobile(self.planet, "mott_calf", 300, getRandomNumber(10) + -4946.78, 6, getRandomNumber(10) + 3650.67, getRandomNumber(360), 0)
 	spawnMobile(self.planet, "mott_calf", 300, getRandomNumber(10) + -4943.30, 6, getRandomNumber(10) + 3652.44, getRandomNumber(360), 0)
 	spawnMobile(self.planet, "mott_calf", 300, getRandomNumber(10) + -4939.35, 6, getRandomNumber(10) + 3653.82, getRandomNumber(360), 0)
+	
+	--Guild Hall -5457 4122
+  spawnMobile(self.planet, "trainer_brawler",0,-11,1,-13,0,1692075)
+  spawnMobile(self.planet, "trainer_marksman",0,0,1.13306,-13,0,1692074)
+  spawnMobile(self.planet, "trainer_scout", 0, -11.9, 1.13306, 5.1, 179, 1692072)
+  spawnMobile(self.planet, "junk_dealer", 0, -14.3, 1.1, 3, 107, 1692072)
+
+  --Guild Hall -5368 4138
+  spawnMobile(self.planet, "trainer_artisan",0,0.0417929,1.13306,-13.5584,2,1692084)
+
+  --Guild Hall -5452 4014
+  spawnMobile(self.planet, "trainer_architect",0,11,1.133,-14.5,0,1692093)
+  spawnMobile(self.planet, "trainer_armorsmith",0,-15,1.1,0,90,1692092)
+  spawnMobile(self.planet, "trainer_droidengineer",0,-11,1.13306,-13,0,1692095)
+  spawnMobile(self.planet, "trainer_merchant",0,12,1.13306,6,180,1692091)
+  spawnMobile(self.planet, "trainer_weaponsmith",0,-3.1,1.1,-8.2,91,1692094)
 
 	--Cantina
 	pNpc = spawnMobile(self.planet, "junk_dealer", 0, -5.8, -0.9, -20.9, -52, 96)
