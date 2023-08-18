@@ -1,8 +1,7 @@
 ysalamiri = Creature:new {
 	objectName = "@mob/creature_names:ysalamiri",
 	customName = "a Ysalamiri",	
-	socialGroup = "snake",
-	pvpFaction = "",
+	socialGroup = "voritor",
 	faction = "",
 	mobType = MOB_CARNIVORE,
 	level = 25,
@@ -32,12 +31,14 @@ ysalamiri = Creature:new {
 	controlDeviceTemplate = "object/intangible/pet/ysalamiri_hue.iff",
 	scale = 1.5,	
 	lootGroups = {},
-	weapons = {"creature_spit_small_toxicgreen"},
+	primaryWeapon = "object/weapon/ranged/creature/creature_spit_small_green.iff",
+  secondaryWeapon = "object/weapon/ranged/creature/creature_spit_small_green.iff",
+  
 	conversationTemplate = "",
 	attacks = {
 		--{"knockdownattack","knockdownChance=95"},
 		--{"stunattack","stunChance=50"},
-		{"creaturedrainforce",""}
+		{"creaturedrainforce","intimidationattack", ""}
 	}
 }
 
