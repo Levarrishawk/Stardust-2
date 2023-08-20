@@ -1570,7 +1570,7 @@ void PlayerManagerImplementation::sendPlayerToCloner(CreatureObject* player, uin
 	if (preDesignatedFacility == nullptr || preDesignatedFacility != cloner) {
 		player->addWounds(CreatureAttribute::HEALTH, 100, true, false);
 		player->addWounds(CreatureAttribute::ACTION, 100, true, false);
-		player->addWounds(CreatureAttribute::MIND, 100, true, false);
+		//player->addWounds(CreatureAttribute::MIND, 100, true, false);
 		player->addShockWounds(100, true);
 	}
 
@@ -1621,6 +1621,10 @@ void PlayerManagerImplementation::sendPlayerToCloner(CreatureObject* player, uin
 
 	}
 
+	if (ConfigManager::instance()->getBool("Core3.PlayerManager.WipeFillingOnClone", false)) {
+			ghost->setFoodFilling(0);
+			ghost->setDrinkFilling(0);
+	}
 
 
 	Reference<Task*> task = new PlayerIncapacitationRecoverTask(player, true);
