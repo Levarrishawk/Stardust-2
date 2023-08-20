@@ -1618,6 +1618,8 @@ void PlayerManagerImplementation::sendPlayerToCloner(CreatureObject* player, uin
 
 		ghost->addSuiBox(suiCloneDecayReport);
 		player->sendMessage(suiCloneDecayReport->generateMessage());
+		ghost->setFoodFilling(0);
+		ghost->setDrinkFilling(0);
 
 	}
 
