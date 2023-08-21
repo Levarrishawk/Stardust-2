@@ -325,6 +325,43 @@ function NabooTheedScreenPlay:spawnMobiles()
   spawnMobile(self.planet, "trainer_droidengineer",0,-11,1.13306,-13,0,1692095)
   spawnMobile(self.planet, "trainer_merchant",0,12,1.13306,6,180,1692091)
   spawnMobile(self.planet, "trainer_weaponsmith",0,-3.1,1.1,-8.2,91,1692094)
+  
+  --Med Center
+  spawnMobile(self.planet, "trainer_combatmedic",0,-16.4871,0.26,10.7738,176,1697364)
+  spawnMobile(self.planet, "trainer_combatmedic",0,26.5469,0.26,5.31169,90,1697360)
+  spawnMobile(self.planet, "trainer_doctor",0,16.0979,0.26,-0.105232,266,1697360)
+  spawnMobile(self.planet, "trainer_medic",0,13.7645,0.26,4.7703,149,1697360)
+  spawnMobile(self.planet, "trainer_medic",0,-17.1613,0.26,-0.82884,167,1697364)
+  spawnMobile(self.planet, "comm_operator",300,-32.8,0.3,13.892,92,1697365)
+  spawnMobile(self.planet, "commoner_technician",60,-5041.71,13.3,4193.94,180.005,0)
+  spawnMobile(self.planet, "medic",60,-5041.71,13.3,4192.84,0,0)
+  
+  --Hotel
+  spawnMobile(self.planet, "commoner_tatooine",60,2.04307,0.999959,21.6541,270.005,1697375)
+  spawnMobile(self.planet, "commoner",60,0.043072,0.999959,21.6541,89.9998,1697375)
+  spawnMobile(self.planet, "commoner",60,-21.2681,1.59776,11.3505,270.004,1697379)
+  spawnMobile(self.planet, "commoner",60,-23.2681,1.6,11.3505,90.0019,1697379)
+  spawnMobile(self.planet, "commoner_technician",60,-1.60874,0.999962,6.25947,360.011,1697377)
+  spawnMobile(self.planet, "artisan",60,-23.0798,1.59166,3.00121,180.006,1697379)
+  spawnMobile(self.planet, "sullustan_male",300,-1.60874,0.999952,7.35947,180,1697377)
+  spawnMobile(self.planet, "commoner_naboo",300,18.9004,1.28309,-6.40631,0,1697378)
+  spawnMobile(self.planet, "chiss_male",300,7.0973,1.00001,8.95992,0,1697377)
+  spawnMobile(self.planet, "chiss_female",300,-24.1798,1.5815,3.00112,135.006,1697379)
+  spawnMobile(self.planet, "ithorian_male",60,-21.5772,1.6,-14.1795,180.023,1697383)
+  spawnMobile(self.planet, "bounty_hunter",60,-7.0383,1.6,-12.1532,360.011,1697381)
+  spawnMobile(self.planet, "twilek_slave",60,-7.0383,1.6,-11.0532,179.988,1697381)
+
+  --Guild Hall -5450 4267
+  pNpc = spawnMobile(self.planet, "mercenary",300,6.3,1.2,-3.9,-89,1305892)
+  self:setMoodString(pNpc, "angry")
+  pNpc = spawnMobile(self.planet, "businessman",300,5.4,1.2,-3.9,87,1305892)
+  self:setMoodString(pNpc, "happy")
+  pNpc = spawnMobile(self.planet, "contractor",300,11.7898,1.75,-1.89849,180.002,1305892)
+  self:setMoodString(pNpc, "worried")
+  pNpc = spawnMobile(self.planet, "commoner_old",60,-17.0001,2.25,17.4832,270.003,1305888)
+  self:setMoodString(pNpc, "conversation")
+  pNpc = spawnMobile(self.planet, "commoner",60,-19.0001,2.25,17.4832,90.0053,1305888)
+  self:setMoodString(pNpc, "neutral")
 
 	--Cantina
 	pNpc = spawnMobile(self.planet, "junk_dealer", 0, -5.8, -0.9, -20.9, -52, 96)
