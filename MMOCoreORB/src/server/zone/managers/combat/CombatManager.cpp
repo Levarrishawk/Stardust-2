@@ -1121,7 +1121,7 @@ float CombatManager::calculateDamage(CreatureObject* attacker, WeaponObject* wea
 	// PvP Damage Reduction.
 	if (attacker->isPlayerCreature() && defender->isPlayerCreature() && !data.isForceAttack()){
 		if (weapon->getDamageType() == SharedWeaponObjectTemplate::LIGHTSABER)
-			damage *= 0.80;
+			damage *= 0.65;
 		else
 			damage *= 0.30;
 		}
