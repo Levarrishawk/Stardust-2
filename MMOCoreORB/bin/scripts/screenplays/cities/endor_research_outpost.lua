@@ -76,6 +76,7 @@ end
 function EndorResearchOutpostScreenPlay:spawnMobiles()
 	--tavern building
 	pNpc = spawnMobile("endor", "kilnstrider",60,-3.44448,0.624999,-6.82681,331.362,9925367)
+	spawnMobile("endor", "blurrg_raptor", 600, -6608, 7, -4784, 180, 0)
 	if pNpc ~= nil then
 		self:setMoodString(pNpc, "npc_imperial")
 

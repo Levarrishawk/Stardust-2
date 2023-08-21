@@ -157,6 +157,7 @@ function NabooDeejaPeakScreenPlay:spawnSceneObjects()
 end
 
 function NabooDeejaPeakScreenPlay:spawnMobiles()
+  spawnMobile("naboo", "peko_peko_albatross",600,-1552,394.8,-1992.7,0,0)
 	local mobiles = self.mobiles
 
 	for i = 1, #mobiles, 1 do

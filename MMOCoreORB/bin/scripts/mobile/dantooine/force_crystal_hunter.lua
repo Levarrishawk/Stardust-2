@@ -5,7 +5,7 @@ force_crystal_hunter = Creature:new {
 	mobType = MOB_NPC,
 	socialGroup = "kun",
 	faction = "",
-	level = 115,
+	level = 335,
 	chanceHit = 1,
 	damageMin = 820,
 	damageMax = 1350,
@@ -33,14 +33,14 @@ force_crystal_hunter = Creature:new {
 		{
 			groups = {
 				{group = "junk", chance = 3000000},
-				{group = "power_crystals", chance = 800000},
+				{group = "power_crystals", chance = 1800000},
 				{group = "color_crystals", chance = 700000},
 				{group = "holocron_dark", chance = 500000},
 				{group = "holocron_light", chance = 500000},
 				{group = "melee_weapons", chance = 1000000},
 				{group = "armor_attachments", chance = 1000000},
 				{group = "clothing_attachments", chance = 1000000},
-				{group = "wearables_all", chance = 1400000},
+				{group = "wearables_all", chance = 400000},
 				{group = "force_hunter_rare", chance = 100000}
 			}
 		}
