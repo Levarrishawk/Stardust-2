@@ -130,7 +130,7 @@ reservedNames = {
 	{ "ghey", DECLINED_PROFANE },
 	{ "-GM", DECLINED_PROFANE },
 	{ "_GM", DECLINED_PROFANE },
-	{ "GM-", DECLINED_PROFANE },
+	--{ "GM-", DECLINED_PROFANE },
 	{ "GM_", DECLINED_PROFANE },
 	{ "god", DECLINED_PROFANE },
 	{ "HillBilly", DECLINED_PROFANE },
