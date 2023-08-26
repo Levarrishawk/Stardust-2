@@ -33,7 +33,8 @@ geonosian_worker = Creature:new {
 		{
 			groups = {
 				{group = "geonosian_common", chance = 5000000},
-				{group = "geonosian_relic", chance = 5000000}
+				{group = "geo_weapons", chance = 500000},
+				{group = "geonosian_relic", chance = 4500000}
 			}
 		}
 	},

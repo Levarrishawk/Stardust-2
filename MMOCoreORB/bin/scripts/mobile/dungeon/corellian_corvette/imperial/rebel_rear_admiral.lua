@@ -41,7 +41,7 @@ rebel_rear_admiral = Creature:new {
 				{group = "junk", chance = 4700000},
 				{group = "rifles", chance = 1000000},
 				{group = "pistols", chance = 1000000},
-				{group = "melee_weapons", chance = 1000000},
+				{group = "elite_weapons", chance = 1000000},
 				{group = "carbines", chance = 1000000},
 				{group = "clothing_attachments", chance = 100000},
 				{group = "armor_attachments", chance = 100000},
