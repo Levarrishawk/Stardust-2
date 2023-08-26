@@ -941,4 +941,5 @@ function exarKun:handleVictory(pPlayer)
    writeData("exarKun:trashSpawnState", 0)
    writeData("exarKun:bossOneSpawnState", 0)
    writeData("exarKun:bossOneTrashState", 0) 
+   return 0
 end

@@ -1058,4 +1058,5 @@ function axkvaMin:handleVictory(pPlayer)
    writeData("axkvaMin:trashSpawnState", 0)
    writeData("axkvaMin:bossOneSpawnState", 0)
    writeData("axkvaMin:bossOneTrashState", 0) 
+   return 0
 end
