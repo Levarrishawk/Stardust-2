@@ -5,9 +5,9 @@ exarKunEntryMenuComponent = {  }
 function exarKunEntryMenuComponent:fillObjectMenuResponse(pSceneObject, pMenuResponse, pPlayer)
 	local response = LuaObjectMenuResponse(pMenuResponse)
 	response:addRadialMenuItem(20, 3, "Enter Instance 1")
-	response:addRadialMenuItem(21, 3, "Enter Instance 2")
-	response:addRadialMenuItem(23, 3, "Enter Instance 3")
-	response:addRadialMenuItem(24, 3, "Enter Instance 4")	
+--	response:addRadialMenuItem(21, 3, "Enter Instance 2")
+--	response:addRadialMenuItem(23, 3, "Enter Instance 3")
+--	response:addRadialMenuItem(24, 3, "Enter Instance 4")	
 	
 end
 
