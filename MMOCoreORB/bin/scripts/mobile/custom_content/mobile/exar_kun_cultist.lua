@@ -42,13 +42,13 @@ exar_kun_cultist = Creature:new {
 	-- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)
   -- Unarmed should be put on secondary unless the mobile doesn't use weapons, in which case "unarmed" should be put primary and "none" as secondary
   primaryWeapon = "force_sword",
-  secondaryWeapon = "unarmed",
+  secondaryWeapon = "pirate_weapons_light",
   conversationTemplate = "",
 
   -- primaryAttacks and secondaryAttacks should be separate skill groups specific to the weapon type listed in primaryWeapon and secondaryWeapon
   -- Use merge() to merge groups in creatureskills.lua together. If a weapon is set to "none", set the attacks variable to empty brackets
-  primaryAttacks = merge(fencermaster,swordsmanmid,pikemanmaster,brawlermaster,forcewielder),
-  secondaryAttacks = forcewielder
+  primaryAttacks = merge(fencermaster,swordsmanmid,pikemanmaster,brawlermaster,marksmanmid),
+  secondaryAttacks = marksmanmid
 }
 
 CreatureTemplates:addCreatureTemplate(exar_kun_cultist, "exar_kun_cultist")
