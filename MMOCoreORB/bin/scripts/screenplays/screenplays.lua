@@ -830,11 +830,11 @@ includeFile("dungeon/exar_kun/exarKun3.lua")
 includeFile("dungeon/exar_kun/exarKun4.lua")
 
 includeFile("events/exarKunEntryMenuComponent.lua")
-includeFile("dungeon/exar_kun/exarKunEntryWay.lua")
+--includeFile("dungeon/exar_kun/exarKunEntryWay.lua")
 
 -- Axkva Min
 includeFile("dungeon/axkva_min/axkvaMin.lua")
-includeFile("dungeon/axkva_min/axkvaMinEntryWay.lua")
+--includeFile("dungeon/axkva_min/axkvaMinEntryWay.lua")
 includeFile("events/axkvaMinEntryMenuComponent.lua")
 
 -- Mustafar
