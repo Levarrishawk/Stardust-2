@@ -834,7 +834,7 @@ includeFile("events/exarKunEntryMenuComponent.lua")
 
 -- Axkva Min
 includeFile("dungeon/axkva_min/axkvaMin.lua")
---includeFile("dungeon/axkva_min/axkvaMinEntryWay.lua")
+includeFile("dungeon/axkva_min/axkvaMinEntryWay.lua")
 includeFile("events/axkvaMinEntryMenuComponent.lua")
 
 -- Mustafar
