@@ -20,18 +20,17 @@ function jakku_weapons_facility_boss_2:spawnMobiles()
   local pTrigger = spawnMobile("jakku", "jakku_r5", 10800, 14.0, -48, -17, -70, 610000144)
         if (pTrigger ~= nil ) then
         createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_2", "notifyTriggerDead", pTrigger)
-        end
- 
+        end 
       writeData("jakku_weapons_facility_boss_2:spawnState",0)
     return 0
 end
  
 function jakku_weapons_facility_boss_2:notifyTriggerDead(pTrigger, pPlayer)
-        local pBoss = spawnMobile("jakku", "jakku_black_trooper_1", 0, 23.6, -48, -19, -90, 610000144)     
-        writeData("jakku_weapons_facility_boss_2:spawnState", 1)        
-          spatialChat(pBoss, "WARNING Protocol-77 has been breached.  This unit has been directed to terminate all sentients within the facility.")
-            createObserver(DAMAGERECEIVED,"jakku_weapons_facility_boss_2","boss_damage", pBoss)
-            createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_2", "notifyBossDead", pBoss)         
+     local pBoss = spawnMobile("jakku", "jakku_black_trooper_1", 0, 23.6, -48, -19, -90, 610000144)                   
+       spatialChat(pBoss, "WARNING Protocol-77 has been breached.  This unit has been directed to terminate all sentients within the facility.")
+       createObserver(DAMAGERECEIVED,"jakku_weapons_facility_boss_2","boss_damage", pBoss)
+       createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_2", "notifyBossDead", pBoss)  
+       writeData("jakku_weapons_facility_boss_2:spawnState", 1)         
 end
  
 function jakku_weapons_facility_boss_2:notifyBossDead(pBoss, pPlayer)
