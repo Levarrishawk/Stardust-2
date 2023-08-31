@@ -28,8 +28,7 @@ end
 
 function jakku_weapons_facility_boss_6:notifyTriggerDead(pTrigger, pPlayer)
         local pBoss = spawnMobile("jakku", "jakku_assassin_droid", 0, -16.2, -64, 5.0, 0, 610000138)        
-        writeData("jakku_weapons_facility_boss_6:spawnState", 1)
-        writeData("facilityboss6", pBoss:getObjectID())
+        writeData("jakku_weapons_facility_boss_6:spawnState", 1)       
           spatialChat(pBoss, "Protocol-77 breached.  Incursion in main production facility.  Activating assassination protocols.")
             createObserver(DAMAGERECEIVED,"jakku_weapons_facility_boss_6","boss_damage", pBoss)
             createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_6", "notifyBossDead", pBoss)              
