@@ -995,35 +995,35 @@ void ResourceSpawner::sendSampleResults(TransactionLog& trx, CreatureObject* pla
 		return;
 	}
 
-	int maxUnitsExtracted = (int) (density * (15 + System::random(3)));
+	int maxUnitsExtracted = (int) (density * (50 + System::random(3)));
 
 	float cityMultiplier = 1.f + player->getSkillMod("private_spec_samplesize") / 100.f;
 
 	int unitsExtracted = maxUnitsExtracted * (float(surveySkill) / 100.0f) * samplingMultiplier * cityMultiplier;
-	int xpcap = 40;
+	int xpcap = 400;
 
 	if (session->tryGamble()) {
 		if (System::random(2) == 1) {
 			player->sendSystemMessage("@survey:gamble_success");
-			unitsExtracted *= 4;
+			unitsExtracted *= 10;
 		} else {
 			player->sendSystemMessage("@survey:gamble_fail");
 		}
 		session->clearGamble();
-		xpcap = 50;
+		xpcap = 500;
 	}
 
 	if (richSampleLocation != nullptr && richSampleLocation->getPosition() != Vector3(0, 0, 0)) {
 		if (player->getDistanceTo(richSampleLocation) < 10) {
 			player->sendSystemMessage("@survey:node_recovery");
-			unitsExtracted *= 4;
+			unitsExtracted *= 10;
 
 		} else {
 			player->sendSystemMessage("@survey:node_not_close");
 		}
 
 		session->clearRichSampleLocation();
-		xpcap = 50;
+		xpcap = 500;
 	}
 
 	if (unitsExtracted < 2) {
