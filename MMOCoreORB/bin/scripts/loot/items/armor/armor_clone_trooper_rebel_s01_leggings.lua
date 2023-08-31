@@ -5,7 +5,7 @@ armor_clone_trooper_rebel_s01_leggings = {
 	directObjectTemplate = "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_rebel_s01_leggings.iff",
 	craftingValues = {
 		{"armor_rating",1,1,0},
-    {"armor_effectiveness",50,65,10},
+    {"armor_effectiveness",25,40,10},
     {"armor_integrity",30000, 55000,0},
     {"armor_health_encumbrance",0,0,0},
     {"armor_action_encumbrance",0,0,0},
