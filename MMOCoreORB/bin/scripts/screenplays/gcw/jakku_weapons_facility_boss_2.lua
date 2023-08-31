@@ -32,7 +32,6 @@ function jakku_weapons_facility_boss_2:notifyTriggerDead(pTrigger, pPlayer)
           spatialChat(pBoss, "WARNING Protocol-77 has been breached.  This unit has been directed to terminate all sentients within the facility.")
             createObserver(DAMAGERECEIVED,"jakku_weapons_facility_boss_2","boss_damage", pBoss)
             createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_2", "notifyBossDead", pBoss)         
-  return 0
 end
  
 function jakku_weapons_facility_boss_2:notifyBossDead(pBoss, pPlayer)
@@ -77,10 +76,7 @@ end
 if (((bossHealth <= (bossMaxHealth *0.9))) and readData("jakku_weapons_facility_boss_2:spawnState") == 1) then
   spatialChat(pBoss, "Sentient resistance exceeding tolerance levels.")
     writeData("jakku_weapons_facility_boss_2:spawnState", 2)
-    local pJos = spawnMobile("jakku", "jakku_fast_battle_droid", 0, 23.5, -48.0, -21, -90, 610000144)
-    CreatureObject(pJos, function(firstTime)
-    firstTime:engageCombat(pPlayer)
-    end)
+    local pJos = spawnMobile("jakku", "jakku_fast_battle_droid", 0, 23.5, -48.0, -21, -90, 610000144)   
   spatialChat(pJos, "Roger Roger.")
  
 end

@@ -31,8 +31,7 @@ function jakku_weapons_facility_boss_4:notifyTriggerDead(pTrigger, pPlayer)
         writeData("jakku_weapons_facility_boss_4:spawnState", 1)      
           spatialChat(pBoss, "Access to Administration is prohibited.  Protocol-77 restrictions in effect.  Priority Override.  New directive..  eliminate all sentients.")
             createObserver(DAMAGERECEIVED,"jakku_weapons_facility_boss_4","boss_damage", pBoss)
-            createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_4", "notifyBossDead", pBoss)         
-  return 0
+            createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_4", "notifyBossDead", pBoss)           
 end
  
 function jakku_weapons_facility_boss_4:notifyBossDead(pBoss, pPlayer)

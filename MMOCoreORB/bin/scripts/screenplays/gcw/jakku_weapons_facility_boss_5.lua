@@ -32,7 +32,6 @@ function jakku_weapons_facility_boss_5:notifyTriggerDead(pTrigger, pPlayer)
           spatialChat(pBoss, "Protocol-77 Breach! Administration compromised.  Activating Duplicate unit.. Synchonizing..")
             createObserver(DAMAGERECEIVED,"jakku_weapons_facility_boss_5","boss_damage", pBoss)
             createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_5", "notifyBossDead", pBoss)         
-  return 0
 end
  
 function jakku_weapons_facility_boss_5:notifyBossDead(pBoss, pPlayer)

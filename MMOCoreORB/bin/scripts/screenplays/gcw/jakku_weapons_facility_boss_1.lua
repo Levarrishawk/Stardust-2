@@ -21,18 +21,16 @@ function jakku_weapons_facility_boss_1:spawnMobiles()
         if (pTrigger ~= nil ) then
         createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_1", "notifyTriggerDead", pTrigger)
         end
- 
       writeData("jakku_weapons_facility_boss_1:spawnState",0)
     return 0
 end
  
 function jakku_weapons_facility_boss_1:notifyTriggerDead(pTrigger, pPlayer)
-        local pBoss = spawnMobile("jakku", "jakku_black_trooper_1", 0, -32.6, -28, -17.9, 180, 610000119)      
-        writeData("jakku_weapons_facility_boss_1:spawnState", 1)        
-          spatialChat(pBoss, "WARNING, this facility is under a protocol 77 emergency evacuation lockdown. You are not authorized and will be terminated.")
-            createObserver(DAMAGERECEIVED,"jakku_weapons_facility_boss_1","boss_damage", pBoss)
-            createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_1", "notifyBossDead", pBoss)
-       return 0     
+   local pBoss = spawnMobile("jakku", "jakku_black_trooper_1", 0, -32.6, -28, -17.9, 180, 610000119)                  
+     spatialChat(pBoss, "WARNING, this facility is under a protocol 77 emergency evacuation lockdown. You are not authorized and will be terminated.")
+     createObserver(DAMAGERECEIVED,"jakku_weapons_facility_boss_1","boss_damage", pBoss)
+     createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_1", "notifyBossDead", pBoss)
+     writeData("jakku_weapons_facility_boss_1:spawnState", 1)                
 end
  
 function jakku_weapons_facility_boss_1:notifyBossDead(pBoss, pPlayer)
@@ -116,7 +114,7 @@ function jakku_weapons_facility_boss_1:boss_damage(pBoss, pPlayer)
     
      
     if (((bossHealth <= (bossMaxHealth * 0.02))) and readData("jakku_weapons_facility_boss_1:spawnState") == 7) then
-      spatialChat(pBoss, "WARNING, intruders.  Protocol-77 has been breached.  Facility self destruct has been initiated.  Catastrophic reactor overload will occur in 4 hours.  This facility must not be comprimised.  You are advised to vacate the area.  Reactor overload will destroy this planet.")
+      spatialChat(pBoss, "WARNING, intruders.  Protocol-77 has been breached.  Facility self destruct has been initiated.  Catastrophic reactor overload will occur in 4 hours.  This facility must not be compromised.  You are advised to vacate the area.  Reactor overload will destroy this planet.")
         end 
     end
    return 0
