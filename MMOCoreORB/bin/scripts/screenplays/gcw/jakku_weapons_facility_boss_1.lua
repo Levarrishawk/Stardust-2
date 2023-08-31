@@ -30,7 +30,8 @@ function jakku_weapons_facility_boss_1:notifyTriggerDead(pTrigger, pPlayer)
      spatialChat(pBoss, "WARNING, this facility is under a protocol 77 emergency evacuation lockdown. You are not authorized and will be terminated.")
      createObserver(DAMAGERECEIVED,"jakku_weapons_facility_boss_1","boss_damage", pBoss)
      createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_1", "notifyBossDead", pBoss)
-     writeData("jakku_weapons_facility_boss_1:spawnState", 1)                
+     writeData("jakku_weapons_facility_boss_1:spawnState", 1)   
+     return 0             
 end
  
 function jakku_weapons_facility_boss_1:notifyBossDead(pBoss, pPlayer)
