@@ -31,7 +31,8 @@ function jakku_weapons_facility_boss_3:notifyTriggerDead(pTrigger, pPlayer)
         writeData("jakku_weapons_facility_boss_3:spawnState", 1)        
           spatialChat(pBoss, "WARNING Protocol-77 has been breached.  Incursion in Level 2 Cloning Laboratory.  This unit has been directed to eliminate all sentients.")
             createObserver(DAMAGERECEIVED,"jakku_weapons_facility_boss_3","boss_damage", pBoss)
-            createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_3", "notifyBossDead", pBoss)         
+            createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_3", "notifyBossDead", pBoss)  
+            return 0       
 end
  
 function jakku_weapons_facility_boss_3:notifyBossDead(pBoss, pPlayer)

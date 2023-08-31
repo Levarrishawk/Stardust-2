@@ -30,7 +30,8 @@ function jakku_weapons_facility_boss_2:notifyTriggerDead(pTrigger, pPlayer)
        spatialChat(pBoss, "WARNING Protocol-77 has been breached.  This unit has been directed to terminate all sentients within the facility.")
        createObserver(DAMAGERECEIVED,"jakku_weapons_facility_boss_2","boss_damage", pBoss)
        createObserver(OBJECTDESTRUCTION, "jakku_weapons_facility_boss_2", "notifyBossDead", pBoss)  
-       writeData("jakku_weapons_facility_boss_2:spawnState", 1)         
+       writeData("jakku_weapons_facility_boss_2:spawnState", 1)     
+       return 0    
 end
  
 function jakku_weapons_facility_boss_2:notifyBossDead(pBoss, pPlayer)
