@@ -845,7 +845,7 @@ mustafar = {
   gcwEnabled = 0,
   
   planetTravelPoints = {
-    {name = "Mensix Mining Facility", x = -2471, z = 230, y = 1620, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 0},
+    {name = "Mensix Mining Facility", x = -2471, z = 230, y = 1620, interplanetaryTravelAllowed = 0, incomingTravelAllowed = 0},
     },
     
     badgeAreas = {   
