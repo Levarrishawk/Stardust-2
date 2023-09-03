@@ -19,7 +19,7 @@ registerScreenPlay("Yavin4LaborOutpostScreenPlay", true)
 
 function Yavin4LaborOutpostScreenPlay:start()
 	if (isZoneEnabled(self.planet)) then
-		--self:spawnMobiles()
+		self:spawnMobiles()
 		self:spawnStationaryMobiles()
 	end
 end
