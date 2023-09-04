@@ -24,72 +24,70 @@ public:
 	int doQueueCommand(CreatureObject* creature, const uint64& target, const UnicodeString& arguments) const {
 
 		if (!checkStateMask(creature))
-						return INVALIDSTATE;
+			return INVALIDSTATE;
 
-					if (!checkInvalidLocomotions(creature))
-						return INVALIDLOCOMOTION;
+		if (!checkInvalidLocomotions(creature))
+			return INVALIDLOCOMOTION;
 
-					if (isWearingArmor(creature)) {
-						return NOJEDIARMOR;
+		ManagedReference<SceneObject*> object = server->getZoneServer()->getObject(target);
+		CreatureObject* targetCreature = dynamic_cast<CreatureObject*>(object.get());
+
+		if (isWearingArmor(creature)) {
+			return NOJEDIARMOR;
+		}
+
+		ManagedReference<SceneObject*> targetObject = server->getZoneServer()->getObject(target);
+
+		if (targetObject == nullptr || !targetObject->isCreatureObject()) {
+			return INVALIDTARGET;
+		}
+		Locker clocker(targetCreature, creature);
+
+		ManagedReference<PlayerObject*> player = creature->getPlayerObject();
+		PlayerObject* targetPlayerObject = targetCreature->getPlayerObject();
+		int res = doCombatAction(creature, target);
+
+		if (res == SUCCESS) {
+
+				// Setup debuff.
+
+				if (!creature->checkCooldownRecovery(skillName)){
+					const Time* timeRemaining = creature->getCooldownTime(skillName);
+					creature->playMusicMessage("sound/ui_negative.snd");
+					creature->sendSystemMessage("Your target can not be snared with " + skillNameDisplay + " for another " +  getCooldownString(timeRemaining->miliDifference() * -1));
 					}
 
-					ManagedReference<SceneObject*> targetObject = server->getZoneServer()->getObject(target);
-
-					if (targetObject == NULL || !targetObject->isCreatureObject()) {
-						return INVALIDTARGET;
-					}
-
-					ManagedReference<SceneObject*> object = server->getZoneServer()->getObject(target);
-					CreatureObject* targetCreature = dynamic_cast<CreatureObject*>(object.get());
-
+				else if (targetCreature != nullptr) {
 					Locker clocker(targetCreature, creature);
 
-					ManagedReference<PlayerObject*> player = creature->getPlayerObject();
-					PlayerObject* targetPlayerObject = targetCreature->getPlayerObject();
+					ManagedReference<Buff*> buff = new Buff(targetCreature, getNameCRC(), 6, BuffType::OTHER);
 
-					int res = doCombatAction(creature, target);
+					Locker locker(buff);
+					if (targetCreature->hasBuff(STRING_HASHCODE("burstrun")) || targetCreature->hasBuff(STRING_HASHCODE("retreat")) || targetCreature->hasBuff(BuffCRC::JEDI_FORCE_RUN_1) || targetCreature->hasBuff(BuffCRC::JEDI_FORCE_RUN_2) || targetCreature->hasBuff(BuffCRC::JEDI_FORCE_RUN_3)) {
+						targetCreature->removeBuff(STRING_HASHCODE("burstrun"));
+						targetCreature->removeBuff(STRING_HASHCODE("retreat"));
+						targetCreature->removeBuff(BuffCRC::JEDI_FORCE_RUN_1);
+						targetCreature->removeBuff(BuffCRC::JEDI_FORCE_RUN_2);
+						targetCreature->removeBuff(BuffCRC::JEDI_FORCE_RUN_3);
+					}
 
-								if (res == SUCCESS) {
+					buff->setSpeedMultiplierMod(0.02f);
+					buff->setAccelerationMultiplierMod(0.02f);
+					targetCreature->setSnaredState(12);
+					targetCreature->playEffect("clienteffect/commando_position_secured.cef", "");
+					StringBuffer targetRootMessage;
 
-									// Setup debuff.
+					targetRootMessage << "You have been snared!";
+					targetCreature->sendSystemMessage(targetRootMessage.toString());
 
-									if (!creature->checkCooldownRecovery(skillName)){
-													Time* timeRemaining = creature->getCooldownTime(skillName);
-													creature->playMusicMessage("sound/ui_negative.snd");
-													creature->sendSystemMessage("Your target can not be snared with " + skillNameDisplay + " for another " +  getCooldownString(timeRemaining->miliDifference() * -1));
-									}
+					targetCreature->addBuff(buff);
+					creature->updateCooldownTimer(skillName, delay * 1000);
 
-									else if (targetCreature != nullptr) {
-										Locker clocker(targetCreature, creature);
+					}
 
-										ManagedReference<Buff*> buff = new Buff(targetCreature, getNameCRC(), 6, BuffType::OTHER);
-
-										Locker locker(buff);
-										if (targetCreature->hasBuff(STRING_HASHCODE("burstrun")) || targetCreature->hasBuff(STRING_HASHCODE("retreat")) || targetCreature->hasBuff(BuffCRC::JEDI_FORCE_RUN_1) || targetCreature->hasBuff(BuffCRC::JEDI_FORCE_RUN_2) || targetCreature->hasBuff(BuffCRC::JEDI_FORCE_RUN_3)) {
-											targetCreature->removeBuff(STRING_HASHCODE("burstrun"));
-											targetCreature->removeBuff(STRING_HASHCODE("retreat"));
-											targetCreature->removeBuff(BuffCRC::JEDI_FORCE_RUN_1);
-											targetCreature->removeBuff(BuffCRC::JEDI_FORCE_RUN_2);
-											targetCreature->removeBuff(BuffCRC::JEDI_FORCE_RUN_3);
-										}
-
-										buff->setSpeedMultiplierMod(0.2f);
-										buff->setAccelerationMultiplierMod(0.2f);
-										targetCreature->setSnaredState(12);
-										targetCreature->playEffect("clienteffect/commando_position_secured.cef", "");
-										StringBuffer targetRootMessage;
-
-										targetRootMessage << "You have been snared!";
-										targetCreature->sendSystemMessage(targetRootMessage.toString());
-
-										targetCreature->addBuff(buff);
-										creature->updateCooldownTimer(skillName, delay * 1000);
-
-									}
-
-								}
-								return res;
-							}
+				}
+				return res;
+			}
 
 							String getCooldownString(uint32 delta) const {
 
