@@ -41,25 +41,21 @@
 --this exception also makes it possible to release a modified version 
 
 
+object_tangible_scout_camokit_camokit_chandrila = object_tangible_scout_camokit_shared_camokit_chandrila:new {
 
---Children folder includes
+	templateType = CAMOKIT,
 
--- Server Objects
-includeFile("tangible/scout/camokit/camokit_corellia.lua")
-includeFile("tangible/scout/camokit/camokit_dantooine.lua")
-includeFile("tangible/scout/camokit/camokit_dathomir.lua")
-includeFile("tangible/scout/camokit/camokit_endor.lua")
-includeFile("tangible/scout/camokit/camokit_lok.lua")
-includeFile("tangible/scout/camokit/camokit_naboo.lua")
-includeFile("tangible/scout/camokit/camokit_rori.lua")
-includeFile("tangible/scout/camokit/camokit_talus.lua")
-includeFile("tangible/scout/camokit/camokit_tatooine.lua")
-includeFile("tangible/scout/camokit/camokit_yavin.lua")
---[[
-includeFile("tangible/scout/camokit/camokit_chandrila.lua")
-includeFile("tangible/scout/camokit/camokit_coruscant.lua")
-includeFile("tangible/scout/camokit/camokit_hutta.lua")
-includeFile("tangible/scout/camokit/camokit_kaas.lua")
-includeFile("tangible/scout/camokit/camokit_lothal.lua")
-includeFile("tangible/scout/camokit/camokit_moraband.lua")
-]]--
+	effectiveZone = "chandrila",
+
+	numberExperimentalProperties = {1, 1, 1, 1},
+	experimentalProperties = {"XX", "XX", "XX", "OQ"},
+	experimentalWeights = {1, 1, 1, 1},
+	experimentalGroupTitles = {"null", "null", "null", "exp_quantity"},
+	experimentalSubGroupTitles = {"null", "null", "hitpoints", "quantity"},
+	experimentalMin = {0, 0, 1000, 5},
+	experimentalMax = {0, 0, 1000, 20},
+	experimentalPrecision = {0, 0, 0, 0},
+	experimentalCombineType = {0, 0, 4, 1},
+}
+
+ObjectTemplates:addTemplate(object_tangible_scout_camokit_camokit_chandrila, "object/tangible/scout/camokit/camokit_chandrila.iff")

@@ -41,25 +41,40 @@
 --this exception also makes it possible to release a modified version 
 
 
+object_draft_schematic_scout_item_camokit_lothal = object_draft_schematic_scout_shared_item_camokit_lothal:new {
 
---Children folder includes
+   templateType = DRAFTSCHEMATIC,
 
--- Server Objects
-includeFile("tangible/scout/camokit/camokit_corellia.lua")
-includeFile("tangible/scout/camokit/camokit_dantooine.lua")
-includeFile("tangible/scout/camokit/camokit_dathomir.lua")
-includeFile("tangible/scout/camokit/camokit_endor.lua")
-includeFile("tangible/scout/camokit/camokit_lok.lua")
-includeFile("tangible/scout/camokit/camokit_naboo.lua")
-includeFile("tangible/scout/camokit/camokit_rori.lua")
-includeFile("tangible/scout/camokit/camokit_talus.lua")
-includeFile("tangible/scout/camokit/camokit_tatooine.lua")
-includeFile("tangible/scout/camokit/camokit_yavin.lua")
---[[
-includeFile("tangible/scout/camokit/camokit_chandrila.lua")
-includeFile("tangible/scout/camokit/camokit_coruscant.lua")
-includeFile("tangible/scout/camokit/camokit_hutta.lua")
-includeFile("tangible/scout/camokit/camokit_kaas.lua")
-includeFile("tangible/scout/camokit/camokit_lothal.lua")
-includeFile("tangible/scout/camokit/camokit_moraband.lua")
-]]--
+   customObjectName = "Camo Kit: Lothal",
+
+   craftingToolTab = 524288, -- (See DraftSchematicObjectTemplate.h)
+   complexity = 2, 
+   size = 1, 
+   factoryCrateType = "object/factory/factory_crate_electronics.iff",
+   
+   xpType = "scout", 
+   xp = 230, 
+
+   assemblySkill = "camouflage", 
+   experimentingSkill = "camouflage", 
+   customizationSkill = "clothing_customization", 
+
+   customizationOptions = {},
+   customizationStringNames = {},
+   customizationDefaults = {},
+
+   ingredientTemplateNames = {"craft_item_ingredients_n", "craft_item_ingredients_n"},
+   ingredientTitleNames = {"musk_extract", "native_animal_skins"},
+   ingredientSlotType = {0, 0},
+   resourceTypes = {"meat_herbivore_dantooine", "hide_scaley_dantooine"},
+   resourceQuantities = {40, 45},
+   contribution = {100, 100},
+
+
+   targetTemplate = "object/tangible/scout/camokit/camokit_lothal.iff",
+
+   additionalTemplates = {
+             }
+
+}
+ObjectTemplates:addTemplate(object_draft_schematic_scout_item_camokit_lothal, "object/draft_schematic/scout/item_camokit_lothal.iff")

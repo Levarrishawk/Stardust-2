@@ -72,3 +72,11 @@ includeFile("draft_schematic/scout/item_trap_sonic_pulse.lua")
 includeFile("draft_schematic/scout/item_trap_state_def_1.lua")
 includeFile("draft_schematic/scout/item_trap_tranq_dart.lua")
 includeFile("draft_schematic/scout/item_trap_webber.lua")
+--[[
+includeFile("draft_schematic/scout/item_camokit_chandrila.lua")
+includeFile("draft_schematic/scout/item_camokit_coruscant.lua")
+includeFile("draft_schematic/scout/item_camokit_lothal.lua")
+includeFile("draft_schematic/scout/item_camokit_kaas.lua")
+includeFile("draft_schematic/scout/item_camokit_hutta.lua")
+includeFile("draft_schematic/scout/item_camokit_moraband.lua")
+]]--
