@@ -2,14 +2,15 @@ vitiate = Creature:new {
 	objectName = "@theme_park_name:emperor_palpatine",
 	customName = "Vitiate",
 	socialGroup = "dark_jedi",
-	level = 300,
+	mobType = MOB_NPC,
+	level = 400,
 	chanceHit = 1,
-	damageMin = 445,
-	damageMax = 700,
+	damageMin = 1770,
+  damageMax = 2000,
 	baseXp = 9429,
-	baseHAM = 240000,
-	baseHAMmax = 300000,
-	armor = 0,
+	baseHAM = 1240000,
+	baseHAMmax = 1300000,
+	armor = 2,
 	resists = {50,50,50,50,50,50,50,50,50},
 	meatType = "",
 	meatAmount = 0,
@@ -41,9 +42,16 @@ vitiate = Creature:new {
       lootChance = 10000000,
     }
   },
-	weapons = {"dark_jedi_weapons_gen4"},
+	 -- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)
+  -- Unarmed should be put on secondary unless the mobile doesn't use weapons, in which case "unarmed" should be put primary and "none" as secondary
+  primaryWeapon = "dark_jedi_weapons_gen4",
+  secondaryWeapon = "unarmed",
   conversationTemplate = "",
-  attacks = merge(lightsabermaster,forcepowermaster)
+
+  -- primaryAttacks and secondaryAttacks should be separate skill groups specific to the weapon type listed in primaryWeapon and secondaryWeapon
+  -- Use merge() to merge groups in creatureskills.lua together. If a weapon is set to "none", set the attacks variable to empty brackets
+  primaryAttacks = lightsabermaster,
+  secondaryAttacks = forcepowermaster
 }
 
 CreatureTemplates:addCreatureTemplate(vitiate, "vitiate")

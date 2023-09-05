@@ -2,6 +2,7 @@ exar_kun = Creature:new {
 	customName = "Exar Kun",
 	randomNameTag = true,
 	socialGroup = "kun",
+	mobType = MOB_NPC,
 	faction = "kun",
 	level = 200,
 	chanceHit = 4.75,
