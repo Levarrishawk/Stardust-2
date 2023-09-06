@@ -1975,7 +1975,7 @@ int CombatManager::getHitChance(TangibleObject* attacker, CreatureObject* target
 
 		// saber block is special because it's just a % chance to block based on the skillmod
 		if (def == "saber_block") {
-			if (!(attacker->isTurret() || weapon->isThrownWeapon()) && ((weapon->isHeavyWeapon() || weapon->isSpecialHeavyWeapon() || (weapon->getAttackType() == SharedWeaponObjectTemplate::RANGEDATTACK)) && ((System::random(100)) < (targetCreature->getSkillMod(def) * 0.65f) )))  // was targetCreature->getSkillMod(def) - taking into consideration the actual saber_block skillMod.  Now a flat 65% chance to block.
+			if (!(attacker->isTurret() || weapon->isThrownWeapon()) && ((weapon->isHeavyWeapon() || weapon->isSpecialHeavyWeapon() || (weapon->getAttackType() == SharedWeaponObjectTemplate::RANGEDATTACK)) && ((System::random(100)) < (targetCreature->getSkillMod(def) * 0.75f) )))  // was targetCreature->getSkillMod(def) - taking into consideration the actual saber_block skillMod.  Now a flat 65% chance to block.
 				return RICOCHET;
 			else
 				return HIT;
