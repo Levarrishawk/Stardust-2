@@ -14,7 +14,7 @@ public:
 		buffCRC = BuffCRC::JEDI_FORCE_ARMOR_2;
 		overrideableCRCs.add(BuffCRC::JEDI_FORCE_ARMOR_1);
 		singleUseEventTypes.add(ObserverEventType::FORCEARMOR);
-		skillMods.put("force_armor", 55);
+		skillMods.put("force_armor", 65);
 	}
 
 	int doQueueCommand(CreatureObject* creature, const uint64& target, const UnicodeString& arguments) const override {
@@ -35,7 +35,7 @@ public:
 		// Client Effect upon hit (needed)
 		player->playEffect("clienteffect/pl_force_armor_hit.cef", "");
 
-		int fCost = param * getFrsModifiedExtraForceCost(player, 1.0f);
+		int fCost = param * getFrsModifiedExtraForceCost(player, 0.5f);
 		if (ghost->getForcePower() <= fCost) { // Remove buff if not enough force.
 			Buff* buff = player->getBuff(BuffCRC::JEDI_FORCE_ARMOR_2);
 			if (buff != nullptr) {
