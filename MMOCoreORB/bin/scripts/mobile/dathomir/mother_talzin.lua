@@ -70,7 +70,7 @@ mother_talzin = Creature:new {
     },
     {
       groups = {
-        {group = "crystal_mauls_vengeance", chance = 2000000},
+        {group = "crystal_mauls_vengence", chance = 2000000},
         {group = "nightsister_common", chance = 2000000},
         {group = "nightsister_common", chance = 2000000},
         {group = "clothing_attachments", chance = 2000000},
@@ -137,9 +137,16 @@ mother_talzin = Creature:new {
       lootChance = 1000000,
     },       
   },
-	weapons = {"mixed_force_weapons"},
-	conversationTemplate = "",
-	attacks = merge(swordsmanmid,fencermid,tkamid,pikemanmid,brawlermaster,forcewielder)
+	-- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)
+  -- Unarmed should be put on secondary unless the mobile doesn't use weapons, in which case "unarmed" should be put primary and "none" as secondary
+  primaryWeapon = "force_sword",
+  secondaryWeapon = "unarmed",
+  conversationTemplate = "",
+
+  -- primaryAttacks and secondaryAttacks should be separate skill groups specific to the weapon type listed in primaryWeapon and secondaryWeapon
+  -- Use merge() to merge groups in creatureskills.lua together. If a weapon is set to "none", set the attacks variable to empty brackets
+  primaryAttacks = merge(tkamaster,swordsmanmaster,fencermaster,pikemanmaster,brawlermaster,forcepowermaster),
+  secondaryAttacks = forcepowermaster
 }
 
 CreatureTemplates:addCreatureTemplate(mother_talzin, "mother_talzin")
