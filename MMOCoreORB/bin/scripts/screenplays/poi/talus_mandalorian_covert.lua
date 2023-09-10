@@ -7,7 +7,6 @@ TalusMandalorianCovertScreenPlay = ScreenPlay:new {
 }
 
 registerScreenPlay("TalusMandalorianCovertScreenPlay", true)
-
 function TalusMandalorianCovertScreenPlay:start()
   if (isZoneEnabled("talus")) then
     self:spawnMobiles()
@@ -78,6 +77,8 @@ function TalusMandalorianCovertScreenPlay:spawnMobiles()
     
     pNpc = spawnMobile("talus", "child_of_the_watch",60,4204,6,1005.6,20,0)
     self:setMoodString(pNpc, "neutral")
+    
+    
   --end mobile spawns
 end
 
@@ -171,6 +172,8 @@ function TalusMandalorianCovertScreenPlay:touristConvoM3(pKid1, pPlayer)
 end
 
 function TalusMandalorianCovertScreenPlay:resetTinkerConvo(pPlayer, pKid1, pKid2)
-    writeData("TalusMandalorianCovertScreenPlay:tinkerConvoInProgress", 0)    
-    self:startTinkerConvo()
+    writeData("TalusMandalorianCovertScreenPlay:tinkerConvoInProgress", 0)   
+    createEvent(90 * 1000, "TalusMandalorianCovertScreenPlay", "touristConvoF1", pKid2, "")
+    createEvent(100 * 1000, "TalusMandalorianCovertScreenPlay", "touristConvoM1", pKid1, "") 
+    --self:startTinkerConvo()
 end
