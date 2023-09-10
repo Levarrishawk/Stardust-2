@@ -173,6 +173,7 @@ end
 
 function TalusMandalorianCovertScreenPlay:resetTinkerConvo(pPlayer, pKid1, pKid2)
     writeData("TalusMandalorianCovertScreenPlay:tinkerConvoInProgress", 0)   
+    writeData("TalusMandalorianCovertScreenPlay:tinkerConvoState", 0)   
     createEvent(90 * 1000, "TalusMandalorianCovertScreenPlay", "touristConvoF1", pKid2, "")
     createEvent(100 * 1000, "TalusMandalorianCovertScreenPlay", "touristConvoM1", pKid1, "") 
     --self:startTinkerConvo()
