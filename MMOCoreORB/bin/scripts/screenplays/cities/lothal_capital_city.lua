@@ -551,6 +551,9 @@ function LohthalCityScreenPlay:touristConvoM3(pKid1, pPlayer)
 end
 
 function LohthalCityScreenPlay:resetTinkerConvo(pPlayer, pKid1, pKid2)
-    writeData("LohthalCityScreenPlay:tinkerConvoInProgress", 0)    
-    self:startTinkerConvo()
+    writeData("LohthalCityScreenPlay:tinkerConvoInProgress", 1)
+    writeData("LohthalCityScreenPlay:tinkerConvoState", 0)   
+          createEvent(90 * 1000, "LohthalCityScreenPlay", "touristConvoF1", pKid2, "")
+          createEvent(100 * 1000, "LohthalCityScreenPlay", "touristConvoM1", pKid1, "") 
+    --self:startTinkerConvo()
 end
