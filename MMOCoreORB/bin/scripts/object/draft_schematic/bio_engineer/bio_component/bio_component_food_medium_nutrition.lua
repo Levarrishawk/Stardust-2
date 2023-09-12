@@ -51,6 +51,7 @@ object_draft_schematic_bio_engineer_bio_component_bio_component_food_medium_nutr
    complexity = 22, 
    size = 1, 
    factoryCrateType = "object/factory/factory_crate_chemicals.iff",
+   factoryCrateSize = 1000,
 
    xpType = "crafting_bio_engineer_creature", 
    xp = 160, 
