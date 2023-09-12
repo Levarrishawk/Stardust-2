@@ -51,6 +51,7 @@ object_draft_schematic_bio_engineer_bio_component_bio_component_clothing_field_d
    complexity = 22, 
    size = 1, 
    factoryCrateTypeateTypeateTypeateType = "object/factory/factory_crate_chemicals.iff",
+   factoryCrateSize = 1000,
 
    xpType = "crafting_bio_engineer_creature", 
    xp = 140, 
