@@ -51,6 +51,7 @@ object_draft_schematic_food_dish_protato = object_draft_schematic_food_shared_di
    complexity = 6, 
    size = 1, 
    factoryCrateType = "object/factory/factory_crate_food.iff",
+   factoryCrateSize = 1000,
    
    xpType = "crafting_food_general", 
    xp = 100, 
