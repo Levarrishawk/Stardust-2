@@ -874,7 +874,8 @@ trainerSkills = {
 		"force_discipline_enhancements_synergy_01",
 		"force_discipline_enhancements_synergy_02",
 		"force_discipline_enhancements_synergy_03",
-		"force_discipline_enhancements_synergy_04",
+		"force_discipline_enhancements_synergy_04"
+		--[[
 		"force_discipline_defender_novice",
 		"force_discipline_defender_master",
 		"force_discipline_defender_melee_defense_01",
@@ -893,5 +894,6 @@ trainerSkills = {
 		"force_discipline_defender_preternatural_defense_02",
 		"force_discipline_defender_preternatural_defense_03",
 		"force_discipline_defender_preternatural_defense_04"
+		--]]
 	},
 }
