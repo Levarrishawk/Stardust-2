@@ -32,11 +32,11 @@ kell_dragon = Creature:new {
 	lootGroups = {
 		{
 	        groups = {
-				{group = "krayt_tissue_rare", chance = 2500000},
-        {group = "krayt_dragon_common", chance = 1500000},
+				{group = "krayt_tissue_rare", chance = 3500000},
+        {group = "krayt_dragon_common", chance = 2500000},
         {group = "krayt_pearls", chance = 1000000}			
 			},
-			lootChance = 5000000
+			lootChance = 7500000
 		},
 	},
 	primaryWeapon = "unarmed",
