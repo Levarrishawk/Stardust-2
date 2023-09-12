@@ -51,6 +51,7 @@ object_draft_schematic_item_component_item_electronics_memory_module = object_dr
    complexity = 12, 
    size = 2, 
    factoryCrateType = "object/factory/factory_crate_electronics.iff",
+   factoryCrateSize = 1000,
    
    xpType = "crafting_general", 
    xp = 40, 
