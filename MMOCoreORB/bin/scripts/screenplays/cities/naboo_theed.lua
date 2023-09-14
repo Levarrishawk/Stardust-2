@@ -362,6 +362,11 @@ function NabooTheedScreenPlay:spawnMobiles()
   self:setMoodString(pNpc, "conversation")
   pNpc = spawnMobile(self.planet, "commoner",60,-19.0001,2.25,17.4832,90.0053,1305888)
   self:setMoodString(pNpc, "neutral")
+  
+  pNpc = spawnMobile(self.planet, "commoner_child",60,-5116,6,4192,-124,0)
+  self:setMoodString(pNpc, "entertained")
+  pNpc = spawnMobile(self.planet, "commoner_child",60,-5116,6,4195.1,-171,0)
+  self:setMoodString(pNpc, "entertained")
 
 	--Cantina
 	pNpc = spawnMobile(self.planet, "junk_dealer", 0, -5.8, -0.9, -20.9, -52, 96)
