@@ -24,8 +24,8 @@ object_tangible_wearables_robe_robe_s33 = object_tangible_wearables_robe_shared_
 				    {"jedi_force_power_max", 300},
 				    {"jedi_force_power_regen", 20},
 				    {"lightsaber_toughness", 10},
-				    {"melee_defense", 90},
-            {"ranged_defense", 90},
+				   -- {"melee_defense", 90},
+           -- {"ranged_defense", 90},
 				    {"forceintimidate_accuracy", 15}
 				},
 
