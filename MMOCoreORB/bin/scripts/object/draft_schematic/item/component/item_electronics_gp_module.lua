@@ -51,6 +51,7 @@ object_draft_schematic_item_component_item_electronics_gp_module = object_draft_
    complexity = 15, 
    size = 3, 
    factoryCrateType = "object/factory/factory_crate_electronics.iff",
+   factoryCrateSize = 1000,
    
    xpType = "crafting_general", 
    xp = 50, 
