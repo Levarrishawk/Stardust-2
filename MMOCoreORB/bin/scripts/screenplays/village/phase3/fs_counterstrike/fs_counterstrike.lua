@@ -344,9 +344,9 @@ function FsCounterStrike:completeQuest(pPlayer, teamComplete)
 			CreatureObject(pPlayer):sendSystemMessage("Error: Unable to generate item.")
 		else
 			local buffItem = LuaFsBuffItem(pBuffItem)
-			buffItem:setBuffAttribute(6)
+			buffItem:setBuffAttribute(0)
 			buffItem:setReuseTime(345600000)
-			buffItem:setBuffValue(900)
+			buffItem:setBuffValue(1000)
 			buffItem:setBuffDuration(5400)
 		end
 
