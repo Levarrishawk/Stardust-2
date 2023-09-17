@@ -300,7 +300,7 @@ void SuiManager::handleCharacterBuilderSelectItem(CreatureObject* player, SuiBox
 						player->sendSystemMessage("Not within combat.");
 					}
 				}
-			} else if (templatePath == "reset_defense_mods") {
+		/*	} else if (templatePath == "reset_defense_mods") {
 				if (ghost->isJedi()) {
 					if (!player->isInCombat()) {
 						player->sendSystemMessage("You reset your Melee and Ranged Defense Modifiers.");
@@ -319,7 +319,7 @@ void SuiManager::handleCharacterBuilderSelectItem(CreatureObject* player, SuiBox
 					} else {
 						player->sendSystemMessage("Not within combat.");
 					}
-				}
+				} */
 			} else if (templatePath == "reset_buffs") {
 				if (!player->isInCombat()) {
 					player->sendSystemMessage("Your buffs have been reset.");
