@@ -305,15 +305,15 @@ void SuiManager::handleCharacterBuilderSelectItem(CreatureObject* player, SuiBox
 					if (!player->isInCombat()) {
 						player->sendSystemMessage("You reset your Melee and Ranged Defense Modifiers.");
 
-						if (player->hasSkill("force_sensitive_enhanced_reflexes_ranged_defense_04")){
-							player->setSkillModifier(SkillModManager::PERMANENTMOD, "ranged_defense", 20, true);
+						if (ghost->hasSkill("force_sensitive_enhanced_reflexes_ranged_defense_04")){
+							ghost->setSkillModifier(SkillModManager::PERMANENTMOD, "ranged_defense", 20, true);
 						} else{
-							player->setSkillModifier(SkillModManager::PERMANENTMOD, "ranged_defense", 0, true);
+							ghost->setSkillModifier(SkillModManager::PERMANENTMOD, "ranged_defense", 0, true);
 						}
-						if (player->hasSkill("force_sensitive_enhanced_reflexes_melee_defense_04")){
-							player->setSkillModifier(SkillModManager::PERMANENTMOD, "melee_defense", 20, true);
+						if (ghost->hasSkill("force_sensitive_enhanced_reflexes_melee_defense_04")){
+							ghost->setSkillModifier(SkillModManager::PERMANENTMOD, "melee_defense", 20, true);
 						} else{
-							player->setSkillModifier(SkillModManager::PERMANENTMOD, "melee_defense", 0, true);
+							ghost->setSkillModifier(SkillModManager::PERMANENTMOD, "melee_defense", 0, true);
 						}
 
 					} else {
