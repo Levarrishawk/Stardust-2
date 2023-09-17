@@ -300,6 +300,26 @@ void SuiManager::handleCharacterBuilderSelectItem(CreatureObject* player, SuiBox
 						player->sendSystemMessage("Not within combat.");
 					}
 				}
+			} else if (templatePath == "reset_defense_mods") {
+				if (ghost->isJedi()) {
+					if (!player->isInCombat()) {
+						player->sendSystemMessage("You reset your Melee and Ranged Defense Modifiers.");
+
+						if (player->hasSkill("force_sensitive_enhanced_reflexes_ranged_defense_04")){
+							player->setSkillModifier(SkillModManager::PERMANENTMOD, "ranged_defense", 20, true);
+						} else{
+							player->setSkillModifier(SkillModManager::PERMANENTMOD, "ranged_defense", 0, true);
+						}
+						if (player->hasSkill("force_sensitive_enhanced_reflexes_melee_defense_04")){
+							player->setSkillModifier(SkillModManager::PERMANENTMOD, "melee_defense", 20, true);
+						} else{
+							player->setSkillModifier(SkillModManager::PERMANENTMOD, "melee_defense", 0, true);
+						}
+
+					} else {
+						player->sendSystemMessage("Not within combat.");
+					}
+				}
 			} else if (templatePath == "reset_buffs") {
 				if (!player->isInCombat()) {
 					player->sendSystemMessage("Your buffs have been reset.");
