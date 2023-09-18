@@ -300,6 +300,41 @@ void SuiManager::handleCharacterBuilderSelectItem(CreatureObject* player, SuiBox
 						player->sendSystemMessage("Not within combat.");
 					}
 				}
+		} else if (templatePath == "reset_defense_mods") {
+				int curRangedD = 0, curMeleeD = 0;
+				
+				if (ghost->isJedi()) {
+					if (!player->isInCombat()) {
+						player->sendSystemMessage("You reset your Melee and Ranged Defense Modifiers.");
+	
+						if (player->hasSkill("force_sensitive_enhanced_reflexes_ranged_defense_04")){
+							curRangedD = player->getSkillMod("ranged_defense");
+						if (curRangedD < 0) {
+							player->addSkillMod(SkillModManager::SKILLBOX, "ranged_defense", 90, true);
+						} else {
+							if (curRangedD >= 110){
+								player->addSkillMod(SkillModManager::SKILLBOX, "ranged_defense", -90, true);
+							} else {
+							player->sendSystemMessage("Your ranged defense has already been normalised.");
+							}
+						}
+						}
+						if (player->hasSkill("force_sensitive_enhanced_reflexes_melee_defense_04")){
+							curMeleeD = player->getSkillMod("melee_defense");
+						if (curMeleeD < 0) {
+							player->addSkillMod(SkillModManager::SKILLBOX, "melee_defense", 90, true);
+						} else {
+							if (curMeleeD >= 110) {
+								player->addSkillMod(SkillModManager::SKILLBOX, "melee_defense", -90, true);
+							} else{
+							player->sendSystemMessage("Your melee defense has already been normalised.");
+							}
+						}
+						}
+					} else {
+						player->sendSystemMessage("Not within combat.");
+					}
+				}
 			} else if (templatePath == "reset_buffs") {
 				if (!player->isInCombat()) {
 					player->sendSystemMessage("Your buffs have been reset.");
