@@ -312,7 +312,11 @@ void SuiManager::handleCharacterBuilderSelectItem(CreatureObject* player, SuiBox
 						if (curRangedD < 0) {
 							player->addSkillMod(SkillModManager::SKILLBOX, "ranged_defense", 90, true);
 						} else {
+							if (curRangedD >= 110){
+								player->addSkillMod(SkillModManager::SKILLBOX, "ranged_defense", -90, true);
+							} else {
 							player->sendSystemMessage("Your ranged defense has already been normalised.");
+							}
 						}
 						}
 						if (player->hasSkill("force_sensitive_enhanced_reflexes_melee_defense_04")){
@@ -320,7 +324,11 @@ void SuiManager::handleCharacterBuilderSelectItem(CreatureObject* player, SuiBox
 						if (curMeleeD < 0) {
 							player->addSkillMod(SkillModManager::SKILLBOX, "melee_defense", 90, true);
 						} else {
+							if (curMeleeD >= 110) {
+								player->addSkillMod(SkillModManager::SKILLBOX, "melee_defense", -90, true);
+							} else{
 							player->sendSystemMessage("Your melee defense has already been normalised.");
+							}
 						}
 						}
 					} else {
