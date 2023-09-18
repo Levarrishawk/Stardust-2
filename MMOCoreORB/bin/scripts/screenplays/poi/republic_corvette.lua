@@ -28,6 +28,7 @@ function republic_corvette:spawnSceneObjects()
  -- Star Destroyer Objects
  spawnSceneObject("dungeon2", "object/static/vehicle/static_lambda_shuttle.iff", 21.5, 173.8, 44.5, 480000038, math.rad(-90) )
  spawnSceneObject("dungeon2", "object/tangible/terminal/terminal_event_buffs.iff", -11.8, 175, -33.0, 480000035, math.rad(90) )
+ spawnSceneObject("dungeon2", "object/static/structure/military/military_wall_weak_imperial_16_style_01.iff", 9.6, 140.6, 484.1, 480000049, math.rad(90) )
  
  --spawnSceneObject("dungeon2", "object/soundobject/soundobject_isd_hangar.iff", -0.0, 173.8, 53.7, 480000038, math.rad(-90) )
  
