@@ -34,7 +34,7 @@ light_jedi_knight = Creature:new {
     	},
 	
 	lootGroups = {},
-	weapons = {"dark_jedi_weapons_gen3"},
+	weapons = {"light_jedi_weapons_gen4"},
 	conversationTemplate = "",
 	attacks = merge(lightsabermaster,forcepowermaster)
 }
