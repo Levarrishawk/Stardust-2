@@ -80,7 +80,7 @@ object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_anakin = 
 
 	defenderToughnessModifiers = { "lightsaber_toughness" },
 	
-	customizationVariables = {"/private/index_color_blade", 4},
+	customizationVariables = {"/private/index_color_blade", 4, true},
 	
 	noTrade = 1,
 	
