@@ -1,4 +1,6 @@
 light_jedi_weapons_gen4 = {	
+	"object/weapon/melee/2h_sword/crafted_saber/sword_lightsaber_two_handed_anakin.iff",
+	"object/weapon/melee/2h_sword/crafted_saber/sword_lightsaber_two_handed_anakin.iff",
 	"object/weapon/melee/2h_sword/crafted_saber/sword_lightsaber_two_handed_anakin.iff"
 }
 
