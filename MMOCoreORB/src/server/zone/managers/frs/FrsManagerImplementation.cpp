@@ -471,13 +471,13 @@ void FrsManagerImplementation::validatePlayerData(CreatureObject* player, bool v
 			player->setFaction(Factions::FACTIONREBEL);
 		else if (councilType == COUNCIL_DARK && player->getFaction() != Factions::FACTIONIMPERIAL)
 			player->setFaction(Factions::FACTIONIMPERIAL);
-
+/*
 		if (player->getZone()->getZoneName() != "elysium" && player->getFactionStatus() != FactionStatus::OVERT)
 			player->setFactionStatus(FactionStatus::OVERT);
 
 		if (player->getZone()->getZoneName() == "elysium" && player->getFactionStatus() != FactionStatus::ONLEAVE)
 			player->setFactionStatus(FactionStatus::ONLEAVE);
-
+*/
 		if (realPlayerRank >= 4 && !player->hasSkill("force_title_jedi_rank_04"))
 			player->addSkill("force_title_jedi_rank_04", true);
 		if (realPlayerRank >= 8 && !player->hasSkill("force_title_jedi_master"))
