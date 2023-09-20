@@ -429,6 +429,8 @@ int CombatManager::creoTargetCombatAction(CreatureObject* attacker, WeaponObject
 	}
 	case RICOCHET:
 		damageMultiplier = 0.0f;
+		defender->setForcePower(defender->getForcePower() - 50);
+		defender->inflictDamage(defender, CreatureAttribute::ACTION, 300, true, true, true);
 		break;
 	default:
 		break;
@@ -590,6 +592,8 @@ int CombatManager::tanoTargetCombatAction(TangibleObject* attacker, WeaponObject
 		break;
 	case RICOCHET:
 		damageMultiplier = 0.0f;
+		defenderObject->setForcePower(defenderObject->getForcePower() - 50);
+		defenderObject->inflictDamage(defenderObject, CreatureAttribute::ACTION, 300, true, true, true);
 		break;
 	default:
 		break;
@@ -1121,9 +1125,9 @@ float CombatManager::calculateDamage(CreatureObject* attacker, WeaponObject* wea
 	// PvP Damage Reduction.
 	if (attacker->isPlayerCreature() && defender->isPlayerCreature() && !data.isForceAttack()){
 		if (weapon->getDamageType() == SharedWeaponObjectTemplate::LIGHTSABER)
-			damage *= 0.45;
+			damage *= 0.40;
 		else
-			damage *= 0.45;
+			damage *= 0.55;
 		}
 	if (damage < 1)
 		damage = 1;
@@ -1975,7 +1979,7 @@ int CombatManager::getHitChance(TangibleObject* attacker, CreatureObject* target
 
 		// saber block is special because it's just a % chance to block based on the skillmod
 		if (def == "saber_block") {
-			if (!(attacker->isTurret() || weapon->isThrownWeapon()) && ((weapon->isHeavyWeapon() || weapon->isSpecialHeavyWeapon() || (weapon->getAttackType() == SharedWeaponObjectTemplate::RANGEDATTACK)) && ((System::random(100)) < (targetCreature->getSkillMod(def) * 0.75f) )))  // was targetCreature->getSkillMod(def) - taking into consideration the actual saber_block skillMod.  Now a flat 65% chance to block.
+			if (!(attacker->isTurret() || weapon->isThrownWeapon()) && ((weapon->isHeavyWeapon() || weapon->isSpecialHeavyWeapon() || (weapon->getAttackType() == SharedWeaponObjectTemplate::RANGEDATTACK)) && ((System::random(100)) < (targetCreature->getSkillMod(def) * 0.70f) )))  // was targetCreature->getSkillMod(def) - taking into consideration the actual saber_block skillMod.  Now a flat 65% chance to block.
 				return RICOCHET;
 			else
 				return HIT;
