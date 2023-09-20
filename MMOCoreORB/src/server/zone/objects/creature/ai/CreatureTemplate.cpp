@@ -57,7 +57,8 @@ CreatureTemplate::CreatureTemplate() {
 	diet = 0;
 	optionsBitmask = 0;
 	customAiMap = 0;
-
+	
+	lightsaberColor = 0;
 	primaryWeapon = "";
 	secondaryWeapon = "";
 	thrownWeapon = "",
@@ -124,6 +125,7 @@ void CreatureTemplate::readObject(LuaObject* templateData) {
 	optionsBitmask = templateData->getIntField("optionsBitmask");
 	patrolPathTemplate = templateData->getStringField("patrolPathTemplate");
 	defaultWeapon = templateData->getStringField("defaultWeapon");
+	lightsaberColor = templateData->getIntField("lightsaberColor");
 
 	if(!templateData->getStringField("defaultAttack").isEmpty())
 		defaultAttack = templateData->getStringField("defaultAttack");

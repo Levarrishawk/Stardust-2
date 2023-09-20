@@ -310,10 +310,10 @@ void SuiManager::handleCharacterBuilderSelectItem(CreatureObject* player, SuiBox
 						if (player->hasSkill("force_sensitive_enhanced_reflexes_ranged_defense_04")){
 							curRangedD = player->getSkillMod("ranged_defense");
 						if (curRangedD < 0) {
-							player->addSkillMod(SkillModManager::SKILLBOX, "ranged_defense", 90, true);
+							player->addSkillMod(SkillModManager::PERMANENTMOD, "ranged_defense", 90, true);
 						} else {
 							if (curRangedD >= 110){
-								player->addSkillMod(SkillModManager::SKILLBOX, "ranged_defense", -90, true);
+								player->addSkillMod(SkillModManager::PERMANENTMOD, "ranged_defense", -90, true);
 							} else {
 							player->sendSystemMessage("Your ranged defense has already been normalised.");
 							}
@@ -322,10 +322,10 @@ void SuiManager::handleCharacterBuilderSelectItem(CreatureObject* player, SuiBox
 						if (player->hasSkill("force_sensitive_enhanced_reflexes_melee_defense_04")){
 							curMeleeD = player->getSkillMod("melee_defense");
 						if (curMeleeD < 0) {
-							player->addSkillMod(SkillModManager::SKILLBOX, "melee_defense", 90, true);
+							player->addSkillMod(SkillModManager::PERMANENTMOD, "melee_defense", 90, true);
 						} else {
 							if (curMeleeD >= 110) {
-								player->addSkillMod(SkillModManager::SKILLBOX, "melee_defense", -90, true);
+								player->addSkillMod(SkillModManager::PERMANENTMOD, "melee_defense", -90, true);
 							} else{
 							player->sendSystemMessage("Your melee defense has already been normalised.");
 							}

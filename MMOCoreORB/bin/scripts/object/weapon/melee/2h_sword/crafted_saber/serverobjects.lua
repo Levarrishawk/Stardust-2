@@ -115,3 +115,7 @@ includeFile("weapon/melee/2h_sword/crafted_saber/sword_lightsaber_two_handed_s9_
 includeFile("weapon/melee/2h_sword/crafted_saber/sword_lightsaber_two_handed_s9_gen2.lua")
 includeFile("weapon/melee/2h_sword/crafted_saber/sword_lightsaber_two_handed_s9_gen3.lua")
 includeFile("weapon/melee/2h_sword/crafted_saber/sword_lightsaber_two_handed_s9_gen4.lua")
+
+-- LSJ NPCs
+includeFile("weapon/melee/2h_sword/crafted_saber/sword_lightsaber_two_handed_anakin.lua")
+

@@ -77,7 +77,7 @@ protected:
 	unsigned int pvpBitmask;
 	unsigned int creatureBitmask;
 	unsigned int diet;
-
+	int lightsaberColor;
 	Vector<int> hues;
 
 	Vector<String> templates;
@@ -362,6 +362,10 @@ public:
 
 	inline uint32 getDiet() const {
 		return diet;
+	}
+
+	inline int getLightsaberColor() const {
+		return lightsaberColor;
 	}
 
 	inline const Vector<String>& getTemplates() const {

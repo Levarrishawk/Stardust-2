@@ -4387,66 +4387,22 @@ object_weapon_melee_2h_sword_crafted_saber_shared_sword_lightsaber_two_handed_s9
 }
 
 ObjectTemplates:addClientTemplate(object_weapon_melee_2h_sword_crafted_saber_shared_sword_lightsaber_two_handed_s9_gen3, "object/weapon/melee/2h_sword/crafted_saber/shared_sword_lightsaber_two_handed_s9_gen3.iff")
+--
 
 object_weapon_melee_2h_sword_crafted_saber_shared_sword_lightsaber_two_handed_s9_gen4 = SharedWeaponObjectTemplate:new {
 	clientTemplateFileName = "object/weapon/melee/2h_sword/crafted_saber/shared_sword_lightsaber_two_handed_s9_gen4.iff"
-	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
---[[
-	appearanceFilename = "appearance/wp_mle_lightsaber_blade_obi.lsb",
-	arrangementDescriptorFilename = "abstract/slot/arrangement/wearables/hold_both.iff",
-	attackType = 1,
 
-	certificationsRequired = {},
-	clearFloraRadius = 0,
-	clientDataFile = "clientdata/weapon/client_melee_lightsaber_basic.cdf",
-	clientGameObjectType = 131080,
-	collisionActionBlockFlags = 0,
-	collisionActionFlags = 51,
-	collisionActionPassFlags = 1,
-	collisionMaterialBlockFlags = 0,
-	collisionMaterialFlags = 1,
-	collisionMaterialPassFlags = 0,
-	containerType = 1,
-	containerVolumeLimit = 0,
-	customizationVariableMapping = {},
-
-	detailedDescription = "@weapon_detail:sword_lightsaber_gen4_2h",
-
-	gameObjectType = 131080,
-
-	locationReservationRadius = 0,
-	lookAtText = "@weapon_lookat:sword_lightsaber_2h",
-
-	noBuildRadius = 0,
-
-	objectName = "@weapon_name:sword_lightsaber_2h_type9",
-	onlyVisibleInTools = 0,
-
-	paletteColorCustomizationVariables = {},
-	portalLayoutFilename = "",
-
-	rangedIntCustomizationVariables = {},
-
-	scale = 1,
-	scaleThresholdBeforeExtentTest = 0.5,
-	sendToClient = 1,
-	slotDescriptorFilename = "abstract/slot/descriptor/default_lightsaber.iff",
-	snapToTerrain = 1,
-	socketDestinations = {},
-	structureFootprintFileName = "",
-	surfaceType = 0,
-
-	targetable = 1,
-	totalCellNumber = 0,
-
-	useStructureFootprintOutline = 0,
-
-	weaponEffect = "bolt",
-	weaponEffectIndex = 0,
-
-	clientObjectCRC = 1008965739,
-	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/tangible/base/shared_tangible_base.iff", "object/tangible/base/shared_tangible_craftable.iff", "object/weapon/base/shared_base_weapon.iff", "object/weapon/melee/base/shared_base_melee.iff", "object/weapon/melee/2h_sword/base/shared_crafted_lightsaber_base.iff", "object/weapon/melee/2h_sword/crafted_saber/shared_sword_lightsaber_two_handed_gen4.iff"}
-]]
 }
 
 ObjectTemplates:addClientTemplate(object_weapon_melee_2h_sword_crafted_saber_shared_sword_lightsaber_two_handed_s9_gen4, "object/weapon/melee/2h_sword/crafted_saber/shared_sword_lightsaber_two_handed_s9_gen4.iff")
+--
+--
+
+object_weapon_melee_2h_sword_crafted_saber_shared_sword_lightsaber_two_handed_anakin = SharedWeaponObjectTemplate:new {
+  clientTemplateFileName = "object/weapon/melee/2h_sword/crafted_saber/shared_sword_lightsaber_two_handed_anakin.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_melee_2h_sword_crafted_saber_shared_sword_lightsaber_two_handed_anakin, "object/weapon/melee/2h_sword/crafted_saber/shared_sword_lightsaber_two_handed_anakin.iff")
+--
+
