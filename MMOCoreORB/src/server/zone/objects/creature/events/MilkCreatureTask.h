@@ -127,6 +127,10 @@ public:
 		} else {
 			quantityExtracted = int(quantityExtracted * 0.50f);
 		}
+		
+		if (player->hasSkill("outdoors_ranger_master")) {
+			quantityExtracted =  quantityExtracted * 1.50;
+		}
 
 		TransactionLog trx(TrxCode::HARVESTED, player, resourceSpawn);
 		resourceManager->harvestResourceToPlayer(trx, player, resourceSpawn, quantityExtracted);
