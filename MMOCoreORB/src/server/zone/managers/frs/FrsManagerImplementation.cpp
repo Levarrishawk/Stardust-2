@@ -1,6 +1,7 @@
 #include "server/zone/managers/frs/FrsManager.h"
 #include "server/zone/managers/skill/SkillManager.h"
 #include "server/zone/ZoneServer.h"
+#include "server/zone/Zone.h"
 #include "server/zone/managers/frs/RankMaintenanceTask.h"
 #include "server/zone/managers/frs/VoteStatusTask.h"
 #include "server/zone/managers/frs/FrsRankingData.h"
