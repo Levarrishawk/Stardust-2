@@ -1,5 +1,7 @@
 light_jedi_knight = Creature:new {
 	customName = "Light Jedi Knight",	
+	randomNameType = NAME_GENERIC,
+  randomNameTag = true,
 	socialGroup = "rebel",
 	faction = "rebel",
 	level = 300,
@@ -25,6 +27,7 @@ light_jedi_knight = Creature:new {
 	creatureBitmask = KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	lightsaberColor = 4,
 
 	templates = {
 		"object/mobile/dressed_jedi_trainer_old_human_male_01.iff",
@@ -36,7 +39,7 @@ light_jedi_knight = Creature:new {
 	lootGroups = {},
 	-- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)
   -- Unarmed should be put on secondary unless the mobile doesn't use weapons, in which case "unarmed" should be put primary and "none" as secondary
-  primaryWeapon = "light_jedi_weapons_gen4",
+  primaryWeapon = "light_jedi_weapons",
   secondaryWeapon = "unarmed",
   conversationTemplate = "",
 

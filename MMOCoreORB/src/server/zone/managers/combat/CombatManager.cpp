@@ -429,12 +429,25 @@ int CombatManager::creoTargetCombatAction(CreatureObject* attacker, WeaponObject
 	}
 	case RICOCHET:
 		damageMultiplier = 0.0f;
-		defender->setForcePower(defender->getForcePower() - 50);
 		defender->inflictDamage(defender, CreatureAttribute::ACTION, 300, true, true, true);
 		break;
 	default:
 		break;
 	}
+	/*
+	float force = weapon->getForceCost() * data.getForceCostMultiplier();
+
+		if (force > 0) { // Need Force check first otherwise it can be spammed.
+			ManagedReference<PlayerObject*> playerObject = attacker->getPlayerObject();
+			if (playerObject != nullptr) {
+				if (playerObject->getForcePower() <= force) {
+					attacker->sendSystemMessage("@jedi_spam:no_force_power");
+					return false;
+				} else {
+					playerObject->setForcePower(playerObject->getForcePower() - force);
+					VisibilityManager::instance()->increaseVisibility(attacker, data.getCommand()->getVisMod()); // Give visibility
+				}
+	*/
 
 	// If it's a state only attack (intimidate, warcry, wookiee roar) don't apply dots or break combat delays
 	if (!data.isStateOnlyAttack() && hitVal != MISS) {
@@ -592,7 +605,6 @@ int CombatManager::tanoTargetCombatAction(TangibleObject* attacker, WeaponObject
 		break;
 	case RICOCHET:
 		damageMultiplier = 0.0f;
-		defenderObject->setForcePower(defenderObject->getForcePower() - 50);
 		defenderObject->inflictDamage(defenderObject, CreatureAttribute::ACTION, 300, true, true, true);
 		break;
 	default:
@@ -1979,7 +1991,7 @@ int CombatManager::getHitChance(TangibleObject* attacker, CreatureObject* target
 
 		// saber block is special because it's just a % chance to block based on the skillmod
 		if (def == "saber_block") {
-			if (!(attacker->isTurret() || weapon->isThrownWeapon()) && ((weapon->isHeavyWeapon() || weapon->isSpecialHeavyWeapon() || (weapon->getAttackType() == SharedWeaponObjectTemplate::RANGEDATTACK)) && ((System::random(100)) < (targetCreature->getSkillMod(def) * 0.70f) )))  // was targetCreature->getSkillMod(def) - taking into consideration the actual saber_block skillMod.  Now a flat 65% chance to block.
+			if (!(attacker->isTurret() || weapon->isThrownWeapon()) && ((weapon->isHeavyWeapon() || weapon->isSpecialHeavyWeapon() || (weapon->getAttackType() == SharedWeaponObjectTemplate::RANGEDATTACK)) && ((System::random(100)) < (targetCreature->getSkillMod(def) * 0.70f) && targetCreature->getHAM(CreatureAttribute::ACTION) > 301)))  // was targetCreature->getSkillMod(def) - taking into consideration the actual saber_block skillMod.  Now a flat 65% chance to block.
 				return RICOCHET;
 			else
 				return HIT;
