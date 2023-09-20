@@ -428,17 +428,8 @@ int CombatManager::creoTargetCombatAction(CreatureObject* attacker, WeaponObject
 		break;
 	}
 	case RICOCHET:
-		ManagedReference<PlayerObject*> playerObject = defender->getPlayerObject();
-		float force = defender->getForcePower();
-		if (force > 50){
-			defender->setForcePower(defender->getForcePower() - 50);
-			defender->inflictDamage(defender, CreatureAttribute::ACTION, 300, true, true, true);
-			damageMultiplier = 0.0f;
-			break;
-		} else {
-			return false;
-			break;
-		}
+		damageMultiplier = 0.0f;
+		defender->inflictDamage(defender, CreatureAttribute::ACTION, 300, true, true, true);
 		break;
 	default:
 		break;
@@ -613,18 +604,9 @@ int CombatManager::tanoTargetCombatAction(TangibleObject* attacker, WeaponObject
 		damageMultiplier = 0.0f;
 		break;
 	case RICOCHET:
-		ManagedReference<PlayerObject*> playerObject = defender->getPlayerObject();
-				float force = defender->getForcePower();
-				if (force > 50){
-					defender->setForcePower(defender->getForcePower() - 50);
-					defender->inflictDamage(defender, CreatureAttribute::ACTION, 300, true, true, true);
-					damageMultiplier = 0.0f;
-					break;
-				} else {
-					return false;
-					break;
-				}
-				break;
+		damageMultiplier = 0.0f;
+		defenderObject->inflictDamage(defenderObject, CreatureAttribute::ACTION, 300, true, true, true);
+		break;
 	default:
 		break;
 	}
