@@ -428,13 +428,35 @@ int CombatManager::creoTargetCombatAction(CreatureObject* attacker, WeaponObject
 		break;
 	}
 	case RICOCHET:
-		damageMultiplier = 0.0f;
-		defender->setForcePower(defender->getForcePower() - 50);
-		defender->inflictDamage(defender, CreatureAttribute::ACTION, 300, true, true, true);
+		ManagedReference<PlayerObject*> playerObject = defender->getPlayerObject();
+		float force = defender->getForcePower();
+		if (force > 50){
+			defender->setForcePower(defender->getForcePower() - 50);
+			defender->inflictDamage(defender, CreatureAttribute::ACTION, 300, true, true, true);
+			damageMultiplier = 0.0f;
+			break;
+		} else {
+			return false;
+			break;
+		}
 		break;
 	default:
 		break;
 	}
+	/*
+	float force = weapon->getForceCost() * data.getForceCostMultiplier();
+
+		if (force > 0) { // Need Force check first otherwise it can be spammed.
+			ManagedReference<PlayerObject*> playerObject = attacker->getPlayerObject();
+			if (playerObject != nullptr) {
+				if (playerObject->getForcePower() <= force) {
+					attacker->sendSystemMessage("@jedi_spam:no_force_power");
+					return false;
+				} else {
+					playerObject->setForcePower(playerObject->getForcePower() - force);
+					VisibilityManager::instance()->increaseVisibility(attacker, data.getCommand()->getVisMod()); // Give visibility
+				}
+	*/
 
 	// If it's a state only attack (intimidate, warcry, wookiee roar) don't apply dots or break combat delays
 	if (!data.isStateOnlyAttack() && hitVal != MISS) {
@@ -591,10 +613,18 @@ int CombatManager::tanoTargetCombatAction(TangibleObject* attacker, WeaponObject
 		damageMultiplier = 0.0f;
 		break;
 	case RICOCHET:
-		damageMultiplier = 0.0f;
-		defenderObject->setForcePower(defenderObject->getForcePower() - 50);
-		defenderObject->inflictDamage(defenderObject, CreatureAttribute::ACTION, 300, true, true, true);
-		break;
+		ManagedReference<PlayerObject*> playerObject = defender->getPlayerObject();
+				float force = defender->getForcePower();
+				if (force > 50){
+					defender->setForcePower(defender->getForcePower() - 50);
+					defender->inflictDamage(defender, CreatureAttribute::ACTION, 300, true, true, true);
+					damageMultiplier = 0.0f;
+					break;
+				} else {
+					return false;
+					break;
+				}
+				break;
 	default:
 		break;
 	}
