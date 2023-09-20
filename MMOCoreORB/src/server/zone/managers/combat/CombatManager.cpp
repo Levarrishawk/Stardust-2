@@ -429,7 +429,7 @@ int CombatManager::creoTargetCombatAction(CreatureObject* attacker, WeaponObject
 	}
 	case RICOCHET:
 		damageMultiplier = 0.0f;
-		defender->inflictDamage(defender, CreatureAttribute::ACTION, 300, true, true, true);
+		defender->inflictDamage(defender, CreatureAttribute::ACTION, 400, true, true, true);
 		break;
 	default:
 		break;
@@ -605,7 +605,7 @@ int CombatManager::tanoTargetCombatAction(TangibleObject* attacker, WeaponObject
 		break;
 	case RICOCHET:
 		damageMultiplier = 0.0f;
-		defenderObject->inflictDamage(defenderObject, CreatureAttribute::ACTION, 300, true, true, true);
+		defenderObject->inflictDamage(defenderObject, CreatureAttribute::ACTION, 400, true, true, true);
 		break;
 	default:
 		break;
