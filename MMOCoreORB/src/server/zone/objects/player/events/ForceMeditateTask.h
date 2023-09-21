@@ -35,9 +35,13 @@ public:
 			if (!player->isMeditating())
 				return;
 
+			//Add animation reschedule (Cycles lightning animation while sitting)
+			player->playEffect("clienteffect/pl_force_meditate_self.cef", "");
 
 			if (fmeditateTask != nullptr)
 				fmeditateTask->reschedule(5000);
+			else
+				fmeditateTask->schedule(5000);
 
 		} catch (Exception& e) {
 			player->error("unreported exception caught in ForceMeditateTask::activate");
