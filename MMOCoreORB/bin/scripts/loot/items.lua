@@ -1211,6 +1211,7 @@ includeFile("items/force_crystal_dilly_dillys_damnation.lua")
 includeFile("items/force_crystal_ahsokas_purity.lua")
 includeFile("items/force_crystal_black.lua")
 includeFile("items/force_crystal_orange.lua")
+includeFile("items/force_crystal_righteous_fury.lua")
 
 -- custom
 includeFile("items/npc/meatlump_vibro_unit.lua")

@@ -98,7 +98,7 @@ public:
 					int mod = skills->get("force_manipulation_dark");
 					alm->insertAttribute("force_manipulation_dark", "+" + String::valueOf(mod));
 				}
-/*
+
 				if (skills->contains("melee_defense")) {
 					int mod = skills->get("melee_defense");
 					alm->insertAttribute("melee_defense", "+" + String::valueOf(mod));
@@ -108,7 +108,7 @@ public:
 					int mod = skills->get("ranged_defense");
 					alm->insertAttribute("ranged_defense", "+" + String::valueOf(mod));
 				}
-	*/
+
 	}
 };
 
