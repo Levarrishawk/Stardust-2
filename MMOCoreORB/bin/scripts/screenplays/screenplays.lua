@@ -822,6 +822,7 @@ includeFile("events/elysiumTerminalMenuComponent_02.lua")
 includeFile("poi/elysium_teleportation_network.lua")
 includeFile("events/elysiumTerminalMenuComponent_03.lua")
 includeFile("heroics/obi_wan_elysium.lua")
+includeFile("poi/elysium_vision.lua")
 
 -- Exar Kun
 includeFile("dungeon/exar_kun/exarKun.lua")
@@ -859,3 +860,4 @@ includeFile("poi/republic_corvette.lua")
 includeFile("poi/isd_active_areas.lua")
 -- Village enhancements
 includeFile("heroics/aurilian_teleporter.lua")
+
