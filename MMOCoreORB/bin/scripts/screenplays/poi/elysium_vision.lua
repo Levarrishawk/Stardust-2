@@ -27,7 +27,7 @@ function ElysiumVisionScreenPlay:spawnSceneObjects()
   
   spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", 0.5, 30, -177, 590000067, math.rad(0) )
   spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", 0.5, 30, -65, 590000052, math.rad(0) )
-  spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_holcron_dode.iff", 0, 15, 10, 590000047, math.rad(0) )
+  spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_holocron_dode.iff", 0, 15, 10, 590000047, math.rad(0) )
   spawnSceneObject("elysium", "object/static/particle/pt_light_constant_blue.iff", 0, 17, 10, 590000047, math.rad(0) )
   spawnSceneObject("elysium", "object/tangible/furniture/modern/flr_elysium.iff", 0, 12, 10, 590000047, math.rad(0) )
   spawnSceneObject("elysium", "object/static/particle/pt_flocking_glowzees.iff", 0, 12, 10, 590000047, math.rad(0) )
