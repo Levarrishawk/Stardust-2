@@ -38,6 +38,30 @@ function ElysiumVisionScreenPlay:spawnSceneObjects()
   spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", -16.8 , 25, 1.6, 590000047, math.rad(8) )
   spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", 16.8 , 25, 1.6, 590000047, math.rad(-8) )
   
+  spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", -25.1 , 25, 4.8, 590000047, math.rad(28) )
+  spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", 25.1 , 25, 4.8, 590000047, math.rad(-28) )
+  spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", -31.8 , 25, 10.3, 590000047, math.rad(44) )
+  spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", 31.8 , 25, 10.3, 590000047, math.rad(-44) )
+  spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", -36.8 , 25, 17.2, 590000047, math.rad(61) )
+  spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", 36.8 , 25, 17.2, 590000047, math.rad(-61) )
+  spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", -39.9 , 25, 25.4, 590000047, math.rad(78) )
+  spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", 39.9 , 25, 25.4, 590000047, math.rad(-78) )
+  
+  spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03.iff", -42.1 , 19, 29.7, 590000047, math.rad(0) )
+  spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03.iff", -40.4 , 19, 20.6, 590000047, math.rad(0) )
+  spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03.iff", -36.1 , 19, 12.5, 590000047, math.rad(0) )
+  spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03.iff", -29.6 , 19, 5.9, 590000047, math.rad(0) )
+  spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03.iff", -21.4 , 19, 1.4, 590000047, math.rad(0) )
+  spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03.iff", -12.6 , 19, -0.8, 590000047, math.rad(0) )
+  
+  spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03.iff", 42.1 , 19, 29.7, 590000047, math.rad(0) )
+  spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03.iff", 40.4 , 19, 20.6, 590000047, math.rad(0) )
+  spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03.iff", 36.1 , 19, 12.5, 590000047, math.rad(0) )
+  spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03.iff", 29.6 , 19, 5.9, 590000047, math.rad(0) )
+  spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03.iff", 21.4 , 19, 1.4, 590000047, math.rad(0) )
+  spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03.iff", 12.6 , 19, -0.8, 590000047, math.rad(0) )
+  
+  
   spawnSceneObject("elysium", "object/tangible/quest/col_jedi_robi_light_jedi_controller.iff", -4.5, 21, -15.3, 590000047, math.rad(0) )
   spawnSceneObject("elysium", "object/tangible/quest/col_jedi_robi_light_jedi_controller.iff", 4.5, 21, -15.3, 590000047, math.rad(0) )
   
