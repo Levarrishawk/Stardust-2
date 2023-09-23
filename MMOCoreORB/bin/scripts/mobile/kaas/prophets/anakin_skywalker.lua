@@ -26,7 +26,7 @@ anakin_skywalker = Creature:new {
   creatureBitmask = PACK + KILLER,
   diet = HERBIVORE,
   optionsBitmask = AIENABLED,
-  size = 1.1,
+  size = 1.2,
   lightsaberColor = 4,
   
   templates = {
@@ -49,7 +49,7 @@ anakin_skywalker = Creature:new {
     }
   },
   primaryWeapon = "light_jedi_weapons_gen4",
-  secondaryWeapon = "light_jedi_weapons_gen4",
+  secondaryWeapon = "unarmed",
   conversationTemplate = "",
 
   -- primaryAttacks and secondaryAttacks should be separate skill groups specific to the weapon type listed in primaryWeapon and secondaryWeapon
