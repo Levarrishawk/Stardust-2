@@ -26,7 +26,7 @@ clone_trooper_501st = Creature:new {
   creatureBitmask = PACK + KILLER,
   diet = HERBIVORE,
   optionsBitmask = AIENABLED,
-  size = 1.05,
+  scale = 1.05,
   lightsaberColor = 4,
   
   templates = {

@@ -26,7 +26,7 @@ anakin_skywalker = Creature:new {
   creatureBitmask = PACK + KILLER,
   diet = HERBIVORE,
   optionsBitmask = AIENABLED,
-  size = 1.2,
+  scale = 1.2,
   lightsaberColor = 4,
   
   templates = {
