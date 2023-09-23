@@ -129,5 +129,7 @@ includeFile("weapon/groups/st_sniper_weapons.lua")
 includeFile("weapon/groups/stormtrooper_weapons.lua")
 includeFile("weapon/groups/tusken_weapons.lua")
 
+includeFile("weapon/groups/clonetrooper_rifle.lua")
+
 -- tutorial
 includeFile("weapon/groups/tutorial_bandit.lua")
