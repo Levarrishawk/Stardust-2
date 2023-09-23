@@ -60,16 +60,22 @@ function ElysiumVisionScreenPlay:spawnSceneObjects()
   spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03_lit.iff", 32.0 , 19, 1.5, 590000047, math.rad(0) )
   spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03_lit.iff", 22.4 , 19, -3.5, 590000047, math.rad(0) )
   spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03_lit.iff", 12.6 , 19, -5.8, 590000047, math.rad(0) )
-  
-  
+   
   spawnSceneObject("elysium", "object/tangible/quest/col_jedi_robi_light_jedi_controller.iff", -4.5, 21, -15.3, 590000047, math.rad(0) )
   spawnSceneObject("elysium", "object/tangible/quest/col_jedi_robi_light_jedi_controller.iff", 4.5, 21, -15.3, 590000047, math.rad(0) )
   
   spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", -0.14 , 25, -45.7, 590000048, math.rad(0) )
-  
+  spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", -0.14 , 26, -45.7, 590000048, math.rad(0) )
+  spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", -0.14 , 24.5, -45.7, 590000048, math.rad(0) )  
   spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", 14 , 22, -38, 590000048, math.rad(0) )
-  spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", 14 , 20.5, -38, 590000048, math.rad(0) )
+  spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", 14 , 20.5, -38, 590000048, math.rad(0) )  
+  spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", -12.5 , 22, -27.9, 590000048, math.rad(0) )
+  spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", -12.5 , 20.5, -27.9, 590000048, math.rad(0) ) 
+  spawnSceneObject("elysium", "object/tangible/furniture/city/statue_sentinel_02.iff", 7.9, 21, -43.2, 590000048, math.rad(-35) )
+  spawnSceneObject("elysium", "object/tangible/furniture/city/statue_sentinel_02.iff", -7.9, 21, -43.2, 590000048, math.rad(35) )
   
+  spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", 32.3 , 24, -25.9, 590000049, math.rad(0) )
+  spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", 32.3 , 22.5, -25.9, 590000049, math.rad(0) )
   
 end
 
