@@ -67,8 +67,8 @@ function ElysiumVisionScreenPlay:spawnSceneObjects()
   
   spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", -0.14 , 25, -45.7, 590000048, math.rad(0) )
   
-  spawnSceneObject("elysium", "object/static/particle/pt_lok_volcano_smoke.iff", 15.4 , 22, -39.1, 590000048, math.rad(0) )
-  spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", 15.4 , 21, -39.1, 590000048, math.rad(0) )
+  spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", 14 , 22, -38, 590000048, math.rad(0) )
+  spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", 14 , 20.5, -38, 590000048, math.rad(0) )
   
   
 end
