@@ -1,5 +1,5 @@
 light_jedi_knight = Creature:new {
-	customName = "Light Jedi Knight",	
+	customName = "a Jedi Knight",	
 	randomNameType = NAME_GENERIC,
   randomNameTag = true,
 	socialGroup = "rebel",
@@ -40,7 +40,7 @@ light_jedi_knight = Creature:new {
 	-- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)
   -- Unarmed should be put on secondary unless the mobile doesn't use weapons, in which case "unarmed" should be put primary and "none" as secondary
   primaryWeapon = "light_jedi_weapons",
-  secondaryWeapon = "unarmed",
+  secondaryWeapon = "light_jedi_weapons_gen4",
   conversationTemplate = "",
 
   -- primaryAttacks and secondaryAttacks should be separate skill groups specific to the weapon type listed in primaryWeapon and secondaryWeapon
