@@ -84,6 +84,8 @@ function HannaCityScreenPlay:spawnSceneObjects()
   
   spawnSceneObject("chandrila", "object/building/corellia/garage_corellia.iff", 220, 6, -2758, 0, math.rad(0) ) 
   
+  spawnSceneObject("chandrila", "object/static/structure/corellia/corl_imprv_wall_4x16_s02.iff", 336, 6, -2760, 0, math.rad(0) )
+  spawnSceneObject("chandrila", "object/static/structure/corellia/corl_imprv_wall_4x16_s02.iff", 336, 6, -2737, 0, math.rad(0) )
   
 	--Hotel
 --	spawnSceneObject("corellia", "object/static/structure/general/droid_r4_powerdown.iff", 6.0, 1.0, 20.2, 2365805, math.rad(143) )
