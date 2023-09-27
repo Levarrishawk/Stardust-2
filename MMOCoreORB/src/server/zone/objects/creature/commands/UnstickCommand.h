@@ -5,6 +5,8 @@
 #ifndef UNSTICKCOMMAND_H_
 #define UNSTICKCOMMAND_H_
 
+#include "server/zone/objects/scene/SceneObject.h"
+
 class UnstickCommand : public QueueCommand {
 public:
 
@@ -21,19 +23,28 @@ public:
 		if (!checkInvalidLocomotions(creature))
 			return INVALIDLOCOMOTION;
 
-		if (creature != nullptr)
-			creature->error("used /unstick " + arguments.toString());
+		CreatureObject* player = cast<CreatureObject*>(creature);
+		Zone* zone = player->getZone();
 
-		/*
-string/en/cmd_err.stf	7	unstick_in_progress	Unstick in progress
-string/en/cmd_err.stf	8	unstick_request_complete	Unstick complete
-string/en/cmd_err.stf	9	unstick_request_cancelled	Unstick request was cancelled
-		 */
+		if(zone == NULL){
+			return GENERALERROR;
+		}
 
-		return SUCCESS;
+		if (!player->checkCooldownRecovery("used_unstick")) {
+			player->sendSystemMessage("You need to wait before using that command again.");
+			return 0;
+		}
+
+		player->initializePosition(player->getPositionX() + 10, player->getPositionZ() + 10, player->getPositionY() + 10);
+
+		zone->transferObject(player, 1, true);
+
+		player->setPosture(CreaturePosture::UPRIGHT);
+		player->addCooldown("used_unstick", 600000);
+		player->sendSystemMessage("You have been teleported to a safe spot. Do not move while the server recalibrates your position.");
+
+	return SUCCESS;
 	}
-
 };
 
 #endif //UNSTICKCOMMAND_H_
-
