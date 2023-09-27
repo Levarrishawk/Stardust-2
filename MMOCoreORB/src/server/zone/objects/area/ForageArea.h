@@ -56,7 +56,7 @@ public:
     	 	return 1;
 
     	 //Check if player is allowed to forage here again.
-    	 if (uses < 3)
+    	 if (uses < 5)
     	 	return 2;
     	 else
     	 	return 3;
