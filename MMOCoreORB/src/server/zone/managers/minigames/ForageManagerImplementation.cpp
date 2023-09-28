@@ -406,7 +406,7 @@ bool ForageManagerImplementation::forageGiveResource(TransactionLog& trx, Creatu
 	if (player->hasSkill("outdoors_ranger_master")) {
 			quantity =  quantity * 1.50;
 		}
-	player->sendSystemMessage("You have successfully gathered " + String::valueOf(quantity) + " eggs.");
+	player->sendSystemMessage("You have successfully gathered " + String::valueOf(quantity) + " units.");
 	resourceManager->harvestResourceToPlayer(trx, player, resource, quantity);
 	return true;
 }
