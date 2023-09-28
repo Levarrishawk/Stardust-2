@@ -13,7 +13,7 @@ requestDemotionDuration = 604800000 -- 7 days
 voteChallengeDuration = 604800000 -- 7 days
 
 arenaOpenInterval = 5400000 -- 90 mins
-arenaClosedInterval = 108000000 -- 30 hours
+arenaClosedInterval = 5400000 --  108000000 -- 30 hours
 arenaChallengeDuration = 3600000 -- 60 mins
 arenaChallengeCooldown = 90000000 -- 25 hours
 
