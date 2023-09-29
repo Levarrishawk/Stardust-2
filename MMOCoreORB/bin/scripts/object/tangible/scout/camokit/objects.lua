@@ -630,3 +630,41 @@ object_tangible_scout_camokit_shared_camokit_yavin = SharedTangibleObjectTemplat
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_scout_camokit_shared_camokit_yavin, "object/tangible/scout/camokit/shared_camokit_yavin.iff")
+
+--[[
+object_tangible_scout_camokit_shared_camokit_chandrila = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/scout/camokit/shared_camokit_chandrila.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_scout_camokit_shared_camokit_chandrila, "object/tangible/scout/camokit/shared_camokit_chandrila.iff")
+
+object_tangible_scout_camokit_shared_camokit_coruscant = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/scout/camokit/shared_camokit_coruscant.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_scout_camokit_shared_camokit_coruscant, "object/tangible/scout/camokit/shared_camokit_coruscant.iff")
+
+object_tangible_scout_camokit_shared_camokit_hutta = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/scout/camokit/shared_camokit_hutta.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_scout_camokit_shared_camokit_hutta, "object/tangible/scout/camokit/shared_camokit_hutta.iff")
+
+object_tangible_scout_camokit_shared_camokit_kaas = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/scout/camokit/shared_camokit_kaas.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_scout_camokit_shared_camokit_kaas, "object/tangible/scout/camokit/shared_camokit_kaas.iff")
+
+object_tangible_scout_camokit_shared_camokit_lothal = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/scout/camokit/shared_camokit_lothal.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_scout_camokit_shared_camokit_lothal, "object/tangible/scout/camokit/shared_camokit_lothal.iff")
+
+object_tangible_scout_camokit_shared_camokit_moraband = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/scout/camokit/shared_camokit_moraband.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_scout_camokit_shared_camokit_moraband, "object/tangible/scout/camokit/shared_camokit_moraband.iff")
+]]--

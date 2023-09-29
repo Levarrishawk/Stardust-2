@@ -1262,6 +1262,15 @@ schematics = {
 	{path="object/draft_schematic/scout/item_camokit_lok.iff"},
 	{path="object/draft_schematic/scout/item_camokit_endor.iff"},
 	{path="object/draft_schematic/scout/item_camokit_dathomir.iff"},
+	--New Additions
+	--[[
+	{path="object/draft_schematic/scout/item_camokit_chandrila.iff"},
+	{path="object/draft_schematic/scout/item_camokit_coruscant.iff"},
+	{path="object/draft_schematic/scout/item_camokit_lothal.iff"},
+	{path="object/draft_schematic/scout/item_camokit_kaas.iff"},
+	{path="object/draft_schematic/scout/item_camokit_hutta.iff"},
+	{path="object/draft_schematic/scout/item_camokit_moraband.iff"},
+	]]--
 	{path="object/draft_schematic/bio_engineer/bio_component/bio_component_clothing_field_bleeding.iff"},
 	{path="object/draft_schematic/bio_engineer/bio_component/bio_component_food_light_flavor.iff"},
 	{path="object/draft_schematic/bio_engineer/utilities/pet_stimpack_a.iff"},

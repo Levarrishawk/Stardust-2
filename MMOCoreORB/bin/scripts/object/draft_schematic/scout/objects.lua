@@ -1363,3 +1363,42 @@ object_draft_schematic_scout_shared_item_trap_webber = SharedDraftSchematicObjec
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_scout_shared_item_trap_webber, "object/draft_schematic/scout/shared_item_trap_webber.iff")
+
+--[[
+object_draft_schematic_scout_shared_item_camokit_chandrila = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/scout/shared_item_camokit_chandrila.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_scout_shared_item_camokit_chandrila, "object/draft_schematic/scout/shared_item_camokit_chandrila.iff")
+
+object_draft_schematic_scout_shared_item_camokit_coruscant = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/scout/shared_item_camokit_coruscant.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_scout_shared_item_camokit_coruscant, "object/draft_schematic/scout/shared_item_camokit_coruscant.iff")
+
+object_draft_schematic_scout_shared_item_camokit_lothal = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/scout/shared_item_camokit_lothal.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_scout_shared_item_camokit_lothal, "object/draft_schematic/scout/shared_item_camokit_lothal.iff")
+
+object_draft_schematic_scout_shared_item_camokit_kaas = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/scout/shared_item_camokit_kaas.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_scout_shared_item_camokit_kaas, "object/draft_schematic/scout/shared_item_camokit_kaas.iff")
+
+object_draft_schematic_scout_shared_item_camokit_hutta = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/scout/shared_item_camokit_hutta.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_scout_shared_item_camokit_hutta, "object/draft_schematic/scout/shared_item_camokit_hutta.iff")
+
+object_draft_schematic_scout_shared_item_camokit_moraband = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/scout/shared_item_camokit_moraband.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_scout_shared_item_camokit_moraband, "object/draft_schematic/scout/shared_item_camokit_moraband.iff")
+]]--
+
