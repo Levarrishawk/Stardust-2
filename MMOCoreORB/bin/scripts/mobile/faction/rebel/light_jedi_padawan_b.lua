@@ -1,5 +1,5 @@
-light_jedi_knight = Creature:new {
-	customName = "a Jedi Knight",	
+light_jedi_padawan_b = Creature:new {
+	customName = "a Jedi Padawan",	
 	randomNameType = NAME_GENERIC,
   randomNameTag = true,
 	socialGroup = "rebel",
@@ -28,6 +28,7 @@ light_jedi_knight = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	lightsaberColor = 4,
+	scale = 0.8,
 
 	templates = {
 		"object/mobile/dressed_jedi_trainer_old_human_male_01.iff",
@@ -49,4 +50,4 @@ light_jedi_knight = Creature:new {
   secondaryAttacks = forcepowermaster
 }
 
-CreatureTemplates:addCreatureTemplate(light_jedi_knight, "light_jedi_knight")
+CreatureTemplates:addCreatureTemplate(light_jedi_padawan_b, "light_jedi_padawan_b")

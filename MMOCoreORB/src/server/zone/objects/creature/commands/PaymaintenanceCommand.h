@@ -16,6 +16,10 @@ public:
 	}
 
 	int doQueueCommand(CreatureObject* creature, const uint64& target, const UnicodeString& arguments) const {
+		
+	int cash = creature->getCashCredits();
+	int bank = creature->getBankCredits();
+	int availableCredits = cash + bank;
 
 		if (!checkStateMask(creature))
 			return INVALIDSTATE;
@@ -23,7 +27,7 @@ public:
 		if (!checkInvalidLocomotions(creature))
 			return INVALIDLOCOMOTION;
 
-		if (creature->getCashCredits() <= 0) {
+		if (availableCredits <= 0) {
 			creature->sendSystemMessage("@player_structure:no_money"); //You do not have any money to pay maintenance.
 			return GENERALERROR;
 		}

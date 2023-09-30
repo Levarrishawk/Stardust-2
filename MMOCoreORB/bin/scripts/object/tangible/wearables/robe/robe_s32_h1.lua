@@ -24,8 +24,8 @@ object_tangible_wearables_robe_robe_s32_h1 = object_tangible_wearables_robe_shar
             {"jedi_force_power_max", 300},
             {"jedi_force_power_regen", 20},
             {"forcelightning_accuracy", 15},
-          --  {"melee_defense", 90},
-           -- {"ranged_defense", 90},
+            {"melee_defense", 90},
+            {"ranged_defense", 90},
             {"lightsaber_toughness", 10}
         },
 

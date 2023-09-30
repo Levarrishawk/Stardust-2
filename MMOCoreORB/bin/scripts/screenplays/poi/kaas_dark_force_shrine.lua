@@ -17,7 +17,7 @@ function KaasDarkForceShrineScreenPlay:spawnSceneObjects()
 
   spawnSceneObject("kaas", "object/tangible/jedi/force_shrine_stone.iff", -1123.3, 129, -4771.3, 0, math.rad(0) )
   spawnSceneObject("chandrila", "object/tangible/jedi/force_shrine_stone.iff", 4364, 97, -4298, 0, math.rad(0) )
-
+  spawnSceneObject("elysium", "object/tangible/jedi/force_shrine_stone.iff", 2606, 0, 2339, 0, math.rad(0) )
 
 end
 

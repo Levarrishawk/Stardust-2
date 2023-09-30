@@ -1,16 +1,16 @@
-light_jedi_knight = Creature:new {
-	customName = "a Jedi Knight",	
+light_jedi_youngling = Creature:new {
+	customName = "a Jedi Youngling",	
 	randomNameType = NAME_GENERIC,
   randomNameTag = true,
 	socialGroup = "rebel",
 	faction = "rebel",
-	level = 300,
+	level = 30,
 	chanceHit = 23.5,
-	damageMin = 1845,
-	damageMax = 2800,
+	damageMin = 185,
+	damageMax = 280,
 	baseXp = 25266,
-	baseHAM = 261000,
-	baseHAMmax = 320000,
+	baseHAM = 1000,
+	baseHAMmax = 20000,
 	armor = 1,
 	-- {kinetic, energy, electric, stun, blast, heat, cold, acid, ls}
 	resists = {75,75,75,75,75,75,75,75,-1},
@@ -28,6 +28,7 @@ light_jedi_knight = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	lightsaberColor = 4,
+	scale = 0.5,
 
 	templates = {
 		"object/mobile/dressed_jedi_trainer_old_human_male_01.iff",
@@ -49,4 +50,4 @@ light_jedi_knight = Creature:new {
   secondaryAttacks = forcepowermaster
 }
 
-CreatureTemplates:addCreatureTemplate(light_jedi_knight, "light_jedi_knight")
+CreatureTemplates:addCreatureTemplate(light_jedi_youngling, "light_jedi_youngling")

@@ -41,43 +41,8 @@
 --this exception also makes it possible to release a modified version 
 
 
-object_tangible_wearables_robe_robe_jedi_light_s03 = object_tangible_wearables_robe_shared_robe_jedi_light_s03:new {
-	playerRaces = { "object/creature/player/bothan_male.iff",
-				"object/creature/player/bothan_female.iff",
-				"object/creature/player/human_male.iff",
-				"object/creature/player/human_female.iff",
-				"object/creature/player/ithorian_male.iff",
-				"object/creature/player/ithorian_female.iff",
-				"object/creature/player/moncal_male.iff",
-				"object/creature/player/moncal_female.iff",
-				"object/creature/player/rodian_male.iff",
-				"object/creature/player/rodian_female.iff",
-				"object/creature/player/sullustan_male.iff",
-				"object/creature/player/sullustan_female.iff",
-				"object/creature/player/trandoshan_male.iff",
-				"object/creature/player/trandoshan_female.iff",
-				"object/creature/player/twilek_male.iff",
-				"object/creature/player/twilek_female.iff",
-				"object/creature/player/wookiee_male.iff",
-				"object/creature/player/wookiee_female.iff",
-				"object/creature/player/zabrak_male.iff",
-				"object/creature/player/zabrak_female.iff" },
-				
-				skillMods = {
-				    {"jedi_force_power_max", 325},
-            {"jedi_force_power_regen", 25},
-            {"melee_defense", 90},
-            {"ranged_defense", 90},
-            {"force_power_light", 10},
-            {"force_control_light", 10},
-            {"force_manipulation_light", 10}
-				},
+object_building_coruscant_jedi_temple = object_building_coruscant_shared_jedi_temple:new {
 
-				noTrade = 1,
-
-				objectMenuComponent = "RobeObjectMenuComponent",
-				certificationsRequired = {"force_rank_light_rank_05"},
-				attributeListComponent = "JediRobeAttributeListComponent",
 }
 
-ObjectTemplates:addTemplate(object_tangible_wearables_robe_robe_jedi_light_s03, "object/tangible/wearables/robe/robe_jedi_light_s03.iff")
+ObjectTemplates:addTemplate(object_building_coruscant_jedi_temple, "object/building/coruscant/jedi_temple.iff")

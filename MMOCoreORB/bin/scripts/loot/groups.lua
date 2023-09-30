@@ -399,7 +399,7 @@ includeFile("groups/crystal_orange.lua")
 includeFile("groups/crystal_henriettes_might.lua")
 includeFile("groups/crystal_wickeds_burn.lua")
 includeFile("groups/crystal_dilly_dillys_damnation.lua")
-
+includeFile("groups/crystal_righteous_fury.lua")
 -- smuggler sub-folder
 -- includeFile("groups/smuggler/smug_armor.lua")
 -- includeFile("groups/smuggler/smug_medical.lua")
