@@ -47,18 +47,18 @@ object_tangible_food_crafted_dish_exo_protein_wafers = object_tangible_food_craf
 
 	useCount = 5,
 	duration = 15,
-	filling = 8,
+	filling = 5,
 	nutrition = 20,
 
 	effectType = 3, -- Event Based Buff
 	eventTypes = {DAMAGERECEIVED},
 
 	fillingMin = 5,
-	fillingMax = 4,
-	flavorMin = 10,
-	flavorMax = 25,
-	nutritionMin = 10,
-	nutritionMax = 18,
+	fillingMax = 5,
+	flavorMin = 40,
+	flavorMax = 65,
+	nutritionMin = 5,
+	nutritionMax = 9,
 	quantityMin = 6,
 	quantityMax = 10,
 
