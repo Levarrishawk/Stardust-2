@@ -46,18 +46,18 @@ object_tangible_food_crafted_dish_synthsteak = object_tangible_food_crafted_shar
 
 	useCount = 5,
 	duration = 25,
-	filling = 34,
+	filling = 25,
 	nutrition = 35,
 
 	effectType = 3, -- Event Based Buff
 	eventTypes = {DAMAGERECEIVED},
 
-	fillingMin = 29,
+	fillingMin = 30,
 	fillingMax = 20,
-	flavorMin = 22,
-	flavorMax = 50,
-	nutritionMin = 17,
-	nutritionMax = 31,
+	flavorMin = 35,
+	flavorMax = 80,
+	nutritionMin = 13,
+	nutritionMax = 22,
 	quantityMin = 4,
 	quantityMax = 7,-- 8 on http://swgemu.wikia.com/wiki/Category:Chef
 

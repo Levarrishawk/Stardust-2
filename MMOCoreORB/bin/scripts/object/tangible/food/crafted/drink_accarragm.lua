@@ -50,16 +50,16 @@ object_tangible_food_crafted_drink_accarragm = object_tangible_food_crafted_shar
 
 	effectType = 1,
 
-	fillingMin = 55,
-	fillingMax = 33,
+	fillingMin = 50,
+	fillingMax = 42,
 	flavorMin = 1800,
-	flavorMax = 3600,
+	flavorMax = 2000,
 	nutritionMin = 150,
-	nutritionMax = 240,
+	nutritionMax = 400,
 	quantityMin = 6,
 	quantityMax = 10,
 
-	modifiers = {"action", 0, "quickness", 0, "stamina", 0 },
+	modifiers = {"action", 0 },
 
 	buffName = "food.drink_accarragm",
 	buffCRC = 0xE61D3848,
