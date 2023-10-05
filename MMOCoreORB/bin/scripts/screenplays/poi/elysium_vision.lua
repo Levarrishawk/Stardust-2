@@ -108,7 +108,9 @@ function ElysiumVisionScreenPlay:spawnSceneObjects()
   spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_table_light_01.iff", -41.6 , 33, -93.7, 590000061, math.rad(0) ) 
   spawnSceneObject("elysium", "object/tangible/item/lytus_family_artefact.iff", -41.6 , 33, -93.7, 590000061, math.rad(0) ) 
   
-  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -34.3 , 33, -99.2, 590000061, math.rad(145) ) 
+  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -34.3 , 33, -99.2, 590000061, math.rad(124) ) 
+  spawnSceneObject("elysium", "object/tangible/item/lytus_family_artefact.iff", -34.3 , 33, -99.2, 590000061, math.rad(0) )  
+  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -34.3 , 36.5, -99.2, 590000061, math.rad(124) ) 
   
  
 end
