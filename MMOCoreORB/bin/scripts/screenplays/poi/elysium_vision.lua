@@ -72,7 +72,36 @@ function ElysiumVisionScreenPlay:spawnSceneObjects()
   spawnSceneObject("elysium", "object/tangible/furniture/city/statue_sentinel_02.iff", -7.9, 21, -43.2, 590000048, math.rad(35) ) 
   spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", 32.3 , 24, -25.9, 590000049, math.rad(0) )
   spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", 32.3 , 22.5, -25.9, 590000049, math.rad(0) )
+  spawnSceneObject("elysium", "object/static/structure/corellia/corl_fountain_circle_s01.iff", 0.0 , 21.0, -32.4, 590000048, math.rad(0) )
+  spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03_lit.iff", 5.6 , 21.0, -21.2, 590000048, math.rad(0) )
+  spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03_lit.iff", -5.6 , 21.0, -21.2, 590000048, math.rad(0) )
   
+  spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", -35.7 , 28, -29.7, 590000050, math.rad(0) )
+  spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", -35.7 , 26.5, -29.7, 590000050, math.rad(0) ) 
+  
+  spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", -29.5 , 28, -65, 590000051, math.rad(0) )
+  spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", -29.5 , 26.5, -65, 590000051, math.rad(0) ) 
+  
+  spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", -16.5 , 28, -72.2, 590000051, math.rad(0) )
+  spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", -16.5 , 26.5, -72.2, 590000051, math.rad(0) ) 
+  spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", -32.1 , 29, -72.8, 590000051, math.rad(0) )
+ 
+  spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", 3.2 , 28, -73, 590000052, math.rad(0) )
+  spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", 3.2 , 26.5, -73, 590000052, math.rad(0) ) 
+  
+  spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_light_chair_s02.iff", 48.3 , 33, -93.9, 590000055, math.rad(-90) ) 
+  spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_light_chair_s02.iff", 47.2 , 33, -90.4, 590000055, math.rad(-130) ) 
+  spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_light_chair_s02.iff", 47.2 , 33, -97.1, 590000055, math.rad(-55) ) 
+  spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_light_chair_s02.iff", 44.4 , 33, -99.2, 590000055, math.rad(-22) ) 
+  spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_light_chair_s02.iff", 44.4 , 33, -88.6, 590000055, math.rad(-162) ) 
+  
+  spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_table_light_01.iff", 42.6 , 33, -93.7, 590000055, math.rad(0) ) 
+  
+  spawnSceneObject("elysium", "object/tangible/quest/col_jedi_robi_light_jedi_controller.iff", 54.4, 33, -94, 590000055, math.rad(-90) ) 
+  spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", 53 , 35, -97, 590000055, math.rad(0) )
+  spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", 53 , 32.5, -97, 590000055, math.rad(0) ) 
+  
+ 
 end
 
 function ElysiumVisionScreenPlay:spawnMobiles()

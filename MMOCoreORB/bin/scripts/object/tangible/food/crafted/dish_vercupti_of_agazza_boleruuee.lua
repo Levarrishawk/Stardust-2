@@ -50,12 +50,12 @@ object_tangible_food_crafted_dish_vercupti_of_agazza_boleruuee = object_tangible
 
 	effectType = 1,
 
-	fillingMin = 72,
-	fillingMax = 48,
-	flavorMin = 360,
-	flavorMax = 720,
+	fillingMin = 60,
+	fillingMax = 35,
+	flavorMin = 300,
+	flavorMax = 650,
 	nutritionMin = 370,
-	nutritionMax = 600,
+	nutritionMax = 800,
 	quantityMin = 1,
 	quantityMax = 3,
 	-- speciesRestriction = "pets",

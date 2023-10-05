@@ -51,12 +51,12 @@ object_tangible_food_crafted_drink_flameout = object_tangible_food_crafted_share
 	effectType = 3, -- Event Based Buff
 	eventTypes = {DAMAGERECEIVED},
 
-	fillingMin = 72,
-	fillingMax = 43,
-	flavorMin = 3,
-	flavorMax = 6,
-	nutritionMin = 70,
-	nutritionMax = 100,
+	fillingMin = 30,
+	fillingMax = 20,
+	flavorMin = 35,
+	flavorMax = 80,
+	nutritionMin = 13,
+	nutritionMax = 22,
 	quantityMin = 2,
 	quantityMax = 5,-- 2 on http://swgemu.wikia.com/wiki/Category:Chef
 
