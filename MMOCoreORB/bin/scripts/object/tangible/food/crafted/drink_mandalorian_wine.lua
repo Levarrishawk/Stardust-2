@@ -50,18 +50,16 @@ object_tangible_food_crafted_drink_mandalorian_wine = object_tangible_food_craft
 
 	effectType = 1,
 	
-	fillingMin = 71,
-	fillingMax = 47,
-	
+	fillingMin = 50,
+	fillingMax = 38,
 	flavorMin = 360,
 	flavorMax = 720,
-	
 	nutritionMin = 370,
-	nutritionMax = 600,
+	nutritionMax = 400,
 	quantityMin = 1,
 	quantityMax = 6,
 
-	modifiers = { "constitution", 0, "stamina", 0, "willpower", 0 },
+	modifiers = { "health", 0, "action", 0 },
 
 	buffName = "food.drink_mandalorian_wine",
 	buffCRC = 0,

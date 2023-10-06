@@ -51,12 +51,12 @@ object_tangible_food_crafted_dessert_pikatta_pie = object_tangible_food_crafted_
 
 	effectType = 2,
 
-	fillingMin = 29,
-	fillingMax = 19,
-	flavorMin = 960,
-	flavorMax = 1920,
+	fillingMin = 58,
+	fillingMax = 40,
+	flavorMin = 1200,
+	flavorMax = 1800,
 	nutritionMin = 16,
-	nutritionMax = 30,
+	nutritionMax = 22,
 	quantityMin = 5,
 	quantityMax = 7,
 

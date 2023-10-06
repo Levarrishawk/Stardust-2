@@ -50,10 +50,10 @@ object_tangible_food_crafted_dessert_deneelian_fizz_pudding = object_tangible_fo
 
 	effectType = 2,
 
-	fillingMin = 75,
-	fillingMax = 50,
-	flavorMin = 60,
-	flavorMax = 120,
+	fillingMin = 40,
+	fillingMax = 20,
+	flavorMin = 230,
+	flavorMax = 580,
 	nutritionMin = 30,
 	nutritionMax = 45,
 	quantityMin = 1,
