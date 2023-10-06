@@ -15,6 +15,7 @@
 #include "server/zone/managers/collision/CollisionManager.h"
 #include "CombatQueueCommand.h"
 #include "server/zone/managers/visibility/VisibilityManager.h"
+#include "server/zone/packets/player/PlayMusicMessage.h"
 
 class ForcePowersQueueCommand : public CombatQueueCommand {
 public:
@@ -50,8 +51,15 @@ public:
 
 		if (ghost != nullptr && ghost->getForcePower() < getFrsModifiedForceCost(creature)) {
 			creature->sendSystemMessage("@jedi_spam:no_force_power"); //"You do not have enough Force Power to peform that action.
+			creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
 			return GENERALERROR;
 		}
+
+		if (ghost != nullptr && ghost->getHAM(CreatureAttribute::ACTION) < forceCost) {
+					creature->sendSystemMessage("Not enough Action");
+					creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
+					return GENERALERROR;
+				}
 
 		CombatManager* combatManager = CombatManager::instance();
 
