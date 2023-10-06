@@ -31,10 +31,10 @@ light_jedi_padawan_b = Creature:new {
 	scale = 0.8,
 
 	templates = {
-		"object/mobile/dressed_jedi_trainer_old_human_male_01.iff",
-		"object/mobile/dressed_jedi_trainer_chiss_male_01.iff",
-		"object/mobile/dressed_jedi_trainer_nikto_male_01.iff",
-		"object/mobile/dressed_jedi_trainer_twilek_female_01.iff",
+		"object/mobile/dressed_dark_jedi_female_human_03.iff",
+    "object/mobile/dressed_dark_jedi_female_twk_01.iff",
+    "object/mobile/dressed_dark_jedi_male_human_02.iff",
+    "object/mobile/dressed_dark_jedi_male_human_03.iff",
     	},
 	
 	lootGroups = {},
