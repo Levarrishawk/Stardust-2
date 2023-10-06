@@ -107,10 +107,33 @@ function ElysiumVisionScreenPlay:spawnSceneObjects()
   
   spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_table_light_01.iff", -41.6 , 33, -93.7, 590000061, math.rad(0) ) 
   spawnSceneObject("elysium", "object/tangible/item/lytus_family_artefact.iff", -41.6 , 33, -93.7, 590000061, math.rad(0) ) 
-  
   spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -34.3 , 33, -99.2, 590000061, math.rad(124) ) 
   spawnSceneObject("elysium", "object/tangible/item/lytus_family_artefact.iff", -34.3 , 33, -99.2, 590000061, math.rad(0) )  
   spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -34.3 , 36.5, -99.2, 590000061, math.rad(124) ) 
+  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -34.3 , 33, -88.5, 590000061, math.rad(53) ) 
+  spawnSceneObject("elysium", "object/tangible/item/lytus_family_artefact.iff", -34.3 , 33, -88.5, 590000061, math.rad(0) )  
+  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -34.3 , 36.5, -88.5, 590000061, math.rad(53) ) 
+  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -38.9 , 33, -102.3, 590000061, math.rad(157) ) 
+  spawnSceneObject("elysium", "object/tangible/item/lytus_family_artefact.iff", -38.9 , 33, -102.3, 590000061, math.rad(0) )  
+  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -38.9 , 36.5, -102.3, 590000061, math.rad(157) ) 
+  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -38.9 , 33, -85.3, 590000061, math.rad(16) ) 
+  spawnSceneObject("elysium", "object/tangible/item/lytus_family_artefact.iff", -38.9 , 33, -85.3, 590000061, math.rad(0) )  
+  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -38.9 , 36.5, -85.3, 590000061, math.rad(16) ) 
+  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -44.5 , 33, -102.3, 590000061, math.rad(-160) ) 
+  spawnSceneObject("elysium", "object/tangible/item/lytus_family_artefact.iff", -44.5 , 33, -102.3, 590000061, math.rad(0) )  
+  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -44.5 , 36.5, -102.3, 590000061, math.rad(-160) ) 
+  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -44.5 , 33, -85.3, 590000061, math.rad(-18) ) 
+  spawnSceneObject("elysium", "object/tangible/item/lytus_family_artefact.iff", -44.5 , 33, -85.3, 590000061, math.rad(0) )  
+  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -44.5 , 36.5, -85.3, 590000061, math.rad(-18) )  
+  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -48.9 , 33, -99.1, 590000061, math.rad(-128) ) 
+  spawnSceneObject("elysium", "object/tangible/item/lytus_family_artefact.iff", -48.9 , 33, -99.1, 590000061, math.rad(0) )  
+  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -48.9 , 36.5, -99.1, 590000061, math.rad(-128) )   
+  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -48.9 , 33, -88.6, 590000061, math.rad(-53) ) 
+  spawnSceneObject("elysium", "object/tangible/item/lytus_family_artefact.iff", -48.9 , 33, -88.6, 590000061, math.rad(0) )  
+  spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -48.9 , 36.5, -88.6, 590000061, math.rad(-53) ) 
+  
+  spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", -53.1 , 35, -93.7, 590000061, math.rad(-90) )
+ 
   
  
 end
