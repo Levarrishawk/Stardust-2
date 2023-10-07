@@ -75,7 +75,7 @@ public:
 		}
 
 		else if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) < forceCost * 20) {
-			creature->sendSystemMessage("Not enough Action");
+			creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
 			creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
 			return GENERALERROR;
 		}
