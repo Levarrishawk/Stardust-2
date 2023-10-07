@@ -831,6 +831,8 @@ RunSlashCommandsFile("unstick.lua")
 RunSlashCommandsFile("launchIntoSpace.lua")
 RunSlashCommandsFile("createVendor.lua")
 RunSlashCommandsFile("findStructure.lua")
+RunSlashCommandsFile("village.lua")
+--RunSlashCommandsFile("regrantSkills.lua")
 -- New DLSWG Commands
 --[[
 RunSlashCommandFile("vaapaadStrike.lua")
