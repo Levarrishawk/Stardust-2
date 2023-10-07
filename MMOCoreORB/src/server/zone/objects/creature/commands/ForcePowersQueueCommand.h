@@ -7,7 +7,7 @@
 
 #ifndef FORCEPOWERSQUEUECOMMAND_H_
 #define FORCEPOWERSQUEUECOMMAND_H_
-
+/*
 #include"server/zone/ZoneServer.h"
 #include "server/zone/objects/scene/SceneObject.h"
 #include "server/zone/managers/combat/CombatManager.h"
@@ -16,10 +16,14 @@
 #include "CombatQueueCommand.h"
 #include "server/zone/managers/visibility/VisibilityManager.h"
 #include "server/zone/packets/player/PlayMusicMessage.h"
-
+*/
+#include"server/zone/ZoneServer.h"
+#include "server/zone/objects/scene/SceneObject.h"
+#include "server/zone/managers/combat/CombatManager.h"
 #include "server/zone/managers/player/PlayerManager.h"
 #include "server/zone/objects/player/PlayerObject.h"
-
+#include "server/zone/managers/combat/CreatureAttackData.h"
+#include "server/zone/managers/collision/CollisionManager.h"
 #include "templates/params/creature/CreatureAttribute.h"
 #include "templates/params/creature/CreatureState.h"
 #include "server/zone/objects/creature/commands/effect/StateEffect.h"
@@ -27,7 +31,7 @@
 #include "server/zone/objects/creature/commands/effect/CommandEffect.h"
 #include "server/zone/packets/object/CombatSpam.h"
 #include "QueueCommand.h"
-
+#include "CombatQueueCommand.h"
 #include "server/zone/managers/collision/PathFinderManager.h"
 #include "server/zone/managers/visibility/VisibilityManager.h"
 #include "server/zone/packets/player/PlayMusicMessage.h"
