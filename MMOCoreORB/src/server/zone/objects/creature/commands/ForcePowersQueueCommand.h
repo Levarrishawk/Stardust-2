@@ -74,7 +74,7 @@ public:
 			return GENERALERROR;
 		}
 
-		else if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) < forceCost * 6) {
+		else if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) < forceCost * 20) {
 			creature->sendSystemMessage("Not enough Action");
 			creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
 			return GENERALERROR;
@@ -92,9 +92,9 @@ public:
 				return GENERALERROR;
 			}
 
-			if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) > forceCost *6){
+			if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) > forceCost * 20){
 				ghost->setForcePower(ghost->getForcePower() - getFrsModifiedForceCost(creature));
-				creature->inflictDamage(creature, CreatureAttribute::ACTION, forceCost * 6, true, true, true);
+				creature->inflictDamage(creature, CreatureAttribute::ACTION, forceCost * 20, true, true, true);
 			}
 		} catch (Exception& e) {
 			error("unreported exception caught in ForcePowersQueueCommand::doCombatAction");
