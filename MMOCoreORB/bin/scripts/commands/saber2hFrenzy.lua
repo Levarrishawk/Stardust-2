@@ -94,7 +94,7 @@ Saber2hFrenzyCommand = {
 	
 	weaponType = TWOHANDJEDIWEAPON,
 
-	range = 8
+	range = 10
 }
 
 AddCommand(Saber2hFrenzyCommand)

@@ -44,8 +44,8 @@
 MindBlast1Command = {
 	name = "mindblast1",
 
-	minDamage = 750,
-	maxDamage = 1400,
+	minDamage = 450,
+	maxDamage = 950,
 	speed = 2.0,
 	forceCost = 55,
 	visMod = 25,
@@ -59,7 +59,7 @@ MindBlast1Command = {
 		{},
 		55,
 		0,
-		10
+		6
 	  ),
 
 	  StateEffect(
@@ -69,7 +69,7 @@ MindBlast1Command = {
 		{},
 		55,
 		0,
-		10
+		6
 	  ),
 
 	  StateEffect(
@@ -79,7 +79,7 @@ MindBlast1Command = {
 		{},
 		55,
 		0,
-		10
+		6
 	  )
 	},
 
