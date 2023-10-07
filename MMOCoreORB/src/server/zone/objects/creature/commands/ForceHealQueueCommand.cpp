@@ -12,6 +12,7 @@
 #include "server/zone/managers/frs/FrsManager.h"
 #include "templates/params/creature/CreatureState.h"
 #include "ForcePowersQueueCommand.h"
+#include "server/zone/packets/player/PlayMusicMessage.h"
 
 ForceHealQueueCommand::ForceHealQueueCommand(const String& name, ZoneProcessServer* server) : JediQueueCommand(name, server) {
 	speed = 2;
@@ -81,10 +82,14 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 
 					if (woundAmount > 0) {
 
-						if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+						if (creature->getHAM(CreatureAttribute::ACTION) > 800){
 							targetCreature->healWound(creature, attrib, woundAmount, true);
 							healPerformed = true;
 							sendHealMessage(creature, targetCreature, HEAL_WOUNDS, attrib, woundAmount);
+						} else {
+							creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+							creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
+							return GENERALERROR;
 						}
 					}
 				}
@@ -114,10 +119,14 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 				}
 
 				if (amtToHeal > 0) {
-					if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+					if (creature->getHAM(CreatureAttribute::ACTION) > 800){
 						targetCreature->healDamage(creature, attrib, amtToHeal, true);
 						healPerformed = true;
 						sendHealMessage(creature, targetCreature, HEAL_DAMAGE, attrib, amtToHeal);
+					} else {
+						creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+						creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
+						return GENERALERROR;
 					}
 				}
 			}
@@ -140,10 +149,14 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 		}
 
 		if (battleFatigue > 0) {
-			if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+			if (creature->getHAM(CreatureAttribute::ACTION) > 800){
 			targetCreature->addShockWounds(-battleFatigue, true, false);
 			sendHealMessage(creature, targetCreature, HEAL_FATIGUE, 0, battleFatigue);
 			healPerformed = true;
+			} else {
+				creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+				creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
+				return GENERALERROR;
 			}
 		}
 	}
@@ -160,11 +173,15 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 				int newTotal = totalCost + healStateCost;
 
 				if (newTotal < currentForce) {
-					if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+					if (creature->getHAM(CreatureAttribute::ACTION) > 800){
 						targetCreature->removeStateBuff(state);
 						totalCost = newTotal;
 						healPerformed = true;
 						healedStates++;
+					} else {
+						creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+						creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
+						return GENERALERROR;
 					}
 				}
 			}
@@ -190,8 +207,12 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 		} else {
 			sendHealMessage(creature, targetCreature, HEAL_BLEEDING, 0, 0);
 		}
-		if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+		if (creature->getHAM(CreatureAttribute::ACTION) > 800){
 			healPerformed = true;
+		} else {
+			creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+			creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
+			return GENERALERROR;
 		}
 	}
 
@@ -211,8 +232,12 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 		} else {
 			sendHealMessage(creature, targetCreature, HEAL_POISON, 0, 0);
 		}
-		if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+		if (creature->getHAM(CreatureAttribute::ACTION) > 800){
 			healPerformed = true;
+		} else {
+			creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+			creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
+			return GENERALERROR;
 		}
 	}
 
@@ -232,8 +257,12 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 		} else {
 			sendHealMessage(creature, targetCreature, HEAL_DISEASE, 0, 0);
 		}
-		if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+		if (creature->getHAM(CreatureAttribute::ACTION) > 800){
 			healPerformed = true;
+		} else {
+			creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+			creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
+			return GENERALERROR;
 		}
 	}
 
@@ -253,8 +282,12 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 		} else {
 			sendHealMessage(creature, targetCreature, HEAL_FIRE, 0, 0);
 		}
-		if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+		if (creature->getHAM(CreatureAttribute::ACTION) > 800){
 			healPerformed = true;
+		} else {
+			creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+			creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
+			return GENERALERROR;
 		}
 	}
 
@@ -266,14 +299,16 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 		else
 			creature->doCombatAnimation(targetCreature, animationCRC, 0, 0xFF);
 
-		if (currentForce < totalCost && creature->getHAM(CreatureAttribute::ACTION) < forceCost * 10) {
+		if (currentForce < totalCost) {
 			playerObject->setForcePower(0);
-			creature->setHAM(CreatureAttribute::ACTION, 300);
+			//creature->setHAM(CreatureAttribute::ACTION, 300);
 			creature->error("Did not have enough force to pay for the healing he did. Total cost of command: " + String::valueOf(totalCost) + ", player's current force: " + String::valueOf(currentForce));
-		} else if(creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+		} else if(creature->getHAM(CreatureAttribute::ACTION) > 800){
 			playerObject->setForcePower(currentForce - totalCost);
-			creature->inflictDamage(creature, CreatureAttribute::ACTION, totalCost * 10, true, true, true);
+			creature->inflictDamage(creature, CreatureAttribute::ACTION, 750, true, true, true);
 		} else {
+			//creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+			//creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
 			return GENERALERROR;
 		}
 

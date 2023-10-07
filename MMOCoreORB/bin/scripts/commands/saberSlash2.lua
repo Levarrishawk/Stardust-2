@@ -48,7 +48,7 @@ SaberSlash2Command = {
 	damageMultiplier = 3,
 	speedMultiplier = 5,
 	healthCostMultiplier = 0,
-	actionCostMultiplier = 2,
+	actionCostMultiplier = 3.5,
 	mindCostMultiplier = 0,
 	forceCostMultiplier = 1.75,
 	accuracyBonus = 50,
@@ -85,7 +85,7 @@ SaberSlash2Command = {
 
 	weaponType = JEDIWEAPON,
 
-	range = 10
+	range = 12
 }
 
 AddCommand(SaberSlash2Command)
