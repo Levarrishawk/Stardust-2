@@ -1058,11 +1058,11 @@ void StructureManager::reportStructureStatus(CreatureObject* creature, Structure
 					status->addMenuItem(gcwMan->getVulnerableStatus(building, creature));
 			}
 		}
-
+		uint32 playerItems = building->getCurrentNumberOfPlayerItems();
+		uint32 maxPlayerItems = building->getMaximumNumberOfPlayerItems();
 		status->addMenuItem(
 				"@player_structure:items_in_building_prompt "
-						+ String::valueOf(
-								building->getCurrentNumberOfPlayerItems())); //Number of Items in Building:
+						+ String::valueOf(playerItems) + "/" + String::valueOf(maxPlayerItems)); //Number of Items in Building:
 
 #if ENABLE_STRUCTURE_JSON_EXPORT
 		if (creature->hasSkill("admin_base")) {
