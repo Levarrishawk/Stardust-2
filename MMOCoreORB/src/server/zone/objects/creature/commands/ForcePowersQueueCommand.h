@@ -74,7 +74,7 @@ public:
 			return GENERALERROR;
 		}
 
-		else if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) < forceCost) {
+		else if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) < forceCost * 6) {
 			creature->sendSystemMessage("Not enough Action");
 			creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
 			return GENERALERROR;
@@ -92,7 +92,7 @@ public:
 				return GENERALERROR;
 			}
 
-			if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) > forceCost){
+			if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) > forceCost *6){
 				ghost->setForcePower(ghost->getForcePower() - getFrsModifiedForceCost(creature));
 				creature->inflictDamage(creature, CreatureAttribute::ACTION, forceCost * 6, true, true, true);
 			}
