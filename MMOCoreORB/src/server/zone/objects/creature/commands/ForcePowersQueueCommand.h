@@ -74,7 +74,7 @@ public:
 			return GENERALERROR;
 		}
 
-		if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) < forceCost) {
+		else if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) < forceCost) {
 			creature->sendSystemMessage("Not enough Action");
 			creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
 			return GENERALERROR;
