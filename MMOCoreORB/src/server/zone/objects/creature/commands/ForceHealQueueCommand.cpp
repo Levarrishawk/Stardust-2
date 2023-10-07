@@ -12,6 +12,7 @@
 #include "server/zone/managers/frs/FrsManager.h"
 #include "templates/params/creature/CreatureState.h"
 #include "ForcePowersQueueCommand.h"
+#include "server/zone/packets/player/PlayMusicMessage.h"
 
 ForceHealQueueCommand::ForceHealQueueCommand(const String& name, ZoneProcessServer* server) : JediQueueCommand(name, server) {
 	speed = 2;
@@ -86,6 +87,8 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 							healPerformed = true;
 							sendHealMessage(creature, targetCreature, HEAL_WOUNDS, attrib, woundAmount);
 						} else {
+							creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+							creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
 							return GENERALERROR;
 						}
 					}
@@ -121,6 +124,8 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 						healPerformed = true;
 						sendHealMessage(creature, targetCreature, HEAL_DAMAGE, attrib, amtToHeal);
 					} else {
+						creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+						creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
 						return GENERALERROR;
 					}
 				}
@@ -149,6 +154,8 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 			sendHealMessage(creature, targetCreature, HEAL_FATIGUE, 0, battleFatigue);
 			healPerformed = true;
 			} else {
+				creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+				creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
 				return GENERALERROR;
 			}
 		}
@@ -172,6 +179,8 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 						healPerformed = true;
 						healedStates++;
 					} else {
+						creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+						creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
 						return GENERALERROR;
 					}
 				}
@@ -201,6 +210,8 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 		if (creature->getHAM(CreatureAttribute::ACTION) > 800){
 			healPerformed = true;
 		} else {
+			creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+			creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
 			return GENERALERROR;
 		}
 	}
@@ -224,6 +235,8 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 		if (creature->getHAM(CreatureAttribute::ACTION) > 800){
 			healPerformed = true;
 		} else {
+			creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+			creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
 			return GENERALERROR;
 		}
 	}
@@ -247,6 +260,8 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 		if (creature->getHAM(CreatureAttribute::ACTION) > 800){
 			healPerformed = true;
 		} else {
+			creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+			creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
 			return GENERALERROR;
 		}
 	}
@@ -267,9 +282,11 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 		} else {
 			sendHealMessage(creature, targetCreature, HEAL_FIRE, 0, 0);
 		}
-		if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+		if (creature->getHAM(CreatureAttribute::ACTION) > 800){
 			healPerformed = true;
 		} else {
+			creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+			creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
 			return GENERALERROR;
 		}
 	}
@@ -290,6 +307,8 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 			playerObject->setForcePower(currentForce - totalCost);
 			creature->inflictDamage(creature, CreatureAttribute::ACTION, 750, true, true, true);
 		} else {
+			//creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
+			//creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
 			return GENERALERROR;
 		}
 
