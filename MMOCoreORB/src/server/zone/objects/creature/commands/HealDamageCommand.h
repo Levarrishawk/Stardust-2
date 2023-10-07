@@ -36,7 +36,7 @@ public:
 			modSkill = (float)creature->getSkillMod("healing_injury_speed");
 
 		int delay = (int)round(20.0f - (modSkill / 5));
-
+/*
 		if (creature->hasBuff(BuffCRC::FOOD_HEAL_RECOVERY)) {
 			DelayedBuff* buff = cast<DelayedBuff*>( creature->getBuff(BuffCRC::FOOD_HEAL_RECOVERY));
 
@@ -46,7 +46,7 @@ public:
 				delay = round(delay * (100.0f - percent) / 100.0f);
 			}
 		}
-
+*/
 		//Force the delay to be at least 6 seconds.
 		delay = (delay < 6) ? 6 : delay;
 

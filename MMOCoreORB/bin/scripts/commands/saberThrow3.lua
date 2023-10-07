@@ -47,13 +47,27 @@ SaberThrow3Command = {
 	damageMultiplier = 1.0,
 	speedMultiplier = 2,
 	healthCostMultiplier = 0,
-	actionCostMultiplier = 0.5,
+	actionCostMultiplier = 3.5,
 	mindCostMultiplier = 0,
 	coneAngle = 30,
 	coneAction = true,
-	forceCostMultiplier = 0.5,
+	forceCostMultiplier = 1.5,
 	accuracyBonus = 50,
 	visMod = 25,
+
+
+  dotEffects = {
+    DotEffect(  
+    BLEEDING,
+    { "resistance_bleeding", "bleed_resist" },
+    ACTION,
+    true,
+    0,
+    100,
+    100, 
+    60
+    ),      
+  },
 
 	stateEffects = {
 	   StateEffect( 
