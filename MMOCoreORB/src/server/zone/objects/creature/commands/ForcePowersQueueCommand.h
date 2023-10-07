@@ -74,11 +74,11 @@ public:
 			return GENERALERROR;
 		}
 
-		if (ghost != nullptr && ghost->getHAM(CreatureAttribute::ACTION) < forceCost) {
-					creature->sendSystemMessage("Not enough Action");
-					creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
-					return GENERALERROR;
-				}
+		if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) < forceCost) {
+			creature->sendSystemMessage("Not enough Action");
+			creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
+			return GENERALERROR;
+		}
 
 		CombatManager* combatManager = CombatManager::instance();
 
@@ -92,9 +92,9 @@ public:
 				return GENERALERROR;
 			}
 
-			if (ghost != nullptr && ghost->getHAM(CreatureAttribute::ACTION) > forceCost)
+			if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) > forceCost)
 				ghost->setForcePower(ghost->getForcePower() - getFrsModifiedForceCost(creature));
-				ghost->inflictDamage(creature, CreatureAttribute::ACTION, forceCost, true, true, true);
+				creature->inflictDamage(creature, CreatureAttribute::ACTION, forceCost, true, true, true);
 
 		} catch (Exception& e) {
 			error("unreported exception caught in ForcePowersQueueCommand::doCombatAction");
