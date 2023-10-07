@@ -252,6 +252,7 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 
 		if (currentForce < totalCost && creature->getHAM(CreatureAttribute::ACTION) < forceCost * 10) {
 			playerObject->setForcePower(0);
+			creature->setHAM(creature, CreatureAttribute::ACTION, 300);
 			creature->error("Did not have enough force to pay for the healing he did. Total cost of command: " + String::valueOf(totalCost) + ", player's current force: " + String::valueOf(currentForce));
 		} else {
 			playerObject->setForcePower(currentForce - totalCost);
