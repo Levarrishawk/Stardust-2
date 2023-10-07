@@ -4,10 +4,13 @@
 
 #include "ForceHealQueueCommand.h"
 #include "server/zone/managers/combat/CombatManager.h"
+#include "server/zone/managers/player/PlayerManager.h"
+#include "server/zone/objects/player/PlayerObject.h"
 #include "templates/params/creature/CreatureAttribute.h"
 #include "server/zone/managers/stringid/StringIdManager.h"
 #include "server/zone/managers/collision/CollisionManager.h"
 #include "server/zone/managers/frs/FrsManager.h"
+#include "templates/params/creature/CreatureState.h"
 #include "ForcePowersQueueCommand.h"
 
 ForceHealQueueCommand::ForceHealQueueCommand(const String& name, ZoneProcessServer* server) : JediQueueCommand(name, server) {
@@ -252,7 +255,7 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 
 		if (currentForce < totalCost && creature->getHAM(CreatureAttribute::ACTION) < forceCost * 10) {
 			playerObject->setForcePower(0);
-			creature->setHAM(creature, CreatureAttribute::ACTION, 300);
+			creature->setHAM(CreatureAttribute::ACTION, 300);
 			creature->error("Did not have enough force to pay for the healing he did. Total cost of command: " + String::valueOf(totalCost) + ", player's current force: " + String::valueOf(currentForce));
 		} else {
 			playerObject->setForcePower(currentForce - totalCost);
