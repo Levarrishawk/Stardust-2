@@ -1139,7 +1139,7 @@ float CombatManager::calculateDamage(CreatureObject* attacker, WeaponObject* wea
 		if (weapon->getDamageType() == SharedWeaponObjectTemplate::LIGHTSABER)
 			damage *= 0.40;
 		else
-			damage *= 0.55;
+			damage *= 0.70;
 		}
 	if (damage < 1)
 		damage = 1;
