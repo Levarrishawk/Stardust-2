@@ -80,9 +80,12 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 					}
 
 					if (woundAmount > 0) {
-						targetCreature->healWound(creature, attrib, woundAmount, true);
-						healPerformed = true;
-						sendHealMessage(creature, targetCreature, HEAL_WOUNDS, attrib, woundAmount);
+
+						if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+							targetCreature->healWound(creature, attrib, woundAmount, true);
+							healPerformed = true;
+							sendHealMessage(creature, targetCreature, HEAL_WOUNDS, attrib, woundAmount);
+						}
 					}
 				}
 			}
@@ -111,9 +114,11 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 				}
 
 				if (amtToHeal > 0) {
-					targetCreature->healDamage(creature, attrib, amtToHeal, true);
-					healPerformed = true;
-					sendHealMessage(creature, targetCreature, HEAL_DAMAGE, attrib, amtToHeal);
+					if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+						targetCreature->healDamage(creature, attrib, amtToHeal, true);
+						healPerformed = true;
+						sendHealMessage(creature, targetCreature, HEAL_DAMAGE, attrib, amtToHeal);
+					}
 				}
 			}
 		}
@@ -135,9 +140,11 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 		}
 
 		if (battleFatigue > 0) {
+			if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
 			targetCreature->addShockWounds(-battleFatigue, true, false);
 			sendHealMessage(creature, targetCreature, HEAL_FATIGUE, 0, battleFatigue);
 			healPerformed = true;
+			}
 		}
 	}
 
@@ -153,10 +160,12 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 				int newTotal = totalCost + healStateCost;
 
 				if (newTotal < currentForce) {
-					targetCreature->removeStateBuff(state);
-					totalCost = newTotal;
-					healPerformed = true;
-					healedStates++;
+					if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+						targetCreature->removeStateBuff(state);
+						totalCost = newTotal;
+						healPerformed = true;
+						healedStates++;
+					}
 				}
 			}
 		}
@@ -181,8 +190,9 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 		} else {
 			sendHealMessage(creature, targetCreature, HEAL_BLEEDING, 0, 0);
 		}
-
-		healPerformed = true;
+		if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+			healPerformed = true;
+		}
 	}
 
 	// Poison
@@ -201,8 +211,9 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 		} else {
 			sendHealMessage(creature, targetCreature, HEAL_POISON, 0, 0);
 		}
-
-		healPerformed = true;
+		if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+			healPerformed = true;
+		}
 	}
 
 	// Disease
@@ -221,8 +232,9 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 		} else {
 			sendHealMessage(creature, targetCreature, HEAL_DISEASE, 0, 0);
 		}
-
-		healPerformed = true;
+		if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+			healPerformed = true;
+		}
 	}
 
 	// Fire
@@ -241,8 +253,9 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 		} else {
 			sendHealMessage(creature, targetCreature, HEAL_FIRE, 0, 0);
 		}
-
-		healPerformed = true;
+		if (creature->getHAM(CreatureAttribute::ACTION) > forceCost * 10){
+			healPerformed = true;
+		}
 	}
 
 	bool selfHeal = creature->getObjectID() == targetCreature->getObjectID();
