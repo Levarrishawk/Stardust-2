@@ -259,7 +259,7 @@ int ForceHealQueueCommand::runCommand(CreatureObject* creature, CreatureObject* 
 			creature->error("Did not have enough force to pay for the healing he did. Total cost of command: " + String::valueOf(totalCost) + ", player's current force: " + String::valueOf(currentForce));
 		} else {
 			playerObject->setForcePower(currentForce - totalCost);
-			creature->inflictDamage(CreatureAttribute::ACTION, totalCost * 10, true, true, true);
+			creature->inflictDamage(creature, CreatureAttribute::ACTION, totalCost * 10, true, true, true);
 		}
 
 		VisibilityManager::instance()->increaseVisibility(creature, visMod);
