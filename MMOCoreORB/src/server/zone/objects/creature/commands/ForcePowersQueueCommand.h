@@ -94,7 +94,7 @@ public:
 
 			if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) > forceCost){
 				ghost->setForcePower(ghost->getForcePower() - getFrsModifiedForceCost(creature));
-				creature->inflictDamage(creature, CreatureAttribute::ACTION, forceCost, true, true, true);
+				creature->inflictDamage(creature, CreatureAttribute::ACTION, forceCost * 6, true, true, true);
 			}
 		} catch (Exception& e) {
 			error("unreported exception caught in ForcePowersQueueCommand::doCombatAction");
