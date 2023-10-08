@@ -43,7 +43,7 @@
 
 ForceAbsorb2Command = {
         name = "forceabsorb2",
-        forceCost = 100,
+        forceCost = 75,
         duration = 60,
         --animationCRC = hashCode()
         clientEffect = "clienteffect/pl_force_absorb_self.cef",
