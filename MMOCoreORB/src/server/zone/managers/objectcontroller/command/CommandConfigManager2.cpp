@@ -831,5 +831,5 @@ void CommandConfigManager::registerCommands2() {
 	commandFactory.registerCommand<MedicalForageCommand>(String("medicalForage").toLowerCase());
 	commandFactory.registerCommand<MeditateCommand>(String("meditate").toLowerCase());
 	commandFactory.registerCommand<VillageCommand>(String("village").toLowerCase());
-	//commandFactory.registerCommand<RegrantSkillsCommand>(String("regrantSkills").toLowerCase());
+	commandFactory.registerCommand<RegrantSkillsCommand>(String("regrantSkills").toLowerCase());
 }
