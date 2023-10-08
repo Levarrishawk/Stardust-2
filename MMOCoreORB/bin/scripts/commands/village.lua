@@ -41,25 +41,9 @@
 --which carries forward this exception.
 --true = 1, false = 0
 
-ForceWeaken1Command = {
-	name = "forceweaken1",
-
-	damageMultiplier = 0,
-	speed = 4.0,
-	forceCost = 80,
-	visMod = 25,
-	accuracySkillMod = "forceweaken_accuracy",
-	forceAttack = true,
-
-	animation = "force_weaken_1_particle_level_1", 
-	animType = GENERATE_INTENSITY,
-
-	combatSpam = "forceweaken1",
-
-	poolsToDamage = NO_ATTRIBUTE,
-
-	range = 32
+VillageCommand = {
+        name = "village",
 }
 
-AddCommand(ForceWeaken1Command)
+AddCommand(VillageCommand)
 
