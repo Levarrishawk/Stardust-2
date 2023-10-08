@@ -71,13 +71,13 @@ float PowerupObjectImplementation::getWeaponStat(const String& attrib, WeaponObj
 	else if (attrib == "woundsRatio")
 		return weapon->getWoundsRatio(withPup);
 	else if (attrib == "damageRadius")
-		//return weapon->getDamageRadius(withPup);
+		return weapon->getDamageRadius(withPup);
 	//else if (attrib == "healthAttackCost")
-		return weapon->getHealthAttackCost(withPup);
+		//return weapon->getHealthAttackCost(withPup);
 	else if (attrib == "actionAttackCost")
-	//	return weapon->getActionAttackCost(withPup);
+		return weapon->getActionAttackCost(withPup);
 	//else if (attrib == "mindAttackCost")
-		return weapon->getMindAttackCost(withPup);
+		//return weapon->getMindAttackCost(withPup);
 	else if (attrib == "pointBlankRange")
 		return weapon->getPointBlankRange(withPup);
 
