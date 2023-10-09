@@ -1268,7 +1268,7 @@ void SceneObjectImplementation::rotateXaxis(int degrees) {
 }
 
 void SceneObjectImplementation::rotateYaxis(int degrees) {
-	Vector3 unity (1, 0, 0);
+	Vector3 unity (0, 0, 1);
 	direction.rotate(unity, degrees);
 }
 
