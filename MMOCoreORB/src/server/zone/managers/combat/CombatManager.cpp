@@ -429,7 +429,7 @@ int CombatManager::creoTargetCombatAction(CreatureObject* attacker, WeaponObject
 	}
 	case RICOCHET:
 		damageMultiplier = 0.0f;
-		defender->inflictDamage(defender, CreatureAttribute::ACTION, 300, true, true, true);
+		defender->inflictDamage(defender, CreatureAttribute::ACTION, 200, true, true, true);
 		break;
 	default:
 		break;
@@ -605,7 +605,7 @@ int CombatManager::tanoTargetCombatAction(TangibleObject* attacker, WeaponObject
 		break;
 	case RICOCHET:
 		damageMultiplier = 0.0f;
-		defenderObject->inflictDamage(defenderObject, CreatureAttribute::ACTION, 300, true, true, true);
+		defenderObject->inflictDamage(defenderObject, CreatureAttribute::ACTION, 200, true, true, true);
 		break;
 	default:
 		break;
@@ -1991,7 +1991,7 @@ int CombatManager::getHitChance(TangibleObject* attacker, CreatureObject* target
 
 		// saber block is special because it's just a % chance to block based on the skillmod
 		if (def == "saber_block") {
-			if (!(attacker->isTurret() || weapon->isThrownWeapon()) && ((weapon->isHeavyWeapon() || weapon->isSpecialHeavyWeapon() || (weapon->getAttackType() == SharedWeaponObjectTemplate::RANGEDATTACK)) && ((System::random(100)) < (targetCreature->getSkillMod(def) * 0.70f) && targetCreature->getHAM(CreatureAttribute::ACTION) > 301)))  // was targetCreature->getSkillMod(def) - taking into consideration the actual saber_block skillMod.  Now a flat 65% chance to block.
+			if (!(attacker->isTurret() || weapon->isThrownWeapon()) && ((weapon->isHeavyWeapon() || weapon->isSpecialHeavyWeapon() || (weapon->getAttackType() == SharedWeaponObjectTemplate::RANGEDATTACK)) && ((System::random(100)) < (targetCreature->getSkillMod(def) * 0.70f) && targetCreature->getHAM(CreatureAttribute::ACTION) > 201)))  // was targetCreature->getSkillMod(def) - taking into consideration the actual saber_block skillMod.  Now a flat 65% chance to block.
 				return RICOCHET;
 			else
 				return HIT;

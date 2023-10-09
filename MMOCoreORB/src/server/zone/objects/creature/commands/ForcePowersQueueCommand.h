@@ -74,7 +74,7 @@ public:
 			return GENERALERROR;
 		}
 
-		else if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) < forceCost * 18) {
+		else if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) < forceCost * 15) {
 			creature->sendSystemMessage("You do not have enough Action Points to use that ability.");
 			creature->playMusicMessage("sound/ui_quest_spawn_escort.snd");
 			return GENERALERROR;
@@ -92,9 +92,9 @@ public:
 				return GENERALERROR;
 			}
 
-			if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) > forceCost * 18){
+			if (ghost != nullptr && creature->getHAM(CreatureAttribute::ACTION) > forceCost * 15){
 				ghost->setForcePower(ghost->getForcePower() - getFrsModifiedForceCost(creature));
-				creature->inflictDamage(creature, CreatureAttribute::ACTION, forceCost * 18, true, true, true);
+				creature->inflictDamage(creature, CreatureAttribute::ACTION, forceCost * 15, true, true, true);
 			}
 		} catch (Exception& e) {
 			error("unreported exception caught in ForcePowersQueueCommand::doCombatAction");
