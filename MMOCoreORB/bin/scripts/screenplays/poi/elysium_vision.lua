@@ -143,6 +143,12 @@ function ElysiumVisionScreenPlay:spawnSceneObjects()
   spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", 3.3 , 26.5, -137, 590000053, math.rad(0) ) 
   spawnSceneObject("elysium", "object/static/structure/general/debris_deathstar_conduit.iff", 3.3 , 27, -137, 590000053, math.rad(30) ) 
   
+  spawnSceneObject("elysium", "object/tangible/quest/col_jedi_robi_light_jedi_controller.iff", 54.3, 33, -120.8, 590000057, math.rad(-90) ) 
+  spawnSceneObject("elysium", "object/static/structure/general/streetlamp_small_green_style_01_on.iff", 54.3, 33, -120.8, 590000057, math.rad(0) )
+  
+  spawnSceneObject("elysium", "object/static/structure/elysium/invisible_wall.iff", -15.2, 27, -120.8, 590000053, math.rad(90) )
+  
+  spawnSceneObject("elysium", "object/tangible/furniture/modern/flr_elysium.iff", 33.6, 27, -189.7, 590000069, math.rad(0) )
  
 end
 
