@@ -131,9 +131,17 @@ function ElysiumVisionScreenPlay:spawnSceneObjects()
   spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -48.9 , 33, -88.6, 590000061, math.rad(-53) ) 
   spawnSceneObject("elysium", "object/tangible/item/lytus_family_artefact.iff", -48.9 , 33, -88.6, 590000061, math.rad(0) )  
   spawnSceneObject("elysium", "object/tangible/tcg/series1/decorative_jedi_library_bookshelf.iff", -48.9 , 36.5, -88.6, 590000061, math.rad(-53) ) 
-  
   spawnSceneObject("elysium", "object/tangible/furniture/jedi/frn_all_banner_light_s02.iff", -53.1 , 35, -93.7, 590000061, math.rad(-90) )
- 
+  
+  spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", 6.3 , 29, -107, 590000053, math.rad(0) )
+  spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", 6.3 , 26.5, -107, 590000053, math.rad(0) ) 
+  spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", -5.3 , 29, -134, 590000053, math.rad(0) )
+  spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", -5.3 , 26.5, -134, 590000053, math.rad(0) ) 
+  spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", 4.1 , 29, -158, 590000053, math.rad(0) )
+  spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", 4.1 , 26.5, -158, 590000053, math.rad(0) ) 
+  spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", 3.3 , 29, -137, 590000053, math.rad(0) )
+  spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", 3.3 , 26.5, -137, 590000053, math.rad(0) ) 
+  spawnSceneObject("elysium", "object/static/structure/general/debris_deathstar_conduit.iff", 3.3 , 27, -137, 590000053, math.rad(30) ) 
   
  
 end
