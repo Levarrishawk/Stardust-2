@@ -35,6 +35,11 @@ public:
 			return 0;
 		}
 
+		if (player->isRidingMount()) {
+			player->sendSystemMessage("Dismount before trying this command again.");
+			return 0;
+		}
+
 		player->initializePosition(player->getPositionX() + 10, player->getPositionZ() + 10, player->getPositionY() + 10);
 
 		zone->transferObject(player, 1, true);
