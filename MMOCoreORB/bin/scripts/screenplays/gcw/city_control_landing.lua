@@ -31,7 +31,7 @@ CityControlLanding = ScreenPlay:new {
 registerScreenPlay("CityControlLanding", true)
 
 function CityControlLanding:start()
-	self:chanceToSpawn()
+	--self:chanceToSpawn()
 end
 
 function CityControlLanding:chanceToSpawn()
