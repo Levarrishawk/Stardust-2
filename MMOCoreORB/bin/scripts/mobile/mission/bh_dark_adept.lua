@@ -32,11 +32,11 @@ bh_dark_adept = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 2500000},
+				{group = "junk", chance = 3000000},
 				{group = "tailor_components", chance = 500000},
 				{group = "loot_kit_parts", chance = 500000},
 				{group = "color_crystals", chance = 500000},
-				{group = "power_crystals", chance = 1000000},
+				{group = "death_watch_bh_armor_schematics", chance = 500000}, 
 				{group = "wearables_all", chance = 1000000},
 				{group = "weapons_all", chance = 1000000},
 				{group = "armor_all", chance = 1000000},
@@ -47,11 +47,11 @@ bh_dark_adept = Creature:new {
 		},
 		{
 			groups = {
-				{group = "junk", chance = 2500000},
+				{group = "junk", chance = 3000000},
 				{group = "tailor_components", chance = 500000},
 				{group = "loot_kit_parts", chance = 500000},
 				{group = "color_crystals", chance = 500000},
-				{group = "power_crystals", chance = 1000000},
+				{group = "death_watch_bh_armor_schematics", chance = 500000}, 
 				{group = "wearables_all", chance = 1000000},
 				{group = "weapons_all", chance = 1000000},
 				{group = "armor_all", chance = 1000000},
@@ -62,12 +62,11 @@ bh_dark_adept = Creature:new {
 		},
 		{
 			groups = {
-				{group = "junk", chance = 2500000},
+				{group = "junk", chance = 3000000},
 				{group = "tailor_components", chance = 500000},
 				{group = "loot_kit_parts", chance = 500000},
 				{group = "color_crystals", chance = 500000},
-				{group = "power_crystals", chance = 500000},
-				{group = "power_crystals", chance = 500000},
+				{group = "death_watch_bh_armor_schematics", chance = 500000}, 				
 				{group = "wearables_all", chance = 1000000},
 				{group = "weapons_all", chance = 1000000},
 				{group = "armor_all", chance = 1000000},
