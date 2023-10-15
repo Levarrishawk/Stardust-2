@@ -45,6 +45,8 @@ object_tangible_wearables_armor_bounty_hunter_armor_bounty_hunter_helmet = objec
 	templateType = ARMOROBJECT,
 
   objectMenuComponent = "ArmorObjectMenuComponent", 
+  
+  certificationsRequired = { "combat_bountyhunter_novice" },
 
   playerRaces = { "object/creature/player/bothan_male.iff",
         "object/creature/player/bothan_female.iff",
