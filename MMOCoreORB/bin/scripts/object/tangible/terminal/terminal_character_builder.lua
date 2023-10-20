@@ -1860,7 +1860,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 			},
 			"Deeds",
 			{
-				"Resource Deed", "object/tangible/veteran_reward/resource.iff",
+				--"Resource Deed", "object/tangible/veteran_reward/resource.iff",
 				"Vehicle Deeds",
 				{
 					"Swoop", "object/tangible/deed/vehicle_deed/speederbike_swoop_deed.iff",

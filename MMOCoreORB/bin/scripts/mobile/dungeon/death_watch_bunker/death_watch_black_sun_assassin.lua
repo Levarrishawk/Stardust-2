@@ -37,7 +37,7 @@ death_watch_black_sun_assassin = Creature:new {
 				{group = "death_watch_bh_armor_schematics", chance = 250000},				
 				{group = "black_sun_weapons", chance = 250000},
 			},
-			lootChance = 2000000
+			lootChance = 7000000
 		}
 	},
 
