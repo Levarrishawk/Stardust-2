@@ -838,7 +838,7 @@
 #include "InspacerrCommand.h"
 #include "RequestSpaceTrainerCommand.h"
 #include "VillageCommand.h"
-//#include "RegrantSKillsCommand.h"
+#include "RegrantSKillsCommand.h"
 
 
 
