@@ -2,6 +2,7 @@
 
 --Children folder includes
 
+includeFile("draft_schematic/armored_clothing/armor_segment_armor_weaver_advanced.lua")
 
 includeFile("draft_schematic/armored_clothing/boots_s04_armored.lua")
 includeFile("draft_schematic/armored_clothing/boots_s05_armored.lua")
@@ -52,3 +53,25 @@ includeFile("draft_schematic/armored_clothing/skirt_s06_armored.lua")
 includeFile("draft_schematic/armored_clothing/skirt_s07_armored.lua")
 includeFile("draft_schematic/armored_clothing/skirt_s13_armored.lua")
 includeFile("draft_schematic/armored_clothing/skirt_s14_armored.lua")
+
+includeFile("draft_schematic/armored_clothing/wke_skirt_s01_armored.lua")
+includeFile("draft_schematic/armored_clothing/wke_skirt_s02_armored.lua")
+includeFile("draft_schematic/armored_clothing/wke_skirt_s03_armored.lua")
+includeFile("draft_schematic/armored_clothing/wke_skirt_s04_armored.lua")
+
+includeFile("draft_schematic/armored_clothing/wke_gloves_s01_armored.lua")
+includeFile("draft_schematic/armored_clothing/wke_gloves_s02_armored.lua")
+includeFile("draft_schematic/armored_clothing/wke_gloves_s03_armored.lua")
+includeFile("draft_schematic/armored_clothing/wke_gloves_s04_armored.lua")
+
+includeFile("draft_schematic/armored_clothing/wke_hat_s01_armored.lua")
+includeFile("draft_schematic/armored_clothing/wke_hood_s01_armored.lua")
+includeFile("draft_schematic/armored_clothing/wke_hood_s02_armored.lua")
+includeFile("draft_schematic/armored_clothing/wke_hood_s03_armored.lua")
+
+includeFile("draft_schematic/armored_clothing/wke_shirt_s02_armored.lua")
+includeFile("draft_schematic/armored_clothing/wke_shirt_s03_armored.lua")
+includeFile("draft_schematic/armored_clothing/wke_shirt_s04_armored.lua")
+
+includeFile("draft_schematic/armored_clothing/wke_shoulder_pad_s01_armored.lua")
+includeFile("draft_schematic/armored_clothing/wke_shoulder_pad_s02_armored.lua")

@@ -3468,6 +3468,13 @@ object_draft_schematic_armor_shared_armor_appearance_stormtrooper_chest = Shared
 ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_stormtrooper_chest, "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_chest.iff")
 ------------------------------------------------------------------------------------------------------------------------------------
 
+object_draft_schematic_armor_shared_armor_appearance_stormtrooper_chest_plate = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_chest_plate.iff"
+  }
+  
+  ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_stormtrooper_chest_plate, "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_chest_plate.iff")
+  ------------------------------------------------------------------------------------------------------------------------------------
+  
 
 object_draft_schematic_armor_shared_armor_appearance_stormtrooper_gloves = SharedDraftSchematicObjectTemplate:new {
   clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_gloves.iff"
