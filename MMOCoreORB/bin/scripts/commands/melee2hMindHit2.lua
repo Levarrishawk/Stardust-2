@@ -60,8 +60,8 @@ Melee2hMindHit2Command = {
     ACTION,
     true,
     0,
-    200,
-    200, 
+    100,
+    100, 
     30
     )
   },

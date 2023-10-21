@@ -67,8 +67,8 @@ MindShot2Command = {
     ACTION,
     true,
     0,
-    400,
-    400, 
+    100,
+    100, 
     60
     )
   },
