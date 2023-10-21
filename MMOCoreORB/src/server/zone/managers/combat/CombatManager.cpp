@@ -1595,7 +1595,7 @@ void CombatManager::applyDots(CreatureObject* attacker, CreatureObject* defender
 		for (int j = 0; j < defenseMods.size(); j++)
 			resist += defender->getSkillMod(defenseMods.get(j));
 
-		int damageToApply = appliedDamage * 0.4;
+		int damageToApply = appliedDamage * 0.25;
 		uint32 dotType = effect.getDotType();
 
 		if (effect.isDotDamageofHit()) {
