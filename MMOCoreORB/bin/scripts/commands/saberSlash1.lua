@@ -60,8 +60,8 @@ SaberSlash1Command = {
 		ACTION,
 		true,
 		0,
-    100,
-    100, 
+    25,
+    25, 
     60
 	  ),	  	
 	},

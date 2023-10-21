@@ -1137,9 +1137,9 @@ float CombatManager::calculateDamage(CreatureObject* attacker, WeaponObject* wea
 	// PvP Damage Reduction.
 	if (attacker->isPlayerCreature() && defender->isPlayerCreature() && !data.isForceAttack()){
 		if (weapon->getDamageType() == SharedWeaponObjectTemplate::LIGHTSABER)
-			damage *= 0.40;
+			damage *= 1.0; // 0.40
 		else
-			damage *= 0.70;
+			damage *= 1.0; // 0.70
 		}
 	if (damage < 1)
 		damage = 1;
@@ -1595,7 +1595,7 @@ void CombatManager::applyDots(CreatureObject* attacker, CreatureObject* defender
 		for (int j = 0; j < defenseMods.size(); j++)
 			resist += defender->getSkillMod(defenseMods.get(j));
 
-		int damageToApply = appliedDamage;
+		int damageToApply = appliedDamage * 0.25;
 		uint32 dotType = effect.getDotType();
 
 		if (effect.isDotDamageofHit()) {

@@ -56,18 +56,7 @@ SaberThrow3Command = {
 	visMod = 25,
 
 
-  dotEffects = {
-    DotEffect(  
-    BLEEDING,
-    { "resistance_bleeding", "bleed_resist" },
-    ACTION,
-    true,
-    0,
-    100,
-    100, 
-    60
-    ),      
-  },
+  
 
 	stateEffects = {
 	   StateEffect( 
