@@ -10,6 +10,7 @@ function ElysiumVisionScreenPlay:start()
   if (isZoneEnabled("elysium")) then
     self:spawnMobiles()
     self:spawnSceneObjects()
+    self:spawnActiveAreas()
   end
 end
 
