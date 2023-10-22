@@ -9,8 +9,8 @@ light_jedi_padawan_g = Creature:new {
 	damageMin = 1845,
 	damageMax = 2800,
 	baseXp = 25266,
-	baseHAM = 261000,
-	baseHAMmax = 320000,
+	baseHAM = 10000,
+	baseHAMmax = 20000,
 	armor = 1,
 	-- {kinetic, energy, electric, stun, blast, heat, cold, acid, ls}
 	resists = {75,75,75,75,75,75,75,75,-1},

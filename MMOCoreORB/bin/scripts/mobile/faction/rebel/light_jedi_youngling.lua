@@ -10,7 +10,7 @@ light_jedi_youngling = Creature:new {
 	damageMax = 280,
 	baseXp = 25266,
 	baseHAM = 1000,
-	baseHAMmax = 20000,
+	baseHAMmax = 10000,
 	armor = 1,
 	-- {kinetic, energy, electric, stun, blast, heat, cold, acid, ls}
 	resists = {75,75,75,75,75,75,75,75,-1},
