@@ -306,7 +306,7 @@ function ElysiumVisionScreenPlay:spawnMobiles()
 end
 
 
-function elysium_vision:spawnActiveArea1()
+function ElysiumVisionScreenPlay:spawnActiveArea1()
   local pSpawnArea1 = spawnSceneObject("elysium", "object/active_area.iff", 5033, 27, 4810, 0, 590000069) --33.6, 27, -189.7, 590000069
     
   if (pSpawnArea1 ~= nil) then
@@ -317,7 +317,7 @@ function elysium_vision:spawnActiveArea1()
       end
 end
 
-function elysium_vision:notifySpawnArea1(pActiveArea1, pMovingObject, pPlayer)
+function ElysiumVisionScreenPlay:notifySpawnArea1(pActiveArea1, pMovingObject, pPlayer)
   
   if (not SceneObject(pMovingObject):isPlayerCreature()) then
     return 0
