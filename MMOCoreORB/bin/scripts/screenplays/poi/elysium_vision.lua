@@ -291,9 +291,9 @@ function ElysiumVisionScreenPlay:spawnMobiles()
   self:setMoodString(pNpc, "neutral")
   
   
-  pNpc = spawnMobile("elysium", "cin_drallig",60,29.9,23.0,-29.6,-179,590000049)
+  pNpc = spawnMobile("elysium", "cin_drallig",60,27.9,23.0,-19.0,-179,590000049)
   self:setMoodString(pNpc, "neutral")
-  pNpc = spawnMobile("elysium", "anakin_skywalker",60,30.3,23.0,-35.3,0,590000049)
+  pNpc = spawnMobile("elysium", "anakin_skywalker",60,27.9,23.0,-42.1,0,590000049)
   self:setMoodString(pNpc, "neutral")
   
   
