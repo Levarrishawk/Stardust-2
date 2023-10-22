@@ -305,7 +305,7 @@ function ElysiumVisionScreenPlay:spawnMobiles()
 end
 
 function elysium_vision:spawnActiveAreas()
-
+  self:spawnActiveArea1()
 end
 
 function elysium_vision:spawnActiveArea1()
