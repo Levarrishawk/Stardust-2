@@ -10,7 +10,7 @@ function ElysiumVisionScreenPlay:start()
   if (isZoneEnabled("elysium")) then
     self:spawnMobiles()
     self:spawnSceneObjects()
-    self:spawnActiveAreas()
+    self:spawnActiveArea1()
   end
 end
 
@@ -305,9 +305,6 @@ function ElysiumVisionScreenPlay:spawnMobiles()
   
 end
 
-function elysium_vision:spawnActiveAreas()
-  self:spawnActiveArea1()
-end
 
 function elysium_vision:spawnActiveArea1()
   local pSpawnArea1 = spawnSceneObject("elysium", "object/active_area.iff", 5033, 27, 4810, 0, 590000069) --33.6, 27, -189.7, 590000069
