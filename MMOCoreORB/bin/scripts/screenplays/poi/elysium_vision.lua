@@ -313,7 +313,7 @@ function ElysiumVisionScreenPlay:spawnActiveArea1()
     local activeArea1 = LuaActiveArea(pSpawnArea1)
           activeArea1:setCellObjectID(480000038)
           activeArea1:setRadius(512)
-          createObserver(ENTEREDAREA, "elysium_vision", "notifySpawnArea1", pSpawnArea1)          
+          createObserver(ENTEREDAREA, "ElysiumVisionScreenPlay", "notifySpawnArea1", pSpawnArea1)          
       end
 end
 
