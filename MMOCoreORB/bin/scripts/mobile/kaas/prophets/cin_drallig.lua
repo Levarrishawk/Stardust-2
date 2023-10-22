@@ -31,7 +31,7 @@ cin_drallig = Creature:new {
   
   templates = {
     "object/mobile/tatooine_npc/hedon_istee.iff"},
-  outfit = "luke_skywalker_outfit",
+  outfit = "cin_drallig_outfit",
   lootGroups = {
       {
       groups = {
