@@ -2094,9 +2094,9 @@ schematics = {
   {path="object/draft_schematic/armored_clothing/wke_shoulder_pad_s01_armored.iff"},
 
   {path="object/draft_schematic/armored_clothing/wke_gloves_s01_armored.iff"},
-  {path="object/draft_schematic/armored_clothing/wke_gloves_s01_armored.iff"},
-  {path="object/draft_schematic/armored_clothing/wke_gloves_s01_armored.iff"},
-  {path="object/draft_schematic/armored_clothing/wke_gloves_s01_armored.iff"},
+  {path="object/draft_schematic/armored_clothing/wke_gloves_s02_armored.iff"},
+  {path="object/draft_schematic/armored_clothing/wke_gloves_s03_armored.iff"},
+  {path="object/draft_schematic/armored_clothing/wke_gloves_s04_armored.iff"},
 
   {path="object/draft_schematic/armored_clothing/armor_segment_armor_weaver_advanced.iff"},
   
@@ -2169,6 +2169,9 @@ schematics = {
   {path="object/draft_schematic/weapon/2h_sword_kashyyk.iff"},
   {path="object/draft_schematic/weapon/2h_sword_kun_massassi.iff"},
   {path="object/draft_schematic/weapon/2h_sword_sith.iff"},
+  --{path="object/draft_schematic/weapon/lightsaber/lightsaber_one_hand_unstable_gen3.iff"},
+  --{path="object/draft_schematic/weapon/lightsaber/lightsaber_two_hand_unstable_gen3.iff"},
+  --{path="object/draft_schematic/weapon/lightsaber/lightsaber_polearm_unstable_gen3.iff"},
   --{path="object/draft_schematic/weapon/lightsaber/lightsaber_one_hand_unstable_gen4.iff"},
   --{path="object/draft_schematic/weapon/lightsaber/lightsaber_two_hand_unstable_gen4.iff"},
   --{path="object/draft_schematic/weapon/lightsaber/lightsaber_polearm_unstable_gen4.iff"},
@@ -2178,7 +2181,7 @@ schematics = {
   {path="object/draft_schematic/armor/armor_appearance_stormtrooper_boots.iff"},
   {path="object/draft_schematic/armor/armor_appearance_stormtrooper_bracer_r.iff"},
   {path="object/draft_schematic/armor/armor_appearance_stormtrooper_bracer_l.iff"},
-  {path="object/draft_schematic/armor/armor_appearance_stormtrooper_chest_plate.iff"},
+  --{path="object/draft_schematic/armor/armor_appearance_stormtrooper_chest_plate.iff"},
   {path="object/draft_schematic/armor/armor_appearance_stormtrooper_gloves.iff"},
   {path="object/draft_schematic/armor/armor_appearance_stormtrooper_helmet.iff"},
   {path="object/draft_schematic/armor/armor_appearance_stormtrooper_leggings.iff"},
