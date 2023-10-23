@@ -206,9 +206,10 @@ void EntertainingSessionImplementation::addHealingXpGroup(int xp) {
 				if (groupMember->isEntertaining() && groupMember->isInRange(entertainer, 40.0f)
 					&& groupMember->hasSkill("social_entertainer_novice")) {
 					String healxptype("entertainer_healing");
+					int newxp = (xp * 10);
 
 					if (playerManager != nullptr)
-						playerManager->awardExperience(groupMember, healxptype, xp, true);
+						playerManager->awardExperience(groupMember, healxptype, newxp, true);
 				}
 			}
 		} catch (Exception& e) {

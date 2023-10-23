@@ -991,7 +991,7 @@ void CreatureManagerImplementation::harvest(Creature* creature, CreatureObject* 
 
 	ManagedReference<PlayerManager*> playerManager = zoneServer->getPlayerManager();
 
-	int xp = creature->getLevel() * 5 + 19;
+	int xp = creature->getLevel() * 20 + 19;
 
 	if(playerManager != nullptr)
 		playerManager->awardExperience(player, "scout", xp, true);
