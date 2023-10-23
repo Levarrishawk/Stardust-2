@@ -57,6 +57,7 @@ includeFile("tangible/component/munition/serverobjects.lua")
 includeFile("tangible/component/structure/serverobjects.lua")
 includeFile("tangible/component/vehicle/serverobjects.lua")
 includeFile("tangible/component/weapon/serverobjects.lua")
+includeFile("tangible/component/armored_clothing/serverobjects.lua")
 
 -- Server Objects
 includeFile("tangible/component/barrel_blaster.lua")
