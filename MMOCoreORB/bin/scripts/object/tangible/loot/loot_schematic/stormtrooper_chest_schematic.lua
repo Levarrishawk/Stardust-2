@@ -46,7 +46,7 @@ object_tangible_loot_loot_schematic_stormtrooper_chest_schematic = object_tangib
 	objectMenuComponent = "LootSchematicMenuComponent",
 	attributeListComponent = "LootSchematicAttributeListComponent",
 	requiredSkill = "crafting_armorsmith_master",
-	targetDraftSchematic = "object/draft_schematic/armor/armor_appearance_stormtrooper_chest.iff",
+	targetDraftSchematic = "object/draft_schematic/armor/armor_appearance_stormtrooper_chest_plate.iff",
 	targetUseCount = 1
 }
 
