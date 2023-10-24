@@ -31,7 +31,7 @@ function buffTerminalMenuComponent:handleObjectMenuSelect(pSceneObject, pPlayer,
 	elseif selectedID == 21 then
 	
 	  local sui = SuiMessageBox.new("buffTerminalMenuComponent", "handleWoundChoice")
-    sui.setPrompt("It will cost 25000 Credits to heal your wounds. This is generally provided much cheaper by Entertainers.  Do you wish to proceed?")
+    sui.setPrompt("It will cost 5000 Credits to heal your wounds. This is generally provided much cheaper by Entertainers.  Do you wish to proceed?")
     sui.setTitle("Medical Enhancement Droid")
     sui.setCancelButtonText("Cancel") -- Cancel  
     sui.setOkButtonText("OK") -- OK   
@@ -77,7 +77,7 @@ function buffTerminalMenuComponent:handleWoundChoice(pPlayer, pSui, eventIndex, 
   
   if (cancelPressed) then   
     return 
-  elseif (CreatureObject(pPlayer):getCashCredits() < 25000) then
+  elseif (CreatureObject(pPlayer):getCashCredits() < 5000) then
     CreatureObject(pPlayer):sendSystemMessage("You do not have enough credits on hand to pay the droid.")
     return   
   elseif (eventIndex == 0) then -- Heal Wounds
@@ -87,7 +87,7 @@ function buffTerminalMenuComponent:handleWoundChoice(pPlayer, pSui, eventIndex, 
       
     end
     CreatureObject(pPlayer):playMusicMessage("sound/vo_meddroid_01.snd")
-    CreatureObject(pPlayer):subtractCashCredits(25000)
+    CreatureObject(pPlayer):subtractCashCredits(5000)
     CreatureObject(pPlayer):sendSystemMessage("You successfully make a payment of 25000 credits.")
   end
 
