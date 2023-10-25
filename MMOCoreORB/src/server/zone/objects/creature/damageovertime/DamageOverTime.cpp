@@ -268,7 +268,11 @@ uint32 DamageOverTime::doFireTick(CreatureObject* victim, CreatureObject* attack
 		victimRef->playEffect("clienteffect/dot_fire.cef","");
 	}, "FireTickLambda");
 
-	return damage;
+	if (victim->isPlayerCreature()){
+		return damage * 0.5;
+	} else {
+		return damage;
+	}
 }
 
 uint32 DamageOverTime::doPoisonTick(CreatureObject* victim, CreatureObject* attacker) {
@@ -301,8 +305,11 @@ uint32 DamageOverTime::doPoisonTick(CreatureObject* victim, CreatureObject* atta
 
 		victimRef->playEffect("clienteffect/dot_poisoned.cef","");
 	}, "PoisonTickLambda");
-
-	return damage;
+	if (victim->isPlayerCreature()){
+		return damage * 0.5;
+	} else {
+		return damage;
+	}
 }
 
 uint32 DamageOverTime::doDiseaseTick(CreatureObject* victim, CreatureObject* attacker) {
@@ -345,7 +352,11 @@ uint32 DamageOverTime::doDiseaseTick(CreatureObject* victim, CreatureObject* att
 		victimRef->playEffect("clienteffect/dot_diseased.cef","");
 	}, "DiseaseTickLambda");
 
-	return damage;
+	if (victim->isPlayerCreature()){
+		return damage * 0.5;
+	} else {
+		return damage;
+	}
 }
 
 uint32 DamageOverTime::doForceChokeTick(CreatureObject* victim, CreatureObject* attacker) {
