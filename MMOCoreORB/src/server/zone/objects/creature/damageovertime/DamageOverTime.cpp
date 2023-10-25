@@ -239,7 +239,7 @@ uint32 DamageOverTime::doFireTick(CreatureObject* victim, CreatureObject* attack
 	int maxWoundsToApply = victim->getBaseHAM(attribute) - 1 - victim->getWounds(attribute);
 
 	if (victim->isPlayerCreature()){
-		woundsToApply = (Math::min(woundsToApply, maxWoundsToApply) * 0.15);
+		woundsToApply = (Math::min(woundsToApply, maxWoundsToApply) * 0.25);
 	} else {
 	woundsToApply = Math::min(woundsToApply, maxWoundsToApply);
 	}
