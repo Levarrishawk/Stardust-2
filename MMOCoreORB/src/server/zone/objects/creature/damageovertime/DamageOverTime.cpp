@@ -213,8 +213,11 @@ uint32 DamageOverTime::doBleedingTick(CreatureObject* victim, CreatureObject* at
 
 		victimRef->playEffect("clienteffect/dot_bleeding.cef","");
 	}, "BleedTickLambda");
-
+	if (victim->isPlayerCreature()){
+		return damage * 0.5;
+	} else {
 	return damage;
+	}
 }
 
 uint32 DamageOverTime::doFireTick(CreatureObject* victim, CreatureObject* attacker) {
