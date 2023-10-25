@@ -238,7 +238,11 @@ uint32 DamageOverTime::doFireTick(CreatureObject* victim, CreatureObject* attack
 	int woundsToApply = (int)(secondaryStrength * ((100.f + victim->getShockWounds()) / 75.f));
 	int maxWoundsToApply = victim->getBaseHAM(attribute) - 1 - victim->getWounds(attribute);
 
+	if (victim->isPlayerCreature()){
+		woundsToApply = (Math::min(woundsToApply, maxWoundsToApply) * 0.15);
+	} else {
 	woundsToApply = Math::min(woundsToApply, maxWoundsToApply);
+	}
 
 	Reference<CreatureObject*> attackerRef = attacker;
 	Reference<CreatureObject*> victimRef = victim;
