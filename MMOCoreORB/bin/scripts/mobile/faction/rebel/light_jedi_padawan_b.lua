@@ -10,8 +10,8 @@ light_jedi_padawan_b = Creature:new {
 	damageMax = 2800,
 	baseXp = 25266,
 	baseHAM = 10000,
-	baseHAMmax = 20000,
-	armor = 1,
+	baseHAMmax = 50000,
+	armor = 2,
 	-- {kinetic, energy, electric, stun, blast, heat, cold, acid, ls}
 	resists = {75,75,75,75,75,75,75,75,-1},
 	meatType = "",
