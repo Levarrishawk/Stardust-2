@@ -269,7 +269,7 @@ uint32 DamageOverTime::doFireTick(CreatureObject* victim, CreatureObject* attack
 	}, "FireTickLambda");
 
 	if (victim->isPlayerCreature()){
-		return damage * 0.5;
+		return damage * 0.2;
 	} else {
 		return damage;
 	}
