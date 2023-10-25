@@ -216,7 +216,7 @@ public:
 		int xp = DnaManager::instance()->generateXp(cl);
 		ManagedReference<PlayerManager*> playerManager = player->getZoneServer()->getPlayerManager();
 		if(playerManager != nullptr)
-			playerManager->awardExperience(player, "bio_engineer_dna_harvesting", xp, true);
+			playerManager->awardExperience(player, "bio_engineer_dna_harvesting", xp * 10, true);
 		int quality = 0;
 		// generate quality based on skill
 		int luckRoll = System::random(100);
