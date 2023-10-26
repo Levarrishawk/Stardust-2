@@ -61,7 +61,7 @@ void CharacterBuilderTerminalImplementation::sendInitialChoices(CreatureObject* 
 void CharacterBuilderTerminalImplementation::enhanceCharacter(CreatureObject* player) {
 	PlayerManager* pm = player->getZoneServer()->getPlayerManager();
 
-	pm->enhanceCharacter(player);
+	pm->enhanceCharacterFrog(player);
 
 	ManagedReference<PlayerObject*> ghost = player->getPlayerObject();
 
@@ -74,7 +74,7 @@ void CharacterBuilderTerminalImplementation::enhanceCharacter(CreatureObject* pl
 		if (pet != nullptr) {
 			Locker crossLocker(pet, player);
 
-			pm->enhanceCharacter(pet);
+			pm->enhanceCharacterFrog(pet);
 		}
 	}
 }
