@@ -1129,8 +1129,9 @@ float CombatManager::calculateDamage(CreatureObject* attacker, WeaponObject* wea
 	// Force Defense skillmod damage reduction
 	if (data.isForceAttack()) {
 		int forceDefense = defender->getSkillMod("force_defense");
-
-		if (forceDefense > 0)
+		int forceShield = defender->getSkillMod("force_shield");
+		
+		if (forceDefense > 0 && forceShield <= 0)
 			damage *= 1.f / (1.f + ((float)forceDefense / 100.f));
 	}
 
