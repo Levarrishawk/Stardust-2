@@ -53,11 +53,11 @@ object_tangible_medicine_crafted_medpack_enhance_disease_c = object_tangible_med
 
 	numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 2, 1},
 	experimentalProperties = {"XX", "XX", "OQ", "PE", "OQ", "PE", "OQ", "UT", "DR", "OQ", "OQ", "PE", "XX"},
-	experimentalWeights = {1, 1, 2, 1, 2, 1, 2, 1, 1, 1, 2, 1, 1},
+	experimentalWeights = {1, 1, 2, 1, 2, 1, 2, 1, 1, 1, 0, 1, 1},
 	experimentalGroupTitles = {"null", "null", "exp_effectiveness", "expAbsorption", "exp_charges", "expDuration", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "power", "absorption", "charges", "duration", "skillmodmin", "hitpoints"},
-	experimentalMin = {0, 0, 17, 0, 5, 1200, 100, 1000},
-	experimentalMax = {0, 0, 160, 25, 25, 4800, 100, 1000},
+	experimentalMin = {0, 0, 17, 0, 5, 12600, 100, 1000},
+	experimentalMax = {0, 0, 160, 25, 25, 12600, 100, 1000},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 4},
 }
