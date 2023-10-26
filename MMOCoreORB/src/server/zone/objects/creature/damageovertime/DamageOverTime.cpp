@@ -397,7 +397,7 @@ uint32 DamageOverTime::doForceChokeTick(CreatureObject* victim, CreatureObject* 
 			float armorReduction =  CombatManager::instance()->getArmorObjectReduction(psg, SharedWeaponObjectTemplate::LIGHTSABER);
 
 		if (armorReduction > 0)
-			chokeDam *= 1.f - (armorReduction / 100.f);  //Alter here to allow choke through armor.
+			chokeDam *= 1.f; // - (armorReduction / 100.f);  //Alter here to allow choke through armor.
 
 		}
 
