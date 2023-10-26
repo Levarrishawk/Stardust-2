@@ -51,7 +51,7 @@ class CharacterBuilderTerminal extends Terminal {
 	 * @post { player is locked }
 	 */
 	public native void enhanceCharacter(CreatureObject player);
-
+	
 	/**
 	 * Grants badges to the player to make them glowy in the village jedi progression system
 	 * @pre { player is locked }
