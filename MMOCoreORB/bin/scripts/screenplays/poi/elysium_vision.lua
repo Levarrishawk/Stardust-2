@@ -73,7 +73,7 @@ function ElysiumVisionScreenPlay:spawnSceneObjects()
   spawnSceneObject("elysium", "object/tangible/furniture/city/statue_sentinel_02.iff", -7.9, 21, -43.2, 590000048, math.rad(35) ) 
   spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", 32.3 , 24, -25.9, 590000049, math.rad(0) )
   spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", 32.3 , 22.5, -25.9, 590000049, math.rad(0) )
-  spawnSceneObject("elysium", "object/static/structure/corellia/corl_fountain_circle_s01.iff", 0.0 , 21.0, -32.4, 590000048, math.rad(0) )
+ -- spawnSceneObject("elysium", "object/static/structure/corellia/corl_fountain_circle_s01.iff", 0.0 , 21.0, -32.4, 590000048, math.rad(0) )
   spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03_lit.iff", 5.6 , 21.0, -21.2, 590000048, math.rad(0) )
   spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03_lit.iff", -5.6 , 21.0, -21.2, 590000048, math.rad(0) )
   
