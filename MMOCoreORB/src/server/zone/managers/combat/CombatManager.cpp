@@ -1218,7 +1218,7 @@ float CombatManager::calculateDamage(TangibleObject* attacker, WeaponObject* wea
 	damage += defender->getSkillMod("private_damage_susceptibility");
 
 	if (defender->isKnockedDown())
-		damage *= 1.5f;
+		damage *= 1.1f;
 
 	// Toughness reduction
 	damage = getDefenderToughnessModifier(defender, weapon->getAttackType(), weapon->getDamageType(), damage);
