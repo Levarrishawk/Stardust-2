@@ -1181,7 +1181,7 @@ float CombatManager::calculateDamage(CreatureObject* attacker, WeaponObject* wea
 		damage += System::random(diff);
 
 	damage = applyDamageModifiers(attacker, weapon, damage, data);
-
+// Curious statements.  Maybe a place to change down the road.
 	if (attacker->isPlayerCreature())
 		damage *= 1.5;
 
@@ -2115,11 +2115,11 @@ float CombatManager::getDefenderToughnessModifier(CreatureObject* defender, int 
 	int saberToughness = defender->getSkillMod("lightsaber_toughness");
 
 	if (damType != SharedWeaponObjectTemplate::LIGHTSABER && jediToughness > 0 && forceArmor <= 0){
-		damage *= 1.f - (jediToughness / 80.f);
+		damage *= 1.f - (jediToughness / 75.f);
 	}
 
 	 if (damType == SharedWeaponObjectTemplate::LIGHTSABER && saberToughness > 0 && forceArmor <= 0){
-		damage *= 1.f - (saberToughness / 200.f);
+		damage *= 1.f - (saberToughness / 180.f);
 	}
 
 	return damage < 0 ? 0 : damage;
