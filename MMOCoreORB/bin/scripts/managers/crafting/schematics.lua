@@ -2091,7 +2091,7 @@ schematics = {
   {path="object/draft_schematic/armored_clothing/wke_hood_s03_armored.iff"},
 
   {path="object/draft_schematic/armored_clothing/wke_shoulder_pad_s01_armored.iff"},
-  {path="object/draft_schematic/armored_clothing/wke_shoulder_pad_s01_armored.iff"},
+  {path="object/draft_schematic/armored_clothing/wke_shoulder_pad_s02_armored.iff"},
 
   {path="object/draft_schematic/armored_clothing/wke_gloves_s01_armored.iff"},
   {path="object/draft_schematic/armored_clothing/wke_gloves_s02_armored.iff"},
