@@ -48,6 +48,7 @@ includeFile("items/treasure_map.lua")
 includeFile("items/viewscreen_printer.lua")
 includeFile("items/viewscreen_reader.lua")
 includeFile("items/custom/chiss_backpack.lua")
+includeFile("items/custom/looted_unstable_crystal_pack.lua")
 
 --armor sub-folder
 includeFile("items/armor/bh_armor_belt.lua")
@@ -1638,6 +1639,13 @@ includeFile("items/loot_schematic/weapon_schematic/som_two_handed_sword_tulrus_s
 includeFile("items/loot_schematic/weapon_schematic/two_handed_sword_kashyyk_schematic.lua")
 includeFile("items/loot_schematic/weapon_schematic/two_handed_sword_kun_massassi_schematic.lua")
 includeFile("items/loot_schematic/weapon_schematic/two_handed_sword_sith_schematic.lua")
+includeFile("items/loot_schematic/weapon_schematic/lightsaber_one_hand_unstable_gen3_schematic.lua")
+includeFile("items/loot_schematic/weapon_schematic/lightsaber_two_hand_unstable_gen3_schematic.lua")
+includeFile("items/loot_schematic/weapon_schematic/lightsaber_polearm_unstable_gen3_schematic.lua")
+includeFile("items/loot_schematic/weapon_schematic/lightsaber_one_hand_unstable_gen4_schematic.lua")
+includeFile("items/loot_schematic/weapon_schematic/lightsaber_two_hand_unstable_gen4_schematic.lua")
+includeFile("items/loot_schematic/weapon_schematic/lightsaber_polearm_unstable_gen4_schematic.lua")
+
 
 -- TCG Series 1 Decor
 includeFile("items/furniture/decorative_bas_relief.lua")

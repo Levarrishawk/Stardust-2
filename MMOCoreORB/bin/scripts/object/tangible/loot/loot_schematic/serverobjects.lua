@@ -44,6 +44,7 @@
 
 --Children folder includes
 includeFile("tangible/loot/loot_schematic/weapon_schematic/serverobjects.lua")
+includeFile("tangible/loot/loot_schematic/lightsaber/serverobjects.lua")
 
 -- Server Objects
 includeFile("tangible/loot/loot_schematic/agitator_motor_schematic.lua")
