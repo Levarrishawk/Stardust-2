@@ -107,7 +107,7 @@ object_tangible_wearables_armor_mandalorian_armor_mandalorian_helmet = object_ta
 	heat = 70,
 	cold = 70,
 	acid = 70,
-	lightSaber = 15,
+	lightSaber = 70,
 
   numberExperimentalProperties = {1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 2, 1},
   experimentalProperties = {"XX", "XX", "XX", "XX", "OQ", "SR", "OQ", "UT", "MA", "OQ", "MA", "OQ", "XX", "XX", "XX", "XX", "OQ", "SR", "XX"},
