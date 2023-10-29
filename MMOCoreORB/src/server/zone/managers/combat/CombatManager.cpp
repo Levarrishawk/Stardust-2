@@ -2115,11 +2115,11 @@ float CombatManager::getDefenderToughnessModifier(CreatureObject* defender, int 
 	int saberToughness = defender->getSkillMod("lightsaber_toughness");
 
 	if (damType != SharedWeaponObjectTemplate::LIGHTSABER && jediToughness > 0 && forceArmor <= 0){
-		damage *= 1.f - (jediToughness / 75.f);
+		damage *= 1.f - (jediToughness / 78.f);
 	}
 
 	 if (damType == SharedWeaponObjectTemplate::LIGHTSABER && saberToughness > 0 && forceArmor <= 0){
-		damage *= 1.f - (saberToughness / 180.f);
+		damage *= 1.f - (saberToughness / 150.f);
 	}
 
 	return damage < 0 ? 0 : damage;

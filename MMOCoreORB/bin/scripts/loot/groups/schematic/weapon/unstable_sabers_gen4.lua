@@ -5,9 +5,9 @@ unstable_sabers_gen4 = {
 	minimumLevel = 0,
 	maximumLevel = 0,
 	lootItems = {
-		{itemTemplate = "lightsaber_one_hand_unstable_gen4_schematic", weight = 4000000},
-		{itemTemplate = "lightsaber_two_hand_unstable_gen4_schematic", weight = 5900000},
-		{groupTemplate = "lightsaber_polearm_unstable_gen4_schematic", weight =  100000}
+		{itemTemplate = "lightsaber_one_hand_unstable_gen4_schematic", weight = 3400000},
+		{itemTemplate = "lightsaber_two_hand_unstable_gen4_schematic", weight = 3300000},
+		{groupTemplate = "lightsaber_polearm_unstable_gen4_schematic", weight = 3300000}
 	}
 }
 
