@@ -45,7 +45,7 @@ ForceLightningCone2Command = {
 	name = "forcelightningcone2",
 
   minDamage = 900,
-  maxDamage = 1450,
+  maxDamage = 1650,
   speed = 2.0,
   forceCost = 70,
   forceCostMultiplier = 1,

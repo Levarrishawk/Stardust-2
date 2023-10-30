@@ -1129,17 +1129,18 @@ float CombatManager::calculateDamage(CreatureObject* attacker, WeaponObject* wea
 	// Force Defense skillmod damage reduction
 	if (data.isForceAttack()) {
 		int forceDefense = defender->getSkillMod("force_defense");
-
-		if (forceDefense > 0)
+		int forceShield = defender->getSkillMod("force_shield");
+		
+		if (forceDefense > 0 && forceShield <= 0)
 			damage *= 1.f / (1.f + ((float)forceDefense / 100.f));
 	}
 
 	// PvP Damage Reduction.
 	if (attacker->isPlayerCreature() && defender->isPlayerCreature() && !data.isForceAttack()){
 		if (weapon->getDamageType() == SharedWeaponObjectTemplate::LIGHTSABER)
-			damage *= 0.40;
+			damage *= 0.7; // 0.40
 		else
-			damage *= 0.70;
+			damage *= 0.7; // 0.70
 		}
 	if (damage < 1)
 		damage = 1;
@@ -1180,7 +1181,7 @@ float CombatManager::calculateDamage(CreatureObject* attacker, WeaponObject* wea
 		damage += System::random(diff);
 
 	damage = applyDamageModifiers(attacker, weapon, damage, data);
-
+// Curious statements.  Maybe a place to change down the road.
 	if (attacker->isPlayerCreature())
 		damage *= 1.5;
 
@@ -1217,7 +1218,7 @@ float CombatManager::calculateDamage(TangibleObject* attacker, WeaponObject* wea
 	damage += defender->getSkillMod("private_damage_susceptibility");
 
 	if (defender->isKnockedDown())
-		damage *= 1.5f;
+		damage *= 1.1f;
 
 	// Toughness reduction
 	damage = getDefenderToughnessModifier(defender, weapon->getAttackType(), weapon->getDamageType(), damage);
@@ -1595,7 +1596,7 @@ void CombatManager::applyDots(CreatureObject* attacker, CreatureObject* defender
 		for (int j = 0; j < defenseMods.size(); j++)
 			resist += defender->getSkillMod(defenseMods.get(j));
 
-		int damageToApply = appliedDamage;
+		int damageToApply = appliedDamage * 0.25;
 		uint32 dotType = effect.getDotType();
 
 		if (effect.isDotDamageofHit()) {
@@ -2110,8 +2111,16 @@ float CombatManager::getDefenderToughnessModifier(CreatureObject* defender, int 
 	}
 
 	int jediToughness = defender->getSkillMod("jedi_toughness");
-	if (damType != SharedWeaponObjectTemplate::LIGHTSABER && jediToughness > 0)
-		damage *= 1.f - (jediToughness / 100.f);
+	int forceArmor = defender->getSkillMod("force_armor");
+	int saberToughness = defender->getSkillMod("lightsaber_toughness");
+
+	if (damType != SharedWeaponObjectTemplate::LIGHTSABER && jediToughness > 0 && forceArmor <= 0){
+		damage *= 1.f - (jediToughness / 78.f);
+	}
+
+	 if (damType == SharedWeaponObjectTemplate::LIGHTSABER && saberToughness > 0 && forceArmor <= 0){
+		damage *= 1.f - (saberToughness / 150.f);
+	}
 
 	return damage < 0 ? 0 : damage;
 }

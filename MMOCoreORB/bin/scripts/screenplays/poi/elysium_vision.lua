@@ -10,6 +10,7 @@ function ElysiumVisionScreenPlay:start()
   if (isZoneEnabled("elysium")) then
     self:spawnMobiles()
     self:spawnSceneObjects()
+    self:spawnActiveArea1()
   end
 end
 
@@ -72,7 +73,7 @@ function ElysiumVisionScreenPlay:spawnSceneObjects()
   spawnSceneObject("elysium", "object/tangible/furniture/city/statue_sentinel_02.iff", -7.9, 21, -43.2, 590000048, math.rad(35) ) 
   spawnSceneObject("elysium", "object/static/particle/pt_smoke_large.iff", 32.3 , 24, -25.9, 590000049, math.rad(0) )
   spawnSceneObject("elysium", "object/static/particle/pt_fire_huge_smokeless.iff", 32.3 , 22.5, -25.9, 590000049, math.rad(0) )
-  spawnSceneObject("elysium", "object/static/structure/corellia/corl_fountain_circle_s01.iff", 0.0 , 21.0, -32.4, 590000048, math.rad(0) )
+ -- spawnSceneObject("elysium", "object/static/structure/corellia/corl_fountain_circle_s01.iff", 0.0 , 21.0, -32.4, 590000048, math.rad(0) )
   spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03_lit.iff", 5.6 , 21.0, -21.2, 590000048, math.rad(0) )
   spawnSceneObject("elysium", "object/tangible/furniture/all/frn_all_lamp_free_s03_lit.iff", -5.6 , 21.0, -21.2, 590000048, math.rad(0) )
   
@@ -154,12 +155,172 @@ end
 
 function ElysiumVisionScreenPlay:spawnMobiles()
 
-  --[[
-  local pNpc = spawnMobile("kaas", "chandriltech_security_guard",60,-79.6,15.6,4679.7,-13,0)
+
+  local pNpc = spawnMobile("elysium", "light_jedi_youngling",60,13.7,27.0,-173.0,90,590000068)
   self:setMoodString(pNpc, "neutral")
-  pNpc = spawnMobile("kaas", "chandriltech_security_guard",60,-85.8,15.6,4679.7,-13,0)
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,7.2,27.0,-172.7,90,590000067)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,6.6,27.0,-174.7,90,590000067)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,7.1,27.0,-171.0,90,590000067)
   self:setMoodString(pNpc, "neutral")
   
---]]
+  pNpc = spawnMobile("elysium", "light_jedi_padawan_g",60,26.8,27.0,-171.7,70,590000068)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,35.5,27.0,-173.6,-65,590000068)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,33.1,27.0,-176.0,-46,590000068)
+  self:setMoodString(pNpc, "neutral")
+  
+   pNpc = spawnMobile("elysium", "light_jedi_padawan_b",60,-0.6,27.0,-162.3,-16,590000067)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,2.1,27.0,-170.0,-4,590000067)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-0.5,27.0,-168.7,1,590000067)
+  self:setMoodString(pNpc, "neutral")
+  
+  pNpc = spawnMobile("elysium", "light_jedi_consular",60,0.4,27.0,-146.0,0,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,0.2,27.0,-156.7,0,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-4.5,27.0,-154.7,37,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-7.9,27.0,-148.1,90,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-5.5,27.0,-139.7,135,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-1.5,27.0,-139.0,167,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,5.4,27.0,-140.6,-147,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,9.4,27.0,-147.7,-90,590000053)
+  self:setMoodString(pNpc, "neutral")
+  
+  pNpc = spawnMobile("elysium", "light_jedi_knight",60,0.2,27.0,-120.1,-12,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "light_jedi_padawan_g",60,2.8,27.0,-119.1,23,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-2.8,27.0,-126.3,11,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,3.9,27.0,-127.0,-11,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,7.2,27.0,-121.3,0,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-5.5,27.0,-121.3,0,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,7.2,27.0,-111.3,0,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-5.5,27.0,-111.3,0,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,7.2,27.0,-101.3,0,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-5.5,27.0,-101.3,0,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,7.2,27.0,-91.3,0,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-5.5,27.0,-91.3,0,590000053)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,0.2,27.0,-88.8,180,590000053)
+  self:setMoodString(pNpc, "neutral")
+  
+  pNpc = spawnMobile("elysium", "light_jedi_youngling",60,51.0,33.0,-92.8,-90,590000055)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "light_jedi_youngling",60,50.0,33.0,-96.2,-90,590000055)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "light_jedi_youngling",60,50.2,33.0,-90.3,-90,590000055)
+  self:setMoodString(pNpc, "neutral")
+  
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,35.6,33.0,-96.2,81,590000055)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,35.0,33.0,-91.8,96,590000055)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,34.0,33.0,-93.9,85,590000055)
+  self:setMoodString(pNpc, "neutral")
+  
+  pNpc = spawnMobile("elysium", "light_jedi_padawan_b",60,1.6,27.0,-68.8,-178,590000052)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "light_jedi_padawan_g",60,-1.6,27.0,-70.0,168,590000052)
+  self:setMoodString(pNpc, "neutral")
+  
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,2.4,27.0,-81.6,-10,590000052)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,1.0,27.0,-81.9,-8,590000052)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-1.1,27.0,-81.7,8,590000052)
+  self:setMoodString(pNpc, "neutral")
+  
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-19.6,27.0,-67.1,-89,590000051)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-19.5,27.0,-69.9,-88,590000051)
+  self:setMoodString(pNpc, "neutral")
+  
+  pNpc = spawnMobile("elysium", "light_jedi_padawan_g",60,-32.3,27.0,-69.4,39,590000051)
+  self:setMoodString(pNpc, "neutral")
+  
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-33.4,27.0,-58.4,175,590000051)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-30.9,27.0,-58.5,178,590000051)
+  self:setMoodString(pNpc, "neutral")
+  
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-31.1,27.0,-48.5,0,590000050)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-33.7,27.0,-48.6,0,590000050)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "light_jedi_padawan_b",60,-33.9,27.0,-36.7,3,590000050)
+  self:setMoodString(pNpc, "neutral")
+
+  
+  pNpc = spawnMobile("elysium", "light_jedi_padawan_b",60,-10.0,21.0,-29.6,101,590000048)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "light_jedi_padawan_g",60,12.2,21.0,-36.7,3,590000048)
+  self:setMoodString(pNpc, "neutral")
+  
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,5.6,21.0,-23.1,149,590000048)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,2.8,21.0,-25.4,137,590000048)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,2.8,21.0,-22.9,134,590000048)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,0.0,21.0,-20.5,173,590000048)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-4.4,21.0,-40.9,-28,590000048)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-6.6,21.0,-41.0,-28,590000048)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "clone_trooper_501st",60,-2.5,21.0,-38.4,-33,590000048)
+  self:setMoodString(pNpc, "neutral")
+  
+  
+  pNpc = spawnMobile("elysium", "cin_drallig",60,27.9,23.0,-19.0,-179,590000049)
+  self:setMoodString(pNpc, "neutral")
+  pNpc = spawnMobile("elysium", "anakin_skywalker",60,27.9,23.0,-42.1,0,590000049)
+  self:setMoodString(pNpc, "neutral")
+  
+  
+  
+
   
 end
+
+
+function ElysiumVisionScreenPlay:spawnActiveArea1()
+  local pSpawnArea1 = spawnSceneObject("elysium", "object/active_area.iff", 5033, 27, 4810, 0, 590000069) --33.6, 27, -189.7, 590000069
+    
+  if (pSpawnArea1 ~= nil) then
+    local activeArea1 = LuaActiveArea(pSpawnArea1)
+          activeArea1:setCellObjectID(590000069)
+          activeArea1:setRadius(512)
+          createObserver(ENTEREDAREA, "ElysiumVisionScreenPlay", "notifySpawnArea1", pSpawnArea1)          
+      end
+end
+
+function ElysiumVisionScreenPlay:notifySpawnArea1(pActiveArea1, pMovingObject, pPlayer)
+  
+  if (not SceneObject(pMovingObject):isPlayerCreature()) then
+    return 0
+  else  
+      CreatureObject(pMovingObject):playMusicMessage("sound/mus_order_66.snd")       
+  end
+  return 0  
+end
+

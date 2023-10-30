@@ -26,7 +26,7 @@
 
 #include "server/zone/objects/creature/commands/JediQueueCommand.h"
 #include "server/zone/objects/creature/commands/VillageCommand.h"
-//#include "server/zone/objects/creature/commands/RegrantSkillsCommand.h"
+#include "server/zone/objects/creature/commands/RegrantSkillsCommand.h"
 #include "server/zone/objects/creature/commands/ActionShot1Command.h"
 #include "server/zone/objects/creature/commands/ActionShot2Command.h"
 #include "server/zone/objects/creature/commands/ActivateCloneCommand.h"
@@ -831,5 +831,5 @@ void CommandConfigManager::registerCommands2() {
 	commandFactory.registerCommand<MedicalForageCommand>(String("medicalForage").toLowerCase());
 	commandFactory.registerCommand<MeditateCommand>(String("meditate").toLowerCase());
 	commandFactory.registerCommand<VillageCommand>(String("village").toLowerCase());
-	//commandFactory.registerCommand<RegrantSkillsCommand>(String("regrantSkills").toLowerCase());
+	commandFactory.registerCommand<RegrantSkillsCommand>(String("regrantSkills").toLowerCase());
 }

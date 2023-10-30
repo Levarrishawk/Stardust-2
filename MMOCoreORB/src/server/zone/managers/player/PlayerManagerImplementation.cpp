@@ -1270,7 +1270,8 @@ void PlayerManagerImplementation::killPlayer(TangibleObject* attacker, CreatureO
 	player->sendSystemMessage(stringId);
 
 	player->updateTimeOfDeath();
-	player->clearBuffs(true, false);
+
+	//player->clearBuffs(true, false);
 
 	PlayerObject* ghost = player->getPlayerObject();
 
@@ -5947,7 +5948,7 @@ void PlayerManagerImplementation::enhanceCharacter(CreatureObject* player) {
 	bool message = true;
 
 	message = message && doEnhanceCharacter(0x98321369, player, medicalBuff, medicalDuration, BuffType::MEDICAL, 0); // medical_enhance_health
-	/*
+		/*
 	message = message && doEnhanceCharacter(0x815D85C5, player, medicalBuff, medicalDuration, BuffType::MEDICAL, 1); // medical_enhance_strength
 	message = message && doEnhanceCharacter(0x7F86D2C6, player, medicalBuff, medicalDuration, BuffType::MEDICAL, 2); // medical_enhance_constitution
 	message = message && doEnhanceCharacter(0x4BF616E2, player, medicalBuff, medicalDuration, BuffType::MEDICAL, 3); // medical_enhance_action
@@ -5960,6 +5961,19 @@ void PlayerManagerImplementation::enhanceCharacter(CreatureObject* player) {
 	*/
 	if (message && player->isPlayerCreature())
 		player->sendSystemMessage("Your health has been enhanced.");
+}
+
+void PlayerManagerImplementation::enhanceCharacterFrog(CreatureObject* player) {
+	if (player == nullptr)
+		return;
+
+	bool message = true;
+
+	message = message && doEnhanceCharacter(0x98321369, player, medicalBuff, medicalDuration, BuffType::MEDICAL, 0); // medical_enhance_health
+	message = message && doEnhanceCharacter(0x4BF616E2, player, medicalBuff, medicalDuration, BuffType::MEDICAL, 3); // medical_enhance_action
+
+	if (message && player->isPlayerCreature())
+		player->sendSystemMessage("Your health and action have been enhanced.");
 }
 
 void PlayerManagerImplementation::sendAdminJediList(CreatureObject* player) {

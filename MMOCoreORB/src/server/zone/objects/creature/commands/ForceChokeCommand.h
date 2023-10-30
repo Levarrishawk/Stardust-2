@@ -12,7 +12,7 @@ class ForceChokeCommand : public ForcePowersQueueCommand {
 protected:
 	String skillName = "forcechoke";		// Skill Name
 	String skillNameDisplay = "Force Choke";		// Skill Display Name for output message
-	int delay = 36;
+	int delay = 20;
 
 public:
 

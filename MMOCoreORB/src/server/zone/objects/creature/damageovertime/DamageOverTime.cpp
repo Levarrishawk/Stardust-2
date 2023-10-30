@@ -213,8 +213,11 @@ uint32 DamageOverTime::doBleedingTick(CreatureObject* victim, CreatureObject* at
 
 		victimRef->playEffect("clienteffect/dot_bleeding.cef","");
 	}, "BleedTickLambda");
-
+	if (victim->isPlayerCreature()){
+		return damage * 0.5;
+	} else {
 	return damage;
+	}
 }
 
 uint32 DamageOverTime::doFireTick(CreatureObject* victim, CreatureObject* attacker) {
@@ -235,7 +238,11 @@ uint32 DamageOverTime::doFireTick(CreatureObject* victim, CreatureObject* attack
 	int woundsToApply = (int)(secondaryStrength * ((100.f + victim->getShockWounds()) / 75.f));
 	int maxWoundsToApply = victim->getBaseHAM(attribute) - 1 - victim->getWounds(attribute);
 
+	if (victim->isPlayerCreature()){
+		woundsToApply = (Math::min(woundsToApply, maxWoundsToApply) * 0.25);
+	} else {
 	woundsToApply = Math::min(woundsToApply, maxWoundsToApply);
+	}
 
 	Reference<CreatureObject*> attackerRef = attacker;
 	Reference<CreatureObject*> victimRef = victim;
@@ -265,7 +272,11 @@ uint32 DamageOverTime::doFireTick(CreatureObject* victim, CreatureObject* attack
 		victimRef->playEffect("clienteffect/dot_fire.cef","");
 	}, "FireTickLambda");
 
-	return damage;
+	if (victim->isPlayerCreature()){
+		return damage * 0.2;
+	} else {
+		return damage;
+	}
 }
 
 uint32 DamageOverTime::doPoisonTick(CreatureObject* victim, CreatureObject* attacker) {
@@ -298,8 +309,11 @@ uint32 DamageOverTime::doPoisonTick(CreatureObject* victim, CreatureObject* atta
 
 		victimRef->playEffect("clienteffect/dot_poisoned.cef","");
 	}, "PoisonTickLambda");
-
-	return damage;
+	if (victim->isPlayerCreature()){
+		return damage * 0.5;
+	} else {
+		return damage;
+	}
 }
 
 uint32 DamageOverTime::doDiseaseTick(CreatureObject* victim, CreatureObject* attacker) {
@@ -342,7 +356,11 @@ uint32 DamageOverTime::doDiseaseTick(CreatureObject* victim, CreatureObject* att
 		victimRef->playEffect("clienteffect/dot_diseased.cef","");
 	}, "DiseaseTickLambda");
 
-	return damage;
+	if (victim->isPlayerCreature()){
+		return damage * 0.5;
+	} else {
+		return damage;
+	}
 }
 
 uint32 DamageOverTime::doForceChokeTick(CreatureObject* victim, CreatureObject* attacker) {
@@ -379,7 +397,7 @@ uint32 DamageOverTime::doForceChokeTick(CreatureObject* victim, CreatureObject* 
 			float armorReduction =  CombatManager::instance()->getArmorObjectReduction(psg, SharedWeaponObjectTemplate::LIGHTSABER);
 
 		if (armorReduction > 0)
-			chokeDam *= 1.f - (armorReduction / 100.f);
+			chokeDam *= 1.f; // - (armorReduction / 100.f);  //Alter here to allow choke through armor.
 
 		}
 

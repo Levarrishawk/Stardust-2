@@ -62,16 +62,16 @@ ActionShot2Command = {
   combatSpam = "sapblast",
       
   dotEffects = {
-    DotEffect( 
-    BLEEDING, 
+    DotEffect(  
+    BLEEDING,
     { "resistance_bleeding", "bleed_resist" },
     ACTION,
     true,
     0,
-    400,
-    400, 
+    100,
+    100, 
     60
-    )
+    ),      
   },
   
   weaponType = CARBINEWEAPON,

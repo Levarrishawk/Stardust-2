@@ -7,11 +7,11 @@ light_jedi_youngling = Creature:new {
 	level = 30,
 	chanceHit = 23.5,
 	damageMin = 185,
-	damageMax = 280,
+	damageMax = 580,
 	baseXp = 25266,
 	baseHAM = 1000,
 	baseHAMmax = 20000,
-	armor = 1,
+	armor = 2,
 	-- {kinetic, energy, electric, stun, blast, heat, cold, acid, ls}
 	resists = {75,75,75,75,75,75,75,75,-1},
 	meatType = "",

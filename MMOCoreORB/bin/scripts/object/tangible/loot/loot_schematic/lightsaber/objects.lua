@@ -1,0 +1,47 @@
+object_tangible_loot_loot_schematic_lightsaber_shared_lightsaber_one_hand_unstable_gen3_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_one_hand_unstable_gen3_schematic.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_lightsaber_shared_lightsaber_one_hand_unstable_gen3_schematic, "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_one_hand_unstable_gen3_schematic.iff")
+----
+
+object_tangible_loot_loot_schematic_lightsaber_shared_lightsaber_polearm_unstable_gen3_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_polearm_unstable_gen3_schematic.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_lightsaber_shared_lightsaber_polearm_unstable_gen3_schematic, "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_polearm_unstable_gen3_schematic.iff")
+----
+
+object_tangible_loot_loot_schematic_lightsaber_shared_lightsaber_two_hand_unstable_gen3_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_two_hand_unstable_gen3_schematic.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_lightsaber_shared_lightsaber_two_hand_unstable_gen3_schematic, "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_two_hand_unstable_gen3_schematic.iff")
+----
+
+object_tangible_loot_loot_schematic_lightsaber_shared_lightsaber_one_hand_unstable_gen4_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_one_hand_unstable_gen4_schematic.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_lightsaber_shared_lightsaber_one_hand_unstable_gen4_schematic, "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_one_hand_unstable_gen4_schematic.iff")
+----
+
+object_tangible_loot_loot_schematic_lightsaber_shared_lightsaber_polearm_unstable_gen4_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_polearm_unstable_gen4_schematic.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_lightsaber_shared_lightsaber_polearm_unstable_gen4_schematic, "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_polearm_unstable_gen4_schematic.iff")
+----
+
+object_tangible_loot_loot_schematic_lightsaber_shared_lightsaber_two_hand_unstable_gen4_schematic = SharedTangibleObjectTemplate:new {
+  clientTemplateFileName = "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_two_hand_unstable_gen4_schematic.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_lightsaber_shared_lightsaber_two_hand_unstable_gen4_schematic, "object/tangible/loot/loot_schematic/lightsaber/shared_lightsaber_two_hand_unstable_gen4_schematic.iff")
+----

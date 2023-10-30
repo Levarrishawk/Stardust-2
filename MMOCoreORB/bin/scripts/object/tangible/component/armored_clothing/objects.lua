@@ -1,0 +1,6 @@
+
+--segment
+object_tangible_component_armored_clothing_shared_armor_segment_armor_weaver_advanced = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/component/armored_clothing/shared_armor_segment_armor_weaver_advanced.iff"}
+ObjectTemplates:addClientTemplate(object_tangible_component_armored_clothing_shared_armor_segment_armor_weaver_advanced, 
+"object/tangible/component/armored_clothing/shared_armor_segment_armor_weaver_advanced.iff")
