@@ -51,6 +51,7 @@ object_draft_schematic_droid_component_manipulator_arm_package_set = object_draf
    complexity = 15, 
    size = 4, 
 	factoryCrateType = "object/factory/factory_crate_electronics.iff",
+	factoryCrateSize = 1000,
 
    xpType = "crafting_droid_general", 
    xp = 316, 

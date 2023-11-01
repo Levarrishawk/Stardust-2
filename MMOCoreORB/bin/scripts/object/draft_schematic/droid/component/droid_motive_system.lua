@@ -51,6 +51,7 @@ object_draft_schematic_droid_component_droid_motive_system = object_draft_schema
    complexity = 14, 
    size = 6, 
 	factoryCrateType = "object/factory/factory_crate_electronics.iff",
+	factoryCrateSize = 1000,
 
    xpType = "crafting_droid_general", 
    xp = 80, 
