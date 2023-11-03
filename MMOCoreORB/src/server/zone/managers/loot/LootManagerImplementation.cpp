@@ -512,7 +512,7 @@ TangibleObject* LootManagerImplementation::createLootObject(const LootItemTempla
 			attachmentName.setStringId("stat_n", key);
 
 	 		prototype->setObjectName(attachmentName, false);
-			prototype->setCustomObjectName(attachmentType + " - (" + String::valueOf(value) + ") " + prototype->getDisplayedName(),  false);
+			prototype->setCustomObjectName(attachmentType + " - " + prototype->getDisplayedName() + " (" + String::valueOf(value) + ") ",  false);
 		}
 
 

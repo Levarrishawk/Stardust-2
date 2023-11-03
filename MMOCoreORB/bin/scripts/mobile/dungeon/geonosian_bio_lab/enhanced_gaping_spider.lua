@@ -33,8 +33,9 @@ enhanced_gaping_spider = Creature:new {
 		{
 			groups = {
 				{group = "fire_breathing_spider", chance = 10000000}
-			}
-		}
+			},
+			lootChance = 6000000,
+		},
 	},
 
 	-- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)
