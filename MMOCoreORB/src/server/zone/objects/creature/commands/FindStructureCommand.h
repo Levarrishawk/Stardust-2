@@ -119,6 +119,10 @@ public:
 				}
 
 				temp << "\t\\#ffffffMaintainance:\t" << String::valueOf( (int) floor( (float) structure->getSurplusMaintenance())) << " credits " << getTimeString( (uint32)secsRemainingMaint ) << endl;
+				
+				if (structure->isHarvesterObject() || structure->isFactory()) {
+				temp << "\t\\#ffffffPower:\t\t\t" << String::valueOf(structure->getSurplusPower()) << " units " << endl;
+				}
 			}
 
 			temp << "\t\\#ffffffPlanet:\t\t\t";
