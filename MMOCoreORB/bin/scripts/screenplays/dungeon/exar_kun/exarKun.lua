@@ -840,99 +840,6 @@ function exarKun:bossFiveKilled(boss5, pPlayer)  -- TODO Use this function to re
   return 0
 end
 
-function exarKun:resetTrashMobs(mob1, mob2, mob3, mob4, mob5, mob6, mob7, mob8, mob9, mob10, mob11, mob12, mob13, mob14, mob15, mob16, mob17, mob18)
-  if (mob1 == nil) then
-    return
-  else
-    SceneObject(mob1):destroyObjectFromWorld()
-  end
-  if (mob2 == nil) then
-    return
-  else    
-    SceneObject(mob2):destroyObjectFromWorld()
-  end
-  if (mob3 == nil) then
-    return
-  else    
-    SceneObject(mob3):destroyObjectFromWorld()
-  end
-  if (mob4 == nil) then
-    return
-  else   
-    SceneObject(mob4):destroyObjectFromWorld()
-  end
-  if (mob5 == nil) then
-    return
-  else   
-    SceneObject(mob5):destroyObjectFromWorld()
-  end
-  if (mob6 == nil) then
-    return
-  else   
-    SceneObject(mob6):destroyObjectFromWorld()
-  end
-  if (mob7 == nil) then
-    return
-  else   
-    SceneObject(mob7):destroyObjectFromWorld()
-  end
-  if (mob8 == nil) then
-    return
-  else   
-    SceneObject(mob8):destroyObjectFromWorld()
-  end
-  if (mob9 == nil) then
-    return
-  else   
-    SceneObject(mob9):destroyObjectFromWorld()
-  end
-  if (mob10 == nil) then
-    return
-  else   
-    SceneObject(mob10):destroyObjectFromWorld()
-  end
-  if (mob11 == nil) then
-    return
-  else   
-    SceneObject(mob11):destroyObjectFromWorld()
-  end
-  if (mob12 == nil) then
-    return
-  else   
-    SceneObject(mob12):destroyObjectFromWorld()
-  end
-  if (mob13 == nil) then
-    return
-  else   
-    SceneObject(mob13):destroyObjectFromWorld()
-  end
-  if (mob14 == nil) then
-    return
-  else   
-    SceneObject(mob14):destroyObjectFromWorld()
-  end
-  if (mob15 == nil) then
-    return
-  else   
-    SceneObject(mob15):destroyObjectFromWorld()
-  end
-  if (mob16 == nil) then
-    return
-  else   
-    SceneObject(mob16):destroyObjectFromWorld()
-  end
-  if (mob17 == nil) then
-    return
-  else   
-    SceneObject(mob17):destroyObjectFromWorld()
-  end
-  if (mob18 == nil) then
-    return
-  else   
-    SceneObject(mob18):destroyObjectFromWorld()
-  end
-end
-
 function exarKun:getBuildingObject()
   print("exarKun:getBuildingObject: Recorded instance parent objectID to memory.")
   return getSceneObject(480000292)  -- Different parent for each instance script
@@ -1026,7 +933,8 @@ function exarKun:resetInstanceA(pExarKun, pPlayer)
 end
 
 function exarKun:resetInstance(pPlayer)
-  
+ -- self:resetTrashMobs()
+  --self:resetTrashMobs2()
   CreatureObject(pPlayer):sendSystemMessage("The instance has been reset.")
   writeData("exarKun:occupiedState", 0)
 end
@@ -1071,3 +979,250 @@ print("exarKun:handleVictory: handing off to ejectAllPlayers")
    print("exarKun:handleVictory: set all bossDead states to 0,  set all spawnStates to 0")  
    return 0
 end
+
+function exarKun:resetTrashMobs(mob1, mob2, mob3, mob4, mob5, mob6, mob7, mob8, mob9, mob10, mob11, mob12, mob13, mob14, mob15, mob16, mob17, mob18)
+  if (mob1 == nil) then
+    return
+  else
+    SceneObject(mob1):destroyObjectFromWorld()
+  end
+  if (mob2 == nil) then
+    return
+  else    
+    SceneObject(mob2):destroyObjectFromWorld()
+  end
+  if (mob3 == nil) then
+    return
+  else    
+    SceneObject(mob3):destroyObjectFromWorld()
+  end
+  if (mob4 == nil) then
+    return
+  else   
+    SceneObject(mob4):destroyObjectFromWorld()
+  end
+  if (mob5 == nil) then
+    return
+  else   
+    SceneObject(mob5):destroyObjectFromWorld()
+  end
+  if (mob6 == nil) then
+    return
+  else   
+    SceneObject(mob6):destroyObjectFromWorld()
+  end
+  if (mob7 == nil) then
+    return
+  else   
+    SceneObject(mob7):destroyObjectFromWorld()
+  end
+  if (mob8 == nil) then
+    return
+  else   
+    SceneObject(mob8):destroyObjectFromWorld()
+  end
+  if (mob9 == nil) then
+    return
+  else   
+    SceneObject(mob9):destroyObjectFromWorld()
+  end
+  if (mob10 == nil) then
+    return
+  else   
+    SceneObject(mob10):destroyObjectFromWorld()
+  end
+  if (mob11 == nil) then
+    return
+  else   
+    SceneObject(mob11):destroyObjectFromWorld()
+  end
+  if (mob12 == nil) then
+    return
+  else   
+    SceneObject(mob12):destroyObjectFromWorld()
+  end
+  if (mob13 == nil) then
+    return
+  else   
+    SceneObject(mob13):destroyObjectFromWorld()
+  end
+  if (mob14 == nil) then
+    return
+  else   
+    SceneObject(mob14):destroyObjectFromWorld()
+  end
+  if (mob15 == nil) then
+    return
+  else   
+    SceneObject(mob15):destroyObjectFromWorld()
+  end
+  if (mob16 == nil) then
+    return
+  else   
+    SceneObject(mob16):destroyObjectFromWorld()
+  end
+  if (mob17 == nil) then
+    return
+  else   
+    SceneObject(mob17):destroyObjectFromWorld()
+  end
+  if (mob18 == nil) then
+    return
+  else   
+    SceneObject(mob18):destroyObjectFromWorld()
+  end
+end
+
+function exarKun:resetTrashMobs2(pCult1, pCult2, pCult3, pCult4, pCult5, pCult6, pCult7, pCult8, pCult9, pCult10, pCult11, pCult12, pCult13, pCult14, pCult15, pCult16, pCult17, pCult18, pCult19, pCult20, pCult21, pCult22, pCult23, pCult24, pCult25, pCult26, pCult27, pCult28, pCult29, pCult30)
+  if (pCult1 == nil) then
+    return
+  else
+    SceneObject(pCult1):destroyObjectFromWorld()
+  end
+  if (pCult2 == nil) then
+    return
+  else    
+    SceneObject(pCult2):destroyObjectFromWorld()
+  end
+  if (pCult3 == nil) then
+    return
+  else    
+    SceneObject(pCult3):destroyObjectFromWorld()
+  end
+  if (pCult4 == nil) then
+    return
+  else   
+    SceneObject(pCult4):destroyObjectFromWorld()
+  end
+  if (pCult5 == nil) then
+    return
+  else   
+    SceneObject(pCult5):destroyObjectFromWorld()
+  end
+  if (pCult6 == nil) then
+    return
+  else   
+    SceneObject(pCult6):destroyObjectFromWorld()
+  end
+  if (pCult7 == nil) then
+    return
+  else   
+    SceneObject(pCult7):destroyObjectFromWorld()
+  end
+  if (pCult8 == nil) then
+    return
+  else   
+    SceneObject(pCult8):destroyObjectFromWorld()
+  end
+  if (pCult9 == nil) then
+    return
+  else   
+    SceneObject(pCult9):destroyObjectFromWorld()
+  end
+  if (pCult10 == nil) then
+    return
+  else   
+    SceneObject(pCult10):destroyObjectFromWorld()
+  end
+  if (pCult11 == nil) then
+    return
+  else   
+    SceneObject(pCult11):destroyObjectFromWorld()
+  end
+  if (pCult12 == nil) then
+    return
+  else   
+    SceneObject(pCult12):destroyObjectFromWorld()
+  end
+  if (pCult13 == nil) then
+    return
+  else   
+    SceneObject(pCult13):destroyObjectFromWorld()
+  end
+  if (pCult14 == nil) then
+    return
+  else   
+    SceneObject(pCult14):destroyObjectFromWorld()
+  end
+  if (pCult15 == nil) then
+    return
+  else   
+    SceneObject(pCult15):destroyObjectFromWorld()
+  end
+  if (pCult16 == nil) then
+    return
+  else   
+    SceneObject(pCult16):destroyObjectFromWorld()
+  end
+  if (pCult17 == nil) then
+    return
+  else   
+    SceneObject(pCult17):destroyObjectFromWorld()
+  end
+  if (pCult18 == nil) then
+    return
+  else   
+    SceneObject(pCult18):destroyObjectFromWorld()
+  end
+  if (pCult19 == nil) then
+    return
+  else   
+    SceneObject(pCult19):destroyObjectFromWorld()
+  end
+  if (pCult20 == nil) then
+    return
+  else   
+    SceneObject(pCult20):destroyObjectFromWorld()
+  end
+  if (pCult21 == nil) then
+    return
+  else   
+    SceneObject(pCult21):destroyObjectFromWorld()
+  end
+  if (pCult22 == nil) then
+    return
+  else   
+    SceneObject(pCult22):destroyObjectFromWorld()
+  end
+  if (pCult23 == nil) then
+    return
+  else   
+    SceneObject(pCult23):destroyObjectFromWorld()
+  end
+  if (pCult24 == nil) then
+    return
+  else   
+    SceneObject(pCult24):destroyObjectFromWorld()
+  end
+  if (pCult25 == nil) then
+    return
+  else   
+    SceneObject(pCult25):destroyObjectFromWorld()
+  end
+  if (pCult26 == nil) then
+    return
+  else   
+    SceneObject(pCult26):destroyObjectFromWorld()
+  end
+  if (pCult27 == nil) then
+    return
+  else   
+    SceneObject(pCult27):destroyObjectFromWorld()
+  end
+  if (pCult28 == nil) then
+    return
+  else   
+    SceneObject(pCult28):destroyObjectFromWorld()
+  end
+  if (pCult29 == nil) then
+    return
+  else   
+    SceneObject(pCult29):destroyObjectFromWorld()
+  end
+  if (pCult30 == nil) then
+    return
+  else   
+    SceneObject(pCult30):destroyObjectFromWorld()
+  end
+end
+
