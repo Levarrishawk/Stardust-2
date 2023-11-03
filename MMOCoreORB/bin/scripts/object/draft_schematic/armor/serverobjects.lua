@@ -257,6 +257,17 @@ includeFile("draft_schematic/armor/armor_appearance_rebel_battle_helmet_gcw.lua"
 includeFile("draft_schematic/armor/armor_appearance_rebel_battle_leggings_gcw.lua")
 includeFile("draft_schematic/armor/armor_appearance_rebel_battle_utility_belt_gcw.lua")
 
+includeFile("draft_schematic/armor/armor_appearance_rebel_marine_bicep_l.lua")
+includeFile("draft_schematic/armor/armor_appearance_rebel_marine_bicep_r.lua")
+includeFile("draft_schematic/armor/armor_appearance_rebel_marine_boots.lua")
+includeFile("draft_schematic/armor/armor_appearance_rebel_marine_bracer_l.lua")
+includeFile("draft_schematic/armor/armor_appearance_rebel_marine_bracer_r.lua")
+includeFile("draft_schematic/armor/armor_appearance_rebel_marine_chest_plate.lua")
+includeFile("draft_schematic/armor/armor_appearance_rebel_marine_gloves.lua")
+includeFile("draft_schematic/armor/armor_appearance_rebel_marine_helmet.lua")
+includeFile("draft_schematic/armor/armor_appearance_rebel_marine_leggings.lua")
+includeFile("draft_schematic/armor/armor_appearance_rebel_marine_utility_belt.lua")
+
 includeFile("draft_schematic/armor/armor_appearance_rebel_marine_bicep_l_gcw.lua")
 includeFile("draft_schematic/armor/armor_appearance_rebel_marine_bicep_r_gcw.lua")
 includeFile("draft_schematic/armor/armor_appearance_rebel_marine_boots_gcw.lua")
