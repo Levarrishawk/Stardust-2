@@ -935,8 +935,8 @@ function exarKun:resetInstanceA(pExarKun, pPlayer)
 end
 
 function exarKun:resetInstance(pPlayer)
- -- self:resetTrashMobs()
-  --self:resetTrashMobs2()
+  self:resetTrashMobs()
+  self:resetTrashMobs2()
   CreatureObject(pPlayer):sendSystemMessage("The instance has been reset.")
   writeData("exarKun:occupiedState", 0)
 end
