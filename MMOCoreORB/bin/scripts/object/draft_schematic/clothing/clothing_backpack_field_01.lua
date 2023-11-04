@@ -49,7 +49,8 @@ object_draft_schematic_clothing_clothing_backpack_field_01 = object_draft_schema
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
    complexity = 1, 
-   size = 2, 
+   size = 2,
+   factoryCrateSize = 1000,
 
    xpType = "crafting_general", 
    xp = 140, 
