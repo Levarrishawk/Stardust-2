@@ -30,12 +30,12 @@ exar_kun_cultist = Creature:new {
 		
 		{
 			groups = {
-				{group = "power_crystals", chance = 1300000},
+				{group = "power_crystals", chance = 1000000},
 				{group = "color_crystals", chance = 2000000},
 				{group = "clothing_attachments", chance = 1000000},
-				{group = "armor_attachments", chance = 500000},
+				{group = "armor_attachments", chance = 450000},
 				{group = "dark_jedi_common", chance = 200000},
-				{group = "unstable_crystal_pack", chance = 200000},
+				{group = "unstable_crystal_pack", chance = 550000},
 			},
 			lootChance = 4200000,
 		},			
