@@ -80,7 +80,7 @@ object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_unstable_
   xpType = "jedi_general",
 
   -- See http://www.ocdsoft.com/files/certifications.xls
-  certificationsRequired = { "cert_twohandlightsaber_gen4" },
+  certificationsRequired = { "cert_twohandlightsaber_gen3" },
   -- See http://www.ocdsoft.com/files/accuracy.xls
   creatureAccuracyModifiers = { "twohandlightsaber_accuracy" },
 
