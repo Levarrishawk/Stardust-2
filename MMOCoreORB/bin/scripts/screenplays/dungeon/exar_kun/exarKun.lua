@@ -178,11 +178,11 @@ end
 function exarKun:checkIfActiveForTimer(pPlayer)
   if (readData("exarKun:occupiedState") == 1) then
     createEvent(1, "exarKun", "handleTimer", pPlayer, "")
-    print("exarKun: Starting instance timer.")
+    print("exarKun:checkIfActiveForTimer: Checking instance timer.")
   else
     --self:ejectAllGroupMembers(pPlayer)
     self:resetInstance(pPlayer)    
-    print("exarKun: Instance was unoccupied. Resetting.")
+    print("exarKun:checkIfActiveForTimer: Instance was unoccupied. Resetting.")
   end      
 end
 
@@ -923,18 +923,20 @@ function exarKun:resetInstanceA(pExarKun, pPlayer)
   if not SceneObject(pPlayer):isPlayerCreature() then
     return 0
   end
-  writeData("exarKun:occupiedState", 0)
-  print("exarKun:resetInstanceA: A player left the instanced area.  Sending to resetInstance and ejectAllGroupMembers")
-  
-  CreatureObject(pPlayer):sendSystemMessage("One or more group members have left the dungeon.")
-  self:resetInstance(pPlayer)
-  self:ejectAllGroupMembers(pPlayer)  
-  return 0
+  if (readData("exarKun:occupiedState") == 1) then
+    writeData("exarKun:occupiedState", 0)
+    print("exarKun:resetInstanceA: A player left the instanced area.  Sending to resetInstance and ejectAllGroupMembers")
+    
+    CreatureObject(pPlayer):sendSystemMessage("One or more group members have left the dungeon.  Resetting Instance.")
+    self:resetInstance(pPlayer)
+    self:ejectAllGroupMembers(pPlayer)  
+    return 0
+  end
 end
 
 function exarKun:resetInstance(pPlayer)
- -- self:resetTrashMobs()
-  --self:resetTrashMobs2()
+  self:resetTrashMobs()
+  self:resetTrashMobs2()
   CreatureObject(pPlayer):sendSystemMessage("The instance has been reset.")
   writeData("exarKun:occupiedState", 0)
 end
