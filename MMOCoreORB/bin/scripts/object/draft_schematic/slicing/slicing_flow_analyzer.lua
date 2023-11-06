@@ -51,6 +51,7 @@ object_draft_schematic_slicing_slicing_flow_analyzer = object_draft_schematic_sl
    complexity = 7, 
    size = 1, 
    factoryCrateType = "object/factory/factory_crate_electronics.iff",
+   factoryCrateSize = 1000,
    
    xpType = "crafting_general", 
    xp = 80, 
