@@ -2135,6 +2135,7 @@ schematics = {
   {path="object/draft_schematic/weapon/carbine_alliance_needler.iff"},
   {path="object/draft_schematic/weapon/carbine_bothan_bola.iff"},  
   {path="object/draft_schematic/weapon/carbine_czerka_dart.iff"},
+  {path="object/draft_schematic/weapon/carbine_proton.iff"},
   {path="object/draft_schematic/weapon/carbine_geo.iff"},
   {path="object/draft_schematic/weapon/carbine_kun_massassi.iff"},
   {path="object/draft_schematic/weapon/carbine_republic_sfor.iff"},

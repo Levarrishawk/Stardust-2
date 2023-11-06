@@ -50,7 +50,7 @@ object_tangible_powerup_weapon_ranged_scope = object_tangible_powerup_weapon_sha
 	baseName = "Scope",
 
 	primary = {
-		{"mindAttackCost", "Powered", "cat_pup.pup_wpn_attack_cost_mind"}, 
+		--{"mindAttackCost", "Powered", "cat_pup.pup_wpn_attack_cost_mind"}, 
 		{"idealAccuracy", "Ranged", "cat_pup.pup_wpn_range_attack_mod_mid"}, 
   		{"maxRangeAccuracy", "Calibrated", "cat_pup.pup_wpn_range_attack_mod_max"},
 		{"minDamage", "Precision", "cat_pup.pup_wpn_damage_min"}
