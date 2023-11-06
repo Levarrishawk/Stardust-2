@@ -266,7 +266,7 @@ includeFile("draft_schematic/armor/armor_appearance_rebel_marine_chest_plate.lua
 includeFile("draft_schematic/armor/armor_appearance_rebel_marine_gloves.lua")
 includeFile("draft_schematic/armor/armor_appearance_rebel_marine_helmet.lua")
 includeFile("draft_schematic/armor/armor_appearance_rebel_marine_leggings.lua")
-includeFile("draft_schematic/armor/armor_appearance_rebel_marine_utility_belt.lua")
+--includeFile("draft_schematic/armor/armor_appearance_rebel_marine_utility_belt.lua")
 
 includeFile("draft_schematic/armor/armor_appearance_rebel_marine_bicep_l_gcw.lua")
 includeFile("draft_schematic/armor/armor_appearance_rebel_marine_bicep_r_gcw.lua")
