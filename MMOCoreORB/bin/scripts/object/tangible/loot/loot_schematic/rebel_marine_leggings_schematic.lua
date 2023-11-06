@@ -46,7 +46,7 @@ object_tangible_loot_loot_schematic_rebel_marine_leggings_schematic = object_tan
 	objectMenuComponent = "LootSchematicMenuComponent",
 	attributeListComponent = "LootSchematicAttributeListComponent",
 	requiredSkill = "crafting_armorsmith_master",
-	targetDraftSchematic = "object/draft_schematic/clothing/clothing_armor_mandalorian_leggings.iff",
+	targetDraftSchematic = "object/draft_schematic/armor/armor_appearance_rebel_marine_leggings.iff",
 	targetUseCount = 1
 }
 

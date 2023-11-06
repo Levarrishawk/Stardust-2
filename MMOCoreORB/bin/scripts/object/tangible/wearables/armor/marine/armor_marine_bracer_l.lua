@@ -41,7 +41,7 @@
 --this exception also makes it possible to release a modified version 
 
 
-object_tangible_wearables_armor_marine_armor_marine_chest_plate_rebel = object_tangible_wearables_armor_marine_shared_armor_marine_chest_plate_rebel:new {
+object_tangible_wearables_armor_marine_armor_marine_bracer_l = object_tangible_wearables_armor_marine_shared_armor_marine_bracer_l:new {
 	templateType = ARMOROBJECT,
 
 	faction = "Rebel",
@@ -125,4 +125,4 @@ object_tangible_wearables_armor_marine_armor_marine_chest_plate_rebel = object_t
 	experimentalCombineType = {0, 0, 4, 1, 1, 1, 1, 1, 1, 4, 4, 4, 1},
 }
 
-ObjectTemplates:addTemplate(object_tangible_wearables_armor_marine_armor_marine_chest_plate_rebel, "object/tangible/wearables/armor/marine/armor_marine_chest_plate_rebel.iff")
+ObjectTemplates:addTemplate(object_tangible_wearables_armor_marine_armor_marine_bracer_l, "object/tangible/wearables/armor/marine/armor_marine_bracer_l.iff")

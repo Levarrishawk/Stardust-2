@@ -41,7 +41,7 @@
 --this exception also makes it possible to release a modified version 
 
 
-object_tangible_wearables_armor_marine_armor_marine_chest_plate_rebel = object_tangible_wearables_armor_marine_shared_armor_marine_chest_plate_rebel:new {
+object_tangible_wearables_armor_marine_armor_marine_gloves = object_tangible_wearables_armor_marine_shared_armor_marine_gloves:new {
 	templateType = ARMOROBJECT,
 
 	faction = "Rebel",
@@ -56,8 +56,6 @@ object_tangible_wearables_armor_marine_armor_marine_chest_plate_rebel = object_t
 				"object/creature/player/rodian_female.iff",
 				"object/creature/player/sullustan_male.iff",
 				"object/creature/player/sullustan_female.iff",
-				"object/creature/player/trandoshan_male.iff",
-				"object/creature/player/trandoshan_female.iff",
 				"object/creature/player/twilek_male.iff",
 				"object/creature/player/twilek_female.iff",
 				"object/creature/player/zabrak_male.iff",
@@ -81,8 +79,6 @@ object_tangible_wearables_armor_marine_armor_marine_chest_plate_rebel = object_t
 				"object/mobile/vendor/rodian_male.iff",
 				"object/mobile/vendor/sullustan_female.iff",
 				"object/mobile/vendor/sullustan_male.iff",
-				"object/mobile/vendor/trandoshan_female.iff",
-				"object/mobile/vendor/trandoshan_male.iff",
 				"object/mobile/vendor/twilek_female.iff",
 				"object/mobile/vendor/twilek_male.iff",
 				"object/mobile/vendor/weequay_male.iff",
@@ -125,4 +121,4 @@ object_tangible_wearables_armor_marine_armor_marine_chest_plate_rebel = object_t
 	experimentalCombineType = {0, 0, 4, 1, 1, 1, 1, 1, 1, 4, 4, 4, 1},
 }
 
-ObjectTemplates:addTemplate(object_tangible_wearables_armor_marine_armor_marine_chest_plate_rebel, "object/tangible/wearables/armor/marine/armor_marine_chest_plate_rebel.iff")
+ObjectTemplates:addTemplate(object_tangible_wearables_armor_marine_armor_marine_gloves, "object/tangible/wearables/armor/marine/armor_marine_gloves.iff")

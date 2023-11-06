@@ -1,5 +1,5 @@
 
-object_draft_schematic_weapon_carbine_carbine_proton = object_draft_schematic_weapon_shared_carbine_carbine_proton:new {
+object_draft_schematic_weapon_carbine_proton = object_draft_schematic_weapon_shared_carbine_proton:new {
 
    templateType = DRAFTSCHEMATIC,
 
