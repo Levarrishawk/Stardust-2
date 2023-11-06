@@ -50,7 +50,7 @@ object_draft_schematic_armor_component_deflector_shield_generator_energy_ray = o
 	craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
 	complexity = 30,
 	size = 4,
-	factoryCrateSize = 50,
+	factoryCrateSize = 1000,
 
 	xpType = "crafting_clothing_armor",
 	xp = 80,

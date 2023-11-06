@@ -51,6 +51,7 @@ object_draft_schematic_slicing_slicing_weapon_upgrade_kit = object_draft_schemat
    complexity = 15, 
    size = 1, 
    factoryCrateType = "object/factory/factory_crate_electronics.iff",
+   factoryCrateSize = 1000,
    
    xpType = "crafting_weapons_general", 
    xp = 60, 

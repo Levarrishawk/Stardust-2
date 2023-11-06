@@ -49,7 +49,8 @@ object_draft_schematic_clothing_component_clothing_cargo_pocket = object_draft_s
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
    complexity = 1, 
-   size = 2, 
+   size = 2,
+   factoryCrateSize = 1000,
 
    xpType = "crafting_clothing_general", 
    xp = 55, 
