@@ -51,8 +51,9 @@ object_tangible_powerup_weapon_melee_generic = object_tangible_powerup_weapon_sh
 
 	primary = {
 		{"idealRange", "Ideal Range", "cat_pup.pup_wpn_range_mid"},
-		{"healthAttackCost", "Balancing", "cat_pup.pup_wpn_attack_cost_health"},
-  		{"mindAttackCost", "Compensating", "cat_pup.pup_wpn_attack_cost_mind"},
+		--{"healthAttackCost", "Balancing", "cat_pup.pup_wpn_attack_cost_health"},
+  		--{"mindAttackCost", "Compensating", "cat_pup.pup_wpn_attack_cost_mind"},
+		  {"minDamage", "Precision", "cat_pup.pup_wpn_damage_min"},
 		{"pointBlankAccuracy", "Precision", "cat_pup.pup_wpn_range_attack_mod_zero"}
 	},
 
@@ -60,7 +61,6 @@ object_tangible_powerup_weapon_melee_generic = object_tangible_powerup_weapon_sh
 		{"idealAccuracy", "Accuracy", "cat_pup.pup_wpn_range_attack_mod_mid"},
 		{"attackSpeed", "Control Enhancement", "cat_pup.pup_wpn_attack_speed"},
 		{"woundsRatio", "Wounding", "cat_pup.pup_wpn_wound_chance"},
-		{"minDamage", "Precision", "cat_pup.pup_wpn_damage_min"},
 		{"maxDamage", "Refining", "cat_pup.pup_wpn_damage_max"}
 	},
 

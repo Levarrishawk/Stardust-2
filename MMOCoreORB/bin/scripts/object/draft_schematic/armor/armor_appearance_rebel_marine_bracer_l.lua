@@ -1,8 +1,8 @@
-object_draft_schematic_armor_armor_appearance_stormtrooper_chest_plate = object_draft_schematic_armor_shared_armor_appearance_stormtrooper_chest_plate:new {
-   templateType = DRAFTSCHEMATIC,
+object_draft_schematic_armor_armor_appearance_rebel_marine_bracer_l = object_draft_schematic_armor_shared_armor_appearance_rebel_marine_bracer_l:new {
+templateType = DRAFTSCHEMATIC,
 
-   customObjectName = "Stormtrooper Armor Chest Plate",
-
+   customObjectName = "Rebel Marine Armor bracer_l",
+   factoryCrateSize = 0,
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
    complexity = 1,
    size = 4,
@@ -22,14 +22,14 @@ object_draft_schematic_armor_armor_appearance_stormtrooper_chest_plate = object_
    ingredientTitleNames = {"auxilary_coverage", "body", "liner", "hardware_and_attachments", "binding_and_reinforcement", "padding", "armor", "load_bearing_harness", "reinforcement"},
    ingredientSlotType = {0, 0, 0, 0, 0, 0, 1, 1, 1},
    resourceTypes = {"ore_intrusive", "fuel_petrochem_solid_known", "fiberplast_naboo", "aluminum", "copper_beyrllius", "hide_wooly", "object/tangible/component/armor/shared_armor_segment_composite.iff", "object/tangible/component/clothing/shared_synthetic_cloth.iff", "object/tangible/component/clothing/shared_reinforced_fiber_panels.iff"},
-   resourceQuantities = {50, 50, 25, 30, 20, 20, 4, 1, 1},
+   resourceQuantities = {50, 50, 25, 30, 20, 20, 2, 1, 1},
    contribution = {100, 100, 100, 100, 100, 100, 100, 100, 100},
 
 
-   targetTemplate = "object/tangible/wearables/armor/stormtrooper/armor_stormtrooper_chest_plate.iff",
+   targetTemplate = "object/tangible/wearables/armor/marine/armor_marine_bracer_l.iff",
 
    additionalTemplates = {
              }
-             
 }
-ObjectTemplates:addTemplate(object_draft_schematic_armor_armor_appearance_stormtrooper_chest_plate, "object/draft_schematic/armor/armor_appearance_stormtrooper_chest_plate.iff")
+
+ObjectTemplates:addTemplate(object_draft_schematic_armor_armor_appearance_rebel_marine_bracer_l, "object/draft_schematic/armor/armor_appearance_rebel_marine_bracer_l.iff")

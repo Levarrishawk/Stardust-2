@@ -1,8 +1,8 @@
-object_draft_schematic_armor_armor_appearance_stormtrooper_chest_plate = object_draft_schematic_armor_shared_armor_appearance_stormtrooper_chest_plate:new {
-   templateType = DRAFTSCHEMATIC,
+object_draft_schematic_armor_armor_appearance_rebel_marine_chest_plate = object_draft_schematic_armor_shared_armor_appearance_rebel_marine_chest_plate:new {
+templateType = DRAFTSCHEMATIC,
 
-   customObjectName = "Stormtrooper Armor Chest Plate",
-
+   customObjectName = "Rebel Marine Armor Chest",
+   factoryCrateSize = 0,
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
    complexity = 1,
    size = 4,
@@ -26,10 +26,10 @@ object_draft_schematic_armor_armor_appearance_stormtrooper_chest_plate = object_
    contribution = {100, 100, 100, 100, 100, 100, 100, 100, 100},
 
 
-   targetTemplate = "object/tangible/wearables/armor/stormtrooper/armor_stormtrooper_chest_plate.iff",
+   targetTemplate = "object/tangible/wearables/armor/marine/armor_marine_chest_plate_rebel.iff",
 
    additionalTemplates = {
              }
-             
 }
-ObjectTemplates:addTemplate(object_draft_schematic_armor_armor_appearance_stormtrooper_chest_plate, "object/draft_schematic/armor/armor_appearance_stormtrooper_chest_plate.iff")
+
+ObjectTemplates:addTemplate(object_draft_schematic_armor_armor_appearance_rebel_marine_chest_plate, "object/draft_schematic/armor/armor_appearance_rebel_marine_chest_plate.iff")

@@ -2135,6 +2135,7 @@ schematics = {
   {path="object/draft_schematic/weapon/carbine_alliance_needler.iff"},
   {path="object/draft_schematic/weapon/carbine_bothan_bola.iff"},  
   {path="object/draft_schematic/weapon/carbine_czerka_dart.iff"},
+  {path="object/draft_schematic/weapon/carbine_proton.iff"},
   {path="object/draft_schematic/weapon/carbine_geo.iff"},
   {path="object/draft_schematic/weapon/carbine_kun_massassi.iff"},
   {path="object/draft_schematic/weapon/carbine_republic_sfor.iff"},
@@ -2185,4 +2186,14 @@ schematics = {
   {path="object/draft_schematic/armor/armor_appearance_stormtrooper_gloves.iff"},
   {path="object/draft_schematic/armor/armor_appearance_stormtrooper_helmet.iff"},
   {path="object/draft_schematic/armor/armor_appearance_stormtrooper_leggings.iff"},
+
+  {path="object/draft_schematic/armor/armor_appearance_rebel_marine_bicep_l.iff"},
+  {path="object/draft_schematic/armor/armor_appearance_rebel_marine_bicep_r.iff"},
+  {path="object/draft_schematic/armor/armor_appearance_rebel_marine_boots.iff"},
+  {path="object/draft_schematic/armor/armor_appearance_rebel_marine_bracer_r.iff"},
+  {path="object/draft_schematic/armor/armor_appearance_rebel_marine_bracer_l.iff"},
+  {path="object/draft_schematic/armor/armor_appearance_rebel_marine_chest_plate.iff"},
+  {path="object/draft_schematic/armor/armor_appearance_rebel_marine_gloves.iff"},
+  {path="object/draft_schematic/armor/armor_appearance_rebel_marine_helmet.iff"},
+  {path="object/draft_schematic/armor/armor_appearance_rebel_marine_leggings.iff"},
 };
