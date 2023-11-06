@@ -46,7 +46,7 @@ ForceKnockdown2Command = {
 
     damageMultiplier = 0,
 	speed = 2.0,
-	forceCost = 75,
+	forceCost = 55,
 	visMod = 25,
 	accuracySkillMod = "forceknockdown_accuracy",
 	coneAngle = 40,

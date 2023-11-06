@@ -46,7 +46,7 @@ ForceWeaken2Command = {
 
 	damageMultiplier = 0,
 	speed = 1.0,
-	forceCost = 75,
+	forceCost = 55,
 	forceCostMultiplier = 2,
 	visMod = 25,
 	accuracySkillMod = "forceweaken_accuracy",
