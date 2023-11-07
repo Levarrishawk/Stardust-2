@@ -386,11 +386,11 @@ function exarKun:spawnBossRoomOneTrash()
   writeData("exarKun:bossOneTrashState", 1) 
 end
 
-function exarKun:bossOneKilled(boss1) 
+function exarKun:bossOneKilled(boss1, barricade1, barricade2, barricade3, barricade4, barricade5, barricade6) 
   print("exarKun:bossOneKilled: Boss 1 has been killed.  sending to spawnBossRoomTwo.")
   writeData("exarKun:bossOneDead", 1) 
   self:spawnBossRoomTwo()
-  self:destroyBarricades()
+  self:destroyBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
   return 0
 end
 
@@ -984,13 +984,13 @@ print("exarKun:handleVictory: handing off to ejectAllPlayers")
    return 0
 end
 
-function exarKun:spawnBarricades()
-  local barricade1 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", -11.7, 0.2, -95.0, 480000293, math.rad(-90) )
-  local barricade2 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 28.0, 0.0, -62.7, 480000295, math.rad(4) )
-  local barricade3 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 38.2, 0.0, -1.3, 480000295, math.rad(-91) )
+function exarKun:spawnBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
+  local barricade1 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", -11.7, 0.2, -95.0, 480000293, math.rad(0) )
+  local barricade2 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 28.0, 0.0, -62.7, 480000295, math.rad(44) )
+  local barricade3 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 38.2, 0.0, -1.3, 480000295, math.rad(90) )
   local barricade4 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", -24.1, -0.3, -20.1, 480000297, math.rad(-78) )
   local barricade5 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 2.5, -0.2, 45.1, 480000298, math.rad(-91) )
-  local barricade6 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 15.5, -0.0, 55.5, 480000299, math.rad(-8) )  
+  local barricade6 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 15.5, -0.0, 55.5, 480000299, math.rad(-0) )  
 end
 
 function exarKun:destroyBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
