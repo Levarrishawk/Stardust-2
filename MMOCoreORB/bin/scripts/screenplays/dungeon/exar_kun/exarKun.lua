@@ -923,7 +923,7 @@ function exarKun:resetInstanceA(pExarKun, pPlayer)
   if not SceneObject(pPlayer):isPlayerCreature() then
     return 0
   end
-  if (readData("exarKun:occupiedState") == 1) then
+ -- if (readData("exarKun:occupiedState") == 1) then
     writeData("exarKun:occupiedState", 0)
     print("exarKun:resetInstanceA: A player left the instanced area.  Sending to resetInstance and ejectAllGroupMembers")
     
@@ -931,7 +931,7 @@ function exarKun:resetInstanceA(pExarKun, pPlayer)
     self:resetInstance(pPlayer)
     self:ejectAllGroupMembers(pPlayer)  
     return 0
-  end
+  --end
 end
 
 function exarKun:resetInstance(pPlayer)
@@ -980,6 +980,48 @@ print("exarKun:handleVictory: handing off to ejectAllPlayers")
    writeData("exarKun:bossOneTrashState", 0) 
    print("exarKun:handleVictory: set all bossDead states to 0,  set all spawnStates to 0")  
    return 0
+end
+
+function exarKun:spawnBarricades()
+  local barricade1 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", -11.7, 0.2, -95.0, 480000293, math.rad(-90) )
+  local barricade2 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 28.0, 0.0, -62.7, 480000295, math.rad(4) )
+  local barricade3 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 38.2, 0.0, -1.3, 480000295, math.rad(-91) )
+  local barricade4 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", -24.1, -0.3, -20.1, 480000297, math.rad(-78) )
+  local barricade5 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 2.5, -0.2, 45.1, 480000298, math.rad(-91) )
+  local barricade6 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 15.5, -0.0, 55.5, 480000299, math.rad(-8) )  
+end
+
+function exarKun:destroyBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
+  if (barricade1 == nil) then
+    return
+  else
+    SceneObject(barricade1):destroyObjectFromWorld()
+  end
+  if (barricade2 == nil) then
+    return
+  else
+    SceneObject(barricade2):destroyObjectFromWorld()
+  end
+  if (barricade3 == nil) then
+    return
+  else
+    SceneObject(barricade3):destroyObjectFromWorld()
+  end
+  if (barricade4 == nil) then
+    return
+  else
+    SceneObject(barricade4):destroyObjectFromWorld()
+  end
+  if (barricade5 == nil) then
+    return
+  else
+    SceneObject(barricade5):destroyObjectFromWorld()
+  end
+  if (barricade6 == nil) then
+    return
+  else
+    SceneObject(barricade6):destroyObjectFromWorld()
+  end
 end
 
 function exarKun:resetTrashMobs(mob1, mob2, mob3, mob4, mob5, mob6, mob7, mob8, mob9, mob10, mob11, mob12, mob13, mob14, mob15, mob16, mob17, mob18)
