@@ -390,7 +390,8 @@ function exarKun:bossOneKilled(boss1, barricade1, barricade2, barricade3, barric
   print("exarKun:bossOneKilled: Boss 1 has been killed.  sending to spawnBossRoomTwo.")
   writeData("exarKun:bossOneDead", 1) 
   self:spawnBossRoomTwo()
-  self:destroyBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
+ -- self:destroyBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
+  createEvent(1000, "exarKun", "destroyBarricades", barricade1, barricade2, barricade3, barricade4, barricade5, barricade6, "")
   return 0
 end
 
