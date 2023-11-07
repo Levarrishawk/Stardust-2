@@ -386,11 +386,11 @@ function exarKun:spawnBossRoomOneTrash()
   writeData("exarKun:bossOneTrashState", 1) 
 end
 
-function exarKun:bossOneKilled(boss1, barricade1, barricade2, barricade3, barricade4, barricade5, barricade6) 
+function exarKun:bossOneKilled(boss1) 
   print("exarKun:bossOneKilled: Boss 1 has been killed.  sending to spawnBossRoomTwo.")
   writeData("exarKun:bossOneDead", 1) 
   self:spawnBossRoomTwo()
-  self:destroyBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
+  self:destroyBarricades()
   return 0
 end
 
