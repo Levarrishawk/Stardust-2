@@ -997,36 +997,42 @@ end
 
 function exarKun:destroyBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
   if (barricade1 == nil) then
+    SceneObject(barricade1):destroyObjectFromWorld()
     return
   else
     SceneObject(barricade1):destroyObjectFromWorld()
     print("exarKun:destroyBarricades: Barricade1 Destroyed")
   end
   if (barricade2 == nil) then
+    SceneObject(barricade2):destroyObjectFromWorld()
     return
   else
     SceneObject(barricade2):destroyObjectFromWorld()
     print("exarKun:destroyBarricades: Barricade2 Destroyed")
   end
   if (barricade3 == nil) then
+    SceneObject(barricade3):destroyObjectFromWorld()
     return
   else
     SceneObject(barricade3):destroyObjectFromWorld()
     print("exarKun:destroyBarricades: Barricade3 Destroyed")
   end
   if (barricade4 == nil) then
+    SceneObject(barricade4):destroyObjectFromWorld()
     return
   else
     SceneObject(barricade4):destroyObjectFromWorld()
     print("exarKun:destroyBarricades: Barricade4 Destroyed")
   end
   if (barricade5 == nil) then
+    SceneObject(barricade5):destroyObjectFromWorld()
     return
   else
     SceneObject(barricade5):destroyObjectFromWorld()
     print("exarKun:destroyBarricades: Barricade5 Destroyed")
   end
   if (barricade6 == nil) then
+    SceneObject(barricade6):destroyObjectFromWorld()
     return
   else
     SceneObject(barricade6):destroyObjectFromWorld()
