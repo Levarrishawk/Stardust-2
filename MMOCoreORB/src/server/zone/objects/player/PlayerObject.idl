@@ -2006,6 +2006,26 @@ class PlayerObject extends IntangibleObject {
 	public void setCloning(boolean val) {
 		isPlayerCloning = val;
 	}
+	
+	//Player Bounty
+	public void updatePlayerBountyTimestamp(int duration) {
+		playerBountyTimestamp.updateToCurrentTime();
+		playerBountyTimestamp.addMiliTime(duration);
+	}
+	public void setBountyReward(int reward) {
+		bountyReward = reward;
+	}
+	public unsigned long getBountyReward() {
+		return bountyReward;
+	}
+	public void setBountyPlacerId(unsigned long placerId) {
+		bountyPlacerId = placerId;
+	}
+	public unsigned long getBountyPlacerId() {
+		return bountyPlacerId;
+	}
+	public boolean hasPlayerBounty() {
+
 
 	@read
 	public unsigned long getPlayedMiliSecs() {
