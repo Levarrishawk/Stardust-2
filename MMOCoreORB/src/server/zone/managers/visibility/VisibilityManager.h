@@ -141,6 +141,11 @@ public:
 	void removeFromVisibilityList(CreatureObject* creature);
 
 	/**
+	BH
+	*/
+	void addPlayerToBountyList(CreatureObject *creature, int reward);
+	
+	/**
 	 * Increase visibility for a player. The player is added to the visibility list
 	 * if not already in the list.
 	 * @param creature the player to increase the visibility for.
