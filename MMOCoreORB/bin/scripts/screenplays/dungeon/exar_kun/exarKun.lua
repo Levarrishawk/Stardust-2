@@ -269,6 +269,7 @@ function exarKun:boss1_damage(boss1, pPlayer)
       CreatureObject(boss1):playEffect("clienteffect/space_command/shp_shocked_01.cef", "")
         writeData("exarKun:bossOneFightState", 1)        
         print("exarKun:boss1_damage: Boss 1 at 99% health")
+      self:spawnBarricades()  
       end 
       
       if (((bossAction <= (bossMaxAction *0.3)))) then
@@ -389,6 +390,7 @@ function exarKun:bossOneKilled(boss1)
   print("exarKun:bossOneKilled: Boss 1 has been killed.  sending to spawnBossRoomTwo.")
   writeData("exarKun:bossOneDead", 1) 
   self:spawnBossRoomTwo()
+  self:destroyBarricades()
   return 0
 end
 
