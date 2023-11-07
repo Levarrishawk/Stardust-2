@@ -2024,8 +2024,9 @@ class PlayerObject extends IntangibleObject {
 	public unsigned long getBountyPlacerId() {
 		return bountyPlacerId;
 	}
-	public boolean hasPlayerBounty() {
-
+	public
+		boolean hasPlayerBounty() {
+	}
 
 	@read
 	public unsigned long getPlayedMiliSecs() {
