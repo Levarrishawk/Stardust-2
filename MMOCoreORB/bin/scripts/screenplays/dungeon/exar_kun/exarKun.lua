@@ -991,6 +991,8 @@ function exarKun:spawnBarricades(barricade1, barricade2, barricade3, barricade4,
   local barricade4 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", -24.1, -0.3, -20.1, 480000297, math.rad(-78) )
   local barricade5 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 2.5, -0.2, 45.1, 480000298, math.rad(-91) )
   local barricade6 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 15.5, -0.0, 55.5, 480000299, math.rad(-0) )  
+  print("exarKun:spawnBarricades: Barricades Spawned") 
+
 end
 
 function exarKun:destroyBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
@@ -998,31 +1000,37 @@ function exarKun:destroyBarricades(barricade1, barricade2, barricade3, barricade
     return
   else
     SceneObject(barricade1):destroyObjectFromWorld()
+    print("exarKun:destroyBarricades: Barricade1 Destroyed")
   end
   if (barricade2 == nil) then
     return
   else
     SceneObject(barricade2):destroyObjectFromWorld()
+    print("exarKun:destroyBarricades: Barricade2 Destroyed")
   end
   if (barricade3 == nil) then
     return
   else
     SceneObject(barricade3):destroyObjectFromWorld()
+    print("exarKun:destroyBarricades: Barricade3 Destroyed")
   end
   if (barricade4 == nil) then
     return
   else
     SceneObject(barricade4):destroyObjectFromWorld()
+    print("exarKun:destroyBarricades: Barricade4 Destroyed")
   end
   if (barricade5 == nil) then
     return
   else
     SceneObject(barricade5):destroyObjectFromWorld()
+    print("exarKun:destroyBarricades: Barricade5 Destroyed")
   end
   if (barricade6 == nil) then
     return
   else
     SceneObject(barricade6):destroyObjectFromWorld()
+    print("exarKun:destroyBarricades: Barricade6 Destroyed")
   end
 end
 
