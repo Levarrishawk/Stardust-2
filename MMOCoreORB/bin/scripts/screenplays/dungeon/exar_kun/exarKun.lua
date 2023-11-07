@@ -985,12 +985,12 @@ print("exarKun:handleVictory: handing off to ejectAllPlayers")
 end
 
 function exarKun:spawnBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
-  local barricade1 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", -11.7, 0.2, -95.0, 480000293, math.rad(0) )
-  local barricade2 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 28.0, 0.0, -62.7, 480000295, math.rad(44) )
-  local barricade3 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 38.2, 0.0, -1.3, 480000295, math.rad(90) )
-  local barricade4 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", -24.1, -0.3, -20.1, 480000297, math.rad(-78) )
-  local barricade5 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 2.5, -0.2, 45.1, 480000298, math.rad(-91) )
-  local barricade6 = spawnSceneObject("yavin4", "object/static/structure/elysium/invisible_wall.iff", 15.5, -0.0, 55.5, 480000299, math.rad(-0) )  
+  local barricade1 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", -11.7, 0.2, -95.0, 480000293, math.rad(0) )
+  local barricade2 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 28.0, 0.0, -62.7, 480000295, math.rad(44) )
+  local barricade3 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 38.2, 0.0, -1.3, 480000295, math.rad(90) )
+  local barricade4 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", -24.1, -0.3, -20.1, 480000297, math.rad(-78) )
+  local barricade5 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 2.5, -0.2, 45.1, 480000298, math.rad(-91) )
+  local barricade6 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 15.5, -0.0, 55.5, 480000299, math.rad(-0) )  
   print("exarKun:spawnBarricades: Barricades Spawned") 
 
 end
