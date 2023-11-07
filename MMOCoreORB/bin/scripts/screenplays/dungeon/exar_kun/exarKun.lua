@@ -251,7 +251,7 @@ function exarKun:spawnBossRoomOne()
     writeData("exarKun:bossOneFightState", 0) 
 end
 
-function exarKun:boss1_damage(boss1, pPlayer)
+function exarKun:boss1_damage(boss1, pPlayer, barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
  
     local player = LuaCreatureObject(pPlayer)
     local boss = LuaCreatureObject(boss1)
@@ -269,7 +269,7 @@ function exarKun:boss1_damage(boss1, pPlayer)
       CreatureObject(boss1):playEffect("clienteffect/space_command/shp_shocked_01.cef", "")
         writeData("exarKun:bossOneFightState", 1)        
         print("exarKun:boss1_damage: Boss 1 at 99% health")
-      self:spawnBarricades()  
+      self:spawnBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)  
       end 
       
       if (((bossAction <= (bossMaxAction *0.3)))) then
