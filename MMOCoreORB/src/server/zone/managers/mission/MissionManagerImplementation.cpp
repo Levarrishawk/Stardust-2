@@ -2277,17 +2277,7 @@ void MissionManagerImplementation::deactivateMissions(CreatureObject* player) {
 int MissionManagerImplementation::getRealBountyReward(CreatureObject* creo, PlayerBounty* bounty)  {
 	if (creo == nullptr || bounty == nullptr)
 		return 0;
-
-	if (System::getMiliTime() - bounty->getLastBountyDebuff() < playerBountyDebuffLength) {
-		ManagedReference<PlayerObject*> player = creo->getPlayerObject();
-		if (player == nullptr)
-			return 0;
-
-		if (player->getJediState() >= 4)
-			return 50000;
-		else
-			return 25000;
-	}
+	
 	return bounty->getReward();
 }
 
