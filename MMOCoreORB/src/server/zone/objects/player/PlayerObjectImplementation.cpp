@@ -1455,7 +1455,7 @@ void PlayerObjectImplementation::notifyOnline() {
 			VisibilityManager::instance()->increaseVisibility(playerCreature, 8000);
 		}
 
-
+	}
 	playerCreature->schedulePersonalEnemyFlagTasks();
 }
 
@@ -1509,10 +1509,12 @@ void PlayerObjectImplementation::notifyOffline() {
 
 	MissionManager* missionManager = getZoneServer()->getMissionManager();
 
-		if (missionManager != nullptr) {
+	if (missionManager != nullptr) {
 		uint64 id = playerCreature->getObjectID();
 		if (missionManager->hasPlayerBountyTargetInList(id)) {
 			missionManager->updatePlayerBountyOnlineStatus(id, false);
+		}
+	}
 
 
 	ManagedReference<SurveySession*> session = playerCreature->getActiveSession(SessionFacadeType::SURVEY).castTo<SurveySession*>();

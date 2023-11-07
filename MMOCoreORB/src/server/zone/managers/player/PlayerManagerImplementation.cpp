@@ -112,6 +112,7 @@
 #include "templates/crcstringtable/CrcStringTable.h"
 #include "server/zone/objects/player/sui/callbacks/PlaceBountySuiCallback.h"
 #include "server/zone/objects/player/sui/inputbox/SuiInputBox.h"
+#include "server/zone/managers/visibility/VisibilityManager.h"
 
 PlayerManagerImplementation::PlayerManagerImplementation(ZoneServer* zoneServer, ZoneProcessServer* impl,
 					bool trackOnlineUsers) : Logger("PlayerManager") {
@@ -6737,8 +6738,9 @@ void PlayerManagerImplementation::offerPlayerBounty(CreatureObject* attacker, Cr
 	if (defenderGhost->hasSuiBoxWindowType(SuiWindowType::PLAYER_BOUNTY_OFFER))
 		return;
 	//Check if the player already has a bounty and-or is a Jedi.
-	if (attackerGhost->hasPlayerBounty())
+	if (attackerGhost->getVisibility() > 7500 || attackerGhost->isJedi()) {
 		return;
+	}
 	ManagedReference<SuiInputBox*> suibox = new SuiInputBox(defender, SuiWindowType::PLAYER_BOUNTY_OFFER);
 	suibox->setPromptTitle("Spynet Alert");
 	suibox->setCallback(new PlaceBountySuiCallback(server, attacker));

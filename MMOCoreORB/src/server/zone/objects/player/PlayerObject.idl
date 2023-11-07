@@ -2026,6 +2026,7 @@ class PlayerObject extends IntangibleObject {
 	}
 	public
 		boolean hasPlayerBounty() {
+		return !playerBountyTimestamp.isPast();
 	}
 
 	@read
