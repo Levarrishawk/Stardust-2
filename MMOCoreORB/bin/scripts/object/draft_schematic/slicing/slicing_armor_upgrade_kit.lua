@@ -51,6 +51,7 @@ object_draft_schematic_slicing_slicing_armor_upgrade_kit = object_draft_schemati
    complexity = 15, 
    size = 1, 
    factoryCrateType = "object/factory/factory_crate_electronics.iff",
+   factoryCrateSize = 1000,
    
    xpType = "crafting_clothing_armor", 
    xp = 60, 

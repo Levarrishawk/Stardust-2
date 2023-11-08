@@ -54,8 +54,8 @@ object_tangible_food_crafted_dish_veghash = object_tangible_food_crafted_shared_
 	fillingMax = 13,
 	flavorMin = 540,
 	flavorMax = 1080,
-	nutritionMin = 11,
-	nutritionMax = 18,
+	nutritionMin = 15,
+	nutritionMax = 32,
 	quantityMin = 4,
 	quantityMax = 9,
 

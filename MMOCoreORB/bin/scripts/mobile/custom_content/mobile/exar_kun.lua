@@ -74,7 +74,7 @@ exar_kun = Creature:new {
       groups = {
         {group = "crystal_kuns_blood", chance = 2000000},
         {group = "nge_jedi_cloaks", chance = 2000000},
-        {group = "unstable_sabers_gen3", chance = 2000000},
+        {group = "unstable_crystal_pack", chance = 2000000},
         {group = "clothing_attachments", chance = 2000000},
         {group = "armor_attachments", chance = 2000000},
       },
@@ -84,7 +84,7 @@ exar_kun = Creature:new {
       groups = {
         {group = "holocron_dark", chance = 2000000},
         {group = "power_crystals", chance = 2000000},
-        {group = "unstable_sabers_gen4", chance = 2000000},
+        {group = "unstable_crystal_pack", chance = 2000000},
         {group = "clothing_attachments", chance = 2000000},
         {group = "armor_attachments", chance = 2000000},
       },

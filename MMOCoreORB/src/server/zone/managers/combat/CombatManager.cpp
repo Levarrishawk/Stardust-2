@@ -2114,17 +2114,31 @@ float CombatManager::getDefenderToughnessModifier(CreatureObject* defender, int 
 	int forceArmor = defender->getSkillMod("force_armor");
 	int saberToughness = defender->getSkillMod("lightsaber_toughness");
 
-	if (damType != SharedWeaponObjectTemplate::LIGHTSABER && jediToughness > 0 && forceArmor <= 0){
+	if (damType != SharedWeaponObjectTemplate::LIGHTSABER && jediToughness > 0 && forceArmor <= 0 && isWearingArmor(defender)){
+		damage *= 1.f - (jediToughness / 500.f);
+		defender->sendSystemMessage("You have armor on, your Jedi Toughness has been disabled for this attack!!");
+	}else if (damType != SharedWeaponObjectTemplate::LIGHTSABER && jediToughness > 0 && forceArmor <= 0){
 		damage *= 1.f - (jediToughness / 78.f);
 	}
 
-	 if (damType == SharedWeaponObjectTemplate::LIGHTSABER && saberToughness > 0 && forceArmor <= 0){
+	if (damType != SharedWeaponObjectTemplate::LIGHTSABER && saberToughness > 0 && forceArmor <= 0 && isWearingArmor(defender)){
+		damage *= 1.f - (saberToughness / 500.f);
+		defender->sendSystemMessage("You have armor on, your Lightsaber Toughness has been disabled for this attack!!");
+	}else if (damType != SharedWeaponObjectTemplate::LIGHTSABER && saberToughness > 0 && forceArmor <= 0){
 		damage *= 1.f - (saberToughness / 150.f);
 	}
 
+
 	return damage < 0 ? 0 : damage;
 }
-
+bool CombatManager::isWearingArmor(CreatureObject* creo) const {
+	for (int i = 0; i < creo->getSlottedObjectsSize(); ++i) {
+		SceneObject* item = creo->getSlottedObject(i);
+		if (item != nullptr && item->isArmorObject())
+			return true;
+	}
+	return false;
+}
 /*
 
 	Armor Reduction and Calculations - Player, Ai, Turret, Vehcile

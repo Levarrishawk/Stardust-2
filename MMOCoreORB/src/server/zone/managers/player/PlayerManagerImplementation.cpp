@@ -110,6 +110,9 @@
 #include "server/zone/objects/transaction/TransactionLog.h"
 #include "server/zone/objects/creature/commands/TransferItemMiscCommand.h"
 #include "templates/crcstringtable/CrcStringTable.h"
+#include "server/zone/objects/player/sui/callbacks/PlaceBountySuiCallback.h"
+#include "server/zone/objects/player/sui/inputbox/SuiInputBox.h"
+#include "server/zone/managers/visibility/VisibilityManager.h"
 
 PlayerManagerImplementation::PlayerManagerImplementation(ZoneServer* zoneServer, ZoneProcessServer* impl,
 					bool trackOnlineUsers) : Logger("PlayerManager") {
@@ -1353,6 +1356,11 @@ void PlayerManagerImplementation::killPlayer(TangibleObject* attacker, CreatureO
 	player->setTargetID(0, true);
 
 	player->notifyObjectKillObservers(attacker);
+	
+	CreatureObject* attackerCreature = attacker->asCreatureObject();
+	if (attacker->isPlayerCreature() && attacker != player){
+		offerPlayerBounty(attackerCreature, player);
+		}
 }
 
 void PlayerManagerImplementation::sendActivateCloneRequest(CreatureObject* player, int typeofdeath) {
@@ -6720,3 +6728,30 @@ void PlayerManagerImplementation::iteratePlayerNames(const PlayerNameIterator& i
 		iterator(name, oid);
 	}
 }
+
+void PlayerManagerImplementation::offerPlayerBounty(CreatureObject* attacker, CreatureObject* defender) {
+	PlayerObject* attackerGhost = attacker->getPlayerObject();
+	PlayerObject* defenderGhost = defender->getPlayerObject();
+	if (attackerGhost == nullptr || defenderGhost == nullptr)
+		return;
+	//Check to see if this window is already open.
+	if (defenderGhost->hasSuiBoxWindowType(SuiWindowType::PLAYER_BOUNTY_OFFER))
+		return;
+	//Check if the player already has a bounty and-or is a Jedi.
+	if (attackerGhost->getVisibility() > 7500 || attackerGhost->isJedi()) {
+		return;
+	}
+	ManagedReference<SuiInputBox*> suibox = new SuiInputBox(defender, SuiWindowType::PLAYER_BOUNTY_OFFER);
+	suibox->setPromptTitle("Spynet Alert");
+	suibox->setCallback(new PlaceBountySuiCallback(server, attacker));
+	suibox->setOkButton(true, "@yes");
+	suibox->setMaxInputSize(128);
+	suibox->setCancelButton(true, "@no");
+	StringBuffer prompt;
+	prompt << "You have been killed in PvP by " + attacker->getFirstName() + ".\n\n"
+           << "The Bounty Hunters' guild is offering to assist you in retribution. Enter an amount between 100,000 and 500,000 if you wish to place your killer on the Bounty Hunter terminals.";
+	suibox->setPromptText(prompt.toString());
+	defenderGhost->addSuiBox(suibox);
+	defender->sendMessage(suibox->generateMessage());
+}
+

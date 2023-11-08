@@ -4132,6 +4132,14 @@ object_draft_schematic_weapon_shared_carbine_republic_sfor = SharedDraftSchemati
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_carbine_republic_sfor, "object/draft_schematic/weapon/shared_carbine_republic_sfor.iff")
 -------------------------------------
+object_draft_schematic_weapon_shared_carbine_proton = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/weapon/shared_carbine_proton.iff"
+	
+  }
+  
+  ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_carbine_proton, "object/draft_schematic/weapon/shared_carbine_proton.iff")
+  
+  -------------------------------------
 -------------------------------------
 object_draft_schematic_weapon_shared_lance_shock = SharedDraftSchematicObjectTemplate:new {
   clientTemplateFileName = "object/draft_schematic/weapon/shared_lance_shock.iff"

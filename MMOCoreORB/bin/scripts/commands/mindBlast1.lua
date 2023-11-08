@@ -47,7 +47,7 @@ MindBlast1Command = {
 	minDamage = 450,
 	maxDamage = 950,
 	speed = 2.0,
-	forceCost = 55,
+	forceCost = 45,
 	visMod = 25,
 	accuracySkillMod = "mindblast_accuracy";
 

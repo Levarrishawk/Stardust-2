@@ -301,6 +301,12 @@ class PlayerObject extends IntangibleObject {
 	protected transient unsigned long sessionStatsTotalMovement;
 	protected transient unsigned long sessionStatsTotalCredits;
 	protected transient string sessionStatsIPAddress;
+	
+	//Player Bounty
+	@dereferenced
+	protected Time playerBountyTimestamp;
+	protected unsigned long bountyPlacerId;
+	protected int bountyReward;
 
 	public static final int LFG = 1;
 	public static final int NEWBIEHELPER = 2;
@@ -1999,6 +2005,28 @@ class PlayerObject extends IntangibleObject {
 
 	public void setCloning(boolean val) {
 		isPlayerCloning = val;
+	}
+	
+	//Player Bounty
+	public void updatePlayerBountyTimestamp(int duration) {
+		playerBountyTimestamp.updateToCurrentTime();
+		playerBountyTimestamp.addMiliTime(duration);
+	}
+	public void setBountyReward(int reward) {
+		bountyReward = reward;
+	}
+	public unsigned long getBountyReward() {
+		return bountyReward;
+	}
+	public void setBountyPlacerId(unsigned long placerId) {
+		bountyPlacerId = placerId;
+	}
+	public unsigned long getBountyPlacerId() {
+		return bountyPlacerId;
+	}
+	public
+		boolean hasPlayerBounty() {
+		return !playerBountyTimestamp.isPast();
 	}
 
 	@read
