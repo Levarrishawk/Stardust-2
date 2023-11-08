@@ -1044,62 +1044,65 @@ function exarKun:spawnBarricades(pExarKun)
 end
 
 function exarKun:destroyBarricades(pExarKun)
-
-  local bar1ID = readData("exarKun:barricade1ID")  
-    local barricade1 = getSceneObject(bar1ID)
-  local bar2ID = readData("exarKun:barricade2ID")  
-    local barricade2 = getSceneObject(bar2ID)  
-  local bar3ID = readData("exarKun:barricade3ID")  
-    local barricade3 = getSceneObject(bar3ID)
-  local bar4ID = readData("exarKun:barricade4ID")  
-    local barricade4 = getSceneObject(bar4ID)  
-  local bar5ID = readData("exarKun:barricade5ID")  
-    local barricade5 = getSceneObject(bar5ID)  
-  local bar6ID = readData("exarKun:barricade6ID")  
-    local barricade6 = getSceneObject(bar6ID)  
-     
-  if (barricade1 == nil) then
-    print("exarKun:destroyBarricades: Barricade1 was nil")
-    return
+  if readData("exarKun:barricadeSpawnState" == 1) then
+    local bar1ID = readData("exarKun:barricade1ID")  
+      local barricade1 = getSceneObject(bar1ID)
+    local bar2ID = readData("exarKun:barricade2ID")  
+      local barricade2 = getSceneObject(bar2ID)  
+    local bar3ID = readData("exarKun:barricade3ID")  
+      local barricade3 = getSceneObject(bar3ID)
+    local bar4ID = readData("exarKun:barricade4ID")  
+      local barricade4 = getSceneObject(bar4ID)  
+    local bar5ID = readData("exarKun:barricade5ID")  
+      local barricade5 = getSceneObject(bar5ID)  
+    local bar6ID = readData("exarKun:barricade6ID")  
+      local barricade6 = getSceneObject(bar6ID)  
+       
+    if (barricade1 == nil) then
+      print("exarKun:destroyBarricades: Barricade1 was nil")
+      return
+    else
+      SceneObject(barricade1):destroyObjectFromWorld()
+      print("exarKun:destroyBarricades: Barricade1 Destroyed")
+    end
+    if (barricade2 == nil) then
+      print("exarKun:destroyBarricades: Barricade2 was nil")
+      return
+    else
+      SceneObject(barricade2):destroyObjectFromWorld()
+      print("exarKun:destroyBarricades: Barricade2 Destroyed")
+    end
+    if (barricade3 == nil) then
+      print("exarKun:destroyBarricades: Barricade3 was nil")
+      return
+    else
+      SceneObject(barricade3):destroyObjectFromWorld()
+      print("exarKun:destroyBarricades: Barricade3 Destroyed")
+    end
+    if (barricade4 == nil) then
+      print("exarKun:destroyBarricades: Barricade4 was nil")
+      return
+    else
+      SceneObject(barricade4):destroyObjectFromWorld()
+      print("exarKun:destroyBarricades: Barricade4 Destroyed")
+    end
+    if (barricade5 == nil) then
+      print("exarKun:destroyBarricades: Barricade5 was nil")
+      return
+    else
+      SceneObject(barricade5):destroyObjectFromWorld()
+      print("exarKun:destroyBarricades: Barricade5 Destroyed")
+    end
+    if (barricade6 == nil) then
+      print("exarKun:destroyBarricades: Barricade6 was nil")
+      return
+    else
+      SceneObject(barricade6):destroyObjectFromWorld()
+      print("exarKun:destroyBarricades: Barricade6 Destroyed")
+      writeData("exarKun:barricadeSpawnState", 0)
+    end
   else
-    SceneObject(barricade1):destroyObjectFromWorld()
-    print("exarKun:destroyBarricades: Barricade1 Destroyed")
-  end
-  if (barricade2 == nil) then
-    print("exarKun:destroyBarricades: Barricade2 was nil")
-    return
-  else
-    SceneObject(barricade2):destroyObjectFromWorld()
-    print("exarKun:destroyBarricades: Barricade2 Destroyed")
-  end
-  if (barricade3 == nil) then
-    print("exarKun:destroyBarricades: Barricade3 was nil")
-    return
-  else
-    SceneObject(barricade3):destroyObjectFromWorld()
-    print("exarKun:destroyBarricades: Barricade3 Destroyed")
-  end
-  if (barricade4 == nil) then
-    print("exarKun:destroyBarricades: Barricade4 was nil")
-    return
-  else
-    SceneObject(barricade4):destroyObjectFromWorld()
-    print("exarKun:destroyBarricades: Barricade4 Destroyed")
-  end
-  if (barricade5 == nil) then
-    print("exarKun:destroyBarricades: Barricade5 was nil")
-    return
-  else
-    SceneObject(barricade5):destroyObjectFromWorld()
-    print("exarKun:destroyBarricades: Barricade5 Destroyed")
-  end
-  if (barricade6 == nil) then
-    print("exarKun:destroyBarricades: Barricade6 was nil")
-    return
-  else
-    SceneObject(barricade6):destroyObjectFromWorld()
-    print("exarKun:destroyBarricades: Barricade6 Destroyed")
-    writeData("exarKun:barricadeSpawnState", 0)
+    return 0  
   end
 end
 
