@@ -334,7 +334,8 @@ function exarKun:boss1_damage(boss1, pPlayer, barricade1, barricade2, barricade3
       
       if (((bossHealth <= (bossMaxHealth *0.01))) and readData("exarKun:bossOneFightState") == 5) then   
          print("exarKun:bossOneKilled: Boss 1 at 1%. Sending to destroyBarricades.")
-         createEvent(1000, "exarKun", "destroyBarricades", barricade1, barricade2, barricade3, barricade4, barricade5, barricade6, "")    
+         self:destroyBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
+        -- createEvent(1000, "exarKun", "destroyBarricades", barricade1, barricade2, barricade3, barricade4, barricade5, barricade6, "")    
         writeData("exarKun:bossOneFightState", 6)        
       end
     end
@@ -392,7 +393,7 @@ function exarKun:bossOneKilled(boss1, barricade1, barricade2, barricade3, barric
   print("exarKun:bossOneKilled: Boss 1 has been killed.  sending to spawnBossRoomTwo.")
   writeData("exarKun:bossOneDead", 1) 
   self:spawnBossRoomTwo()
- -- self:destroyBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
+  
   return 0
 end
 
