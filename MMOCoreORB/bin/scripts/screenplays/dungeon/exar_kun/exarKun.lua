@@ -266,7 +266,7 @@ function exarKun:boss1_damage(boss1, pPlayer, barricade1, barricade2, barricade3
    
   
   
-      if (((bossHealth <= (bossMaxHealth *0.999))) and readData("exarKun:bossOneFightState") == 0) then
+      if (((bossHealth <= (bossMaxHealth *0.999))) and readData("exarKun:bossOneFightState") == 0 and readData("exarKun:barricadeSpawnState") == 0) then
         print("exarKun:boss1_damage: Boss 1 engaged spawning barricades")
         self:spawnBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)  
       end 
@@ -730,11 +730,9 @@ function exarKun:boss5_damage(boss5, pPlayer, barricade1, barricade2, barricade3
       local bossMaxMind = boss:getMaxHAM(6)
    
    
-      if (((bossHealth <= (bossMaxHealth *0.999))) and readData("exarKun:bossFiveFightState") == 0) then       
-        
+      if (((bossHealth <= (bossMaxHealth *0.999))) and readData("exarKun:bossFiveFightState") == 0 and readData("exarKun:barricadeSpawnState") == 0) then              
           print("exarKun:boss5_damage: Boss 5 engaged spawning barricades")
-          self:spawnBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)  
-        
+          self:spawnBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)          
       end
   
       if (((bossHealth <= (bossMaxHealth *0.99))) and readData("exarKun:bossFiveFightState") == 0) then
@@ -1020,7 +1018,7 @@ print("exarKun:handleVictory: handing off to ejectAllPlayers")
 end
 
 function exarKun:spawnBarricades(pExarKun)
- if (readData("exarKun:barricadeSpawnState" == 0)) then 
+  
     local barricade1 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", -11.7, 0.2, -95.0, 480000293, math.rad(90) )
       local bar1ID = SceneObject(barricade1):getObjectID()
         writeData("exarKun:barricade1ID", bar1ID) 
@@ -1041,10 +1039,7 @@ function exarKun:spawnBarricades(pExarKun)
         writeData("exarKun:barricade6ID", bar6ID) 
     print("exarKun:spawnBarricades: Barricades Spawned") 
     writeData("exarKun:barricadeSpawnState", 1)
-    return 0
-  else
-    return 0  
-  end
+  
 end
 
 function exarKun:destroyBarricades(pExarKun)
