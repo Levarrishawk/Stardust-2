@@ -19,6 +19,7 @@ function exarKun:start()
     writeData("exarKun:bossThreeDead", 0) 
     writeData("exarKun:bossFourDead", 0) 
     writeData("exarKun:bossFiveDead", 0)   
+    writeData("exarKun:barricadeSpawnState", 0)
 	end
 end
 
