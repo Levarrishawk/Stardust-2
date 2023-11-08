@@ -59,7 +59,7 @@ public:
 		//killerGhost->updatePlayerBountyTimestamp(3600000); Cooldown
 		killerGhost->setBountyReward(reward);
 		missionManager->addPlayerToBountyList(killerPlayer->getObjectID(), reward);
-		VisibilityManager::instance()->increaseVisibility(killerPlayer, 8000);
+		killerGhost->setVisibility(8000);
 		player->sendSystemMessage("You have successfully placed a bounty on " + killerPlayer->getFirstName() + ".");
 		killerPlayer->sendSystemMessage("Warning!! " + player->getFirstName() + " has placed a bounty on you.");
 		
