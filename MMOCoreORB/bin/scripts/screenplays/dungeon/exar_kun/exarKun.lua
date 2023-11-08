@@ -422,7 +422,7 @@ function exarKun:boss2_damage(boss2, pPlayer, barricade1, barricade2, barricade3
       local bossMaxAction = boss:getMaxHAM(3)
       local bossMaxMind = boss:getMaxHAM(6)
    
-      if (((bossHealth <= (bossMaxHealth *0.999))) and readData("exarKun:bossTwoFightState") == 0) then
+      if (((bossHealth <= (bossMaxHealth *0.999))) and readData("exarKun:bossTwoFightState") == 0 and readData("exarKun:barricadeSpawnState") == 0) then
         print("exarKun:boss2_damage: Boss 2 engaged spawning barricades")
         self:spawnBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)  
       end 
@@ -519,7 +519,7 @@ function exarKun:boss3_damage(boss3, pPlayer, barricade1, barricade2, barricade3
       local bossMaxAction = boss:getMaxHAM(3)
       local bossMaxMind = boss:getMaxHAM(6)
       
-      if (((bossHealth <= (bossMaxHealth *0.999))) and readData("exarKun:bossThreeFightState") == 0) then
+      if (((bossHealth <= (bossMaxHealth *0.999))) and readData("exarKun:bossThreeFightState") == 0 and readData("exarKun:barricadeSpawnState") == 0) then
         print("exarKun:boss3_damage: Boss 3 engaged spawning barricades")
         self:spawnBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)  
       end 
@@ -631,7 +631,7 @@ function exarKun:boss4_damage(boss4, pPlayer, barricade1, barricade2, barricade3
       local bossMaxAction = boss:getMaxHAM(3)
       local bossMaxMind = boss:getMaxHAM(6)
    
-      if (((bossHealth <= (bossMaxHealth *0.999))) and readData("exarKun:bossFourFightState") == 0) then
+      if (((bossHealth <= (bossMaxHealth *0.999))) and readData("exarKun:bossFourFightState") == 0 and readData("exarKun:barricadeSpawnState") == 0) then
         print("exarKun:boss4_damage: Boss 4 engaged spawning barricades")
         self:spawnBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)  
       end
