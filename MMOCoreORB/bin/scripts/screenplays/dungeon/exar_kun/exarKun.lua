@@ -1017,26 +1017,30 @@ print("exarKun:handleVictory: handing off to ejectAllPlayers")
 end
 
 function exarKun:spawnBarricades(pExarKun)
-  local barricade1 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", -11.7, 0.2, -95.0, 480000293, math.rad(90) )
-    local bar1ID = SceneObject(barricade1):getObjectID()
-      writeData("exarKun:barricade1ID", bar1ID) 
-  local barricade2 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 28.0, 0.0, -62.7, 480000295, math.rad(134) )
-    local bar2ID = SceneObject(barricade2):getObjectID()
-      writeData("exarKun:barricade2ID", bar2ID) 
-  local barricade3 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 38.2, 0.0, -1.3, 480000295, math.rad(0) )
-    local bar3ID = SceneObject(barricade3):getObjectID()
-      writeData("exarKun:barricade3ID", bar3ID) 
-  local barricade4 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", -24.1, -0.3, -20.1, 480000297, math.rad(-175) )
-    local bar4ID = SceneObject(barricade4):getObjectID()
-      writeData("exarKun:barricade4ID", bar4ID) 
-  local barricade5 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 2.5, -0.2, 45.1, 480000298, math.rad(-1) )
-    local bar5ID = SceneObject(barricade5):getObjectID()
-      writeData("exarKun:barricade5ID", bar5ID) 
-  local barricade6 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 15.5, -0.0, 55.5, 480000299, math.rad(90) )  
-    local bar6ID = SceneObject(barricade6):getObjectID()
-      writeData("exarKun:barricade6ID", bar6ID) 
-  print("exarKun:spawnBarricades: Barricades Spawned") 
-
+  if readData("exarKun:barricadeSpawnState" == 0) then
+    local barricade1 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", -11.7, 0.2, -95.0, 480000293, math.rad(90) )
+      local bar1ID = SceneObject(barricade1):getObjectID()
+        writeData("exarKun:barricade1ID", bar1ID) 
+    local barricade2 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 28.0, 0.0, -62.7, 480000295, math.rad(134) )
+      local bar2ID = SceneObject(barricade2):getObjectID()
+        writeData("exarKun:barricade2ID", bar2ID) 
+    local barricade3 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 38.2, 0.0, -1.3, 480000295, math.rad(0) )
+      local bar3ID = SceneObject(barricade3):getObjectID()
+        writeData("exarKun:barricade3ID", bar3ID) 
+    local barricade4 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", -24.1, -0.3, -20.1, 480000297, math.rad(-175) )
+      local bar4ID = SceneObject(barricade4):getObjectID()
+        writeData("exarKun:barricade4ID", bar4ID) 
+    local barricade5 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 2.5, -0.2, 45.1, 480000298, math.rad(-1) )
+      local bar5ID = SceneObject(barricade5):getObjectID()
+        writeData("exarKun:barricade5ID", bar5ID) 
+    local barricade6 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 15.5, -0.0, 55.5, 480000299, math.rad(90) )  
+      local bar6ID = SceneObject(barricade6):getObjectID()
+        writeData("exarKun:barricade6ID", bar6ID) 
+    print("exarKun:spawnBarricades: Barricades Spawned") 
+    writeData("exarKun:barricadeSpawnState", 1)
+  else
+    return 0  
+  end
 end
 
 function exarKun:destroyBarricades(pExarKun)
@@ -1095,6 +1099,7 @@ function exarKun:destroyBarricades(pExarKun)
   else
     SceneObject(barricade6):destroyObjectFromWorld()
     print("exarKun:destroyBarricades: Barricade6 Destroyed")
+    writeData("exarKun:barricadeSpawnState", 0)
   end
 end
 
