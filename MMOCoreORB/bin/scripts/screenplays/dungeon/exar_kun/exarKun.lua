@@ -1018,7 +1018,7 @@ print("exarKun:handleVictory: handing off to ejectAllPlayers")
 end
 
 function exarKun:spawnBarricades(pExarKun)
-  if readData("exarKun:barricadeSpawnState" == 0) then
+  if (readData("exarKun:barricadeSpawnState" == 0)) then
     local barricade1 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", -11.7, 0.2, -95.0, 480000293, math.rad(90) )
       local bar1ID = SceneObject(barricade1):getObjectID()
         writeData("exarKun:barricade1ID", bar1ID) 
@@ -1045,7 +1045,7 @@ function exarKun:spawnBarricades(pExarKun)
 end
 
 function exarKun:destroyBarricades(pExarKun)
-  if readData("exarKun:barricadeSpawnState" == 1) then
+  if (readData("exarKun:barricadeSpawnState" == 1)) then
     local bar1ID = readData("exarKun:barricade1ID")  
       local barricade1 = getSceneObject(bar1ID)
     local bar2ID = readData("exarKun:barricade2ID")  
