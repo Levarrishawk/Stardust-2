@@ -53,17 +53,20 @@ SaberPolearmHit3Command = {
 	accuracyBonus = 50,
 	visMod = 25,
 
-	stateEffects = {
-	  StateEffect( 
-		STUN_EFFECT, 
-		{}, 
-		{ "stun_defense", "resistance_states" }, 
-		{ "jedi_state_defense" }, 
-		75, 
-		0, 
-		90 
-	  )
-	},
+	dotEffects = {
+    DotEffect( 
+    ONFIRE, 
+    { "resistance_fire", "fire_resist" },
+    HEALTH,
+    true,
+    0,
+    50,
+    15, 
+    10,
+    5,
+    2
+    )
+  },
 
 	animation = "combo_4b", 
 	animType = GENERATE_INTENSITY,

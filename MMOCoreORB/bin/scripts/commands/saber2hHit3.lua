@@ -52,6 +52,21 @@ Saber2hHit3Command = {
 	forceCostMultiplier = 2.0,
 	accuracyBonus = 50,
 	visMod = 25,
+	
+	dotEffects = {
+    DotEffect( 
+    ONFIRE, 
+    { "resistance_fire", "fire_resist" },
+    HEALTH,
+    true,
+    0,
+    50,
+    15, 
+    10,
+    5,
+    2
+    )
+  },
 
 	animation = "showoff_3", 
 	animType = GENERATE_INTENSITY,
