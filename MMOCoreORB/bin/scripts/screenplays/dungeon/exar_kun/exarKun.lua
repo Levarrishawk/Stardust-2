@@ -19,6 +19,7 @@ function exarKun:start()
     writeData("exarKun:bossThreeDead", 0) 
     writeData("exarKun:bossFourDead", 0) 
     writeData("exarKun:bossFiveDead", 0)   
+    writeData("exarKun:barricadeSpawnState", 0)
 	end
 end
 
@@ -264,12 +265,17 @@ function exarKun:boss1_damage(boss1, pPlayer, barricade1, barricade2, barricade3
       local bossMaxMind = boss:getMaxHAM(6)
    
   
+  
+      if (((bossHealth <= (bossMaxHealth *0.999))) and readData("exarKun:bossOneFightState") == 0 and readData("exarKun:barricadeSpawnState") == 0) then
+        print("exarKun:boss1_damage: Boss 1 engaged spawning barricades")
+        self:spawnBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)  
+      end 
+  
       if (((bossHealth <= (bossMaxHealth *0.99))) and readData("exarKun:bossOneFightState") == 0) then
       spatialChat(boss1, "You come seeking the wisdom of the master?  Very well. There is much to learn.  I will show you!")
       CreatureObject(boss1):playEffect("clienteffect/space_command/shp_shocked_01.cef", "")
         writeData("exarKun:bossOneFightState", 1)        
-        print("exarKun:boss1_damage: Boss 1 at 99% health")
-      self:spawnBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)  
+        print("exarKun:boss1_damage: Boss 1 at 99% health")      
       end 
       
       if (((bossAction <= (bossMaxAction *0.3)))) then
@@ -332,8 +338,10 @@ function exarKun:boss1_damage(boss1, pPlayer, barricade1, barricade2, barricade3
         writeData("exarKun:bossOneFightState", 5)        
       end  
       
-      if (((bossHealth <= (bossMaxHealth *0.1))) and readData("exarKun:bossOneFightState") == 5) then      
-        writeData("exarKun:bossOneFightState", 6)        
+      if (((bossHealth <= (bossMaxHealth *0.01))) and readData("exarKun:bossOneFightState") == 5) then   
+         print("exarKun:bossOneKilled: Boss 1 at 1%. Sending to destroyBarricades.")
+         self:destroyBarricades()--barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
+          writeData("exarKun:bossOneFightState", 6)        
       end
     end
     return 0
@@ -390,7 +398,7 @@ function exarKun:bossOneKilled(boss1, barricade1, barricade2, barricade3, barric
   print("exarKun:bossOneKilled: Boss 1 has been killed.  sending to spawnBossRoomTwo.")
   writeData("exarKun:bossOneDead", 1) 
   self:spawnBossRoomTwo()
-  self:destroyBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
+  
   return 0
 end
 
@@ -402,7 +410,7 @@ function exarKun:spawnBossRoomTwo()
     print("exarKun:spawnBossRoomTwo: Boss 2 spawned.  Destruction and damage observers started.")
 end
 
-function exarKun:boss2_damage(boss2, pPlayer)
+function exarKun:boss2_damage(boss2, pPlayer, barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
  
     local player = LuaCreatureObject(pPlayer)
     local boss = LuaCreatureObject(boss2)
@@ -414,7 +422,11 @@ function exarKun:boss2_damage(boss2, pPlayer)
       local bossMaxAction = boss:getMaxHAM(3)
       local bossMaxMind = boss:getMaxHAM(6)
    
-  
+      if (((bossHealth <= (bossMaxHealth *0.999))) and readData("exarKun:bossTwoFightState") == 0 and readData("exarKun:barricadeSpawnState") == 0) then
+        print("exarKun:boss2_damage: Boss 2 engaged spawning barricades")
+        self:spawnBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)  
+      end 
+      
       if (((bossHealth <= (bossMaxHealth *0.99))) and readData("exarKun:bossTwoFightState") == 0) then
       spatialChat(boss2, "I will test the mettle of your will against the metal of my blade, for the glory of the master!")
         CreatureObject(boss2):playEffect("clienteffect/space_command/shp_shocked_01.cef", "")
@@ -469,7 +481,9 @@ function exarKun:boss2_damage(boss2, pPlayer)
         writeData("exarKun:bossTwoFightState", 5)        
       end  
       
-      if (((bossHealth <= (bossMaxHealth *0.1))) and readData("exarKun:bossTwoFightState") == 5) then      
+      if (((bossHealth <= (bossMaxHealth *0.01))) and readData("exarKun:bossTwoFightState") == 5) then  
+        print("exarKun:bossTwoKilled: Boss 2 at 1%. Sending to destroyBarricades.")
+        self:destroyBarricades()    
         writeData("exarKun:bossTwoFightState", 6)        
       end
     end
@@ -493,7 +507,7 @@ function exarKun:spawnBossRoomThree()  -- Adds for this phase:   exar_kun_warrio
     print("exarKun:spawnBossRoomThree: Boss 3 spawned, damage and destruction observers activated.")  
 end
 
-function exarKun:boss3_damage(boss3, pPlayer)
+function exarKun:boss3_damage(boss3, pPlayer, barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
  
     local player = LuaCreatureObject(pPlayer)
     local boss = LuaCreatureObject(boss3)
@@ -504,7 +518,11 @@ function exarKun:boss3_damage(boss3, pPlayer)
       local bossMaxHealth = boss:getMaxHAM(0)
       local bossMaxAction = boss:getMaxHAM(3)
       local bossMaxMind = boss:getMaxHAM(6)
-   
+      
+      if (((bossHealth <= (bossMaxHealth *0.999))) and readData("exarKun:bossThreeFightState") == 0 and readData("exarKun:barricadeSpawnState") == 0) then
+        print("exarKun:boss3_damage: Boss 3 engaged spawning barricades")
+        self:spawnBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)  
+      end 
   
       if (((bossHealth <= (bossMaxHealth *0.99))) and readData("exarKun:bossThreeFightState") == 0) then
       print("exarKun:boss3_damage: Boss 3 at 99% health.") 
@@ -563,7 +581,9 @@ function exarKun:boss3_damage(boss3, pPlayer)
         writeData("exarKun:bossThreeFightState", 5)        
       end  
       
-      if (((bossHealth <= (bossMaxHealth *0.1))) and readData("exarKun:bossThreeFightState") == 5) then      
+      if (((bossHealth <= (bossMaxHealth *0.01))) and readData("exarKun:bossThreeFightState") == 5) then  
+        print("exarKun:bossThreeKilled: Boss 3 at 1%. Sending to destroyBarricades.")
+        self:destroyBarricades()    
         writeData("exarKun:bossThreeFightState", 6)        
       end
     end
@@ -599,7 +619,7 @@ function exarKun:spawnBossRoomFour()
     print("exarKun:spawnBossRoomFour: Boss 4 spawned, damage and destruction observers activated.  Boss 4 trash mobs spawned.")
 end
 
-function exarKun:boss4_damage(boss4, pPlayer)
+function exarKun:boss4_damage(boss4, pPlayer, barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
  
     local player = LuaCreatureObject(pPlayer)
     local boss = LuaCreatureObject(boss4)
@@ -611,7 +631,11 @@ function exarKun:boss4_damage(boss4, pPlayer)
       local bossMaxAction = boss:getMaxHAM(3)
       local bossMaxMind = boss:getMaxHAM(6)
    
-  
+      if (((bossHealth <= (bossMaxHealth *0.999))) and readData("exarKun:bossFourFightState") == 0 and readData("exarKun:barricadeSpawnState") == 0) then
+        print("exarKun:boss4_damage: Boss 4 engaged spawning barricades")
+        self:spawnBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)  
+      end
+      
       if (((bossHealth <= (bossMaxHealth *0.995))) and readData("exarKun:bossFourFightState") == 0) then
       print("exarKun:boss4_damage: Boss 4 at 99% health.")
       spatialChat(boss4, "You stand before the Master, defiantly.  Pity for you to come so far only to die.")
@@ -667,7 +691,9 @@ function exarKun:boss4_damage(boss4, pPlayer)
         writeData("exarKun:bossFourFightState", 5)        
       end  
       
-      if (((bossHealth <= (bossMaxHealth *0.1))) and readData("exarKun:bossFourFightState") == 5) then      
+      if (((bossHealth <= (bossMaxHealth *0.01))) and readData("exarKun:bossFourFightState") == 5) then  
+        print("exarKun:bossFourKilled: Boss 4 at 1%. Sending to destroyBarricades.")
+        self:destroyBarricades()    
         writeData("exarKun:bossFourFightState", 6)        
       end
     end
@@ -691,7 +717,7 @@ function exarKun:spawnBossRoomFive()
     print("exarKun:spawnBossRoomFive: Boss 5 spawned. Damage and Destruction observers started.")
 end
 
-function exarKun:boss5_damage(boss5, pPlayer)
+function exarKun:boss5_damage(boss5, pPlayer, barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
  
     local player = LuaCreatureObject(pPlayer)
     local boss = LuaCreatureObject(boss5)
@@ -703,6 +729,11 @@ function exarKun:boss5_damage(boss5, pPlayer)
       local bossMaxAction = boss:getMaxHAM(3)
       local bossMaxMind = boss:getMaxHAM(6)
    
+   
+      if (((bossHealth <= (bossMaxHealth *0.999))) and readData("exarKun:bossFiveFightState") == 0 and readData("exarKun:barricadeSpawnState") == 0) then              
+          print("exarKun:boss5_damage: Boss 5 engaged spawning barricades")
+          self:spawnBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)          
+      end
   
       if (((bossHealth <= (bossMaxHealth *0.99))) and readData("exarKun:bossFiveFightState") == 0) then
       print("exarKun:boss5_damage: Boss 5 at 99% health.")
@@ -825,7 +856,9 @@ function exarKun:boss5_damage(boss5, pPlayer)
         writeData("exarKun:bossFiveFightState", 5)        
       end  
       
-      if (((bossHealth <= (bossMaxHealth *0.1))) and readData("exarKun:bossFiveFightState") == 5) then      
+      if (((bossHealth <= (bossMaxHealth *0.01))) and readData("exarKun:bossFiveFightState") == 5) then  
+        print("exarKun:bossFiveKilled: Boss 5 at 1%. Sending to destroyBarricades.")
+        self:destroyBarricades()    
         writeData("exarKun:bossFiveFightState", 6)        
       end
     end
@@ -984,54 +1017,90 @@ print("exarKun:handleVictory: handing off to ejectAllPlayers")
    return 0
 end
 
-function exarKun:spawnBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
-  local barricade1 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", -11.7, 0.2, -95.0, 480000293, math.rad(0) )
-  local barricade2 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 28.0, 0.0, -62.7, 480000295, math.rad(44) )
-  local barricade3 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 38.2, 0.0, -1.3, 480000295, math.rad(90) )
-  local barricade4 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", -24.1, -0.3, -20.1, 480000297, math.rad(-78) )
-  local barricade5 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 2.5, -0.2, 45.1, 480000298, math.rad(-91) )
-  local barricade6 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 15.5, -0.0, 55.5, 480000299, math.rad(-0) )  
-  print("exarKun:spawnBarricades: Barricades Spawned") 
-
+function exarKun:spawnBarricades(pExarKun)
+  
+    local barricade1 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", -11.7, 0.2, -95.0, 480000293, math.rad(90) )
+      local bar1ID = SceneObject(barricade1):getObjectID()
+        writeData("exarKun:barricade1ID", bar1ID) 
+    local barricade2 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 28.0, 0.0, -62.7, 480000295, math.rad(134) )
+      local bar2ID = SceneObject(barricade2):getObjectID()
+        writeData("exarKun:barricade2ID", bar2ID) 
+    local barricade3 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 38.2, 0.0, -1.3, 480000295, math.rad(0) )
+      local bar3ID = SceneObject(barricade3):getObjectID()
+        writeData("exarKun:barricade3ID", bar3ID) 
+    local barricade4 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", -24.1, -0.3, -20.1, 480000297, math.rad(-175) )
+      local bar4ID = SceneObject(barricade4):getObjectID()
+        writeData("exarKun:barricade4ID", bar4ID) 
+    local barricade5 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 2.5, -0.2, 45.1, 480000298, math.rad(-1) )
+      local bar5ID = SceneObject(barricade5):getObjectID()
+        writeData("exarKun:barricade5ID", bar5ID) 
+    local barricade6 = spawnSceneObject("yavin4", "object/tangible/door/exar_kun_door_s1.iff", 15.5, -0.0, 55.5, 480000299, math.rad(90) )  
+      local bar6ID = SceneObject(barricade6):getObjectID()
+        writeData("exarKun:barricade6ID", bar6ID) 
+    print("exarKun:spawnBarricades: Barricades Spawned") 
+    writeData("exarKun:barricadeSpawnState", 1)
+  
 end
 
-function exarKun:destroyBarricades(barricade1, barricade2, barricade3, barricade4, barricade5, barricade6)
-  if (barricade1 == nil) then
-    return
-  else
-    SceneObject(barricade1):destroyObjectFromWorld()
-    print("exarKun:destroyBarricades: Barricade1 Destroyed")
-  end
-  if (barricade2 == nil) then
-    return
-  else
-    SceneObject(barricade2):destroyObjectFromWorld()
-    print("exarKun:destroyBarricades: Barricade2 Destroyed")
-  end
-  if (barricade3 == nil) then
-    return
-  else
-    SceneObject(barricade3):destroyObjectFromWorld()
-    print("exarKun:destroyBarricades: Barricade3 Destroyed")
-  end
-  if (barricade4 == nil) then
-    return
-  else
-    SceneObject(barricade4):destroyObjectFromWorld()
-    print("exarKun:destroyBarricades: Barricade4 Destroyed")
-  end
-  if (barricade5 == nil) then
-    return
-  else
-    SceneObject(barricade5):destroyObjectFromWorld()
-    print("exarKun:destroyBarricades: Barricade5 Destroyed")
-  end
-  if (barricade6 == nil) then
-    return
-  else
-    SceneObject(barricade6):destroyObjectFromWorld()
-    print("exarKun:destroyBarricades: Barricade6 Destroyed")
-  end
+function exarKun:destroyBarricades(pExarKun)
+  
+    local bar1ID = readData("exarKun:barricade1ID")  
+      local barricade1 = getSceneObject(bar1ID)
+    local bar2ID = readData("exarKun:barricade2ID")  
+      local barricade2 = getSceneObject(bar2ID)  
+    local bar3ID = readData("exarKun:barricade3ID")  
+      local barricade3 = getSceneObject(bar3ID)
+    local bar4ID = readData("exarKun:barricade4ID")  
+      local barricade4 = getSceneObject(bar4ID)  
+    local bar5ID = readData("exarKun:barricade5ID")  
+      local barricade5 = getSceneObject(bar5ID)  
+    local bar6ID = readData("exarKun:barricade6ID")  
+      local barricade6 = getSceneObject(bar6ID)  
+       
+    if (barricade1 == nil) then
+      print("exarKun:destroyBarricades: Barricade1 was nil")
+      return
+    else
+      SceneObject(barricade1):destroyObjectFromWorld()
+      print("exarKun:destroyBarricades: Barricade1 Destroyed")
+    end
+    if (barricade2 == nil) then
+      print("exarKun:destroyBarricades: Barricade2 was nil")
+      return
+    else
+      SceneObject(barricade2):destroyObjectFromWorld()
+      print("exarKun:destroyBarricades: Barricade2 Destroyed")
+    end
+    if (barricade3 == nil) then
+      print("exarKun:destroyBarricades: Barricade3 was nil")
+      return
+    else
+      SceneObject(barricade3):destroyObjectFromWorld()
+      print("exarKun:destroyBarricades: Barricade3 Destroyed")
+    end
+    if (barricade4 == nil) then
+      print("exarKun:destroyBarricades: Barricade4 was nil")
+      return
+    else
+      SceneObject(barricade4):destroyObjectFromWorld()
+      print("exarKun:destroyBarricades: Barricade4 Destroyed")
+    end
+    if (barricade5 == nil) then
+      print("exarKun:destroyBarricades: Barricade5 was nil")
+      return
+    else
+      SceneObject(barricade5):destroyObjectFromWorld()
+      print("exarKun:destroyBarricades: Barricade5 Destroyed")
+    end
+    if (barricade6 == nil) then
+      print("exarKun:destroyBarricades: Barricade6 was nil")
+      return
+    else
+      SceneObject(barricade6):destroyObjectFromWorld()
+      print("exarKun:destroyBarricades: Barricade6 Destroyed")
+      writeData("exarKun:barricadeSpawnState", 0)
+    end
+  
 end
 
 function exarKun:resetTrashMobs(mob1, mob2, mob3, mob4, mob5, mob6, mob7, mob8, mob9, mob10, mob11, mob12, mob13, mob14, mob15, mob16, mob17, mob18)
