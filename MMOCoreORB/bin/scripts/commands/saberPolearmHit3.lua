@@ -53,20 +53,7 @@ SaberPolearmHit3Command = {
 	accuracyBonus = 50,
 	visMod = 25,
 
-	dotEffects = {
-    DotEffect( 
-    ONFIRE, 
-    { "resistance_fire", "fire_resist" },
-    HEALTH,
-    true,
-    0,
-    50,
-    15, 
-    10,
-    5,
-    2
-    )
-  },
+
 
 	animation = "combo_4b", 
 	animType = GENERATE_INTENSITY,
