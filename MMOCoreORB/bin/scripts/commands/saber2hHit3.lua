@@ -52,6 +52,8 @@ Saber2hHit3Command = {
 	forceCostMultiplier = 2.0,
 	accuracyBonus = 50,
 	visMod = 25,
+	
+
 
 	animation = "showoff_3", 
 	animType = GENERATE_INTENSITY,
