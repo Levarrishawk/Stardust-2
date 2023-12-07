@@ -9,6 +9,10 @@
 #include "FactionMap.h"
 #include "server/zone/objects/player/PlayerObject.h"
 #include "templates/manager/TemplateManager.h"
+#include "server/zone/managers/loot/LootManager.h"
+#include "server/zone/Zone.h"
+#include "server/zone/objects/creature/CreatureObject.h"
+#include "server/zone/objects/transaction/TransactionLog.h"
 
 FactionManager::FactionManager() {
 	setLoggingName("FactionManager");
@@ -158,17 +162,38 @@ void FactionManager::awardPvpFactionPoints(TangibleObject* killer, CreatureObjec
 		ManagedReference<PlayerObject*> ghost = killerCreature->getPlayerObject();
 
 		ManagedReference<PlayerObject*> killedGhost = destructedObject->getPlayerObject();
+		ManagedReference<LootManager*> lootManager = killer->getZoneServer()->getLootManager();
+		ManagedReference<SceneObject*> inventory = killer->getSlottedObject("inventory");
+		TransactionLog trx(TrxCode::PVPTOKEN, killer);
 
 		if (killer->isRebel() && destructedObject->isImperial()) {
 			ghost->increaseFactionStanding("rebel", 30);
 			ghost->decreaseFactionStanding("imperial", 45);
 
 			killedGhost->decreaseFactionStanding("imperial", 45);
+
+			//PvP Token Award.
+
+			if (killer->getZone()->getZoneName() == "jakku") {
+				lootManager->createLoot(trx, inventory, "token_pvp_jakku", 1);
+				//killer->sendMessage("You have been awarded a Stardust Token.");
+			} else {
+				return;
+					}
 		} else if (killer->isImperial() && destructedObject->isRebel()) {
 			ghost->increaseFactionStanding("imperial", 30);
 			ghost->decreaseFactionStanding("rebel", 45);
 
 			killedGhost->decreaseFactionStanding("rebel", 45);
+			
+			//PvP Token Award.
+
+			if (killer->getZone()->getZoneName() == "jakku") {
+				lootManager->createLoot(trx, inventory, "token_pvp_jakku", 1);
+				//killer->sendMessage("You have been awarded a Stardust Token.");
+			} else {
+				return;
+					}
 		}
 	}
 }

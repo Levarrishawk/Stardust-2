@@ -92,7 +92,7 @@ object_tangible_wearables_armor_marine_armor_marine_bicep_l = object_tangible_we
 	-- Damage types in WeaponObject
 	vulnerability = LIGHTSABER + COLD,
 
-	specialResists = KINETIC,
+		specialResists = BLAST,
   
 	  -- These are default Blue Frog stats
 	  healthEncumbrance = 0,

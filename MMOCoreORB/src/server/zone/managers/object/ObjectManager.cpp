@@ -9,7 +9,7 @@
 #include "objects.h"
 
 #include "server/db/ServerDatabase.h"
-
+#include "server/zone/objects/tangible/misc/VendorToken.h"
 #include "server/zone/ZoneProcessServer.h"
 #include "templates/manager/TemplateManager.h"
 #include "ObjectVersionUpdateManager.h"
@@ -337,6 +337,7 @@ void ObjectManager::registerObjectTypes() {
 	objectFactory.registerObject<FighterShipObject>(SceneObjectType::SHIPFIGHTER);
 	objectFactory.registerObject<SpaceStationObject>(SceneObjectType::SHIPSTATION);
 	objectFactory.registerObject<TangibleObject>(SceneObjectType::CRYSTAL);
+	objectFactory.registerObject<VendorToken>(SceneObjectType::VENDORTOKEN);
 }
 
 void ObjectManager::updateObjectVersion() {
