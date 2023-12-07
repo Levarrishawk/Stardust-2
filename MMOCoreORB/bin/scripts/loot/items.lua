@@ -14,6 +14,7 @@ includeFile("items/attachment_armor.lua")
 includeFile("items/attachment_clothing.lua")
 --Custom
 includeFile("items/attachment_jedi_clothing.lua")
+includeFile("items/token/jakku_pvp_token.lua")
 --Custom
 includeFile("items/balanced_feed_mechanism.lua")
 includeFile("items/blacksun_razor_knuckler_schematic.lua")

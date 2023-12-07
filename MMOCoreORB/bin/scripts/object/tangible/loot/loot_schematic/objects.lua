@@ -5142,3 +5142,75 @@ object_tangible_loot_loot_schematic_shared_stormtrooper_gloves_schematic = Share
 ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_gloves_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_gloves_schematic.iff")
 
 
+object_tangible_loot_loot_schematic_shared_armor_segment_armor_weaver_stun_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_armor_segment_armor_weaver_stun_schematic.iff"}
+  ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_armor_segment_armor_weaver_stun_schematic, 
+  "object/tangible/loot/loot_schematic/shared_armor_segment_armor_weaver_stun_schematic.iff")
+
+  object_tangible_loot_loot_schematic_shared_armor_segment_armor_weaver_acid_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_armor_segment_armor_weaver_acid_schematic.iff"}
+  ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_armor_segment_armor_weaver_acid_schematic, 
+  "object/tangible/loot/loot_schematic/shared_armor_segment_armor_weaver_acid_schematic.iff")
+
+  object_tangible_loot_loot_schematic_shared_armor_segment_armor_weaver_heat_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_armor_segment_armor_weaver_heat_schematic.iff"}
+  ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_armor_segment_armor_weaver_heat_schematic, 
+  "object/tangible/loot/loot_schematic/shared_armor_segment_armor_weaver_heat_schematic.iff")
+
+  object_tangible_loot_loot_schematic_shared_armor_segment_armor_weaver_blast_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_armor_segment_armor_weaver_blast_schematic.iff"}
+  ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_armor_segment_armor_weaver_blast_schematic, 
+  "object/tangible/loot/loot_schematic/shared_armor_segment_armor_weaver_blast_schematic.iff")
+
+  object_tangible_loot_loot_schematic_shared_armor_segment_armor_weaver_cold_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_armor_segment_armor_weaver_cold_schematic.iff"}
+  ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_armor_segment_armor_weaver_cold_schematic, 
+  "object/tangible/loot/loot_schematic/shared_armor_segment_armor_weaver_cold_schematic.iff")
+
+  object_tangible_loot_loot_schematic_shared_armor_segment_armor_weaver_electric_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_armor_segment_armor_weaver_electric_schematic.iff"}
+  ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_armor_segment_armor_weaver_electric_schematic, 
+  "object/tangible/loot/loot_schematic/shared_armor_segment_armor_weaver_electric_schematic.iff")
+
+  object_tangible_loot_loot_schematic_shared_armor_segment_armor_weaver_energy_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_armor_segment_armor_weaver_energy_schematic.iff"}
+  ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_armor_segment_armor_weaver_energy_schematic, 
+  "object/tangible/loot/loot_schematic/shared_armor_segment_armor_weaver_energy_schematic.iff")
+  
+--
+
+object_tangible_loot_loot_schematic_shared_armor_segment_armor_stun_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_armor_segment_armor_stun_schematic.iff"}
+  ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_armor_segment_armor_stun_schematic, 
+  "object/tangible/loot/loot_schematic/shared_armor_segment_armor_stun_schematic.iff")
+
+  object_tangible_loot_loot_schematic_shared_armor_segment_armor_acid_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_armor_segment_armor_acid_schematic.iff"}
+  ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_armor_segment_armor_acid_schematic, 
+  "object/tangible/loot/loot_schematic/shared_armor_segment_armor_acid_schematic.iff")
+
+  object_tangible_loot_loot_schematic_shared_armor_segment_armor_heat_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_armor_segment_armor_heat_schematic.iff"}
+  ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_armor_segment_armor_heat_schematic, 
+  "object/tangible/loot/loot_schematic/shared_armor_segment_armor_heat_schematic.iff")
+
+  object_tangible_loot_loot_schematic_shared_armor_segment_armor_blast_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_armor_segment_armor_blast_schematic.iff"}
+  ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_armor_segment_armor_blast_schematic, 
+  "object/tangible/loot/loot_schematic/shared_armor_segment_armor_blast_schematic.iff")
+
+  object_tangible_loot_loot_schematic_shared_armor_segment_armor_cold_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_armor_segment_armor_cold_schematic.iff"}
+  ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_armor_segment_armor_cold_schematic, 
+  "object/tangible/loot/loot_schematic/shared_armor_segment_armor_cold_schematic.iff")
+
+  object_tangible_loot_loot_schematic_shared_armor_segment_armor_electric_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_armor_segment_armor_electric_schematic.iff"}
+  ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_armor_segment_armor_electric_schematic, 
+  "object/tangible/loot/loot_schematic/shared_armor_segment_armor_electric_schematic.iff")
+
+  object_tangible_loot_loot_schematic_shared_armor_segment_armor_energy_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_armor_segment_armor_energy_schematic.iff"}
+  ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_armor_segment_armor_energy_schematic, 
+  "object/tangible/loot/loot_schematic/shared_armor_segment_armor_energy_schematic.iff")
+  

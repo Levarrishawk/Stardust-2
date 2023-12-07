@@ -349,6 +349,62 @@ object_draft_schematic_armored_clothing_shared_armor_segment_armor_weaver_advanc
 ObjectTemplates:addClientTemplate(object_draft_schematic_armored_clothing_shared_armor_segment_armor_weaver_advanced, "object/draft_schematic/armored_clothing/shared_armor_segment_armor_weaver_advanced.iff")
 --------------------------------------------------------------------------------------------------------------
 
+object_draft_schematic_armored_clothing_shared_armor_segment_armor_weaver_energy = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armored_clothing/shared_armor_segment_armor_weaver_energy.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armored_clothing_shared_armor_segment_armor_weaver_energy, "object/draft_schematic/armored_clothing/shared_armor_segment_armor_weaver_energy.iff")
+--------------------------------------------------------------------------------------------------------------
+
+object_draft_schematic_armored_clothing_shared_armor_segment_armor_weaver_electric = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armored_clothing/shared_armor_segment_armor_weaver_electric.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armored_clothing_shared_armor_segment_armor_weaver_electric, "object/draft_schematic/armored_clothing/shared_armor_segment_armor_weaver_electric.iff")
+--------------------------------------------------------------------------------------------------------------
+
+object_draft_schematic_armored_clothing_shared_armor_segment_armor_weaver_stun = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armored_clothing/shared_armor_segment_armor_weaver_stun.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armored_clothing_shared_armor_segment_armor_weaver_stun, "object/draft_schematic/armored_clothing/shared_armor_segment_armor_weaver_stun.iff")
+--------------------------------------------------------------------------------------------------------------
+
+object_draft_schematic_armored_clothing_shared_armor_segment_armor_weaver_blast = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armored_clothing/shared_armor_segment_armor_weaver_blast.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armored_clothing_shared_armor_segment_armor_weaver_blast, "object/draft_schematic/armored_clothing/shared_armor_segment_armor_weaver_blast.iff")
+--------------------------------------------------------------------------------------------------------------
+
+object_draft_schematic_armored_clothing_shared_armor_segment_armor_weaver_heat = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armored_clothing/shared_armor_segment_armor_weaver_heat.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armored_clothing_shared_armor_segment_armor_weaver_heat, "object/draft_schematic/armored_clothing/shared_armor_segment_armor_weaver_heat.iff")
+--------------------------------------------------------------------------------------------------------------
+
+object_draft_schematic_armored_clothing_shared_armor_segment_armor_weaver_cold = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armored_clothing/shared_armor_segment_armor_weaver_cold.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armored_clothing_shared_armor_segment_armor_weaver_cold, "object/draft_schematic/armored_clothing/shared_armor_segment_armor_weaver_cold.iff")
+--------------------------------------------------------------------------------------------------------------
+
+object_draft_schematic_armored_clothing_shared_armor_segment_armor_weaver_acid = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/armored_clothing/shared_armor_segment_armor_weaver_acid.iff"
+  
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armored_clothing_shared_armor_segment_armor_weaver_acid, "object/draft_schematic/armored_clothing/shared_armor_segment_armor_weaver_acid.iff")
+--------------------------------------------------------------------------------------------------------------
+
 --wookiee draft schems
 
 object_draft_schematic_armored_clothing_shared_wke_gloves_s01_armored = SharedDraftSchematicObjectTemplate:new {

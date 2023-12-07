@@ -40,6 +40,45 @@
 --this exception also makes it possible to release a modified version
 --which carries forward this exception.
 
+object_tangible_component_armor_shared_armor_segment_armor_advanced = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/component/armor/shared_armor_segment_armor_advanced.iff"}
+ObjectTemplates:addClientTemplate(object_tangible_component_armor_shared_armor_segment_armor_advanced, 
+"object/tangible/component/armor/shared_armor_segment_armor_advanced.iff")
+
+object_tangible_component_armor_shared_armor_segment_armor_energy = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/component/armor/shared_armor_segment_armor_energy.iff"}
+ObjectTemplates:addClientTemplate(object_tangible_component_armor_shared_armor_segment_armor_energy, 
+"object/tangible/component/armor/shared_armor_segment_armor_energy.iff")
+
+object_tangible_component_armor_shared_armor_segment_armor_electric = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/component/armor/shared_armor_segment_armor_electric.iff"}
+ObjectTemplates:addClientTemplate(object_tangible_component_armor_shared_armor_segment_armor_electric, 
+"object/tangible/component/armor/shared_armor_segment_armor_electric.iff")
+
+object_tangible_component_armor_shared_armor_segment_armor_stun = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/component/armor/shared_armor_segment_armor_stun.iff"}
+ObjectTemplates:addClientTemplate(object_tangible_component_armor_shared_armor_segment_armor_stun, 
+"object/tangible/component/armor/shared_armor_segment_armor_stun.iff")
+
+object_tangible_component_armor_shared_armor_segment_armor_blast = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/component/armor/shared_armor_segment_armor_blast.iff"}
+ObjectTemplates:addClientTemplate(object_tangible_component_armor_shared_armor_segment_armor_blast, 
+"object/tangible/component/armor/shared_armor_segment_armor_blast.iff")
+
+object_tangible_component_armor_shared_armor_segment_armor_heat = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/component/armor/shared_armor_segment_armor_heat.iff"}
+ObjectTemplates:addClientTemplate(object_tangible_component_armor_shared_armor_segment_armor_heat, 
+"object/tangible/component/armor/shared_armor_segment_armor_heat.iff")
+
+object_tangible_component_armor_shared_armor_segment_armor_cold = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/component/armor/shared_armor_segment_armor_cold.iff"}
+ObjectTemplates:addClientTemplate(object_tangible_component_armor_shared_armor_segment_armor_cold, 
+"object/tangible/component/armor/shared_armor_segment_armor_cold.iff")
+
+object_tangible_component_armor_shared_armor_segment_armor_acid = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/component/armor/shared_armor_segment_armor_acid.iff"}
+ObjectTemplates:addClientTemplate(object_tangible_component_armor_shared_armor_segment_armor_acid, 
+"object/tangible/component/armor/shared_armor_segment_armor_acid.iff")
 
 object_tangible_component_armor_shared_armor_layer = SharedTangibleObjectTemplate:new {
 	clientTemplateFileName = "object/tangible/component/armor/shared_armor_layer.iff"
