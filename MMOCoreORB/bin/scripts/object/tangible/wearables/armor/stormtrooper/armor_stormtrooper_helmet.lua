@@ -13,7 +13,7 @@ object_tangible_wearables_armor_stormtrooper_armor_stormtrooper_helmet = object_
 				"object/mobile/vendor/zabrak_male.iff" },
 	
 	-- Damage types in WeaponObject
-	vulnerability = LIGHTSABER + COLD, 
+	vulnerability = LIGHTSABER + COLD,
 
   specialResists = BLAST,
 

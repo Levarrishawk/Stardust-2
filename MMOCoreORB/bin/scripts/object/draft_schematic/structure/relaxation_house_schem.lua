@@ -67,7 +67,7 @@ object_draft_schematic_structure_relaxation_house_schem = object_draft_schematic
    ingredientTitleNames = {"load_bearing_structure_and_shell", "insulation_and_covering", "foundation", "wall_sections", "power_supply_unit", "storage_space"},
    ingredientSlotType = {0, 0, 0, 2, 1, 1},
    resourceTypes = {"metal", "ore", "ore", "object/tangible/component/structure/shared_wall_module.iff", "object/tangible/component/structure/shared_generator_turbine.iff", "object/tangible/component/structure/shared_structure_storage_section.iff"},
-   resourceQuantities = {1, 1250, 2250, 400, 5, 1, 1},
+   resourceQuantities = {1250, 2250, 400, 5, 1, 1},
    contribution = {100, 100, 100, 100, 100, 100},
 
    targetTemplate = "object/tangible/deed/player_house_deed/relaxation_house_deed.iff",

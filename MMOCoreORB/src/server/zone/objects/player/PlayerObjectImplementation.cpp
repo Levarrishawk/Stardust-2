@@ -1442,17 +1442,20 @@ void PlayerObjectImplementation::notifyOnline() {
 
 	MissionManager* missionManager = zoneServer->getMissionManager();
 
-	if (missionManager != nullptr && playerCreature->hasSkill("force_title_jedi_rank_02")) {
+	if (missionManager != nullptr) {
 		uint64 id = playerCreature->getObjectID();
-
-		if (!missionManager->hasPlayerBountyTargetInList(id))
-			missionManager->addPlayerToBountyList(id, calculateBhReward());
-		else {
-			missionManager->updatePlayerBountyReward(id, calculateBhReward());
-			missionManager->updatePlayerBountyOnlineStatus(id, true);
+		if (!missionManager->hasPlayerBountyTargetInList(id)) {
+			if (playerCreature->hasSkill("force_title_jedi_rank_02")) {
+				missionManager->addPlayerToBountyList(id, calculateBhReward());
+				missionManager->updatePlayerBountyOnlineStatus(id, true);
+			}
 		}
-	}
+		else {
+			missionManager->updatePlayerBountyOnlineStatus(id, true);
+			VisibilityManager::instance()->increaseVisibility(playerCreature, 8000);
+		}
 
+	}
 	playerCreature->schedulePersonalEnemyFlagTasks();
 }
 
@@ -1506,9 +1509,13 @@ void PlayerObjectImplementation::notifyOffline() {
 
 	MissionManager* missionManager = getZoneServer()->getMissionManager();
 
-	if (missionManager != nullptr && playerCreature->hasSkill("force_title_jedi_rank_02")) {
-		missionManager->updatePlayerBountyOnlineStatus(playerCreature->getObjectID(), false);
+	if (missionManager != nullptr) {
+		uint64 id = playerCreature->getObjectID();
+		if (missionManager->hasPlayerBountyTargetInList(id)) {
+			missionManager->updatePlayerBountyOnlineStatus(id, false);
+		}
 	}
+
 
 	ManagedReference<SurveySession*> session = playerCreature->getActiveSession(SessionFacadeType::SURVEY).castTo<SurveySession*>();
 
