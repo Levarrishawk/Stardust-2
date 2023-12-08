@@ -2099,6 +2099,23 @@ schematics = {
   {path="object/draft_schematic/armored_clothing/wke_gloves_s04_armored.iff"},
 
   {path="object/draft_schematic/armored_clothing/armor_segment_armor_weaver_advanced.iff"},
+  {path="object/draft_schematic/armored_clothing/armor_segment_armor_weaver_stun.iff"},
+  {path="object/draft_schematic/armored_clothing/armor_segment_armor_weaver_acid.iff"},
+  {path="object/draft_schematic/armored_clothing/armor_segment_armor_weaver_energy.iff"},
+  {path="object/draft_schematic/armored_clothing/armor_segment_armor_weaver_electric.iff"},
+  {path="object/draft_schematic/armored_clothing/armor_segment_armor_weaver_heat.iff"},
+  {path="object/draft_schematic/armored_clothing/armor_segment_armor_weaver_cold.iff"},
+  {path="object/draft_schematic/armored_clothing/armor_segment_armor_weaver_blast.iff"},
+
+  
+  {path="object/draft_schematic/armor/armor_segment_armor_advanced.iff"},
+  {path="object/draft_schematic/armor/armor_segment_armor_stun.iff"},
+  {path="object/draft_schematic/armor/armor_segment_armor_acid.iff"},
+  {path="object/draft_schematic/armor/armor_segment_armor_energy.iff"},
+  {path="object/draft_schematic/armor/armor_segment_armor_electric.iff"},
+  {path="object/draft_schematic/armor/armor_segment_armor_heat.iff"},
+  {path="object/draft_schematic/armor/armor_segment_armor_cold.iff"},
+  {path="object/draft_schematic/armor/armor_segment_armor_blast.iff"},
   
   -- New Furniture Schematics
   ------------------------------------------------------------------

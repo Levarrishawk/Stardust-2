@@ -1,0 +1,32 @@
+package server.zone.objects.tangible.misc;
+
+import server.zone.objects.tangible.TangibleObject;
+import server.zone.objects.scene.SceneObject;
+import server.zone.Zone;
+import engine.lua.LuaObject;
+import server.zone.objects.creature.CreatureObject;
+import server.zone.ZoneServer;
+include templates.SharedObjectTemplate;
+import server.zone.packets.object.ObjectMenuResponse;
+
+@lua
+class VendorToken extends TangibleObject {
+	public VendorToken() {
+		setLoggingName("VendorToken");
+	}
+	
+	@preLocked
+	@arg1preLocked
+	public native int handleObjectMenuSelect(CreatureObject player, byte selectedID);
+
+	@local
+	@dirty
+	public native void fillObjectMenuResponse(ObjectMenuResponse menuResponse, CreatureObject player);
+	
+	@dirty
+	public native int canAddObject(SceneObject object, int containmentType, string errorDescription);
+	
+	public native int notifyObjectInserted(SceneObject object);
+	
+	public native byte checkContainerPermission(CreatureObject player, unsigned short permission);
+}

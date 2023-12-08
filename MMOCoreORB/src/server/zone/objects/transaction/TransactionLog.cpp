@@ -877,6 +877,7 @@ const String TransactionLog::trxCodeToString(TrxCode code) {
 	case TrxCode::NEWPLAYERQUESTS:          return "newplayerquests";           // New Player Quests
 	case TrxCode::FINES:                    return "fines";                     // Contraband Scanning Fines
 	case TrxCode::BANK:                     return "bank";                      // bank
+	case TrxCode::PVPTOKEN:                 return "PvP Token";                 // PvP Token
 	// SWGEmu Specific
 	case TrxCode::ACCESSFEE:                return "accessfee";                 // Access Fee
 	case TrxCode::ADMINCOMMAND:             return "admincommand";              // From an admin command
