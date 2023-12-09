@@ -45,7 +45,7 @@ object_tangible_loot_loot_schematic_armor_segment_armor_acid_schematic = object_
 	templateType = LOOTSCHEMATIC,
 	objectMenuComponent = "LootSchematicMenuComponent",
 	attributeListComponent = "LootSchematicAttributeListComponent",
-	requiredSkill = "crafting_armorweaver_master",
+	requiredSkill = "crafting_armorsmith_master",
 	targetDraftSchematic = "object/draft_schematic/armor/armor_segment_armor_acid.iff",
 	targetUseCount = 1
 }
