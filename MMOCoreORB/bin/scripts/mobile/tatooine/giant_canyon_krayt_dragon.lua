@@ -5,13 +5,13 @@ giant_canyon_krayt_dragon = Creature:new {
 	mobType = MOB_CARNIVORE,
 	level = 300,
 	chanceHit = 30.0,
-	damageMin = 1645,
-	damageMax = 3000,
+	damageMin = 645,
+	damageMax = 1680,
 	baseXp = 28549,
-	baseHAM = 385000,
-	baseHAMmax = 471000,
+	baseHAM = 285000,
+	baseHAMmax = 371000,
 	armor = 1,
-	resists = {170,170,170,170,130,170,170,170,-1},
+	resists = {60,60,60,60,60,60,60,60,-1},
 	meatType = "meat_carnivore",
 	meatAmount = 1000,
 	hideType = "hide_bristley",
@@ -33,14 +33,28 @@ giant_canyon_krayt_dragon = Creature:new {
 	lootGroups = {
 		{
 	        groups = {
-				{group = "krayt_dragon_common", chance = 2500000},
-				{group = "krayt_tissue_uncommon", chance = 2000000},
-				{group = "krayt_pearls", chance = 1500000},
-				{group = "armor_all", chance = 2000000},
-				{group = "weapons_all", chance = 2000000},
+				{group = "krayt_tissue_rare", chance = 4500000},
+				{group = "krayt_dragon_common", chance = 2000000},
+				{group = "krayt_pearls", chance = 3500000},
 			},
-			lootChance = 7000000
-		}
+			lootChance = 9000000
+		},
+		{
+	        groups = {
+				{group = "krayt_tissue_rare", chance = 4500000},
+				{group = "krayt_dragon_common", chance = 2000000},
+				{group = "krayt_pearls", chance = 3500000},
+			},
+			lootChance = 5000000
+		},
+		{
+	        groups = {
+				{group = "krayt_tissue_rare", chance = 4500000},
+				{group = "krayt_dragon_common", chance = 2000000},
+				{group = "krayt_pearls", chance = 3500000},
+			},
+			lootChance = 2500000
+		},
 	},
 
 	-- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)

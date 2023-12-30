@@ -2060,9 +2060,22 @@ Vector<ManagedReference<PlayerBounty*>> MissionManagerImplementation::getPotenti
 bool MissionManagerImplementation::isBountyValidForPlayer(CreatureObject* player, PlayerBounty* bounty) {
 	if (!bounty->isOnline())
 		return false;
+	uint64 targetId = bounty->getTargetPlayerID();
+	uint64 playerId = player->getObjectID();
+	
+	ManagedReference<CreatureObject*> creature = server->getObject(targetId).castTo<CreatureObject*>();
 
+	if (creature == nullptr)
+		return false;
+	
 	int maxBountiesPerJedi = ConfigManager::instance()->getInt("Core3.MissionManager.MaxBountiesPerJedi", 1);
-
+	
+	if (creature->hasSkill("force_rank_dark_rank_06") || creature->hasSkill("force_rank_light_rank_06")) {
+	int maxBountiesPerJedi = ConfigManager::instance()->getInt("Core3.MissionManager.MaxBountiesPerJedi", 2);
+	} else if (creature->hasSkill("force_rank_dark_rank_10") || creature->hasSkill("force_rank_light_rank_10")) {
+	int maxBountiesPerJedi = ConfigManager::instance()->getInt("Core3.MissionManager.MaxBountiesPerJedi", 3);
+	};
+	
 	if (bounty->numberOfActiveMissions() >= maxBountiesPerJedi)
 		return false;
 
@@ -2072,9 +2085,6 @@ bool MissionManagerImplementation::isBountyValidForPlayer(CreatureObject* player
 		if (building != nullptr && building->isPrivateStructure())
 			return false;
 	}
-
-	uint64 targetId = bounty->getTargetPlayerID();
-	uint64 playerId = player->getObjectID();
 
 	if (targetId == playerId)
 		return false;
