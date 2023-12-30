@@ -6,12 +6,12 @@ krayt_dragon_ancient = Creature:new {
 	level = 336,
 	chanceHit = 30.0,
 	damageMin = 645,
-	damageMax = 1700,
+	damageMax = 1900,
 	baseXp = 28549,
-	baseHAM = 200000,
-	baseHAMmax = 501000,
+	baseHAM = 340000,
+	baseHAMmax = 450000,
 	armor = 1,
-	resists = {65,65,65,65,65,65,65,65,-1},
+	resists = {75,75,75,75,75,75,75,75,-1},
 	meatType = "meat_carnivore",
 	meatAmount = 1000,
 	hideType = "hide_bristley",
@@ -32,14 +32,29 @@ krayt_dragon_ancient = Creature:new {
 	lootGroups = {
 		{
 	        groups = {
-				{group = "krayt_tissue_rare", chance = 2000000},
-				{group = "krayt_dragon_common", chance = 2500000},
-				{group = "krayt_pearls", chance = 1500000},
-				{group = "armor_all", chance = 2000000},
-				{group = "weapons_all", chance = 2000000},
+				{group = "krayt_tissue_rare", chance = 4500000},
+				{group = "krayt_dragon_common", chance = 2000000},
+				{group = "krayt_pearls", chance = 3500000},
 			},
-			lootChance = 7720000
-		}
+			lootChance = 9000000
+		},
+		{
+	        groups = {
+				{group = "krayt_tissue_rare", chance = 4500000},
+				{group = "krayt_dragon_common", chance = 2000000},
+				{group = "krayt_pearls", chance = 3500000},
+			},
+			lootChance = 7000000
+		},
+		{
+	        groups = {
+				{group = "krayt_tissue_rare", chance = 4500000},
+				{group = "krayt_dragon_common", chance = 2000000},
+				{group = "krayt_pearls", chance = 3500000},
+			},
+			lootChance = 5000000
+		},
+		
 	},
 
 	-- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)

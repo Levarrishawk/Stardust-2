@@ -43,8 +43,8 @@
 
 Melee2hSpinAttack2Command = {
         name = "melee2hspinattack2",
-	damageMultiplier = 3,
-  speedMultiplier = 4,
+	damageMultiplier = 3.6,
+  speedMultiplier = 2,
   healthCostMultiplier = 0,
   actionCostMultiplier = 2,
   mindCostMultiplier = 0,
