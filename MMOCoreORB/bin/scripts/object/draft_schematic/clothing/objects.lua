@@ -1,4 +1,10 @@
 
+object_draft_schematic_clothing_shared_stardust_backpack_schematic = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_stardust_backpack_schematic.iff"
+	
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_clothing_shared_stardust_backpack_schematic, "object/draft_schematic/clothing/shared_stardust_backpack_schematic.iff")
 
 
 object_draft_schematic_clothing_shared_clothing_apron_chef_01 = SharedDraftSchematicObjectTemplate:new {
