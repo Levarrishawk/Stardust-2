@@ -41,17 +41,40 @@
 --this exception also makes it possible to release a modified version 
 
 
+object_draft_schematic_clothing_stardust_backpack_schematic = object_draft_schematic_clothing_shared_stardust_backpack_schematic:new {
 
---Children folder includes
+   templateType = DRAFTSCHEMATIC,
 
--- Server Objects
-includeFile("tangible/wearables/backpack/backpack_s01.lua")
-includeFile("tangible/wearables/backpack/backpack_s03.lua")
-includeFile("tangible/wearables/backpack/backpack_s03_quest.lua")
-includeFile("tangible/wearables/backpack/backpack_s04.lua")
-includeFile("tangible/wearables/backpack/backpack_s05.lua")
-includeFile("tangible/wearables/backpack/backpack_s06.lua")
-includeFile("tangible/wearables/backpack/backpack_s06_quest.lua")
-includeFile("tangible/wearables/backpack/singing_mountain_clan_backpack.lua")
+   customObjectName = "Stardust Backpack",
 
-includeFile("tangible/wearables/backpack/stardust_backpack.lua")
+   craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
+   complexity = 1, 
+   size = 2,
+   factoryCrateSize = 1000,
+
+   xpType = "crafting_general", 
+   xp = 1400, 
+
+   assemblySkill = "general_assembly", 
+   experimentingSkill = "general_experimentation", 
+   customizationSkill = "clothing_customization", 
+
+   customizationOptions = {},
+   customizationStringNames = {},
+   customizationDefaults = {},
+
+   ingredientTemplateNames = {"craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n"},
+   ingredientTitleNames = {"primary_pocket", "secondary_pocket", "strap_pad", "strap_adjustment"},
+   ingredientSlotType = {0, 0, 0, 0},
+   resourceTypes = {"fiberplast", "petrochem_inert_polymer", "hide", "metal"},
+   resourceQuantities = {50, 10, 5, 5},
+   contribution = {100, 100, 100, 100},
+
+
+   targetTemplate = "object/tangible/wearables/backpack/stardust_backpack.iff",
+
+   additionalTemplates = {
+             }
+
+}
+ObjectTemplates:addTemplate(object_draft_schematic_clothing_stardust_backpack_schematic, "object/draft_schematic/clothing/stardust_backpack_schematic.iff")

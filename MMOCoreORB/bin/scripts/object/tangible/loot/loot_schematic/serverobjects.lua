@@ -210,3 +210,5 @@ includeFile("tangible/loot/loot_schematic/armor_segment_armor_electric_schematic
 includeFile("tangible/loot/loot_schematic/armor_segment_armor_blast_schematic.lua")
 includeFile("tangible/loot/loot_schematic/armor_segment_armor_cold_schematic.lua")
 includeFile("tangible/loot/loot_schematic/armor_segment_armor_heat_schematic.lua")
+
+includeFile("tangible/loot/loot_schematic/stardust_backpack_schematic.lua")

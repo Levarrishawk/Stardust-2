@@ -2213,4 +2213,6 @@ schematics = {
   {path="object/draft_schematic/armor/armor_appearance_rebel_marine_gloves.iff"},
   {path="object/draft_schematic/armor/armor_appearance_rebel_marine_helmet.iff"},
   {path="object/draft_schematic/armor/armor_appearance_rebel_marine_leggings.iff"},
+
+  {path="object/draft_schematic/clothing/stardust_backpack_schematic.iff"},
 };

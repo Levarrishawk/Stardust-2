@@ -5213,4 +5213,9 @@ object_tangible_loot_loot_schematic_shared_armor_segment_armor_stun_schematic = 
 	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_armor_segment_armor_energy_schematic.iff"}
   ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_armor_segment_armor_energy_schematic, 
   "object/tangible/loot/loot_schematic/shared_armor_segment_armor_energy_schematic.iff")
-  
+
+   --backpacks
+  object_tangible_loot_loot_schematic_shared_stardust_backpack_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stardust_backpack_schematic.iff"}
+  ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stardust_backpack_schematic, 
+  "object/tangible/loot/loot_schematic/shared_stardust_backpack_schematic.iff")
