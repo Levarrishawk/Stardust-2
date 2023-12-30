@@ -41,17 +41,38 @@
 --this exception also makes it possible to release a modified version 
 
 
+object_tangible_wearables_backpack_stardust_backpack = object_tangible_wearables_backpack_shared_stardust_backpack:new {
+	playerRaces = { "object/creature/player/bothan_male.iff",
+				"object/creature/player/bothan_female.iff",
+				"object/creature/player/human_male.iff",
+				"object/creature/player/human_female.iff",
+				"object/creature/player/ithorian_male.iff",
+				"object/creature/player/ithorian_female.iff",
+				"object/creature/player/moncal_male.iff",
+				"object/creature/player/moncal_female.iff",
+				"object/creature/player/rodian_male.iff",
+				"object/creature/player/rodian_female.iff",
+				"object/creature/player/sullustan_male.iff",
+				"object/creature/player/sullustan_female.iff",
+				"object/creature/player/trandoshan_male.iff",
+				"object/creature/player/trandoshan_female.iff",
+				"object/creature/player/twilek_male.iff",
+				"object/creature/player/twilek_female.iff",
+				"object/creature/player/wookiee_male.iff",
+				"object/creature/player/wookiee_female.iff",
+				"object/creature/player/zabrak_male.iff",
+				"object/creature/player/zabrak_female.iff" },
 
---Children folder includes
+				
+	numberExperimentalProperties = {1, 1, 1, 1},
+	experimentalProperties = {"XX", "XX", "XX", "XX"},
+	experimentalWeights = {1, 1, 1, 1},
+	experimentalGroupTitles = {"null", "null", "null", "null"},
+	experimentalSubGroupTitles = {"null", "null", "sockets", "hitpoints"},
+	experimentalMin = {0, 0, 0, 1000},
+	experimentalMax = {0, 0, 0, 1000},
+	experimentalPrecision = {0, 0, 0, 0},
+	experimentalCombineType = {0, 0, 4, 4},
+}
 
--- Server Objects
-includeFile("tangible/wearables/backpack/backpack_s01.lua")
-includeFile("tangible/wearables/backpack/backpack_s03.lua")
-includeFile("tangible/wearables/backpack/backpack_s03_quest.lua")
-includeFile("tangible/wearables/backpack/backpack_s04.lua")
-includeFile("tangible/wearables/backpack/backpack_s05.lua")
-includeFile("tangible/wearables/backpack/backpack_s06.lua")
-includeFile("tangible/wearables/backpack/backpack_s06_quest.lua")
-includeFile("tangible/wearables/backpack/singing_mountain_clan_backpack.lua")
-
-includeFile("tangible/wearables/backpack/stardust_backpack.lua")
+ObjectTemplates:addTemplate(object_tangible_wearables_backpack_stardust_backpack, "object/tangible/wearables/backpack/stardust_backpack.iff")

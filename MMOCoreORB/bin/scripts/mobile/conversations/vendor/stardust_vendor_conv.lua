@@ -46,6 +46,22 @@ buy_armor_aw = ConvoScreen:new {
 }
 StardustVendorConvoTemplate:addScreen(buy_armor_aw);
 
+buy_backpacks = ConvoScreen:new {
+	id = "buy_backpacks",
+	customDialogText = "",
+	stopConversation = "false",
+	options = {}
+}
+StardustVendorConvoTemplate:addScreen(buy_backpacks);
+
+start_sale_backpacks = ConvoScreen:new {
+	id = "start_sale_backpacks",
+	customDialogText = "",
+	stopConversation = "true",
+	options = {}
+}
+StardustVendorConvoTemplate:addScreen(start_sale_backpacks);
+
 start_sale_segment_aw = ConvoScreen:new {
 	id = "start_sale_segment_aw",
 	customDialogText = "",
