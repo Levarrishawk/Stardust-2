@@ -6,10 +6,10 @@ canyon_krayt_dragon = Creature:new {
 	level = 275,
 	chanceHit = 27.25,
 	damageMin = 520,
-	damageMax = 1750,
+	damageMax = 1250,
 	baseXp = 26356,
-	baseHAM = 321000,
-	baseHAMmax = 392000,
+	baseHAM = 221000,
+	baseHAMmax = 292000,
 	armor = 1,
 	resists = {160,160,160,160,120,160,160,160,-1},
 	meatType = "meat_carnivore",
@@ -32,13 +32,19 @@ canyon_krayt_dragon = Creature:new {
 	lootGroups = {
 		{
 	        groups = {
-				{group = "krayt_dragon_common", chance = 3500000},
-				{group = "krayt_tissue_uncommon", chance = 2500000},
-				{group = "armor_all", chance = 2000000},
-				{group = "weapons_all", chance = 2000000},
+				{group = "krayt_tissue_rare", chance = 4500000},
+				{group = "krayt_dragon_common", chance = 2000000},
+				{group = "krayt_pearls", chance = 3500000},
 			},
-			lootChance = 6500000
-		}
+			lootChance = 9000000
+		},
+		groups = {
+				{group = "krayt_tissue_rare", chance = 4500000},
+				{group = "krayt_dragon_common", chance = 2000000},
+				{group = "krayt_pearls", chance = 3500000},
+			},
+			lootChance = 2500000
+		},
 	},
 
 	-- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)

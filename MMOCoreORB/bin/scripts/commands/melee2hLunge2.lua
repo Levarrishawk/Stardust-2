@@ -45,7 +45,7 @@ Melee2hLunge2Command = {
 	name = "melee2hlunge2",
 
 	damageMultiplier = 1.0,
-  speedMultiplier = 2.5,
+  speedMultiplier = 2,
   accuracyBonus = 10,
     visMod = 25,
   healthCostMultiplier = 0,
