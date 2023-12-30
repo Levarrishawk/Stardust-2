@@ -686,8 +686,9 @@ includeFile("sphelper.lua")
 --  Start all Stardust Content Here.
 
 -- Vendors
-includeFile("vendor/jakku_vendor_logic.lua")
-includeFile("vendor/jakku_vendor_conv_handler.lua")
+includeFile("vendor/stardust_vendor_logic.lua")
+includeFile("vendor/stardust_vendor_conv_handler.lua")
+includeFile("vendor/stardust_vendor_spawn.lua")
 
 -- Chandrila
 includeFile("cities/chandrila_hanna_city.lua")
