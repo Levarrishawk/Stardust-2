@@ -2100,8 +2100,6 @@ bool MissionManagerImplementation::isBountyValidForPlayer(CreatureObject* player
 
 	}
 
-	ManagedReference<CreatureObject*> creature = server->getObject(targetId).castTo<CreatureObject*>();
-
 	if (creature == nullptr)
 		return false;
 
