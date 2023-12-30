@@ -1,5 +1,7 @@
 includeFile("conversation.lua")
 
+-- Custom Vendors
+includeFile("conversations/vendor/jakku_vendor_conv.lua")
 -- ** THEMEPARKS **
 
 -- Tutorial

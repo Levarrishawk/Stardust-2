@@ -3,6 +3,13 @@
 --Children folder includes
 
 includeFile("draft_schematic/armored_clothing/armor_segment_armor_weaver_advanced.lua")
+includeFile("draft_schematic/armored_clothing/armor_segment_armor_weaver_energy.lua")
+includeFile("draft_schematic/armored_clothing/armor_segment_armor_weaver_electric.lua")
+includeFile("draft_schematic/armored_clothing/armor_segment_armor_weaver_stun.lua")
+includeFile("draft_schematic/armored_clothing/armor_segment_armor_weaver_blast.lua")
+includeFile("draft_schematic/armored_clothing/armor_segment_armor_weaver_heat.lua")
+includeFile("draft_schematic/armored_clothing/armor_segment_armor_weaver_cold.lua")
+includeFile("draft_schematic/armored_clothing/armor_segment_armor_weaver_acid.lua")
 
 includeFile("draft_schematic/armored_clothing/boots_s04_armored.lua")
 includeFile("draft_schematic/armored_clothing/boots_s05_armored.lua")

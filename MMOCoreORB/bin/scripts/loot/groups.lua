@@ -1,3 +1,4 @@
+includeFile("groups/token/token_pvp_jakku.lua")
 includeFile("groups/armor_attachments.lua")
 includeFile("groups/clothing_attachments.lua")
 includeFile("groups/coa_encoded_disk_fragments.lua")

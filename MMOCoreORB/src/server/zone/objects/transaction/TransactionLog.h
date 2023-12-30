@@ -53,7 +53,7 @@ enum class TrxCode {
 	NEWPLAYERQUESTS      = 33, // New Player Quests
 	FINES                = 34, // Contraband Scanning Fines
 	BANK                 = 35, // bank
-
+	PVPTOKEN             = 36, //PvP Token
 	// SWGEmu Specific Codes
 	ACCESSFEE            = 100, // Access Fee
 	ADMINCOMMAND,               // From an admin command

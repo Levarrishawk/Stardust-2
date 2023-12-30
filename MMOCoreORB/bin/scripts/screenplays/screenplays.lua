@@ -674,6 +674,7 @@ includeFile("battlefields/battlefield_spawner.lua");
 
 --Tests
 includeFile("tests/tests.lua")
+--includeFile("tests/jakku_vendor_test.lua")
 
 -- Server Event Automation
 includeFile("events/ServerEventAutomation.lua")
@@ -683,6 +684,10 @@ includeFile("../custom_scripts/screenplays/screenplays.lua")
 includeFile("poi/corellia_rogue_corsec_base.lua")
 includeFile("sphelper.lua")
 --  Start all Stardust Content Here.
+
+-- Vendors
+includeFile("vendor/jakku_vendor_logic.lua")
+includeFile("vendor/jakku_vendor_conv_handler.lua")
 
 -- Chandrila
 includeFile("cities/chandrila_hanna_city.lua")

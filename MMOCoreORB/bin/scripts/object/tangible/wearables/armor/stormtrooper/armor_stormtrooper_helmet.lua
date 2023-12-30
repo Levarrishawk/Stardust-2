@@ -15,7 +15,7 @@ object_tangible_wearables_armor_stormtrooper_armor_stormtrooper_helmet = object_
 	-- Damage types in WeaponObject
 	vulnerability = LIGHTSABER + COLD,
 
-  specialResists = KINETIC,
+  specialResists = BLAST,
 
 	-- These are default Blue Frog stats
 	healthEncumbrance = 0,

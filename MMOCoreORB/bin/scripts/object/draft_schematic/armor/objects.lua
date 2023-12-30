@@ -40,6 +40,71 @@
 --this exception also makes it possible to release a modified version
 --which carries forward this exception.
 
+--new segment tests
+object_draft_schematic_armor_shared_armor_segment_armor_advanced = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_segment_armor_advanced.iff"
+	
+  }
+  
+  ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_segment_armor_advanced, "object/draft_schematic/armor/shared_armor_segment_armor_advanced.iff")
+  --------------------------------------------------------------------------------------------------------------
+  
+  object_draft_schematic_armor_shared_armor_segment_armor_energy = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_segment_armor_energy.iff"
+	
+  }
+  
+  ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_segment_armor_energy, "object/draft_schematic/armor/shared_armor_segment_armor_energy.iff")
+  --------------------------------------------------------------------------------------------------------------
+  
+  object_draft_schematic_armor_shared_armor_segment_armor_electric = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_segment_armor_electric.iff"
+	
+  }
+  
+  ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_segment_armor_electric, "object/draft_schematic/armor/shared_armor_segment_armor_electric.iff")
+  --------------------------------------------------------------------------------------------------------------
+  
+  object_draft_schematic_armor_shared_armor_segment_armor_stun = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_segment_armor_stun.iff"
+	
+  }
+  
+  ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_segment_armor_stun, "object/draft_schematic/armor/shared_armor_segment_armor_stun.iff")
+  --------------------------------------------------------------------------------------------------------------
+  
+  object_draft_schematic_armor_shared_armor_segment_armor_blast = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_segment_armor_blast.iff"
+	
+  }
+  
+  ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_segment_armor_blast, "object/draft_schematic/armor/shared_armor_segment_armor_blast.iff")
+  --------------------------------------------------------------------------------------------------------------
+  
+  object_draft_schematic_armor_shared_armor_segment_armor_heat = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_segment_armor_heat.iff"
+	
+  }
+  
+  ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_segment_armor_heat, "object/draft_schematic/armor/shared_armor_segment_armor_heat.iff")
+  --------------------------------------------------------------------------------------------------------------
+  
+  object_draft_schematic_armor_shared_armor_segment_armor_cold = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_segment_armor_cold.iff"
+	
+  }
+  
+  ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_segment_armor_cold, "object/draft_schematic/armor/shared_armor_segment_armor_cold.iff")
+  --------------------------------------------------------------------------------------------------------------
+  
+  object_draft_schematic_armor_shared_armor_segment_armor_acid = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_segment_armor_acid.iff"
+	
+  }
+  
+  ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_segment_armor_acid, "object/draft_schematic/armor/shared_armor_segment_armor_acid.iff")
+  --------------------------------------------------------------------------------------------------------------
+  
 
 object_draft_schematic_armor_shared_armor_module_heavy = SharedDraftSchematicObjectTemplate:new {
 	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_module_heavy.iff"
