@@ -50,7 +50,7 @@ object_draft_schematic_clothing_stardust_backpack_schematic = object_draft_schem
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
    complexity = 1, 
    size = 2,
-   factoryCrateSize = 1000,
+   factoryCrateSize = 0,
 
    xpType = "crafting_general", 
    xp = 1400, 
