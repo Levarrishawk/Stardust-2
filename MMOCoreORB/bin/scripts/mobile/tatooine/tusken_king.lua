@@ -83,6 +83,13 @@ tusken_king = Creature:new {
 			},
 				lootChance = 6000000,
 		},
+		
+		{
+			groups = {
+				{group = "token_pvp_jakku", chance = 10000000}
+			},
+				lootChance = 10000000,
+		},
 	},
 	primaryWeapon = "tusken_ranged",
 	secondaryWeapon = "tusken_melee",
