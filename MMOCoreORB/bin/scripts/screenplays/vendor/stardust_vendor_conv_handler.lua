@@ -141,7 +141,7 @@ StardustVendorConvoHandler = VendorConvoHandler:new {
 	initialDialog = "Ya-hoo, name is Cigep C-Tier, I travel da world sellen items per special event tokens. Do you want to be buyin something?",
 	--Player selection to start buying, vendor spatial.
 	buyWindow = "Show me what you have for sale.",
-	buyArmorDialog = "I have a few thing available for armor, take a look.",
+	buyArmorDialog = "I have a few things available for armor, take a look.",
 	buyArmor = "I am interested in improving my armor.",
 	buyWeapons = "I am interested in improving my weapons.",
 	buyVehicles = "I am interested in improving my ride.",

@@ -11,7 +11,7 @@ object_draft_schematic_armor_armor_segment_armor_advanced = object_draft_schemat
 	factoryCrateSize = 1000,
 
 	xpType = "crafting_clothing_armor",
-	xp = 35,
+	xp = 35000,
 
 	assemblySkill = "armor_assembly",
 	experimentingSkill = "armor_experimentation",
