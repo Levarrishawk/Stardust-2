@@ -869,3 +869,5 @@ includeFile("poi/isd_active_areas.lua")
 -- Village enhancements
 includeFile("heroics/aurilian_teleporter.lua")
 
+--Tusken
+includeFile("dungeon/tusken/tusken_king_boss.lua")
