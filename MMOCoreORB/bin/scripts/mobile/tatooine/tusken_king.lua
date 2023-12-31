@@ -86,7 +86,7 @@ tusken_king = Creature:new {
 		
 		{
 			groups = {
-				{group = "token_pvp_jakku", chance = 10000000}
+				{group = "token_stardust", chance = 10000000}
 			},
 				lootChance = 10000000,
 		},
