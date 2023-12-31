@@ -11,7 +11,7 @@ object_draft_schematic_armored_clothing_armor_segment_armor_weaver_advanced = ob
 	factoryCrateSize = 1000,
 
 	xpType = "crafting_clothing_armor",
-	xp = 35,
+	xp = 35000,
 
 	assemblySkill = "armor_assembly",
 	experimentingSkill = "armor_experimentation",
