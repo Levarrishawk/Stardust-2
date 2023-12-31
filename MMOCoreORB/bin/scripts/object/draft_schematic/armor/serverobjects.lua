@@ -44,7 +44,15 @@
 
 --Children folder includes
 includeFile("draft_schematic/armor/component/serverobjects.lua")
-
+--AS New
+includeFile("draft_schematic/armor/armor_segment_armor_advanced.lua")
+includeFile("draft_schematic/armor/armor_segment_armor_energy.lua")
+includeFile("draft_schematic/armor/armor_segment_armor_electric.lua")
+includeFile("draft_schematic/armor/armor_segment_armor_stun.lua")
+includeFile("draft_schematic/armor/armor_segment_armor_blast.lua")
+includeFile("draft_schematic/armor/armor_segment_armor_heat.lua")
+includeFile("draft_schematic/armor/armor_segment_armor_cold.lua")
+includeFile("draft_schematic/armor/armor_segment_armor_acid.lua")
 -- Server Objects
 includeFile("draft_schematic/armor/armor_module_heavy.lua")
 includeFile("draft_schematic/armor/armor_module_light.lua")

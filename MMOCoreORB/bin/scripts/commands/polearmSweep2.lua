@@ -44,7 +44,7 @@
 PolearmSweep2Command = {
         name = "polearmsweep2",
 
-	damageMultiplier = 1.5,
+	damageMultiplier = 2,
 	speedMultiplier = 1.5,
 	healthCostMultiplier = 0,
 	actionCostMultiplier = 2.5,

@@ -53,3 +53,5 @@ includeFile("tangible/wearables/backpack/backpack_s05.lua")
 includeFile("tangible/wearables/backpack/backpack_s06.lua")
 includeFile("tangible/wearables/backpack/backpack_s06_quest.lua")
 includeFile("tangible/wearables/backpack/singing_mountain_clan_backpack.lua")
+
+includeFile("tangible/wearables/backpack/stardust_backpack.lua")

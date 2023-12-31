@@ -47,7 +47,7 @@ marojMelon = "object/tangible/food/foraged/foraged_fruit_s1.iff"
 
 x31Speeder = "object/tangible/deed/vehicle_deed/landspeeder_x31_deed.iff"
 
-resourceDeed = "object/tangible/veteran_reward/resource.iff"    
+stardustBag = "object/tangible/wearables/backpack/stardust_backpack.iff"    
 
 boneBicep_l = "object/tangible/wearables/armor/bone/armor_bone_s01_bicep_l.iff"
 boneBicep_r = "object/tangible/wearables/armor/bone/armor_bone_s01_bicep_r.iff"
@@ -69,4 +69,4 @@ professionSpecificItems = {
 	social_entertainer = { slitherhorn }
 }
 
-commonStartingItems = { marojMelon, survivalKnife, x31Speeder,  boneBicep_l, boneBicep_r, boneBoots, boneBracer_l, boneBracer_r, boneChest, boneHelmet, boneGloves, boneLeggings }
+commonStartingItems = { marojMelon, survivalKnife, x31Speeder,  boneBicep_l, boneBicep_r, boneBoots, boneBracer_l, boneBracer_r, boneChest, boneHelmet, boneGloves, boneLeggings, stardustBag }
