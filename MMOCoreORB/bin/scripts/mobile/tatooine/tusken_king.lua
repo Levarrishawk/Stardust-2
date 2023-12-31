@@ -31,9 +31,9 @@ tusken_king = Creature:new {
 		{
 			groups = {
 				{group = "power_crystals", chance = 1000000},
-				{group = "pistols", chance = 1000000},
-				{group = "rifles", chance = 1000000},
-				{group = "carbines", chance = 1000000},
+				{group = "lok_track", chance = 1000000},
+				{group = "veteran_rewards_630_days", chance = 1000000},
+				{group = "veteran_rewards_720_days", chance = 1000000},
 				{group = "melee_weapons", chance = 1000000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000},
@@ -45,9 +45,9 @@ tusken_king = Creature:new {
 		{
 			groups = {
 				{group = "power_crystals", chance = 1000000},
-				{group = "pistols", chance = 1000000},
-				{group = "rifles", chance = 1000000},
-				{group = "carbines", chance = 1000000},
+				{group = "lok_track", chance = 1000000},
+				{group = "veteran_rewards_630_days", chance = 1000000},
+				{group = "veteran_rewards_720_days", chance = 1000000},
 				{group = "melee_weapons", chance = 1000000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000},
@@ -59,9 +59,9 @@ tusken_king = Creature:new {
 		{
 			groups = {
 				{group = "power_crystals", chance = 1000000},
-				{group = "pistols", chance = 1000000},
-				{group = "rifles", chance = 1000000},
-				{group = "carbines", chance = 1000000},
+				{group = "lok_track", chance = 1000000},
+				{group = "veteran_rewards_630_days", chance = 1000000},
+				{group = "veteran_rewards_720_days", chance = 1000000},
 				{group = "melee_weapons", chance = 1000000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000},
@@ -73,9 +73,9 @@ tusken_king = Creature:new {
 		{
 			groups = {
 				{group = "power_crystals", chance = 1000000},
-				{group = "pistols", chance = 1000000},
-				{group = "rifles", chance = 1000000},
-				{group = "carbines", chance = 1000000},
+				{group = "lok_track", chance = 1000000},
+				{group = "veteran_rewards_630_days", chance = 1000000},
+				{group = "veteran_rewards_720_days", chance = 1000000},
 				{group = "melee_weapons", chance = 1000000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000},
