@@ -52,7 +52,7 @@ function TuskenBunkerScreenPlay:spawnMobiles()
 	spawnMobile("tatooine", "tusken_guard",300,1.22038,-20.7332,4.1939,290.603,4235605)
 	spawnMobile("tatooine", "tusken_guard",300,-0.26899,-20.7332,4.75359,0,4235605)
 
-	spawnMobile("tatooine", "tusken_king",300,1.5864,-20.75,32.0004,0,4235606)
+	--spawnMobile("tatooine", "tusken_king",300,1.5864,-20.75,32.0004,0,4235606)
 
 	spawnMobile("tatooine", "tusken_savage",300,3.74075,0.25,-4.07544,318.495,4235599)
 	spawnMobile("tatooine", "tusken_savage",300,-8,-13.8,7,7.99216,4235603)
