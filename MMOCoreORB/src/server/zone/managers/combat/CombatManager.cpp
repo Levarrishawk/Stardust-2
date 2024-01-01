@@ -2118,14 +2118,14 @@ float CombatManager::getDefenderToughnessModifier(CreatureObject* defender, int 
 		damage *= 1.f - (jediToughness / 500.f);
 		defender->sendSystemMessage("You have armor on, your Jedi Toughness has been disabled for this attack!!");
 	}else if (damType != SharedWeaponObjectTemplate::LIGHTSABER && jediToughness > 0 && forceArmor <= 0){
-		damage *= 1.f - (jediToughness / 78.f);
+		damage *= 1.f - (jediToughness / 90.f);
 	}
 
 	if (weapon->getAttackType() == SharedWeaponObjectTemplate::MELEEATTACK && saberToughness > 0 && forceArmor <= 0 && isWearingArmor(defender)){
 		damage *= 1.f - (saberToughness / 500.f);
 		defender->sendSystemMessage("You have armor on, your Lightsaber Toughness has been disabled for this attack!!");
 	}else if (weapon->getAttackType() == SharedWeaponObjectTemplate::MELEEATTACK && saberToughness > 0 && forceArmor <= 0){
-		damage *= 1.f - (saberToughness / 78.f);
+		damage *= 1.f - (saberToughness / 90.f);
 	}
 
 
