@@ -1,4 +1,4 @@
-includeFile("groups/token/token_pvp_jakku.lua")
+includeFile("groups/token/token_stardust.lua")
 includeFile("groups/armor_attachments.lua")
 includeFile("groups/clothing_attachments.lua")
 includeFile("groups/coa_encoded_disk_fragments.lua")
@@ -24,6 +24,7 @@ includeFile("groups/tailor_components.lua")
 includeFile("groups/treasure_map_group.lua")
 includeFile("groups/custom/chiss_poacher_backpack_custom.lua")
 includeFile("groups/custom/unstable_crystal_pack.lua")
+includeFile("groups/custom/acid_vibro_unit.lua")
 includeFile("groups/armor_segment_mandalorian.lua")
 
 -- armor sub-folder

@@ -11,7 +11,7 @@ the_collector = Creature:new {
 	baseXp = 12424,
 	baseHAM = 850000,
 	baseHAMmax = 900000,
-	armor = 2,
+	armor = 1,
 	resists = {65,65,65,65,65,65,65,65,65},
 	meatType = "",
 	meatAmount = 0,
@@ -48,7 +48,27 @@ the_collector = Creature:new {
 		{group = "crystal_righteous_fury", chance = 714285},
       },
       lootChance = 10000000,
-    },      
+    },
+	
+	{
+      groups = {
+        {group = "crystal_kuns_blood", chance = 714285},
+        {group = "crystal_baass_wisdom", chance = 714285},
+        {group = "crystal_dawn_of_dagobah", chance = 714285},
+        {group = "crystal_henriettes_might", chance = 714285},
+        {group = "crystal_dilly_dillys_damnation", chance = 714285},
+		{group = "crystal_kenobis_legacy", chance = 714285},
+		{group = "crystal_kits_ferocity", chance = 714285},
+		{group = "crystal_mundis_response", chance = 714285},
+		{group = "crystal_quintessence_of_the_force", chance = 714285},
+		{group = "crystal_strength_of_luminara", chance = 714285},
+		{group = "crystal_ulics_redemption", chance = 714285},
+		{group = "crystal_wickeds_burn", chance = 714285},
+		{group = "crystal_windus_guile", chance = 714285},
+		{group = "crystal_righteous_fury", chance = 714285},
+      },
+      lootChance = 8000000,
+    },
   },
 	-- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)
   -- Unarmed should be put on secondary unless the mobile doesn't use weapons, in which case "unarmed" should be put primary and "none" as secondary

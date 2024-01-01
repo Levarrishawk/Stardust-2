@@ -175,8 +175,8 @@ void FactionManager::awardPvpFactionPoints(TangibleObject* killer, CreatureObjec
 			//PvP Token Award.
 
 			if (killer->getZone()->getZoneName() == "jakku") {
-				lootManager->createLoot(trx, inventory, "token_pvp_jakku", 1);
-				//killer->sendMessage("You have been awarded a Stardust PvP Token.");
+				lootManager->createLoot(trx, inventory, "token_stardust", 1);
+				//killer->sendMessage(packet);
 			} else {
 				return;
 					}
@@ -189,7 +189,7 @@ void FactionManager::awardPvpFactionPoints(TangibleObject* killer, CreatureObjec
 			//PvP Token Award.
 
 			if (killer->getZone()->getZoneName() == "jakku") {
-				lootManager->createLoot(trx, inventory, "token_pvp_jakku", 1);
+				lootManager->createLoot(trx, inventory, "token_stardust", 1);
 				//killer->sendMessage("You have been awarded a Stardust PvP Token.");
 			} else {
 				return;

@@ -869,5 +869,7 @@ includeFile("poi/isd_active_areas.lua")
 -- Village enhancements
 includeFile("heroics/aurilian_teleporter.lua")
 
---Tusken
+--Custom Bosses
 includeFile("dungeon/tusken/tusken_king_boss.lua")
+includeFile("dungeon/rori/imperial_remnant.lua")
+includeFile("dungeon/the_collector_spawn.lua")
