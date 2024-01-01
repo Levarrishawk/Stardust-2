@@ -872,3 +872,4 @@ includeFile("heroics/aurilian_teleporter.lua")
 --Custom Bosses
 includeFile("dungeon/tusken/tusken_king_boss.lua")
 includeFile("dungeon/rori/imperial_remnant.lua")
+includeFile("dungeon/the_collector_spawn.lua")
