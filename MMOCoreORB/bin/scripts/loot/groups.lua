@@ -24,6 +24,7 @@ includeFile("groups/tailor_components.lua")
 includeFile("groups/treasure_map_group.lua")
 includeFile("groups/custom/chiss_poacher_backpack_custom.lua")
 includeFile("groups/custom/unstable_crystal_pack.lua")
+includeFile("groups/custom/acid_vibro_unit.lua")
 includeFile("groups/armor_segment_mandalorian.lua")
 
 -- armor sub-folder

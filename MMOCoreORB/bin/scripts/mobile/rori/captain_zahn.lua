@@ -1,7 +1,7 @@
-tusken_king = Creature:new {
-	customName = "a Tusken King",
-	socialGroup = "tusken_raider",
-	faction = "tusken_raider",
+captain_zahn = Creature:new {
+	customName = "Captain Zahn",
+	socialGroup = "mercenary",
+	faction = "",
 	level = 300,
 	chanceHit = 80.0,
 	damageMin = 1645,
@@ -10,7 +10,7 @@ tusken_king = Creature:new {
 	baseHAM = 761000,
 	baseHAMmax = 820000,
 	armor = 1,
-	resists = {80,45,70,45,80,70,45,70,45},
+	resists = {60,70,45,70,60,45,70,45,175},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -24,9 +24,9 @@ tusken_king = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
-	scale = 1.5,	
+	scale = 1.2,	
 
-	templates = {"object/mobile/tusken_raider.iff"},
+	templates = {"object/mobile/dressed_imperial_colonel_m.iff"},
 	lootGroups = {
 		{
 			groups = {
@@ -91,12 +91,12 @@ tusken_king = Creature:new {
 				lootChance = 10000000,
 		},
 	},
-	primaryWeapon = "tusken_ranged",
-	secondaryWeapon = "tusken_melee",
+	primaryWeapon = "stormtrooper_rifle",
+	secondaryWeapon = "stormtrooper_polearm",
 	conversationTemplate = "",
 	
 	primaryAttacks = merge(marksmanmaster,riflemanmaster),
-	secondaryAttacks = merge(brawlermaster,fencermaster)
+	secondaryAttacks = merge(brawlermaster,pikemanmaster)
 }
 
-CreatureTemplates:addCreatureTemplate(tusken_king, "tusken_king")
+CreatureTemplates:addCreatureTemplate(captain_zahn, "captain_zahn")
