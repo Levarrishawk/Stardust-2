@@ -30,11 +30,11 @@ captain_zahn = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "power_crystals", chance = 1000000},
-				{group = "lok_track", chance = 1000000},
+				{group = "power_crystals", chance = 2000000},
+				{group = "lok_track", chance = 500000},
 				{group = "veteran_rewards_630_days", chance = 1000000},
 				{group = "veteran_rewards_720_days", chance = 1000000},
-				{group = "melee_weapons", chance = 1000000},
+				{group = "veteran_rewards_1080_days", chance = 500000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000},
 				{group = "nge_houses_all", chance = 1000000}
@@ -44,11 +44,11 @@ captain_zahn = Creature:new {
 		
 		{
 			groups = {
-				{group = "power_crystals", chance = 1000000},
-				{group = "lok_track", chance = 1000000},
+				{group = "power_crystals", chance = 2000000},
+				{group = "lok_track", chance = 500000},
 				{group = "veteran_rewards_630_days", chance = 1000000},
 				{group = "veteran_rewards_720_days", chance = 1000000},
-				{group = "melee_weapons", chance = 1000000},
+				{group = "veteran_rewards_1080_days", chance = 500000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000},
 				{group = "nge_houses_all", chance = 1000000}
@@ -58,11 +58,11 @@ captain_zahn = Creature:new {
 		
 		{
 			groups = {
-				{group = "power_crystals", chance = 1000000},
-				{group = "lok_track", chance = 1000000},
+				{group = "power_crystals", chance = 2000000},
+				{group = "lok_track", chance = 500000},
 				{group = "veteran_rewards_630_days", chance = 1000000},
 				{group = "veteran_rewards_720_days", chance = 1000000},
-				{group = "melee_weapons", chance = 1000000},
+				{group = "veteran_rewards_1080_days", chance = 500000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000},
 				{group = "nge_houses_all", chance = 1000000}
@@ -72,11 +72,11 @@ captain_zahn = Creature:new {
 		
 		{
 			groups = {
-				{group = "power_crystals", chance = 1000000},
-				{group = "lok_track", chance = 1000000},
+				{group = "power_crystals", chance = 2000000},
+				{group = "lok_track", chance = 500000},
 				{group = "veteran_rewards_630_days", chance = 1000000},
 				{group = "veteran_rewards_720_days", chance = 1000000},
-				{group = "melee_weapons", chance = 1000000},
+				{group = "veteran_rewards_1080_days", chance = 500000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000},
 				{group = "nge_houses_all", chance = 1000000}
