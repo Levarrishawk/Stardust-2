@@ -130,14 +130,15 @@ function tusken_king_bossScreenplay:spawnSupport(bossObject, playerObject)
 	local bossX = (boss:getPositionX() + math.random(1,5))
 	local bossY = (boss:getPositionY() + math.random(1,5))
 	local bossZ = boss:getPositionZ()
+	local cell = boss:getParentID()
 	
-	local pGuard1 = spawnMobile("tatooine", "tusken_king_guard", -1, bossX, bossZ, bossY, -40, 1189182) 
+	local pGuard1 = spawnMobile("tatooine", "tusken_king_guard", -1, bossX, bossZ, bossY, -40, cell) 
 	CreatureObject(pGuard1):engageCombat(playerObject)
 	spatialChat(pGuard1, "*Angry Tusken Noises*")
     CreatureObject(pGuard1):playEffect("clienteffect/ui_missile_aquiring.cef", "")
-	local pGuard2 = spawnMobile("tatooine", "tusken_king_guard", -1, bossX + 6, bossZ, bossY + 8, 1189182) 
+	local pGuard2 = spawnMobile("tatooine", "tusken_king_guard", -1, bossX + 6, bossZ, bossY + 8, cell) 
 	CreatureObject(pGuard2):engageCombat(playerObject)
-	local pGuard3 = spawnMobile("tatooine", "tusken_king_guard", -1, bossX + 3, bossZ, bossY + 4, 1189182) 
+	local pGuard3 = spawnMobile("tatooine", "tusken_king_guard", -1, bossX + 3, bossZ, bossY + 4, cell) 
 	CreatureObject(pGuard3):engageCombat(playerObject)
 
 end  
