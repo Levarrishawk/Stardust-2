@@ -1,7 +1,5 @@
 imperial_remnant_stormtrooper = Creature:new {
-	customName = "",
-	randomNameType = NAME_STORMTROOPER,
-	randomNameTag = true,
+	customName = "an Imperial Remnant Stormtrooper",
 	socialGroup = "mercenary",
 	faction = "",
 	level = 150,
@@ -26,7 +24,7 @@ imperial_remnant_stormtrooper = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
-	scale = 1.3,
+	scale = 1.0,
 
 	templates = {"object/mobile/dressed_stormtrooper_m.iff"},
 	lootGroups = {

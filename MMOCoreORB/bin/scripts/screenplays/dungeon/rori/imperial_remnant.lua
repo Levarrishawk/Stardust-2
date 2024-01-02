@@ -154,16 +154,21 @@ function imperial_remnantScreenplay:finisher(playerObject)
       	CreatureObject(playerObject):playEffect("clienteffect/item_gas_leak_trap_on.cef", "")
 end
 
-function imperial_remnantScreenplay:spawnSupport(playerObject)
-	local pGuard1 = spawnMobile("rori", "imperial_remnant_darktrooper", -1, -5333.8, 83.0, 5014.2, 93, 18500002) 
+function imperial_remnantScreenplay:spawnSupport(bossObject, playerObject)
+	local boss = LuaCreatureObject(bossObject)
+	local bossX = (boss:getPositionX() + math.random(1,5))
+	local bossY = (boss:getPositionY() + math.random(1,5))
+	local bossZ = boss:getPositionZ()
+	
+	local pGuard1 = spawnMobile("rori", "imperial_remnant_darktrooper", -1, bossX, bossZ, bossY, 93, 18500002) 
 		CreatureObject(pGuard1):engageCombat(playerObject)
 		spatialChat(pGuard1, "Engaging hostiles.")
-	local pGuard2 = spawnMobile("rori", "imperial_remnant_darktrooper", -1, -5333.4, 83.0, 5023.5, 141, 18500002) 
+	local pGuard2 = spawnMobile("rori", "imperial_remnant_darktrooper", -1, bossX + 6, bossZ, bossY + 8, 141, 18500002) 
 		CreatureObject(pGuard2):engageCombat(playerObject)
-		spatialChat(pGuard2, "Engaging hostiles.")
-	local pGuard3 = spawnMobile("rori", "imperial_remnant_darktrooper", -1, -5325.8, 83.0, 5022.2, 173, 18500002) 
+	local pGuard3 = spawnMobile("rori", "imperial_remnant_darktrooper", -1, bossX + 3, bossZ, bossY + 4, 173, 18500002) 
 		CreatureObject(pGuard3):engageCombat(playerObject)
-		spatialChat(pGuard3, "Engaging hostiles.")
+	local pGuard4 = spawnMobile("rori", "imperial_remnant_darktrooper", -1, bossX + 5, bossZ, bossY + 7, 173, 18500002) 
+		CreatureObject(pGuard4):engageCombat(playerObject)
 
 end  
 
