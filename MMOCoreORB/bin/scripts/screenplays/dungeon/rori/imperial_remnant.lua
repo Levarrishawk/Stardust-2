@@ -156,19 +156,19 @@ end
 
 function imperial_remnantScreenplay:spawnSupport(bossObject, playerObject)
 	local boss = LuaCreatureObject(bossObject)
-	local bossX = (boss:getPositionX() + math.random(1,5))
-	local bossY = (boss:getPositionY() + math.random(1,5))
+	local bossX = boss:getPositionX()
+	local bossY = boss:getPositionY()
 	local bossZ = boss:getPositionZ()
 	local cell = boss:getParentID()
 	
 	local pGuard1 = spawnMobile("rori", "imperial_remnant_darktrooper", -1, bossX, bossZ, bossY, 93, cell) 
 		CreatureObject(pGuard1):engageCombat(playerObject)
 		spatialChat(pGuard1, "Engaging hostiles.")
-	local pGuard2 = spawnMobile("rori", "imperial_remnant_darktrooper", -1, bossX + 6, bossZ, bossY + 8, 141, cell) 
+	local pGuard2 = spawnMobile("rori", "imperial_remnant_darktrooper", -1, bossX, bossZ, bossY, 141, cell) 
 		CreatureObject(pGuard2):engageCombat(playerObject)
-	local pGuard3 = spawnMobile("rori", "imperial_remnant_darktrooper", -1, bossX + 3, bossZ, bossY + 4, 173, cell) 
+	local pGuard3 = spawnMobile("rori", "imperial_remnant_darktrooper", -1, bossX, bossZ, bossY, 173, cell) 
 		CreatureObject(pGuard3):engageCombat(playerObject)
-	local pGuard4 = spawnMobile("rori", "imperial_remnant_darktrooper", -1, bossX + 5, bossZ, bossY + 7, 173, cell) 
+	local pGuard4 = spawnMobile("rori", "imperial_remnant_darktrooper", -1, bossX, bossZ, bossY, 173, cell) 
 		CreatureObject(pGuard4):engageCombat(playerObject)
 
 end  
