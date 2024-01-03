@@ -7,7 +7,6 @@ registerScreenPlay("tusken_king_bossScreenplay", true)
 function tusken_king_bossScreenplay:start()
 	if (isZoneEnabled(self.planet)) then
 		self:spawnMobiles()
-		print("Tusken King Loaded")
 	end
 end
 
@@ -15,7 +14,6 @@ end
 function tusken_king_bossScreenplay:spawnMobiles()
 		local pBoss = spawnMobile("tatooine", "tusken_king", -1, 37.2, 22.9, 19.7, 165, 1189182)
 		local creature = CreatureObject(pBoss)
-		print("Tusken King Spawned")
 		createObserver(DAMAGERECEIVED, "tusken_king_bossScreenplay", "npcDamageObserver", pBoss)    
 		createObserver(OBJECTDESTRUCTION, "tusken_king_bossScreenplay", "bossDead", pBoss)
 end
@@ -144,7 +142,6 @@ function tusken_king_bossScreenplay:spawnSupport(bossObject, playerObject)
 end  
 
 function tusken_king_bossScreenplay:bossDead(pBoss)
-	print("Tusken King has been killed.")
 	local creature = CreatureObject(pBoss)
 	local respawn = math.random(7200,10800)
 	createEvent(120 * 1000, "tusken_king_bossScreenplay", "KillBoss", pBoss, "") -- Corpse Despawn
@@ -154,7 +151,6 @@ end
 
 function tusken_king_bossScreenplay:KillSpawn()
 		local pBoss = spawnMobile("tatooine", "tusken_king", -1, 37.2, 22.9, 19.7, 165, 1189182)
-		print("Tusken King Respawned")
 		createObserver(DAMAGERECEIVED, "tusken_king_bossScreenplay", "npcDamageObserver", pBoss)
 		createObserver(OBJECTDESTRUCTION, "tusken_king_bossScreenplay", "bossDead", pBoss)
 end

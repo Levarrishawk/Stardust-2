@@ -7,7 +7,6 @@ registerScreenPlay("the_collector_spawn", true)
 
 function the_collector_spawn:start()
 		self:spawnMobiles()
-		print("The Collector Screenplay loaded.")
 end
 
 function the_collector_spawn:spawnMobiles()
@@ -168,7 +167,6 @@ function the_collector_spawn:finisher(playerObject)
 end
 
 function the_collector_spawn:bossDead(pBoss)
-	print("Captain Zahn has been killed.")
 	local creature = CreatureObject(pBoss)
 	local respawn = math.random(7200,10800)
 	createEvent(120 * 1000, "the_collector_spawn", "KillBoss", pBoss, "") -- Corpse Despawn
@@ -178,7 +176,6 @@ end
 
 function the_collector_spawn:KillSpawn()
 		self:spawnMobiles()
-		print("Captain Zahn Respawned")
 end
 
 function the_collector_spawn:KillBoss(pBoss)

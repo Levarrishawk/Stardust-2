@@ -36,23 +36,23 @@ void ArmorComponentImplementation::updateCraftingValues(CraftingValues* values, 
 
 	if (specialResists != ValuesMap::VALUENOTFOUND) {
 		if (specialResists & SharedWeaponObjectTemplate::KINETIC)
-			addProperty("kineticeffectiveness", specialbase + kinetic, 10, expProp);
+			addProperty("kineticeffectiveness", specialbase + kinetic, 12, expProp);
 		if (specialResists & SharedWeaponObjectTemplate::ENERGY)
-			addProperty("energyeffectiveness", specialbase + energy, 10, expProp);
+			addProperty("energyeffectiveness", specialbase + energy, 12, expProp);
 		if (specialResists & SharedWeaponObjectTemplate::BLAST)
-			addProperty("blasteffectiveness", specialbase + blast, 10, expProp);
+			addProperty("blasteffectiveness", specialbase + blast, 12, expProp);
 		if (specialResists & SharedWeaponObjectTemplate::STUN)
-			addProperty("stuneffectiveness", specialbase + stun, 10, expProp);
+			addProperty("stuneffectiveness", specialbase + stun, 12, expProp);
 		if (specialResists & SharedWeaponObjectTemplate::LIGHTSABER)
-			addProperty("restraineffectiveness", specialbase + lightSaber, 10, expProp);
+			addProperty("restraineffectiveness", specialbase + lightSaber, 12, expProp);
 		if (specialResists & SharedWeaponObjectTemplate::HEAT)
-			addProperty("heateffectiveness", specialbase + heat, 10, expProp);
+			addProperty("heateffectiveness", specialbase + heat, 12, expProp);
 		if (specialResists & SharedWeaponObjectTemplate::COLD)
-			addProperty("coldeffectiveness", specialbase + cold, 10, expProp);
+			addProperty("coldeffectiveness", specialbase + cold, 12, expProp);
 		if (specialResists & SharedWeaponObjectTemplate::ACID)
-			addProperty("acideffectiveness", specialbase + acid, 10, expProp);
+			addProperty("acideffectiveness", specialbase + acid, 12, expProp);
 		if (specialResists & SharedWeaponObjectTemplate::ELECTRICITY)
-			addProperty("electricaleffectiveness", specialbase + electricity, 10, expProp);
+			addProperty("electricaleffectiveness", specialbase + electricity, 12, expProp);
 	}
 }
 
