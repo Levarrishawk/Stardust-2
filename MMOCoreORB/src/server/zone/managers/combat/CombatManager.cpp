@@ -2117,19 +2117,17 @@ float CombatManager::getDefenderToughnessModifier(CreatureObject* defender, int 
 	if (damType != SharedWeaponObjectTemplate::LIGHTSABER && jediToughness > 0 && forceArmor <= 0 && isWearingArmor(defender)){
 		damage *= 1.f - (jediToughness / 500.f);
 		defender->sendSystemMessage("You have armor on, your Jedi Toughness has been disabled for this attack!!");
+
 	}else if (damType != SharedWeaponObjectTemplate::LIGHTSABER && jediToughness > 0 && forceArmor <= 0){
-		damage *= 1.f - (.15f + (jediToughness / (80.f + (jediToughness / 2))));// 45 toughness is 60% Resist 70 toughness is 71.5% resist
-		defender->sendSystemMessage("Scaling Active JT");
+		damage *= 1.f - (.15f + (jediToughness / (80.f + (jediToughness / 2))));
 	}
 
 	if (damType == SharedWeaponObjectTemplate::LIGHTSABER && saberToughness > 0 && forceArmor <= 0 && isWearingArmor(defender)){
 		damage *= 1.f - (saberToughness / 500.f);
 		defender->sendSystemMessage("You have armor on, your Lightsaber Toughness has been disabled for this attack!!");
-		//Checking for Force Armor and Player Armor Objects.
+
 	}else if (damType == SharedWeaponObjectTemplate::LIGHTSABER && saberToughness > 0 && forceArmor <= 0){
 		damage *= 1.f - (.15f + (saberToughness / (100.f + (saberToughness / 2))));
-		defender->sendSystemMessage("Scaling Active Saber");
-		//Checking for MLS amount of Toughness or more
 	}
 
 
