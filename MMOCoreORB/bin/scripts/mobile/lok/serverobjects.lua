@@ -136,3 +136,5 @@ includeFile("lok/vesp_scavenger.lua")
 includeFile("lok/vixur_webb.lua")
 includeFile("lok/weak_mercenary.lua")
 includeFile("lok/young_spined_snake.lua")
+-- Kimo
+includeFile("lok/kimogila_matriarch.lua")
