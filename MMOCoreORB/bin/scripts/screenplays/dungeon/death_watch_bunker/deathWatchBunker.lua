@@ -673,7 +673,7 @@ function DeathWatchBunkerScreenPlay:refillContainer(pSceneObject)
 		deleteData(SceneObject(pSceneObject):getObjectID() .. ":dwb:spawned")
 
 		createLoot(pSceneObject, "death_watch_bunker_lootbox", 1, false)
-		if getRandomNumber(100) > 95 then
+		if getRandomNumber(100) > 35 then
 			createLoot(pSceneObject, "death_watch_bunker_lootbox", 1, false)
 		end
 	end

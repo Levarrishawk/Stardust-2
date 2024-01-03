@@ -123,7 +123,7 @@ object_tangible_component_armor_shield_generator_personal_c = object_tangible_co
 	experimentalSubGroupTitles = {"null", "null", "hit_points", "armor_effectiveness", "armor_integrity", "armor_health_encumbrance", "armor_action_encumbrance", "armor_mind_encumbrance", "armor_rating", "armor_special_type", "armor_special_effectiveness", "armor_special_integrity"},
 	experimentalMin = {0, 0, 5000, 1, 5000, 0, 0, 0, 1, 2, 1, 750},
 	experimentalMax = {0, 0, 30000, 40, 30000, 0, 0, 0, 1, 2, 60, 1500},
-	experimentalPrecision = {0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0},
+	experimentalPrecision = {0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 4, 4, 4, 1},
 }
 

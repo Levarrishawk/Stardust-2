@@ -7,7 +7,6 @@ registerScreenPlay("imperial_remnantScreenplay", true)
 function imperial_remnantScreenplay:start()
 	if (isZoneEnabled(self.planet)) then
 		self:spawnMobiles()
-		print("Captain Zahn Loaded")
 	end
 end
 
@@ -15,7 +14,6 @@ end
 function imperial_remnantScreenplay:spawnMobiles()
 		local pBoss = spawnMobile("rori", "captain_zahn", -1, -5326.2, 83.0, 5013.8, 134, 18500002)
 		local creature = CreatureObject(pBoss)
-		print("Captain Zahn Spawned")
 		createObserver(DAMAGERECEIVED, "imperial_remnantScreenplay", "npcDamageObserver", pBoss)    
 		createObserver(OBJECTDESTRUCTION, "imperial_remnantScreenplay", "bossDead", pBoss)
 		AiAgent(pBoss):addCreatureFlag(AI_STATIONARY)
@@ -174,7 +172,6 @@ function imperial_remnantScreenplay:spawnSupport(bossObject, playerObject)
 end  
 
 function imperial_remnantScreenplay:bossDead(pBoss)
-	print("Captain Zahn has been killed.")
 	local creature = CreatureObject(pBoss)
 	local respawn = math.random(7200,10800)
 	createEvent(120 * 1000, "imperial_remnantScreenplay", "KillBoss", pBoss, "") -- Corpse Despawn
@@ -184,7 +181,6 @@ end
 
 function imperial_remnantScreenplay:KillSpawn()
 		local pBoss = spawnMobile("rori", "captain_zahn", -1, -5326.2, 83.0, 5013.8, 134, 18500002)
-		print("Captain Zahn Respawned")
 		createObserver(DAMAGERECEIVED, "imperial_remnantScreenplay", "npcDamageObserver", pBoss)
 		createObserver(OBJECTDESTRUCTION, "imperial_remnantScreenplay", "bossDead", pBoss)
 end
