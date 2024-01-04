@@ -11,7 +11,7 @@ FortTuskenScreenPlay = ScreenPlay:new {
 		7875789
 	},
 
-	lootLevel = 26,
+	lootLevel = 300,
 
 	lootGroups = {
 		{
