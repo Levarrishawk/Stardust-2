@@ -1452,7 +1452,7 @@ void PlayerObjectImplementation::notifyOnline() {
 		}
 		else {
 			missionManager->updatePlayerBountyOnlineStatus(id, true);
-			VisibilityManager::instance()->increaseVisibility(playerCreature, 8000);
+			//VisibilityManager::instance()->increaseVisibility(playerCreature, 8000); - Disable.
 		}
 
 	}

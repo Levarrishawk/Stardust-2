@@ -2068,13 +2068,14 @@ bool MissionManagerImplementation::isBountyValidForPlayer(CreatureObject* player
 	if (creature == nullptr)
 		return false;
 	
-	int maxBountiesPerJedi = ConfigManager::instance()->getInt("Core3.MissionManager.MaxBountiesPerJedi", 1);
-	
-	if (creature->hasSkill("force_rank_dark_rank_06") || creature->hasSkill("force_rank_light_rank_06")) {
-	int maxBountiesPerJedi = ConfigManager::instance()->getInt("Core3.MissionManager.MaxBountiesPerJedi", 2);
-	} else if (creature->hasSkill("force_rank_dark_rank_10") || creature->hasSkill("force_rank_light_rank_10")) {
-	int maxBountiesPerJedi = ConfigManager::instance()->getInt("Core3.MissionManager.MaxBountiesPerJedi", 3);
-	};
+	int maxBountiesPerJedi = ConfigManager::instance()->getInt("Core3.MissionManager.MaxBountiesPerJedi", 1); // 1 BH before Knight Trials.
+
+	if (creature->hasSkill("force_rank_dark_rank_06") || creature->hasSkill("force_rank_light_rank_06")) // 2 BH at Rank 6.
+		maxBountiesPerJedi++;
+
+	if (creature->hasSkill("force_rank_dark_rank_10") || creature->hasSkill("force_rank_light_rank_10")) // 3 BH at Rank 10.
+		maxBountiesPerJedi++;
+
 	
 	if (bounty->numberOfActiveMissions() >= maxBountiesPerJedi)
 		return false;
@@ -2133,7 +2134,7 @@ bool MissionManagerImplementation::isBountyValidForPlayer(CreatureObject* player
 	}
 
 	if (ConfigManager::instance()->getBool("Core3.MissionManager.PlayerBountyCooldown", true)) {
-		int cooldownTime = ConfigManager::instance()->getInt("Core3.MissionManager.PlayerBountyCooldownTime", 86400000); // 24 hour default
+		int cooldownTime = ConfigManager::instance()->getInt("Core3.MissionManager.PlayerBountyCooldownTime", 3600000); // 1 Hour.
 
 		if (!bounty->canTakeMission(player->getObjectID(), cooldownTime)) {
 			return false;
