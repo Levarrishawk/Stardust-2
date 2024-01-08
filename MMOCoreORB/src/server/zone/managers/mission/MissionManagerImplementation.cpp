@@ -2068,13 +2068,14 @@ bool MissionManagerImplementation::isBountyValidForPlayer(CreatureObject* player
 	if (creature == nullptr)
 		return false;
 	
-	int maxBountiesPerJedi = ConfigManager::instance()->getInt("Core3.MissionManager.MaxBountiesPerJedi", 1);
+	int maxBountiesPerJedi = 1;
 	
-	if (creature->hasSkill("force_rank_dark_rank_06") || creature->hasSkill("force_rank_light_rank_06")) {
-	int maxBountiesPerJedi = ConfigManager::instance()->getInt("Core3.MissionManager.MaxBountiesPerJedi", 2);
-	} else if (creature->hasSkill("force_rank_dark_rank_10") || creature->hasSkill("force_rank_light_rank_10")) {
-	int maxBountiesPerJedi = ConfigManager::instance()->getInt("Core3.MissionManager.MaxBountiesPerJedi", 3);
-	};
+	if (creature->hasSkill("force_rank_dark_rank_06") || creature->hasSkill("force_rank_light_rank_06"))
+	int maxBountiesPerJedi = 2;
+	
+	if (creature->hasSkill("force_rank_dark_rank_10") || creature->hasSkill("force_rank_light_rank_10"))
+	int maxBountiesPerJedi = 3;
+
 	
 	if (bounty->numberOfActiveMissions() >= maxBountiesPerJedi)
 		return false;
