@@ -2069,14 +2069,11 @@ bool MissionManagerImplementation::isBountyValidForPlayer(CreatureObject* player
 		return false;
 	
 	int maxBountiesPerJedi = ConfigManager::instance()->getInt("Core3.MissionManager.MaxBountiesPerJedi", 1); // 1 BH before Knight Trials.
-	
-	if (creature->hasSkill("force_rank_dark_novice") || creature->hasSkill("force_rank_light_novice")) // 2 BH at Knight.
-		maxBountiesPerJedi++;
-	
-	if (creature->hasSkill("force_rank_dark_rank_06") || creature->hasSkill("force_rank_light_rank_06")) // 3 BH at Rank 6.
+
+	if (creature->hasSkill("force_rank_dark_rank_06") || creature->hasSkill("force_rank_light_rank_06")) // 2 BH at Rank 6.
 		maxBountiesPerJedi++;
 
-	if (creature->hasSkill("force_rank_dark_rank_10") || creature->hasSkill("force_rank_light_rank_10")) // 4 BH at Rank 10.
+	if (creature->hasSkill("force_rank_dark_rank_10") || creature->hasSkill("force_rank_light_rank_10")) // 3 BH at Rank 10.
 		maxBountiesPerJedi++;
 
 	
