@@ -2068,13 +2068,7 @@ bool MissionManagerImplementation::isBountyValidForPlayer(CreatureObject* player
 	if (creature == nullptr)
 		return false;
 	
-	int maxBountiesPerJedi = 1;
-	
-	if (creature->hasSkill("force_rank_dark_rank_06") || creature->hasSkill("force_rank_light_rank_06"))
-	int maxBountiesPerJedi = 2;
-	
-	if (creature->hasSkill("force_rank_dark_rank_10") || creature->hasSkill("force_rank_light_rank_10"))
-	int maxBountiesPerJedi = 3;
+	int maxBountiesPerJedi = ConfigManager::instance()->getInt("Core3.MissionManager.MaxBountiesPerJedi", 2);
 
 	
 	if (bounty->numberOfActiveMissions() >= maxBountiesPerJedi)
@@ -2134,7 +2128,7 @@ bool MissionManagerImplementation::isBountyValidForPlayer(CreatureObject* player
 	}
 
 	if (ConfigManager::instance()->getBool("Core3.MissionManager.PlayerBountyCooldown", true)) {
-		int cooldownTime = ConfigManager::instance()->getInt("Core3.MissionManager.PlayerBountyCooldownTime", 86400000); // 24 hour default
+		int cooldownTime = ConfigManager::instance()->getInt("Core3.MissionManager.PlayerBountyCooldownTime", 3600000); // 1 Hour.
 
 		if (!bounty->canTakeMission(player->getObjectID(), cooldownTime)) {
 			return false;
