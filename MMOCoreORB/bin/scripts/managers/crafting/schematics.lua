@@ -2180,6 +2180,7 @@ schematics = {
   {path="object/draft_schematic/weapon/sword_bandit.iff"},
   {path="object/draft_schematic/weapon/sword_obsidian.iff"},
   {path="object/draft_schematic/weapon/sword_acid.iff"},
+  {path="object/draft_schematic/weapon/sword_junti_mace.iff"},
   {path="object/draft_schematic/weapon/sword_massassi.iff"},
   {path="object/draft_schematic/weapon/sword_rsf.iff"},
   {path="object/draft_schematic/weapon/2h_sword_obsidian.iff"},
