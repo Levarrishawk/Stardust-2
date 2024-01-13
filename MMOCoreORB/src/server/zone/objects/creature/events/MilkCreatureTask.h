@@ -118,13 +118,13 @@ public:
 		float density = resourceSpawn->getDensityAt(player->getZone()->getZoneName(), player->getPositionX(), player->getPositionY());
 
 		if (density > 0.80f) {
-			quantityExtracted = int(quantityExtracted * 1.25f);
+			quantityExtracted = int(quantityExtracted * 5.25f);
 		} else if (density > 0.60f) {
-			quantityExtracted = int(quantityExtracted * 1.00f);
+			quantityExtracted = int(quantityExtracted * 5.00f);
 		} else if (density > 0.40f) {
-			quantityExtracted = int(quantityExtracted * 0.75f);
+			quantityExtracted = int(quantityExtracted * 4.75f);
 		} else {
-			quantityExtracted = int(quantityExtracted * 0.50f);
+			quantityExtracted = int(quantityExtracted * 4.50f);
 		}
 		if (player->hasSkill("outdoors_ranger_master")) {
 			quantityExtracted =  quantityExtracted * 1.50;

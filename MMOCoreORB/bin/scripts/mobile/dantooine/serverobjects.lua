@@ -105,3 +105,6 @@ includeFile("dantooine/voritor_dasher.lua")
 includeFile("dantooine/voritor_lizard.lua")
 includeFile("dantooine/yras_shen_jen.lua")
 includeFile("dantooine/ytzosh.lua")
+--
+includeFile("dantooine/janta_scion.lua")
+includeFile("dantooine/dant_disciple.lua")
