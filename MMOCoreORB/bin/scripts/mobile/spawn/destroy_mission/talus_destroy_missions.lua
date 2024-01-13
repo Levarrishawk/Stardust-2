@@ -33,12 +33,6 @@ talus_destroy_missions = {
 			size = 25,
 		},
 		{
-			lairTemplateName = "talus_decay_mite_lair_neutral_boss_01",
-			minDifficulty = 7,
-			maxDifficulty = 11,
-			size = 25,
-		},
-		{
 			lairTemplateName = "talus_liberation_loyalist_camp_neutral_medium_theater",
 			minDifficulty = 7,
 			maxDifficulty = 11,
@@ -256,6 +250,12 @@ talus_destroy_missions = {
 		},
 		{
 			lairTemplateName = "talus_aakuan_champion_camp_neutral_large_theater",
+			minDifficulty = 29,
+			maxDifficulty = 33,
+			size = 25,
+		},
+		{
+			lairTemplateName = "talus_decay_mite_lair_neutral_boss_01",
 			minDifficulty = 29,
 			maxDifficulty = 33,
 			size = 25,
