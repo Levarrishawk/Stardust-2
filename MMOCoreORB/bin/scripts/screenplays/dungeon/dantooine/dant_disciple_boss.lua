@@ -1,6 +1,6 @@
 dant_discipleScreenplay = ScreenPlay:new {
 	numberOfActs = 1,
-  	planet = "rori",
+  	planet = "dantooine",
 }
 registerScreenPlay("dant_discipleScreenplay", true)
 
@@ -35,21 +35,21 @@ function dant_discipleScreenplay:npcDamageObserver(bossObject, playerObject, dam
 	if (((health <= (maxHealth * 0.95))) and readData("dant_discipleScreenplay:spawnState") == 0) then
       		spatialChat(bossObject, "It was foolish of you to enter this sanctuary.")
 			writeData("dant_discipleScreenplay:spawnState",1)
-			createEvent(5 * 1000, "dant_discipleScreenplay", "poisonbomb", playerObject, "")
- 			createEvent(15 * 1000, "dant_discipleScreenplay", "poisonbomb", playerObject, "")
-			createEvent(25 * 1000, "dant_discipleScreenplay", "poisonbomb", playerObject, "")
-			createEvent(35 * 1000, "dant_discipleScreenplay", "poisonbomb", playerObject, "")
-			createEvent(55 * 1000, "dant_discipleScreenplay", "poisonbomb", playerObject, "")       
+			createEvent(5 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
+ 			createEvent(15 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
+			createEvent(25 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
+			createEvent(35 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
+			createEvent(55 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")       
       		CreatureObject(bossObject):playEffect("clienteffect/mustafar/som_dark_jedi_laugh.cef", "")
 	end
 
 	if (((health <= (maxHealth * 0.7))) and readData("dant_discipleScreenplay:spawnState") == 1) then
       		writeData("dant_discipleScreenplay:spawnState",2)
-			createEvent(0 * 1000, "dant_discipleScreenplay", "poisonbomb", playerObject, "")
- 			createEvent(5 * 1000, "dant_discipleScreenplay", "poisonbomb", playerObject, "")
-			createEvent(10 * 1000, "dant_discipleScreenplay", "poisonbomb", playerObject, "")
-			createEvent(15 * 1000, "dant_discipleScreenplay", "poisonbomb", playerObject, "")
-			createEvent(20 * 1000, "dant_discipleScreenplay", "poisonbomb", playerObject, "")        
+			createEvent(0 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
+ 			createEvent(5 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
+			createEvent(10 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
+			createEvent(15 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
+			createEvent(20 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")        
 			self:spawnSupport(playerObject)
       			CreatureObject(playerObject):sendSystemMessage("The Disciple flings rocks at you using the Force.")
       			CreatureObject(bossObject):playEffect("clienteffect/mustafar/som_dark_jedi_laugh.cef", "")
@@ -58,22 +58,22 @@ function dant_discipleScreenplay:npcDamageObserver(bossObject, playerObject, dam
 	if (((health <= (maxHealth * 0.5))) and readData("dant_discipleScreenplay:spawnState") == 2) then
       		spatialChat(bossObject, "My Scions will destroy and desecrate you!")
 			writeData("dant_discipleScreenplay:spawnState",3)
-			createEvent(0 * 1000, "dant_discipleScreenplay", "poisonbomb_mid", playerObject, "")
- 			createEvent(2 * 1000, "dant_discipleScreenplay", "poisonbomb_mid", playerObject, "")
-			createEvent(5 * 1000, "dant_discipleScreenplay", "poisonbomb_mid", playerObject, "")
-			createEvent(7 * 1000, "dant_discipleScreenplay", "poisonbomb_mid", playerObject, "")
-			createEvent(8 * 1000, "dant_discipleScreenplay", "poisonbomb_mid", playerObject, "")     
+			createEvent(0 * 1000, "dant_discipleScreenplay", "rockthrow_mid", playerObject, "")
+ 			createEvent(2 * 1000, "dant_discipleScreenplay", "rockthrow_mid", playerObject, "")
+			createEvent(5 * 1000, "dant_discipleScreenplay", "rockthrow_mid", playerObject, "")
+			createEvent(7 * 1000, "dant_discipleScreenplay", "rockthrow_mid", playerObject, "")
+			createEvent(8 * 1000, "dant_discipleScreenplay", "rockthrow_mid", playerObject, "")     
 			self:spawnSupport(playerObject)
       		CreatureObject(bossObject):playEffect("clienteffect/mustafar/som_dark_jedi_laugh.cef", "")
 	end
 
 	if (((health <= (maxHealth * 0.3))) and readData("dant_discipleScreenplay:spawnState") == 3) then
       		writeData("dant_discipleScreenplay:spawnState",4)
-			createEvent(0 * 1000, "dant_discipleScreenplay", "poisonbomb_last", playerObject, "")
-			createEvent(2 * 1000, "dant_discipleScreenplay", "poisonbomb_last", playerObject, "")
-			createEvent(5 * 1000, "dant_discipleScreenplay", "poisonbomb_last", playerObject, "")
-			createEvent(7 * 1000, "dant_discipleScreenplay", "poisonbomb_last", playerObject, "")
-			createEvent(9 * 1000, "dant_discipleScreenplay", "poisonbomb_last", playerObject, "")      
+			createEvent(0 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
+			createEvent(2 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
+			createEvent(5 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
+			createEvent(7 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
+			createEvent(9 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")      
 			self:spawnSupport(playerObject)
       		CreatureObject(playerObject):sendSystemMessage("A barrage of rocks heads your way.")
       		CreatureObject(bossObject):playEffect("clienteffect/mustafar/som_dark_jedi_laugh.cef", "")
@@ -89,7 +89,7 @@ function dant_discipleScreenplay:npcDamageObserver(bossObject, playerObject, dam
 
 end
 
-function dant_discipleScreenplay:poisonbomb(playerObject)
+function dant_discipleScreenplay:rockthrow(playerObject)
 if (CreatureObject(playerObject):isGrouped()) then
 	local groupSize = CreatureObject(playerObject):getGroupSize()
 	for i = 0, groupSize - 1, 1 do
@@ -107,7 +107,7 @@ else
 	end
 end
 
-function dant_discipleScreenplay:poisonbomb_mid(playerObject)
+function dant_discipleScreenplay:rockthrow_mid(playerObject)
 if (CreatureObject(playerObject):isGrouped()) then
 	local groupSize = CreatureObject(playerObject):getGroupSize()
 	for i = 0, groupSize - 1, 1 do
@@ -125,7 +125,7 @@ else
 	end
 end
 
-function dant_discipleScreenplay:poisonbomb_last(playerObject)
+function dant_discipleScreenplay:rockthrow_last(playerObject)
 if (CreatureObject(playerObject):isGrouped()) then
 	local groupSize = CreatureObject(playerObject):getGroupSize()
 	for i = 0, groupSize - 1, 1 do
