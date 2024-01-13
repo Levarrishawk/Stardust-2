@@ -32,8 +32,8 @@ dant_disciple = Creature:new {
 			groups = {
 				{group = "power_crystals", chance = 1000000},
 				{group = "lok_track", chance = 1000000},
-				{group = "rngbox1", chance = 1000000},
-				{group = "rngbox1", chance = 1000000},
+				{group = "veteran_rewards_810_days", chance = 1000000},
+				{group = "veteran_rewards_270_days", chance = 1000000},
 				{group = "melee_weapons", chance = 1000000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000},
@@ -46,8 +46,8 @@ dant_disciple = Creature:new {
 			groups = {
 				{group = "power_crystals", chance = 1000000},
 				{group = "lok_track", chance = 1000000},
-				{group = "rngbox1", chance = 1000000},
-				{group = "rngbox1", chance = 1000000},
+				{group = "veteran_rewards_810_days", chance = 1000000},
+				{group = "veteran_rewards_630_days", chance = 1000000},
 				{group = "melee_weapons", chance = 1000000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000},
@@ -60,8 +60,8 @@ dant_disciple = Creature:new {
 			groups = {
 				{group = "power_crystals", chance = 1000000},
 				{group = "lok_track", chance = 1000000},
-				{group = "rngbox1", chance = 1000000},
-				{group = "rngbox1", chance = 1000000},
+				{group = "veteran_rewards_810_days", chance = 1000000},
+				{group = "veteran_rewards_90_days", chance = 1000000},
 				{group = "melee_weapons", chance = 1000000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000},
@@ -74,8 +74,8 @@ dant_disciple = Creature:new {
 			groups = {
 				{group = "power_crystals", chance = 1000000},
 				{group = "lok_track", chance = 1000000},
-				{group = "rngbox1", chance = 1000000},
-				{group = "rngbox1", chance = 1000000},
+				{group = "veteran_rewards_810_days", chance = 1000000},
+				{group = "veteran_rewards_900_days", chance = 1000000},
 				{group = "melee_weapons", chance = 1000000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000},
