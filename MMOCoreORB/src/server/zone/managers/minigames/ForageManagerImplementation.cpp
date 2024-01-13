@@ -402,7 +402,7 @@ bool ForageManagerImplementation::forageGiveResource(TransactionLog& trx, Creatu
 		}
 	}
 
-	int quantity = System::random(30) + 10;
+	int quantity = System::random(130) + 10;
 	if (player->hasSkill("outdoors_ranger_master")) {
 			quantity =  quantity * 1.50;
 		}
