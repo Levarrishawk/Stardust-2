@@ -130,7 +130,10 @@ void WearableObjectImplementation::generateSockets(CraftingValues* craftingValue
 		generatedCount = MAXSOCKETS;
 	if (generatedCount < 0)
 		generatedCount = 0;
-	if (player->hasSkill("crafting_tailor_master")) || if (player->hasSkill("crafting_armorsmith_master")) {
+	if (player->hasSkill("crafting_tailor_master")) {
+		generatedCount = 4;
+	}
+	if (player->hasSkill("crafting_armorsmith_master")) {
 		generatedCount = 4;
 	}
 	// TODO: remove this backwards compatibility fix at next wipe. Only usedSocketCount variable should be used.
