@@ -16,7 +16,6 @@ function kimo_matriarchScreenplay:spawnMobiles()
 		local creature = CreatureObject(pBoss)
 		createObserver(DAMAGERECEIVED, "kimo_matriarchScreenplay", "npcDamageObserver", pBoss)    
 		createObserver(OBJECTDESTRUCTION, "kimo_matriarchScreenplay", "bossDead", pBoss)
-		AiAgent(pBoss):addCreatureFlag(AI_STATIONARY)
 end
 
 function kimo_matriarchScreenplay:npcDamageObserver(bossObject, playerObject, damage)
