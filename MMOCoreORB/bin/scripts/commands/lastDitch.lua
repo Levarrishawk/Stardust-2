@@ -47,7 +47,7 @@ LastDitchCommand = {
 	damageMultiplier = 6.0,
   speedMultiplier = 4.0,
   healthCostMultiplier = 0,
-  actionCostMultiplier = 2.25,
+  actionCostMultiplier = 4,
   mindCostMultiplier = 0,
   accuracyBonus = 50,
 
