@@ -16,7 +16,6 @@ function dant_discipleScreenplay:spawnMobiles()
 		local creature = CreatureObject(pBoss)
 		createObserver(DAMAGERECEIVED, "dant_discipleScreenplay", "npcDamageObserver", pBoss)    
 		createObserver(OBJECTDESTRUCTION, "dant_discipleScreenplay", "bossDead", pBoss)
-		AiAgent(pBoss):addCreatureFlag(AI_STATIONARY)
 end
 
 function dant_discipleScreenplay:npcDamageObserver(bossObject, playerObject, damage)
@@ -31,9 +30,18 @@ function dant_discipleScreenplay:npcDamageObserver(bossObject, playerObject, dam
 	maxHealth = boss:getMaxHAM(0)
 	maxAction = boss:getMaxHAM(3)
 	maxMind = boss:getMaxHAM(6)
+	
+	if (((health <= (maxHealth * 0.99))) and readData("dant_discipleScreenplay:spawnState") == 0) then
+      		spatialChat(bossObject, "It was foolish of you to enter this sanctuary.")
+			createEvent(25 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
+ 			createEvent(50 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
+			createEvent(75 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
+			createEvent(100 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
+			createEvent(125 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")     			
+      		CreatureObject(bossObject):playEffect("clienteffect/mustafar/som_dark_jedi_laugh.cef", "")
+	end
 
 	if (((health <= (maxHealth * 0.95))) and readData("dant_discipleScreenplay:spawnState") == 0) then
-      		spatialChat(bossObject, "It was foolish of you to enter this sanctuary.")
 			writeData("dant_discipleScreenplay:spawnState",1)
 			createEvent(5 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
  			createEvent(15 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
@@ -95,13 +103,13 @@ if (CreatureObject(playerObject):isGrouped()) then
 	for i = 0, groupSize - 1, 1 do
 			local pMember = CreatureObject(playerObject):getGroupMember(i)
 			if pMember ~= nil and SceneObject(pMember):isInRangeWithObject(playerObject, 200) then
-			local trapDmg = getRandomNumber(400, 500)
+			local trapDmg = getRandomNumber(500, 700)
 			CreatureObject(pMember):inflictDamage(pMember, 0, trapDmg, 1)
       		CreatureObject(playerObject):playEffect("clienteffect/mustafar/dark_jedi_rock_attack_1.cef", "")
 		end
 	end
 else
-	local trapDmg = getRandomNumber(400, 500)
+	local trapDmg = getRandomNumber(500, 700)
 		CreatureObject(playerObject):inflictDamage(playerObject, 0, trapDmg, 1)
       	CreatureObject(playerObject):playEffect("clienteffect/mustafar/dark_jedi_rock_attack_1.cef", "")
 	end
@@ -113,13 +121,13 @@ if (CreatureObject(playerObject):isGrouped()) then
 	for i = 0, groupSize - 1, 1 do
 			local pMember = CreatureObject(playerObject):getGroupMember(i)
 			if pMember ~= nil and SceneObject(pMember):isInRangeWithObject(playerObject, 200) then
-			local trapDmg = getRandomNumber(600, 700)
+			local trapDmg = getRandomNumber(800, 900)
 			CreatureObject(pMember):inflictDamage(pMember, 0, trapDmg, 1)
       		CreatureObject(playerObject):playEffect("clienteffect/mustafar/dark_jedi_rock_attack_1.cef", "")
 		end
 	end
 else
-	local trapDmg = getRandomNumber(600, 700)
+	local trapDmg = getRandomNumber(800, 900)
 		CreatureObject(playerObject):inflictDamage(playerObject, 0, trapDmg, 1)
       	CreatureObject(playerObject):playEffect("clienteffect/mustafar/dark_jedi_rock_attack_1.cef", "")
 	end
@@ -131,13 +139,13 @@ if (CreatureObject(playerObject):isGrouped()) then
 	for i = 0, groupSize - 1, 1 do
 			local pMember = CreatureObject(playerObject):getGroupMember(i)
 			if pMember ~= nil and SceneObject(pMember):isInRangeWithObject(playerObject, 200) then
-			local trapDmg = getRandomNumber(700, 900)
+			local trapDmg = getRandomNumber(900, 1100)
 			CreatureObject(pMember):inflictDamage(pMember, 0, trapDmg, 1)
       		CreatureObject(playerObject):playEffect("clienteffect/mustafar/dark_jedi_rock_attack_1.cef", "")
 		end
 	end
 else
-	local trapDmg = getRandomNumber(700, 900)
+	local trapDmg = getRandomNumber(900, 1100)
 		CreatureObject(playerObject):inflictDamage(playerObject, 0, trapDmg, 1)
       	CreatureObject(playerObject):playEffect("clienteffect/mustafar/dark_jedi_rock_attack_1.cef", "")
 	end

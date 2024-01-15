@@ -124,12 +124,15 @@ void WearableObjectImplementation::generateSockets(CraftingValues* craftingValue
 	float roll = System::random(skill + luck + random);
 
 	int generatedCount = int(float(MAXSOCKETS * roll) / float(MAXSOCKETS * 100));
-
+	ManagedReference<ManufactureSchematic*> manuSchematic = craftingValues->getManufactureSchematic();
+	ManagedReference<CreatureObject*> player = manuSchematic->getCrafter().get();
 	if (generatedCount > MAXSOCKETS)
 		generatedCount = MAXSOCKETS;
 	if (generatedCount < 0)
 		generatedCount = 0;
-
+	if (player->hasSkill("crafting_tailor_master")) || if (player->hasSkill("crafting_armorsmith_master")) {
+		generatedCount = 4;
+	}
 	// TODO: remove this backwards compatibility fix at next wipe. Only usedSocketCount variable should be used.
 	objectCreatedPreUsedSocketCountFix = false;
 	usedSocketCount = 0;
