@@ -32,6 +32,7 @@ function dant_discipleScreenplay:npcDamageObserver(bossObject, playerObject, dam
 	maxMind = boss:getMaxHAM(6)
 	
 	if (((health <= (maxHealth * 0.99))) and readData("dant_discipleScreenplay:spawnState") == 0) then
+	writeData("dant_discipleScreenplay:spawnState",1)
       		spatialChat(bossObject, "It was foolish of you to enter this sanctuary.")
 			createEvent(25 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
  			createEvent(50 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
@@ -41,8 +42,8 @@ function dant_discipleScreenplay:npcDamageObserver(bossObject, playerObject, dam
       		CreatureObject(bossObject):playEffect("clienteffect/mustafar/som_dark_jedi_laugh.cef", "")
 	end
 
-	if (((health <= (maxHealth * 0.95))) and readData("dant_discipleScreenplay:spawnState") == 0) then
-			writeData("dant_discipleScreenplay:spawnState",1)
+	if (((health <= (maxHealth * 0.95))) and readData("dant_discipleScreenplay:spawnState") == 1) then
+			writeData("dant_discipleScreenplay:spawnState",2)
 			createEvent(5 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
  			createEvent(15 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
 			createEvent(25 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
@@ -51,8 +52,8 @@ function dant_discipleScreenplay:npcDamageObserver(bossObject, playerObject, dam
       		CreatureObject(bossObject):playEffect("clienteffect/mustafar/som_dark_jedi_laugh.cef", "")
 	end
 
-	if (((health <= (maxHealth * 0.7))) and readData("dant_discipleScreenplay:spawnState") == 1) then
-      		writeData("dant_discipleScreenplay:spawnState",2)
+	if (((health <= (maxHealth * 0.7))) and readData("dant_discipleScreenplay:spawnState") == 2) then
+      		writeData("dant_discipleScreenplay:spawnState",3)
 			createEvent(0 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
  			createEvent(5 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
 			createEvent(10 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
@@ -63,9 +64,9 @@ function dant_discipleScreenplay:npcDamageObserver(bossObject, playerObject, dam
       			CreatureObject(bossObject):playEffect("clienteffect/mustafar/som_dark_jedi_laugh.cef", "")
 	end
 
-	if (((health <= (maxHealth * 0.5))) and readData("dant_discipleScreenplay:spawnState") == 2) then
+	if (((health <= (maxHealth * 0.5))) and readData("dant_discipleScreenplay:spawnState") == 3) then
       		spatialChat(bossObject, "My Scions will destroy and desecrate you!")
-			writeData("dant_discipleScreenplay:spawnState",3)
+			writeData("dant_discipleScreenplay:spawnState",4)
 			createEvent(0 * 1000, "dant_discipleScreenplay", "rockthrow_mid", playerObject, "")
  			createEvent(2 * 1000, "dant_discipleScreenplay", "rockthrow_mid", playerObject, "")
 			createEvent(5 * 1000, "dant_discipleScreenplay", "rockthrow_mid", playerObject, "")
@@ -75,8 +76,8 @@ function dant_discipleScreenplay:npcDamageObserver(bossObject, playerObject, dam
       		CreatureObject(bossObject):playEffect("clienteffect/mustafar/som_dark_jedi_laugh.cef", "")
 	end
 
-	if (((health <= (maxHealth * 0.3))) and readData("dant_discipleScreenplay:spawnState") == 3) then
-      		writeData("dant_discipleScreenplay:spawnState",4)
+	if (((health <= (maxHealth * 0.3))) and readData("dant_discipleScreenplay:spawnState") == 4) then
+      		writeData("dant_discipleScreenplay:spawnState",5)
 			createEvent(0 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
 			createEvent(2 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
 			createEvent(5 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
@@ -87,9 +88,9 @@ function dant_discipleScreenplay:npcDamageObserver(bossObject, playerObject, dam
       		CreatureObject(bossObject):playEffect("clienteffect/mustafar/som_dark_jedi_laugh.cef", "")
 	end
 
-	if (((health <= (maxHealth * 0.1))) and readData("dant_discipleScreenplay:spawnState") == 4) then
+	if (((health <= (maxHealth * 0.1))) and readData("dant_discipleScreenplay:spawnState") == 5) then
 				spatialChat(bossObject, "Your life force .. is mine!")
-      			writeData("dant_discipleScreenplay:spawnState",5)
+      			writeData("dant_discipleScreenplay:spawnState",6)
 				createEvent(0 * 1000, "dant_discipleScreenplay", "finisher", playerObject, "")  		
       			CreatureObject(bossObject):playEffect("clienteffect/mustafar/som_dark_jedi_laugh.cef", "")
 		end
