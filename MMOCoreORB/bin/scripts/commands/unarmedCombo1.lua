@@ -44,7 +44,7 @@
 UnarmedCombo1Command = {
 	name = "unarmedcombo1",
 
-	damageMultiplier = 3,
+	damageMultiplier = 1,
 	speedMultiplier = 2.0,
 	healthCostMultiplier = 0,
 	actionCostMultiplier = 4,

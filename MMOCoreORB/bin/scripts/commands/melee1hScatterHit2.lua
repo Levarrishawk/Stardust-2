@@ -44,7 +44,7 @@
 Melee1hScatterHit2Command = {
         name = "melee1hscatterhit2",
 
-	damageMultiplier = 4.0,
+	damageMultiplier = 2,
 	speedMultiplier = 2.5,
 	healthCostMultiplier = 0,
 	actionCostMultiplier = 2.25,
