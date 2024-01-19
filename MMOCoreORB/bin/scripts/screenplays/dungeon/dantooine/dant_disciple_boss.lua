@@ -34,21 +34,18 @@ function dant_discipleScreenplay:npcDamageObserver(bossObject, playerObject, dam
 	if (((health <= (maxHealth * 0.99))) and readData("dant_discipleScreenplay:spawnState") == 0) then
 	writeData("dant_discipleScreenplay:spawnState",1)
       		spatialChat(bossObject, "It was foolish of you to enter this sanctuary.")
-			createEvent(25 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
- 			createEvent(50 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
-			createEvent(75 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
-			createEvent(100 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
-			createEvent(125 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")     			
+			createEvent(5 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")
+ 			createEvent(10 * 1000, "dant_discipleScreenplay", "rockthrow_last", playerObject, "")   			
       		CreatureObject(bossObject):playEffect("clienteffect/mustafar/som_dark_jedi_laugh.cef", "")
 	end
 
 	if (((health <= (maxHealth * 0.95))) and readData("dant_discipleScreenplay:spawnState") == 1) then
 			writeData("dant_discipleScreenplay:spawnState",2)
 			createEvent(5 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
- 			createEvent(15 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
-			createEvent(25 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
-			createEvent(35 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
-			createEvent(55 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")       
+ 			createEvent(10 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
+			createEvent(20 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
+			createEvent(30 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")
+			createEvent(50 * 1000, "dant_discipleScreenplay", "rockthrow", playerObject, "")       
       		CreatureObject(bossObject):playEffect("clienteffect/mustafar/som_dark_jedi_laugh.cef", "")
 	end
 
