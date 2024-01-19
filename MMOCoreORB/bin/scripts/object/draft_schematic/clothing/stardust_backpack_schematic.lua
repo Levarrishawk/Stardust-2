@@ -39,7 +39,7 @@
 --it is their choice whether to do so. The GNU Lesser General Public License 
 --gives permission to release a modified version without this exception; 
 --this exception also makes it possible to release a modified version 
-
+--REMAKE
 
 object_draft_schematic_clothing_stardust_backpack_schematic = object_draft_schematic_clothing_shared_stardust_backpack_schematic:new {
 
