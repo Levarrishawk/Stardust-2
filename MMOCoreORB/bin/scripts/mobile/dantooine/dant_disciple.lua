@@ -30,11 +30,11 @@ dant_disciple = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "power_crystals", chance = 1000000},
+				{group = "nightsister_rare", chance = 1000000},
 				{group = "lok_track", chance = 1000000},
 				{group = "veteran_rewards_810_days", chance = 1000000},
 				{group = "veteran_rewards_270_days", chance = 1000000},
-				{group = "melee_weapons", chance = 1000000},
+				{group = "death_watch_bh_armor_schematics", chance = 1000000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000},
 				{group = "nge_houses_all", chance = 1000000}
@@ -44,11 +44,11 @@ dant_disciple = Creature:new {
 		
 		{
 			groups = {
-				{group = "power_crystals", chance = 1000000},
+				{group = "nightsister_rare", chance = 1000000},
 				{group = "lok_track", chance = 1000000},
 				{group = "veteran_rewards_810_days", chance = 1000000},
 				{group = "veteran_rewards_630_days", chance = 1000000},
-				{group = "melee_weapons", chance = 1000000},
+				{group = "death_watch_bh_armor_schematics", chance = 1000000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000},
 				{group = "nge_houses_all", chance = 1000000}
@@ -58,11 +58,11 @@ dant_disciple = Creature:new {
 		
 		{
 			groups = {
-				{group = "power_crystals", chance = 1000000},
+				{group = "nightsister_rare", chance = 1000000},
 				{group = "lok_track", chance = 1000000},
 				{group = "veteran_rewards_810_days", chance = 1000000},
 				{group = "veteran_rewards_90_days", chance = 1000000},
-				{group = "melee_weapons", chance = 1000000},
+				{group = "death_watch_bh_armor_schematics", chance = 1000000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000},
 				{group = "nge_houses_all", chance = 1000000}
@@ -72,16 +72,44 @@ dant_disciple = Creature:new {
 		
 		{
 			groups = {
-				{group = "power_crystals", chance = 1000000},
+				{group = "nightsister_rare", chance = 1000000},
 				{group = "lok_track", chance = 1000000},
-				{group = "veteran_rewards_810_days", chance = 1000000},
-				{group = "veteran_rewards_900_days", chance = 1000000},
-				{group = "melee_weapons", chance = 1000000},
+				{group = "veteran_rewards_180_days", chance = 1000000},
+				{group = "veteran_rewards_450_days", chance = 1000000},
+				{group = "death_watch_bh_armor_schematics", chance = 1000000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000},
 				{group = "nge_houses_all", chance = 1000000}
 			},
 				lootChance = 6000000,
+		},
+		
+		{
+			groups = {
+				{group = "nightsister_rare", chance = 1000000},
+				{group = "lok_track", chance = 1000000},
+				{group = "veteran_rewards_1080_days", chance = 1000000},
+				{group = "veteran_rewards_990_days", chance = 1000000},
+				{group = "death_watch_bh_armor_schematics", chance = 1000000},
+				{group = "armor_attachments", chance = 2000000},
+				{group = "clothing_attachments", chance = 2000000},
+				{group = "nge_houses_all", chance = 1000000}
+			},
+				lootChance = 4000000,
+		},
+		
+		{
+			groups = {
+				{group = "nightsister_rare", chance = 1000000},
+				{group = "lok_track", chance = 1000000},
+				{group = "veteran_rewards_810_days", chance = 1000000},
+				{group = "veteran_rewards_900_days", chance = 1000000},
+				{group = "death_watch_bh_armor_schematics", chance = 1000000},
+				{group = "armor_attachments", chance = 2000000},
+				{group = "clothing_attachments", chance = 2000000},
+				{group = "nge_houses_all", chance = 1000000}
+			},
+				lootChance = 3000000,
 		},
 		
 		{
@@ -94,13 +122,13 @@ dant_disciple = Creature:new {
 			groups = {
 				{group = "acid_vibro_unit", chance = 10000000}
 			},
-				lootChance = 1000000,
+				lootChance = 1500000,
 		},
 		{
 			groups = {
 				{group = "experimental_spider", chance = 10000000}
 			},
-				lootChance = 1000000,
+				lootChance = 1500000,
 		},
 	},
 	primaryWeapon = "dark_jedi_weapons_gen4",
