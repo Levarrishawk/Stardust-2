@@ -169,4 +169,6 @@ dathomir_regions = {
 	{ "fs_cs_psi", -410, 2506, {1, 50}, NOSPAWNAREA + NOBUILDZONEAREA},
 	{ "fs_cs_omega", 1369, 1217, {1, 50}, NOSPAWNAREA + NOBUILDZONEAREA},
 	{ "fs_cs_zed", 3076, 2174, {1, 50}, NOSPAWNAREA + NOBUILDZONEAREA},
+	-- Custom
+	{ "rakata", 1068, -4485, {1, 100}, NOSPAWNAREA + NOBUILDZONEAREA},
 }
