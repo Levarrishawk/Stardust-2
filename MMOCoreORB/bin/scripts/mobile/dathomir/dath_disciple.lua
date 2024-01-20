@@ -1,5 +1,5 @@
-dant_disciple = Creature:new {
-	customName = "Valee Vikar (a Disciple of Rakata)",
+dath_disciple = Creature:new {
+	customName = "Mana Das (a Disciple of Rakata)",
 	socialGroup = "mercenary",
 	faction = "",
 	level = 300,
@@ -26,7 +26,7 @@ dant_disciple = Creature:new {
 	diet = HERBIVORE,
 	scale = 1.4,	
 
-	templates = {"object/mobile/wod_first_sister.iff"},
+	templates = {"object/mobile/wod_third_sister.iff"},
 	lootGroups = {
 		{
 			groups = {
@@ -131,12 +131,12 @@ dant_disciple = Creature:new {
 				lootChance = 1500000,
 		},
 	},
-	primaryWeapon = "dark_jedi_weapons_gen4",
-	secondaryWeapon = "dark_jedi_weapons_gen4",
+	primaryWeapon = "light_jedi_weapons",
+	secondaryWeapon = "light_jedi_weapons",
 	conversationTemplate = "",
 	
 	primaryAttacks = merge(lightsabermaster,forcepowermaster),
 	secondaryAttacks = merge(lightsabermaster,forcepowermaster)
 }
 
-CreatureTemplates:addCreatureTemplate(dant_disciple, "dant_disciple")
+CreatureTemplates:addCreatureTemplate(dath_disciple, "dath_disciple")
