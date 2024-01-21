@@ -2113,11 +2113,11 @@ float CombatManager::getDefenderToughnessModifier(CreatureObject* defender, int 
 		}
 	}
 		
-	if (damType != SharedWeaponObjectTemplate::LIGHTSABER && jediToughness > 0 && forceArmor <= 0 && isWearingArmor(defender)){
+	if (attackType == weapon->getAttackType() && damType != SharedWeaponObjectTemplate::LIGHTSABER && jediToughness > 0 && forceArmor <= 0 && isWearingArmor(defender)){
 		damage *= 1.f - (jediToughness / 500.f);
-		defender->sendSystemMessage("You have armor on, your Jedi Toughness has been disabled for this attack!!");
+		//defender->sendSystemMessage("You have armor on, your Jedi Toughness has been disabled for this attack!!");
 
-	}else if (damType != SharedWeaponObjectTemplate::LIGHTSABER && jediToughness > 0 && forceArmor <= 0){
+	}else if (attackType == weapon->getAttackType() && damType != SharedWeaponObjectTemplate::LIGHTSABER && jediToughness > 0 && forceArmor <= 0){
 		int maxReduction = 81;
     	int curvePlacement = 2.5;
     	float growthRate = -0.085;
@@ -2126,11 +2126,11 @@ float CombatManager::getDefenderToughnessModifier(CreatureObject* defender, int 
 		
 	}
 
-	if (damType == SharedWeaponObjectTemplate::LIGHTSABER && saberToughness > 0 && forceArmor <= 0 && isWearingArmor(defender)){
+	if (attackType == weapon->getAttackType() && damType == SharedWeaponObjectTemplate::LIGHTSABER && saberToughness > 0 && forceArmor <= 0 && isWearingArmor(defender)){
 		damage *= 1.f - (saberToughness / 500.f);
-		defender->sendSystemMessage("You have armor on, your Lightsaber Toughness has been disabled for this attack!!");
+		//defender->sendSystemMessage("You have armor on, your Lightsaber Toughness has been disabled for this attack!!");
 
-	}else if (damType == SharedWeaponObjectTemplate::LIGHTSABER && saberToughness > 0 && forceArmor <= 0){
+	}else if (attackType == weapon->getAttackType() && damType == SharedWeaponObjectTemplate::LIGHTSABER && saberToughness > 0 && forceArmor <= 0){
 		int maxReduction = 80;
     	int curvePlacement = 5;
     	float growthRate = -0.085;

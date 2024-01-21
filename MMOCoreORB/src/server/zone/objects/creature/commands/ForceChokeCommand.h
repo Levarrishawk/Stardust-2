@@ -12,7 +12,7 @@ class ForceChokeCommand : public ForcePowersQueueCommand {
 protected:
 	String skillName = "forcechoke";		// Skill Name
 	String skillNameDisplay = "Force Choke";		// Skill Display Name for output message
-	int delay = 20;
+	int delay = 10;
 
 public:
 
@@ -41,23 +41,25 @@ public:
 		if (targetObject == nullptr || !targetObject->isCreatureObject()) {
 			return INVALIDTARGET;
 		}
+
 		Locker clocker(targetCreature, creature);
 
 		ManagedReference<PlayerObject*> player = creature->getPlayerObject();
 		PlayerObject* targetPlayerObject = targetCreature->getPlayerObject();
+		if (!creature->checkCooldownRecovery(skillName)){
+				const Time* timeRemaining = creature->getCooldownTime(skillName);
+				creature->playMusicMessage("sound/ui_negative.snd");
+				creature->sendSystemMessage("Your target can not be " + skillNameDisplay + "d for another " +  getCooldownString(timeRemaining->miliDifference() * -1));
+				return GENERALERROR;
+		}
+
 		int res = doCombatAction(creature, target);
 
 		if (res == SUCCESS) {
 
 				// Setup debuff.
 
-				if (!creature->checkCooldownRecovery(skillName)){
-					const Time* timeRemaining = creature->getCooldownTime(skillName);
-					creature->playMusicMessage("sound/ui_negative.snd");
-					creature->sendSystemMessage("Your target can not be rooted with " + skillNameDisplay + " for another " +  getCooldownString(timeRemaining->miliDifference() * -1));
-					}
-
-				else if (targetCreature != nullptr) {
+				 if (targetCreature != nullptr) {
 					Locker clocker(targetCreature, creature);
 
 					ManagedReference<Buff*> buff = new Buff(targetCreature, getNameCRC(), 6, BuffType::OTHER);
