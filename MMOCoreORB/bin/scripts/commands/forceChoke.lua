@@ -50,7 +50,8 @@ ForceChokeCommand = {
   forceCost = 45,
   visMod = 25,
   forceAttack = true,
-  accuracyBonus = 95,
+  accuracySkillMod = "mindblast_accuracy",
+  --accuracyBonus = 95,
 
   animation = "force_choke_1_particle_level_1",
   animType = GENERATE_INTENSITY,
