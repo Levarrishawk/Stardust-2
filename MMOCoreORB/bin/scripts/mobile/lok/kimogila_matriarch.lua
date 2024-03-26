@@ -84,6 +84,34 @@ kimogila_matriarch = Creature:new {
 				{group = "clothing_attachments", chance = 2000000},
 				{group = "nge_houses_all", chance = 1000000}
 			},
+				lootChance = 5000000,
+		},
+		
+		{
+			groups = {
+				{group = "imperial_corvette_loot", chance = 2000000},
+				{group = "lok_track", chance = 500000},
+				{group = "veteran_rewards_360_days", chance = 1000000},
+				{group = "veteran_rewards_180_days", chance = 1000000},
+				{group = "veteran_rewards_900_days", chance = 500000},
+				{group = "armor_attachments", chance = 2000000},
+				{group = "clothing_attachments", chance = 2000000},
+				{group = "nge_houses_all", chance = 1000000}
+			},
+				lootChance = 3500000,
+		},
+		
+		{
+			groups = {
+				{group = "imperial_corvette_loot", chance = 2000000},
+				{group = "lok_track", chance = 500000},
+				{group = "veteran_rewards_360_days", chance = 1000000},
+				{group = "veteran_rewards_180_days", chance = 1000000},
+				{group = "veteran_rewards_900_days", chance = 500000},
+				{group = "armor_attachments", chance = 2000000},
+				{group = "clothing_attachments", chance = 2000000},
+				{group = "nge_houses_all", chance = 1000000}
+			},
 				lootChance = 2500000,
 		},
 		

@@ -429,6 +429,13 @@ void ResourceManagerImplementation::addPlanetsToListBox(SuiListBox* sui) {
 String ResourceManagerImplementation::getPlanetByIndex(int idx) {
 	return resourceSpawner->getPlanetByIndex(idx);
 }
+
+String ResourceManagerImplementation::ghDump() {
+	Locker locker(_this.getReferenceUnsafeStaticCast());
+
+	return resourceSpawner->ghDump();
+}
+
 String ResourceManagerImplementation::addParentNodeToListBox(SuiListBox* sui, const String& currentNode) {
 	return resourceSpawner->addParentNodeToListBox(sui, currentNode);
 }
