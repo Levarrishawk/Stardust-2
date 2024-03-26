@@ -97,6 +97,8 @@ class ResourceManager extends Observer implements Logger {
 	
 	public native string dumpResources();
 	
+	public native string ghDump();
+	
 	public native string despawnResource(string resourceName);
 	
 	public native void addPlanetsToListBox(SuiListBox sui);
@@ -106,6 +108,7 @@ class ResourceManager extends Observer implements Logger {
 	public ResourceSpawner getResourceSpawner() {
 		return resourceSpawner;
 	}
+
 
 	@dirty
 	public ZoneServer getZoneServer() {
