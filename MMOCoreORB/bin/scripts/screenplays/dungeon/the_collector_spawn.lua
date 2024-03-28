@@ -10,7 +10,36 @@ function the_collector_spawn:start()
 end
 
 function the_collector_spawn:spawnMobiles()
-	if getFormattedTime():find("Jan") ~= nil then
+	if getFormattedTime():find("Mar") ~= nil then
+		writeStringSharedMemory("the_collector_spawn", "jan_spawn" .. tostring(os.date('%Y')))
+	local spawn_int = math.random(1,3)
+	
+	if spawn_int == 1 then
+		local pBoss = spawnMobile("naboo", "the_collector", -1, -5849.6, -151.7, -88.7, -77, 37005000)
+		local creature = CreatureObject(pBoss)
+		createObserver(DAMAGERECEIVED, "the_collector_spawn", "npcDamageObserver", pBoss)    
+		createObserver(OBJECTDESTRUCTION, "the_collector_spawn", "bossDead", pBoss)
+		AiAgent(pBoss):addCreatureFlag(AI_STATIONARY)
+	end
+	
+	if spawn_int == 2 then
+		local pBoss = spawnMobile("naboo", "the_collector", -1, 5386.8, 9.1, 1467.8, -13, 37005000)
+		local creature = CreatureObject(pBoss)
+		createObserver(DAMAGERECEIVED, "the_collector_spawn", "npcDamageObserver", pBoss)    
+		createObserver(OBJECTDESTRUCTION, "the_collector_spawn", "bossDead", pBoss)
+		AiAgent(pBoss):addCreatureFlag(AI_STATIONARY)
+	end
+	
+	if spawn_int == 3 then
+		local pBoss = spawnMobile("naboo", "the_collector", -1, 4759.5, 13.8, -3898.6, 0, 37005000)
+		local creature = CreatureObject(pBoss)
+		createObserver(DAMAGERECEIVED, "the_collector_spawn", "npcDamageObserver", pBoss)    
+		createObserver(OBJECTDESTRUCTION, "the_collector_spawn", "bossDead", pBoss)
+		AiAgent(pBoss):addCreatureFlag(AI_STATIONARY)
+	end	
+  end
+  
+  if getFormattedTime():find("Apr") ~= nil then
 		writeStringSharedMemory("the_collector_spawn", "jan_spawn" .. tostring(os.date('%Y')))
 	local spawn_int = math.random(1,3)
 	
