@@ -34,8 +34,8 @@ rakata_fanatic_taskmaster = Creature:new {
 	secondaryWeapon = "",
 	conversationTemplate = "",
 	
-	primaryAttacks = merge(), -- Brawls/Swords.
-	secondaryAttacks = merge()
+	--primaryAttacks = merge(), -- Brawls/Swords.
+	--secondaryAttacks = merge()
 }
 
 CreatureTemplates:addCreatureTemplate(rakata_fanatic_taskmaster, "rakata_fanatic_taskmaster")

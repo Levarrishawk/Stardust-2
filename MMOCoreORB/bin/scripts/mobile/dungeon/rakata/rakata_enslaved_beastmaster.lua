@@ -34,8 +34,8 @@ rakata_enslaved_beastmaster = Creature:new {
 	secondaryWeapon = "",
 	conversationTemplate = "",
 	
-	primaryAttacks = merge(), -- Probably a mixup of random master brawl / fencer ?
-	secondaryAttacks = merge()
+	--primaryAttacks = merge(), -- Probably a mixup of random master brawl / fencer ?
+	--secondaryAttacks = merge()
 }
 
 CreatureTemplates:addCreatureTemplate(rakata_enslaved_beastmaster, "rakata_enslaved_beastmaster")

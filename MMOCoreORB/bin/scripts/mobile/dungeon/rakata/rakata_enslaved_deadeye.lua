@@ -34,8 +34,8 @@ rakata_enslaved_deadeye = Creature:new {
 	secondaryWeapon = "",
 	conversationTemplate = "",
 	
-	primaryAttacks = merge(), -- Probably Master Marks / Rifles.
-	secondaryAttacks = merge()
+	--primaryAttacks = merge(), -- Probably Master Marks / Rifles.
+	--secondaryAttacks = merge()
 }
 
 CreatureTemplates:addCreatureTemplate(rakata_enslaved_deadeye, "rakata_enslaved_deadeye")

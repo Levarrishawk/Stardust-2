@@ -1749,3 +1749,13 @@ includeFile("items/creature/ewok_tooth.lua")
 
 includeFile("items/furniture/xeno_desk.lua") 
 
+--Proff Rings
+includeFile("items/wearables/ring/ring_architecht.lua")
+includeFile("items/wearables/ring/ring_armor.lua")
+includeFile("items/wearables/ring/ring_carbine.lua")
+includeFile("items/wearables/ring/ring_chef.lua")
+includeFile("items/wearables/ring/ring_commando.lua")
+includeFile("items/wearables/ring/ring_defense.lua")
+includeFile("items/wearables/ring/ring_jedi_regen.lua")
+includeFile("items/wearables/ring/ring_medic_craft.lua")
+includeFile("items/wearables/ring/ring_medic_use.lua")

@@ -34,8 +34,8 @@ rakata_enslaved_brawler = Creature:new {
 	secondaryWeapon = "",
 	conversationTemplate = "",
 	
-	primaryAttacks = merge(), -- Brawls/Pikes.
-	secondaryAttacks = merge()
+	--primaryAttacks = merge(), -- Brawls/Pikes.
+	--secondaryAttacks = merge()
 }
 
 CreatureTemplates:addCreatureTemplate(rakata_enslaved_brawler, "rakata_enslaved_brawler")

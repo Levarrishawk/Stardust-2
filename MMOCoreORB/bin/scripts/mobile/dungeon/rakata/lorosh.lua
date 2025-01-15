@@ -33,8 +33,8 @@ lorosh = Creature:new {
 	secondaryWeapon = "",
 	conversationTemplate = "",
 	
-	primaryAttacks = merge(), -- Will decide when weapon is decided.
-	secondaryAttacks = merge()
+	--primaryAttacks = merge(), -- Will decide when weapon is decided.
+	--secondaryAttacks = merge()
 }
 
 CreatureTemplates:addCreatureTemplate(lorosh, "lorosh")
