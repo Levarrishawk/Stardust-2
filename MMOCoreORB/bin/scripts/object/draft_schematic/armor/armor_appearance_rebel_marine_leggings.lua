@@ -2,7 +2,7 @@ object_draft_schematic_armor_armor_appearance_rebel_marine_leggings = object_dra
 templateType = DRAFTSCHEMATIC,
 
    customObjectName = "Rebel Marine Armor Leggings",
-   factoryCrateSize = 0,
+   --factoryCrateSize = 0,
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
    complexity = 1,
    size = 4,
