@@ -6,7 +6,7 @@ templateType = DRAFTSCHEMATIC,
    craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
    complexity = 1,
    size = 4,
-   factoryCrateSize = 0,
+   --factoryCrateSize = 0,
    xpType = "crafting_clothing_armor",
    xp = 420,
 
