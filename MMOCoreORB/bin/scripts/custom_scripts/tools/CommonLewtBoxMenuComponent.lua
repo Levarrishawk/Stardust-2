@@ -29,8 +29,11 @@ function CommonLewtBoxMenuComponent:handleObjectMenuSelect(pSceneObject, pPlayer
     local LewtChest = getContainerObjectByTemplate(inventory, "object/tangible/loot/lewt_chests/lewt_chest_common.iff", false)
     
     if (inventory ~= nil) then
-            createLoot(inventory, "janta_common", 350, true)
-            createLoot(inventory, "kunga_common", 400, true)
+            createLoot(inventory, "common_lewt_box_01", 350, true)
+            createLoot(inventory, "common_lewt_box_01", 350, true)
+            createLoot(inventory, "common_lewt_box_01", 350, true)
+            createLoot(inventory, "common_lewt_box_01", 350, true)
+            createLoot(inventory, "common_lewt_box_01", 400, true)
         end
 
         CreatureObject(pPlayer):sendSystemMessage("Lewt Chest Opened.")

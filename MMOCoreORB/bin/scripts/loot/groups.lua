@@ -517,3 +517,7 @@ includeFile("groups/furniture/xeno_desk.lua")
 
 -- NGE Weapon Schematics
 includeFile("groups/schematic/weapon/nge_ranged_weapon_schematics.lua")
+
+-- Lewt Boxes
+includeFile("groups/custom/common_lewt_box_01.lua")
+includeFile("groups/custom/dant_common.lua")
