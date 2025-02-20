@@ -20,8 +20,8 @@ StardustGamblingLogic = ScreenPlay:new {
 		},
 		--Displayed Name, 
 		merchandise_gambling = { -- Displayed name, full template string (without the shared_), cost {} - follow same order as the currencies setup previously
-			{name = "Lewt Chest (Common)", template = "object/tangible/loot/lewt_chests/lewt_chest_common.iff", cost = {10, 0, 0, 0, 0, 0}}, --50
-			{name = "Lewt Chest (Rare)", template = "object/tangible/loot/lewt_chests/lewt_chest_rare.iff", cost = {25, 0, 0, 0, 0, 0}},  --100
+			{name = "Lewt Chest (Common)", template = "object/tangible/loot/lewt_chests/lewt_chest_common.iff", cost = {5, 0, 0, 0, 0, 0}}, --50
+			--{name = "Lewt Chest (Rare)", template = "object/tangible/loot/lewt_chests/lewt_chest_rare.iff", cost = {25, 0, 0, 0, 0, 0}},  --100
 		},
 }
 
