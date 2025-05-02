@@ -480,7 +480,7 @@ bool ResourceSpawner::ghDumpAll() {
 		}
 		ghwriter->writeLine("</SpawnOutput>");
 		ghwriter->close();
-
+		int runGHScript = system("python3 bin/scripts/managers/gh_push.py &");
 		delete ghwriter;
 
 		return true;
